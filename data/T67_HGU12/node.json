@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.763850225972,37.5238091483913],[-120.80028161474,37.5195066218297]]},"properties":{"prmname":"T67_HGU12","description":"Return flow from CVPM 11 Urban deliveries","type":"Diversion","origin":"T67Turlock","terminus":"HGU12","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

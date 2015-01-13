@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-116.174018449357,34.680415818533]},"properties":{"prmname":"EXT MR","description":"DAU 308-332 Exterior Res/Landscape Demand","type":"Urban Demand","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

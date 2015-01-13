@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.508579609707,38.4744229664258],[-121.516053952562,38.4366833735026]]},"properties":{"prmname":"C104_D44","description":"Sacramento River from Freeport to Elk Grove","type":"Diversion","origin":"C104","terminus":"D44","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

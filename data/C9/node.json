@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.225903385442,39.7827302406398]},"properties":{"prmname":"C9","description":"","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

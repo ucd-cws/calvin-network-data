@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.610133127913,34.5158427028433],[-118.53195593863,34.3928656306603]]},"properties":{"prmname":"D888_D889","description":"SWP West Branch (unconstrained)","type":"Diversion","origin":"D888","terminus":"D889","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

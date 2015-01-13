@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.694481734654,39.2886215770439],[-121.678385850506,39.3219682468551]]},"properties":{"prmname":"HGU5_GW-5","description":"Link from hidden node for calibration of GW-5","type":"Diversion","origin":"HGU5","terminus":"GW-5","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.585260594228,37.7968276008989]},"properties":{"prmname":"Tracy PMP","description":"Tracy Pumping Plant","type":"Pump Plant","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

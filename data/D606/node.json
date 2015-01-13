@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-120.160995753547,36.797947295329]},"properties":{"prmname":"D606","description":"San Joaquin River diversion to CVPM13","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-115.596923181264,33.1989387877457]},"properties":{"prmname":"C148","description":"Imperial System node - New River Inflow to Salton Sea","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

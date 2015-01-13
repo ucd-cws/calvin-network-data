@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.472710524852,38.0290410945032],[-121.504866824732,38.0492934869183]]},"properties":{"prmname":"D521_D522","description":"San Joaquin River Reach","type":"Diversion","origin":"D521","terminus":"D522","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-114.72658858529,33.4074217724923],[-114.472921466289,32.8762768142691]]},"properties":{"prmname":"C142_C143","description":"Colorado River","type":"Diversion","origin":"C142","terminus":"C143","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

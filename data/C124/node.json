@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-117.86537214369,34.4799752317087]},"properties":{"prmname":"C124","description":"East Branch SWP diversion to GW-MJ - Morongo & Mojave Pipelines","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

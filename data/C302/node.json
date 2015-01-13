@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.192868244932,39.3779903082271]},"properties":{"prmname":"C302","description":"Diversion to Sacramento West Refuges","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-115.283178562682,32.6963649788394],[-115.459403055922,33.012149917051]]},"properties":{"prmname":"C152_T57","description":"All American Canal diversion to El Centro","type":"Diversion","origin":"C152","terminus":"T57ECEN","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

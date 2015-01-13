@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.890057148465,33.1253272760922],[-116.654022339866,33.0562684285393]]},"properties":{"prmname":"HWWT8_T30","description":"Expanded wastewater recycling facility","type":"Diversion","origin":"HWWT8","terminus":"T30SDMWD","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

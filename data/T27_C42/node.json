@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.139396298091,38.0576188365164],[-121.369202744358,37.9679856298384]]},"properties":{"prmname":"T27_C42","description":"SW Discharge to San Joaquin R","type":"Diversion","origin":"T27STOC","terminus":"C42","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

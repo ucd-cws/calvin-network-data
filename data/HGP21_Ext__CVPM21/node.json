@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.122770311639,35.27075945587],[-118.972420626594,35.1066432757423]]},"properties":{"prmname":"HGP21_Ext: CVPM21","description":"Urban pumping from GW-21 exterior","type":"Diversion","origin":"HGP21","terminus":"EXT CVPM21","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

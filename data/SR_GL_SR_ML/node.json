@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.102980082243,37.8619282082867],[-119.136983210716,37.9789246795842]]},"properties":{"prmname":"SR-GL_SR-ML","description":"Mono Lake Delivery","type":"Diversion","origin":"SR-GL","terminus":"SR-ML","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

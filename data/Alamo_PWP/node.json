@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-118.695923447306,34.8199779632425]},"properties":{"prmname":"Alamo PWP","description":"East Branch SWP Power Plant","type":"Power Plant","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

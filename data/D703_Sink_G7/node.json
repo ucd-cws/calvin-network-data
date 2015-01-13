@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.301024735856,37.5854870633047],[-120.371459148517,37.6907930010921]]},"properties":{"prmname":"D703_Sink G7","description":"Upper Delta Mendota Canal losses","type":"Diversion","origin":"D703","terminus":"SinkG7","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.218374718958,38.6367717571323],[-121.419726710429,38.5624279890464]]},"properties":{"prmname":"D85_D64","description":"American River d/s of Nimbus Dam Reach 2","type":"Diversion","origin":"D85","terminus":"D64","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

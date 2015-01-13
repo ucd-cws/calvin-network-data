@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-119.113180568819,35.6220259850101]},"properties":{"prmname":"EXT CVPM20","description":"100% of DAU 256 & 257; includes cities of Delano and Wasco, exterior","type":"Urban Demand","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.122770311639,35.27075945587],[-119.134545111916,35.2909192932068]]},"properties":{"prmname":"HGP21_T28","description":"GW-21 pumping to Bakersfield","type":"Diversion","origin":"HGP21","terminus":"T28BAKE","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

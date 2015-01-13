@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.097476786038,38.3760243846107]},"properties":{"prmname":"HGU8","description":"Hidden node for calibration of GW-8","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

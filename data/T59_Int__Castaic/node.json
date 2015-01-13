@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.499962464575,34.5325489788068],[-118.499962464575,34.5325489788068]]},"properties":{"prmname":"T59_Int: Castaic","description":"Total Urban Penalty Function","type":"Diversion","origin":"T59CLWA","terminus":"INT CLWA","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

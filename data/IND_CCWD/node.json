@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.813930014212,37.8487546749383]},"properties":{"prmname":"IND CCWD","description":"Part of DAU 46 and all of 192","type":"Urban Demand","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

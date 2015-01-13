@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.260243121692,39.4386797355433]},"properties":{"prmname":"HGP3","description":"Hidden node for calibration of GW-3","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

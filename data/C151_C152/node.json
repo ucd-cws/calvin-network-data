@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-115.121056370773,32.705015200267],[-115.283178562682,32.6963649788394]]},"properties":{"prmname":"C151_C152","description":"Latter end of IID canal","type":"Diversion","origin":"C151","terminus":"C152","amplitude":0.935,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

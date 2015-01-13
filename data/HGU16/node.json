@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-119.813289789327,36.7758209825656]},"properties":{"prmname":"HGU16","description":"Hidden node for calibration of GW-16","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

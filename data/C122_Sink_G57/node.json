@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.205369010415,36.9769391305929],[-117.288234276798,35.8878011690702]]},"properties":{"prmname":"C122_Sink G57","description":"LAA losses","type":"Diversion","origin":"C122","terminus":"Sink G57","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

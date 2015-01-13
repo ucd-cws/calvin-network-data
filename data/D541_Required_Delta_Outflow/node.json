@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.500657508782,38.1180525987915],[-121.927176343086,38.050185579645]]},"properties":{"prmname":"D541_Required Delta Outflow","description":"Required Delta Outflow","type":"Diversion","origin":"D541","terminus":"Req Delta","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

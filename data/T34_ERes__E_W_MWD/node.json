@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.589555655491,34.1284683475226],[-117.11200458163,33.7176796323232]]},"properties":{"prmname":"T34_ERes: E&W MWD","description":"inflows to E&W exterior","type":"Diversion","origin":"HXEWMWD","terminus":"ERES EWMWD","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

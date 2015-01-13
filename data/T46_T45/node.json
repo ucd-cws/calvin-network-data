@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.922433506324,37.7329477412083],[-120.922433506324,37.7329477412083]]},"properties":{"prmname":"T46_T45","description":"CVPM11 Urban recycling","type":"Diversion","origin":"T46Modest","terminus":"T45MODEST","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

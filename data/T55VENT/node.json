@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-119.041222087827,34.4263093127776]},"properties":{"prmname":"T55VENT","description":"Water Treatment node to Ventura Co","type":"Water Treatment","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

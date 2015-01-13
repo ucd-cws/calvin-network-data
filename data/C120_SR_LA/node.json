@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.04170641,35.3827521620684],[-117.948912057477,36.1369418176802]]},"properties":{"prmname":"C120_SR-LA","description":"LA Aqueduct","type":"Diversion","origin":"C120","terminus":"SR-LA","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

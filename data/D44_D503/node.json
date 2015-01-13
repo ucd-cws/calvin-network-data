@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.516053952562,38.4366833735026],[-121.467149257076,38.5031798726811]]},"properties":{"prmname":"D44_D503","description":"Sacramento River Reach","type":"Diversion","origin":"D44","terminus":"D503","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

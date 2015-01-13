@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-115.788359128639,33.079081808341]},"properties":{"prmname":"HUDIM","description":"Hidden node for Imperial Ag","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

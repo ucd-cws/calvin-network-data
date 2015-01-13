@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.521177077638,34.8263208621164],[-120.556214243811,35.1875078710097]]},"properties":{"prmname":"D848_D849","description":"Coastal Aqueduct","type":"Diversion","origin":"D848","terminus":"D849","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

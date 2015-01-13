@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.119708741967,33.5852763100808],[-117.230301322366,33.7408001932764]]},"properties":{"prmname":"C154_HUDEW","description":"Ag demand to E&W MWD","type":"Diversion","origin":"C154","terminus":"HUDEW","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

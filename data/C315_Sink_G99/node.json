@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.830015855307,37.300983718949],[-122.156716003837,37.7975846038153]]},"properties":{"prmname":"C315_Sink G99","description":"Santa Clara local supply spills","type":"Diversion","origin":"C315","terminus":"SinkG99","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

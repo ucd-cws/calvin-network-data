@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-115.427885446697,32.8927750823952],[-115.283178562682,32.6963649788394]]},"properties":{"prmname":"GW-IM_C152","description":"GW-IM Ag Pumping","type":"Diversion","origin":"GW-IM","terminus":"C152","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

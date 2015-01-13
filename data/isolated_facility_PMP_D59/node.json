@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.68455903683,38.1594354049456],[-121.552948076786,37.8314999102717]]},"properties":{"prmname":"isolated facility PMP_D59","description":"Isolated Facility","type":"Diversion","origin":"ISOL F PMP","terminus":"D59","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

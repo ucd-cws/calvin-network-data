@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.057438909704,34.4519538850142],[-119.041222087827,34.4263093127776]]},"properties":{"prmname":"HUDVC_AgS: Ventura","description":"Ventura Agricultural demand","type":"Diversion","origin":"HUDVC","terminus":"AGS VENT","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

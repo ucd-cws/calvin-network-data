@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.463028974626,37.6669321206054],[-120.371459148517,37.6907930010921]]},"properties":{"prmname":"D664_Sink G18","description":"Depletion: Tuolumne River","type":"Diversion","origin":"D664","terminus":"SinkG18","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

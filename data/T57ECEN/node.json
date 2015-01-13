@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-115.459403055922,33.012149917051]},"properties":{"prmname":"T57ECEN","description":"Urban water treatment node for El Centro","type":"Water Treatment","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

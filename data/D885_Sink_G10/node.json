@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.798984941433,34.7398982396017],[-117.688204369656,33.7992227312183]]},"properties":{"prmname":"D885_Sink G10","description":"West Branch SWP Losses","type":"Diversion","origin":"D885","terminus":"Sink G10","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

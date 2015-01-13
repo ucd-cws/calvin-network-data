@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.368323378774,35.3071759994994],[-119.528428850788,35.5755341942779]]},"properties":{"prmname":"C95_HSURC95","description":"CA AQ diversion to KernNWR","type":"Diversion","origin":"C95","terminus":"HSURC95","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

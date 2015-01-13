@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.503073985295,36.5792993461957],[-118.562464490626,35.4128934991933]]},"properties":{"prmname":"Int: CVPM17_HGU17","description":"Return flow urban CVPM17","type":"Diversion","origin":"INT CVPM17","terminus":"HGU17","amplitude":0.47,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

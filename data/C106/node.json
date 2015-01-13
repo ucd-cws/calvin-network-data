@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-118.785092667194,34.4009839912753]},"properties":{"prmname":"C106","description":"West Branch SWP diversion to Ventura Co.","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

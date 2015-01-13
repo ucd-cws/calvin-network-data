@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.205369010415,36.9769391305929],[-118.420343339788,34.7057815093548]]},"properties":{"prmname":"C122_C161","description":"LAA Delivery to Central MWD","type":"Diversion","origin":"C122","terminus":"C161","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

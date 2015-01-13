@@ -1,0 +1,1 @@
+{"constraint_type":"Bounded","lower":{"bound_type":"Constant","bound":4},"upper":{"bound_type":"TimeSeries","date":{"$ref":"constraints_upper_date.json"},"bound":{"$ref":"constraints_upper_bound.json"}}}

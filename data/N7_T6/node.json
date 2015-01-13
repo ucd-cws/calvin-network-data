@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.696997482168,34.6899949269352],[-117.048427574224,36.0004773633476]]},"properties":{"prmname":"N7_T6","description":"SWP Deliveries to Antelope Valley","type":"Diversion","origin":"N7","terminus":"T6AV","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

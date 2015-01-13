@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.195827094877,40.3749377459229],[-122.188465579291,40.2609839955582]]},"properties":{"prmname":"C5_C87","description":"Sacramento River","type":"Diversion","origin":"C5","terminus":"C87","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

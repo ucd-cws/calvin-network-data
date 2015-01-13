@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.313920559084,38.7961893607788],[-120.947631505286,38.7951403712714]]},"properties":{"prmname":"HGP7_T4","description":"GW-7 to Sacramento","type":"Diversion","origin":"HGP7","terminus":"T4SAC","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.394330757055,38.7745413618423]},"properties":{"prmname":"CVPM7","description":"CVPM7 Agricultural Demand","type":"Agricultural Demand","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

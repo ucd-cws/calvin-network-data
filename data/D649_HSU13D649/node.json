@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.634116560741,37.4440370251295],[-120.43287147773,37.0450070182845]]},"properties":{"prmname":"D649_HSU13D649","description":"surface delivery CVPM 13","type":"Diversion","origin":"D649","terminus":"HSU13D649","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

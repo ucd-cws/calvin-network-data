@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.253028388345,35.5726800739739],[-119.113180568819,35.6220259850101]]},"properties":{"prmname":"HGP20_T53","description":"M&I pumping for CVPM 20","type":"Diversion","origin":"HGP20","terminus":"T53DELANO","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

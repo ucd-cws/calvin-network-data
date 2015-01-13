@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-119.55086555451,36.4146901361544]},"properties":{"prmname":"HSU17C76","description":"Hidden node on surface water conveyance channel","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

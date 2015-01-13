@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-117.862728451475,34.0343816478517]},"properties":{"prmname":"T5CMWD","description":"Central MWD IN","type":"Water Treatment","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

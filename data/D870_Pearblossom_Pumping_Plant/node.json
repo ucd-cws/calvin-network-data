@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.18011390964,34.5756413928279],[-117.921548602379,34.5124354552359]]},"properties":{"prmname":"D870_Pearblossom Pumping Plant","description":"SWP East Branch Pumping P","type":"Diversion","origin":"D870","terminus":"PB PMP","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

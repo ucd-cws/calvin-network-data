@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-114.721386481069,33.61355160508]},"properties":{"prmname":"AGS PV","description":"Palo Verde Ag supplied by surface water","type":"Agricultural Demand","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

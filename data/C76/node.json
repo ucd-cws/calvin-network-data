@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-119.305256416187,36.6221627581003]},"properties":{"prmname":"C76","description":"Friant-Kern Canal delivery to CVPM-17 and CVPM-18","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

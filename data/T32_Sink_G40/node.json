@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.141170154743,34.6733060911038],[-117.288234276798,35.8878011690702]]},"properties":{"prmname":"T32_Sink G40","description":"SW Discharge to evap","type":"Diversion","origin":"T32MOJA","terminus":"Sink G40","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

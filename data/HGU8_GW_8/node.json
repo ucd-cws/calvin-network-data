@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.097476786038,38.3760243846107],[-121.105575624844,38.1916268450002]]},"properties":{"prmname":"HGU8_GW-8","description":"Link from hidden node for calibration of GW-8","type":"Diversion","origin":"HGU8","terminus":"GW-8","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

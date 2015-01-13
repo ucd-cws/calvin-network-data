@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.906210736424,38.0107002174442]},"properties":{"prmname":"C71","description":"Mallard Slough inflow to Contra Costa Urban","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

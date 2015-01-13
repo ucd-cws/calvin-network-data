@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.419726710429,38.5624279890464],[-120.947631505286,38.7951403712714]]},"properties":{"prmname":"D64_T4","description":"American River diversion to city of Sacramento","type":"Diversion","origin":"D64","terminus":"T4SAC","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

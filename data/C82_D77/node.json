@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.995091139006,39.7518820749582],[-122.203106257608,40.1528779453141]]},"properties":{"prmname":"C82_D77","description":"Inflow to Sacramento River from DA10 and DA66","type":"Diversion","origin":"C82","terminus":"D77","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.041222087827,34.4263093127776],[-117.688204369656,33.7992227312183]]},"properties":{"prmname":"Ind: Ventura_Sink G30","description":"Return Flow","type":"Diversion","origin":"IND:VENT","terminus":"Sink G30","amplitude":0.4,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.800178479678,35.3134991505003],[-120.706070535435,35.7074505158318]]},"properties":{"prmname":"T72_Sink SB-SLO","description":"SB-SLO outflow to ocean","type":"Diversion","origin":"T72","terminus":"Sink SB-SL","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

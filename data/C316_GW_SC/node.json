@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.000981878015,37.6804372426509],[-120.93160778519,36.3998583054072]]},"properties":{"prmname":"C316_GW-SC","description":"GW-SC Artificial Recharge","type":"Diversion","origin":"C316","terminus":"GW-SC","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

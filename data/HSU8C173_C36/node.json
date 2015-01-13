@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.323108136238,38.6126246533577],[-120.890157588306,38.1042547720442]]},"properties":{"prmname":"HSU8C173_C36","description":"Folsom South Canal diversion to CVPM8","type":"Diversion","origin":"HSU8C173","terminus":"C36","amplitude":0.88,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.99112852313,37.5351336180286],[-122.322156992625,37.6120482557109]]},"properties":{"prmname":"C79_T20","description":"Crystal Springs Bypass Tunnel","type":"Diversion","origin":"C79","terminus":"T20SFPU","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

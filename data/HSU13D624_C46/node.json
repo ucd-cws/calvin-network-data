@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.337620372351,37.2192526934438],[-120.326742505246,37.1334959775544]]},"properties":{"prmname":"HSU13D624_C46","description":"Fresno River diversions to CVPM13","type":"Diversion","origin":"HSU13D624","terminus":"C46","amplitude":0.82,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

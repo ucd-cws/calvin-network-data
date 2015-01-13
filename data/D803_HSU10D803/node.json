@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.229926257192,37.5169363009791],[-120.924441709113,37.0307145763361]]},"properties":{"prmname":"D803_HSU10D803","description":"surface delivery CVPM 10","type":"Diversion","origin":"D803","terminus":"HSU10D803","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

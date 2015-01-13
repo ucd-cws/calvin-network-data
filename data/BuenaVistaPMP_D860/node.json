@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.344947757505,35.1589663197888],[-119.332074453145,35.0904842029488]]},"properties":{"prmname":"BuenaVistaPMP_D860","description":"California Aqueduct Pumping Plant","type":"Diversion","origin":"BuenaPMP","terminus":"D860","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

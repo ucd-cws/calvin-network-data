@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-117.335519078953,34.2073394275545]},"properties":{"prmname":"Devils PWP","description":"East Branch SWP Power Plant","type":"Power Plant","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

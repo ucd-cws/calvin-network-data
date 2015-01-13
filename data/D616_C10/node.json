@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.268051386635,37.6669296669134],[-120.377382537366,36.8104873839673]]},"properties":{"prmname":"D616_C10","description":"San Joaquin River riparian diversions","type":"Diversion","origin":"D616","terminus":"C10","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.072919150696,37.9274011480621]},"properties":{"prmname":"WalCk PMP","description":"Walnut Creek Pumping Plant","type":"Pump Plant","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

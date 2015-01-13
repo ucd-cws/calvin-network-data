@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.843490096717,38.8700328356206],[-120.947631505286,38.7951403712714]]},"properties":{"prmname":"Int: Sacramento_T13","description":"Interior Res Return Flow","type":"Diversion","origin":"INT SAC","terminus":"T13SAC","amplitude":0.9,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

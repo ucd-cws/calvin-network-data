@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.556214243811,35.1875078710097],[-120.671845272944,35.2808776368964]]},"properties":{"prmname":"D849_T71","description":"SWP Coastal Branch supply to SB-SLO","type":"Diversion","origin":"D849","terminus":"T71","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

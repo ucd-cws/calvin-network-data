@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-115.121056370773,32.705015200267]},"properties":{"prmname":"C151","description":"All Amercian Canal diversion to artificial recharge for GW-IM","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.825584928334,36.0517393406691],[-119.752990328413,36.0649573412091]]},"properties":{"prmname":"C59_SR-TLB","description":"Flood flow to Tulare Lake Bed","type":"Diversion","origin":"C59","terminus":"SR-TLB","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

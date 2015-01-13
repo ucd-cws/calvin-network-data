@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.007298732296,37.1999454997418],[-120.471315195428,37.0954489969141]]},"properties":{"prmname":"D634_C47","description":"Chowchilla River Reach","type":"Diversion","origin":"D634","terminus":"C47","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

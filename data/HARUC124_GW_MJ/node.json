@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.865434068583,34.6221544156825],[-117.125598383568,34.686885942377]]},"properties":{"prmname":"HARUC124_GW-MJ","description":"Artificial recharge","type":"Diversion","origin":"HARUC124","terminus":"GW-MJ","amplitude":0.95,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

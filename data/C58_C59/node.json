@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.93813130027,36.0399514857734],[-119.825584928334,36.0517393406691]]},"properties":{"prmname":"C58_C59","description":"Tule River flood flow to Tulare Lake Reach 3","type":"Diversion","origin":"C58","terminus":"C59","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

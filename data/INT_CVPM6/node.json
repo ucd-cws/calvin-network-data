@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.050181467941,38.4240202324968]},"properties":{"prmname":"INT CVPM6","description":"100% of DAU 162, 9% of DAU 191, 40 & 41, interior","type":"Urban Demand","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

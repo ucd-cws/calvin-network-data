@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.11200458163,33.7176796323232],[-117.589555655491,34.1284683475226]]},"properties":{"prmname":"T34_HXEWMWD","description":"link to eres: e&w mwd","type":"Diversion","origin":"T34EMWD","terminus":"HXEWMWD","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.620335315972,35.5061994937699],[-119.626043414607,35.5166282008134]]},"properties":{"prmname":"GW-19_HGP19","description":"Hidden GW pumping calibration link","type":"Diversion","origin":"GW-19","terminus":"HGP19","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

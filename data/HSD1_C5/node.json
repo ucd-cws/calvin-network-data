@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.362535142639,40.4665538312452],[-122.195827094877,40.3749377459229]]},"properties":{"prmname":"HSD1_C5","description":"Hidden surface water return flow calibration link","type":"Return Flow","origin":"CVPM1","terminus":"C5","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

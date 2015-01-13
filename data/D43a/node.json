@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.902082556755,39.1708913731973]},"properties":{"prmname":"D43a","description":"Temporary until Reg1 and 2 are linked as this is DA14 inflow to Feather at Sac","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

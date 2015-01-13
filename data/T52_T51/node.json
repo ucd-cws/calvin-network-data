@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.278875542828,36.1239534380381],[-119.278875542828,36.1239534380381]]},"properties":{"prmname":"T52_T51","description":"CVPM 18 Urban recycling","type":"Diversion","origin":"T52VISALIA","terminus":"T51VISALIA","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.245406215509,38.9578925550485],[-121.648569390486,39.3072200208234]]},"properties":{"prmname":"HGP5_T61","description":"Diversions to Butte/Plumas/Yuba urban areas","type":"Diversion","origin":"HGP5","terminus":"T61YUBA","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

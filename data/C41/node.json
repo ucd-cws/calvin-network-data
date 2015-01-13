@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.011119150898,38.0547818694116]},"properties":{"prmname":"C41","description":"California Aqueductla. River Diversion to CVPM8","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-115.123341142446,34.1496915887598]},"properties":{"prmname":"Iron PMP","description":"Formerly part of Colorado Pumping Plant - first pumping station along CRA","type":"Pump Plant","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.980478841791,35.0172573387117],[-118.911872266282,34.964900717331]]},"properties":{"prmname":"ChrismanPMP_D862B","description":"California Aqueduct Pumping Plant","type":"Diversion","origin":"ChrismPMP","terminus":"D862B","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

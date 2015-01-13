@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.324433073939,33.7410553044559],[-116.253569495654,33.7459538834681]]},"properties":{"prmname":"GW-CH_T31","description":"GW-CH Urban Pumping","type":"Diversion","origin":"GW-CH","terminus":"T31COAC","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.187346354897,39.2606714671897],[-122.17194054037,39.2705951727051]]},"properties":{"prmname":"Ext: CVPM3_HGU3","description":"return flows from CVPM3 exterior","type":"Diversion","origin":"EXT CVPM3","terminus":"HGU3","amplitude":0.001,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

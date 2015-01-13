@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.889590176609,37.0974473418758],[-119.889590176609,37.0974473418758]]},"properties":{"prmname":"D622_D624","description":"Fresno River Reach","type":"Diversion","origin":"D622","terminus":"D624","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.321487789062,37.1313881427344],[-120.321487789062,37.1313881427344]]},"properties":{"prmname":"T48_T47","description":"Water Recycling","type":"Diversion","origin":"T48Merced","terminus":"T47Merced","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

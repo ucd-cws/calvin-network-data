@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-114.943411505237,32.713952045423],[-116.277885226953,33.6340042310659]]},"properties":{"prmname":"C149_C147","description":"Unlined Coachella Canal","type":"Diversion","origin":"C149","terminus":"C147","amplitude":0.84,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

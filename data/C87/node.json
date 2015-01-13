@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.188465579291,40.2609839955582]},"properties":{"prmname":"C87","description":"Sacramento River, confluence with Paynes Creek","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-119.503073985295,36.5792993461957]},"properties":{"prmname":"INT CVPM17","description":"100% of DAU 236, 239 & 240; includes cities of Sanger, Selma, Reedley, and Dinuba, interior","type":"Urban Demand","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

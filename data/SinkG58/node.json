@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-120.371459148517,37.6907930010921]},"properties":{"prmname":"SinkG58","description":"Depletion San Joaquin River Stanislaus to Calaveras","type":"Sink","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

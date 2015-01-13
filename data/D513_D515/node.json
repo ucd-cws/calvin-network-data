@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.492447568231,38.2287343219049],[-121.500657508782,38.1180525987915]]},"properties":{"prmname":"D513_D515","description":"Delta - ? (Georgiana Slough?)","type":"Diversion","origin":"D513","terminus":"D515","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

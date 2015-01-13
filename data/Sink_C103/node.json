@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-119.25688829045,36.0603446135928]},"properties":{"prmname":"Sink C103","description":"California Aqueduct Boundary to Region 5","type":"Sink","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

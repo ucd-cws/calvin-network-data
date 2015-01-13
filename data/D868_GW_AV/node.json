@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.309070159834,34.6555784453804],[-118.095503144919,34.8044354111839]]},"properties":{"prmname":"D868_GW-AV","description":"GW-AV Artificial Recharge","type":"Diversion","origin":"D868","terminus":"GW-AV","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

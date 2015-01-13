@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-119.843124733344,36.2765886623304]},"properties":{"prmname":"EXT CVPM15","description":"100% of DAU 238, 235, 237, 241, & 246, exterior","type":"Urban Demand","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

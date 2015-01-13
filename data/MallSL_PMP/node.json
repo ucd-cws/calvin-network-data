@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.929048939727,38.0373244727964]},"properties":{"prmname":"MallSL PMP","description":"Mallard Slough Pumping Plant","type":"Pump Plant","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.241732153618,37.6600698326356],[-121.241992146697,37.6638062888607]]},"properties":{"prmname":"D612_D676","description":"San Joaquin River Reach","type":"Diversion","origin":"D612","terminus":"D676","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

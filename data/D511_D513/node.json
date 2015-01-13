@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.511891669423,38.2485603525163],[-121.492447568231,38.2287343219049]]},"properties":{"prmname":"D511_D513","description":"Sacramento River div. To Delta Cross Channel","type":"Diversion","origin":"D511","terminus":"D513","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

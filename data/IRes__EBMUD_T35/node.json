@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.117807583529,37.8150169196961],[-122.164737448427,37.762855076232]]},"properties":{"prmname":"IRes: EBMUD_T35","description":"EBMUD Res Return flow TOTAL","type":"Diversion","origin":"IRES EBMUD","terminus":"T35EBMU","amplitude":0.9,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

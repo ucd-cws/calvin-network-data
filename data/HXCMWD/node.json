@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-117.855308844616,34.2384287163205]},"properties":{"prmname":"HXCMWD","description":"Hidden node for year type variation in demand, central mwd","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

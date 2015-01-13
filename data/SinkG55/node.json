@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.55711226186,39.9487984429982]},"properties":{"prmname":"SinkG55","description":"California Aqueduct losses R5","type":"Sink","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.290860179691,36.2877405135766],[-119.480781795772,36.3119266341377]]},"properties":{"prmname":"CN4_Sink CN","description":"Outflow for Sink Flows","type":"Diversion","origin":"CN4","terminus":"Sink CN","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.935039447563,37.5499652274861],[-121.99112852313,37.5351336180286]]},"properties":{"prmname":"C78_C79","description":"Hetch-Hetchy Aqueduct","type":"Diversion","origin":"C78","terminus":"C79","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

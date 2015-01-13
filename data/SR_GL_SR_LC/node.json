@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.102980082243,37.8619282082867],[-118.707959959046,37.6039321575297]]},"properties":{"prmname":"SR-GL_SR-LC","description":"Mono Craters Tunnel","type":"Diversion","origin":"SR-GL","terminus":"SR-LC","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

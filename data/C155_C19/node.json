@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.082082529602,38.5149071023428],[-122.005747685832,38.4947384666054]]},"properties":{"prmname":"C155_C19","description":"Putah Creek DA24 outflow","type":"Diversion","origin":"C155","terminus":"C19","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

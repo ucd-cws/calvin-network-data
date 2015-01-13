@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-120.947631505286,38.7951403712714]},"properties":{"prmname":"T13SAC","description":"Sacramento OUT","type":"Water Treatment","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

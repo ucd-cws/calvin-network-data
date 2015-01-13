@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.503073985295,36.5792993461957],[-119.830968814272,36.3416503659485]]},"properties":{"prmname":"T50_C52","description":"SW only return flow from CVPM urban deliveries","type":"Diversion","origin":"T50SANGER","terminus":"C52","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

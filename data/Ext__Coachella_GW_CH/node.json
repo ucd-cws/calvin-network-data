@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.253569495654,33.7459538834681],[-116.324433073939,33.7410553044559]]},"properties":{"prmname":"Ext: Coachella_GW-CH","description":"Return flows from coachella","type":"Diversion","origin":"EXT COACH","terminus":"GW-CH","amplitude":0.1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

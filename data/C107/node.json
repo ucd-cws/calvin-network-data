@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.245071938254,38.4856058846789]},"properties":{"prmname":"C107","description":"Folsom South Canal Extension from the Freeport Project","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

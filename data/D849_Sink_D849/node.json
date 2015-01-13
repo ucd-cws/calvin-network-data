@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.556214243811,35.1875078710097],[-120.706070535435,35.7074505158318]]},"properties":{"prmname":"D849_Sink D849","description":"Coastal Aqueduct Overflow","type":"Diversion","origin":"D849","terminus":"Sink D849","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

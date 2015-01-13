@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.45202652952,37.5019364803428],[-120.371459148517,37.6907930010921]]},"properties":{"prmname":"D647_Sink G104","description":"Depletion: lower Merced River","type":"Diversion","origin":"D647","terminus":"SinkG104","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

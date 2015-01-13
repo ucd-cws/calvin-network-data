@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.862728451475,34.0343816478517],[-117.862728451475,34.0343816478517]]},"properties":{"prmname":"T5_Ind: Central MWD","description":"Ind Urban Penalty Function","type":"Diversion","origin":"T5CMWD","terminus":"Ind: CMWD","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

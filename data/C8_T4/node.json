@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.50506664477,38.5889050089165],[-120.947631505286,38.7951403712714]]},"properties":{"prmname":"C8_T4","description":"Sacramento River diversion to City of Sacramento","type":"Diversion","origin":"C8","terminus":"T4SAC","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

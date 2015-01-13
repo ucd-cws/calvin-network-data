@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-114.156781267914,34.3170145260656],[-114.158659731713,34.3166242097586]]},"properties":{"prmname":"SR-CR3_C134","description":"Colorado River (unconstrained)","type":"Diversion","origin":"SR-CR3","terminus":"C134","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

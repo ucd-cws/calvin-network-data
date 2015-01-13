@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.995091139006,39.7518820749582],[-121.55711226186,39.9487984429982]]},"properties":{"prmname":"D76a_Sink D76a","description":"DA 10 local depletion","type":"Diversion","origin":"D76a","terminus":"Sink D76a","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

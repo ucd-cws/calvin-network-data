@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.113180568819,35.6220259850101],[-119.113180568819,35.6220259850101]]},"properties":{"prmname":"T53_Ext: CVPM20","description":"diversion to CVPM20 exterior","type":"Diversion","origin":"T53DELANO","terminus":"EXT CVPM20","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

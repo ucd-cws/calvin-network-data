@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.095503144919,34.8044354111839],[-117.048427574224,36.0004773633476]]},"properties":{"prmname":"GW-AV_T6","description":"GW-AV Urban Pumping","type":"Diversion","origin":"GW-AV","terminus":"T6AV","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

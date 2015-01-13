@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.667791630601,35.5589665690882],[-119.624591658587,35.6025468292612]]},"properties":{"prmname":"D850_HSU19D850","description":"Surface delivery CVPM 19","type":"Diversion","origin":"D850","terminus":"HSU19D850","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.125598383568,34.686885942377],[-116.141170154743,34.6733060911038]]},"properties":{"prmname":"GW-MJ_T3","description":"GW-MJ Urban Pumping","type":"Diversion","origin":"GW-MJ","terminus":"T3MOJA","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

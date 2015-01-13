@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.011119150898,38.0547818694116],[-121.369202744358,37.9679856298384]]},"properties":{"prmname":"C41_C42","description":"Calaveras R Reach","type":"Diversion","origin":"C41","terminus":"C42","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

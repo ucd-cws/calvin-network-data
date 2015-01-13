@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.671845272944,35.2808776368964],[-120.171511637999,34.8039696600582]]},"properties":{"prmname":"T71_Int:SB-SLO","description":"Total Urban Interior Penalty Function","type":"Diversion","origin":"T71","terminus":"INT SB-SLO","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

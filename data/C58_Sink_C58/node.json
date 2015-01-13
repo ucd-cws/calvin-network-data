@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.93813130027,36.0399514857734],[-119.25688829045,36.0603446135928]]},"properties":{"prmname":"C58_Sink C58","description":"Depletion from Tule River","type":"Diversion","origin":"C58","terminus":"Sink C58","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

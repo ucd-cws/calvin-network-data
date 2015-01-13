@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-115.62741914136,33.6915722489315],[-115.777126416378,33.649002590406]]},"properties":{"prmname":"C321_GW-HF","description":"Artificial recharge in Hayfield (losses)\r\n","type":"Diversion","origin":"C321","terminus":"GW-HF","amplitude":0.95,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

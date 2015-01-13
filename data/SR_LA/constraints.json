@@ -1,0 +1,1 @@
+{"constraint_type":"Bounded","lower":{"bound_type":"Constant","bound":10.2},"upper":{"bound_type":"Constant","bound":102.5}}

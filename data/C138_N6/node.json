@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.046669019684,33.715050468208],[-117.070979160954,33.6842875982447]]},"properties":{"prmname":"C138_N6","description":"San Diego Canal","type":"Diversion","origin":"C138","terminus":"N6","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

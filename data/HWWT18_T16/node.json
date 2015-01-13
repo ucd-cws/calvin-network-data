@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.862282498593,37.861111705391],[-121.813930014212,37.8487546749383]]},"properties":{"prmname":"HWWT18_T16","description":"Proposed wastewater recycling for CCWD","type":"Diversion","origin":"HWWT18","terminus":"T16CCWD","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

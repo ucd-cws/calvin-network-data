@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.18422603999,38.5108469206665],[-121.139396298091,38.0576188365164]]},"properties":{"prmname":"HGP8_T26","description":"GW-8 to Stockton Urban","type":"Diversion","origin":"HGP8","terminus":"T26STOC","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

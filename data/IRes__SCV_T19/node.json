@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.853310799011,37.4611360693018],[-121.736275946117,37.3469076116457]]},"properties":{"prmname":"IRes: SCV_T19","description":"Interior urban Res Return Flow Total","type":"Diversion","origin":"IRES SCV","terminus":"T19SCV","amplitude":0.9,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.274070072574,39.2348930147627],[-121.268069997047,39.2388930152309]]},"properties":{"prmname":"C27_SR-EL","description":"Yuba River inflow to Englebright Lake","type":"Diversion","origin":"C27","terminus":"SR-EL","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-115.562354571647,33.8813022108897]},"properties":{"prmname":"Sink G46","description":"EL CENTRO ET AL outflow","type":"Sink","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

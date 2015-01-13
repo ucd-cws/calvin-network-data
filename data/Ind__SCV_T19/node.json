@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.853310799011,37.4611360693018],[-121.736275946117,37.3469076116457]]},"properties":{"prmname":"Ind: SCV_T19","description":"Ind Return Flow Total","type":"Diversion","origin":"Ind:SCV","terminus":"T19SCV","amplitude":0.4,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

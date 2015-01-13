@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-117.616596037796,34.3086615700726]},"properties":{"prmname":"HWWT9","description":"Hidden node for exapanded wastewater recycling for SBV","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

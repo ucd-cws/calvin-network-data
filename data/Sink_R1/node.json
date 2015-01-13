@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-123.095221278134,40.6684108940422]},"properties":{"prmname":"Sink R1","description":"Region 1 outflow sink; represents outflows to Region 2","type":"Sink","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

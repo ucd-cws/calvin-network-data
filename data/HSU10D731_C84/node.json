@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.692445377001,36.8856944340907],[-120.924187544162,37.1205594111816]]},"properties":{"prmname":"HSU10D731_C84","description":"Mendota Pool deliveries to CVPM 10","type":"Diversion","origin":"HSU10D731","terminus":"C84","amplitude":0.85,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

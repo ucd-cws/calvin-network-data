@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.861564811756,38.0621924947264],[-121.500657508782,38.1180525987915]]},"properties":{"prmname":"D509_D541","description":"Delta Outflow","type":"Diversion","origin":"D509","terminus":"D541","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

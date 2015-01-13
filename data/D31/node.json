@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.939083434162,39.2018904795782]},"properties":{"prmname":"D31","description":"Sacramento River diversion to RD1500 Drain","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

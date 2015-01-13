@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.604035791293,37.8749267916247],[-120.635042572958,37.8626315915167]]},"properties":{"prmname":"D16_D653a","description":"Stanislaus River Reach","type":"Diversion","origin":"D16","terminus":"D653a","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

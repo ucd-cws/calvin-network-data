@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-117.688204369656,33.7992227312183]},"properties":{"prmname":"Sink G50","description":"SAN DIEGO URBAN outflow","type":"Sink","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

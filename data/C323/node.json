@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.095726318634,37.9058848014908]},"properties":{"prmname":"C323","description":"Mokelumne Aqueduct and Los Vacqueros Pipeline crossover","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

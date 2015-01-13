@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.579144314833,37.8766279197723],[-121.580517708041,37.9771436844693]]},"properties":{"prmname":"C309_D550","description":"Isolated Facility Distribution","type":"Diversion","origin":"C309","terminus":"D550","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

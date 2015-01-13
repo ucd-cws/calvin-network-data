@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.819065941793,37.4919363753631],[-121.736275946117,37.3469076116457]]},"properties":{"prmname":"SR-ASF_T7","description":"Transfer from SFPUC to Santa Clara Valley","type":"Diversion","origin":"SR-ASF","terminus":"T7SCV","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

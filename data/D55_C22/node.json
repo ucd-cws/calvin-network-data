@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.667253160161,38.1781185688219],[-121.886579534837,38.3023003659904]]},"properties":{"prmname":"D55_C22","description":"Sacramento River diversion to North Bay Aqueduct","type":"Diversion","origin":"D55","terminus":"C22","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

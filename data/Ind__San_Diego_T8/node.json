@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.914539265617,33.0175153078573],[-116.654022339866,33.0562684285393]]},"properties":{"prmname":"Ind: San Diego_T8","description":"Ind Return Flow TOTAL","type":"Diversion","origin":"Ind: SDMWD","terminus":"T8SDMWD","amplitude":0.4,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

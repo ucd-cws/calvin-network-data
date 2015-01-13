@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.056868168612,39.1471961832193]},"properties":{"prmname":"Sac W Ref","description":"Sacramento West Refuges","type":"Non-Standard Demand","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

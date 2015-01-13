@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.089172080934,32.661892032037],[-121.736275946117,37.3469076116457]]},"properties":{"prmname":"Desalination_T7","description":"Proposed ocean desalination for SCV","type":"Diversion","origin":"Desal","terminus":"T7SCV","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

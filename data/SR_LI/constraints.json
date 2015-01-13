@@ -1,0 +1,1 @@
+{"constraint_type":"Bounded","lower":{"bound_type":"Constant","bound":0.184},"upper":{"bound_type":"Monthly","bound":{"$ref":"constraints_upper_bound.json"}}}

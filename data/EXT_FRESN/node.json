@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-119.819664974205,36.752490908025]},"properties":{"prmname":"EXT FRESN","description":"DAU 233  Exterior Urban Residential","type":"Urban Demand","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.511891669423,38.2485603525163],[-121.667253160161,38.1781185688219]]},"properties":{"prmname":"D511_D55","description":"Sacramento River Reach","type":"Diversion","origin":"D511","terminus":"D55","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

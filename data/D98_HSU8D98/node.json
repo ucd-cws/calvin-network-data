@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.440062681683,38.2559146978965],[-121.410699038548,38.6068247116044]]},"properties":{"prmname":"D98_HSU8D98","description":"Mokelumne riparian diversions To CVPM8","type":"Diversion","origin":"D98","terminus":"HSU8D98","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

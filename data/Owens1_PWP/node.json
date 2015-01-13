@@ -1,0 +1,1 @@
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-118.558495783781,37.4389377744209]},"properties":{"prmname":"Owens1 PWP","description":"LAA System Power Plant","type":"Power Plant","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

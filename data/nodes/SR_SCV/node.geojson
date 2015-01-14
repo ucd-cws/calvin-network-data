@@ -20,21 +20,170 @@
     "areacapfactor": 0.020407,
     "inflows": [
       {
-        "name": "Santa Clara Local inflow",
-        "date": {
-          "$ref": "inflows_0_date.json"
-        },
-        "inflow": {
-          "$ref": "inflows_0_inflow.json"
-        }
+        "$ref": "inflows_0.csv"
       }
     ],
     "el_ar_cap": null,
     "costs": {
       "type": "Monthly Variable",
-      "costs": {
-        "$ref": "costs_costs.json"
-      }
+      "costs": [
+        {
+          "label": "JAN",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 3.40000009536743
+            },
+            {
+              "capacity": 170,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "FEB",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 3.40000009536743
+            },
+            {
+              "capacity": 170,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "MAR",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 3.40000009536743
+            },
+            {
+              "capacity": 170,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "APR",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 3.40000009536743
+            },
+            {
+              "capacity": 170,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "MAY",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 3.40000009536743
+            },
+            {
+              "capacity": 170,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "JUN",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 3.40000009536743
+            },
+            {
+              "capacity": 170,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "JUL",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 3.40000009536743
+            },
+            {
+              "capacity": 170,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "AUG",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 3.40000009536743
+            },
+            {
+              "capacity": 170,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "SEP",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 3.40000009536743
+            },
+            {
+              "capacity": 170,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "OCT",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 3.40000009536743
+            },
+            {
+              "capacity": 170,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "NOV",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 3.40000009536743
+            },
+            {
+              "capacity": 170,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "DEC",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 3.40000009536743
+            },
+            {
+              "capacity": 170,
+              "cost": 0
+            }
+          ]
+        }
+      ]
     },
     "constraints": {
       "constraint_type": "Bounded",

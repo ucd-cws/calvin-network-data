@@ -22,13 +22,7 @@
     "areacapfactor": 0.003778,
     "inflows": [
       {
-        "name": "Kings River",
-        "date": {
-          "$ref": "inflows_0_date.json"
-        },
-        "inflow": {
-          "$ref": "inflows_0_inflow.json"
-        }
+        "$ref": "inflows_0.csv"
       }
     ],
     "el_ar_cap": [
@@ -80,9 +74,164 @@
     ],
     "costs": {
       "type": "Monthly Variable",
-      "costs": {
-        "$ref": "costs_costs.json"
-      }
+      "costs": [
+        {
+          "label": "JAN",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 130.796005249023
+            },
+            {
+              "capacity": 653.97998046875,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "FEB",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 145.792007446289
+            },
+            {
+              "capacity": 728.960021972656,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "MAR",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 154.514007568359
+            },
+            {
+              "capacity": 772.570007324219,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "APR",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 162.628005981445
+            },
+            {
+              "capacity": 813.140014648438,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "MAY",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 170.748001098633
+            },
+            {
+              "capacity": 853.739990234375,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "JUN",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 187.057998657227
+            },
+            {
+              "capacity": 935.289978027344,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "JUL",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 199.063995361328
+            },
+            {
+              "capacity": 995.320007324219,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "AUG",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 200
+            },
+            {
+              "capacity": 1000,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "SEP",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 200
+            },
+            {
+              "capacity": 1000,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "OCT",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 188.945999145508
+            },
+            {
+              "capacity": 944.72998046875,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "NOV",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 146.873992919922
+            },
+            {
+              "capacity": 734.369995117188,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "DEC",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 129.675994873047
+            },
+            {
+              "capacity": 648.380004882812,
+              "cost": 0
+            }
+          ]
+        }
+      ]
     },
     "constraints": {
       "constraint_type": "Bounded",
@@ -92,9 +241,20 @@
       },
       "upper": {
         "bound_type": "Monthly",
-        "bound": {
-          "$ref": "constraints_upper_bound.json"
-        }
+        "bound": [
+          653.98,
+          728.96,
+          772.57,
+          813.14,
+          853.74,
+          935.29,
+          995.32,
+          1000,
+          1000,
+          944.73,
+          734.37,
+          648.38
+        ]
       }
     }
   }

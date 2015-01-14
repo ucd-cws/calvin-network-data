@@ -22,13 +22,7 @@
     "endingstorage": 139843,
     "inflows": [
       {
-        "name": "Groundwater inflow GW-9 based on C2VSIM Historical Run356",
-        "date": {
-          "$ref": "inflows_0_date.json"
-        },
-        "inflow": {
-          "$ref": "inflows_0_inflow.json"
-        }
+        "$ref": "inflows_0.csv"
       }
     ],
     "costs": {

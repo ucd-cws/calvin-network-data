@@ -21,13 +21,7 @@
     "areacapfactor": 0.004627,
     "inflows": [
       {
-        "name": "Stanislaus River",
-        "date": {
-          "$ref": "inflows_0_date.json"
-        },
-        "inflow": {
-          "$ref": "inflows_0_inflow.json"
-        }
+        "$ref": "inflows_0.csv"
       }
     ],
     "el_ar_cap": [
@@ -84,9 +78,308 @@
     ],
     "costs": {
       "type": "Monthly Variable",
-      "costs": {
-        "$ref": "costs_costs.json"
-      }
+      "costs": [
+        {
+          "label": "JAN",
+          "costs": [
+            {
+              "capacity": 80,
+              "cost": 11224.7998046875
+            },
+            {
+              "capacity": 235,
+              "cost": 2178.2099609375
+            },
+            {
+              "capacity": 650,
+              "cost": 1514.94152832031
+            },
+            {
+              "capacity": 1255,
+              "cost": 962.405700683594
+            },
+            {
+              "capacity": 1952,
+              "cost": 587.396606445312
+            }
+          ]
+        },
+        {
+          "label": "FEB",
+          "costs": [
+            {
+              "capacity": 80,
+              "cost": 10138.529296875
+            },
+            {
+              "capacity": 235,
+              "cost": 1967.38781738281
+            },
+            {
+              "capacity": 647,
+              "cost": 1372.73522949219
+            },
+            {
+              "capacity": 1236,
+              "cost": 881.359069824219
+            },
+            {
+              "capacity": 1952,
+              "cost": 529.251586914062
+            }
+          ]
+        },
+        {
+          "label": "MAR",
+          "costs": [
+            {
+              "capacity": 80,
+              "cost": 11340.3173828125
+            },
+            {
+              "capacity": 235,
+              "cost": 2214.2412109375
+            },
+            {
+              "capacity": 636,
+              "cost": 1568.03234863281
+            },
+            {
+              "capacity": 1228,
+              "cost": 1013.55432128906
+            },
+            {
+              "capacity": 2021,
+              "cost": 587.845581054688
+            }
+          ]
+        },
+        {
+          "label": "APR",
+          "costs": [
+            {
+              "capacity": 80,
+              "cost": 10108.060546875
+            },
+            {
+              "capacity": 235,
+              "cost": 1987.36560058594
+            },
+            {
+              "capacity": 679,
+              "cost": 1379.64172363281
+            },
+            {
+              "capacity": 1348,
+              "cost": 872.100952148438
+            },
+            {
+              "capacity": 2208,
+              "cost": 514.572875976562
+            }
+          ]
+        },
+        {
+          "label": "MAY",
+          "costs": [
+            {
+              "capacity": 80,
+              "cost": 10615.544921875
+            },
+            {
+              "capacity": 235,
+              "cost": 2083.47729492188
+            },
+            {
+              "capacity": 720,
+              "cost": 1414.30590820312
+            },
+            {
+              "capacity": 1462,
+              "cost": 867.676025390625
+            },
+            {
+              "capacity": 2402,
+              "cost": 515.302673339844
+            }
+          ]
+        },
+        {
+          "label": "JUN",
+          "costs": [
+            {
+              "capacity": 80,
+              "cost": 10273.1064453125
+            },
+            {
+              "capacity": 235,
+              "cost": 2016.26000976562
+            },
+            {
+              "capacity": 720,
+              "cost": 1368.68359375
+            },
+            {
+              "capacity": 1462,
+              "cost": 839.684387207031
+            },
+            {
+              "capacity": 2402,
+              "cost": 498.673889160156
+            }
+          ]
+        },
+        {
+          "label": "JUL",
+          "costs": [
+            {
+              "capacity": 80,
+              "cost": 17558.9375
+            },
+            {
+              "capacity": 235,
+              "cost": 3452.06298828125
+            },
+            {
+              "capacity": 699,
+              "cost": 2371.57739257812
+            },
+            {
+              "capacity": 1402,
+              "cost": 1480.53051757812
+            },
+            {
+              "capacity": 2302,
+              "cost": 874.617431640625
+            }
+          ]
+        },
+        {
+          "label": "AUG",
+          "costs": [
+            {
+              "capacity": 80,
+              "cost": 17302.30078125
+            },
+            {
+              "capacity": 235,
+              "cost": 3398.07299804688
+            },
+            {
+              "capacity": 667,
+              "cost": 2372.095703125
+            },
+            {
+              "capacity": 1317,
+              "cost": 1507.14465332031
+            },
+            {
+              "capacity": 2152,
+              "cost": 889.092834472656
+            }
+          ]
+        },
+        {
+          "label": "SEP",
+          "costs": [
+            {
+              "capacity": 80,
+              "cost": 16475.798828125
+            },
+            {
+              "capacity": 235,
+              "cost": 3217.9833984375
+            },
+            {
+              "capacity": 641,
+              "cost": 2269.39282226562
+            },
+            {
+              "capacity": 1251,
+              "cost": 1451.67712402344
+            },
+            {
+              "capacity": 2027,
+              "cost": 856.238159179688
+            }
+          ]
+        },
+        {
+          "label": "OCT",
+          "costs": [
+            {
+              "capacity": 80,
+              "cost": 14647.75
+            },
+            {
+              "capacity": 235,
+              "cost": 2847.185546875
+            },
+            {
+              "capacity": 653,
+              "cost": 1982.2138671875
+            },
+            {
+              "capacity": 1250,
+              "cost": 1271.79614257812
+            },
+            {
+              "capacity": 1977,
+              "cost": 764.39404296875
+            }
+          ]
+        },
+        {
+          "label": "NOV",
+          "costs": [
+            {
+              "capacity": 80,
+              "cost": 14121.521484375
+            },
+            {
+              "capacity": 235,
+              "cost": 2744.75927734375
+            },
+            {
+              "capacity": 625,
+              "cost": 1946.86193847656
+            },
+            {
+              "capacity": 1211,
+              "cost": 1248.81506347656
+            },
+            {
+              "capacity": 1952,
+              "cost": 735.280029296875
+            }
+          ]
+        },
+        {
+          "label": "DEC",
+          "costs": [
+            {
+              "capacity": 80,
+              "cost": 14592.23828125
+            },
+            {
+              "capacity": 235,
+              "cost": 2831.63208007812
+            },
+            {
+              "capacity": 647,
+              "cost": 1975.7568359375
+            },
+            {
+              "capacity": 1236,
+              "cost": 1268.52478027344
+            },
+            {
+              "capacity": 1952,
+              "cost": 761.743591308594
+            }
+          ]
+        }
+      ]
     },
     "constraints": {
       "constraint_type": "Bounded",
@@ -96,9 +389,20 @@
       },
       "upper": {
         "bound_type": "Monthly",
-        "bound": {
-          "$ref": "constraints_upper_bound.json"
-        }
+        "bound": [
+          1950,
+          1950,
+          2019,
+          2206,
+          2400,
+          2400,
+          2300,
+          2150,
+          2025,
+          1975,
+          1950,
+          1950
+        ]
       }
     }
   }

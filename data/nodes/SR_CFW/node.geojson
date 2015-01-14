@@ -35,9 +35,164 @@
     ],
     "costs": {
       "type": "Monthly Variable",
-      "costs": {
-        "$ref": "costs_costs.json"
-      }
+      "costs": [
+        {
+          "label": "JAN",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2.05999994277954
+            },
+            {
+              "capacity": 103,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "FEB",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2.05999994277954
+            },
+            {
+              "capacity": 103,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "MAR",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2.05999994277954
+            },
+            {
+              "capacity": 103,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "APR",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2.05999994277954
+            },
+            {
+              "capacity": 103,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "MAY",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2.05999994277954
+            },
+            {
+              "capacity": 103,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "JUN",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2.05999994277954
+            },
+            {
+              "capacity": 103,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "JUL",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2.05999994277954
+            },
+            {
+              "capacity": 103,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "AUG",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2.05999994277954
+            },
+            {
+              "capacity": 103,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "SEP",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2.05999994277954
+            },
+            {
+              "capacity": 103,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "OCT",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2.05999994277954
+            },
+            {
+              "capacity": 103,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "NOV",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2.05999994277954
+            },
+            {
+              "capacity": 103,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "DEC",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2.05999994277954
+            },
+            {
+              "capacity": 103,
+              "cost": 0
+            }
+          ]
+        }
+      ]
     },
     "constraints": {
       "constraint_type": "Bounded",

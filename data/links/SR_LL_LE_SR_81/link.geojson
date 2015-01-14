@@ -22,9 +22,9 @@
     "amplitude": 1,
     "costs": {
       "type": null,
-      "costs": {
-        "$ref": "costs_costs.json"
-      }
+      "costs": [
+        null
+      ]
     },
     "constraints": {
       "constraint_type": "Bounded",

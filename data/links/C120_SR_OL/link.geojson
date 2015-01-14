@@ -28,13 +28,27 @@
       "constraint_type": "Bounded",
       "lower": {
         "bound_type": "Monthly",
-        "bound": {
-          "$ref": "constraints_lower_bound.json"
-        }
+        "bound": [
+          2.46,
+          2.22,
+          2.46,
+          2.38,
+          3.97,
+          2.38,
+          2.46,
+          2.46,
+          2.38,
+          2.46,
+          2.38,
+          2.46
+        ]
       },
       "upper": {
         "bound_type": "None"
       }
     }
+  },
+  "lower": {
+    "$ref": "_constraints_lower.csv"
   }
 }

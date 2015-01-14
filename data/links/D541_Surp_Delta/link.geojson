@@ -22,9 +22,21 @@
     "amplitude": 1,
     "costs": {
       "type": "Annual Variable",
-      "costs": {
-        "$ref": "costs_costs.json"
-      }
+      "costs": [
+        {
+          "label": "JAN-DEC",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 1000
+            },
+            {
+              "capacity": 100000,
+              "cost": 0
+            }
+          ]
+        }
+      ]
     },
     "constraints": {
       "constraint_type": "Bounded",

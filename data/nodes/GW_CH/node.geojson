@@ -24,13 +24,7 @@
     "endingstorage": 3500,
     "inflows": [
       {
-        "name": "Coachella_Valley",
-        "date": {
-          "$ref": "inflows_0_date.json"
-        },
-        "inflow": {
-          "$ref": "inflows_0_inflow.json"
-        }
+        "$ref": "inflows_0.csv"
       }
     ],
     "costs": {

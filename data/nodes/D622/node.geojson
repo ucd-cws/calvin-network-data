@@ -20,13 +20,7 @@
     ],
     "inflows": [
       {
-        "name": "Accretion Fresno River, updated July 2012, per GW update based on C2VSIM",
-        "date": {
-          "$ref": "inflows_0_date.json"
-        },
-        "inflow": {
-          "$ref": "inflows_0_inflow.json"
-        }
+        "$ref": "inflows_0.csv"
       }
     ]
   }

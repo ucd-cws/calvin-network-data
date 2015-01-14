@@ -22,9 +22,212 @@
     "amplitude": 1,
     "costs": {
       "type": "Monthly Variable",
-      "costs": {
-        "$ref": "costs_costs.json"
-      }
+      "costs": [
+        {
+          "label": "",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 1680.81555175781
+            },
+            {
+              "capacity": 1045.28332519531,
+              "cost": 0
+            },
+            {
+              "capacity": 1306.60412597656,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 1518.15612792969
+            },
+            {
+              "capacity": 944.126953125,
+              "cost": 0
+            },
+            {
+              "capacity": 1180.15869140625,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 1680.81555175781
+            },
+            {
+              "capacity": 1045.28332519531,
+              "cost": 0
+            },
+            {
+              "capacity": 1306.60412597656,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 1463.93627929688
+            },
+            {
+              "capacity": 1011.56463623047,
+              "cost": 0
+            },
+            {
+              "capacity": 1264.45581054688,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 1512.73400878906
+            },
+            {
+              "capacity": 1045.28332519531,
+              "cost": 0
+            },
+            {
+              "capacity": 1306.60412597656,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 1463.93627929688
+            },
+            {
+              "capacity": 1011.56463623047,
+              "cost": 0
+            },
+            {
+              "capacity": 1264.45581054688,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2521.22338867188
+            },
+            {
+              "capacity": 1045.28332519531,
+              "cost": 0
+            },
+            {
+              "capacity": 1306.60412597656,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2521.22338867188
+            },
+            {
+              "capacity": 1045.28332519531,
+              "cost": 0
+            },
+            {
+              "capacity": 1306.60412597656,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2439.89379882812
+            },
+            {
+              "capacity": 1011.56463623047,
+              "cost": 0
+            },
+            {
+              "capacity": 1264.45581054688,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2185.06030273438
+            },
+            {
+              "capacity": 1045.28332519531,
+              "cost": 0
+            },
+            {
+              "capacity": 1306.60412597656,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2114.57470703125
+            },
+            {
+              "capacity": 1011.56463623047,
+              "cost": 0
+            },
+            {
+              "capacity": 1264.45581054688,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 2185.06030273438
+            },
+            {
+              "capacity": 1045.28332519531,
+              "cost": 0
+            },
+            {
+              "capacity": 1306.60412597656,
+              "cost": 0
+            }
+          ]
+        }
+      ]
     },
     "constraints": {
       "constraint_type": "Bounded",

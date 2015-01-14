@@ -31,10 +31,24 @@
       },
       "upper": {
         "bound_type": "Monthly",
-        "bound": {
-          "$ref": "constraints_upper_bound.json"
-        }
+        "bound": [
+          24.48,
+          22.25,
+          25.88,
+          22.33,
+          25.88,
+          22.33,
+          25.88,
+          25.88,
+          22.33,
+          25.88,
+          22.33,
+          25.88
+        ]
       }
     }
+  },
+  "upper": {
+    "$ref": "_constraints_upper.csv"
   }
 }

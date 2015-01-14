@@ -23,13 +23,7 @@
     "endingstorage": 425,
     "inflows": [
       {
-        "name": "Santa Clara + Niles Cone + Livermore Groundwater Recharge",
-        "date": {
-          "$ref": "inflows_0_date.json"
-        },
-        "inflow": {
-          "$ref": "inflows_0_inflow.json"
-        }
+        "$ref": "inflows_0.csv"
       }
     ],
     "costs": {

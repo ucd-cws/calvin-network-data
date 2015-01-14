@@ -22,13 +22,7 @@
     ],
     "inflows": [
       {
-        "name": "Accretion Melones to Goodwin",
-        "date": {
-          "$ref": "inflows_0_date.json"
-        },
-        "inflow": {
-          "$ref": "inflows_0_inflow.json"
-        }
+        "$ref": "inflows_0.csv"
       }
     ]
   }

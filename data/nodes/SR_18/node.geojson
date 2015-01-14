@@ -24,13 +24,7 @@
     "areacapfactor": 0.008752,
     "inflows": [
       {
-        "name": "San Joaquin River",
-        "date": {
-          "$ref": "inflows_0_date.json"
-        },
-        "inflow": {
-          "$ref": "inflows_0_inflow.json"
-        }
+        "$ref": "inflows_0.csv"
       }
     ],
     "el_ar_cap": [
@@ -87,9 +81,164 @@
     ],
     "costs": {
       "type": "Monthly Variable",
-      "costs": {
-        "$ref": "costs_costs.json"
-      }
+      "costs": [
+        {
+          "label": "JAN",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 8.72000026702881
+            },
+            {
+              "capacity": 436,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "FEB",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 8.69999980926514
+            },
+            {
+              "capacity": 435,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "MAR",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 10.4200000762939
+            },
+            {
+              "capacity": 521,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "APR",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 10.4200000762939
+            },
+            {
+              "capacity": 521,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "MAY",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 10.4200000762939
+            },
+            {
+              "capacity": 521,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "JUN",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 10.4200000762939
+            },
+            {
+              "capacity": 521,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "JUL",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 10.4200000762939
+            },
+            {
+              "capacity": 521,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "AUG",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 10.4200000762939
+            },
+            {
+              "capacity": 521,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "SEP",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 10.4200000762939
+            },
+            {
+              "capacity": 521,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "OCT",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 8.72000026702881
+            },
+            {
+              "capacity": 436,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "NOV",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 8.72000026702881
+            },
+            {
+              "capacity": 436,
+              "cost": 0
+            }
+          ]
+        },
+        {
+          "label": "DEC",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 8.72000026702881
+            },
+            {
+              "capacity": 436,
+              "cost": 0
+            }
+          ]
+        }
+      ]
     },
     "constraints": {
       "constraint_type": "Bounded",
@@ -99,9 +248,20 @@
       },
       "upper": {
         "bound_type": "Monthly",
-        "bound": {
-          "$ref": "constraints_upper_bound.json"
-        }
+        "bound": [
+          436,
+          435,
+          521,
+          521,
+          521,
+          521,
+          521,
+          521,
+          521,
+          436,
+          436,
+          436
+        ]
       }
     }
   }

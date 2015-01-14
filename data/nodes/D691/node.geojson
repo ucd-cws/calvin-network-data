@@ -19,13 +19,7 @@
     ],
     "inflows": [
       {
-        "name": "Accretion San Joaquin River: Bypass to Merced (Mud Slough and Salt Slough)",
-        "date": {
-          "$ref": "inflows_0_date.json"
-        },
-        "inflow": {
-          "$ref": "inflows_0_inflow.json"
-        }
+        "$ref": "inflows_0.csv"
       }
     ]
   }

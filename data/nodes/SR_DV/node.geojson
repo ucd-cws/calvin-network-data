@@ -26,9 +26,21 @@
     "el_ar_cap": null,
     "costs": {
       "type": "Annual Variable",
-      "costs": {
-        "$ref": "costs_costs.json"
-      }
+      "costs": [
+        {
+          "label": "JAN-DEC",
+          "costs": [
+            {
+              "capacity": 0,
+              "cost": 16
+            },
+            {
+              "capacity": 800,
+              "cost": 0
+            }
+          ]
+        }
+      ]
     },
     "constraints": {
       "constraint_type": "Bounded",

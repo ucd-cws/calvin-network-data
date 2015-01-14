@@ -23,13 +23,7 @@
     "areacapfactor": 0.0243,
     "inflows": [
       {
-        "name": "UPPER OWENS",
-        "date": {
-          "$ref": "inflows_0_date.json"
-        },
-        "inflow": {
-          "$ref": "inflows_0_inflow.json"
-        }
+        "$ref": "inflows_0.csv"
       }
     ],
     "el_ar_cap": null,

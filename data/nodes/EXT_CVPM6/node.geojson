@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.050181467941,
+      38.4240202324968
+    ]
+  },
+  "properties": {
+    "prmname": "EXT CVPM6",
+    "description": "100% of DAU 162, 9% of DAU 191, 40 & 41, exterior",
+    "type": "Urban Demand",
+    "origins": [
+      "HGP6"
+    ],
+    "terminals": [
+      "HGU6"
+    ],
+    "inflows": null
+  }
+}

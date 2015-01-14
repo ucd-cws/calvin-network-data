@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.271073102911,39.7088865951922],[-121.518080223416,39.5328862108153]]},"properties":{"prmname":"C77_SR-6","description":"Feather River inflow to Lake Oroville","type":"Diversion","origin":"C77","terminus":"SR-6","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,1 +1,0 @@
-{"constraint_type":"Bounded","lower":{"bound_type":"TimeSeries","date":{"$ref":"constraints_lower_date.json"},"bound":{"$ref":"constraints_lower_bound.json"}},"upper":{"bound_type":"None"}}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.040140686352,
+        37.1006164822141
+      ],
+      [
+        -121.041418771855,
+        37.0988342010771
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D710_ONeill PMP",
+    "description": "Delta Mendota Canal diversion to ONeil Pumping Plant and California Aqueduct",
+    "type": "Diversion",
+    "origin": "D710",
+    "terminus": "ONeillPMP",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

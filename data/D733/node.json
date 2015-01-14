@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-120.0115905558,36.8105454008975]},"properties":{"prmname":"D733","description":"San Joaquin River losses","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

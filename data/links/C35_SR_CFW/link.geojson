@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.954054298963,
+        39.1328961882442
+      ],
+      [
+        -121.318066857248,
+        39.0498950367921
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C35_SR-CFW",
+    "description": "Bear River inflow to Camp Far West reservoir",
+    "type": "Diversion",
+    "origin": "C35",
+    "terminus": "SR-CFW",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.727063913762,
+        37.8379259233781
+      ],
+      [
+        -121.621575414762,
+        37.7794436100768
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-LV_D801",
+    "description": "Los Vacqueros Connection to Clifton Court",
+    "type": "Diversion",
+    "origin": "SR-LV",
+    "terminus": "D801",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 0
+      }
+    }
+  }
+}

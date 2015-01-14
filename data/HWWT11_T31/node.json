@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.204134170768,33.7208948876101],[-116.253569495654,33.7459538834681]]},"properties":{"prmname":"HWWT11_T31","description":"Expanded wastewater recycling facility","type":"Diversion","origin":"HWWT11","terminus":"T31COAC","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

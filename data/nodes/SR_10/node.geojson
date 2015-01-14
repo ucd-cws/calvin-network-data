@@ -1,0 +1,105 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.52003215103,
+      37.9559250137958
+    ]
+  },
+  "properties": {
+    "prmname": "SR-10",
+    "description": "New Melones Reservoir",
+    "type": "Surface Storage",
+    "origins": null,
+    "terminals": [
+      "CN3",
+      "D670"
+    ],
+    "initialstorage": 1000,
+    "endingstorage": 792.56,
+    "areacapfactor": 0.004627,
+    "inflows": [
+      {
+        "name": "Stanislaus River",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ],
+    "el_ar_cap": [
+      {
+        "elevation": 600,
+        "area": 0.0610000006854534,
+        "capacity": 0.975000023841858
+      },
+      {
+        "elevation": 700,
+        "area": 1.21700000762939,
+        "capacity": 53.9039993286133
+      },
+      {
+        "elevation": 760,
+        "area": 2.37400007247925,
+        "capacity": 160.548004150391
+      },
+      {
+        "elevation": 808,
+        "area": 3.44600009918213,
+        "capacity": 299.516998291016
+      },
+      {
+        "elevation": 920,
+        "area": 5.46500015258789,
+        "capacity": 846.523986816406
+      },
+      {
+        "elevation": 992,
+        "area": 8.90100002288818,
+        "capacity": 1398.8310546875
+      },
+      {
+        "elevation": 1049.5,
+        "area": 10.9619998931885,
+        "capacity": 1969.50402832031
+      },
+      {
+        "elevation": 1088,
+        "area": 12.4420003890991,
+        "capacity": 2419.52294921875
+      },
+      {
+        "elevation": 1100,
+        "area": 12.9490003585815,
+        "capacity": 2571.8349609375
+      },
+      {
+        "elevation": 1123.40002441406,
+        "area": 14.0109996795654,
+        "capacity": 2871
+      }
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 80
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

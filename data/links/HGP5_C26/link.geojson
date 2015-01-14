@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.245406215509,
+        38.9578925550485
+      ],
+      [
+        -121.841081745873,
+        39.1478918544127
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGP5_C26",
+    "description": "Agricultural groundwater pumping GW-5 to CVPM 5 Demand",
+    "type": "Diversion",
+    "origin": "HGP5",
+    "terminus": "C26",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 11.93
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 240.14
+      }
+    }
+  }
+}

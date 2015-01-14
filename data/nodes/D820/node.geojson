@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.907811450734,
+      37.0008418784086
+    ]
+  },
+  "properties": {
+    "prmname": "D820",
+    "description": "Los Banos Grandes Reservoir release to California Aqueduct",
+    "type": "Junction",
+    "origins": [
+      "SR-22",
+      "D818"
+    ],
+    "terminals": [
+      "D742"
+    ],
+    "inflows": null
+  }
+}

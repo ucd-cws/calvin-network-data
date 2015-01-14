@@ -1,0 +1,39 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.945931387065,
+      35.4319571897471
+    ]
+  },
+  "properties": {
+    "prmname": "C65",
+    "description": "Kern River",
+    "type": "Junction",
+    "origins": [
+      "C689",
+      "SR-LI"
+    ],
+    "terminals": [
+      "C97",
+      "T53DELANO",
+      "HAR21",
+      "HAR20",
+      "HSU19C65",
+      "HSU21C65",
+      "HSU20C65"
+    ],
+    "inflows": [
+      {
+        "name": "Accretion Kern River",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

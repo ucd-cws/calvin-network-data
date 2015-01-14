@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.278875542828,
+        36.1239534380381
+      ],
+      [
+        -119.278875542828,
+        36.1239534380381
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T52_T51",
+    "description": "CVPM 18 Urban recycling",
+    "type": "Diversion",
+    "origin": "T52VISALIA",
+    "terminus": "T51VISALIA",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 1480
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 4.79
+      }
+    }
+  }
+}

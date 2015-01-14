@@ -1,0 +1,25 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.823181513922,
+      36.966382577001
+    ]
+  },
+  "properties": {
+    "prmname": "HGP10",
+    "description": "Hidden node for calibration of GW-10",
+    "type": "Junction",
+    "origins": [
+      "GW-10"
+    ],
+    "terminals": [
+      "C84",
+      "INT CVPM10",
+      "EXT CVPM10",
+      "CVPM10"
+    ],
+    "inflows": null
+  }
+}

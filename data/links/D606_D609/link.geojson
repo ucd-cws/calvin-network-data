@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.160995753547,
+        36.797947295329
+      ],
+      [
+        -120.285999425433,
+        36.7739490660268
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D606_D609",
+    "description": "San Joaquin River between Gravelly Ford and Coachella Bypass",
+    "type": "Diversion",
+    "origin": "D606",
+    "terminus": "D609",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.680001571166,
+        37.153936410514
+      ],
+      [
+        -120.852033479131,
+        37.2479408575742
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D619_D691",
+    "description": "San Joaquin River Reach",
+    "type": "Diversion",
+    "origin": "D619",
+    "terminus": "D691",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

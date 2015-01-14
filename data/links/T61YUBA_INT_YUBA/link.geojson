@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.648569390486,
+        39.3072200208234
+      ],
+      [
+        -121.648569390486,
+        39.3072200208234
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T61_Int: Yuba",
+    "description": "Water delivery into Yuba City et al",
+    "type": "Diversion",
+    "origin": "T61YUBA",
+    "terminus": "INT YUBA",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.70777913274,
+      37.22808923119
+    ]
+  },
+  "properties": {
+    "prmname": "HSURD723",
+    "description": "Hidden surface diversion node for San Joaquin refuges",
+    "type": "Junction",
+    "origins": [
+      "D723"
+    ],
+    "terminals": [
+      "SJoaqRef"
+    ],
+    "inflows": null
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.414391197999,36.0781194003499],[-119.253568079536,36.0664668938942]]},"properties":{"prmname":"HSU18C58_C60","description":"Tule Diversion to CVPM 18 (DA 60E)","type":"Diversion","origin":"HSU18C58","terminus":"C60","amplitude":0.83,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

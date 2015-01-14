@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.005390641649,
+      35.7183022473738
+    ]
+  },
+  "properties": {
+    "prmname": "D847",
+    "description": "Coastal Aqueduct",
+    "type": "Junction",
+    "origins": [
+      "BadgerPMP"
+    ],
+    "terminals": [
+      "HSU19D847",
+      "D848"
+    ],
+    "inflows": null
+  }
+}

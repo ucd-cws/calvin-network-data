@@ -1,0 +1,36 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.830968814272,
+      36.3416503659485
+    ]
+  },
+  "properties": {
+    "prmname": "C52",
+    "description": "Kings River",
+    "type": "Junction",
+    "origins": [
+      "C54",
+      "T50SANGER"
+    ],
+    "terminals": [
+      "HAR15",
+      "C59",
+      "Sink C52",
+      "HSU15C52"
+    ],
+    "inflows": [
+      {
+        "name": "Accretion South Fork Kings River",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

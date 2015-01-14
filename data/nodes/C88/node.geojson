@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.30421535652,
+      37.8116388413448
+    ]
+  },
+  "properties": {
+    "prmname": "C88",
+    "description": "Hetch Hetchy Aqueduct",
+    "type": "Junction",
+    "origins": [
+      "C44",
+      "SR-81"
+    ],
+    "terminals": [
+      "C78"
+    ],
+    "inflows": null
+  }
+}

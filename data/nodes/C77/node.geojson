@@ -1,0 +1,31 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.271073102911,
+      39.7088865951922
+    ]
+  },
+  "properties": {
+    "prmname": "C77",
+    "description": "Feather River above Lake Oroville",
+    "type": "Junction",
+    "origins": null,
+    "terminals": [
+      "SR-6",
+      "HSU5C77"
+    ],
+    "inflows": [
+      {
+        "name": "FEATHER RIVER",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

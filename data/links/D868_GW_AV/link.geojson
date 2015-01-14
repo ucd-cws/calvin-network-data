@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.309070159834,
+        34.6555784453804
+      ],
+      [
+        -118.095503144919,
+        34.8044354111839
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D868_GW-AV",
+    "description": "GW-AV Artificial Recharge",
+    "type": "Diversion",
+    "origin": "D868",
+    "terminus": "GW-AV",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 7.4
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

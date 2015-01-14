@@ -1,0 +1,25 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.605072484411,
+      38.8908976670866
+    ]
+  },
+  "properties": {
+    "prmname": "D37",
+    "description": "Bear River inflow to Feather River",
+    "type": "Junction",
+    "origins": [
+      "T62YUBA",
+      "C33",
+      "C31"
+    ],
+    "terminals": [
+      "Sink G21",
+      "C32"
+    ],
+    "inflows": null
+  }
+}

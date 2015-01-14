@@ -1,0 +1,32 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.843124733344,
+        36.2765886623304
+      ],
+      [
+        -119.843124733344,
+        36.2765886623304
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "CVPM15_GW-15",
+    "description": "Hidden groundwater return flow calibration link",
+    "type": "Return Flow",
+    "origin": "CVPM15",
+    "terminus": "GW-15",
+    "amplitude": 1,
+    "costs": null,
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "Constant",
+        "bound": 1
+      }
+    }
+  }
+}

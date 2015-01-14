@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-119.278875542828,36.1239534380381]},"properties":{"prmname":"T52VISALIA","description":"Visalia/Tulare CVPM18 Urban OUT","type":"Water Treatment","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

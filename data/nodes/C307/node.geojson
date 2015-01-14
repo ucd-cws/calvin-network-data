@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.696619214617,
+      39.048080690342
+    ]
+  },
+  "properties": {
+    "prmname": "C307",
+    "description": "CVPM 5 return",
+    "type": "Junction",
+    "origins": [
+      "CVPM5"
+    ],
+    "terminals": [
+      "HSURC307",
+      "D42"
+    ],
+    "inflows": null
+  }
+}

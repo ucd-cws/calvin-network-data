@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.253569495654,
+        33.7459538834681
+      ],
+      [
+        -116.204134170768,
+        33.7208948876101
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T11_HWWT11",
+    "description": "Expanded wastewater recycling facility for Coachella Urban",
+    "type": "Diversion",
+    "origin": "T11COAC",
+    "terminus": "HWWT11",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 1480
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 10.03
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.419726710429,
+        38.5624279890464
+      ],
+      [
+        -121.50506664477,
+        38.5889050089165
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D64_C8",
+    "description": "American River inflow to Sacramento River, minimum instream flow requirement",
+    "type": "Diversion",
+    "origin": "D64",
+    "terminus": "C8",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_lower_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_lower_bound.json"
+        }
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

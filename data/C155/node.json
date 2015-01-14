@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.082082529602,38.5149071023428]},"properties":{"prmname":"C155","description":"Putah Creek Consumptive Use","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

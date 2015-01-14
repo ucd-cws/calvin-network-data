@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.727063913762,
+        37.8379259233781
+      ],
+      [
+        -121.632888541271,
+        37.8839426366446
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-LV_C310",
+    "description": "Los Vaqueros Reservoir Release",
+    "type": "Diversion",
+    "origin": "SR-LV",
+    "terminus": "C310",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

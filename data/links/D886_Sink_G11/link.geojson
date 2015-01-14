@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.720087779992,
+        34.6219362435875
+      ],
+      [
+        -117.688204369656,
+        33.7992227312183
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D886_Sink G11",
+    "description": "West Branch SWP Losses",
+    "type": "Diversion",
+    "origin": "D886",
+    "terminus": "Sink G11",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

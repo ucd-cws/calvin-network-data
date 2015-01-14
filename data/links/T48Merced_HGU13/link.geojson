@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.321487789062,
+        37.1313881427344
+      ],
+      [
+        -120.268667487669,
+        37.1361101381594
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T48_HGU13",
+    "description": "Return flow from appied urban water ",
+    "type": "Diversion",
+    "origin": "T48Merced",
+    "terminus": "HGU13",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

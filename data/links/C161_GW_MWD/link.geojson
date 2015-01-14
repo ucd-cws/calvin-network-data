@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.420343339788,
+        34.7057815093548
+      ],
+      [
+        -117.626876103348,
+        33.7430011287827
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C161_GW-MWD",
+    "description": "Imported SW recharge to Additional GW",
+    "type": "Diversion",
+    "origin": "C161",
+    "terminus": "GW-MWD",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 14.8
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

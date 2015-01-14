@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.525075823566,
+        39.1758917750934
+      ],
+      [
+        -121.55711226186,
+        39.9487984429982
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C83_Sink G95",
+    "description": "DA 67 local ag net diversion",
+    "type": "Diversion",
+    "origin": "C83",
+    "terminus": "Sink G95",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

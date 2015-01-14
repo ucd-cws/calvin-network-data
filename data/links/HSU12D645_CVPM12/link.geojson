@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.612278732358,
+        37.3022639120208
+      ],
+      [
+        -120.763850225972,
+        37.5238091483913
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU12D645_CVPM12",
+    "description": "Merced ID supply from Merced River via Northside canal",
+    "type": "Diversion",
+    "origin": "HSU12D645",
+    "terminus": "CVPM12",
+    "amplitude": 0.82,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

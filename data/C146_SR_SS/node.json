@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.077535674268,33.5247269298106],[-115.81902019917,33.3084281919558]]},"properties":{"prmname":"C146_SR-SS","description":"White Water River flow into SR-SS","type":"Diversion","origin":"C146","terminus":"SR-SS","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

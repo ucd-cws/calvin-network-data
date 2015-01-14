@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.046669019684,33.715050468208],[-117.460878953592,33.8330169944144]]},"properties":{"prmname":"C138_SR-LM","description":"Valverde Tunnel","type":"Diversion","origin":"C138","terminus":"SR-LM","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

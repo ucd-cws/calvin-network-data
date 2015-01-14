@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-114.943411505237,32.713952045423],[-117.32403248044,34.3094562066762]]},"properties":{"prmname":"C149_All American Canal Power Plant","description":"West IID canal","type":"Diversion","origin":"C149","terminus":"AAC PWP","amplitude":0.985,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

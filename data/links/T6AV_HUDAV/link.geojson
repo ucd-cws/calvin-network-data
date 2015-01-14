@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.048427574224,
+        36.0004773633476
+      ],
+      [
+        -117.911898680982,
+        35.1500606662306
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T6_HUDAV",
+    "description": "Agricultural pumping",
+    "type": "Diversion",
+    "origin": "T6AV",
+    "terminus": "HUDAV",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.604035791293,
+      37.8749267916247
+    ]
+  },
+  "properties": {
+    "prmname": "D16",
+    "description": "Stanislaus River diversion to CVPM11",
+    "type": "Junction",
+    "origins": [
+      "SR-TR",
+      "CN3"
+    ],
+    "terminals": [
+      "T45MODEST",
+      "D653a",
+      "HSU11D16"
+    ],
+    "inflows": [
+      {
+        "name": "Accretion Melones to Goodwin",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

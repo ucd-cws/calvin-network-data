@@ -1,0 +1,20 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -115.562354571647,
+      33.8813022108897
+    ]
+  },
+  "properties": {
+    "prmname": "Sink G45",
+    "description": "COACHELLA VALLEY URBAN outflow",
+    "type": "Sink",
+    "origins": [
+      "T11COAC"
+    ],
+    "terminals": null,
+    "inflows": null
+  }
+}

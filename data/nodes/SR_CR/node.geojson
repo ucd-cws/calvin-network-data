@@ -1,0 +1,115 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.022053113809,
+      38.2249175915377
+    ]
+  },
+  "properties": {
+    "prmname": "SR-CR",
+    "description": "Camanche Res",
+    "type": "Surface Storage",
+    "origins": [
+      "SR-PR",
+      "CN2"
+    ],
+    "terminals": [
+      "C38"
+    ],
+    "initialstorage": 200,
+    "endingstorage": 235,
+    "areacapfactor": 0.005604,
+    "inflows": null,
+    "el_ar_cap": [
+      {
+        "elevation": 433.929992675781,
+        "area": 1.75813007354736,
+        "capacity": 287.670013427734
+      },
+      {
+        "elevation": 515.120483398438,
+        "area": 2.00637769699097,
+        "capacity": 335.440002441406
+      },
+      {
+        "elevation": 552.461547851562,
+        "area": 2.21955823898315,
+        "capacity": 383.220001220703
+      },
+      {
+        "elevation": 582.713928222656,
+        "area": 2.40777945518494,
+        "capacity": 431
+      },
+      {
+        "elevation": 609.545959472656,
+        "area": 2.57702851295471,
+        "capacity": 0
+      },
+      {
+        "elevation": 634.286743164062,
+        "area": 2.7313060760498,
+        "capacity": 0
+      },
+      {
+        "elevation": 657.593872070312,
+        "area": 2.87330842018127,
+        "capacity": 0
+      },
+      {
+        "elevation": 679.840942382812,
+        "area": 1,
+        "capacity": 0
+      },
+      {
+        "elevation": 701.277221679688,
+        "area": 48.7799987792969,
+        "capacity": 0
+      },
+      {
+        "elevation": 722.060974121094,
+        "area": 96.5599975585938,
+        "capacity": 0
+      },
+      {
+        "elevation": 0.137930005788803,
+        "area": 144.330001831055,
+        "capacity": 0
+      },
+      {
+        "elevation": 1.04748320579529,
+        "area": 192.110000610352,
+        "capacity": 0
+      },
+      {
+        "elevation": 1.45526480674744,
+        "area": 239.889999389648,
+        "capacity": 0
+      }
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 4
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

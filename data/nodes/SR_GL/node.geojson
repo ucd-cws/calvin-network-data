@@ -1,0 +1,59 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.102980082243,
+      37.8619282082867
+    ]
+  },
+  "properties": {
+    "prmname": "SR-GL",
+    "description": "Grant Lake",
+    "type": "Surface Storage",
+    "origins": null,
+    "terminals": [
+      "SR-ML",
+      "SR-LC"
+    ],
+    "initialstorage": 26,
+    "endingstorage": 26,
+    "areacapfactor": 0.02246104,
+    "inflows": [
+      {
+        "name": "MONO BASIN",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      },
+      {
+        "name": "MONO BASIN",
+        "date": {
+          "$ref": "inflows_1_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_1_inflow.json"
+        }
+      }
+    ],
+    "el_ar_cap": null,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 11.5
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 47.525
+      }
+    }
+  }
+}

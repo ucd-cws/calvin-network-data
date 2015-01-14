@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.541514618069,34.8323073241072],[-116.141170154743,34.6733060911038]]},"properties":{"prmname":"HWWT32_T3","description":"Expanded wastewater recycling facility","type":"Diversion","origin":"HWWT","terminus":"T3MOJA","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

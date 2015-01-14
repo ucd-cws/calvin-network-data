@@ -1,0 +1,39 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.268069997047,
+        39.2388930152309
+      ],
+      [
+        -121.269069661476,
+        39.2238931998993
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-EL_C28",
+    "description": "Reservoir release from Englebright Dam to Yuba River",
+    "type": "Diversion",
+    "origin": "SR-EL",
+    "terminus": "C28",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

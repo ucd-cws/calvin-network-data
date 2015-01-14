@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.694481734654,
+      39.2886215770439
+    ]
+  },
+  "properties": {
+    "prmname": "HGU5",
+    "description": "Hidden node for calibration of GW-5",
+    "type": "Junction",
+    "origins": [
+      "EXT CVPM5",
+      "INT CVPM5",
+      "EXT YUBA"
+    ],
+    "terminals": [
+      "GW-5"
+    ],
+    "inflows": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.598070519704,
+        38.7739014097838
+      ],
+      [
+        -121.598070519704,
+        38.7739014097838
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D43_C67",
+    "description": "Sacramento River between Freemont Weir and American River Reach 1",
+    "type": "Diversion",
+    "origin": "D43",
+    "terminus": "C67",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

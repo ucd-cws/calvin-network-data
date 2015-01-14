@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.518080223416,39.5328862108153],[-121.5478026024,39.527825094013]]},"properties":{"prmname":"SR-6_C23","description":"Reservoir release from Oroville Dam to Feather River","type":"Diversion","origin":"SR-6","terminus":"C23","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

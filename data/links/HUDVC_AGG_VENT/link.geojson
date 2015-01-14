@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.057438909704,
+        34.4519538850142
+      ],
+      [
+        -119.041222087827,
+        34.4263093127776
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HUDVC_AgG: Ventura",
+    "description": "Groundwater deliveries to Venutra Ag",
+    "type": "Diversion",
+    "origin": "HUDVC",
+    "terminus": "AGG VENT",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

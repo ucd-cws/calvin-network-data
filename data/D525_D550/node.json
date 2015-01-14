@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.583127805613,38.0625885742862],[-121.580517708041,37.9771436844693]]},"properties":{"prmname":"D525_D550","description":"Old River","type":"Diversion","origin":"D525","terminus":"D550","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

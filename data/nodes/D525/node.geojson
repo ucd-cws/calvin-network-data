@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.583127805613,
+      38.0625885742862
+    ]
+  },
+  "properties": {
+    "prmname": "D525",
+    "description": "Delta - ?",
+    "type": "Junction",
+    "origins": [
+      "D523"
+    ],
+    "terminals": [
+      "D550",
+      "D528"
+    ],
+    "inflows": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.654022339866,
+        33.0562684285393
+      ],
+      [
+        -116.654022339866,
+        33.0562684285393
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T40_T30",
+    "description": "San Diego MWD untreated water import + local supply",
+    "type": "Diversion",
+    "origin": "T40SDMWD",
+    "terminus": "T30SDMWD",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 140.6
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-114.54349023823,33.8793610757599],[-114.721386481069,33.61355160508]]},"properties":{"prmname":"HUDPV_Palo Verde Ag-S","description":"Surface supplies to Palo Verde Ag","type":"Diversion","origin":"HUDPV","terminus":"AGS PV","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

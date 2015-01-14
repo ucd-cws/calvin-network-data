@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-120.80028161474,37.5195066218297]},"properties":{"prmname":"HGU12","description":"Hidden node for calibration of GW-12","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

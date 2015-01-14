@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.978038937311,
+        37.3499372537025
+      ],
+      [
+        -121.036483821623,
+        37.4507316964727
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D695_D697",
+    "description": "San Joaquin River Reach",
+    "type": "Diversion",
+    "origin": "D695",
+    "terminus": "D697",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

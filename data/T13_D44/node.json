@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.947631505286,38.7951403712714],[-121.516053952562,38.4366833735026]]},"properties":{"prmname":"T13_D44","description":"SW Discharge to Sacramento River","type":"Diversion","origin":"T13SAC","terminus":"D44","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

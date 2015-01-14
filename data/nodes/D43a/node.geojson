@@ -1,0 +1,30 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.902082556755,
+      39.1708913731973
+    ]
+  },
+  "properties": {
+    "prmname": "D43a",
+    "description": "Temporary until Reg1 and 2 are linked as this is DA14 inflow to Feather at Sac",
+    "type": "Junction",
+    "origins": null,
+    "terminals": [
+      "D43"
+    ],
+    "inflows": [
+      {
+        "name": "DA14 outflow -Butte creek and Little Chico Creek",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

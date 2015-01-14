@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.534124905055,
+      40.5828718825412
+    ]
+  },
+  "properties": {
+    "prmname": "SR-3",
+    "description": "Whiskeytown Lake",
+    "type": "Surface Storage",
+    "origins": [
+      "D94&D40"
+    ],
+    "terminals": [
+      "D5",
+      "D73",
+      "HSU1SR3"
+    ],
+    "initialstorage": 200,
+    "endingstorage": 235,
+    "areacapfactor": 0.012485,
+    "inflows": [
+      {
+        "name": "CLEAR CREEK",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ],
+    "el_ar_cap": [
+      {
+        "elevation": 958,
+        "area": 0,
+        "capacity": 0
+      },
+      {
+        "elevation": 1075,
+        "area": 0.5,
+        "capacity": 13
+      },
+      {
+        "elevation": 1112,
+        "area": 1,
+        "capacity": 39
+      },
+      {
+        "elevation": 1142,
+        "area": 1.60000002384186,
+        "capacity": 78
+      },
+      {
+        "elevation": 1163,
+        "area": 2.09999990463257,
+        "capacity": 116
+      },
+      {
+        "elevation": 1174,
+        "area": 2.29999995231628,
+        "capacity": 142
+      },
+      {
+        "elevation": 1185,
+        "area": 2.59999990463257,
+        "capacity": 168
+      },
+      {
+        "elevation": 1194,
+        "area": 2.79999995231628,
+        "capacity": 194
+      },
+      {
+        "elevation": 1207,
+        "area": 3.20000004768372,
+        "capacity": 233
+      },
+      {
+        "elevation": 1212,
+        "area": 3.29999995231628,
+        "capacity": 250
+      }
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 10
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

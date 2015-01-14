@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.247308700121,35.5600049541763],[-119.462564507513,35.6009325600128]]},"properties":{"prmname":"C62_C64","description":"Friant-Kern Canal Reach 5","type":"Diversion","origin":"C62","terminus":"C64","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

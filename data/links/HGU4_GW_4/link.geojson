@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.892772421506,
+        39.1040017476508
+      ],
+      [
+        -121.890629175654,
+        39.1484155776909
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGU4_GW-4",
+    "description": "Link from hidden node for calibration of GW-4",
+    "type": "Diversion",
+    "origin": "HGU4",
+    "terminus": "GW-4",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

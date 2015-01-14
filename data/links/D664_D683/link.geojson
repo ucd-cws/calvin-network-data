@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.463028974626,
+        37.6669321206054
+      ],
+      [
+        -121.174881382791,
+        37.6078380236462
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D664_D683",
+    "description": "Tuolumne River Reach.  Minimum instream flow requirement.",
+    "type": "Diversion",
+    "origin": "D664",
+    "terminus": "D683",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_lower_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_lower_bound.json"
+        }
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

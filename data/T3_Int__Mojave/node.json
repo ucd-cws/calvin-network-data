@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.141170154743,34.6733060911038],[-116.174018449357,34.680415818533]]},"properties":{"prmname":"T3_Int: Mojave","description":"Total Urban Penalty Function","type":"Diversion","origin":"T3MOJA","terminus":"INT MR","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

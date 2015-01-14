@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.05183666746,
+        38.8922412033568
+      ],
+      [
+        -121.897355289412,
+        38.5709805174801
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU6C314_C17",
+    "description": "Knights Landing Ridge Cut and Sacramento River water delivery to CVPM 6 (DA 12)",
+    "type": "Diversion",
+    "origin": "HSU6C314",
+    "terminus": "C17",
+    "amplitude": 0.88,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

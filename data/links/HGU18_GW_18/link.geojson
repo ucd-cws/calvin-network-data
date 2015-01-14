@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.481100287911,
+        35.2405607008948
+      ],
+      [
+        -119.278875542828,
+        36.1239534380381
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGU18_GW-18",
+    "description": "Return flow to GW from urban CVPM18",
+    "type": "Diversion",
+    "origin": "HGU18",
+    "terminus": "GW-18",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

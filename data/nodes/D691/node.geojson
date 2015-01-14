@@ -1,0 +1,32 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.852033479131,
+      37.2479408575742
+    ]
+  },
+  "properties": {
+    "prmname": "D691",
+    "description": "Mud Slough & Salt Slough inflow to S Joaquin R",
+    "type": "Junction",
+    "origins": [
+      "D619"
+    ],
+    "terminals": [
+      "D694"
+    ],
+    "inflows": [
+      {
+        "name": "Accretion San Joaquin River: Bypass to Merced (Mud Slough and Salt Slough)",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

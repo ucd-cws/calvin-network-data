@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.314483776435,
+        40.053369594467
+      ],
+      [
+        -122.234680806791,
+        39.9675844458475
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU2C1_CVPM2",
+    "description": "Sacramnto River diversions between Red Bluff and Ord Ferry to CVPM 2",
+    "type": "Diversion",
+    "origin": "HSU2C1",
+    "terminus": "CVPM2",
+    "amplitude": 0.88,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

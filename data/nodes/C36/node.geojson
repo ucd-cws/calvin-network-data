@@ -1,0 +1,26 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.890157588306,
+      38.1042547720442
+    ]
+  },
+  "properties": {
+    "prmname": "C36",
+    "description": "CVPM8 delivery",
+    "type": "Junction",
+    "origins": [
+      "HSU8C173",
+      "HSU8C37",
+      "HSU8C43",
+      "HGP8",
+      "HSU8D98"
+    ],
+    "terminals": [
+      "Sink R1"
+    ],
+    "inflows": null
+  }
+}

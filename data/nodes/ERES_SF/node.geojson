@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.322156992625,
+      37.6120482557109
+    ]
+  },
+  "properties": {
+    "prmname": "ERES SF",
+    "description": "Exterior Urban Residential includes all of DAU 43",
+    "type": "Urban Demand",
+    "origins": [
+      "T20SFPU"
+    ],
+    "terminals": [
+      "Sink G31"
+    ],
+    "inflows": null
+  }
+}

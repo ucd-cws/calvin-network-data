@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.04170641,35.3827521620684],[-118.188484998318,36.9122557898739]]},"properties":{"prmname":"C120_GW-OW","description":"GW-OW Artificial Recharge","type":"Diversion","origin":"C120","terminus":"GW-OW","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

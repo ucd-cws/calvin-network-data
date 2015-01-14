@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.736275946117,
+        37.3469076116457
+      ],
+      [
+        -121.99112852313,
+        37.5351336180286
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T7_C79",
+    "description": "Hypothetical Transfer from Santa Clara to SFPUC",
+    "type": "Diversion",
+    "origin": "T7SCV",
+    "terminus": "C79",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": -148
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 0
+      }
+    }
+  }
+}

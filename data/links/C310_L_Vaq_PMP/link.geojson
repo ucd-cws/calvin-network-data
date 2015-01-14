@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.632888541271,
+        37.8839426366446
+      ],
+      [
+        -121.726618872488,
+        37.8419967106776
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C310_Los Vaqueros PMP",
+    "description": "Diversion to Los Vaqueros Pumping Plant",
+    "type": "Diversion",
+    "origin": "C310",
+    "terminus": "L Vaq PMP",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

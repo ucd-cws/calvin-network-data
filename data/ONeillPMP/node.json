@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.041418771855,37.0988342010771]},"properties":{"prmname":"ONeillPMP","description":"ONeill Pumping Plant","type":"Pump Plant","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

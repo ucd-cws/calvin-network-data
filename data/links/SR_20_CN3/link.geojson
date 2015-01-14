@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.268021343829,
+        37.5839345149061
+      ],
+      [
+        -120.388435859804,
+        37.3523524888737
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-20_CN3",
+    "description": "Calibration flow to remove water for 4a infeasibilities at SR-20",
+    "type": "Diversion",
+    "origin": "SR-20",
+    "terminus": "CN3",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.496984063109,
+        36.5450256306289
+      ],
+      [
+        -119.503073985295,
+        36.5792993461957
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HAR17_GW-17",
+    "description": "Artificial recharge from Kings R and Friant-Kern Canal diversions",
+    "type": "Diversion",
+    "origin": "HAR17",
+    "terminus": "GW-17",
+    "amplitude": 0.95,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

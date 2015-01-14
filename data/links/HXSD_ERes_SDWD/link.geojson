@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.443731088611,
+        33.8670128660885
+      ],
+      [
+        -116.66425641619,
+        33.0455973250807
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T30_ERes: San Diego",
+    "description": "Urban supply",
+    "type": "Diversion",
+    "origin": "HXSD",
+    "terminus": "ERes:SDWD",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

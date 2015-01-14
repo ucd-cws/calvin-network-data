@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-117.172945814811,33.6060945459513]},"properties":{"prmname":"HWWT12","description":"Hidden node for exapanded wastewater recycling for EMWD","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

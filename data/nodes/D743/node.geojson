@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.840908056513,
+      36.9482176569146
+    ]
+  },
+  "properties": {
+    "prmname": "D743",
+    "description": "California Aqueduct losses",
+    "type": "Junction",
+    "origins": [
+      "D742"
+    ],
+    "terminals": [
+      "SinkG6",
+      "DAmigoPMP"
+    ],
+    "inflows": null
+  }
+}

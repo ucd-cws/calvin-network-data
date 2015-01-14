@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-117.288234276798,35.8878011690702]},"properties":{"prmname":"Sink G33","description":"ANTELOPE VALLEY outflow (to salt sink or evap)","type":"Sink","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

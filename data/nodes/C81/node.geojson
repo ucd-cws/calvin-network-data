@@ -1,0 +1,30 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.10210046366,
+      40.0428793733115
+    ]
+  },
+  "properties": {
+    "prmname": "C81",
+    "description": "",
+    "type": "Junction",
+    "origins": null,
+    "terminals": [
+      "C82"
+    ],
+    "inflows": [
+      {
+        "name": "DA66 Outflow",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

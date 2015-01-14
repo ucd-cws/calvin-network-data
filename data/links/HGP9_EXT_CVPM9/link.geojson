@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.706703778334,
+        38.3560509669267
+      ],
+      [
+        -121.479154501275,
+        37.9360979188775
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGP9_Ext: CVPM9",
+    "description": "Urban pumping from GW-9 to CVPM9 exterior",
+    "type": "Diversion",
+    "origin": "HGP9",
+    "terminus": "EXT CVPM9",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

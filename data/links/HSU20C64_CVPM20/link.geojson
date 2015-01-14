@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.318332742506,
+        35.5350774590398
+      ],
+      [
+        -119.113180568819,
+        35.6220259850101
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU20C64_CVPM20",
+    "description": "Friant-Kern Canal delivery to CVPM 20 (DA 60G)",
+    "type": "Diversion",
+    "origin": "HSU20C64",
+    "terminus": "CVPM20",
+    "amplitude": 0.93,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

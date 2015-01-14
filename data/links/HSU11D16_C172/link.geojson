@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.514604041222,
+        37.4175239318383
+      ],
+      [
+        -120.985713783672,
+        37.7290713930282
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU11D16_C172",
+    "description": "Oakdale and South San Joaquin canal diversion from Stanislaus River to CVPM11",
+    "type": "Diversion",
+    "origin": "HSU11D16",
+    "terminus": "C172",
+    "amplitude": 0.82,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

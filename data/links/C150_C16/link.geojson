@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.239085979692,
+        38.8898988102653
+      ],
+      [
+        -122.085966531399,
+        38.7146890735702
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C150_C16",
+    "description": "Cache Creek DA16 outflow",
+    "type": "Diversion",
+    "origin": "C150",
+    "terminus": "C16",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

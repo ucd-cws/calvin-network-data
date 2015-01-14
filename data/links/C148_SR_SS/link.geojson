@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -115.596923181264,
+        33.1989387877457
+      ],
+      [
+        -115.81902019917,
+        33.3084281919558
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C148_SR-SS",
+    "description": "Salton Sea connection from New and Alamo Rivers (currently neglected)",
+    "type": "Diversion",
+    "origin": "C148",
+    "terminus": "SR-SS",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.921548602379,
+        34.5124354552359
+      ],
+      [
+        -117.86537214369,
+        34.4799752317087
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Pearblossom Pumping Plant_C124",
+    "description": "SWP East Branch",
+    "type": "Diversion",
+    "origin": "PB PMP",
+    "terminus": "C124",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 75.7908
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

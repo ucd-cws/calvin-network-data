@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.648569390486,
+      39.3072200208234
+    ]
+  },
+  "properties": {
+    "prmname": "T62YUBA",
+    "description": "Wastewater Treatment node from Yuba",
+    "type": "Water Treatment",
+    "origins": [
+      "INT YUBA"
+    ],
+    "terminals": [
+      "D37",
+      "T61YUBA"
+    ],
+    "inflows": null
+  }
+}

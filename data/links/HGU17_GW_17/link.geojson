@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.562464490626,
+        35.4128934991933
+      ],
+      [
+        -119.503073985295,
+        36.5792993461957
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGU17_GW-17",
+    "description": "Return flow to GW from Urban CVPM 17 ",
+    "type": "Diversion",
+    "origin": "HGU17",
+    "terminus": "GW-17",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

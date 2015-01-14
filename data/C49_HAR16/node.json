@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.562354196147,36.8528471361185],[-119.534984682506,36.5616445381648]]},"properties":{"prmname":"C49_HAR16","description":"Frian-Kern Canal to SR16 for spreading","type":"Diversion","origin":"C49","terminus":"HAR16","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

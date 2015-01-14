@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.219480606998,
+      36.3071183393206
+    ]
+  },
+  "properties": {
+    "prmname": "CVPM14",
+    "description": "CVPM14 Agricultural Demand",
+    "type": "Agricultural Demand",
+    "origins": [
+      "HSU14D608",
+      "HSU14C92",
+      "HGP14"
+    ],
+    "terminals": [
+      "GW-14"
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": null,
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

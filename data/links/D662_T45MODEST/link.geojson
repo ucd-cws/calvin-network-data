@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.445529186787,
+        37.6740311818067
+      ],
+      [
+        -120.922433506324,
+        37.7329477412083
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D662_T45",
+    "description": "Transfer of SW from Ag AW from Modesto ID off Tuolemne to urban",
+    "type": "Diversion",
+    "origin": "D662",
+    "terminus": "T45MODEST",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 74
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 0
+      }
+    }
+  }
+}

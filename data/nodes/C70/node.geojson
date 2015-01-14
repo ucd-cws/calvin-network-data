@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.765429109815,
+      37.9834704359914
+    ]
+  },
+  "properties": {
+    "prmname": "C70",
+    "description": "Contra Costa Canal inflow from Los Vaqueros Reservoir",
+    "type": "Junction",
+    "origins": [
+      "CC1 PMP",
+      "C310"
+    ],
+    "terminals": [
+      "C71"
+    ],
+    "inflows": null
+  }
+}

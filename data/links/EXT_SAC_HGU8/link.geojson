@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.947631505286,
+        38.7951403712714
+      ],
+      [
+        -121.097476786038,
+        38.3760243846107
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Ext: Sacramento_HGU8",
+    "description": "return flows from greater sacramento exterior",
+    "type": "Diversion",
+    "origin": "EXT SAC",
+    "terminus": "HGU8",
+    "amplitude": 0.002,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

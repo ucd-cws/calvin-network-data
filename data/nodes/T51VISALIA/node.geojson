@@ -1,0 +1,26 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.278875542828,
+      36.1239534380381
+    ]
+  },
+  "properties": {
+    "prmname": "T51VISALIA",
+    "description": "Visalia/Tulare CVPM18 Urban IN",
+    "type": "Water Treatment",
+    "origins": [
+      "C688",
+      "HGP18",
+      "T52VISALIA",
+      "C56"
+    ],
+    "terminals": [
+      "INT CVPM18",
+      "EXT CVPM18"
+    ],
+    "inflows": null
+  }
+}

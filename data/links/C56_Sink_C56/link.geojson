@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.045337303855,
+        36.3888493616178
+      ],
+      [
+        -119.25688829045,
+        36.0603446135928
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C56_Sink C56",
+    "description": "Depletion from Kaweah River",
+    "type": "Diversion",
+    "origin": "C56",
+    "terminus": "Sink C56",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "label": "JAN",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 36.6720008850098
+      },
+      {
+        "capacity": 183.360000610352,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "FEB",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 66.2819976806641
+      },
+      {
+        "capacity": 331.410003662109,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "MAR",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 72.8740005493164
+      },
+      {
+        "capacity": 364.369995117188,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "APR",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 85.25
+      },
+      {
+        "capacity": 426.25,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "MAY",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 97.0759963989258
+      },
+      {
+        "capacity": 485.380004882812,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "JUN",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 106.818000793457
+      },
+      {
+        "capacity": 534.090026855469,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "JUL",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 112.734001159668
+      },
+      {
+        "capacity": 563.669982910156,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "AUG",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 99.9260025024414
+      },
+      {
+        "capacity": 499.630004882812,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "SEP",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 73.4520034790039
+      },
+      {
+        "capacity": 367.260009765625,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "OCT",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 48.273998260498
+      },
+      {
+        "capacity": 241.369995117188,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "NOV",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 37.0260009765625
+      },
+      {
+        "capacity": 185.130004882812,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "DEC",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 36.765998840332
+      },
+      {
+        "capacity": 183.830001831055,
+        "cost": 0
+      }
+    ]
+  }
+]

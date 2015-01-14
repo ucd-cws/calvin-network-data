@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.900290711398,
+      37.5073151962331
+    ]
+  },
+  "properties": {
+    "prmname": "EXT CVPM12",
+    "description": "100% of DAU 208, exterior",
+    "type": "Urban Demand",
+    "origins": [
+      "T66Turlock"
+    ],
+    "terminals": [
+      "HGU12"
+    ],
+    "inflows": null
+  }
+}

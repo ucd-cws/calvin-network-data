@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-117.589555655491,34.1284683475226]},"properties":{"prmname":"HXEWMWD","description":"Hidden node for year type variation in demand, e&w mwd","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

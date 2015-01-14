@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.134545111916,35.2909192932068],[-119.134545111916,35.2909192932068]]},"properties":{"prmname":"T28_Ext:Bakersfiled","description":"inflows to exterior urban ","type":"Diversion","origin":"T28BAKE","terminus":"EXT BAKER","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

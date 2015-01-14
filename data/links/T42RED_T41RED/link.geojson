@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.362535142639,
+        40.4665538312452
+      ],
+      [
+        -122.362535142639,
+        40.4665538312452
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T42_T41",
+    "description": "Proposed recycling for Redding",
+    "type": "Diversion",
+    "origin": "T42RED",
+    "terminus": "T41RED",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 1480
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 2.4
+      }
+    }
+  }
+}

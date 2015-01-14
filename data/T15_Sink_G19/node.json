@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.098831500502,38.3149985455252],[-122.156716003837,37.7975846038153]]},"properties":{"prmname":"T15_Sink G19","description":"Napa Solano","type":"Diversion","origin":"T15NAPA","terminus":"Sink G19","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

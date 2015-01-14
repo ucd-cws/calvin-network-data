@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.134545111916,
+        35.2909192932068
+      ],
+      [
+        -119.212830377025,
+        35.3254822477501
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T29_C73",
+    "description": "Bakersfield SW discharge to Kern River",
+    "type": "Diversion",
+    "origin": "T29BAKE",
+    "terminus": "C73",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

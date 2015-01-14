@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.798984941433,
+        34.7398982396017
+      ],
+      [
+        -118.789214237209,
+        34.6869658819983
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D885_Warne Power Plant",
+    "description": "SWP West Branch (unconstrained)",
+    "type": "Diversion",
+    "origin": "D885",
+    "terminus": "Warne PWP",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

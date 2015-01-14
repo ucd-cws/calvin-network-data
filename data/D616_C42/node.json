@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.268051386635,37.6669296669134],[-121.369202744358,37.9679856298384]]},"properties":{"prmname":"D616_C42","description":"San Joaquin outflow from Reg 3 at Vernalis","type":"Diversion","origin":"D616","terminus":"C42","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

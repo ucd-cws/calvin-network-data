@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.239085979692,
+        38.8898988102653
+      ],
+      [
+        -122.239085979692,
+        38.8898988102653
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-CL-IVR_C150",
+    "description": "Reservoir release from Indian Valley/Clear Lake to Cache Creek",
+    "type": "Diversion",
+    "origin": "SR-CL-IVR",
+    "terminus": "C150",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

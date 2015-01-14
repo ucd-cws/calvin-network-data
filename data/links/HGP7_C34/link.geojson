@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.313920559084,
+        38.7961893607788
+      ],
+      [
+        -121.426387260909,
+        38.7183241572419
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGP7_C34",
+    "description": "Agricultural groundwater pumping GW-7 to CVPM 7 Demand",
+    "type": "Diversion",
+    "origin": "HGP7",
+    "terminus": "C34",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 23.07
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 120.5
+      }
+    }
+  }
+}

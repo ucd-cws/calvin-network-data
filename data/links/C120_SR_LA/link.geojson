@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.04170641,
+        35.3827521620684
+      ],
+      [
+        -117.948912057477,
+        36.1369418176802
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C120_SR-LA",
+    "description": "LA Aqueduct",
+    "type": "Diversion",
+    "origin": "C120",
+    "terminus": "SR-LA",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

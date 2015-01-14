@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.164737448427,37.762855076232],[-122.117807583529,37.8150169196961]]},"properties":{"prmname":"T17_Ind: EBMUD","description":"EBMUD Ind Urban Penalty Function","type":"Diversion","origin":"T17EBMU","terminus":"IND EBMUD","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

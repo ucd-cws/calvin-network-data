@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.460878953592,33.8330169944144],[-118.420343339788,34.7057815093548]]},"properties":{"prmname":"SR-LM_C161","description":"Upper & Lower Feeders","type":"Diversion","origin":"SR-LM","terminus":"C161","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.611791831712,
+        34.5556980766025
+      ],
+      [
+        -117.688204369656,
+        33.7992227312183
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T9_Sink G44",
+    "description": "SW Discharge to ocean via local streams",
+    "type": "Diversion",
+    "origin": "T9SBV",
+    "terminus": "Sink G44",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

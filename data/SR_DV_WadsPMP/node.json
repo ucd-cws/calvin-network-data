@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.029964545956,33.6847161375691],[-117.071442906084,33.6828438166867]]},"properties":{"prmname":"SR-DV_WadsPMP","description":"Eastside Pipeline","type":"Diversion","origin":"SR-DV","terminus":"WadsPMP","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

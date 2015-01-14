@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.383158846131,
+        36.8168493904958
+      ],
+      [
+        -119.25688829045,
+        36.0603446135928
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C53_Sink C53",
+    "description": "Depletion from Kings River",
+    "type": "Diversion",
+    "origin": "C53",
+    "terminus": "Sink C53",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.996975525405,
+        38.2157469334745
+      ],
+      [
+        -120.996975525405,
+        38.2157469334745
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T44_T43",
+    "description": "Proposed recycling for Galt",
+    "type": "Diversion",
+    "origin": "T44GALT",
+    "terminus": "T43GALT",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 1480
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 1.87
+      }
+    }
+  }
+}

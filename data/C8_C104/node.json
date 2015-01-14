@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.50506664477,38.5889050089165],[-121.508579609707,38.4744229664258]]},"properties":{"prmname":"C8_C104","description":"Sacramento River DA 70 outflow","type":"Diversion","origin":"C8","terminus":"C104","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

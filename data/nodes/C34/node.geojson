@@ -1,0 +1,25 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.426387260909,
+      38.7183241572419
+    ]
+  },
+  "properties": {
+    "prmname": "C34",
+    "description": "CVPM7 delivery",
+    "type": "Junction",
+    "origins": [
+      "HGP7",
+      "HSU7C67",
+      "HSU7C33",
+      "HSU7D42"
+    ],
+    "terminals": [
+      "Sink R1"
+    ],
+    "inflows": null
+  }
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "label": "JAN",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 9.70219993591309
+      },
+      {
+        "capacity": 485.109985351562,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "FEB",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 10.9879999160767
+      },
+      {
+        "capacity": 549.400024414062,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "MAR",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 11.336199760437
+      },
+      {
+        "capacity": 566.809997558594,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "APR",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 11.7877998352051
+      },
+      {
+        "capacity": 589.390014648438,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "MAY",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 12.1157999038696
+      },
+      {
+        "capacity": 605.789978027344,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "JUN",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 12.2678003311157
+      },
+      {
+        "capacity": 613.390014648438,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "JUL",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 12.2678003311157
+      },
+      {
+        "capacity": 613.390014648438,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "AUG",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 12.2678003311157
+      },
+      {
+        "capacity": 613.390014648438,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "SEP",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 12.2678003311157
+      },
+      {
+        "capacity": 613.390014648438,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "OCT",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 12.1157999038696
+      },
+      {
+        "capacity": 605.789978027344,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "NOV",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 11.7877998352051
+      },
+      {
+        "capacity": 589.390014648438,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "DEC",
+    "costs": [
+      {
+        "capacity": 0,
+        "cost": 9.70219993591309
+      },
+      {
+        "capacity": 485.109985351562,
+        "cost": 0
+      }
+    ]
+  }
+]

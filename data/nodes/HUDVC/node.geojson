@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.057438909704,
+      34.4519538850142
+    ]
+  },
+  "properties": {
+    "prmname": "HUDVC",
+    "description": "Hidden node for ventura ag supplied by surface water",
+    "type": "Junction",
+    "origins": [
+      "T55VENT"
+    ],
+    "terminals": [
+      "AGG VENT",
+      "AGS VENT"
+    ],
+    "inflows": null
+  }
+}

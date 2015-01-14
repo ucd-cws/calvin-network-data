@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.499962464575,
+        34.5325489788068
+      ],
+      [
+        -118.499962464575,
+        34.5325489788068
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Castaic Lake Interior_T60",
+    "description": "Return Flow TOTAL",
+    "type": "Diversion",
+    "origin": "INT CLWA",
+    "terminus": "T60CLWA",
+    "amplitude": 0.9,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

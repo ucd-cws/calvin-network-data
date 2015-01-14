@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.877963222303,
+        35.0472467452297
+      ],
+      [
+        -119.051308743334,
+        35.2338685142177
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C98_HGU21",
+    "description": "Link representing artificial recharge in GW basin 21: Kern Water Bank and Arvin Eddison GW recharge.  Capacity = percolation capacity. 450 + 140 cfs resp. = 590 cfs = 36 KAF/mo.\r\n",
+    "type": "Diversion",
+    "origin": "C98",
+    "terminus": "HGU21",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 7.4
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

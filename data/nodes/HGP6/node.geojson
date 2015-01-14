@@ -1,0 +1,26 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.049205493791,
+      38.5334865204246
+    ]
+  },
+  "properties": {
+    "prmname": "HGP6",
+    "description": "Hidden node for calibration of GW-6",
+    "type": "Junction",
+    "origins": [
+      "GW-6"
+    ],
+    "terminals": [
+      "C17",
+      "CVPM6",
+      "INT CVPM6",
+      "EXT CVPM6",
+      "T14NAPA"
+    ],
+    "inflows": null
+  }
+}

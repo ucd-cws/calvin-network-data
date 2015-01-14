@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.164737448427,
+        37.762855076232
+      ],
+      [
+        -122.117807583529,
+        37.8150169196961
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T17_ERes: EBMUD",
+    "description": "Diversion for urban water delivery to exterior EBMUD",
+    "type": "Diversion",
+    "origin": "T17EBMU",
+    "terminus": "ERES EBMUD",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

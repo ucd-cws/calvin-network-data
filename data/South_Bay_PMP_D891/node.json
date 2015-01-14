@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.626071776068,37.7792191246874],[-121.771228895671,37.6365782750809]]},"properties":{"prmname":"South Bay PMP_D891","description":"South Bay Aqueduct Pumping Plant","type":"Diversion","origin":"SoBayPMP","terminus":"D891","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

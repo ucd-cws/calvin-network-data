@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.889590176609,
+        37.0974473418758
+      ],
+      [
+        -120.364861836223,
+        36.9762779661175
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D624_C48",
+    "description": "Fresno River Reach",
+    "type": "Diversion",
+    "origin": "D624",
+    "terminus": "C48",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

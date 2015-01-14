@@ -1,0 +1,55 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.639083082479,
+      39.4578870023479
+    ]
+  },
+  "properties": {
+    "prmname": "SR-7",
+    "description": "Thermalito Afterbay",
+    "type": "Surface Storage",
+    "origins": [
+      "C23"
+    ],
+    "terminals": [
+      "C25",
+      "C80"
+    ],
+    "initialstorage": 49.4,
+    "endingstorage": 10.89,
+    "areacapfactor": 0.07,
+    "inflows": null,
+    "el_ar_cap": [
+      {
+        "elevation": 124,
+        "area": 1.1360000371933,
+        "capacity": 15.1560001373291
+      },
+      {
+        "elevation": 136,
+        "area": 4.11499977111816,
+        "capacity": 54.9059982299805
+      }
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 9.7
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 11.8
+      }
+    }
+  }
+}

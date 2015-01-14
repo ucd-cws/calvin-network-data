@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.920259920887,
+      35.9173652324539
+    ]
+  },
+  "properties": {
+    "prmname": "C75",
+    "description": "California Aqueduct, aggregation of DWRSIM 841, 842, 843, 844",
+    "type": "Junction",
+    "origins": [
+      "D751"
+    ],
+    "terminals": [
+      "HSU15C75",
+      "D845"
+    ],
+    "inflows": null
+  }
+}

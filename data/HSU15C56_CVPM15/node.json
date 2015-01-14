@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.637704546861,36.189704866183],[-119.843124733344,36.2765886623304]]},"properties":{"prmname":"HSU15C56_CVPM15","description":"Kaweah River diversion for CVPM 15","type":"Diversion","origin":"HSU15C56","terminus":"CVPM15","amplitude":0.84,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

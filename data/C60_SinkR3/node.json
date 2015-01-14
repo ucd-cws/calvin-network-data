@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.253568079536,36.0664668938942],[-120.706070535435,35.7074505158318]]},"properties":{"prmname":"C60_SinkR3","description":"Debug losses from CVPM 18\r\n","type":"Diversion","origin":"C60","terminus":"Sink R3","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

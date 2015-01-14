@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.620335315972,
+        35.5061994937699
+      ],
+      [
+        -119.54431000747,
+        35.4594031728681
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Int: CVPM19_HGU19",
+    "description": "GW return flow from fixed CVPM urban pumping demand",
+    "type": "Diversion",
+    "origin": "INT CVPM19",
+    "terminus": "HGU19",
+    "amplitude": 0.448,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

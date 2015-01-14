@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.675094339315,
+        39.0244525182244
+      ],
+      [
+        -121.748993773597,
+        39.0628887958485
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSURC311_Sac East Refuges",
+    "description": "Delivery into the Sacramento East Refuges",
+    "type": "Diversion",
+    "origin": "HSURC311",
+    "terminus": "Sac E Ref",
+    "amplitude": 0.87785,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

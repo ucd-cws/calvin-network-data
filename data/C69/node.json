@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.051638650594,39.791657483384]},"properties":{"prmname":"C69","description":"Glenn Colusa California Aqueductnal","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

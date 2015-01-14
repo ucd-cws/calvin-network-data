@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.472710524852,38.0290410945032]},"properties":{"prmname":"D521","description":"Delta Cross Channel inflow to San Joaquin River","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

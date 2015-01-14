@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.654022339866,33.0562684285393],[-116.914539265617,33.0175153078573]]},"properties":{"prmname":"T30_Ind: San Diego","description":"Ind Urban Penatly Function","type":"Diversion","origin":"T30SDMWD","terminus":"Ind: SDMWD","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

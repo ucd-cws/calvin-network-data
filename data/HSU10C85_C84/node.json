@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.817450877466,36.8973661192954],[-120.924187544162,37.1205594111816]]},"properties":{"prmname":"HSU10C85_C84","description":"San Luis Canal deliveries to CVPM10","type":"Diversion","origin":"HSU10C85","terminus":"C84","amplitude":0.93,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

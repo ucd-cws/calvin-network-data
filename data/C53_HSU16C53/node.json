@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.383158846131,36.8168493904958],[-119.779741722925,36.589731269458]]},"properties":{"prmname":"C53_HSU16C53","description":"Surface delivery CVPM 16","type":"Diversion","origin":"C53","terminus":"HSU16C53","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

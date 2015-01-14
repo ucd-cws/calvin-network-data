@@ -1,0 +1,25 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.467149257076,
+      38.5031798726811
+    ]
+  },
+  "properties": {
+    "prmname": "D503",
+    "description": "Sacramento River diversion to Isolated Facility",
+    "type": "Junction",
+    "origins": [
+      "CN2",
+      "D44"
+    ],
+    "terminals": [
+      "CN2",
+      "ISOL F PMP",
+      "D511"
+    ],
+    "inflows": null
+  }
+}

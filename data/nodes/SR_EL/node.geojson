@@ -1,0 +1,66 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.268069997047,
+      39.2388930152309
+    ]
+  },
+  "properties": {
+    "prmname": "SR-EL",
+    "description": "Englebright Lake",
+    "type": "Surface Storage",
+    "origins": [
+      "C27"
+    ],
+    "terminals": [
+      "C28"
+    ],
+    "initialstorage": 66,
+    "endingstorage": 66,
+    "areacapfactor": 0.010196,
+    "inflows": null,
+    "el_ar_cap": [
+      {
+        "elevation": 507,
+        "area": 0.600000023841858,
+        "capacity": 50
+      },
+      {
+        "elevation": 522,
+        "area": 0.810000002384186,
+        "capacity": 65
+      },
+      {
+        "elevation": 527,
+        "area": 0.814999997615814,
+        "capacity": 70
+      },
+      {
+        "elevation": 530,
+        "area": 0.815999984741211,
+        "capacity": 72.4000015258789
+      }
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 50
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

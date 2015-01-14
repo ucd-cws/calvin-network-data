@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.141170154743,
+        34.6733060911038
+      ],
+      [
+        -117.125598383568,
+        34.686885942377
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T32_GW-MJ",
+    "description": "GW-MJ Urban Recharge",
+    "type": "Diversion",
+    "origin": "T32MOJA",
+    "terminus": "GW-MJ",
+    "amplitude": 0.85,
+    "costs": {
+      "type": "Constant",
+      "cost": 48.84
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 1.05
+      }
+    }
+  }
+}

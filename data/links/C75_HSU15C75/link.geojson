@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.920259920887,
+        35.9173652324539
+      ],
+      [
+        -119.955927737966,
+        36.2145022881009
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C75_HSU15C75",
+    "description": "Surface delivery CVPM 15",
+    "type": "Diversion",
+    "origin": "C75",
+    "terminus": "HSU15C75",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

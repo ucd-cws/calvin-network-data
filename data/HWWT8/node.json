@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-116.890057148465,33.1253272760922]},"properties":{"prmname":"HWWT8","description":"Hidden node for exapanded wastewater recycling for San Diego","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

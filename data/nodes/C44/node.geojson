@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.948451672853,
+      37.8941345136029
+    ]
+  },
+  "properties": {
+    "prmname": "C44",
+    "description": "Lower Cherry Creek Aqueduct inflow to Hetch Hetchy Aqueduct",
+    "type": "Junction",
+    "origins": [
+      "SR-LL-LE",
+      "SR-HHR"
+    ],
+    "terminals": [
+      "SinkCN3",
+      "C88"
+    ],
+    "inflows": null
+  }
+}

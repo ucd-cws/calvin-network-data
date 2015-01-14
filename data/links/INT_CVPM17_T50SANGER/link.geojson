@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.503073985295,
+        36.5792993461957
+      ],
+      [
+        -119.503073985295,
+        36.5792993461957
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Int: CVPM17_T50",
+    "description": "Return flows from CVPM 17 deliveries",
+    "type": "Diversion",
+    "origin": "INT CVPM17",
+    "terminus": "T50SANGER",
+    "amplitude": 0.9,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.098831500502,
+        38.3149985455252
+      ],
+      [
+        -122.098831500502,
+        38.3149985455252
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Ind: Napa-Solano_T15",
+    "description": "Ind Return flow TOTAL",
+    "type": "Diversion",
+    "origin": "IND NAPA",
+    "terminus": "T15NAPA",
+    "amplitude": 0.4,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

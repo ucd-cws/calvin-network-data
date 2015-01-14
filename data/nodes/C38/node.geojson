@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.440062681683,
+      38.2559146978965
+    ]
+  },
+  "properties": {
+    "prmname": "C38",
+    "description": "Cosumnes River inflow to Mokel. River",
+    "type": "Junction",
+    "origins": [
+      "C37",
+      "SR-CR"
+    ],
+    "terminals": [
+      "D98"
+    ],
+    "inflows": null
+  }
+}

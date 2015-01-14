@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.290860179691,
+        36.2877405135766
+      ],
+      [
+        -118.78779259902,
+        34.9137634453587
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "CN4_C103",
+    "description": "Calibration link",
+    "type": "Diversion",
+    "origin": "CN4",
+    "terminus": "C103",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

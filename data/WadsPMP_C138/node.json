@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.071442906084,33.6828438166867],[-117.046669019684,33.715050468208]]},"properties":{"prmname":"WadsPMP_C138","description":"Eastside pipeline","type":"Diversion","origin":"WadsPMP","terminus":"C138","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

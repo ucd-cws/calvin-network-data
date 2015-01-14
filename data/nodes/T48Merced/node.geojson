@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.321487789062,
+      37.1313881427344
+    ]
+  },
+  "properties": {
+    "prmname": "T48Merced",
+    "description": "Merced CVPM13 Urban OUT",
+    "type": "Water Treatment",
+    "origins": [
+      "INT CVPM13"
+    ],
+    "terminals": [
+      "T47Merced",
+      "HGU13"
+    ],
+    "inflows": null
+  }
+}

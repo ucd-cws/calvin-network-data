@@ -1,0 +1,20 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.706070535435,
+      35.7074505158318
+    ]
+  },
+  "properties": {
+    "prmname": "Sink D861",
+    "description": "California Aqueduct losses 14A-C",
+    "type": "Sink",
+    "origins": [
+      "D861"
+    ],
+    "terminals": null,
+    "inflows": null
+  }
+}

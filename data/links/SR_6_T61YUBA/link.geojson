@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.518080223416,
+        39.5328862108153
+      ],
+      [
+        -121.648569390486,
+        39.3072200208234
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-6_T61",
+    "description": "Diversion from Oroville Lake to Butte/Plumas/Yuba urban areas",
+    "type": "Diversion",
+    "origin": "SR-6",
+    "terminus": "T61YUBA",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 74
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

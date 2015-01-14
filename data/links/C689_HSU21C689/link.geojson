@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.091922146909,
+        35.3892075676441
+      ],
+      [
+        -119.201941542173,
+        35.4206701351545
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C689_HSU21C689",
+    "description": "Surface delivery Friant-Kern Canal to CVPM 21",
+    "type": "Diversion",
+    "origin": "C689",
+    "terminus": "HSU21C689",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 28.8
+      }
+    }
+  }
+}

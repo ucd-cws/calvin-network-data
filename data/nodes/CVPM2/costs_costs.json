@@ -1,0 +1,486 @@
+[
+  {
+    "label": "JAN",
+    "costs": [
+      {
+        "capacity": 0.01,
+        "cost": 1.41
+      },
+      {
+        "capacity": 0.02,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "FEB",
+    "costs": [
+      {
+        "capacity": 0.16,
+        "cost": 25.08
+      },
+      {
+        "capacity": 0.17,
+        "cost": 17.58
+      },
+      {
+        "capacity": 0.19,
+        "cost": 13.32
+      },
+      {
+        "capacity": 0.2,
+        "cost": 10.39
+      },
+      {
+        "capacity": 0.22,
+        "cost": 8.18
+      },
+      {
+        "capacity": 0.23,
+        "cost": 6.01
+      },
+      {
+        "capacity": 0.25,
+        "cost": 4.08
+      },
+      {
+        "capacity": 0.26,
+        "cost": 2.17
+      },
+      {
+        "capacity": 0.27,
+        "cost": 0.68
+      },
+      {
+        "capacity": 0.29,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "MAR",
+    "costs": [
+      {
+        "capacity": 3.83,
+        "cost": 608.94
+      },
+      {
+        "capacity": 4.18,
+        "cost": 422.53
+      },
+      {
+        "capacity": 4.53,
+        "cost": 323.6
+      },
+      {
+        "capacity": 4.88,
+        "cost": 250.51
+      },
+      {
+        "capacity": 5.22,
+        "cost": 195.62
+      },
+      {
+        "capacity": 5.57,
+        "cost": 145.24
+      },
+      {
+        "capacity": 5.92,
+        "cost": 97.16
+      },
+      {
+        "capacity": 6.27,
+        "cost": 52.85
+      },
+      {
+        "capacity": 6.62,
+        "cost": 15.92
+      },
+      {
+        "capacity": 6.97,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "APR",
+    "costs": [
+      {
+        "capacity": 22.67,
+        "cost": 3604.41
+      },
+      {
+        "capacity": 24.74,
+        "cost": 2500.39
+      },
+      {
+        "capacity": 26.8,
+        "cost": 1914.49
+      },
+      {
+        "capacity": 28.86,
+        "cost": 1482.69
+      },
+      {
+        "capacity": 30.92,
+        "cost": 1157.57
+      },
+      {
+        "capacity": 32.98,
+        "cost": 859.24
+      },
+      {
+        "capacity": 35.04,
+        "cost": 575.26
+      },
+      {
+        "capacity": 37.1,
+        "cost": 312.72
+      },
+      {
+        "capacity": 39.16,
+        "cost": 94.01
+      },
+      {
+        "capacity": 41.22,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "MAY",
+    "costs": [
+      {
+        "capacity": 41.19,
+        "cost": 6548.63
+      },
+      {
+        "capacity": 44.94,
+        "cost": 4542.54
+      },
+      {
+        "capacity": 48.68,
+        "cost": 3477.91
+      },
+      {
+        "capacity": 52.43,
+        "cost": 2693.88
+      },
+      {
+        "capacity": 56.17,
+        "cost": 2103.13
+      },
+      {
+        "capacity": 59.92,
+        "cost": 1561.03
+      },
+      {
+        "capacity": 63.66,
+        "cost": 1045.02
+      },
+      {
+        "capacity": 67.41,
+        "cost": 568.19
+      },
+      {
+        "capacity": 71.15,
+        "cost": 170.78
+      },
+      {
+        "capacity": 74.9,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "JUN",
+    "costs": [
+      {
+        "capacity": 46.48,
+        "cost": 7388.27
+      },
+      {
+        "capacity": 50.7,
+        "cost": 5125.05
+      },
+      {
+        "capacity": 54.93,
+        "cost": 3923.96
+      },
+      {
+        "capacity": 59.15,
+        "cost": 3039.21
+      },
+      {
+        "capacity": 63.38,
+        "cost": 2372.74
+      },
+      {
+        "capacity": 67.6,
+        "cost": 1761.16
+      },
+      {
+        "capacity": 71.83,
+        "cost": 1179.01
+      },
+      {
+        "capacity": 76.05,
+        "cost": 641.07
+      },
+      {
+        "capacity": 80.28,
+        "cost": 192.72
+      },
+      {
+        "capacity": 84.5,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "JUL",
+    "costs": [
+      {
+        "capacity": 57.5,
+        "cost": 9141.61
+      },
+      {
+        "capacity": 62.73,
+        "cost": 6341.11
+      },
+      {
+        "capacity": 67.96,
+        "cost": 4855.18
+      },
+      {
+        "capacity": 73.19,
+        "cost": 3760.39
+      },
+      {
+        "capacity": 78.41,
+        "cost": 2935.7
+      },
+      {
+        "capacity": 83.64,
+        "cost": 2179.07
+      },
+      {
+        "capacity": 88.87,
+        "cost": 1458.73
+      },
+      {
+        "capacity": 94.1,
+        "cost": 793.21
+      },
+      {
+        "capacity": 99.32,
+        "cost": 238.43
+      },
+      {
+        "capacity": 104.55,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "AUG",
+    "costs": [
+      {
+        "capacity": 48.21,
+        "cost": 7663.23
+      },
+      {
+        "capacity": 52.59,
+        "cost": 5315.91
+      },
+      {
+        "capacity": 56.97,
+        "cost": 4069.91
+      },
+      {
+        "capacity": 61.35,
+        "cost": 3152.28
+      },
+      {
+        "capacity": 65.73,
+        "cost": 2461.04
+      },
+      {
+        "capacity": 70.12,
+        "cost": 1826.74
+      },
+      {
+        "capacity": 74.5,
+        "cost": 1222.82
+      },
+      {
+        "capacity": 78.88,
+        "cost": 664.89
+      },
+      {
+        "capacity": 83.26,
+        "cost": 199.88
+      },
+      {
+        "capacity": 87.64,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "SEP",
+    "costs": [
+      {
+        "capacity": 29.19,
+        "cost": 4640.09
+      },
+      {
+        "capacity": 31.84,
+        "cost": 3218.42
+      },
+      {
+        "capacity": 34.49,
+        "cost": 2464.22
+      },
+      {
+        "capacity": 37.15,
+        "cost": 1908.66
+      },
+      {
+        "capacity": 39.8,
+        "cost": 1490.16
+      },
+      {
+        "capacity": 42.45,
+        "cost": 1105.99
+      },
+      {
+        "capacity": 45.11,
+        "cost": 740.44
+      },
+      {
+        "capacity": 47.76,
+        "cost": 402.65
+      },
+      {
+        "capacity": 50.41,
+        "cost": 121.02
+      },
+      {
+        "capacity": 53.07,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "OCT",
+    "costs": [
+      {
+        "capacity": 10.32,
+        "cost": 1640.91
+      },
+      {
+        "capacity": 11.26,
+        "cost": 1138.45
+      },
+      {
+        "capacity": 12.2,
+        "cost": 871.51
+      },
+      {
+        "capacity": 13.14,
+        "cost": 675.08
+      },
+      {
+        "capacity": 14.08,
+        "cost": 526.96
+      },
+      {
+        "capacity": 15.02,
+        "cost": 391.18
+      },
+      {
+        "capacity": 15.95,
+        "cost": 261.8
+      },
+      {
+        "capacity": 16.89,
+        "cost": 142.37
+      },
+      {
+        "capacity": 17.83,
+        "cost": 42.83
+      },
+      {
+        "capacity": 18.77,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "NOV",
+    "costs": [
+      {
+        "capacity": 0.78,
+        "cost": 124.58
+      },
+      {
+        "capacity": 0.86,
+        "cost": 86.55
+      },
+      {
+        "capacity": 0.93,
+        "cost": 66.08
+      },
+      {
+        "capacity": 1,
+        "cost": 51.21
+      },
+      {
+        "capacity": 1.07,
+        "cost": 40.01
+      },
+      {
+        "capacity": 1.14,
+        "cost": 29.73
+      },
+      {
+        "capacity": 1.21,
+        "cost": 19.81
+      },
+      {
+        "capacity": 1.28,
+        "cost": 10.77
+      },
+      {
+        "capacity": 1.35,
+        "cost": 3.24
+      },
+      {
+        "capacity": 1.42,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "label": "DEC",
+    "costs": [
+      {
+        "capacity": 0.02,
+        "cost": 3.5
+      },
+      {
+        "capacity": 0.03,
+        "cost": 1.86
+      },
+      {
+        "capacity": 0.04,
+        "cost": 0.3
+      },
+      {
+        "capacity": 0.05,
+        "cost": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -114.156781267914,
+        34.3170145260656
+      ],
+      [
+        -114.472921466289,
+        32.8762768142691
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-CR2_C143",
+    "description": "Second priority water to AA canal users -Policy 4a",
+    "type": "Diversion",
+    "origin": "SR-CR2",
+    "terminus": "C143",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

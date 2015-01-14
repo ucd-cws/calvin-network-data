@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.041222087827,34.4263093127776],[-119.041222087827,34.4263093127776]]},"properties":{"prmname":"T55_Ind: Ventura","description":"Ind Urban Penalty Function","type":"Diversion","origin":"T55VENT","terminus":"IND:VENT","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

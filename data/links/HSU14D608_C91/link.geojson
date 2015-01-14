@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.363264409669,
+        37.0437179474152
+      ],
+      [
+        -120.238108406419,
+        36.4127241325151
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU14D608_C91",
+    "description": "Mendota Pool diversions to CVPM 14 (DA 60A) (Westlands WD)",
+    "type": "Diversion",
+    "origin": "HSU14D608",
+    "terminus": "C91",
+    "amplitude": 0.82,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

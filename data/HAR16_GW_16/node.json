@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.534984682506,36.5616445381648],[-119.795554616671,36.7669649072796]]},"properties":{"prmname":"HAR16_GW-16","description":"Artificial recharge","type":"Diversion","origin":"HAR16","terminus":"GW-16","amplitude":0.95,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

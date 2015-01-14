@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.387742601196,
+        37.2329762265582
+      ],
+      [
+        -120.321487789062,
+        37.1313881427344
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU13D694_CVPM13",
+    "description": "San Joaquin River riparian diversions between Mendota Pool and Merced to CVPM13",
+    "type": "Diversion",
+    "origin": "HSU13D694",
+    "terminus": "CVPM13",
+    "amplitude": 0.82,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

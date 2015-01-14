@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-115.628523177538,33.7068209137816],[-116.019108675661,33.7165782011471]]},"properties":{"prmname":"Julia Hinds PMP_C136","description":"Colorado River Aqueduct","type":"Diversion","origin":"JuliaH PMP","terminus":"C136","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

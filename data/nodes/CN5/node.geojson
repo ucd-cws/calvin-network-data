@@ -1,0 +1,35 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.94074065026,
+      34.4355091357771
+    ]
+  },
+  "properties": {
+    "prmname": "CN5",
+    "description": "Calibration Node",
+    "type": "Junction",
+    "origins": [
+      "T2SBV"
+    ],
+    "terminals": [
+      "SR-27",
+      "Sink CN5",
+      "SR-28",
+      "SR-29"
+    ],
+    "inflows": [
+      {
+        "name": "Calibration Inflow to Region 5",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

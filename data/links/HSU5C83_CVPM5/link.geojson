@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.964886225524,
+        38.7323398722635
+      ],
+      [
+        -121.678385850506,
+        39.3219682468551
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU5C83_CVPM5",
+    "description": "Yuba River riparian diversions to CVPM 5 (DA 69)",
+    "type": "Diversion",
+    "origin": "HSU5C83",
+    "terminus": "CVPM5",
+    "amplitude": 0.88,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

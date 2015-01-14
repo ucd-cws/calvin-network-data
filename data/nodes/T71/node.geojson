@@ -1,0 +1,25 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.671845272944,
+      35.2808776368964
+    ]
+  },
+  "properties": {
+    "prmname": "T71",
+    "description": "water supply input node for SB-SLO",
+    "type": "Junction",
+    "origins": [
+      "T72",
+      "Desal",
+      "D849"
+    ],
+    "terminals": [
+      "INT SB-SLO",
+      "EXT SB-SLO"
+    ],
+    "inflows": null
+  }
+}

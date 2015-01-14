@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.736275946117,
+        37.3469076116457
+      ],
+      [
+        -122.000981878015,
+        37.6804372426509
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T19_C316",
+    "description": "artificial groundwater recharge using waste water",
+    "type": "Diversion",
+    "origin": "T19SCV",
+    "terminus": "C316",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 48.84
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 6
+      }
+    }
+  }
+}

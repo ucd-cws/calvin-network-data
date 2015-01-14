@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.229926257192,
+      37.5169363009791
+    ]
+  },
+  "properties": {
+    "prmname": "D803",
+    "description": "California Aqueduct diversion to CVPM10",
+    "type": "Junction",
+    "origins": [
+      "D801"
+    ],
+    "terminals": [
+      "HSU10D803",
+      "D804"
+    ],
+    "inflows": null
+  }
+}

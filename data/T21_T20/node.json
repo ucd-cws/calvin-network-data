@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.322156992625,37.6120482557109],[-122.322156992625,37.6120482557109]]},"properties":{"prmname":"T21_T20","description":"SFPUC Recycled water","type":"Diversion","origin":"T21SPFU","terminus":"T20SFPU","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

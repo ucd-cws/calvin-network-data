@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.94074065026,
+        34.4355091357771
+      ],
+      [
+        -117.18386871544,
+        33.8580181659172
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "CN5_SR-27",
+    "description": "Calibration Link",
+    "type": "Diversion",
+    "origin": "CN5",
+    "terminus": "SR-27",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

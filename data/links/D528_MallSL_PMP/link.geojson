@@ -1,0 +1,39 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.891530754218,
+        38.0490039850414
+      ],
+      [
+        -121.929048939727,
+        38.0373244727964
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D528_Mallard Slough PMP",
+    "description": "Mallard Slough diversion to Pumping Plant",
+    "type": "Diversion",
+    "origin": "D528",
+    "terminus": "MallSL PMP",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

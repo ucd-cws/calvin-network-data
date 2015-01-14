@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.943412887195,
+      35.8365097708612
+    ]
+  },
+  "properties": {
+    "prmname": "BadgerPMP",
+    "description": "Badger Hill Pumping Plant",
+    "type": "Pump Plant",
+    "origins": [
+      "LPerilPMP"
+    ],
+    "terminals": [
+      "D847"
+    ],
+    "inflows": null
+  }
+}

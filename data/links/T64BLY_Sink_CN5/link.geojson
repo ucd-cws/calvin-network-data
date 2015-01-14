@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -114.942713758798,
+        33.9455467591093
+      ],
+      [
+        -117.790014295299,
+        34.4130337909381
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T64_Sink CN5",
+    "description": "Outflow from Blythe",
+    "type": "Diversion",
+    "origin": "T64BLY",
+    "terminus": "Sink CN5",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

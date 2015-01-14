@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-119.626043414607,35.5166282008134]},"properties":{"prmname":"HGP19","description":"Hidden node for calibration of GW-19","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

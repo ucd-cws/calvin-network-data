@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -115.459403055922,
+        33.012149917051
+      ],
+      [
+        -115.427885446697,
+        32.8927750823952
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Ext: El Centro et al_GW-IM",
+    "description": "Return flow from El centro Exterior",
+    "type": "Diversion",
+    "origin": "EXT El Cen",
+    "terminus": "GW-IM",
+    "amplitude": 0.1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.209000563567,34.0323639522811],[-117.611791831712,34.5556980766025]]},"properties":{"prmname":"N1_T2","description":"SBMWD Foothill Pipeline","type":"Diversion","origin":"N1","terminus":"T2SBV","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

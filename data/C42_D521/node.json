@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.369202744358,37.9679856298384],[-121.472710524852,38.0290410945032]]},"properties":{"prmname":"C42_D521","description":"San Joaquin River Reach","type":"Diversion","origin":"C42","terminus":"D521","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

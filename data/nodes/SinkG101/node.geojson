@@ -1,0 +1,20 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.371459148517,
+      37.6907930010921
+    ]
+  },
+  "properties": {
+    "prmname": "SinkG101",
+    "description": "Depletion SJR TUOLOMNE TO STANISLAUS",
+    "type": "Sink",
+    "origins": [
+      "D688"
+    ],
+    "terminals": null,
+    "inflows": null
+  }
+}

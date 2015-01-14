@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.071147782832,
+        35.4868830782877
+      ],
+      [
+        -119.113180568819,
+        35.6220259850101
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HAR20_GW-20",
+    "description": "Artificial recharge from Friant-Kern Canal, Kern R and Cross Valley Canal",
+    "type": "Diversion",
+    "origin": "HAR20",
+    "terminus": "GW-20",
+    "amplitude": 0.95,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

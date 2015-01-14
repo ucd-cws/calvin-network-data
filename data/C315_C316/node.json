@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.830015855307,37.300983718949],[-122.000981878015,37.6804372426509]]},"properties":{"prmname":"C315_C316","description":"Local Groundwater Recharge","type":"Diversion","origin":"C315","terminus":"C316","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-118.980478841791,35.0172573387117]},"properties":{"prmname":"ChrismPMP","description":"Chrisman Pumping Plant","type":"Pump Plant","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

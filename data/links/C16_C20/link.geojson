@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.085966531399,
+        38.7146890735702
+      ],
+      [
+        -121.588068003412,
+        38.4749078369352
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C16_C20",
+    "description": "Cache Creek inflow to Yolo Bypass",
+    "type": "Diversion",
+    "origin": "C16",
+    "terminus": "C20",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

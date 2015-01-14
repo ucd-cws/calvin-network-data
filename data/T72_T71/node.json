@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.800178479678,35.3134991505003],[-120.671845272944,35.2808776368964]]},"properties":{"prmname":"T72_T71","description":"Proposed high cost recycled water ability","type":"Diversion","origin":"T72","terminus":"T71","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

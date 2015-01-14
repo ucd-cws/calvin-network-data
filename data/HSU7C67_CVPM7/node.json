@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.591399850971,38.9618423086475],[-121.394330757055,38.7745413618423]]},"properties":{"prmname":"HSU7C67_CVPM7","description":"Sacramento River Div. to CVPM7","type":"Diversion","origin":"HSU7C67","terminus":"CVPM7","amplitude":0.88,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

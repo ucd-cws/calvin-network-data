@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.429541959766,37.0633030467363]},"properties":{"prmname":"HWWT19","description":"Expanded wastewater treatment for SCV","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

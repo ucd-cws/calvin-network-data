@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.225903385442,
+      39.7827302406398
+    ]
+  },
+  "properties": {
+    "prmname": "C9",
+    "description": "",
+    "type": "Junction",
+    "origins": [
+      "SR-BBL"
+    ],
+    "terminals": [
+      "C12",
+      "HSU2C9"
+    ],
+    "inflows": null
+  }
+}

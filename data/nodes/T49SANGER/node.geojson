@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.503073985295,
+      36.5792993461957
+    ]
+  },
+  "properties": {
+    "prmname": "T49SANGER",
+    "description": "Sanger CVPM17 Urban IN",
+    "type": "Water Treatment",
+    "origins": [
+      "T50SANGER",
+      "HGP17"
+    ],
+    "terminals": [
+      "INT CVPM17",
+      "EXT CVPM17"
+    ],
+    "inflows": null
+  }
+}

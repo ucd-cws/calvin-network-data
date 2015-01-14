@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.93160778519,
+      36.3998583054072
+    ]
+  },
+  "properties": {
+    "prmname": "GW-SC",
+    "description": "Santa Clara groundwater basin",
+    "type": "Groundwater Storage",
+    "origins": [
+      "ERes: SCV",
+      "C316",
+      "T19SCV"
+    ],
+    "terminals": [
+      "T7SCV"
+    ],
+    "initialstorage": 425,
+    "endingstorage": 425,
+    "inflows": [
+      {
+        "name": "Santa Clara + Niles Cone + Livermore Groundwater Recharge",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ],
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 160
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 655
+      }
+    }
+  }
+}

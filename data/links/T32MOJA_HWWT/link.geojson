@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.141170154743,
+        34.6733060911038
+      ],
+      [
+        -116.541514618069,
+        34.8323073241072
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T32_HWWT32",
+    "description": "Expanded wastewater recycling facility for Mojave",
+    "type": "Diversion",
+    "origin": "T32MOJA",
+    "terminus": "HWWT",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 1480
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 2.05
+      }
+    }
+  }
+}

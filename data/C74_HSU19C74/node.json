@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.117233380461,35.3596264778834],[-119.375215928885,35.4892566791592]]},"properties":{"prmname":"C74_HSU19C74","description":"Cross Valley Canal delivery to CVPM 19","type":"Diversion","origin":"C74","terminus":"HSU19C74","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

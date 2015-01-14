@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.611199466518,
+        36.5298242397552
+      ],
+      [
+        -119.311127235297,
+        36.6325732474439
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGP17_C55",
+    "description": "Agricultural groundwater pumping GW-17 to CVPM 17 Demand",
+    "type": "Diversion",
+    "origin": "HGP17",
+    "terminus": "C55",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 16.07
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 152.62
+      }
+    }
+  }
+}

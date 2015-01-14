@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.420343339788,
+        34.7057815093548
+      ],
+      [
+        -117.862728451475,
+        34.0343816478517
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C161_T5",
+    "description": "Local & Imported Surface Supply into Central MWD",
+    "type": "Diversion",
+    "origin": "C161",
+    "terminus": "T5CMWD",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 140.6
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

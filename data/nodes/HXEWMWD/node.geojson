@@ -1,0 +1,32 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.589555655491,
+      34.1284683475226
+    ]
+  },
+  "properties": {
+    "prmname": "HXEWMWD",
+    "description": "Hidden node for year type variation in demand, e&w mwd",
+    "type": "Junction",
+    "origins": [
+      "T34EMWD"
+    ],
+    "terminals": [
+      "ERES EWMWD"
+    ],
+    "inflows": [
+      {
+        "name": "Year type variation in demand for E&W MWD exterior",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

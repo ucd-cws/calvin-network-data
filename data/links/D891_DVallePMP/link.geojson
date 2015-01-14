@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.771228895671,
+        37.6365782750809
+      ],
+      [
+        -121.749538207734,
+        37.6200019473115
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D891_Del Valle PMP",
+    "description": "South Bay Aqueduct Diversion to Lake Del Valle",
+    "type": "Diversion",
+    "origin": "D891",
+    "terminus": "DVallePMP",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

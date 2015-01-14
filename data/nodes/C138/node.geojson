@@ -1,0 +1,27 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.046669019684,
+      33.715050468208
+    ]
+  },
+  "properties": {
+    "prmname": "C138",
+    "description": "Colorado River Aqueduct",
+    "type": "Junction",
+    "origins": [
+      "WadsPMP",
+      "C136",
+      "N4",
+      "N3"
+    ],
+    "terminals": [
+      "WadsPMP",
+      "N6",
+      "SR-LM"
+    ],
+    "inflows": null
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.11200458163,33.7176796323232],[-117.11200458163,33.7176796323232]]},"properties":{"prmname":"T34_Ind: E&W MWD","description":"Ind Urban Penalty Function","type":"Diversion","origin":"T34EMWD","terminus":"Ind: EMWD","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

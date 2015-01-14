@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.318066857248,
+        39.0498950367921
+      ],
+      [
+        -121.407068259087,
+        39.0008949451889
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-CFW_C308",
+    "description": "Resevoir release from Camp Far West Dam to Bear River",
+    "type": "Diversion",
+    "origin": "SR-CFW",
+    "terminus": "C308",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

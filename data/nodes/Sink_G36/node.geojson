@@ -1,0 +1,18 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.288234276798,
+      35.8878011690702
+    ]
+  },
+  "properties": {
+    "prmname": "Sink G36",
+    "description": "OWENS VALLEY",
+    "type": "Sink",
+    "origins": null,
+    "terminals": null,
+    "inflows": null
+  }
+}

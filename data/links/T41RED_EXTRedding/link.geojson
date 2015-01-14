@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.362535142639,
+        40.4665538312452
+      ],
+      [
+        -122.362535142639,
+        40.4665538312452
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T41_Ext: Redding",
+    "description": "diversion for Redding exterior",
+    "type": "Diversion",
+    "origin": "T41RED",
+    "terminus": "EXTRedding",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

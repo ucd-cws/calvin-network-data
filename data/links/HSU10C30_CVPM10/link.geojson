@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.869203508544,
+        36.9652286884243
+      ],
+      [
+        -120.864197378096,
+        37.1176145738176
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU10C30_CVPM10",
+    "description": "Delta Mendota Canal deliveries to CVPM 10",
+    "type": "Diversion",
+    "origin": "HSU10C30",
+    "terminus": "CVPM10",
+    "amplitude": 0.93,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

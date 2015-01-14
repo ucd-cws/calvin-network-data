@@ -1,0 +1,49 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.11200458163,
+      33.7176796323232
+    ]
+  },
+  "properties": {
+    "prmname": "GW-EW",
+    "description": "E&W MWD groundwater basin",
+    "type": "Groundwater Storage",
+    "origins": [
+      "ERES EWMWD"
+    ],
+    "terminals": [
+      "C154"
+    ],
+    "initialstorage": 7000,
+    "endingstorage": 7000,
+    "inflows": [
+      {
+        "name": "groundwater inflows to E&W MWD",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ],
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 0
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 10000
+      }
+    }
+  }
+}

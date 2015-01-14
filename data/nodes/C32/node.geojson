@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.605072484411,
+      38.8908976670866
+    ]
+  },
+  "properties": {
+    "prmname": "C32",
+    "description": "Feather River Diversion to CVPM5",
+    "type": "Junction",
+    "origins": [
+      "D37"
+    ],
+    "terminals": [
+      "D42",
+      "C80"
+    ],
+    "inflows": [
+      {
+        "name": "DA69 local water supply",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      },
+      {
+        "name": "DA69 local water supply",
+        "date": {
+          "$ref": "inflows_1_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_1_inflow.json"
+        }
+      }
+    ]
+  }
+}

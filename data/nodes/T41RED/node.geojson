@@ -1,0 +1,25 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.362535142639,
+      40.4665538312452
+    ]
+  },
+  "properties": {
+    "prmname": "T41RED",
+    "description": "Water treatment node for the urban areas of Redding",
+    "type": "Water Treatment",
+    "origins": [
+      "T42RED",
+      "D5",
+      "HGP1"
+    ],
+    "terminals": [
+      "INTRedding",
+      "EXTRedding"
+    ],
+    "inflows": null
+  }
+}

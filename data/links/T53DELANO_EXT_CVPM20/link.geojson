@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.113180568819,
+        35.6220259850101
+      ],
+      [
+        -119.113180568819,
+        35.6220259850101
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T53_Ext: CVPM20",
+    "description": "diversion to CVPM20 exterior",
+    "type": "Diversion",
+    "origin": "T53DELANO",
+    "terminus": "EXT CVPM20",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

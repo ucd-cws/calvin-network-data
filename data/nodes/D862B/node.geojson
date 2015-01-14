@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.911872266282,
+      34.964900717331
+    ]
+  },
+  "properties": {
+    "prmname": "D862B",
+    "description": "California Aqueduct",
+    "type": "Junction",
+    "origins": [
+      "ChrismPMP"
+    ],
+    "terminals": [
+      "EdmonsPMP"
+    ],
+    "inflows": null
+  }
+}

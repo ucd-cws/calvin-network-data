@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.11200458163,33.7176796323232],[-117.688204369656,33.7992227312183]]},"properties":{"prmname":"T12_Sink G48","description":"SW discharge to Ocean","type":"Diversion","origin":"T12EMWD","terminus":"Sink G48","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

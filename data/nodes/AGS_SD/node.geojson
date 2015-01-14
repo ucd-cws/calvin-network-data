@@ -1,0 +1,21 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.981223108199,
+      33.1405693327155
+    ]
+  },
+  "properties": {
+    "prmname": "AGS SD",
+    "description": "",
+    "type": "Agricultural Demand",
+    "origins": [
+      "HUDSD"
+    ],
+    "terminals": null,
+    "costs": null,
+    "constraints": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.500657508782,
+        38.1180525987915
+      ],
+      [
+        -121.504866824732,
+        38.0492934869183
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D515_D522",
+    "description": "Delta - ?",
+    "type": "Diversion",
+    "origin": "D515",
+    "terminus": "D522",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

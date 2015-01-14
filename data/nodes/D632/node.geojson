@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.007298732296,
+      37.1999454997418
+    ]
+  },
+  "properties": {
+    "prmname": "D632",
+    "description": "Madera California Aqueduct inflow to Chowchilla River",
+    "type": "Junction",
+    "origins": [
+      "SR-53",
+      "C72"
+    ],
+    "terminals": [
+      "D634"
+    ],
+    "inflows": [
+      {
+        "name": "Accretion Chowchilla River, updated per GW update based on C2VSIM",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

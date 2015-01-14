@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.375002273952,36.7779495550957],[-120.352561454904,36.7863524978404]]},"properties":{"prmname":"D608_D731","description":"Mendota Pool","type":"Diversion","origin":"D608","terminus":"D731","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

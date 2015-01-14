@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.685020781063,34.4918219743156],[-117.340683559243,34.3946755398529]]},"properties":{"prmname":"D871_D872","description":"SWP East Branch (unconstrained)","type":"Diversion","origin":"D871","terminus":"D872","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

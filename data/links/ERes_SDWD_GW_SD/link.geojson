@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.66425641619,
+        33.0455973250807
+      ],
+      [
+        -116.941498897165,
+        32.8615058369846
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "ERes: San Diego MWD_GW-SD",
+    "description": "Return flow",
+    "type": "Diversion",
+    "origin": "ERes:SDWD",
+    "terminus": "GW-SD",
+    "amplitude": 0.1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

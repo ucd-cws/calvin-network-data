@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.002098064813,
+        37.0744634214096
+      ],
+      [
+        -121.04871821241,
+        37.1003451980983
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D816_ONeill PWP",
+    "description": "California Aqueduct div to Delta Mendota Canal via ONeill Power Plant",
+    "type": "Diversion",
+    "origin": "D816",
+    "terminus": "ONeillPWP",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

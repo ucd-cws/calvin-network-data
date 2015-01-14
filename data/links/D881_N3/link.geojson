@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.238558110356,
+        33.9060669596643
+      ],
+      [
+        -117.198355007046,
+        33.8628529024802
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D881_N3",
+    "description": "Lake Perris Bypass pipeline",
+    "type": "Diversion",
+    "origin": "D881",
+    "terminus": "N3",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

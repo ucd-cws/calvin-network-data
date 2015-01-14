@@ -1,0 +1,20 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.25688829045,
+      36.0603446135928
+    ]
+  },
+  "properties": {
+    "prmname": "Sink C689",
+    "description": "Friant Kern Sink",
+    "type": "Sink",
+    "origins": [
+      "C689"
+    ],
+    "terminals": null,
+    "inflows": null
+  }
+}

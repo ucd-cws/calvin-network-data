@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.105575624844,
+        38.1916268450002
+      ],
+      [
+        -121.18422603999,
+        38.5108469206665
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "GW-8_HGP8",
+    "description": "Link to hidden node for calibration of GW-8",
+    "type": "Diversion",
+    "origin": "GW-8",
+    "terminus": "HGP8",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

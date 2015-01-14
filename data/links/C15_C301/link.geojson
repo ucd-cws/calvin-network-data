@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.061084647136,
+        39.194890461404
+      ],
+      [
+        -121.723381636902,
+        38.8032469888414
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C15_C301",
+    "description": "Colusa Basin Drain return flow to Sacramento River",
+    "type": "Diversion",
+    "origin": "C15",
+    "terminus": "C301",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

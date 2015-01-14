@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.45202652952,37.5019364803428],[-120.45202652952,37.5019364803428]]},"properties":{"prmname":"D646_D647","description":"Merced River Reach","type":"Diversion","origin":"D646","terminus":"D647","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-116.230701797155,33.7070694541034]},"properties":{"prmname":"HARUC145","description":"Hidden node for artifical recharge of groundwater","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

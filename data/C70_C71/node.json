@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.765429109815,37.9834704359914],[-121.906210736424,38.0107002174442]]},"properties":{"prmname":"C70_C71","description":"Contra Costa Canal","type":"Diversion","origin":"C70","terminus":"C71","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

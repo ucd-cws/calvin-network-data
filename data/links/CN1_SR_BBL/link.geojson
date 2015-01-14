@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.201333891695,
+        39.7878125244114
+      ],
+      [
+        -122.3301023797,
+        39.8078789707178
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "CN1_SR-BBL",
+    "description": "Calibration link",
+    "type": "Diversion",
+    "origin": "CN1",
+    "terminus": "SR-BBL",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

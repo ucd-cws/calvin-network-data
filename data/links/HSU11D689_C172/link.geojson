@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.809500206891,
+        37.3508041027014
+      ],
+      [
+        -120.985713783672,
+        37.7290713930282
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU11D689_C172",
+    "description": "San Joaquin River riparian diversions to CVPM 11",
+    "type": "Diversion",
+    "origin": "HSU11D689",
+    "terminus": "C172",
+    "amplitude": 0.82,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

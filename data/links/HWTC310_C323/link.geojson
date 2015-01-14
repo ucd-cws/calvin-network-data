@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.72218275305,
+        37.896823374611
+      ],
+      [
+        -122.095726318634,
+        37.9058848014908
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HWTC310_C323",
+    "description": "EBMUD and CCWD intertie CCWD transfer to EBMUD",
+    "type": "Diversion",
+    "origin": "HWTC310",
+    "terminus": "C323",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

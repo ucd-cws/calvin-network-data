@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.308878412916,33.7317042965196],[-116.324433073939,33.7410553044559]]},"properties":{"prmname":"HARUC158_GW-CH","description":"Artificial recharge to Coachella","type":"Diversion","origin":"HARUC158","terminus":"GW-CH","amplitude":0.95,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

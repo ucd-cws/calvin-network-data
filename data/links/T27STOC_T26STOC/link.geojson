@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.139396298091,
+        38.0576188365164
+      ],
+      [
+        -121.139396298091,
+        38.0576188365164
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T27_T26",
+    "description": "Stockton Recycled water",
+    "type": "Diversion",
+    "origin": "T27STOC",
+    "terminus": "T26STOC",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 1480
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 2.48
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.117494433597,
+        33.563514113603
+      ],
+      [
+        -116.277885226953,
+        33.6340042310659
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T65_C147",
+    "description": "Desalinated drain ag water for golf and agricultural irrigation in Coachella Valley\r\n",
+    "type": "Diversion",
+    "origin": "T65",
+    "terminus": "C147",
+    "amplitude": 0.44,
+    "costs": {
+      "type": "Constant",
+      "cost": 222
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

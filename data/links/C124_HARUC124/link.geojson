@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.86537214369,
+        34.4799752317087
+      ],
+      [
+        -116.865434068583,
+        34.6221544156825
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C124_HARUC124",
+    "description": "GW-MJ Artificial Recharge",
+    "type": "Diversion",
+    "origin": "C124",
+    "terminus": "HARUC124",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 14.8
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

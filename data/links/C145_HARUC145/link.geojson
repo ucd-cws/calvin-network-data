@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.653850520598,
+        33.922621205648
+      ],
+      [
+        -116.230701797155,
+        33.7070694541034
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C145_HARUC145",
+    "description": "GW-CH Upper Valley Artificial Recharge\r\n",
+    "type": "Diversion",
+    "origin": "C145",
+    "terminus": "HARUC145",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 12.4764
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

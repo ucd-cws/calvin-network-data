@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.68455903683,
+      38.1594354049456
+    ]
+  },
+  "properties": {
+    "prmname": "ISOL F PMP",
+    "description": "Isolated Facility Pumping Plant",
+    "type": "Pump Plant",
+    "origins": [
+      "D503"
+    ],
+    "terminals": [
+      "D59"
+    ],
+    "inflows": null
+  }
+}

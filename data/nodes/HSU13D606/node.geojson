@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.290783608198,
+      36.8966038392559
+    ]
+  },
+  "properties": {
+    "prmname": "HSU13D606",
+    "description": "Hidden node on surface water conveyance channel",
+    "type": "Junction",
+    "origins": [
+      "D606"
+    ],
+    "terminals": [
+      "C46",
+      "CVPM13"
+    ],
+    "inflows": null
+  }
+}

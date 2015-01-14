@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-118.562464490626,35.4128934991933]},"properties":{"prmname":"HGU17","description":"CVPM17 Return Flow to GW","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

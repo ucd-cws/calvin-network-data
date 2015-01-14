@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.922930774173,
+        36.0609510219048
+      ],
+      [
+        -118.93813130027,
+        36.0399514857734
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-LS_C57",
+    "description": "Reservoir release from Lake Success/Success Dam to Tule River Reach 2",
+    "type": "Diversion",
+    "origin": "SR-LS",
+    "terminus": "C57",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

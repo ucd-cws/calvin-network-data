@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.549168639351,
+        40.5740278341727
+      ],
+      [
+        -122.362535142639,
+        40.4665538312452
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU1SR3_CVPM1",
+    "description": "Diversion to CVPM 1 via Whiskeytown Conduit",
+    "type": "Diversion",
+    "origin": "HSU1SR3",
+    "terminus": "CVPM1",
+    "amplitude": 0.96,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

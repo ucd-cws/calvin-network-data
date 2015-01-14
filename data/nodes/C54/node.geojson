@@ -1,0 +1,34 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.180990939721,
+      36.6529489385749
+    ]
+  },
+  "properties": {
+    "prmname": "C54",
+    "description": "Crescent Weir",
+    "type": "Junction",
+    "origins": [
+      "C53"
+    ],
+    "terminals": [
+      "D608",
+      "C52",
+      "C54b"
+    ],
+    "inflows": [
+      {
+        "name": "Accretion Fresno Slough",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

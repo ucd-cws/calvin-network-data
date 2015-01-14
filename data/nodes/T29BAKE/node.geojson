@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.134545111916,
+      35.2909192932068
+    ]
+  },
+  "properties": {
+    "prmname": "T29BAKE",
+    "description": "Bakersfield OUT",
+    "type": "Water Treatment",
+    "origins": [
+      "INT BAKER"
+    ],
+    "terminals": [
+      "T28BAKE",
+      "HGU21",
+      "C73"
+    ],
+    "inflows": null
+  }
+}

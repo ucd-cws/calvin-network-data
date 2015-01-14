@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.328268444596,36.7719575456446],[-120.641800911261,37.0888502578735]]},"properties":{"prmname":"D615_D640","description":"Refuge 2 and CVPM14 return","type":"Diversion","origin":"D615","terminus":"D640","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

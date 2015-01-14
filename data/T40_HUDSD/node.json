@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.654022339866,33.0562684285393],[-117.217198286111,33.4206944460509]]},"properties":{"prmname":"T40_HUDSD","description":"Agricultural demand for San Diego","type":"Diversion","origin":"T40SDMWD","terminus":"HUDSD","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.332074453145,
+        35.0904842029488
+      ],
+      [
+        -119.15035186254,
+        35.072289434394
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D860_D861",
+    "description": "California Aqueduct",
+    "type": "Diversion",
+    "origin": "D860",
+    "terminus": "D861",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.529765091909,
+      37.4075853064356
+    ]
+  },
+  "properties": {
+    "prmname": "C116",
+    "description": "LAA System",
+    "type": "Junction",
+    "origins": [
+      "SR-LC",
+      "Owens1 PWP"
+    ],
+    "terminals": [
+      "C120"
+    ],
+    "inflows": [
+      {
+        "name": "LV-HAIWEE",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

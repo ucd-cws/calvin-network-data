@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-118.450452248067,35.0020726850537]},"properties":{"prmname":"HGU20","description":"Return flow from urban CVPM20 to GW","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.638610914982,
+        39.4584599414254
+      ],
+      [
+        -121.648569390486,
+        39.3072200208234
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C25_T61",
+    "description": "Butte/Plumas/Yuba Div.",
+    "type": "Diversion",
+    "origin": "C25",
+    "terminus": "T61YUBA",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 74
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -123.095221278134,
+      40.6684108940422
+    ]
+  },
+  "properties": {
+    "prmname": "Sink R1",
+    "description": "Region 1 outflow sink; represents outflows to Region 2",
+    "type": "Sink",
+    "origins": [
+      "C68",
+      "C34",
+      "C36",
+      "C3",
+      "C26",
+      "C14",
+      "C303",
+      "C17",
+      "C303",
+      "C6"
+    ],
+    "terminals": null,
+    "inflows": null
+  }
+}

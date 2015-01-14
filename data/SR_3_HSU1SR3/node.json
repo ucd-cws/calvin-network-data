@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.534124905055,40.5828718825412],[-122.549168639351,40.5740278341727]]},"properties":{"prmname":"SR-3_HSU1SR3","description":"surface delivery CVPM 1","type":"Diversion","origin":"SR-3","terminus":"HSU1SR3","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

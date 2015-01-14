@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.877005345028,36.9723542790982],[-120.716936915598,36.9686835877416]]},"properties":{"prmname":"D742_C85","description":"California Aqueduct div to CVPM 10","type":"Diversion","origin":"D742","terminus":"C85","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

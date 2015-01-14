@@ -1,0 +1,55 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.819065941793,
+      37.4919363753631
+    ]
+  },
+  "properties": {
+    "prmname": "SR-ASF",
+    "description": "SF aggregate",
+    "type": "Surface Storage",
+    "origins": [
+      "C79"
+    ],
+    "terminals": [
+      "T20SFPU",
+      "T7SCV"
+    ],
+    "initialstorage": 128,
+    "endingstorage": 128,
+    "areacapfactor": 0.019124,
+    "inflows": null,
+    "el_ar_cap": [
+      {
+        "elevation": 0,
+        "area": 0.790000021457672,
+        "capacity": 31.0799999237061
+      },
+      {
+        "elevation": 0,
+        "area": 4.30000019073486,
+        "capacity": 224.979995727539
+      }
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 31
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 225
+      }
+    }
+  }
+}

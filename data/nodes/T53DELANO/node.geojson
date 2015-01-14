@@ -1,0 +1,25 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.113180568819,
+      35.6220259850101
+    ]
+  },
+  "properties": {
+    "prmname": "T53DELANO",
+    "description": "Delano/Wasco CVPM20 Urban IN",
+    "type": "Water Treatment",
+    "origins": [
+      "T54DELANO",
+      "C65",
+      "HGP20"
+    ],
+    "terminals": [
+      "INT CVPM20",
+      "EXT CVPM20"
+    ],
+    "inflows": null
+  }
+}

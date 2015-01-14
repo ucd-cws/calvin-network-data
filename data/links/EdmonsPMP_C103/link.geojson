@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.825929655088,
+        34.9449713924589
+      ],
+      [
+        -118.78779259902,
+        34.9137634453587
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "EdmonstonPMP_C103",
+    "description": "California Aqueduct Pumping Plant",
+    "type": "Diversion",
+    "origin": "EdmonsPMP",
+    "terminus": "C103",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

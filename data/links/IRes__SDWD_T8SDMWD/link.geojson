@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.654022339866,
+        33.0562684285393
+      ],
+      [
+        -116.654022339866,
+        33.0562684285393
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "IRes: San Diego_T8",
+    "description": "Res Return Flow TOTAL",
+    "type": "Diversion",
+    "origin": "IRes: SDWD",
+    "terminus": "T8SDMWD",
+    "amplitude": 0.9,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

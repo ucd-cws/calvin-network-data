@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.822887524514,
+        37.4506528006428
+      ],
+      [
+        -120.985713783672,
+        37.7290713930282
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU11D672_C172",
+    "description": "Stanislaus River riparian diversions to CVPM11",
+    "type": "Diversion",
+    "origin": "HSU11D672",
+    "terminus": "C172",
+    "amplitude": 0.82,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

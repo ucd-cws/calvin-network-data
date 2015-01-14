@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.290860179691,36.2877405135766],[-119.325956531795,36.8329488722087]]},"properties":{"prmname":"CN4_SR-PF","description":"Calibration link","type":"Diversion","origin":"CN4","terminus":"SR-PF","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

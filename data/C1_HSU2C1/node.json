@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.198068496186,40.1534072755201],[-122.314483776435,40.053369594467]]},"properties":{"prmname":"C1_HSU2C1","description":"surface delivery CVPM 2","type":"Diversion","origin":"C1","terminus":"HSU2C1","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

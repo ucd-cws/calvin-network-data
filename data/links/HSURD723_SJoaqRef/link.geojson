@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.70777913274,
+        37.22808923119
+      ],
+      [
+        -121.193407989321,
+        37.6162309658004
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSURD723_San Joaquin Refuges",
+    "description": "San Joaquin Refuges delivery (after losses)",
+    "type": "Diversion",
+    "origin": "HSURD723",
+    "terminus": "SJoaqRef",
+    "amplitude": 0.85,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

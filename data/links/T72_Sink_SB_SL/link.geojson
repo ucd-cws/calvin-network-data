@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.800178479678,
+        35.3134991505003
+      ],
+      [
+        -120.706070535435,
+        35.7074505158318
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T72_Sink SB-SLO",
+    "description": "SB-SLO outflow to ocean",
+    "type": "Diversion",
+    "origin": "T72",
+    "terminus": "Sink SB-SL",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

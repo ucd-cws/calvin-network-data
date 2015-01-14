@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.082044339978,
+      37.4939332099328
+    ]
+  },
+  "properties": {
+    "prmname": "D698",
+    "description": "San Joaquin River accretion",
+    "type": "Junction",
+    "origins": [
+      "D697"
+    ],
+    "terminals": [
+      "D699",
+      "SinkG49"
+    ],
+    "inflows": [
+      {
+        "name": "Accretion San Joaquin River: Merced to Tuolumne",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

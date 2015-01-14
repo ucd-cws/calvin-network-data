@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.471315195428,
+      37.0954489969141
+    ]
+  },
+  "properties": {
+    "prmname": "C47",
+    "description": "Chowchilla River Inflow to Chowchilla Bypass",
+    "type": "Junction",
+    "origins": [
+      "C48",
+      "D634"
+    ],
+    "terminals": [
+      "D692"
+    ],
+    "inflows": null
+  }
+}

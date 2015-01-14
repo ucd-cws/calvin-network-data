@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.816505707685,
+        35.4792814102005
+      ],
+      [
+        -119.620335315972,
+        35.5061994937699
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU19D847_CVPM19",
+    "description": "California Aqueduct to CVPM 19, includes Semitropic",
+    "type": "Diversion",
+    "origin": "HSU19D847",
+    "terminus": "CVPM19",
+    "amplitude": 0.93,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

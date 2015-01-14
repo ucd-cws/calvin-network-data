@@ -1,0 +1,34 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.499962464575,
+      34.5325489788068
+    ]
+  },
+  "properties": {
+    "prmname": "T59CLWA",
+    "description": "Castaic Lake Water Delivery",
+    "type": "Water Treatment",
+    "origins": [
+      "D889",
+      "T60CLWA"
+    ],
+    "terminals": [
+      "INT CLWA",
+      "EXT CLWA"
+    ],
+    "inflows": [
+      {
+        "name": "LOCAL SUPPLIES for Castaic Lake WD",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

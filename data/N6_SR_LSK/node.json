@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.070979160954,33.6842875982447],[-117.122863913518,33.5830254343641]]},"properties":{"prmname":"N6_SR-LSK","description":"San Diego Canal","type":"Diversion","origin":"N6","terminus":"SR-LSK","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

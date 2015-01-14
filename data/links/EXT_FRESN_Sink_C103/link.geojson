@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.819664974205,
+        36.752490908025
+      ],
+      [
+        -119.25688829045,
+        36.0603446135928
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Ext: CityofFresno_Sink",
+    "description": "Exterior urban residential return flows",
+    "type": "Diversion",
+    "origin": "EXT FRESN",
+    "terminus": "Sink C103",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

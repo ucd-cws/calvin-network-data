@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.890629175654,39.1484155776909],[-122.078272760759,39.3878822921032]]},"properties":{"prmname":"GW-4_HGP4","description":"Hidden groundwater pumping calibration link","type":"Diversion","origin":"GW-4","terminus":"HGP4","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

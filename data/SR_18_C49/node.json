@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.705978374486,37.0009495449673],[-119.562354196147,36.8528471361185]]},"properties":{"prmname":"SR-18_C49","description":"Friant-Kern Canal export from Millerton to Reg 4","type":"Diversion","origin":"SR-18","terminus":"C49","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

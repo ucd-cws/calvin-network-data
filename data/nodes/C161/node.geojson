@@ -1,0 +1,36 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.420343339788,
+      34.7057815093548
+    ]
+  },
+  "properties": {
+    "prmname": "C161",
+    "description": "MWD Central supply junction node",
+    "type": "Junction",
+    "origins": [
+      "D876",
+      "C122",
+      "D888",
+      "SR-LM"
+    ],
+    "terminals": [
+      "T5CMWD",
+      "GW-MWD"
+    ],
+    "inflows": [
+      {
+        "name": "LOCAL SUPPLIES",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

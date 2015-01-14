@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.839355999745,
+        37.6645939064382
+      ],
+      [
+        -121.736275946117,
+        37.3469076116457
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D896_T7",
+    "description": "S. Bay Aqueduct combined Diversions to ACWD, ACZone7 and SCVWD = CALVIN urban demand \"SCV\"",
+    "type": "Diversion",
+    "origin": "D896",
+    "terminus": "T7SCV",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 516.52
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

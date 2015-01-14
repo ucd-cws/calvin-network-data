@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.324433073939,
+        33.7410553044559
+      ],
+      [
+        -116.277885226953,
+        33.6340042310659
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "GW-CH_C147",
+    "description": "GW-CH Ag Pumping",
+    "type": "Diversion",
+    "origin": "GW-CH",
+    "terminus": "C147",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 59.2
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 65.6
+      }
+    }
+  }
+}

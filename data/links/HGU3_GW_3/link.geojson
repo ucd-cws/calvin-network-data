@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.17194054037,
+        39.2705951727051
+      ],
+      [
+        -122.187346354897,
+        39.2606714671897
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGU3_GW-3",
+    "description": "Link from hidden node for calibration of GW-3",
+    "type": "Diversion",
+    "origin": "HGU3",
+    "terminus": "GW-3",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.803133831789,
+        40.7188680080033
+      ],
+      [
+        -122.534124905055,
+        40.5828718825412
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D94&D40_SR-3",
+    "description": "Trinity River export to Whiskeytown Lake via Clear Creek Tunnel",
+    "type": "Diversion",
+    "origin": "D94&D40",
+    "terminus": "SR-3",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

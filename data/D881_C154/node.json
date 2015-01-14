@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.238558110356,33.9060669596643],[-117.119708741967,33.5852763100808]]},"properties":{"prmname":"D881_C154","description":"Mills Filtration Plant to EWMWD (unconstrained)","type":"Diversion","origin":"D881","terminus":"C154","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.011119150898,
+        38.0547818694116
+      ],
+      [
+        -121.139396298091,
+        38.0576188365164
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C41_T26",
+    "description": "Calaveras R SW Diversion",
+    "type": "Diversion",
+    "origin": "C41",
+    "terminus": "T26STOC",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 59.2
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

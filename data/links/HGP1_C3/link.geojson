@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.451055535865,
+        40.5080484899195
+      ],
+      [
+        -122.311747130045,
+        40.5074901176924
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGP1_C3",
+    "description": "Agricultural groundwater pumping GW-1 to CVPM 1 Demand",
+    "type": "Diversion",
+    "origin": "HGP1",
+    "terminus": "C3",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 23.59
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 7.21
+      }
+    }
+  }
+}

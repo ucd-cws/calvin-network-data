@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-120.852033479131,37.2479408575742]},"properties":{"prmname":"D691","description":"Mud Slough & Salt Slough inflow to S Joaquin R","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

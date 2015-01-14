@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.04170641,
+        35.3827521620684
+      ],
+      [
+        -118.188484998318,
+        36.9122557898739
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C120_GW-OW",
+    "description": "GW-OW Artificial Recharge",
+    "type": "Diversion",
+    "origin": "C120",
+    "terminus": "GW-OW",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 7.4
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 15
+      }
+    }
+  }
+}

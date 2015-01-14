@@ -1,0 +1,26 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.007298732296,
+      37.1999454997418
+    ]
+  },
+  "properties": {
+    "prmname": "D634",
+    "description": "Chowchilla River diversion to CVPM 13",
+    "type": "Junction",
+    "origins": [
+      "D632",
+      "CN3"
+    ],
+    "terminals": [
+      "HSU13D634",
+      "SinkG42",
+      "C47",
+      "HAR13"
+    ],
+    "inflows": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.507702933179,
+        38.5379891813525
+      ],
+      [
+        -121.467149257076,
+        38.5031798726811
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "CN2_D503",
+    "description": "Calibration add flow to match DWRSIM514 Flow Downstream of CP503 to Calvin D503_D511 Sac R at Hood flow",
+    "type": "Diversion",
+    "origin": "CN2",
+    "terminus": "D503",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

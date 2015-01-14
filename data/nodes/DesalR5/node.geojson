@@ -1,0 +1,34 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.108485458522,
+      32.7065811695502
+    ]
+  },
+  "properties": {
+    "prmname": "DesalR5",
+    "description": "Region 5 Desalination node",
+    "type": "Junction",
+    "origins": null,
+    "terminals": [
+      "T5CMWD",
+      "Sink CN5",
+      "T55VENT",
+      "T30SDMWD",
+      "T34EMWD"
+    ],
+    "inflows": [
+      {
+        "name": "Source Desal reg5 - JH for region 3-4-5",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

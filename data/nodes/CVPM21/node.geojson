@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.048131406838,
+      35.1928390460875
+    ]
+  },
+  "properties": {
+    "prmname": "CVPM21",
+    "description": "CVPM21 Agricultural Demand",
+    "type": "Agricultural Demand",
+    "origins": [
+      "HGP21",
+      "HSU21C74",
+      "HSU21C689",
+      "HSU21C65"
+    ],
+    "terminals": [
+      "GW-21"
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": null,
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

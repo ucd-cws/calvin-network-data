@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.889590176609,
+        37.0974473418758
+      ],
+      [
+        -120.339341385686,
+        37.3344603706288
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D624_HAR13",
+    "description": "Artificial Recharge diversion from Fresno R riparian",
+    "type": "Diversion",
+    "origin": "D624",
+    "terminus": "HAR13",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 6.5
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -114.512402264508,
+        33.7335961598335
+      ],
+      [
+        -114.54349023823,
+        33.8793610757599
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C141_HUDPV",
+    "description": "surface supplies to palo verde Ag",
+    "type": "Diversion",
+    "origin": "C141",
+    "terminus": "HUDPV",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

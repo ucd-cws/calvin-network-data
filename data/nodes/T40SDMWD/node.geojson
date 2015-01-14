@@ -1,0 +1,34 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.654022339866,
+      33.0562684285393
+    ]
+  },
+  "properties": {
+    "prmname": "T40SDMWD",
+    "description": "T30 San Diego IN",
+    "type": "Water Treatment",
+    "origins": [
+      "GW-SD",
+      "SR-LSK"
+    ],
+    "terminals": [
+      "HUDSD",
+      "T30SDMWD"
+    ],
+    "inflows": [
+      {
+        "name": "LOCAL SUPPLIES",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

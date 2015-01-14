@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.704702266546,
+        39.1652002002193
+      ],
+      [
+        -121.394330757055,
+        38.7745413618423
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU7C33_CVPM7",
+    "description": "Bear River left bank diversions to CVPM 7 - South Sutter WD",
+    "type": "Diversion",
+    "origin": "HSU7C33",
+    "terminus": "CVPM7",
+    "amplitude": 0.88,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

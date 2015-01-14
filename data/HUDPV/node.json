@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-114.54349023823,33.8793610757599]},"properties":{"prmname":"HUDPV","description":"Surface supply to Palo Verde Ag","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

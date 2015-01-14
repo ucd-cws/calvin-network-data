@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.32403248044,
+        34.3094562066762
+      ],
+      [
+        -117.318878472829,
+        34.3040041501716
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Mojave Power Plant_SR-25",
+    "description": "SWP East Branch: Mojave River connection to Silverwood",
+    "type": "Diversion",
+    "origin": "Mojave PWP",
+    "terminus": "SR-25",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": -10.9816
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

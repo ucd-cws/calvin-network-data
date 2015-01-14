@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.927176343086,
+      38.050185579645
+    ]
+  },
+  "properties": {
+    "prmname": "Req Delta",
+    "description": "Required Delta Outflow",
+    "type": "Junction",
+    "origins": [
+      "D541"
+    ],
+    "terminals": [
+      "Sink G20"
+    ],
+    "inflows": null
+  }
+}

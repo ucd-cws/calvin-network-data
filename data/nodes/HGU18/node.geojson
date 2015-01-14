@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.481100287911,
+      35.2405607008948
+    ]
+  },
+  "properties": {
+    "prmname": "HGU18",
+    "description": "Node for RF from urban CVPM18",
+    "type": "Junction",
+    "origins": [
+      "INT CVPM18",
+      "EXT CVPM18"
+    ],
+    "terminals": [
+      "GW-18"
+    ],
+    "inflows": null
+  }
+}

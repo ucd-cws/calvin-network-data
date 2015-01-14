@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.049205493791,
+        38.5334865204246
+      ],
+      [
+        -122.050181467941,
+        38.4240202324968
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGP6_Int: CVPM6",
+    "description": "Urban M&I pumping from GW-6 to CVPM6 interior",
+    "type": "Diversion",
+    "origin": "HGP6",
+    "terminus": "INT CVPM6",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

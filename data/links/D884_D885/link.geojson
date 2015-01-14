@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.728723839748,
+        34.7773185200061
+      ],
+      [
+        -118.798984941433,
+        34.7398982396017
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D884_D885",
+    "description": "SWP West Branch (unconstrained)",
+    "type": "Diversion",
+    "origin": "D884",
+    "terminus": "D885",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

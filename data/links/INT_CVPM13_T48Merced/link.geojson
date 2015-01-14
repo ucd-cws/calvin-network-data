@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.348551040297,
+        37.1431914715164
+      ],
+      [
+        -120.321487789062,
+        37.1313881427344
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Int: CVPM13_T48",
+    "description": "GW return flow from fixed CVPM urban pumping demand. interior",
+    "type": "Diversion",
+    "origin": "INT CVPM13",
+    "terminus": "T48Merced",
+    "amplitude": 0.86,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

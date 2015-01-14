@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.752020620224,
+        36.9099278854407
+      ],
+      [
+        -120.375002273952,
+        36.7779495550957
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D724_D608",
+    "description": "Delta Mendota canal delivery to Mendota Pool",
+    "type": "Diversion",
+    "origin": "D724",
+    "terminus": "D608",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

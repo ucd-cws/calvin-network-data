@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-115.121056370773,32.705015200267],[-121.648569390486,39.3072200208234]]},"properties":{"prmname":"C31_T61","description":"Yuba Urban Div.","type":"Diversion","origin":"C31","terminus":"T61YUBA","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,32 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.105575624844,
+        38.1916268450002
+      ],
+      [
+        -121.440062681683,
+        38.2559146978965
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSD8_D517",
+    "description": "Hidden surface water return flow calibration link",
+    "type": "Return Flow",
+    "origin": "CVPM8",
+    "terminus": "D517",
+    "amplitude": 1,
+    "costs": null,
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "Constant",
+        "bound": 0.07
+      }
+    }
+  }
+}

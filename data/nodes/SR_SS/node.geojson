@@ -1,0 +1,41 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -115.81902019917,
+      33.3084281919558
+    ]
+  },
+  "properties": {
+    "prmname": "SR-SS",
+    "description": "Salton Sea",
+    "type": "Surface Storage",
+    "origins": [
+      "T58ECEN",
+      "C157",
+      "T11COAC",
+      "C146",
+      "C148"
+    ],
+    "terminals": null,
+    "initialstorage": 6941,
+    "endingstorage": 6941,
+    "areacapfactor": 0.017,
+    "inflows": null,
+    "el_ar_cap": null,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

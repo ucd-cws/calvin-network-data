@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.937360922946,
+      38.0505211859991
+    ]
+  },
+  "properties": {
+    "prmname": "Surp Delta",
+    "description": "Surplus Delta Outflow",
+    "type": "Junction",
+    "origins": [
+      "D541"
+    ],
+    "terminals": [
+      "Sink G22"
+    ],
+    "inflows": null
+  }
+}

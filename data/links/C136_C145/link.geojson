@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.019108675661,
+        33.7165782011471
+      ],
+      [
+        -116.653850520598,
+        33.922621205648
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C136_C145",
+    "description": "CRA diversion to Coachella Urban (should have a capacity)",
+    "type": "Diversion",
+    "origin": "C136",
+    "terminus": "C145",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

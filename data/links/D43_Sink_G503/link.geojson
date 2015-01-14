@@ -1,0 +1,36 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.598070519704,
+        38.7739014097838
+      ],
+      [
+        -121.55711226186,
+        39.9487984429982
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D43_Sink G503",
+    "description": "DA 70 local depletion",
+    "type": "Diversion",
+    "origin": "D43",
+    "terminus": "Sink G503",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": null,
+        "bound": null
+      }
+    }
+  }
+}

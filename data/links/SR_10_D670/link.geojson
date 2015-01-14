@@ -1,0 +1,39 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.52003215103,
+        37.9559250137958
+      ],
+      [
+        -120.525960616849,
+        37.9502106945508
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-10_D670",
+    "description": "Reservoir release from New Melones Dam to Stanislaus River.  Hydropower added.",
+    "type": "Diversion",
+    "origin": "SR-10",
+    "terminus": "D670",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

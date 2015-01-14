@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.9970552153,
+        37.0826835873476
+      ],
+      [
+        -121.235358957057,
+        37.5995931676937
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D722_C30",
+    "description": "Agricultural diversions off the DMC",
+    "type": "Diversion",
+    "origin": "D722",
+    "terminus": "C30",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.471315195428,37.0954489969141],[-120.511804271942,37.1163172387717]]},"properties":{"prmname":"C47_D692","description":"Eastside Bypass","type":"Diversion","origin":"C47","terminus":"D692","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

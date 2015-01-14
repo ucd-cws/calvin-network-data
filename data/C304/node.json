@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.061084647136,39.194890461404]},"properties":{"prmname":"C304","description":"DA12 loCalifornia Aqueductl inflow","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

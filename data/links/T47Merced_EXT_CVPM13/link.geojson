@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.321487789062,
+        37.1313881427344
+      ],
+      [
+        -120.348551040297,
+        37.1431914715164
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T47_Ext: CVPM13",
+    "description": "Diversion for urban CVPM13 exterior",
+    "type": "Diversion",
+    "origin": "T47Merced",
+    "terminus": "EXT CVPM13",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.320956963658,
+      36.6956579427062
+    ]
+  },
+  "properties": {
+    "prmname": "MendRef",
+    "description": "Mendota Wildlife Area",
+    "type": "Non-Standard Demand",
+    "origins": [
+      "HSURD732"
+    ],
+    "terminals": [
+      "D615"
+    ],
+    "inflows": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.525075823566,
+        39.1758917750934
+      ],
+      [
+        -115.121056370773,
+        32.705015200267
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C83_C31",
+    "description": "Yuba River outflow from DA 67, minimum instream flow requirement",
+    "type": "Diversion",
+    "origin": "C83",
+    "terminus": "C31",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_lower_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_lower_bound.json"
+        }
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

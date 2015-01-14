@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.036483821623,37.4507316964727],[-121.082044339978,37.4939332099328]]},"properties":{"prmname":"D697_D698","description":"San Joaquin River Reach","type":"Diversion","origin":"D697","terminus":"D698","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

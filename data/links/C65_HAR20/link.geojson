@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.945931387065,
+        35.4319571897471
+      ],
+      [
+        -119.071147782832,
+        35.4868830782877
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C65_HAR20",
+    "description": "Kern R to subregion 20 for spreading",
+    "type": "Diversion",
+    "origin": "C65",
+    "terminus": "HAR20",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 6.5
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

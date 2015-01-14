@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.747595763706,37.617957625919],[-121.839355999745,37.6645939064382]]},"properties":{"prmname":"D892_D896","description":"South Bay Aqueduct","type":"Diversion","origin":"D892","terminus":"D896","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

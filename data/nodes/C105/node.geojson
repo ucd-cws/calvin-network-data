@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.317155432875,
+      38.483438642854
+    ]
+  },
+  "properties": {
+    "prmname": "C105",
+    "description": "Freeport Project Pipeline bifurcation point",
+    "type": "Junction",
+    "origins": [
+      "C104"
+    ],
+    "terminals": [
+      "C107",
+      "T4SAC"
+    ],
+    "inflows": null
+  }
+}

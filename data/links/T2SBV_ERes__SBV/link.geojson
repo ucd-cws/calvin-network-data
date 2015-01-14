@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.611791831712,
+        34.5556980766025
+      ],
+      [
+        -117.325628302018,
+        34.2043202427351
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T2_ERes: SBV",
+    "description": "Urban supply",
+    "type": "Diversion",
+    "origin": "T2SBV",
+    "terminus": "ERes: SBV",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

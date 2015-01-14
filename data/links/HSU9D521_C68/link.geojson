@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.698131116157,
+        38.3930859031316
+      ],
+      [
+        -121.406844580491,
+        37.7009157965622
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU9D521_C68",
+    "description": "San Joaquin River div. to CVPM9",
+    "type": "Diversion",
+    "origin": "HSU9D521",
+    "terminus": "C68",
+    "amplitude": 0.93,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

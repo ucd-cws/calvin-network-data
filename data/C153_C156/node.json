@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.119708741967,33.5852763100808],[-117.125257319613,33.465815793564]]},"properties":{"prmname":"C153_C156","description":"San Diego Pipelines No. 5&3 (untreated water)","type":"Diversion","origin":"C153","terminus":"C156","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

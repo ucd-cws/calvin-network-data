@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.019108675661,
+        33.7165782011471
+      ],
+      [
+        -117.046669019684,
+        33.715050468208
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C136_C138",
+    "description": "Colorado Aqueduct",
+    "type": "Diversion",
+    "origin": "C136",
+    "terminus": "C138",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 230.88
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

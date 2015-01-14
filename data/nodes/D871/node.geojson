@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.685020781063,
+      34.4918219743156
+    ]
+  },
+  "properties": {
+    "prmname": "D871",
+    "description": "East Branch SWP Node Represented in DWRSIM Network D122698",
+    "type": "Junction",
+    "origins": [
+      "C124"
+    ],
+    "terminals": [
+      "D872"
+    ],
+    "inflows": null
+  }
+}

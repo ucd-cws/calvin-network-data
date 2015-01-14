@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.305256416187,
+        36.6221627581003
+      ],
+      [
+        -119.045337303855,
+        36.3888493616178
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C76_C89",
+    "description": "Friant-Kern Canal discharge to Kaweah River",
+    "type": "Diversion",
+    "origin": "C76",
+    "terminus": "C89",
+    "amplitude": 0.91,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 0
+      }
+    }
+  }
+}

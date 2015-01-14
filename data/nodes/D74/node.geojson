@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.186708914947,
+      40.2884772480585
+    ]
+  },
+  "properties": {
+    "prmname": "D74",
+    "description": "Sacramento River diversion to CVPM1",
+    "type": "Junction",
+    "origins": [
+      "C2"
+    ],
+    "terminals": [
+      "C5",
+      "HSU1D74"
+    ],
+    "inflows": [
+      {
+        "name": "DA58 local water supply",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

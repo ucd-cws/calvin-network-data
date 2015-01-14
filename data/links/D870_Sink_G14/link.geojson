@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.18011390964,
+        34.5756413928279
+      ],
+      [
+        -117.288234276798,
+        35.8878011690702
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D870_Sink G14",
+    "description": "East Branch SWP Losses",
+    "type": "Diversion",
+    "origin": "D870",
+    "terminus": "Sink G14",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_lower_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_lower_bound.json"
+        }
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

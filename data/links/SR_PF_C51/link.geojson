@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.325956531795,
+        36.8329488722087
+      ],
+      [
+        -119.383158846131,
+        36.8168493904958
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-PF_C51",
+    "description": "Reservoir release from Pine Flat dam to Kings River Reach 1",
+    "type": "Diversion",
+    "origin": "SR-PF",
+    "terminus": "C51",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

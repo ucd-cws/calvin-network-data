@@ -1,0 +1,25 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.345965363032,
+      40.0666422348987
+    ]
+  },
+  "properties": {
+    "prmname": "HGP2",
+    "description": "Hidden calibration for GW-2",
+    "type": "Junction",
+    "origins": [
+      "GW-2"
+    ],
+    "terminals": [
+      "INT CVPM2",
+      "C6",
+      "CVPM2",
+      "EXT CVPM2"
+    ],
+    "inflows": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.337620372351,
+        37.2192526934438
+      ],
+      [
+        -120.321487789062,
+        37.1313881427344
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU13D624_CVPM13",
+    "description": "Fresno River diversions to CVPM13",
+    "type": "Diversion",
+    "origin": "HSU13D624",
+    "terminus": "CVPM13",
+    "amplitude": 0.82,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

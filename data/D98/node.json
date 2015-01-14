@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.440062681683,38.2559146978965]},"properties":{"prmname":"D98","description":"Mokelumne River Diversion To CVPM 8","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

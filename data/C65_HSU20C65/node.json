@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.945931387065,35.4319571897471],[-119.19260638187,35.5295251841067]]},"properties":{"prmname":"C65_HSU20C65","description":"Surface delivery CVPM 20","type":"Diversion","origin":"C65","terminus":"HSU20C65","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

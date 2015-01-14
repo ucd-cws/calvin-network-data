@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.813930014212,37.8487546749383],[-122.156716003837,37.7975846038153]]},"properties":{"prmname":"T18_Sink G23","description":"Contra Costa","type":"Diversion","origin":"T18CCWD","terminus":"Sink G23","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

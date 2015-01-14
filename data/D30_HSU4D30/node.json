@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.002089638431,39.6668827716344],[-122.142060577141,39.5197336636435]]},"properties":{"prmname":"D30_HSU4D30","description":"surface delivery CVPM 4","type":"Diversion","origin":"D30","terminus":"HSU4D30","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

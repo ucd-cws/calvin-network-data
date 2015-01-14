@@ -1,0 +1,21 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.277599071801,
+      37.066006345237
+    ]
+  },
+  "properties": {
+    "prmname": "OWENS AG",
+    "description": "Owens Valley Ag",
+    "type": "Agricultural Demand",
+    "origins": [
+      "GW-OW"
+    ],
+    "terminals": null,
+    "costs": null,
+    "constraints": null
+  }
+}

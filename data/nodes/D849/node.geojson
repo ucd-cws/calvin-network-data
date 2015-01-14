@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.556214243811,
+      35.1875078710097
+    ]
+  },
+  "properties": {
+    "prmname": "D849",
+    "description": "California Aqueduct - Coastal Branch",
+    "type": "Junction",
+    "origins": [
+      "D848"
+    ],
+    "terminals": [
+      "T71",
+      "Sink D849"
+    ],
+    "inflows": [
+      {
+        "name": "Local Supply SB and SLO",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

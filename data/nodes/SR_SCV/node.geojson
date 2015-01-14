@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.546908746377,
+      37.1214914153249
+    ]
+  },
+  "properties": {
+    "prmname": "SR-SCV",
+    "description": "Santa Clara Aggregate",
+    "type": "Surface Storage",
+    "origins": null,
+    "terminals": [
+      "C315"
+    ],
+    "initialstorage": 94,
+    "endingstorage": 94,
+    "areacapfactor": 0.020407,
+    "inflows": [
+      {
+        "name": "Santa Clara Local inflow",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ],
+    "el_ar_cap": null,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 37
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 170
+      }
+    }
+  }
+}

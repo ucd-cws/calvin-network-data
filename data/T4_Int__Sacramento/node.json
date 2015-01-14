@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.947631505286,38.7951403712714],[-120.843490096717,38.8700328356206]]},"properties":{"prmname":"T4_Int: Sacramento","description":"Residential Urban Penalty Function","type":"Diversion","origin":"T4SAC","terminus":"INT SAC","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

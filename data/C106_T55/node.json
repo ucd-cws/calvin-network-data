@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.785092667194,34.4009839912753],[-119.041222087827,34.4263093127776]]},"properties":{"prmname":"C106_T55","description":"W. Branch SW Diversion to VCFCWCD","type":"Diversion","origin":"C106","terminus":"T55VENT","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

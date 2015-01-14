@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.335519078953,34.2073394275545],[-117.333455091485,34.1948237863191]]},"properties":{"prmname":"Devils Canyon Power Plant_C129","description":"SWP East Branch","type":"Diversion","origin":"Devils PWP","terminus":"C129","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

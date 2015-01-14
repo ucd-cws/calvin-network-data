@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.911898680982,35.1500606662306],[-117.988630652318,35.1486039069803]]},"properties":{"prmname":"HUDAV_AgG: Antelope","description":"agricultural pumping","type":"Diversion","origin":"HUDAV","terminus":"AGG AV","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

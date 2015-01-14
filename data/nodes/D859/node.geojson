@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.307633627671,
+      35.2618277051107
+    ]
+  },
+  "properties": {
+    "prmname": "D859",
+    "description": "California Aqueduct",
+    "type": "Junction",
+    "origins": [
+      "C73",
+      "D855&D857",
+      "SR-BVLB"
+    ],
+    "terminals": [
+      "BuenaPMP"
+    ],
+    "inflows": null
+  }
+}

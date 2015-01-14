@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.253569495654,
+      33.7459538834681
+    ]
+  },
+  "properties": {
+    "prmname": "INT: COACH",
+    "description": "DAU 348, 349 Ind/Interior Res/Comm Demand",
+    "type": "Urban Demand",
+    "origins": [
+      "T31COAC"
+    ],
+    "terminals": [
+      "T11COAC"
+    ],
+    "inflows": null
+  }
+}

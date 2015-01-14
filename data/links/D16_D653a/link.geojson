@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.604035791293,
+        37.8749267916247
+      ],
+      [
+        -120.635042572958,
+        37.8626315915167
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D16_D653a",
+    "description": "Stanislaus River Reach",
+    "type": "Diversion",
+    "origin": "D16",
+    "terminus": "D653a",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

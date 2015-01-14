@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.305081857826,33.7523988435316],[-116.308878412916,33.7317042965196]]},"properties":{"prmname":"C158_HARUC158","description":"Artificial Recharge for Coachella","type":"Diversion","origin":"C158","terminus":"HARUC158","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

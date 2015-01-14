@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.305081857826,
+      33.7523988435316
+    ]
+  },
+  "properties": {
+    "prmname": "C158",
+    "description": "Artificial recharge on Coachella Lower Valley (Martinez and La Quinta)",
+    "type": "Junction",
+    "origins": [
+      "C147",
+      "T11COAC"
+    ],
+    "terminals": [
+      "HARUC158"
+    ],
+    "inflows": null
+  }
+}

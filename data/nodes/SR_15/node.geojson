@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.746063612922,
+      37.6139319505633
+    ]
+  },
+  "properties": {
+    "prmname": "SR-15",
+    "description": "Lake Del Valle",
+    "type": "Surface Storage",
+    "origins": [
+      "CN3",
+      "DVallePMP"
+    ],
+    "terminals": [
+      "D892"
+    ],
+    "initialstorage": 28,
+    "endingstorage": 24.63,
+    "areacapfactor": 0.012203,
+    "inflows": null,
+    "el_ar_cap": [
+      {
+        "elevation": 609,
+        "area": 0.155000001192093,
+        "capacity": 3.31699991226196
+      },
+      {
+        "elevation": 638,
+        "area": 0.284999996423721,
+        "capacity": 9.86299991607666
+      },
+      {
+        "elevation": 648,
+        "area": 0.319999992847443,
+        "capacity": 12
+      },
+      {
+        "elevation": 658,
+        "area": 0.354999989271164,
+        "capacity": 15
+      },
+      {
+        "elevation": 670,
+        "area": 0.419999986886978,
+        "capacity": 20
+      },
+      {
+        "elevation": 680,
+        "area": 0.5,
+        "capacity": 25
+      },
+      {
+        "elevation": 690,
+        "area": 0.589999973773956,
+        "capacity": 30
+      },
+      {
+        "elevation": 698,
+        "area": 0.654999971389771,
+        "capacity": 35
+      },
+      {
+        "elevation": 703,
+        "area": 0.708999991416931,
+        "capacity": 40
+      },
+      {
+        "elevation": 745,
+        "area": 1.05999994277954,
+        "capacity": 77.0999984741211
+      }
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 9.8
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 40
+      }
+    }
+  }
+}

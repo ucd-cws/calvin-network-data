@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.228276888906,
+        37.6520702268039
+      ],
+      [
+        -120.377382537366,
+        36.8104873839673
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D689_C10",
+    "description": "San Joaquin River riparian diversions",
+    "type": "Diversion",
+    "origin": "D689",
+    "terminus": "C10",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-118.307496090087,34.4206933500373]},"properties":{"prmname":"HWWTVC","description":"Expanded Wastwater recycling for Ventura","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

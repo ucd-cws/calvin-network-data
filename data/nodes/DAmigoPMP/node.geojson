@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.829335387911,
+      36.9257195949578
+    ]
+  },
+  "properties": {
+    "prmname": "DAmigoPMP",
+    "description": "Dos Amigos Pumping Plant",
+    "type": "Pump Plant",
+    "origins": [
+      "D743"
+    ],
+    "terminals": [
+      "D744"
+    ],
+    "inflows": null
+  }
+}

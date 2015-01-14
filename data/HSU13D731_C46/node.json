@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.373613388392,36.9169554241216],[-120.326742505246,37.1334959775544]]},"properties":{"prmname":"HSU13D731_C46","description":"Mendota Pool to CVPM 13 (DA 49D)","type":"Diversion","origin":"HSU13D731","terminus":"C46","amplitude":0.88,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

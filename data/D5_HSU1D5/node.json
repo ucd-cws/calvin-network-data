@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.467123096626,40.6278720303772],[-122.492224561714,40.5507766258519]]},"properties":{"prmname":"D5_HSU1D5","description":"surface delivery CVPM 1","type":"Diversion","origin":"D5","terminus":"HSU1D5","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

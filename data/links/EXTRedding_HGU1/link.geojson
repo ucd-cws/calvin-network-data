@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.362535142639,
+        40.4665538312452
+      ],
+      [
+        -122.339777949012,
+        40.4571444807097
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Ext: Redding_HGU1",
+    "description": "Return flows from redding exterior",
+    "type": "Diversion",
+    "origin": "EXTRedding",
+    "terminus": "HGU1",
+    "amplitude": 0.1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

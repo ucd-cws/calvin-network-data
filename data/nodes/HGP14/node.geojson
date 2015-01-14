@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.373511164973,
+      36.294436583204
+    ]
+  },
+  "properties": {
+    "prmname": "HGP14",
+    "description": "Hidden node for calibration of GW-14",
+    "type": "Junction",
+    "origins": [
+      "GW-14"
+    ],
+    "terminals": [
+      "CVPM14",
+      "C91"
+    ],
+    "inflows": null
+  }
+}

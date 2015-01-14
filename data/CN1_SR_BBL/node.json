@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.201333891695,39.7878125244114],[-122.3301023797,39.8078789707178]]},"properties":{"prmname":"CN1_SR-BBL","description":"Calibration link","type":"Diversion","origin":"CN1","terminus":"SR-BBL","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

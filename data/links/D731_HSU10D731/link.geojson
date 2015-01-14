@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.352561454904,
+        36.7863524978404
+      ],
+      [
+        -120.692445377001,
+        36.8856944340907
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D731_HSU10D731",
+    "description": "surface delivery CVPM 10",
+    "type": "Diversion",
+    "origin": "D731",
+    "terminus": "HSU10D731",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 118.1
+      }
+    }
+  }
+}

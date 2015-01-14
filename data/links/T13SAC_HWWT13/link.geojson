@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.947631505286,
+        38.7951403712714
+      ],
+      [
+        -121.140082372049,
+        38.588858752234
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T13_HWWT13",
+    "description": "Proposed Sacramento Recycling",
+    "type": "Diversion",
+    "origin": "T13SAC",
+    "terminus": "HWWT13",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 1480
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 14.05
+      }
+    }
+  }
+}

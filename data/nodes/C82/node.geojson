@@ -1,0 +1,32 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.995091139006,
+      39.7518820749582
+    ]
+  },
+  "properties": {
+    "prmname": "C82",
+    "description": "",
+    "type": "Junction",
+    "origins": [
+      "C81"
+    ],
+    "terminals": [
+      "D77"
+    ],
+    "inflows": [
+      {
+        "name": "DA10 Local water supply",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

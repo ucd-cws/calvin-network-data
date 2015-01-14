@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-117.88086423685,35.2564457850423]},"properties":{"prmname":"INT AV","description":"DAU 299-377 Urban demand: Ind/Interior Res/Comm","type":"Urban Demand","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

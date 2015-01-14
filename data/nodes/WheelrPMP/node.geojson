@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.008436713824,
+      35.0334079232171
+    ]
+  },
+  "properties": {
+    "prmname": "WheelrPMP",
+    "description": "Wheeler Ridge Pumping Plant",
+    "type": "Pump Plant",
+    "origins": [
+      "D861"
+    ],
+    "terminals": [
+      "D862A"
+    ],
+    "inflows": null
+  }
+}

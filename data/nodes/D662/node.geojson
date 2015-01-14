@@ -1,0 +1,27 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.445529186787,
+      37.6740311818067
+    ]
+  },
+  "properties": {
+    "prmname": "D662",
+    "description": "La Grange Dam",
+    "type": "Junction",
+    "origins": [
+      "CN3",
+      "SR-81"
+    ],
+    "terminals": [
+      "T45MODEST",
+      "D663",
+      "HSU12D662",
+      "HSU11D662",
+      "T66Turlock"
+    ],
+    "inflows": null
+  }
+}

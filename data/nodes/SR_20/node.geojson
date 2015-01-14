@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.268021343829,
+      37.5839345149061
+    ]
+  },
+  "properties": {
+    "prmname": "SR-20",
+    "description": "Lake McClure",
+    "type": "Surface Storage",
+    "origins": null,
+    "terminals": [
+      "D642",
+      "CN3"
+    ],
+    "initialstorage": 229,
+    "endingstorage": 834.59,
+    "areacapfactor": 0.00638,
+    "inflows": [
+      {
+        "name": "Merced River",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ],
+    "el_ar_cap": [
+      {
+        "elevation": 0,
+        "area": 0,
+        "capacity": 0
+      },
+      {
+        "elevation": 618,
+        "area": 1.36800003051758,
+        "capacity": 100
+      },
+      {
+        "elevation": 674,
+        "area": 2.15599989891052,
+        "capacity": 200
+      },
+      {
+        "elevation": 713,
+        "area": 2.85199999809265,
+        "capacity": 300
+      },
+      {
+        "elevation": 758,
+        "area": 3.81299996376038,
+        "capacity": 450
+      },
+      {
+        "elevation": 793,
+        "area": 4.71799993515015,
+        "capacity": 600
+      },
+      {
+        "elevation": 823,
+        "area": 5.58900022506714,
+        "capacity": 750
+      },
+      {
+        "elevation": 848,
+        "area": 6.43400001525879,
+        "capacity": 900
+      },
+      {
+        "elevation": 871,
+        "area": 7.26100015640259,
+        "capacity": 1050
+      },
+      {
+        "elevation": 891,
+        "area": 8.07299995422363,
+        "capacity": 1200
+      }
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 115
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

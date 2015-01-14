@@ -1,0 +1,65 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.963015437361,
+      37.8939238085438
+    ]
+  },
+  "properties": {
+    "prmname": "SR-LL-LE",
+    "description": "Lake Lloyd/Lake Eleanor",
+    "type": "Surface Storage",
+    "origins": [
+      "CN3"
+    ],
+    "terminals": [
+      "SR-81",
+      "C44"
+    ],
+    "initialstorage": 216.6,
+    "endingstorage": 216.6,
+    "areacapfactor": 0.008240956,
+    "inflows": [
+      {
+        "name": "Cherry Creek and Eleanor Creek",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ],
+    "el_ar_cap": [
+      {
+        "elevation": 0,
+        "area": 0,
+        "capacity": 0
+      },
+      {
+        "elevation": 0,
+        "area": 2.48300004005432,
+        "capacity": 301.299987792969
+      }
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 30.1
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 301.3
+      }
+    }
+  }
+}

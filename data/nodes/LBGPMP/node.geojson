@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.930919873988,
+      36.9953105229683
+    ]
+  },
+  "properties": {
+    "prmname": "LBGPMP",
+    "description": "Los Banos Grandes Pumping Plant",
+    "type": "Pump Plant",
+    "origins": [
+      "D818"
+    ],
+    "terminals": [
+      "SR-22"
+    ],
+    "inflows": null
+  }
+}

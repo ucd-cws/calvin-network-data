@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.019311999151,
+        37.7316360441196
+      ],
+      [
+        -120.944823022552,
+        37.732157445625
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Ext: CVPM11_HGU11",
+    "description": "deep percolation of exterior uses",
+    "type": "Diversion",
+    "origin": "EXT CVPM11",
+    "terminus": "HGU11",
+    "amplitude": 0.1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

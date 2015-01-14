@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.085966531399,
+      38.7146890735702
+    ]
+  },
+  "properties": {
+    "prmname": "C16",
+    "description": "Capay Diversion Dam",
+    "type": "Junction",
+    "origins": [
+      "C150"
+    ],
+    "terminals": [
+      "C20",
+      "HSU6C16"
+    ],
+    "inflows": null
+  }
+}

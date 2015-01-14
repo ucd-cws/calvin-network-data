@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.862728451475,34.0343816478517],[-117.862728451475,34.0343816478517]]},"properties":{"prmname":"Ind: Central MWD_T10","description":"Ind Return Flow TOTAL","type":"Diversion","origin":"Ind: CMWD","terminus":"T10CMWD","amplitude":0.4,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.332074453145,35.0904842029488],[-119.15035186254,35.072289434394]]},"properties":{"prmname":"D860_D861","description":"California Aqueduct","type":"Diversion","origin":"D860","terminus":"D861","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

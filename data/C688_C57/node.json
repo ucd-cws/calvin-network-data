@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.059624423426,36.1711910029603],[-118.93813130027,36.0399514857734]]},"properties":{"prmname":"C688_C57","description":"Friant-Kern Canal discharge to Tule River","type":"Diversion","origin":"C688","terminus":"C57","amplitude":0.91,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.976154665091,39.6770172974374],[-122.002089638431,39.6668827716344]]},"properties":{"prmname":"D76b_D66","description":"Sacramento River DA10 outflow","type":"Diversion","origin":"D76b","terminus":"D66","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

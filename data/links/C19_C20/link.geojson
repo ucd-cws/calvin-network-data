@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.005747685832,
+        38.4947384666054
+      ],
+      [
+        -121.588068003412,
+        38.4749078369352
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C19_C20",
+    "description": "Putah Creek inflow to Yolo Bypass",
+    "type": "Diversion",
+    "origin": "C19",
+    "terminus": "C20",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

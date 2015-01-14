@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.963015437361,37.8939238085438],[-119.948451672853,37.8941345136029]]},"properties":{"prmname":"SR-LL-LE_C44","description":"Lower Cherry Creek Aqueduct","type":"Diversion","origin":"SR-LL-LE","terminus":"C44","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

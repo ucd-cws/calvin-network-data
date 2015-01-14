@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.383158846131,
+        36.8168493904958
+      ],
+      [
+        -120.180990939721,
+        36.6529489385749
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C53_C54",
+    "description": "Kings River Reach 4 inflow to Crescent Weir",
+    "type": "Diversion",
+    "origin": "C53",
+    "terminus": "C54",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

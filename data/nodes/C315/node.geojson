@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.830015855307,
+      37.300983718949
+    ]
+  },
+  "properties": {
+    "prmname": "C315",
+    "description": "SR-SCV release",
+    "type": "Junction",
+    "origins": [
+      "SR-SCV"
+    ],
+    "terminals": [
+      "SinkG99",
+      "T7SCV",
+      "C316"
+    ],
+    "inflows": null
+  }
+}

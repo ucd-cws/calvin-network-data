@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.93813130027,
+      36.0399514857734
+    ]
+  },
+  "properties": {
+    "prmname": "C57",
+    "description": "Tule River",
+    "type": "Junction",
+    "origins": [
+      "C688",
+      "SR-LS"
+    ],
+    "terminals": [
+      "C58"
+    ],
+    "inflows": [
+      {
+        "name": "Accretion Tule River",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.322156992625,
+      37.6120482557109
+    ]
+  },
+  "properties": {
+    "prmname": "IND SFPUC",
+    "description": "Includes all of DAU 43",
+    "type": "Urban Demand",
+    "origins": [
+      "T20SFPU"
+    ],
+    "terminals": [
+      "T21SPFU"
+    ],
+    "inflows": null
+  }
+}

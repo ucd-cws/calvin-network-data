@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.948451672853,
+        37.8941345136029
+      ],
+      [
+        -120.531647986042,
+        37.4933946518572
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C44_Sink",
+    "description": "Outlet for infeasibility in Base Case over-constrained upper Tuolumne River",
+    "type": "Diversion",
+    "origin": "C44",
+    "terminus": "SinkCN3",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 0
+      }
+    }
+  }
+}

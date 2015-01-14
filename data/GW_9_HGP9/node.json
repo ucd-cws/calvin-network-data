@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.536484840759,38.0887046359413],[-121.706703778334,38.3560509669267]]},"properties":{"prmname":"GW-9_HGP9","description":"GW-9 Pumping calibration link ","type":"Diversion","origin":"GW-9","terminus":"HGP9","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

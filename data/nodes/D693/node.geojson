@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.568020403004,
+      37.1329442596075
+    ]
+  },
+  "properties": {
+    "prmname": "D693",
+    "description": "Eastside Bypass depletion",
+    "type": "Junction",
+    "origins": [
+      "D692"
+    ],
+    "terminals": [
+      "D619",
+      "SinkG103"
+    ],
+    "inflows": null
+  }
+}

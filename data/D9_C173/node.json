@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.218374718958,38.6367717571323],[-121.263044029209,38.5975733561026]]},"properties":{"prmname":"D9_C173","description":"Lake Natoma export to Folsom South Canal","type":"Diversion","origin":"D9","terminus":"C173","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

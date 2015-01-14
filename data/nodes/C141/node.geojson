@@ -1,0 +1,25 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -114.512402264508,
+      33.7335961598335
+    ]
+  },
+  "properties": {
+    "prmname": "C141",
+    "description": "Colorado River diversion to Palo Verde Ag",
+    "type": "Junction",
+    "origins": [
+      "SR-CR1",
+      "C134"
+    ],
+    "terminals": [
+      "T63BLY",
+      "C142",
+      "HUDPV"
+    ],
+    "inflows": null
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-116.253569495654,33.7459538834681],[-115.562354571647,33.8813022108897]]},"properties":{"prmname":"T11_Sink G45","description":"SW Discharge to ??","type":"Diversion","origin":"T11COAC","terminus":"Sink G45","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.407068259087,
+        39.0008949451889
+      ],
+      [
+        -121.364573462969,
+        39.0185344813189
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C308_C33",
+    "description": "Bear River outflow from DA 68",
+    "type": "Diversion",
+    "origin": "C308",
+    "terminus": "C33",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

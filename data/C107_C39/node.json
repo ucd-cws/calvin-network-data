@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.245071938254,38.4856058846789],[-121.010270512065,38.1684854762569]]},"properties":{"prmname":"C107_C39","description":"South Folsom Canal Extension to Mokelumne Aqueduct","type":"Diversion","origin":"C107","terminus":"C39","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

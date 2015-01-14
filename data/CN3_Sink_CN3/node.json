@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.388435859804,37.3523524888737],[-120.531647986042,37.4933946518572]]},"properties":{"prmname":"CN3_Sink CN3","description":"Removed calibration water","type":"Diversion","origin":"CN3","terminus":"SinkCN3","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

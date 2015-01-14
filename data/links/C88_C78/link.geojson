@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.30421535652,
+        37.8116388413448
+      ],
+      [
+        -121.935039447563,
+        37.5499652274861
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C88_C78",
+    "description": "Hetch Hetchy Aqueduct",
+    "type": "Diversion",
+    "origin": "C88",
+    "terminus": "C78",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

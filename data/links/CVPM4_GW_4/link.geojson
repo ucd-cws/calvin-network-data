@@ -1,0 +1,34 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.890629175654,
+        39.1484155776909
+      ],
+      [
+        -121.890629175654,
+        39.1484155776909
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "CVPM4_GW-4",
+    "description": "Hidden groundwater return flow calibration link",
+    "type": "Return Flow",
+    "origin": "CVPM4",
+    "terminus": "GW-4",
+    "amplitude": 1,
+    "costs": null,
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

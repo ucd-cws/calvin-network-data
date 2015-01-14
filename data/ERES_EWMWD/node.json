@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-117.11200458163,33.7176796323232]},"properties":{"prmname":"ERES EWMWD","description":"Exterior residential demand for eastern & western municipal water districts","type":"Urban Demand","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

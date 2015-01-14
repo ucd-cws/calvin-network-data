@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.117807583529,
+      37.8150169196961
+    ]
+  },
+  "properties": {
+    "prmname": "IRES EBMUD",
+    "description": "EBMUD interior urban demand Parts of DAU 46 & 47",
+    "type": "Urban Demand",
+    "origins": [
+      "T17EBMU"
+    ],
+    "terminals": [
+      "T35EBMU"
+    ],
+    "inflows": null
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.886579534837,38.3023003659904]},"properties":{"prmname":"C22","description":"NB Aqu. Delivery to Sacramento Urban","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

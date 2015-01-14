@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.134545111916,35.2909192932068],[-119.134545111916,35.2909192932068]]},"properties":{"prmname":"T29_T28","description":"Bakersfield recycled water","type":"Diversion","origin":"T29BAKE","terminus":"T28BAKE","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

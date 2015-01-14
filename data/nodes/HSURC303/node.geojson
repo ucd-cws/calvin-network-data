@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.278951318554,
+      39.5057576691627
+    ]
+  },
+  "properties": {
+    "prmname": "HSURC303",
+    "description": "Hidden diversion refuge node",
+    "type": "Junction",
+    "origins": [
+      "C303"
+    ],
+    "terminals": [
+      "Sac W Ref"
+    ],
+    "inflows": null
+  }
+}

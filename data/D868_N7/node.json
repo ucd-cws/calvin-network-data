@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.309070159834,34.6555784453804],[-118.696997482168,34.6899949269352]]},"properties":{"prmname":"D868_N7","description":"East Branch SWP Diversion to AV","type":"Diversion","origin":"D868","terminus":"N7","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

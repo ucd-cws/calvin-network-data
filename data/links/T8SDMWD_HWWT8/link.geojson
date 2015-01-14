@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.654022339866,
+        33.0562684285393
+      ],
+      [
+        -116.890057148465,
+        33.1253272760922
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T8_HWWT8",
+    "description": "Expanded wastewater recycling facility for San Diego",
+    "type": "Diversion",
+    "origin": "T8SDMWD",
+    "terminus": "HWWT8",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 1480
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.579144314833,
+        37.8766279197723
+      ],
+      [
+        -121.552948076786,
+        37.8314999102717
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C309_D59",
+    "description": "Old River",
+    "type": "Diversion",
+    "origin": "C309",
+    "terminus": "D59",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

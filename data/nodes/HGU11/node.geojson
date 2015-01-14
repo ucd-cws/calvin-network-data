@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.944823022552,
+      37.732157445625
+    ]
+  },
+  "properties": {
+    "prmname": "HGU11",
+    "description": "Hidden node for calibration of GW-11",
+    "type": "Junction",
+    "origins": [
+      "EXT CVPM11",
+      "T46Modest"
+    ],
+    "terminals": [
+      "GW-11"
+    ],
+    "inflows": null
+  }
+}

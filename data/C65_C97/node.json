@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.945931387065,35.4319571897471],[-118.945931387065,35.4319571897471]]},"properties":{"prmname":"C65_C97","description":"Kern River final reach","type":"Diversion","origin":"C65","terminus":"C97","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

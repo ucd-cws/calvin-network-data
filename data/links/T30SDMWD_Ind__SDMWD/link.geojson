@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.654022339866,
+        33.0562684285393
+      ],
+      [
+        -116.914539265617,
+        33.0175153078573
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T30_Ind: San Diego",
+    "description": "Ind Urban Penatly Function",
+    "type": "Diversion",
+    "origin": "T30SDMWD",
+    "terminus": "Ind: SDMWD",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.719529012302,
+        39.1136124963805
+      ],
+      [
+        -121.426387260909,
+        38.7183241572419
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU7D42_C34",
+    "description": "Feather River left bank diversions to CVPM 7 (DA 70)",
+    "type": "Diversion",
+    "origin": "HSU7D42",
+    "terminus": "C34",
+    "amplitude": 0.88,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

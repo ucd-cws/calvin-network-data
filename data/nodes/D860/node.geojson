@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.332074453145,
+      35.0904842029488
+    ]
+  },
+  "properties": {
+    "prmname": "D860",
+    "description": "California Aqueduct",
+    "type": "Junction",
+    "origins": [
+      "BuenaPMP",
+      "C98"
+    ],
+    "terminals": [
+      "D861",
+      "C98"
+    ],
+    "inflows": null
+  }
+}

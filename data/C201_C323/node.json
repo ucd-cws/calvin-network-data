@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.126408689648,38.1015271017669],[-122.095726318634,37.9058848014908]]},"properties":{"prmname":"C201_C323","description":"Mokelumne Aqueduct","type":"Diversion","origin":"C201","terminus":"C323","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.525960616849,37.9502106945508],[-120.620574794166,37.9740026901321]]},"properties":{"prmname":"D670_C43","description":"Stanislaus diversion to SEWD and SJID in CVPM 8","type":"Diversion","origin":"D670","terminus":"C43","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,26 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.819664974205,
+      36.752490908025
+    ]
+  },
+  "properties": {
+    "prmname": "T24FRES",
+    "description": "Fresno IN",
+    "type": "Water Treatment",
+    "origins": [
+      "C53",
+      "HGP16",
+      "T25FRES",
+      "C49"
+    ],
+    "terminals": [
+      "INT FRESN",
+      "EXT FRESN"
+    ],
+    "inflows": null
+  }
+}

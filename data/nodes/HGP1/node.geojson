@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.451055535865,
+      40.5080484899195
+    ]
+  },
+  "properties": {
+    "prmname": "HGP1",
+    "description": "Hidden node for calibration of GW-1",
+    "type": "Junction",
+    "origins": [
+      "GW-1"
+    ],
+    "terminals": [
+      "T41RED",
+      "C3",
+      "CVPM1"
+    ],
+    "inflows": null
+  }
+}

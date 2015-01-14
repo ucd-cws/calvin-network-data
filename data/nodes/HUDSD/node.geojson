@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.217198286111,
+      33.4206944460509
+    ]
+  },
+  "properties": {
+    "prmname": "HUDSD",
+    "description": "Hidden Node for San Diego Ag",
+    "type": "Junction",
+    "origins": [
+      "T40SDMWD"
+    ],
+    "terminals": [
+      "AGG SD",
+      "AGS SD"
+    ],
+    "inflows": null
+  }
+}

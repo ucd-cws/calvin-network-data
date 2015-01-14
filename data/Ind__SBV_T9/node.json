@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.325628302018,34.2043202427351],[-117.611791831712,34.5556980766025]]},"properties":{"prmname":"Ind: SBV_T9","description":"Ind Return Flow Total","type":"Diversion","origin":"Ind: SBV","terminus":"T9SBV","amplitude":0.4,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.954054298963,
+        39.1328961882442
+      ],
+      [
+        -121.55711226186,
+        39.9487984429982
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C35_Sink C35",
+    "description": "Bear River diversion to M&I via Boardman canal, Bear River canal and Gold Hill/Combie canal",
+    "type": "Diversion",
+    "origin": "C35",
+    "terminus": "Sink C35",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

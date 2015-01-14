@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.045337303855,
+        36.3888493616178
+      ],
+      [
+        -119.825584928334,
+        36.0517393406691
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C56_C59",
+    "description": "Kaweah River flood flow to Tulare Lake",
+    "type": "Diversion",
+    "origin": "C56",
+    "terminus": "C59",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

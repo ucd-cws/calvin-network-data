@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.503073985295,
+        36.5792993461957
+      ],
+      [
+        -119.503073985295,
+        36.5792993461957
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T50_T49",
+    "description": "CVPM 17 Urban recycling",
+    "type": "Diversion",
+    "origin": "T50SANGER",
+    "terminus": "T49SANGER",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 1480
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 3.34
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.038621795323,
+        38.8187062540514
+      ],
+      [
+        -121.897355289412,
+        38.5709805174801
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU6C16_C17",
+    "description": "Cache Creek diversions at Capay Dam to CVPM 6 (DA 65) (Winters, Moore, W. Adams Canals)",
+    "type": "Diversion",
+    "origin": "HSU6C16",
+    "terminus": "C17",
+    "amplitude": 0.88,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

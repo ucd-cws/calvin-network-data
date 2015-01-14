@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.721155680043,34.8121254100938],[-118.728723839748,34.7773185200061]]},"properties":{"prmname":"OSO Pumping Plant_D884","description":"SWP West Branch Pumping","type":"Diversion","origin":"OSO PMP","terminus":"D884","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

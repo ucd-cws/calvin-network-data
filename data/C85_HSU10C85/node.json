@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.716936915598,36.9686835877416],[-120.817450877466,36.8973661192954]]},"properties":{"prmname":"C85_HSU10C85","description":"surface delivery CVPM 10","type":"Diversion","origin":"C85","terminus":"HSU10C85","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

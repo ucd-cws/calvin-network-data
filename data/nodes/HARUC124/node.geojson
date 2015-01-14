@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.865434068583,
+      34.6221544156825
+    ]
+  },
+  "properties": {
+    "prmname": "HARUC124",
+    "description": "Hidden node for artificial groundwater recharge",
+    "type": "Junction",
+    "origins": [
+      "C124"
+    ],
+    "terminals": [
+      "GW-MJ"
+    ],
+    "inflows": null
+  }
+}

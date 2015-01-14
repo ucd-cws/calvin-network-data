@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.156716003837,37.7975846038153]},"properties":{"prmname":"SinkG509","description":"CVP diversion to Ag in Central Coast","type":"Sink","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

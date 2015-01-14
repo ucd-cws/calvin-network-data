@@ -1,0 +1,27 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.375002273952,
+      36.7779495550957
+    ]
+  },
+  "properties": {
+    "prmname": "D608",
+    "description": "Mendota Pool",
+    "type": "Junction",
+    "origins": [
+      "CN3",
+      "D724",
+      "D609",
+      "C54"
+    ],
+    "terminals": [
+      "HSU14D608",
+      "HSU15D608",
+      "D731"
+    ],
+    "inflows": null
+  }
+}

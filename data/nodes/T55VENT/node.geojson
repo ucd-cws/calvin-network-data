@@ -1,0 +1,39 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.041222087827,
+      34.4263093127776
+    ]
+  },
+  "properties": {
+    "prmname": "T55VENT",
+    "description": "Water Treatment node to Ventura Co",
+    "type": "Water Treatment",
+    "origins": [
+      "HWWTVC",
+      "GW-VC",
+      "T56VENT",
+      "DesalR5",
+      "C106"
+    ],
+    "terminals": [
+      "IRES:VENT",
+      "ERes:VENT",
+      "IND:VENT",
+      "HUDVC"
+    ],
+    "inflows": [
+      {
+        "name": "Surface inflows for Ventura",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

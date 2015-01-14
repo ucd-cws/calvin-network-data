@@ -1,0 +1,39 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.168058138434,
+        38.6999028907616
+      ],
+      [
+        -121.218374718958,
+        38.6367717571323
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-8_D9",
+    "description": "Reservoir release from Folsom Dam to American River",
+    "type": "Diversion",
+    "origin": "SR-8",
+    "terminus": "D9",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

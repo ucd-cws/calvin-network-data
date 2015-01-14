@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.736275946117,
+        37.3469076116457
+      ],
+      [
+        -121.429541959766,
+        37.0633030467363
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T19_HWWT19",
+    "description": "Proposed expanded wastewater treatment facility for SCV",
+    "type": "Diversion",
+    "origin": "T19SCV",
+    "terminus": "HWWT19",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 1480
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 10.56
+      }
+    }
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.763850225972,37.5238091483913],[-120.694296808726,37.3888125909724]]},"properties":{"prmname":"GW-12_HGP12","description":"Link to hidden node for calibration of GW-12","type":"Diversion","origin":"GW-12","terminus":"HGP12","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

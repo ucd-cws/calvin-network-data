@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.843124733344,36.2765886623304],[-119.908645149362,36.2678066416063]]},"properties":{"prmname":"GW-15_HGP15","description":"Hidden groundwater pumping calibration ","type":"Diversion","origin":"GW-15","terminus":"HGP15","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

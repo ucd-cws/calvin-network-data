@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.192868244932,
+        39.3779903082271
+      ],
+      [
+        -122.187346354897,
+        39.2606714671897
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C302_CVPM3",
+    "description": "Glenn-Colusa and Tehema Colusa canl deliveries to CVPM 3 (DA 12)",
+    "type": "Diversion",
+    "origin": "C302",
+    "terminus": "CVPM3",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

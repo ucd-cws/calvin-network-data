@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.15035186254,35.072289434394],[-120.706070535435,35.7074505158318]]},"properties":{"prmname":"D861_Sink D861","description":"California Aqueduct losses R15A-18A","type":"Diversion","origin":"D861","terminus":"Sink D861","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

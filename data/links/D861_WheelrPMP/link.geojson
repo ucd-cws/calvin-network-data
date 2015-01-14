@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.15035186254,
+        35.072289434394
+      ],
+      [
+        -119.008436713824,
+        35.0334079232171
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D861_WheelerRidgePMP",
+    "description": "California Aqueduct diversion to Wheeler Ridge Pumping Plant",
+    "type": "Diversion",
+    "origin": "D861",
+    "terminus": "WheelrPMP",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

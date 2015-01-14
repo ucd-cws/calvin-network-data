@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.891530754218,38.0490039850414],[-121.861564811756,38.0621924947264]]},"properties":{"prmname":"D528_D509","description":"San Joaquin River Reach","type":"Diversion","origin":"D528","terminus":"D509","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,87 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.3301023797,
+      39.8078789707178
+    ]
+  },
+  "properties": {
+    "prmname": "SR-BBL",
+    "description": "Black Butte Lake",
+    "type": "Surface Storage",
+    "origins": [
+      "CN1"
+    ],
+    "terminals": [
+      "CN1",
+      "C9"
+    ],
+    "initialstorage": 80.2,
+    "endingstorage": 80.2,
+    "areacapfactor": 0.01852632,
+    "inflows": [
+      {
+        "name": "STONY CREEK",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ],
+    "el_ar_cap": [
+      {
+        "elevation": 400,
+        "area": 0.300000011920929,
+        "capacity": 0
+      },
+      {
+        "elevation": 414.600006103516,
+        "area": 0.769999980926514,
+        "capacity": 10
+      },
+      {
+        "elevation": 425,
+        "area": 1.20000004768372,
+        "capacity": 20
+      },
+      {
+        "elevation": 450,
+        "area": 2.79999995231628,
+        "capacity": 65
+      },
+      {
+        "elevation": 473.5,
+        "area": 4.55999994277954,
+        "capacity": 160
+      },
+      {
+        "elevation": 509.799987792969,
+        "area": 6,
+        "capacity": 325
+      }
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 10
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

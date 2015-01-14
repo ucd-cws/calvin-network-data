@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-120.377382537366,36.8104873839673]},"properties":{"prmname":"C10","description":"San Joaquin River riparian delivery to CVPM-10","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

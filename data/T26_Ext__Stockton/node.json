@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.139396298091,38.0576188365164],[-121.139396298091,38.0576188365164]]},"properties":{"prmname":"T26_Ext: Stockton","description":"inflow exterior urban ","type":"Diversion","origin":"T26STOC","terminus":"EXT STOCK","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

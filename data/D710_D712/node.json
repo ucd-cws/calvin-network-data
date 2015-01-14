@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.040140686352,37.1006164822141],[-121.040140686352,37.1006164822141]]},"properties":{"prmname":"D710_D712","description":"Delta Mendota Canal","type":"Diversion","origin":"D710","terminus":"D712","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

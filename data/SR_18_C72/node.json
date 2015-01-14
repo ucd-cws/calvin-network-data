@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.705978374486,37.0009495449673],[-119.708138615082,37.0041907856434]]},"properties":{"prmname":"SR-18_C72","description":"Diversion from Millerton Lake to Madera Canal","type":"Diversion","origin":"SR-18","terminus":"C72","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

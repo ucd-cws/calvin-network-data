@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.908645149362,
+        36.2678066416063
+      ],
+      [
+        -119.819733063512,
+        36.142318016882
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGP15_C90",
+    "description": "Agricultural groundwater pumping GW-15 to CVPM 15 Demand",
+    "type": "Diversion",
+    "origin": "HGP15",
+    "terminus": "C90",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 30.08
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 335.25
+      }
+    }
+  }
+}

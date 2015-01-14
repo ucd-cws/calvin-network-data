@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.707664828163,34.8262365481224],[-118.695923447306,34.8199779632425]]},"properties":{"prmname":"D865_Alamo Power Plant","description":"SWP East Branch Power P","type":"Diversion","origin":"D865","terminus":"Alamo PWP","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

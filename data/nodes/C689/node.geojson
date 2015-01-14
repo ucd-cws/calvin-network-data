@@ -1,0 +1,25 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.091922146909,
+      35.3892075676441
+    ]
+  },
+  "properties": {
+    "prmname": "C689",
+    "description": "Friant-Kern Canal terminal structure",
+    "type": "Junction",
+    "origins": [
+      "C64"
+    ],
+    "terminals": [
+      "Sink C689",
+      "C65",
+      "HAR21",
+      "HSU21C689"
+    ],
+    "inflows": null
+  }
+}

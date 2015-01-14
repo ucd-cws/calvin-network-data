@@ -1,0 +1,27 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.89165314062,
+      37.5093060369572
+    ]
+  },
+  "properties": {
+    "prmname": "C45",
+    "description": "CVPM 12 farm gate",
+    "type": "Junction",
+    "origins": [
+      "HSU12D664",
+      "HSU12D662",
+      "HSU12D649",
+      "HSU12D645",
+      "HGP12",
+      "HSU12D699"
+    ],
+    "terminals": [
+      "Sink R3"
+    ],
+    "inflows": null
+  }
+}

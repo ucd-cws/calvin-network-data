@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.813930014212,
+      37.8487546749383
+    ]
+  },
+  "properties": {
+    "prmname": "IRES  CC",
+    "description": "Interior urban residential Part of DAU 46 and all of 192",
+    "type": "Urban Demand",
+    "origins": [
+      "T16CCWD"
+    ],
+    "terminals": [
+      "T18CCWD"
+    ],
+    "inflows": null
+  }
+}

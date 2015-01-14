@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.188484998318,36.9122557898739],[-118.04170641,35.3827521620684]]},"properties":{"prmname":"GW-OW_C120","description":"GW-OW Pumping","type":"Diversion","origin":"GW-OW","terminus":"C120","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

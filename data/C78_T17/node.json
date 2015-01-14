@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.935039447563,37.5499652274861],[-122.164737448427,37.762855076232]]},"properties":{"prmname":"C78_T17","description":"Emergency Intertie with SFPUC","type":"Diversion","origin":"C78","terminus":"T17EBMU","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

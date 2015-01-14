@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.095726318634,
+        37.9058848014908
+      ],
+      [
+        -122.123075686885,
+        37.7299293468668
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C323_SR-EBMUD",
+    "description": "Mokelumne Aqueduct",
+    "type": "Diversion",
+    "origin": "C323",
+    "terminus": "SR-EBMUD",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

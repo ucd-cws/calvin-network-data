@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.620574794166,
+        37.9740026901321
+      ],
+      [
+        -121.139396298091,
+        38.0576188365164
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C43_T26",
+    "description": "Stanislaus R SW Diversion",
+    "type": "Diversion",
+    "origin": "C43",
+    "terminus": "T26STOC",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 37
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

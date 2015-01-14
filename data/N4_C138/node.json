@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.031349684186,33.7923801243691],[-117.046669019684,33.715050468208]]},"properties":{"prmname":"N4_C138","description":"Inland Feeder","type":"Diversion","origin":"N4","terminus":"C138","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

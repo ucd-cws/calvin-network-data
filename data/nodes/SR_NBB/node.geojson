@@ -1,0 +1,91 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.14106740265,
+      39.3928914107421
+    ]
+  },
+  "properties": {
+    "prmname": "SR-NBB",
+    "description": "New Bullards Bar Res",
+    "type": "Surface Storage",
+    "origins": [
+      "CN2"
+    ],
+    "terminals": [
+      "C27"
+    ],
+    "initialstorage": 600,
+    "endingstorage": 600,
+    "areacapfactor": 0.005066,
+    "inflows": null,
+    "el_ar_cap": [
+      {
+        "elevation": 1700,
+        "area": 1.5,
+        "capacity": 190
+      },
+      {
+        "elevation": 1732,
+        "area": 2,
+        "capacity": 251
+      },
+      {
+        "elevation": 1801,
+        "area": 2.79999995231628,
+        "capacity": 400
+      },
+      {
+        "elevation": 1874,
+        "area": 3.29999995231628,
+        "capacity": 600
+      },
+      {
+        "elevation": 1902,
+        "area": 3.79999995231628,
+        "capacity": 700
+      },
+      {
+        "elevation": 1918,
+        "area": 4.19999980926514,
+        "capacity": 796
+      },
+      {
+        "elevation": 1948,
+        "area": 4.5,
+        "capacity": 896
+      },
+      {
+        "elevation": 1961,
+        "area": 6,
+        "capacity": 966
+      },
+      {
+        "elevation": 1965,
+        "area": 6,
+        "capacity": 990
+      }
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 251
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

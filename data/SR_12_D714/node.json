@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.13403448001,37.0329450327247],[-121.267860790192,37.0399015085979]]},"properties":{"prmname":"SR-12_D714","description":"Pacheco Tunnel","type":"Diversion","origin":"SR-12","terminus":"D714","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

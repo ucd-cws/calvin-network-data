@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.507702933179,
+        38.5379891813525
+      ],
+      [
+        -121.14106740265,
+        39.3928914107421
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "CN2_SR-NBB",
+    "description": "Calibration flow added for small infeasiblity on Yuba",
+    "type": "Diversion",
+    "origin": "CN2",
+    "terminus": "SR-NBB",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

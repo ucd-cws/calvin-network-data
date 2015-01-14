@@ -1,0 +1,39 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.14106740265,
+        39.3928914107421
+      ],
+      [
+        -121.274070072574,
+        39.2348930147627
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-NBB_C27",
+    "description": "Reservoir release from New Bullards Bar toYuba River",
+    "type": "Diversion",
+    "origin": "SR-NBB",
+    "terminus": "C27",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

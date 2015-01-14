@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.632888541271,
+        37.8839426366446
+      ],
+      [
+        -121.765429109815,
+        37.9834704359914
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C310_C70",
+    "description": "Los Vaqueros delivery to Contra Costa Canal",
+    "type": "Diversion",
+    "origin": "C310",
+    "terminus": "C70",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

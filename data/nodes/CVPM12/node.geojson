@@ -1,0 +1,46 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.763850225972,
+      37.5238091483913
+    ]
+  },
+  "properties": {
+    "prmname": "CVPM12",
+    "description": "CVPM12 Agricultural Demand",
+    "type": "Agricultural Demand",
+    "origins": [
+      "HSU12D664",
+      "HSU12D645",
+      "HSU12D699",
+      "HSU12D649",
+      "HSU12D662",
+      "HGP12"
+    ],
+    "terminals": [
+      "GW-12",
+      "D697"
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": null,
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.695923447306,
+        34.8199779632425
+      ],
+      [
+        -118.309070159834,
+        34.6555784453804
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Alamo Power Plant_D868",
+    "description": "SWP East Branch Power Plant",
+    "type": "Diversion",
+    "origin": "Alamo PWP",
+    "terminus": "D868",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": -12.2248
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

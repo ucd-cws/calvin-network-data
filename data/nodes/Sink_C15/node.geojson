@@ -1,0 +1,20 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.55711226186,
+      39.9487984429982
+    ]
+  },
+  "properties": {
+    "prmname": "Sink C15",
+    "description": "Local depletion DA12",
+    "type": "Sink",
+    "origins": [
+      "C15"
+    ],
+    "terminals": null,
+    "inflows": null
+  }
+}

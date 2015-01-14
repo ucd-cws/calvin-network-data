@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.637927908983,
+      35.4668619411445
+    ]
+  },
+  "properties": {
+    "prmname": "D851&D852",
+    "description": "California Aqueduct",
+    "type": "Junction",
+    "origins": [
+      "HGP19",
+      "D850"
+    ],
+    "terminals": [
+      "D853"
+    ],
+    "inflows": null
+  }
+}

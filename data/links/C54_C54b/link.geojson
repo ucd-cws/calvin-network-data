@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.180990939721,
+        36.6529489385749
+      ],
+      [
+        -119.863063624646,
+        36.6461874887086
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C54_C54b",
+    "description": "Fresno Slough depletion",
+    "type": "Diversion",
+    "origin": "C54",
+    "terminus": "C54b",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.671845272944,
+        35.2808776368964
+      ],
+      [
+        -120.171511637999,
+        34.8039696600582
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T71_Ext: SB-SLO",
+    "description": "Total Urban Exterior Penalty Function",
+    "type": "Diversion",
+    "origin": "T71",
+    "terminus": "EXT SB-SLO",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.479154501275,
+        37.9360979188775
+      ],
+      [
+        -121.484859535646,
+        37.9408994069256
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Ext: CVPM9_HGU9",
+    "description": "Return flows from CVPM9 exterior",
+    "type": "Diversion",
+    "origin": "EXT CVPM9",
+    "terminus": "HGU9",
+    "amplitude": 0.001,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.445529186787,37.6740311818067],[-120.526217948865,37.4166314974829]]},"properties":{"prmname":"D662_HSU11D662","description":"surface delivery CVPM 11","type":"Diversion","origin":"D662","terminus":"HSU11D662","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

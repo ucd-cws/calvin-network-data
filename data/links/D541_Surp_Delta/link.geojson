@@ -1,0 +1,39 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.500657508782,
+        38.1180525987915
+      ],
+      [
+        -121.937360922946,
+        38.0505211859991
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D541_Surplus Delta Outflow",
+    "description": "Surplus Delta Outflow",
+    "type": "Diversion",
+    "origin": "D541",
+    "terminus": "Surp Delta",
+    "amplitude": 1,
+    "costs": {
+      "type": "Annual Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

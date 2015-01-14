@@ -1,0 +1,39 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.963015437361,
+        37.8939238085438
+      ],
+      [
+        -120.422128134749,
+        37.7016311667735
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-LL-LE_SR-81",
+    "description": "Cherry Creek inflow to Tuolumne River.  Holm hydropower added on this link.",
+    "type": "Diversion",
+    "origin": "SR-LL-LE",
+    "terminus": "SR-81",
+    "amplitude": 1,
+    "costs": {
+      "type": null,
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

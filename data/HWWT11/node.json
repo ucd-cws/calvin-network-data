@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-116.204134170768,33.7208948876101]},"properties":{"prmname":"HWWT11","description":"Hidden node for exapanded wastewater recycling for Coachella Urban","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.763850225972,
+        37.5238091483913
+      ],
+      [
+        -120.900290711398,
+        37.5073151962331
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T66_Ext: CVPM12",
+    "description": "Exterior urban demand to CVPM12",
+    "type": "Diversion",
+    "origin": "T66Turlock",
+    "terminus": "EXT CVPM12",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.45202652952,
+      37.5019364803428
+    ]
+  },
+  "properties": {
+    "prmname": "D646",
+    "description": "Merced River accretion",
+    "type": "Junction",
+    "origins": [
+      "D645",
+      "CN3"
+    ],
+    "terminals": [
+      "D647"
+    ],
+    "inflows": [
+      {
+        "name": "Accretion Lower Merced River",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

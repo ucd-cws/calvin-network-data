@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.253569495654,
+        33.7459538834681
+      ],
+      [
+        -116.253569495654,
+        33.7459538834681
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T31_Int: Coachella",
+    "description": "INTERIOR Penalty Function",
+    "type": "Diversion",
+    "origin": "T31COAC",
+    "terminus": "INT: COACH",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

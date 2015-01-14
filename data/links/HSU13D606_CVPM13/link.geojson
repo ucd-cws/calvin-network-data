@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.290783608198,
+        36.8966038392559
+      ],
+      [
+        -120.321487789062,
+        37.1313881427344
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU13D606_CVPM13",
+    "description": "San Joaquin River right bank riparian diversions between Friant dam and Gravelly Ford CVPM 13",
+    "type": "Diversion",
+    "origin": "HSU13D606",
+    "terminus": "CVPM13",
+    "amplitude": 0.94,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

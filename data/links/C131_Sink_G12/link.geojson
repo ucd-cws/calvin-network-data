@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.312498270078,
+        34.0072522414459
+      ],
+      [
+        -117.288234276798,
+        35.8878011690702
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C131_Sink G12",
+    "description": "East Branch SWP Losses",
+    "type": "Diversion",
+    "origin": "C131",
+    "terminus": "Sink G12",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

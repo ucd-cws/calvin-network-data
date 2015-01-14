@@ -1,0 +1,36 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.861564811756,
+      38.0621924947264
+    ]
+  },
+  "properties": {
+    "prmname": "D509",
+    "description": "Delta - ?",
+    "type": "Junction",
+    "origins": [
+      "CN2",
+      "D507",
+      "D528"
+    ],
+    "terminals": [
+      "D541",
+      "Sink G504",
+      "CN2"
+    ],
+    "inflows": [
+      {
+        "name": "DA55 Accretions",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

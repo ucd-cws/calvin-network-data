@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.349239330097,
+      33.7792036538471
+    ]
+  },
+  "properties": {
+    "prmname": "AGS COACH",
+    "description": "Coachella ag supplied by surface water",
+    "type": "Junction",
+    "origins": [
+      "HUDCH"
+    ],
+    "terminals": [
+      "C157"
+    ],
+    "inflows": null
+  }
+}

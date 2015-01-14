@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.230301322366,33.7408001932764],[-117.332875551593,33.9215706753313]]},"properties":{"prmname":"HUDEW_AgG: E&W MWD","description":"Groundwater to antelope valley Ag","type":"Diversion","origin":"HUDEW","terminus":"AGG EW","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

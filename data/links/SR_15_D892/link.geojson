@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.746063612922,
+        37.6139319505633
+      ],
+      [
+        -121.747595763706,
+        37.617957625919
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-15_D892",
+    "description": "South bay Aqueduct, Lake Del Valle Release",
+    "type": "Diversion",
+    "origin": "SR-15",
+    "terminus": "D892",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

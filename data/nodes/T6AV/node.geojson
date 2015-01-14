@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.048427574224,
+      36.0004773633476
+    ]
+  },
+  "properties": {
+    "prmname": "T6AV",
+    "description": "Antelope IN",
+    "type": "Water Treatment",
+    "origins": [
+      "T33AV",
+      "GW-AV",
+      "HWWT33",
+      "N7"
+    ],
+    "terminals": [
+      "HUDAV",
+      "INT AV",
+      "EXT AV"
+    ],
+    "inflows": [
+      {
+        "name": "LOCAL SUPPLIES for Antelope",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

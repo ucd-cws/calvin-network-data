@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.830968814272,
+        36.3416503659485
+      ],
+      [
+        -119.845793036576,
+        36.2858063967588
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C52_HSU15C52",
+    "description": "Surface delivery CVPM 15",
+    "type": "Diversion",
+    "origin": "C52",
+    "terminus": "HSU15C52",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 461
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.604035791293,
+        37.8749267916247
+      ],
+      [
+        -120.922433506324,
+        37.7329477412083
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D16_T45",
+    "description": "Transfer of Ag AW from OID and/or SJID on Stanislaus to urban thru land reduction ",
+    "type": "Diversion",
+    "origin": "D16",
+    "terminus": "T45MODEST",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 74
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

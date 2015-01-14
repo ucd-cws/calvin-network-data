@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.285999425433,36.7739490660268],[-120.375002273952,36.7779495550957]]},"properties":{"prmname":"D609_D608","description":"San Joaquin River flood flow to Mendota Pool","type":"Diversion","origin":"D609","terminus":"D608","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

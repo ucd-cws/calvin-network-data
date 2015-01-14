@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.318878472829,
+      34.3040041501716
+    ]
+  },
+  "properties": {
+    "prmname": "SR-25",
+    "description": "Silverwood Lake",
+    "type": "Surface Storage",
+    "origins": [
+      "Mojave PWP"
+    ],
+    "terminals": [
+      "Devils PWP"
+    ],
+    "initialstorage": 50,
+    "endingstorage": 45.64,
+    "areacapfactor": 0.00558,
+    "inflows": null,
+    "el_ar_cap": [
+      {
+        "elevation": 3180,
+        "area": 0,
+        "capacity": 0
+      },
+      {
+        "elevation": 3200,
+        "area": 0.0799999982118607,
+        "capacity": 1
+      },
+      {
+        "elevation": 3220,
+        "area": 0.174999997019768,
+        "capacity": 4
+      },
+      {
+        "elevation": 3230,
+        "area": 0.219999998807907,
+        "capacity": 6
+      },
+      {
+        "elevation": 3260,
+        "area": 0.370000004768372,
+        "capacity": 15
+      },
+      {
+        "elevation": 3280,
+        "area": 0.5,
+        "capacity": 25.5
+      },
+      {
+        "elevation": 3300,
+        "area": 0.612999975681305,
+        "capacity": 31.3950004577637
+      },
+      {
+        "elevation": 3320,
+        "area": 0.742999970912933,
+        "capacity": 44.9410018920898
+      },
+      {
+        "elevation": 3340,
+        "area": 0.875,
+        "capacity": 61.101001739502
+      },
+      {
+        "elevation": 3355,
+        "area": 0.976000010967255,
+        "capacity": 78
+      }
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 20
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 75
+      }
+    }
+  }
+}

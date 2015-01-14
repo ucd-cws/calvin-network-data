@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.238108406419,
+        36.4127241325151
+      ],
+      [
+        -120.706070535435,
+        35.7074505158318
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C91_SinkR3",
+    "description": "Debug losses from CVPM 14\r\n",
+    "type": "Diversion",
+    "origin": "C91",
+    "terminus": "Sink R3",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 0
+      }
+    }
+  }
+}

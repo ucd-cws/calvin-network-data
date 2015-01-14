@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.862282498593,37.861111705391]},"properties":{"prmname":"HWWT18","description":"Hidden node for wastewater recycling for CCWD","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

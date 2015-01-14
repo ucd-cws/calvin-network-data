@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.010270512065,
+      38.1684854762569
+    ]
+  },
+  "properties": {
+    "prmname": "C39",
+    "description": "Folsom South Canal inflow to Mokelumne River Aqueduct",
+    "type": "Junction",
+    "origins": [
+      "C107",
+      "SR-PR"
+    ],
+    "terminals": [
+      "WalCk PMP"
+    ],
+    "inflows": null
+  }
+}

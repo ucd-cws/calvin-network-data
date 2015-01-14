@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.605072484411,38.8908976670866],[-121.55711226186,39.9487984429982]]},"properties":{"prmname":"D37_Sink G21","description":"DA 69 local depletion","type":"Diversion","origin":"D37","terminus":"Sink G21","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.55086555451,
+        36.4146901361544
+      ],
+      [
+        -119.503073985295,
+        36.5792993461957
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU17C76_CVPM17",
+    "description": "Friant-Kern Canal delivery to CVPM 17 (DA 60D)",
+    "type": "Diversion",
+    "origin": "HSU17C76",
+    "terminus": "CVPM17",
+    "amplitude": 0.93,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

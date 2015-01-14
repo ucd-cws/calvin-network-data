@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.823181513922,
+        36.966382577001
+      ],
+      [
+        -120.864197378096,
+        37.1176145738176
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGP10_Ext: CVPM10",
+    "description": "Urban supplies to CVPM10 exterior",
+    "type": "Diversion",
+    "origin": "HGP10",
+    "terminus": "EXT CVPM10",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

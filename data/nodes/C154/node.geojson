@@ -1,0 +1,35 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.119708741967,
+      33.5852763100808
+    ]
+  },
+  "properties": {
+    "prmname": "C154",
+    "description": "MWD E&W supply junction node",
+    "type": "Junction",
+    "origins": [
+      "GW-EW",
+      "C153",
+      "D881"
+    ],
+    "terminals": [
+      "T34EMWD",
+      "HUDEW"
+    ],
+    "inflows": [
+      {
+        "name": "LOCAL SUPPLIES",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

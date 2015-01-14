@@ -1,0 +1,27 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.825584928334,
+      36.0517393406691
+    ]
+  },
+  "properties": {
+    "prmname": "C59",
+    "description": "Inflow to Tulare Lake",
+    "type": "Junction",
+    "origins": [
+      "CVPM16",
+      "T52VISALIA",
+      "C52",
+      "C56",
+      "C58"
+    ],
+    "terminals": [
+      "C71",
+      "SR-TLB"
+    ],
+    "inflows": null
+  }
+}

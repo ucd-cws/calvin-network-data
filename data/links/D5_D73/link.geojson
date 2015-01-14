@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.467123096626,
+        40.6278720303772
+      ],
+      [
+        -122.444121960665,
+        40.600872403586
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D5_D73",
+    "description": "Sacramento River between Keswick Reservoir and Clear Creek inflow, minimum instream flow requirement",
+    "type": "Diversion",
+    "origin": "D5",
+    "terminus": "D73",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_lower_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_lower_bound.json"
+        }
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

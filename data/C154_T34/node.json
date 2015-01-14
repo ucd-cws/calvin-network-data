@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.119708741967,33.5852763100808],[-117.11200458163,33.7176796323232]]},"properties":{"prmname":"C154_T34","description":"SW & GW Diversion to E/W MWD","type":"Diversion","origin":"C154","terminus":"T34EMWD","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

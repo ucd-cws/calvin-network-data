@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.333210822641,39.8150944111687],[-122.014402504467,39.6942252701693]]},"properties":{"prmname":"C12_C13","description":"Stony Creek diversion to Glenn-Colusa Canal","type":"Diversion","origin":"C12","terminus":"C13","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

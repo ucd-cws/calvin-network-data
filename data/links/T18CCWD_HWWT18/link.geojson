@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.813930014212,
+        37.8487546749383
+      ],
+      [
+        -121.862282498593,
+        37.861111705391
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T18_HWWT18",
+    "description": "Proposed wastewater recycling for CCWD",
+    "type": "Diversion",
+    "origin": "T18CCWD",
+    "terminus": "HWWT18",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 1480
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 0.19
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.922433506324,
+      37.7329477412083
+    ]
+  },
+  "properties": {
+    "prmname": "T46Modest",
+    "description": "WWTP For Modesto (out)",
+    "type": "Water Treatment",
+    "origins": [
+      "INT CVPM11"
+    ],
+    "terminals": [
+      "T45MODEST",
+      "HGU11"
+    ],
+    "inflows": null
+  }
+}

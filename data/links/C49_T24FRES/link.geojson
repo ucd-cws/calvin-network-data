@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.562354196147,
+        36.8528471361185
+      ],
+      [
+        -119.819664974205,
+        36.752490908025
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C49_T24",
+    "description": "Friant-Kern diversion to City of Fresno for 2100 demands",
+    "type": "Diversion",
+    "origin": "C49",
+    "terminus": "T24FRES",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 74
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

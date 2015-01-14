@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.694296808726,
+      37.3888125909724
+    ]
+  },
+  "properties": {
+    "prmname": "HGP12",
+    "description": "Hidden node for calibration of GW-12",
+    "type": "Junction",
+    "origins": [
+      "GW-12"
+    ],
+    "terminals": [
+      "T66Turlock",
+      "C45",
+      "CVPM12"
+    ],
+    "inflows": null
+  }
+}

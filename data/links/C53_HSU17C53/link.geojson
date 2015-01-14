@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.383158846131,
+        36.8168493904958
+      ],
+      [
+        -119.713620461737,
+        36.5370851714744
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C53_HSU17C53",
+    "description": "Surface delivery CVPM 17",
+    "type": "Diversion",
+    "origin": "C53",
+    "terminus": "HSU17C53",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 217.4
+      }
+    }
+  }
+}

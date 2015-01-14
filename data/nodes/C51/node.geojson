@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.383158846131,
+      36.8168493904958
+    ]
+  },
+  "properties": {
+    "prmname": "C51",
+    "description": "Kings River",
+    "type": "Junction",
+    "origins": [
+      "C49",
+      "SR-PF"
+    ],
+    "terminals": [
+      "C53"
+    ],
+    "inflows": [
+      {
+        "name": "Accretion Kings River",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

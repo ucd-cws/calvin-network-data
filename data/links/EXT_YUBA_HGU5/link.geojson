@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.648569390486,
+        39.3072200208234
+      ],
+      [
+        -121.694481734654,
+        39.2886215770439
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Ext: Yuba_HGU5",
+    "description": "Return flows for Yuba City et all exterior",
+    "type": "Diversion",
+    "origin": "EXT YUBA",
+    "terminus": "HGU5",
+    "amplitude": 0.001,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

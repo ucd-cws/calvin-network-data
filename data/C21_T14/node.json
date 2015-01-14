@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.954832278928,38.4913985787528],[-122.098831500502,38.3149985455252]]},"properties":{"prmname":"C21_T14","description":"Putah S. Canal Diversion","type":"Diversion","origin":"C21","terminus":"T14NAPA","amplitude":0.94,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

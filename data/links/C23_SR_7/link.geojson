@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.5478026024,
+        39.527825094013
+      ],
+      [
+        -121.639083082479,
+        39.4578870023479
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C23_SR-7",
+    "description": "Feather River diversion to Thermalito Forebay/Afterbay",
+    "type": "Diversion",
+    "origin": "C23",
+    "terminus": "SR-7",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

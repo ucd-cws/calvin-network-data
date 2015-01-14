@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.906210736424,38.0107002174442],[-121.813930014212,37.8487546749383]]},"properties":{"prmname":"C71_T16","description":"Delta SW and Los Vaqueros Release","type":"Diversion","origin":"C71","terminus":"T16CCWD","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

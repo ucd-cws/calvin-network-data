@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.902082556755,
+        39.1708913731973
+      ],
+      [
+        -121.598070519704,
+        38.7739014097838
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D43a_D43",
+    "description": "Local accretion from DA14",
+    "type": "Diversion",
+    "origin": "D43a",
+    "terminus": "D43",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

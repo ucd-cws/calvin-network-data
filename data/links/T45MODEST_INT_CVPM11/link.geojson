@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.922433506324,
+        37.7329477412083
+      ],
+      [
+        -121.019311999151,
+        37.7316360441196
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T45_Int: CVPM11",
+    "description": "M&I pumping demand for DAU 205, 206 & 207",
+    "type": "Diversion",
+    "origin": "T45MODEST",
+    "terminus": "INT CVPM11",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

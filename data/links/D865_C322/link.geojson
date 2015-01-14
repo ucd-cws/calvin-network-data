@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.707664828163,
+        34.8262365481224
+      ],
+      [
+        -118.626158946785,
+        34.931447606958
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D865_C322",
+    "description": "Diversion for recharge in Gw-Kern",
+    "type": "Diversion",
+    "origin": "D865",
+    "terminus": "C322",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 14.8
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

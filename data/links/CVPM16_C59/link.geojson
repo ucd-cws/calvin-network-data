@@ -1,0 +1,32 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.795554616671,
+        36.7669649072796
+      ],
+      [
+        -119.825584928334,
+        36.0517393406691
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSD16_C59",
+    "description": "Hidden surface water return flow calibration link",
+    "type": "Return Flow",
+    "origin": "CVPM16",
+    "terminus": "C59",
+    "amplitude": 1,
+    "costs": null,
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "Constant",
+        "bound": 0.16
+      }
+    }
+  }
+}

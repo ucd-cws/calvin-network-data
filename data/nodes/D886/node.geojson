@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.720087779992,
+      34.6219362435875
+    ]
+  },
+  "properties": {
+    "prmname": "D886",
+    "description": "West Branch SWP Node Represented in DWRSIM Network D122696",
+    "type": "Junction",
+    "origins": [
+      "SR-28"
+    ],
+    "terminals": [
+      "Sink G11",
+      "Cast PWP"
+    ],
+    "inflows": null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.181036768093,
+      37.061944181297
+    ]
+  },
+  "properties": {
+    "prmname": "GianPMP",
+    "description": "Gianelli Pumping Plant",
+    "type": "Pump Plant",
+    "origins": [
+      "D814"
+    ],
+    "terminals": [
+      "SR-12"
+    ],
+    "inflows": null
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.123075686885,37.7299293468668],[-122.164737448427,37.762855076232]]},"properties":{"prmname":"SR-EBMUD_T17","description":"EBMUD local storage release","type":"Diversion","origin":"SR-EBMUD","terminus":"T17EBMU","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

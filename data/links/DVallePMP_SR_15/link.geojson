@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.749538207734,
+        37.6200019473115
+      ],
+      [
+        -121.746063612922,
+        37.6139319505633
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Del Valle PMP_SR-15",
+    "description": "South Bay Aqueduct, Del Vale Pump Plant release to Lake Del Valle",
+    "type": "Diversion",
+    "origin": "DVallePMP",
+    "terminus": "SR-15",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 7.992
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

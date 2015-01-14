@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.450452248067,35.0020726850537],[-119.113180568819,35.6220259850101]]},"properties":{"prmname":"HGU20_GW-20","description":"Return flow to GW","type":"Diversion","origin":"HGU20","terminus":"GW-20","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.705396988634,38.4234959358178],[-121.406844580491,37.7009157965622]]},"properties":{"prmname":"HSU9D515_C68","description":"Delta diversion to CVPM 9","type":"Diversion","origin":"HSU9D515","terminus":"C68","amplitude":0.93,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

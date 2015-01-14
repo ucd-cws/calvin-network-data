@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.240111882944,
+        40.3848757515332
+      ],
+      [
+        -122.186708914947,
+        40.2884772480585
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C2_D74",
+    "description": "Sacramento River between Cottonwood Creek and DA58 local inflow",
+    "type": "Diversion",
+    "origin": "C2",
+    "terminus": "D74",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

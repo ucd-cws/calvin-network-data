@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.499962464575,
+        34.5325489788068
+      ],
+      [
+        -118.499962464575,
+        34.5325489788068
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T60_T59",
+    "description": "Proposed wastewater recycling for CLWA",
+    "type": "Diversion",
+    "origin": "T60CLWA",
+    "terminus": "T59CLWA",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 1480
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

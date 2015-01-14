@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.546908746377,37.1214914153249],[-121.830015855307,37.300983718949]]},"properties":{"prmname":"SR-SCV_C315","description":"Santa Clara Agg Res Release","type":"Diversion","origin":"SR-SCV","terminus":"C315","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.345965363032,40.0666422348987],[-122.322692365475,39.9796829015754]]},"properties":{"prmname":"HGP2_Int: CVPM2","description":"Urban M&I pumping from GW-2 interior","type":"Diversion","origin":"HGP2","terminus":"INT CVPM2","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

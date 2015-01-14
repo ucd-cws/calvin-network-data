@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.422128134749,
+        37.7016311667735
+      ],
+      [
+        -120.445529186787,
+        37.6740311818067
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-81_D662",
+    "description": "Reservoir release from New Don Pedro Dam to Tuolumne River, inflow to la Grange Dam, minimum instream flow requirement at CP70 in SANJASM.  Hydropower added",
+    "type": "Diversion",
+    "origin": "SR-81",
+    "terminus": "D662",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_lower_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_lower_bound.json"
+        }
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

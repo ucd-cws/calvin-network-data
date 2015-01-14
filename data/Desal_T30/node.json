@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.108485458522,32.7065811695502],[-116.654022339866,33.0562684285393]]},"properties":{"prmname":"Desal_T30","description":"Desalination to San Diego","type":"Diversion","origin":"DesalR5","terminus":"T30SDMWD","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.585260594228,37.7968276008989],[-121.326192239885,37.6109712461925]]},"properties":{"prmname":"Tracy PMP_D701","description":"Delta Exports from Tracy PMP","type":"Diversion","origin":"Tracy PMP","terminus":"D701","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

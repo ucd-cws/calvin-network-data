@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.976154665091,
+      39.6770172974374
+    ]
+  },
+  "properties": {
+    "prmname": "D76b",
+    "description": "Stony Creek inflow to Sacramento River",
+    "type": "Junction",
+    "origins": [
+      "C69",
+      "C12"
+    ],
+    "terminals": [
+      "D66"
+    ],
+    "inflows": null
+  }
+}

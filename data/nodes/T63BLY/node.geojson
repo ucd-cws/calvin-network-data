@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -114.942713758798,
+      33.9455467591093
+    ]
+  },
+  "properties": {
+    "prmname": "T63BLY",
+    "description": "Water Treatment Node for Blythe",
+    "type": "Water Treatment",
+    "origins": [
+      "T64BLY",
+      "C141"
+    ],
+    "terminals": [
+      "EXT Blythe",
+      "INT Blythe"
+    ],
+    "inflows": null
+  }
+}

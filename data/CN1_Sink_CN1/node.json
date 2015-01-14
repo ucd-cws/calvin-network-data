@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.201333891695,39.7878125244114],[-122.237420086743,39.9179735795428]]},"properties":{"prmname":"CN1_Sink CN1","description":"Calibration link","type":"Diversion","origin":"CN1","terminus":"Sink CN1","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

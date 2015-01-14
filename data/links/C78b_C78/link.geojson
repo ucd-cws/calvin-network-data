@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.046264326855,
+        37.6300225928746
+      ],
+      [
+        -121.935039447563,
+        37.5499652274861
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C78b_C78",
+    "description": "EBMUD delivery to SFPUC via Hayward",
+    "type": "Diversion",
+    "origin": "C78b",
+    "terminus": "C78",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

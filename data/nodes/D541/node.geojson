@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.500657508782,
+      38.1180525987915
+    ]
+  },
+  "properties": {
+    "prmname": "D541",
+    "description": "Delta - ?",
+    "type": "Junction",
+    "origins": [
+      "D509"
+    ],
+    "terminals": [
+      "Req Delta",
+      "Surp Delta"
+    ],
+    "inflows": null
+  }
+}

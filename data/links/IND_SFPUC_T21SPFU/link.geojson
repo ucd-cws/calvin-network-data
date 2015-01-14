@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.322156992625,
+        37.6120482557109
+      ],
+      [
+        -122.322156992625,
+        37.6120482557109
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Ind: San Francisco_T21",
+    "description": "Ind Return Flow Total",
+    "type": "Diversion",
+    "origin": "IND SFPUC",
+    "terminus": "T21SPFU",
+    "amplitude": 0.4,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

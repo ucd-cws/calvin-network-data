@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.007298732296,
+        37.1999454997418
+      ],
+      [
+        -120.007298732296,
+        37.1999454997418
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D632_D634",
+    "description": "Chowchilla River Reach",
+    "type": "Diversion",
+    "origin": "D632",
+    "terminus": "D634",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

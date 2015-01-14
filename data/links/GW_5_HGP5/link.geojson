@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.678385850506,
+        39.3219682468551
+      ],
+      [
+        -121.245406215509,
+        38.9578925550485
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "GW-5_HGP5",
+    "description": "GW pumping calibration link",
+    "type": "Diversion",
+    "origin": "GW-5",
+    "terminus": "HGP5",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

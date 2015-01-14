@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.948451672853,
+        37.8941345136029
+      ],
+      [
+        -120.30421535652,
+        37.8116388413448
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C44_C88",
+    "description": "Hetch Hetchy Aqueduct.  Mocassin hydropower added on this link.",
+    "type": "Diversion",
+    "origin": "C44",
+    "terminus": "C88",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

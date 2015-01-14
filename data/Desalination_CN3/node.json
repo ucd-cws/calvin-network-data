@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.089172080934,32.661892032037],[-120.531647986042,37.4933946518572]]},"properties":{"prmname":"Desalination_CN3","description":"Excess desalination flows","type":"Diversion","origin":"Desal","terminus":"SinkCN3","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

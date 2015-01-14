@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.632062661984,
+        34.5635338208928
+      ],
+      [
+        -118.600920465953,
+        34.5169920976526
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D887_SR-29",
+    "description": "SWP West Branch after Castaic PP (unconstrained)",
+    "type": "Diversion",
+    "origin": "D887",
+    "terminus": "SR-29",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

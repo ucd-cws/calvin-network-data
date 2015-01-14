@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-117.793309770694,35.3116826268979]},"properties":{"prmname":"HWWT33","description":"Hidden node for exapanded wastewater recycling for Antelope Valley","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

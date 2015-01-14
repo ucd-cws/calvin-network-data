@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -114.156781267914,
+      34.3170145260656
+    ]
+  },
+  "properties": {
+    "prmname": "SR-CR1",
+    "description": "First priority Colorado River 4.4 water for Policy 4a (661.43 taf/yr)",
+    "type": "Surface Storage",
+    "origins": [
+      "SR-CR2"
+    ],
+    "terminals": [
+      "Sink G38",
+      "C141"
+    ],
+    "initialstorage": 0.01,
+    "endingstorage": 0.01,
+    "areacapfactor": 0,
+    "inflows": null,
+    "el_ar_cap": null,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

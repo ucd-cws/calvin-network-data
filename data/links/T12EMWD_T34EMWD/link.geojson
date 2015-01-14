@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.11200458163,
+        33.7176796323232
+      ],
+      [
+        -117.11200458163,
+        33.7176796323232
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T12_T34",
+    "description": "E/W MWD Recycled water",
+    "type": "Diversion",
+    "origin": "T12EMWD",
+    "terminus": "T34EMWD",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 1258
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

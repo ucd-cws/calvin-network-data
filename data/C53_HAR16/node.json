@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.383158846131,36.8168493904958],[-119.534984682506,36.5616445381648]]},"properties":{"prmname":"C53_HAR16","description":"Kings R to Fresno ID for spreading","type":"Diversion","origin":"C53","terminus":"HAR16","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

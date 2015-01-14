@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.285999425433,36.7739490660268],[-120.364861836223,36.9762779661175]]},"properties":{"prmname":"D609_C48","description":"San Joaquin River diversion to Chowchilla Bypass","type":"Diversion","origin":"D609","terminus":"C48","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

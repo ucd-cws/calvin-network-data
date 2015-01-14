@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.230836274321,
+      36.7897205260438
+    ]
+  },
+  "properties": {
+    "prmname": "HSURD732",
+    "description": "Hidden surface diversion node for Mendota NWR",
+    "type": "Junction",
+    "origins": [
+      "D732"
+    ],
+    "terminals": [
+      "MendRef"
+    ],
+    "inflows": null
+  }
+}

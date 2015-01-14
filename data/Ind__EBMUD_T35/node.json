@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.117807583529,37.8150169196961],[-122.164737448427,37.762855076232]]},"properties":{"prmname":"Ind: EBMUD_T35","description":"EBMUD Ind Return Flow TOTAL","type":"Diversion","origin":"IND EBMUD","terminus":"T35EBMU","amplitude":0.4,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

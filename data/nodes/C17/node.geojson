@@ -1,0 +1,25 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.897355289412,
+      38.5709805174801
+    ]
+  },
+  "properties": {
+    "prmname": "C17",
+    "description": "CVPM 6 delivery",
+    "type": "Junction",
+    "origins": [
+      "HSU6C21",
+      "HGP6",
+      "HSU6C16",
+      "HSU6C314"
+    ],
+    "terminals": [
+      "Sink R1"
+    ],
+    "inflows": null
+  }
+}

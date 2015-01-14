@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.613966832367,
+        38.4989387951718
+      ],
+      [
+        -121.406844580491,
+        37.7009157965622
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU9D507_C68",
+    "description": "Sacramento River div. to CVPM9",
+    "type": "Diversion",
+    "origin": "HSU9D507",
+    "terminus": "C68",
+    "amplitude": 0.93,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

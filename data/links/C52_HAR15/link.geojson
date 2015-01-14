@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.830968814272,
+        36.3416503659485
+      ],
+      [
+        -119.768828643513,
+        36.2890630839084
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C52_HAR15",
+    "description": "Kings River diversion for spreading",
+    "type": "Diversion",
+    "origin": "C52",
+    "terminus": "HAR15",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 6.5
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

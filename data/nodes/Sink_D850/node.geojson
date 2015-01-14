@@ -1,0 +1,20 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.25688829045,
+      36.0603446135928
+    ]
+  },
+  "properties": {
+    "prmname": "Sink D850",
+    "description": "Additional M&I demands to Taft and Exports out of San Joaquin basin",
+    "type": "Sink",
+    "origins": [
+      "D850"
+    ],
+    "terminals": null,
+    "inflows": null
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.562354196147,36.8528471361185],[-119.383158846131,36.8168493904958]]},"properties":{"prmname":"C49_C51","description":"Friant-Kern Canal discharge to Kings River","type":"Diversion","origin":"C49","terminus":"C51","amplitude":0.91,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.75092451635,
+        34.6329867214887
+      ],
+      [
+        -118.785092667194,
+        34.4009839912753
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-28_C106",
+    "description": "Pyramid Lk to Ventura County FC&WCD (constrained in Policy 1A and 4A)",
+    "type": "Diversion",
+    "origin": "SR-28",
+    "terminus": "C106",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 0.2625
+      }
+    }
+  }
+}

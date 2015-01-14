@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.218374718958,
+      38.6367717571323
+    ]
+  },
+  "properties": {
+    "prmname": "D9",
+    "description": "Lake Natoma",
+    "type": "Junction",
+    "origins": [
+      "CN2",
+      "SR-8"
+    ],
+    "terminals": [
+      "D85",
+      "C173"
+    ],
+    "inflows": null
+  }
+}

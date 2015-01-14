@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.022053113809,38.2249175915377],[-121.440062681683,38.2559146978965]]},"properties":{"prmname":"SR-CR_C38","description":"Mokel. River Reach","type":"Diversion","origin":"SR-CR","terminus":"C38","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

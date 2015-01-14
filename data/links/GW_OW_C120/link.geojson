@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.188484998318,
+        36.9122557898739
+      ],
+      [
+        -118.04170641,
+        35.3827521620684
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "GW-OW_C120",
+    "description": "GW-OW Pumping",
+    "type": "Diversion",
+    "origin": "GW-OW",
+    "terminus": "C120",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 29.6
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 10
+      }
+    }
+  }
+}

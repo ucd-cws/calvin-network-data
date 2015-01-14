@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.002089638431,39.6668827716344],[-121.55711226186,39.9487984429982]]},"properties":{"prmname":"D66_Sink D66","description":"DA 15 local depletion","type":"Diversion","origin":"D66","terminus":"Sink D66","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

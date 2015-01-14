@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-117.089172080934,32.661892032037],[-122.164737448427,37.762855076232]]},"properties":{"prmname":"Desal_T17","description":"Desalination option for EBMUD","type":"Diversion","origin":"Desal","terminus":"T17EBMU","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

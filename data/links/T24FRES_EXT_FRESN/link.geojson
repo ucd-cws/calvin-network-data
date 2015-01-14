@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.819664974205,
+        36.752490908025
+      ],
+      [
+        -119.819664974205,
+        36.752490908025
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T24_Ext: CityofFresno",
+    "description": "Inflows exterior urban residential",
+    "type": "Diversion",
+    "origin": "T24FRES",
+    "terminus": "EXT FRESN",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_upper_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

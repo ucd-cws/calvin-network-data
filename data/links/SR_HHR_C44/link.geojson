@@ -1,0 +1,39 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.788010149952,
+        37.947921145734
+      ],
+      [
+        -119.948451672853,
+        37.8941345136029
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-HHR_C44",
+    "description": "Diversion from Hetch Hetchy Reservoir to Canyon Tunnel.  Kirkwood hydropower added on this link.",
+    "type": "Diversion",
+    "origin": "SR-HHR",
+    "terminus": "C44",
+    "amplitude": 1,
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

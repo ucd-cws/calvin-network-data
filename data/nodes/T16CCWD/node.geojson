@@ -1,0 +1,26 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.813930014212,
+      37.8487546749383
+    ]
+  },
+  "properties": {
+    "prmname": "T16CCWD",
+    "description": "CCWD IN",
+    "type": "Water Treatment",
+    "origins": [
+      "T18CCWD",
+      "C71",
+      "HWWT18"
+    ],
+    "terminals": [
+      "IND CCWD",
+      "ERES CC",
+      "IRES  CC"
+    ],
+    "inflows": null
+  }
+}

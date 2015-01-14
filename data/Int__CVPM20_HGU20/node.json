@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.113180568819,35.6220259850101],[-118.450452248067,35.0020726850537]]},"properties":{"prmname":"Int: CVPM20_HGU20","description":"Return flow to GW","type":"Diversion","origin":"INT CVPM20","terminus":"HGU20","amplitude":0.5,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

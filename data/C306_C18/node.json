@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.644071077204,38.6779039435894],[-121.644246210512,38.515646385164]]},"properties":{"prmname":"C306_C18","description":"Yolo Bypass Reach 1","type":"Diversion","origin":"C306","terminus":"C18","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

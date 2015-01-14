@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-115.121056370773,32.705015200267],[-121.605072484411,38.8908976670866]]},"properties":{"prmname":"C31_D37","description":"Feather River between Yuba and Bear rivers","type":"Diversion","origin":"C31","terminus":"D37","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

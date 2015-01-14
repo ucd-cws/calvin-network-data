@@ -1,0 +1,20 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -115.562354571647,
+      33.8813022108897
+    ]
+  },
+  "properties": {
+    "prmname": "Sink G38",
+    "description": "SR-CR1 excess water outlet needed for Policy 1a only",
+    "type": "Sink",
+    "origins": [
+      "SR-CR1"
+    ],
+    "terminals": null,
+    "inflows": null
+  }
+}

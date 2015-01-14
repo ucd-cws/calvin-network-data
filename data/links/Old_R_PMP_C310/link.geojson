@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.577849731247,
+        37.8870555207482
+      ],
+      [
+        -121.632888541271,
+        37.8839426366446
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Old River PMP_C310",
+    "description": "Old River Pumping Plant release",
+    "type": "Diversion",
+    "origin": "Old R PMP",
+    "terminus": "C310",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 37.962
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

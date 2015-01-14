@@ -1,0 +1,20 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.371459148517,
+      37.6907930010921
+    ]
+  },
+  "properties": {
+    "prmname": "SinkG49",
+    "description": "Depletion San Joaquin River Merced to Tuolumne",
+    "type": "Sink",
+    "origins": [
+      "D698"
+    ],
+    "terminals": null,
+    "inflows": null
+  }
+}

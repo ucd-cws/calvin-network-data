@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.059624423426,36.1711910029603],[-119.247308700121,35.5600049541763]]},"properties":{"prmname":"C688_C62","description":"Friant-Kern Canal Reach 4","type":"Diversion","origin":"C688","terminus":"C62","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

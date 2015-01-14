@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.002089638431,
+      39.6668827716344
+    ]
+  },
+  "properties": {
+    "prmname": "D30",
+    "description": "Sacramento River diversion to CVPM 4",
+    "type": "Junction",
+    "origins": [
+      "D66"
+    ],
+    "terminals": [
+      "HSU4D30",
+      "D31"
+    ],
+    "inflows": [
+      {
+        "name": "DA15 local water supply",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.678385850506,
+      39.3219682468551
+    ]
+  },
+  "properties": {
+    "prmname": "GW-5",
+    "description": "Central Valley groundwater basin",
+    "type": "Groundwater Storage",
+    "origins": [
+      "HGU5",
+      "CVPM5"
+    ],
+    "terminals": [
+      "HGP5"
+    ],
+    "initialstorage": 91113,
+    "endingstorage": 90457,
+    "inflows": [
+      {
+        "name": "Groundwater inflow GW-5 based on C2VSIM Historical Run356",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ],
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

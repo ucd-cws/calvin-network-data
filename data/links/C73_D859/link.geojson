@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.212830377025,
+        35.3254822477501
+      ],
+      [
+        -119.307633627671,
+        35.2618277051107
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C73_D859",
+    "description": "Kern River Intertie",
+    "type": "Diversion",
+    "origin": "C73",
+    "terminus": "D859",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

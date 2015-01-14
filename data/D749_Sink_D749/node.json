@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.252511670125,36.3604155444495],[-117.688204369656,33.7992227312183]]},"properties":{"prmname":"D749_Sink D749","description":"California Aqueduct losses R6","type":"Diversion","origin":"D749","terminus":"Sink D745","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.287757594963,
+        35.9544437047263
+      ],
+      [
+        -119.253568079536,
+        36.0664668938942
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU18C688_C60",
+    "description": "Friant-Kern Canal delivery to CVPM 18 (DA 60E)",
+    "type": "Diversion",
+    "origin": "HSU18C688",
+    "terminus": "C60",
+    "amplitude": 0.93,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

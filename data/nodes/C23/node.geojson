@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.5478026024,
+      39.527825094013
+    ]
+  },
+  "properties": {
+    "prmname": "C23",
+    "description": "Feather River Diversion to Therm. FB",
+    "type": "Junction",
+    "origins": [
+      "CN2",
+      "SR-6"
+    ],
+    "terminals": [
+      "C25",
+      "SR-7"
+    ],
+    "inflows": null
+  }
+}

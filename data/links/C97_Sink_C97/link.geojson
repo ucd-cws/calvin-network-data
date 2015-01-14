@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.945931387065,
+        35.4319571897471
+      ],
+      [
+        -119.25688829045,
+        36.0603446135928
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C97_Sink C97",
+    "description": "Depletion from Kern River",
+    "type": "Diversion",
+    "origin": "C97",
+    "terminus": "Sink C97",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

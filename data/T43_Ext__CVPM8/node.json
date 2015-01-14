@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.996975525405,38.2157469334745],[-121.196111475859,38.3800905661228]]},"properties":{"prmname":"T43_Ext: CVPM8","description":"Diversion to CVPM8, Galt exterior","type":"Diversion","origin":"T43GALT","terminus":"EXT CVPM8","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

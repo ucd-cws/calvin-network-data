@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.263044029209,
+        38.5975733561026
+      ],
+      [
+        -120.996975525405,
+        38.2157469334745
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C173_T43",
+    "description": "Surface water delivery source from the South Folsom Canal",
+    "type": "Diversion",
+    "origin": "C173",
+    "terminus": "T43GALT",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 74
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 0
+      }
+    }
+  }
+}

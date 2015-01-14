@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.93813130027,36.0399514857734],[-119.414391197999,36.0781194003499]]},"properties":{"prmname":"C58_HSU18C58","description":"Surface delivery CVPM 18","type":"Diversion","origin":"C58","terminus":"HSU18C58","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

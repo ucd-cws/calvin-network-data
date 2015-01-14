@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.467123096626,40.6278720303772],[-122.362535142639,40.4665538312452]]},"properties":{"prmname":"D5_T41","description":"Sacramento River diversions to the city of Redding","type":"Diversion","origin":"D5","terminus":"T41RED","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

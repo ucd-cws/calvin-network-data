@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.368323378774,
+        35.3071759994994
+      ],
+      [
+        -119.345752277845,
+        35.2984703648757
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C95_D752",
+    "description": "California Aqueduct",
+    "type": "Diversion",
+    "origin": "C95",
+    "terminus": "D752",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.748993773597,
+      39.0628887958485
+    ]
+  },
+  "properties": {
+    "prmname": "Sac E Ref",
+    "description": "Sacramento East Refuges",
+    "type": "Non-Standard Demand",
+    "origins": [
+      "HSURC311"
+    ],
+    "terminals": [
+      "D42"
+    ],
+    "inflows": null
+  }
+}

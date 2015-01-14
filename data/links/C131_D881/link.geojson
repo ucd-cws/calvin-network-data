@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.312498270078,
+        34.0072522414459
+      ],
+      [
+        -117.238558110356,
+        33.9060669596643
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C131_D881",
+    "description": "Santa Ana Pipeline",
+    "type": "Diversion",
+    "origin": "C131",
+    "terminus": "D881",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

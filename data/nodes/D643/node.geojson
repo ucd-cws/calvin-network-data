@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.271021208348,
+      37.5699349283383
+    ]
+  },
+  "properties": {
+    "prmname": "D643",
+    "description": "Merced River depletion",
+    "type": "Junction",
+    "origins": [
+      "D642"
+    ],
+    "terminals": [
+      "D645",
+      "SinkG105"
+    ],
+    "inflows": null
+  }
+}

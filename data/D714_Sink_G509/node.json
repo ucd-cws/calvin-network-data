@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.267860790192,37.0399015085979],[-122.156716003837,37.7975846038153]]},"properties":{"prmname":"D714_Sink G509","description":"CVP ag diversion to Central Coast","type":"Diversion","origin":"D714","terminus":"SinkG509","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

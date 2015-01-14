@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.277885226953,
+        33.6340042310659
+      ],
+      [
+        -116.253569495654,
+        33.7459538834681
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C147_T31",
+    "description": "Golf courses irrigation from the Coachella Canal\r\n",
+    "type": "Diversion",
+    "origin": "C147",
+    "terminus": "T31COAC",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 44.4
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.460878953592,
+      33.8330169944144
+    ]
+  },
+  "properties": {
+    "prmname": "SR-LM",
+    "description": "Lake Mathews of MWDSC",
+    "type": "Surface Storage",
+    "origins": [
+      "C138"
+    ],
+    "terminals": [
+      "C161"
+    ],
+    "initialstorage": 100.1,
+    "endingstorage": 100.1,
+    "areacapfactor": 0.0175,
+    "inflows": null,
+    "el_ar_cap": null,
+    "costs": {
+      "type": "Annual Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 78.5
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 182
+      }
+    }
+  }
+}

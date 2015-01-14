@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.3301023797,
+        39.8078789707178
+      ],
+      [
+        -122.225903385442,
+        39.7827302406398
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-BBL_C9",
+    "description": "Reservoir release from Black Butte Dam to Stony Creek",
+    "type": "Diversion",
+    "origin": "SR-BBL",
+    "terminus": "C9",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

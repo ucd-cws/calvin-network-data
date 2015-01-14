@@ -1,0 +1,36 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.440062681683,
+        38.2559146978965
+      ],
+      [
+        -120.371459148517,
+        37.6907930010921
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D517_Sink G505",
+    "description": "DA 59 local depletion",
+    "type": "Diversion",
+    "origin": "D517",
+    "terminus": "Sink G505",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": null,
+        "bound": null
+      }
+    }
+  }
+}

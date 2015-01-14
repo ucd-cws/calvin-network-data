@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.253569495654,
+        33.7459538834681
+      ],
+      [
+        -115.81902019917,
+        33.3084281919558
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T11_SR-SS",
+    "description": "Waste-water disposal to Salton Sea via Coachella Valley Stormwater Canal  (CVSC) (unconstrined)\r\n",
+    "type": "Diversion",
+    "origin": "T11COAC",
+    "terminus": "SR-SS",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.656290325,34.5870477990001],[-118.632062661984,34.5635338208928]]},"properties":{"prmname":"Castaic Power Plant_D887","description":"SWP West Branch","type":"Diversion","origin":"Cast PWP","terminus":"D887","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

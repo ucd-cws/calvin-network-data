@@ -1,0 +1,27 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.985713783672,
+      37.7290713930282
+    ]
+  },
+  "properties": {
+    "prmname": "C172",
+    "description": "CVPM 11 farm gate",
+    "type": "Junction",
+    "origins": [
+      "HSU11D662",
+      "HSU11D664",
+      "HGP11",
+      "HSU11D689",
+      "HSU11D672",
+      "HSU11D16"
+    ],
+    "terminals": [
+      "Sink R3"
+    ],
+    "inflows": null
+  }
+}

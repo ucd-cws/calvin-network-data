@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.118404115729,37.3623974473828],[-121.063050277892,37.1116960650014]]},"properties":{"prmname":"D804_D814","description":"California Aqueduct","type":"Diversion","origin":"D804","terminus":"D814","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

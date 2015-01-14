@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.247308700121,35.5600049541763],[-119.384744778949,35.5346181042997]]},"properties":{"prmname":"C62_HAR19","description":"Friant-Kern Canal to subregion 19 for spreading ","type":"Diversion","origin":"C62","terminus":"HAR19","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

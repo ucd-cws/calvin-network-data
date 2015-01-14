@@ -1,0 +1,54 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.318066857248,
+      39.0498950367921
+    ]
+  },
+  "properties": {
+    "prmname": "SR-CFW",
+    "description": "Camp Far West Reservoir",
+    "type": "Surface Storage",
+    "origins": [
+      "C35"
+    ],
+    "terminals": [
+      "C308"
+    ],
+    "initialstorage": 35,
+    "endingstorage": 35,
+    "areacapfactor": 0.002602,
+    "inflows": null,
+    "el_ar_cap": [
+      {
+        "elevation": 135,
+        "area": 0,
+        "capacity": 103
+      },
+      {
+        "elevation": 320,
+        "area": 0.26800000667572,
+        "capacity": 0
+      }
+    ],
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "$ref": "costs_costs.json"
+      }
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 1
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 103
+      }
+    }
+  }
+}

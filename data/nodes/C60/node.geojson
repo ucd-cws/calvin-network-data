@@ -1,0 +1,26 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.253568079536,
+      36.0664668938942
+    ]
+  },
+  "properties": {
+    "prmname": "C60",
+    "description": "CVPM 18 farm gate",
+    "type": "Junction",
+    "origins": [
+      "HSU18C58",
+      "HSU18C688",
+      "HGP18",
+      "HSU18C56"
+    ],
+    "terminals": [
+      "HSURC60",
+      "Sink R3"
+    ],
+    "inflows": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.238108406419,
+      36.4127241325151
+    ]
+  },
+  "properties": {
+    "prmname": "C91",
+    "description": "CVPM 14 farm gate",
+    "type": "Junction",
+    "origins": [
+      "HSU14D608",
+      "HGP14",
+      "HSU14C92"
+    ],
+    "terminals": [
+      "Sink R3"
+    ],
+    "inflows": null
+  }
+}

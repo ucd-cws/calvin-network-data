@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.362535142639,40.4665538312452],[-122.362535142639,40.4665538312452]]},"properties":{"prmname":"T42_T41","description":"Proposed recycling for Redding","type":"Diversion","origin":"T42RED","terminus":"T41RED","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

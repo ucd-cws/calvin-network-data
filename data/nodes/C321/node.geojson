@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -115.62741914136,
+      33.6915722489315
+    ]
+  },
+  "properties": {
+    "prmname": "C321",
+    "description": "Hayfield recharge ponds",
+    "type": "Junction",
+    "origins": [
+      "JuliaH PMP"
+    ],
+    "terminals": [
+      "GW-HF"
+    ],
+    "inflows": null
+  }
+}

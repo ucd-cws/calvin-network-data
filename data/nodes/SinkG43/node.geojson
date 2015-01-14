@@ -1,0 +1,20 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.371459148517,
+      37.6907930010921
+    ]
+  },
+  "properties": {
+    "prmname": "SinkG43",
+    "description": "Depletion from Fresno River",
+    "type": "Sink",
+    "origins": [
+      "D624"
+    ],
+    "terminals": null,
+    "inflows": null
+  }
+}

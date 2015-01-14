@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.736275946117,
+        37.3469076116457
+      ],
+      [
+        -121.736275946117,
+        37.3469076116457
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "T19_T7",
+    "description": "SCV+ Recycled water",
+    "type": "Diversion",
+    "origin": "T19SCV",
+    "terminus": "T7SCV",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 518
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 1.33
+      }
+    }
+  }
+}

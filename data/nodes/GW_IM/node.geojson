@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -115.427885446697,
+      32.8927750823952
+    ]
+  },
+  "properties": {
+    "prmname": "GW-IM",
+    "description": "Imperial Valley Groundwater",
+    "type": "Groundwater Storage",
+    "origins": [
+      "EXT El Cen",
+      "C151"
+    ],
+    "terminals": [
+      "C152",
+      "Sink CN5"
+    ],
+    "initialstorage": 930,
+    "endingstorage": 930,
+    "inflows": [
+      {
+        "name": "Imperial_Valley",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ],
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 1000
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.705396988634,
+      38.4234959358178
+    ]
+  },
+  "properties": {
+    "prmname": "HSU9D515",
+    "description": "Hidden node on surface water conveyance channel",
+    "type": "Junction",
+    "origins": [
+      "D515"
+    ],
+    "terminals": [
+      "C68",
+      "CVPM9"
+    ],
+    "inflows": null
+  }
+}

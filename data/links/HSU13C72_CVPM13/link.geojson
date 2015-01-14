@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.220182969377,
+        36.9806814242026
+      ],
+      [
+        -120.321487789062,
+        37.1313881427344
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU13C72_CVPM13",
+    "description": "Madera Canal delivery to CVPM 13",
+    "type": "Diversion",
+    "origin": "HSU13C72",
+    "terminus": "CVPM13",
+    "amplitude": 0.88,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

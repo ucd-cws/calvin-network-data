@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.624061446168,
+        37.7979274027524
+      ],
+      [
+        -121.621575414762,
+        37.7794436100768
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Banks PMP_D801",
+    "description": "Exports from the Sacramento-San Joaquin Bay Delta to Central Valley and Southern California; Boundary outflow to Region 3",
+    "type": "Diversion",
+    "origin": "Banks PMP",
+    "terminus": "D801",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 33.1668
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

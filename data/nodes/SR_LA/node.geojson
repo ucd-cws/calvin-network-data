@@ -1,0 +1,41 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.948912057477,
+      36.1369418176802
+    ]
+  },
+  "properties": {
+    "prmname": "SR-LA",
+    "description": "LAA Storage",
+    "type": "Surface Storage",
+    "origins": [
+      "C120"
+    ],
+    "terminals": [
+      "Owens2 PWP"
+    ],
+    "initialstorage": 52,
+    "endingstorage": 52,
+    "areacapfactor": 0.03165,
+    "inflows": null,
+    "el_ar_cap": null,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "Constant",
+        "bound": 10.2
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 102.5
+      }
+    }
+  }
+}

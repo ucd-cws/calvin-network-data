@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.862728451475,
+        34.0343816478517
+      ],
+      [
+        -117.862728451475,
+        34.0343816478517
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "IRes: Central MWD_T10",
+    "description": "Res Return Flow TOTAL",
+    "type": "Diversion",
+    "origin": "IRes CMWD",
+    "terminus": "T10CMWD",
+    "amplitude": 0.9,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

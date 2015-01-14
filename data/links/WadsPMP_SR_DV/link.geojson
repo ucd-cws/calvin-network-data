@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.071442906084,
+        33.6828438166867
+      ],
+      [
+        -117.029964545956,
+        33.6847161375691
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "WadsPMP_SR-DV",
+    "description": "Wadsworth PMP into SR-DV, San Diego Canal",
+    "type": "Diversion",
+    "origin": "WadsPMP",
+    "terminus": "SR-DV",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 31.302
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

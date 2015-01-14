@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.144207554381,
+        40.0103452533063
+      ],
+      [
+        -122.365531775585,
+        40.0751039331815
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C11_HSU2C11",
+    "description": "surface delivery CVPM 2",
+    "type": "Diversion",
+    "origin": "C11",
+    "terminus": "HSU2C11",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 1.03
+      }
+    }
+  }
+}

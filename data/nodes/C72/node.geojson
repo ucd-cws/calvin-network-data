@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.708138615082,
+      37.0041907856434
+    ]
+  },
+  "properties": {
+    "prmname": "C72",
+    "description": "Millerton Lake diversions to Madera Canal",
+    "type": "Junction",
+    "origins": [
+      "SR-18"
+    ],
+    "terminals": [
+      "HSU13C72",
+      "D632",
+      "D622"
+    ],
+    "inflows": null
+  }
+}

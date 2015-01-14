@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.771228895671,37.6365782750809]},"properties":{"prmname":"D891","description":"South Bay Aqueduct diversion to Lake Del Valle","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

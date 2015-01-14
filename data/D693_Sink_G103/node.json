@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.568020403004,37.1329442596075],[-120.371459148517,37.6907930010921]]},"properties":{"prmname":"D693_Sink G103","description":"Depletion: Eastside Bypass","type":"Diversion","origin":"D693","terminus":"SinkG103","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

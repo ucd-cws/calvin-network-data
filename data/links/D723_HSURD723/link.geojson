@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.949967137975,
+        37.0597637538205
+      ],
+      [
+        -120.70777913274,
+        37.22808923119
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D723_HSURD723",
+    "description": "San Joaquin Refuges delivery (including losses)",
+    "type": "Diversion",
+    "origin": "D723",
+    "terminus": "HSURD723",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

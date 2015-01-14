@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -115.452426577727,
+        33.8095127877895
+      ],
+      [
+        -115.628523177538,
+        33.7068209137816
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Eagle Pumping Plant_Julia Hinds Pumping Plant",
+    "description": "Colorado River Aqueduct",
+    "type": "Diversion",
+    "origin": "Eagle PMP",
+    "terminus": "JuliaH PMP",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 10.4784
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

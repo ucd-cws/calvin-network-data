@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.122863913518,
+        33.5830254343641
+      ],
+      [
+        -117.119708741967,
+        33.5852763100808
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-LSK_C153",
+    "description": "San Diego Pipelines 1,2,4 & 6 (treated water, except 6)",
+    "type": "Diversion",
+    "origin": "SR-LSK",
+    "terminus": "C153",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

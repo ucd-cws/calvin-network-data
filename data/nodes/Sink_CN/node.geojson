@@ -1,0 +1,21 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.480781795772,
+      36.3119266341377
+    ]
+  },
+  "properties": {
+    "prmname": "Sink CN",
+    "description": "Calibration Flow Sink Node",
+    "type": "Sink",
+    "origins": [
+      "CN4",
+      "C92"
+    ],
+    "terminals": null,
+    "inflows": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.668571799934,
+        37.2479497298169
+      ],
+      [
+        -120.89165314062,
+        37.5093060369572
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HSU12D649_C45",
+    "description": "Merced River right bank riparian diversions",
+    "type": "Diversion",
+    "origin": "HSU12D649",
+    "terminus": "C45",
+    "amplitude": 0.82,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

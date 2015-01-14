@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.910842559807,
+        37.0039468577568
+      ],
+      [
+        -120.907811450734,
+        37.0008418784086
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D818_D820",
+    "description": "California Aqueduct",
+    "type": "Diversion",
+    "origin": "D818",
+    "terminus": "D820",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.034054221496,38.4999084297868],[-121.477603095796,38.5706010149418]]},"properties":{"prmname":"C37_HSU8C37","description":"Cosumnes River riparian diversions to CVPM 8","type":"Diversion","origin":"C37","terminus":"HSU8C37","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

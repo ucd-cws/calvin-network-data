@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.53195593863,
+        34.3928656306603
+      ],
+      [
+        -118.499962464575,
+        34.5325489788068
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D889_T59",
+    "description": "Surface water delivery to Castaic Water Authority",
+    "type": "Diversion",
+    "origin": "D889",
+    "terminus": "T59CLWA",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

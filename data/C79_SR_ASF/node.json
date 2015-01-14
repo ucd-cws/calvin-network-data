@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.99112852313,37.5351336180286],[-121.819065941793,37.4919363753631]]},"properties":{"prmname":"C79_SR-ASF","description":"Hetch Hetchy Aqueduct","type":"Diversion","origin":"C79","terminus":"SR-ASF","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

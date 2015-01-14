@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.88086423685,
+        35.2564457850423
+      ],
+      [
+        -118.095503144919,
+        34.8044354111839
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Ext: Antelope_GW-AV",
+    "description": "Return flows from antelope valley exterior",
+    "type": "Diversion",
+    "origin": "EXT AV",
+    "terminus": "GW-AV",
+    "amplitude": 0.1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

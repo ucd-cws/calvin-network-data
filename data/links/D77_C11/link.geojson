@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.203106257608,
+        40.1528779453141
+      ],
+      [
+        -122.144207554381,
+        40.0103452533063
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D77_C11",
+    "description": "Sacramento River diversions to Tehama-Colusa Canal",
+    "type": "Diversion",
+    "origin": "D77",
+    "terminus": "C11",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

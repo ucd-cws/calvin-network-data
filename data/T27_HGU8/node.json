@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.139396298091,38.0576188365164],[-121.097476786038,38.3760243846107]]},"properties":{"prmname":"T27_HGU8","description":"Stockton return flow to GW-8","type":"Diversion","origin":"T27STOC","terminus":"HGU8","amplitude":0.002,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

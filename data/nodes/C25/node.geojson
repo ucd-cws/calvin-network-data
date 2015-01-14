@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.638610914982,
+      39.4584599414254
+    ]
+  },
+  "properties": {
+    "prmname": "C25",
+    "description": "Thermalito FB return to Feather River",
+    "type": "Junction",
+    "origins": [
+      "SR-7",
+      "C23"
+    ],
+    "terminals": [
+      "C31",
+      "T61YUBA"
+    ],
+    "inflows": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.929048939727,
+        38.0373244727964
+      ],
+      [
+        -121.906210736424,
+        38.0107002174442
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Mallard Slough PMP_C71",
+    "description": "Mallard Slough Pumping Plant Release",
+    "type": "Diversion",
+    "origin": "MallSL PMP",
+    "terminus": "C71",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 442.52
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

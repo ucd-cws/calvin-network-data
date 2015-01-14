@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.716936915598,
+      36.9686835877416
+    ]
+  },
+  "properties": {
+    "prmname": "C85",
+    "description": "Diversion to CVPM10",
+    "type": "Junction",
+    "origins": [
+      "D744",
+      "D742"
+    ],
+    "terminals": [
+      "HSU10C85"
+    ],
+    "inflows": null
+  }
+}

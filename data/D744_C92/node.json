@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.796049143665,36.8976780119006],[-120.757574236193,36.8521116580847]]},"properties":{"prmname":"D744_C92","description":"CAL AQ export to Reg 4 (downstream of CP744+CP828)","type":"Diversion","origin":"D744","terminus":"C92","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

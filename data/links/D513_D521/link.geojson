@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.492447568231,
+        38.2287343219049
+      ],
+      [
+        -121.472710524852,
+        38.0290410945032
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D513_D521",
+    "description": "Delta Cross Channel",
+    "type": "Diversion",
+    "origin": "D513",
+    "terminus": "D521",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Monthly",
+        "bound": {
+          "$ref": "constraints_upper_bound.json"
+        }
+      }
+    }
+  }
+}

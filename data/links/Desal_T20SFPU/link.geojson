@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -117.089172080934,
+        32.661892032037
+      ],
+      [
+        -122.322156992625,
+        37.6120482557109
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Desalination_T20",
+    "description": "Proposed desalination capabilities for SFPUC",
+    "type": "Diversion",
+    "origin": "Desal",
+    "terminus": "T20SFPU",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 2072
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

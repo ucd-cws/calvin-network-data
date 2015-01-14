@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.740230098233,
+        34.9580977952702
+      ],
+      [
+        -119.041222087827,
+        34.4263093127776
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "GW-VC_T55",
+    "description": "",
+    "type": "Diversion",
+    "origin": "GW-VC",
+    "terminus": "T55VENT",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 88.8
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

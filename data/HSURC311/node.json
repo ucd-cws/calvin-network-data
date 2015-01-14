@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.675094339315,39.0244525182244]},"properties":{"prmname":"HSURC311","description":"Hidden node for supply into the Sacramento East Refuge","type":"Junction","origins":{"$ref":"origins.json"},"terminals":{"$ref":"terminals.json"},"inflows":{"$ref":"inflows.json"}}}

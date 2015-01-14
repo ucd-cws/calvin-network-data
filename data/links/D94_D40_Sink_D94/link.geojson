@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.803133831789,
+        40.7188680080033
+      ],
+      [
+        -123.095221278134,
+        40.6684108940422
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D94&D40_Sink D94",
+    "description": "Trinity River model outflow - minimum instream flow requirement",
+    "type": "Diversion",
+    "origin": "D94&D40",
+    "terminus": "Sink D94",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_lower_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_lower_bound.json"
+        }
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

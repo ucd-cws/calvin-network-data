@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-115.459403055922,33.012149917051],[-115.81902019917,33.3084281919558]]},"properties":{"prmname":"T58_SR-SS","description":"Outflow from El centro","type":"Diversion","origin":"T58ECEN","terminus":"SR-SS","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

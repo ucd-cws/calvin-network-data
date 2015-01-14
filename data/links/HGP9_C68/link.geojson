@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.706703778334,
+        38.3560509669267
+      ],
+      [
+        -121.406844580491,
+        37.7009157965622
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGP9_C68",
+    "description": "Agricultural groundwater pumping GW-9 to CVPM 9 Demand",
+    "type": "Diversion",
+    "origin": "HGP9",
+    "terminus": "C68",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 11.93
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 50
+      }
+    }
+  }
+}

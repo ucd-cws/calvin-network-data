@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -121.210669312557,
+        37.6880406432819
+      ],
+      [
+        -121.241992146697,
+        37.6638062888607
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D675_D676",
+    "description": "Stanislaus River Reach",
+    "type": "Diversion",
+    "origin": "D675",
+    "terminus": "D676",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -114.724307468613,
+        32.713868597612
+      ],
+      [
+        -115.562354571647,
+        33.8813022108897
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Mexico_Sink G51",
+    "description": "Mexico Discharge to Sink",
+    "type": "Diversion",
+    "origin": "Mexico",
+    "terminus": "Sink G51",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

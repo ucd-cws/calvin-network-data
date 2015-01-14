@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.908645149362,
+        36.2678066416063
+      ],
+      [
+        -119.843124733344,
+        36.2765886623304
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGP15_Ext: CVPM15",
+    "description": "M&I pumping demand - Urban Pumping GW-15 to CVPM-15 exterior",
+    "type": "Diversion",
+    "origin": "HGP15",
+    "terminus": "EXT CVPM15",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Constrained",
+      "constraint": {
+        "bound_type": "TimeSeries",
+        "date": {
+          "$ref": "constraints_constraint_date.json"
+        },
+        "bound": {
+          "$ref": "constraints_constraint_bound.json"
+        }
+      }
+    }
+  }
+}

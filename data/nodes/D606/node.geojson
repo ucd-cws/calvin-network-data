@@ -1,0 +1,34 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.160995753547,
+      36.797947295329
+    ]
+  },
+  "properties": {
+    "prmname": "D606",
+    "description": "San Joaquin River diversion to CVPM13",
+    "type": "Junction",
+    "origins": [
+      "D605"
+    ],
+    "terminals": [
+      "HSU16D606",
+      "D609",
+      "HSU13D606"
+    ],
+    "inflows": [
+      {
+        "name": "Accretion San Joaquin River: Millerton To Mendota Pool",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-119.830968814272,36.3416503659485],[-119.825584928334,36.0517393406691]]},"properties":{"prmname":"C52_C59","description":"Kings River South Fork below Crescent Weir","type":"Diversion","origin":"C52","terminus":"C59","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

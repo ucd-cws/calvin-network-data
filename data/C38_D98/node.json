@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.440062681683,38.2559146978965],[-121.440062681683,38.2559146978965]]},"properties":{"prmname":"C38_D98","description":"Mokelumne River Reach","type":"Diversion","origin":"C38","terminus":"D98","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

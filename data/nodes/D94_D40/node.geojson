@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.803133831789,
+      40.7188680080033
+    ]
+  },
+  "properties": {
+    "prmname": "D94&D40",
+    "description": "Trinity River release to Clear Creek",
+    "type": "Junction",
+    "origins": [
+      "SR-1"
+    ],
+    "terminals": [
+      "SR-3",
+      "Sink D94"
+    ],
+    "inflows": [
+      {
+        "name": "LEWISTON LAKE INFLOW",
+        "date": {
+          "$ref": "inflows_0_date.json"
+        },
+        "inflow": {
+          "$ref": "inflows_0_inflow.json"
+        }
+      }
+    ]
+  }
+}

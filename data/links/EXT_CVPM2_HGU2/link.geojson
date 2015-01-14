@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -122.322692365475,
+        39.9796829015754
+      ],
+      [
+        -122.260570712253,
+        39.9609359981798
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "Ext: CVPM2_HGU2",
+    "description": "Exterior urban demand return flow",
+    "type": "Diversion",
+    "origin": "EXT CVPM2",
+    "terminus": "HGU2",
+    "amplitude": 0.001,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

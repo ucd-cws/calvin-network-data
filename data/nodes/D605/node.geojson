@@ -1,0 +1,25 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.160995753547,
+      36.797947295329
+    ]
+  },
+  "properties": {
+    "prmname": "D605",
+    "description": "San Joaquin River depletion",
+    "type": "Junction",
+    "origins": [
+      "T25FRES",
+      "CN3",
+      "SR-18"
+    ],
+    "terminals": [
+      "SinkG102",
+      "D606"
+    ],
+    "inflows": null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.117494433597,
+      33.563514113603
+    ]
+  },
+  "properties": {
+    "prmname": "T65",
+    "description": "Desalting facility\r\n",
+    "type": "Water Treatment",
+    "origins": [
+      "C157"
+    ],
+    "terminals": [
+      "C147"
+    ],
+    "inflows": null
+  }
+}

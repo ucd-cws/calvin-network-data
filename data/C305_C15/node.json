@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.019542133135,39.1165215716555],[-122.061084647136,39.194890461404]]},"properties":{"prmname":"C305_C15","description":"Colusa Basin Drain","type":"Diversion","origin":"C305","terminus":"C15","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

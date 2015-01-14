@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-118.04170641,35.3827521620684],[-117.950493115751,36.4277206042151]]},"properties":{"prmname":"C120_SR-OL","description":"Lower Owens River restoration","type":"Diversion","origin":"C120","terminus":"SR-OL","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

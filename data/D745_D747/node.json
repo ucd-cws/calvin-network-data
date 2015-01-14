@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-120.70793287061,36.80356670573],[-120.295419033522,36.4288899996933]]},"properties":{"prmname":"D745_D747","description":"California Aqueduct","type":"Diversion","origin":"D745","terminus":"D747","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

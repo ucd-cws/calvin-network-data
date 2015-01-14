@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.16887610798,
+        33.6187672699457
+      ],
+      [
+        -115.81902019917,
+        33.3084281919558
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "C157_SR-SS",
+    "description": "Ag return flow to Salton Sea (unconstrined)\r\n",
+    "type": "Diversion",
+    "origin": "C157",
+    "terminus": "SR-SS",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -120.271021208348,
+        37.5699349283383
+      ],
+      [
+        -120.369505850692,
+        37.5124290909719
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "D643_D645",
+    "description": "Merced River Reach",
+    "type": "Diversion",
+    "origin": "D643",
+    "terminus": "D645",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

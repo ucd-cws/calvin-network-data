@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -119.253028388345,
+        35.5726800739739
+      ],
+      [
+        -119.113180568819,
+        35.6220259850101
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HGP20_CVPM20",
+    "description": "Agricultural groundwater pumping GW-20 to CVPM 20 Demand",
+    "type": "Diversion",
+    "origin": "HGP20",
+    "terminus": "CVPM20",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 84
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "Constant",
+        "bound": 125.28
+      }
+    }
+  }
+}

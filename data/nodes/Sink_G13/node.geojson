@@ -1,0 +1,20 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.288234276798,
+      35.8878011690702
+    ]
+  },
+  "properties": {
+    "prmname": "Sink G13",
+    "description": "EAST BRANCH LOSSES R22A-23",
+    "type": "Sink",
+    "origins": [
+      "D872"
+    ],
+    "terminals": null,
+    "inflows": null
+  }
+}

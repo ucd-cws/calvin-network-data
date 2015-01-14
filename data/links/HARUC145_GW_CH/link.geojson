@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -116.230701797155,
+        33.7070694541034
+      ],
+      [
+        -116.324433073939,
+        33.7410553044559
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "HARUC145_GW-CH",
+    "description": "Artificial Groundwater Recharge",
+    "type": "Diversion",
+    "origin": "HARUC145",
+    "terminus": "GW-CH",
+    "amplitude": 0.95,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.309070159834,
+      34.6555784453804
+    ]
+  },
+  "properties": {
+    "prmname": "D868",
+    "description": "West Branch SWP Node Represented in DWRSIM Network D122698",
+    "type": "Junction",
+    "origins": [
+      "Alamo PWP"
+    ],
+    "terminals": [
+      "GW-AV",
+      "N7",
+      "D870"
+    ],
+    "inflows": null
+  }
+}

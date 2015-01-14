@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.639083082479,39.4578870023479],[-121.638610914982,39.4584599414254]]},"properties":{"prmname":"SR-7_C25","description":"Thermalito Afterbay return flow to Feather River","type":"Diversion","origin":"SR-7","terminus":"C25","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

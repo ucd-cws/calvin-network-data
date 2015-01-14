@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -118.40191680572,
+        35.6459529544388
+      ],
+      [
+        -118.945931387065,
+        35.4319571897471
+      ]
+    ]
+  },
+  "properties": {
+    "prmname": "SR-LI_C65",
+    "description": "Reservoir release from Isabella Dam to Kern River",
+    "type": "Diversion",
+    "origin": "SR-LI",
+    "terminus": "C65",
+    "amplitude": 1,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "constraints": {
+      "constraint_type": "Bounded",
+      "lower": {
+        "bound_type": "None"
+      },
+      "upper": {
+        "bound_type": "None"
+      }
+    }
+  }
+}

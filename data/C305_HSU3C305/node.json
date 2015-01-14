@@ -1,1 +1,0 @@
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-122.019542133135,39.1165215716555],[-122.256117692052,39.6022433378427]]},"properties":{"prmname":"C305_HSU3C305","description":"surface delivery CVPM 3","type":"Diversion","origin":"C305","terminus":"HSU3C305","amplitude":1,"costs":{"$ref":"costs.json"},"constraints":{"$ref":"constraints.json"}}}

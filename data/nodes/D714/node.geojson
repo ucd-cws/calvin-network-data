@@ -1,0 +1,24 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.267860790192,
+      37.0399015085979
+    ]
+  },
+  "properties": {
+    "prmname": "D714",
+    "description": "Pacheco Tunnel deliveries to South Bay Area",
+    "type": "Junction",
+    "origins": [
+      "SR-12"
+    ],
+    "terminals": [
+      "SinkG509",
+      "C316",
+      "T7SCV"
+    ],
+    "inflows": null
+  }
+}

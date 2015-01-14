@@ -235,7 +235,7 @@
       }
     }
   },
-  "": {
+  "el_ar_cap": {
     "$ref": "el_ar_cap.csv"
   }
 }

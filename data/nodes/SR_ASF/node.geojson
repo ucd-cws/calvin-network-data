@@ -22,18 +22,9 @@
     "endingstorage": 128,
     "areacapfactor": 0.019124,
     "inflows": null,
-    "el_ar_cap": [
-      {
-        "elevation": 0,
-        "area": 0.790000021457672,
-        "capacity": 31.0799999237061
-      },
-      {
-        "elevation": 0,
-        "area": 4.30000019073486,
-        "capacity": 224.979995727539
-      }
-    ],
+    "el_ar_cap": {
+      "$ref": "el_ar_cap.csv"
+    },
     "costs": {
       "type": "Monthly Variable",
       "costs": [
@@ -206,8 +197,5 @@
         "bound": 225
       }
     }
-  },
-  "el_ar_cap": {
-    "$ref": "el_ar_cap.csv"
   }
 }

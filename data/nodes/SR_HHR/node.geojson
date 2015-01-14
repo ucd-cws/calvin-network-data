@@ -26,18 +26,9 @@
         "$ref": "inflows_0.csv"
       }
     ],
-    "el_ar_cap": [
-      {
-        "elevation": 3500,
-        "area": 0,
-        "capacity": 0
-      },
-      {
-        "elevation": 3812,
-        "area": 1.97200000286102,
-        "capacity": 363
-      }
-    ],
+    "el_ar_cap": {
+      "$ref": "el_ar_cap.csv"
+    },
     "costs": {
       "type": "Monthly Variable",
       "costs": [
@@ -354,8 +345,5 @@
         "bound": 360
       }
     }
-  },
-  "el_ar_cap": {
-    "$ref": "el_ar_cap.csv"
   }
 }

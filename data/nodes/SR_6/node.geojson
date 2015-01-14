@@ -23,58 +23,9 @@
     "endingstorage": 2633.35,
     "areacapfactor": 0.004065,
     "inflows": null,
-    "el_ar_cap": [
-      {
-        "elevation": 340,
-        "area": 0.593999981880188,
-        "capacity": 29.6380004882812
-      },
-      {
-        "elevation": 440,
-        "area": 1.55299997329712,
-        "capacity": 120
-      },
-      {
-        "elevation": 570,
-        "area": 3.95000004768372,
-        "capacity": 480
-      },
-      {
-        "elevation": 639,
-        "area": 5.80999994277954,
-        "capacity": 846.367004394531
-      },
-      {
-        "elevation": 640,
-        "area": 5.83799982070923,
-        "capacity": 852.192016601562
-      },
-      {
-        "elevation": 668,
-        "area": 6.55000019073486,
-        "capacity": 1008
-      },
-      {
-        "elevation": 750,
-        "area": 9.34000015258789,
-        "capacity": 1680
-      },
-      {
-        "elevation": 819,
-        "area": 11.8509998321533,
-        "capacity": 2352
-      },
-      {
-        "elevation": 901,
-        "area": 15.8549995422363,
-        "capacity": 3553.40502929688
-      },
-      {
-        "elevation": 920,
-        "area": 16.8990001678467,
-        "capacity": 3864.4970703125
-      }
-    ],
+    "el_ar_cap": {
+      "$ref": "el_ar_cap.csv"
+    },
     "costs": {
       "type": "Monthly Variable",
       "costs": [
@@ -390,8 +341,5 @@
         "$ref": "constraints_upper_date.csv"
       }
     }
-  },
-  "el_ar_cap": {
-    "$ref": "el_ar_cap.csv"
   }
 }

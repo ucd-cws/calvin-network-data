@@ -355,25 +355,11 @@
         "bound": 50
       },
       "upper": {
-        "bound_type": "Monthly",
-        "bound": [
-          62,
-          62,
-          64,
-          65,
-          66,
-          66,
-          67,
-          67,
-          67,
-          66,
-          64,
-          62
-        ]
+        "$ref": "constraints_upper_bound.csv"
       }
     }
   },
-  "upper": {
-    "$ref": "_constraints_upper.csv"
+  "": {
+    "$ref": "el_ar_cap.csv"
   }
 }

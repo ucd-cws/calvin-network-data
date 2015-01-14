@@ -240,22 +240,11 @@
         "bound": 0.557
       },
       "upper": {
-        "bound_type": "Monthly",
-        "bound": [
-          9.02,
-          13.02,
-          22.29,
-          54.41,
-          77.78,
-          82.72,
-          83.2,
-          83.2,
-          65.5,
-          30.99,
-          11.09,
-          9.75
-        ]
+        "$ref": "constraints_upper_bound.csv"
       }
     }
+  },
+  "": {
+    "$ref": "el_ar_cap.csv"
   }
 }

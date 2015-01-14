@@ -30,25 +30,8 @@
         "bound_type": "None"
       },
       "upper": {
-        "bound_type": "Monthly",
-        "bound": [
-          30.71,
-          27.75,
-          30.71,
-          29.72,
-          30.71,
-          29.72,
-          30.71,
-          30.71,
-          29.72,
-          30.71,
-          29.72,
-          30.71
-        ]
+        "$ref": "constraints_upper_bound.csv"
       }
     }
-  },
-  "upper": {
-    "$ref": "_constraints_upper.csv"
   }
 }

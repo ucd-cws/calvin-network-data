@@ -24,25 +24,8 @@
     "constraints": {
       "constraint_type": "Constrained",
       "constraint": {
-        "bound_type": "Monthly",
-        "bound": [
-          0.11,
-          0.08,
-          0.01,
-          0.01,
-          0.01,
-          0.01,
-          0.01,
-          0.01,
-          0.01,
-          0.01,
-          0.02,
-          0.5
-        ]
+        "$ref": "constraints_constraint_bound.csv"
       }
     }
-  },
-  "constraint": {
-    "$ref": "_constraints_constraint.csv"
   }
 }

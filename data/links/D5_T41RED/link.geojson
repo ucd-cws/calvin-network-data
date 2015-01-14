@@ -27,28 +27,11 @@
     "constraints": {
       "constraint_type": "Bounded",
       "lower": {
-        "bound_type": "Monthly",
-        "bound": [
-          2.44,
-          2.52,
-          2.71,
-          3.56,
-          4.89,
-          6.39,
-          7.52,
-          7.28,
-          5.66,
-          3.99,
-          2.87,
-          2.61
-        ]
+        "$ref": "constraints_lower_bound.csv"
       },
       "upper": {
         "bound_type": "None"
       }
     }
-  },
-  "lower": {
-    "$ref": "_constraints_lower.csv"
   }
 }

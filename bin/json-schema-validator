@@ -1,0 +1,6 @@
+#!/bin/bash
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+java -Done-jar.silent=true -jar ${DIR}/json-schema-validator-2.2.4-standalone.jar --fakeroot=http://cws.casil.ucdavis.edu/calvindb/ $@
+
+# The latest versions do not have these standalone jars, but 
+#http://stackoverflow.com/questions/22867521/how-to-run-json-schema-validator-from-the-command-line

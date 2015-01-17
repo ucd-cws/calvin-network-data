@@ -1,0 +1,41 @@
+{
+    "id":"http://cws.casil.ucdavis.edu/calvindb/storage.json",
+    "title": "Water Storage Nodes",
+    "oneOf":[
+	{
+	    "title":"Ground Water",
+	    "description": "A sub-surface storage node",
+	    "allOf":[
+		{"$ref":"#/definitions/storage"},
+		{"properties": {"type": { "enum": [ "Ground Water" ] }}}
+	    ],
+	    "required": [ "type"]
+	},
+	{
+	    "title": "Reservior",
+	    "allOf":[
+		{"$ref":"#/definitions/storage"},
+		{"properties": {
+		    "type": { "enum": [ "Reservoir" ] },
+		    "el_ar_cap": {"$ref":"el_ar_cap.json"}
+		}}
+	    ],
+	    "required": [ "type","el_ar_cap" ]
+	}
+    ],
+    "definitions":{
+	"storage":{
+	    "description": "A generic storage node.",
+	    "allOf":[
+		{"$ref":"node.json"},
+		{
+		    "properties":{
+			"initialStorage": {"$ref":"capacity.json"},
+			"finalStorage": {"$ref":"capacity.json"}
+		    }
+		}
+	    ],
+	    "required":["type","initialStorage","finalStorage"]
+	}
+    }
+}

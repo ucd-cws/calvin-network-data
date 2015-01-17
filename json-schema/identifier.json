@@ -1,0 +1,8 @@
+{
+    "id":"http://cws.casil.ucdavis.edu/calvindb/scoped_identifier.json",
+    "description":"Local Identifiers are simple strings.  Scoped identifiers can be null, thogh what happens in that case is not clear.  We should consider adding some additional constraints to them as well.",
+    "oneOf":[
+	{"type":"null"},
+	{"type":"string"}
+    ]
+}

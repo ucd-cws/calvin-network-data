@@ -1,0 +1,19 @@
+{
+    "id": "http://cws.casil.ucdavis.edu/calvindb/inflow.json",
+    "description":"An array of date,time values that specify the input flow of water for a source not in the network.",
+    "oneOf":[
+	{"type":"null"},
+	{"$ref":"external.json"},
+	{
+	    "type":"array",
+	    "items": {
+		"description":"A tuple of for [date,flow], where date is an ISO specified date and flow is specified in KAF.",
+		"type":"array",
+		"items":[
+		    {"type":"string" },
+		    {"type":"number" }
+		]
+	    }
+	}
+    ]
+}

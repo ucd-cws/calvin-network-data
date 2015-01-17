@@ -1,0 +1,24 @@
+{
+    "id":"http://cws.casil.ucdavis.edu/calvindb/common",
+    "title": "Common Parameters",
+    "description": "Common items of a Node or Link",
+    "type": "object",
+    "properties" : {
+	"uuid": { 
+	    "type": "string",
+	    "description" : "A universally unique identifier for the object. These are randomly generated style uuids."
+	},
+	"prmname": { "$ref":"prmname.json" },
+	"description": {"type":"string"},
+	"inflows": {
+	    "type":"array",
+	    "description":"An array of tuples describing inflow.  The first tuple is the identifier, followed by an inflow.",
+	    "items":[
+		{"$ref":"identifier.json"},
+		{"$ref":"inflow.json"}
+	    ]
+	},
+	"cost" : {"$ref":"cost.json" }
+    },
+    "required":["prmname"]
+}

@@ -1,0 +1,10 @@
+{
+    "id":"http://cws.casil.ucdavis.edu/calvindb/external",
+    "description":"This is the generic pointer to an external file.  This is just a placeholder for tnow, and will be updated.",
+    "type":"object",
+    "properties":{
+	"$ref":{"type":"string"}
+    },
+    "required":["$ref"],
+    "additionalProperties":false
+}

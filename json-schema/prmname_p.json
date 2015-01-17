@@ -1,0 +1,12 @@
+{
+    "id": "http://cws.casil.ucdavis.edu/calvindb/prmname_p.json",
+    "description":"An array of prmnames",
+    "oneOf":[
+	{"type":"null"},
+	{"$ref":"external.json"},
+	{
+	    "type":"array",
+	    "items": {"$ref":"prmname"}
+	}
+    ]
+}

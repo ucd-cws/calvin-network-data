@@ -1,13 +1,64 @@
 {
-    "id":"http://cws.casil.ucdavis.edu/calvindb/node.json",
-    "title": "Connectors",
-    "description": "Connection properties for nodes",
+    "id":"http://cws.casil.ucdavis.edu/calvindb/Node.json",
+    "title": "Node",
+    "description": "Schema for the Calvin Nodes",
     "type": "object",
-    "allOf":[
-	{"$ref":"common.json"},
-	{ "properties": {
-	    "origins": {"$ref":"prmname_p.json"},
-	    "terminals":{"$ref":"prmname_p.json"}
+    "oneOf":[
+	{ "$ref": "#/definitions/PowerPlant"},
+	{ "$ref": "#/definitions/Demand"},
+	{ "$ref": "#/definitions/Junction"},
+	{ "$ref": "#/definitions/PumpPlant"},
+	{ "$ref": "#/definitions/Sink"},
+	{ "$ref": "storage.json"},
+	{ "$ref": "#/definitions/WaterTreatment"}
+    ],
+    "definitions":{
+	"Junction": {
+	    "title": "Junction",
+	    "description": "Any Untyped Connection Node",
+            "allOf":[{"$ref":"node.json"},
+		     {"properties": { "type": { "enum": [ "Junction" ] }}}]
+	},
+	"Sink": {
+	    "title": "Sink",
+	    "description": "Any Water Loss Node",
+	    "allOf":[ {"$ref":"node.json"},
+		      {"properties": {"type": { "enum": [ "Sink" ] }}}
+		    ],
+	    "required":["type"]
+	},
+	"WaterTreatment": {
+	    "title": "Water Treatment",
+	    "description": "A node representation a water treatment Facility.  This will be removed shortly.",
+            "allOf":[{"$ref":"node.json"},
+		     {"properties": { "type": { "enum": [ "Water Treatment" ] }}}]
+        },
+	"Demand": {
+	    "title": "Demand",
+	    "description": "Any type of water demand",
+            "allOf":[{"$ref":"node.json"},
+		     {"properties": {
+			 "type": { "enum": [ "Agricultural Demand", "Urban Demand", "Non-Standard Demand" ] }
+		     }}]    
+	},
+	"PumpPlant": {
+            "title": "Pumping Plant",
+            "description": "A node describing a groundwater pumping station",
+            "allOf":[{"$ref":"node.json"},
+		     {"properties": {
+                "type": { "enum": [ "Pump Plant" ] }
+		     }}]
+	},
+	"PowerPlant": {
+            "title": "Power Plant",
+            "description": "A node describing a power generation facility",
+	    "allOf":[{"$ref":"node.json"},
+		     {"properties": {
+			 "type": { "enum": [ "Power Plant" ] }
+		     }
+		     }
+		    ],
+	    "additionalProperties":true
 	}
-    ]
+    }
 }

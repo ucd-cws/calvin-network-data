@@ -1,0 +1,21 @@
+{
+  "name": "calvin-network-data",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ucd-cws/calvin-network-data",
+  "authors": [
+    "Justin Merz <jrmerz@gmail.com>"
+  ],
+  "description": "CALVIN network data",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "docson": "*"
+  }
+}

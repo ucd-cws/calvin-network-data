@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP501_Sink G30",
+ "description":"",
+ "type":"Diversion",
+ "origin":"WWP501",
+ "terminus":"Sink G30",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

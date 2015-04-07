@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C72_D632",
+ "description":"Madera Canal wasteway to Chowchilla River",
+ "type":"Diversion",
+ "origin":"C72",
+ "terminus":"D632",
+ "amplitude":0.91,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null}}

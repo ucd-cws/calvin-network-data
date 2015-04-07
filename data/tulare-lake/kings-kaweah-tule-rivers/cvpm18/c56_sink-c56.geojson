@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C56_Sink C56",
+ "description":"Depletion from Kaweah River",
+ "type":"Diversion",
+ "origin":"C56",
+ "terminus":"Sink C56",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

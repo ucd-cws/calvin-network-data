@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C20_D55",
+ "description":"Yolo Bypass outflow to Delta",
+ "type":"Diversion",
+ "origin":"C20",
+ "terminus":"D55",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

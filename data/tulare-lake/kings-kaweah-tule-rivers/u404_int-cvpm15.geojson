@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"U404_INT CVPM15",
+ "description":"",
+ "type":"Diversion",
+ "origin":"U404",
+ "terminus":"INT CVPM15",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP19_A408B",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HGP19",
+ "terminus":"A408B",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":136.2},
+ "bounds":[{"type":"UBC","bound":213.69}],
+ "sinks":null}}

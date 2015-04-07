@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D694_SinkG47",
+ "description":"Depletion: San Joaquin River between Bypass and Merced River",
+ "type":"Diversion",
+ "origin":"D694",
+ "terminus":"SinkG47",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP208_ERES CC",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP208",
+ "terminus":"ERES CC",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

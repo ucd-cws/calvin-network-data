@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.239085979692,38.8898988102653]},
+ "properties":{"prmname":"SR-CLK-INV",
+ "description":"Clear Lake & Indian Valley Reservoir",
+ "type":"Surface Storage",
+ "initialstorage":306.7,
+ "endingstorage":306.7,
+ "areacapfactor":0.0325582,
+ "inflows":null,
+ "el_ar_cap":{"$ref":"elevation_area_capacity.csv"},
+ "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"cost_JAN.csv"},"FEB":{"$ref":"cost_FEB.csv"},"MAR":{"$ref":"cost_MAR.csv"},"APR":{"$ref":"cost_APR.csv"},"MAY":{"$ref":"cost_MAY.csv"},"JUN":{"$ref":"cost_JUN.csv"},"JUL":{"$ref":"cost_JUL.csv"},"AUG":{"$ref":"cost_AUG.csv"},"SEP":{"$ref":"cost_SEP.csv"},"OCT":{"$ref":"cost_OCT.csv"},"NOV":{"$ref":"cost_NOV.csv"},"DEC":{"$ref":"cost_DEC.csv"}}},
+ "bounds":[{"type":"LBC","bound":0},{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

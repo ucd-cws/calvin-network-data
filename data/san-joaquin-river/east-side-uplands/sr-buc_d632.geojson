@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-BUC_D632",
+ "description":"Reservoir release from Buchanan Dam to Chowchilla River",
+ "type":"Diversion",
+ "origin":"SR-BUC",
+ "terminus":"D632",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

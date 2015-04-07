@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGPSD_U511",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HGPSD",
+ "terminus":"U511",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":51.8},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

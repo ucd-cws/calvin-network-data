@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP204_HGR07",
+ "description":"Sacramento AR or RF of GW-7 from area north of Am. River",
+ "type":"Diversion",
+ "origin":"WWP204",
+ "terminus":"HGR07",
+ "amplitude":0.002,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null}}

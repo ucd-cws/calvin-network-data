@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HU409C_CVPM21CS",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HU409C",
+ "terminus":"CVPM21CS",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

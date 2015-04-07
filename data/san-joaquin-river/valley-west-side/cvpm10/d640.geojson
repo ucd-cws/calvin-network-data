@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.641800911261,37.0888502578735]},
+ "properties":{"prmname":"D640",
+ "description":"Refuge 2 & CVPM14 return to San Joaquin River",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

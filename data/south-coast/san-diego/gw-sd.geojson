@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.941498897165,32.8615058369846]},
+ "properties":{"prmname":"GW-SD",
+ "description":"San Diego groundwater",
+ "type":"Groundwater Storage",
+ "initialstorage":7000,
+ "endingstorage":7000,
+ "inflows":{"default":{"description":"Inflows to groundwater","inflow":{"$ref" : "inflow_default.csv"}}},
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":10000}],
+ "sinks":null}}

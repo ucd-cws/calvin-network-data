@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C49_C76",
+ "description":"Friant-Kern Canal Reach 2",
+ "type":"Diversion",
+ "origin":"C49",
+ "terminus":"C76",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CN1_Sink CN1",
+ "description":"Calibration link",
+ "type":"Diversion",
+ "origin":"CN1",
+ "terminus":"Sink CN1",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

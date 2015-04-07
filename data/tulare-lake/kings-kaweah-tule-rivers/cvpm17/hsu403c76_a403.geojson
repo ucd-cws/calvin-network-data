@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU403C76_A403",
+ "description":"Friant-Kern Canal delivery to CVPM 17 (DA 60D)",
+ "type":"Diversion",
+ "origin":"HSU403C76",
+ "terminus":"A403",
+ "amplitude":0.93,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

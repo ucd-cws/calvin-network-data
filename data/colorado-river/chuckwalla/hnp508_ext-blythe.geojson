@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP508_EXT Blythe",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP508",
+ "terminus":"EXT Blythe",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

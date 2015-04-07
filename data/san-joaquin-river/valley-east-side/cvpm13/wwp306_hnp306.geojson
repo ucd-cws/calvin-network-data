@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP306_HNP306",
+ "description":"",
+ "type":"Diversion",
+ "origin":"WWP306",
+ "terminus":"HNP306",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1480},
+ "bounds":[{"type":"UBC","bound":4.1}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D886_PWP-Castai",
+ "description":"SWP West Branch (unconstrained)",
+ "type":"Diversion",
+ "origin":"D886",
+ "terminus":"PWP-Castai",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

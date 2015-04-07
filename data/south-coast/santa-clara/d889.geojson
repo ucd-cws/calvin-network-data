@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-118.53195593863,34.3928656306603]},
+ "properties":{"prmname":"D889",
+ "description":"West Branch SWP Node Represented in DWRSIM Network D122698",
+ "type":"Junction",
+ "inflows":{"default":{"description":"COASTAL BRANCH DELIVERIES TO CLWA
+","inflow":{"$ref" : "inflow_default.csv"}}},
+ "sinks":null}}

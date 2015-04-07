@@ -1,0 +1,11 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C23_C25",
+ "description":"Feather River low flow reach, new location mimimum instream flow requirement",
+ "type":"Diversion",
+ "origin":"C23",
+ "terminus":"C25",
+ "amplitude":1,
+ "costs":{ "type":"Monthly Variable","costs":{"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"}}},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

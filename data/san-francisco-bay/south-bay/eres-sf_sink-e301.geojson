@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"ERES SF_Sink E301",
+ "description":"",
+ "type":"Diversion",
+ "origin":"ERES SF",
+ "terminus":"Sink E301",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

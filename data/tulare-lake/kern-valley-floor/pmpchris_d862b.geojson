@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMPChris_D862B",
+ "description":"California Aqueduct Pumping Plant",
+ "type":"Diversion",
+ "origin":"PMPChris",
+ "terminus":"D862B",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

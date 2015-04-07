@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D723_D724",
+ "description":"Delta Mendota Canal",
+ "type":"Diversion",
+ "origin":"D723",
+ "terminus":"D724",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

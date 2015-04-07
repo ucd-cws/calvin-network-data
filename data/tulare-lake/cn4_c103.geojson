@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CN4_C103",
+ "description":"Calibration link",
+ "type":"Diversion",
+ "origin":"CN4",
+ "terminus":"C103",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

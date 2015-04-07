@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.611791831712,34.5556980766025]},
+ "properties":{"prmname":"WWP506",
+ "description":"San Bernadino VWD OUT",
+ "type":"Water Treatment",
+ "inflows":null,
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D872_Sink G13",
+ "description":"East Branch SWP Losses",
+ "type":"Diversion",
+ "origin":"D872",
+ "terminus":"Sink G13",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

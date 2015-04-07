@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D697_D698",
+ "description":"San Joaquin River Reach",
+ "type":"Diversion",
+ "origin":"D697",
+ "terminus":"D698",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D16_HSU302D16",
+ "description":"surface delivery CVPM 11",
+ "type":"Diversion",
+ "origin":"D16",
+ "terminus":"HSU302D16",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":111.3}],
+ "sinks":null}}

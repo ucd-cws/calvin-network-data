@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D509_CN2",
+ "description":"Calibration remove flow to match DWRSIM514 CP507,515,521+523 CU-Precip to Calvin CVPM 9 U/S diversions + D509_Sink - Source_D509 - HSD9_D509 net in-Delta Depletion",
+ "type":"Diversion",
+ "origin":"D509",
+ "terminus":"CN2",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

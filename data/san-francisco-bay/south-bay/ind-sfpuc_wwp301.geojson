@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"IND SFPUC_WWP301",
+ "description":"Ind Return Flow Total",
+ "type":"Diversion",
+ "origin":"IND SFPUC",
+ "terminus":"WWP301",
+ "amplitude":0.4,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PWP-AAC_C151",
+ "description":"Latter end of the All American Canal",
+ "type":"Diversion",
+ "origin":"PWP-AAC",
+ "terminus":"C151",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":-18.13},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

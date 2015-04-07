@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D624_HSU306D624",
+ "description":"surface delivery CVPM 13",
+ "type":"Diversion",
+ "origin":"D624",
+ "terminus":"HSU306D624",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":62.9}],
+ "sinks":null}}

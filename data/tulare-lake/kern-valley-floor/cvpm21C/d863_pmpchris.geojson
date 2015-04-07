@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D863_PMPChris",
+ "description":"California Aqueduct Diversion to Chrisman Pumping Plant",
+ "type":"Diversion",
+ "origin":"D863",
+ "terminus":"PMPChris",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

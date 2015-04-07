@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.7587088724,35.3705065536481]},
+ "properties":{"prmname":"N11",
+ "description":"",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

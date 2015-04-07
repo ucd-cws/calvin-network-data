@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HP502_U502",
+ "description":"Expanded wastewater recycling facility",
+ "type":"Diversion",
+ "origin":"HP502",
+ "terminus":"U502",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PWP-Owens1_C116",
+ "description":"LA Aqueduct",
+ "type":"Diversion",
+ "origin":"PWP-Owens1",
+ "terminus":"C116",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":-238.28},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

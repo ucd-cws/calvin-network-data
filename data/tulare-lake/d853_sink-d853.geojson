@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D853_Sink D853",
+ "description":"California Aqueduct losses R8C-13C",
+ "type":"Diversion",
+ "origin":"D853",
+ "terminus":"Sink D853",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

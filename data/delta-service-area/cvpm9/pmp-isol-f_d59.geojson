@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMP-ISOL F_D59",
+ "description":"Isolated Facility",
+ "type":"Diversion",
+ "origin":"PMP-ISOL F",
+ "terminus":"D59",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":14.8},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

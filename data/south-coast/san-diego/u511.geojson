@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.654022339866,33.0562684285393]},
+ "properties":{"prmname":"U511",
+ "description":"San Diego IN",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

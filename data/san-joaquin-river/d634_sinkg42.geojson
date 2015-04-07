@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D634_SinkG42",
+ "description":"Depletion: Chowchilla River",
+ "type":"Diversion",
+ "origin":"D634",
+ "terminus":"SinkG42",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

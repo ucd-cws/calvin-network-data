@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D804_SinkG3",
+ "description":"California Aqueduct losses R1-2",
+ "type":"Diversion",
+ "origin":"D804",
+ "terminus":"SinkG3",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

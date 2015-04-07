@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.569093383255,38.0772482791136]},
+ "properties":{"prmname":"D523",
+ "description":"Delta - ?",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

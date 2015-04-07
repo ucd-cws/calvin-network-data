@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP305_HGR12",
+ "description":"Return flow from CVPM 11 Urban deliveries",
+ "type":"Diversion",
+ "origin":"WWP305",
+ "terminus":"HGR12",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

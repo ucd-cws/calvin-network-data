@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.126408689648,38.1015271017669]},
+ "properties":{"prmname":"C201",
+ "description":"Mokelumne River Aqueduct",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

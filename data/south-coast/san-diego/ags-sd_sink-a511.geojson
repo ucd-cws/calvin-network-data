@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"AGS SD_Sink A511",
+ "description":"",
+ "type":"Diversion",
+ "origin":"AGS SD",
+ "terminus":"Sink A511",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

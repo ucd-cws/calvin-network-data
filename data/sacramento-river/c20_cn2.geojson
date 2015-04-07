@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C20_CN2",
+ "description":"Calibration remove flow to match DWRSIM514 Inflow at CP55 to Calvin C20_D55 Yolo Bypass outflow",
+ "type":"Diversion",
+ "origin":"C20",
+ "terminus":"CN2",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

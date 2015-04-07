@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C54_D608",
+ "description":"St.James and N.Kings River outflow from Region 4 to Region 3.  This is not the depletion to the Fresno Slough.",
+ "type":"Diversion",
+ "origin":"C54",
+ "terminus":"D608",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

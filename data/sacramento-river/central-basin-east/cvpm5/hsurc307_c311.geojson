@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSURC307_C311",
+ "description":"CVPM 5 surface water return flow d/s delivery to Sacramento East Refuges",
+ "type":"Diversion",
+ "origin":"HSURC307",
+ "terminus":"C311",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

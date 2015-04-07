@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C315_SinkG99",
+ "description":"Santa Clara local supply spills",
+ "type":"Diversion",
+ "origin":"C315",
+ "terminus":"SinkG99",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

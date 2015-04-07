@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CVPM21CS_HSD409C",
+ "description":"",
+ "type":"Diversion",
+ "origin":"CVPM21CS",
+ "terminus":"HSD409C",
+ "amplitude":0.227,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

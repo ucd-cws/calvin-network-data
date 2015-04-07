@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP304_HP304",
+ "description":"Proposed expanded wastewater treatment facility for SCV",
+ "type":"Diversion",
+ "origin":"WWP304",
+ "terminus":"HP304",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1480},
+ "bounds":[{"type":"UBC","bound":10.56}],
+ "sinks":null}}

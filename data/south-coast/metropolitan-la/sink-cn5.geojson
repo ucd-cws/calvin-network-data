@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-118.175514634209,34.3382451560461]},
+ "properties":{"prmname":"Sink CN5",
+ "description":"Calibration Sink Node for Region 5",
+ "type":"Sink",
+ "inflows":null,
+ "sinks":null}}

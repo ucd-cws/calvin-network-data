@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU104D30_A104",
+ "description":"Sacramento River diversions between Ord Ferry and Knights Landing to CVPM 4 (DA 15)",
+ "type":"Diversion",
+ "origin":"HSU104D30",
+ "terminus":"A104",
+ "amplitude":0.88,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

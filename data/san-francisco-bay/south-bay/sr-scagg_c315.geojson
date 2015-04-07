@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-SCAGG_C315",
+ "description":"Santa Clara Agg Res Release",
+ "type":"Diversion",
+ "origin":"SR-SCAGG",
+ "terminus":"C315",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

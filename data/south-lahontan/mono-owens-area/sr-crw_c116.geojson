@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-CRW_C116",
+ "description":"Upper Owens River bypass for Owens Valley 1 Power Plant",
+ "type":"Diversion",
+ "origin":"SR-CRW",
+ "terminus":"C116",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

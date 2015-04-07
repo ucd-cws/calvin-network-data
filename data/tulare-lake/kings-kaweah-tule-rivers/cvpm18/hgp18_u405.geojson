@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP18_U405",
+ "description":"M&I pumping for CVPM 18 Urban",
+ "type":"Diversion",
+ "origin":"HGP18",
+ "terminus":"U405",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":140.6},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

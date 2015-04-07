@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-114.469822238578,33.9556840615454]},
+ "properties":{"prmname":"HSU508C141",
+ "description":"",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

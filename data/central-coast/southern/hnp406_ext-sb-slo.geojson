@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP406_EXT SB-SLO",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP406",
+ "terminus":"EXT SB-SLO",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

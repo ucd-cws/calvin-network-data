@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PWP-Wads_N6",
+ "description":"Diamond Valley Lake Outflows",
+ "type":"Diversion",
+ "origin":"PWP-Wads",
+ "terminus":"N6",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":-15},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"Desal_U304",
+ "description":"Proposed ocean desalination for SCV",
+ "type":"Diversion",
+ "origin":"Desal",
+ "terminus":"U304",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":2072},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

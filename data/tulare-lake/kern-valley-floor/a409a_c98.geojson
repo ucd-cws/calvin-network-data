@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"A409A_C98",
+ "description":"C-66_C98, This is the Kern River Canal (cap. 900 cfs); it allows A-E bi-directional intertie to connect to Friant-Kern system; Erased C98_C66.  CVPM 21 gets water from FKC or CVC, not from CA. - JH 4/2006",
+ "type":"Diversion",
+ "origin":"A409A",
+ "terminus":"C98",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":54.3}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PWP-Castai_D887",
+ "description":"SWP West Branch",
+ "type":"Diversion",
+ "origin":"PWP-Castai",
+ "terminus":"D887",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":-108.5728},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

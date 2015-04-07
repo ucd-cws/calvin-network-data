@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.459918865246,37.4310348941905]},
+ "properties":{"prmname":"CN3",
+ "description":"Calibration node to add or remove water",
+ "type":"Junction",
+ "inflows":{"default":{"description":"Source flows for calibration nodes","inflow":{"$ref" : "inflow_default.csv"}}},
+ "sinks":null}}

@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.089172080934,32.661892032037]},
+ "properties":{"prmname":"Desal",
+ "description":"Proposed desalination facility for coastal cities",
+ "type":"Junction",
+ "inflows":{"default":{"description":"Ocean desalination","inflow":{"$ref" : "inflow_default.csv"}}},
+ "sinks":null}}

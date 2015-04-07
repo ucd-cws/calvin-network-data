@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C72_D622",
+ "description":"Madera Canal wasteway to Fresno River",
+ "type":"Diversion",
+ "origin":"C72",
+ "terminus":"D622",
+ "amplitude":0.91,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null}}

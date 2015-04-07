@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HP304_U304",
+ "description":"Proposed expanded wastewater treatment for SCV",
+ "type":"Diversion",
+ "origin":"HP304",
+ "terminus":"U304",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

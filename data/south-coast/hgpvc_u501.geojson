@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGPVC_U501",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HGPVC",
+ "terminus":"U501",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":88.8},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

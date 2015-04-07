@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C74_HAR21",
+ "description":"Cross Valley Canal to subregion 21 for spreading ",
+ "type":"Diversion",
+ "origin":"C74",
+ "terminus":"HAR21",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":6.5},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null}}

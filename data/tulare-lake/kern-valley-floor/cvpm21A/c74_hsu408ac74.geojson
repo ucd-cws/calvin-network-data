@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C74_HSU408AC74",
+ "description":"Cross Valley Canal delivery to CVPM 19",
+ "type":"Diversion",
+ "origin":"C74",
+ "terminus":"HSU408AC74",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null}}

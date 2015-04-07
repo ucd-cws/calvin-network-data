@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D881_C154",
+ "description":"Mills Filtration Plant to EWMWD (unconstrained)",
+ "type":"Diversion",
+ "origin":"D881",
+ "terminus":"C154",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

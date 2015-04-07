@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D522_D523",
+ "description":"San Joaquin River Reach",
+ "type":"Diversion",
+ "origin":"D522",
+ "terminus":"D523",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

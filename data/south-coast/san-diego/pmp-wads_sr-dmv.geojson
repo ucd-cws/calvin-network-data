@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMP-Wads_SR-DMV",
+ "description":"Wadsworth PMP into SR-DV, San Diego Canal",
+ "type":"Diversion",
+ "origin":"PMP-Wads",
+ "terminus":"SR-DMV",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":31.302},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

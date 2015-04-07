@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU206D521_A206",
+ "description":"San Joaquin River div. to CVPM9",
+ "type":"Diversion",
+ "origin":"HSU206D521",
+ "terminus":"A206",
+ "amplitude":0.93,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

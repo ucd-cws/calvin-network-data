@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.056055956338,38.8718992800669]},
+ "properties":{"prmname":"D17",
+ "description":"American River diversion To CVPM 7",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

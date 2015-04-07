@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP406_Sink SBSLO",
+ "description":"SB-SLO outflow to ocean",
+ "type":"Diversion",
+ "origin":"WWP406",
+ "terminus":"Sink SBSLO",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

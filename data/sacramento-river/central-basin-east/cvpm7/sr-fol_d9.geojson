@@ -1,0 +1,11 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-FOL_D9",
+ "description":"Reservoir release from Folsom Dam to American River",
+ "type":"Diversion",
+ "origin":"SR-FOL",
+ "terminus":"D9",
+ "amplitude":1,
+ "costs":{ "type":"Monthly Variable","costs":{"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"}}},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

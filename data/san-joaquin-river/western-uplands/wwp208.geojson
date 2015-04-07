@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.813930014212,37.8487546749383]},
+ "properties":{"prmname":"WWP208",
+ "description":"CCWD OUT",
+ "type":"Water Treatment",
+ "inflows":null,
+ "sinks":null}}

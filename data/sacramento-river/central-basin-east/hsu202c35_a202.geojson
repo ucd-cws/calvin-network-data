@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU202C35_A202",
+ "description":"Bear River diversion to CVPM 5 (DA 69) - Tarr Ditch included here rather than under DA67",
+ "type":"Diversion",
+ "origin":"HSU202C35",
+ "terminus":"A202",
+ "amplitude":0.88,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGPKRN_D865",
+ "description":"Return of water to Metropolitan from the GW-Kern-Semitropic-Arvin/Edison groundwater basin
+",
+ "type":"Diversion",
+ "origin":"HGPKRN",
+ "terminus":"D865",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":103.6},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

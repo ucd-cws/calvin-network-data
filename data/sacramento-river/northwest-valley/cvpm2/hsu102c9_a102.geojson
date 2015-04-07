@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU102C9_A102",
+ "description":"Diversion from Stony Creek to CVPM 2 via North and South canals",
+ "type":"Diversion",
+ "origin":"HSU102C9",
+ "terminus":"A102",
+ "amplitude":0.88,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

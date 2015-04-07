@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.688204369656,33.7992227312183]},
+ "properties":{"prmname":"Sink G37",
+ "description":"CENTRAL MWD outflow",
+ "type":"Sink",
+ "inflows":null,
+ "sinks":null}}

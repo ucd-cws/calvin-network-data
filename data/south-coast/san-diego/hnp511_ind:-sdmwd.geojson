@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP511_Ind: SDMWD",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP511",
+ "terminus":"Ind: SDMWD",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

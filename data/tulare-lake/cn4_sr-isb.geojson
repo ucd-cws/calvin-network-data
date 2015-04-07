@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CN4_SR-ISB",
+ "description":"Calibration link",
+ "type":"Diversion",
+ "origin":"CN4",
+ "terminus":"SR-ISB",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

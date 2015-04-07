@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.922433506324,37.7329477412083]},
+ "properties":{"prmname":"WWP302",
+ "description":"WWTP For Modesto (out)",
+ "type":"Water Treatment",
+ "inflows":null,
+ "sinks":null}}

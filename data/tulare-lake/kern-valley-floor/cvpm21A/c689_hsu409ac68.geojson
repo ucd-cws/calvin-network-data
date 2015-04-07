@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C689_HSU409AC68",
+ "description":"Surface delivery Friant-Kern Canal to CVPM 21",
+ "type":"Diversion",
+ "origin":"C689",
+ "terminus":"HSU409AC68",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":28.8}],
+ "sinks":null}}

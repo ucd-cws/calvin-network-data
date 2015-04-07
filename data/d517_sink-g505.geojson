@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D517_Sink G505",
+ "description":"DA 59 local depletion",
+ "type":"Diversion",
+ "origin":"D517",
+ "terminus":"Sink G505",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

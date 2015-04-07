@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-ORO_HSU202SR-6",
+ "description":"Diversion from Oroville Lake to CVPM 5 (DA 69) via Palermo canal",
+ "type":"Diversion",
+ "origin":"SR-ORO",
+ "terminus":"HSU202SR-6",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":3.2}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D849_Sink D849",
+ "description":"Coastal Aqueduct Overflow",
+ "type":"Diversion",
+ "origin":"D849",
+ "terminus":"Sink D849",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

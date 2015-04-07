@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"AGS IMP_HSD510",
+ "description":"",
+ "type":"Diversion",
+ "origin":"AGS IMP",
+ "terminus":"HSD510",
+ "amplitude":0.32,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

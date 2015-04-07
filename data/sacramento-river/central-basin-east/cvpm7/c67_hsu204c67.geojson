@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C67_HSU204C67",
+ "description":"Sacramento River Div. to CVPM7",
+ "type":"Diversion",
+ "origin":"C67",
+ "terminus":"HSU204C67",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":49.1}],
+ "sinks":null}}

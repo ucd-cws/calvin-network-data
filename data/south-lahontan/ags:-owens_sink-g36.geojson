@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"AgS: Owens_Sink G36",
+ "description":"",
+ "type":"Diversion",
+ "origin":"AgS: Owens",
+ "terminus":"Sink G36",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

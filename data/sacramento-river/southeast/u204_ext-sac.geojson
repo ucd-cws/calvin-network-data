@@ -1,0 +1,11 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"U204_EXT SAC",
+ "description":"Includes Placerville and Auburn (DAU 158, 161, 172, 173, 186).",
+ "type":"Diversion",
+ "origin":"U204",
+ "terminus":"EXT SAC",
+ "amplitude":1,
+ "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"cost_JAN.csv"},"FEB":{"$ref":"cost_FEB.csv"},"MAR":{"$ref":"cost_MAR.csv"},"APR":{"$ref":"cost_APR.csv"},"MAY":{"$ref":"cost_MAY.csv"},"JUN":{"$ref":"cost_JUN.csv"},"JUL":{"$ref":"cost_JUL.csv"},"AUG":{"$ref":"cost_AUG.csv"},"SEP":{"$ref":"cost_SEP.csv"},"OCT":{"$ref":"cost_OCT.csv"},"NOV":{"$ref":"cost_NOV.csv"},"DEC":{"$ref":"cost_DEC.csv"}}},
+ "bounds":[{"type":"UBT","bound": {"$ref":"./UBT.csv"}}],
+ "sinks":null}}

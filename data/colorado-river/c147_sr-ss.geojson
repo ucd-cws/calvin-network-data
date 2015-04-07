@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C147_SR-SS",
+ "description":"",
+ "type":"Diversion",
+ "origin":"C147",
+ "terminus":"SR-SS",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":44.4},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP507_Sink G45",
+ "description":"SW Discharge to ??",
+ "type":"Diversion",
+ "origin":"WWP507",
+ "terminus":"Sink G45",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C315_WTP304",
+ "description":"",
+ "type":"Diversion",
+ "origin":"C315",
+ "terminus":"WTP304",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":140.6},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

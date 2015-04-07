@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.141170154743,34.6733060911038]},
+ "properties":{"prmname":"WWP505",
+ "description":"Mojave OUT",
+ "type":"Water Treatment",
+ "inflows":null,
+ "sinks":null}}

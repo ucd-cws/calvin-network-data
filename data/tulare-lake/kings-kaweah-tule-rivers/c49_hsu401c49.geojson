@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C49_HSU401C49",
+ "description":"Surface delivery Friant-Kern Canal delivery CVPM 16",
+ "type":"Diversion",
+ "origin":"C49",
+ "terminus":"HSU401C49",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":6.8}],
+ "sinks":null}}

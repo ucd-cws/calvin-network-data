@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D9_C173",
+ "description":"Lake Natoma export to Folsom South Canal",
+ "type":"Diversion",
+ "origin":"D9",
+ "terminus":"C173",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

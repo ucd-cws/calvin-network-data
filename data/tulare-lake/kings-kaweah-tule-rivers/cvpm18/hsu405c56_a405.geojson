@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU405C56_A405",
+ "description":"Kaweah River diversion to CVPM 18 (DA 60E)",
+ "type":"Diversion",
+ "origin":"HSU405C56",
+ "terminus":"A405",
+ "amplitude":0.83,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

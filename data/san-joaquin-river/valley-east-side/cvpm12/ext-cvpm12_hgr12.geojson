@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"EXT CVPM12_HGR12",
+ "description":"Return flows from external CVMP12",
+ "type":"Diversion",
+ "origin":"EXT CVPM12",
+ "terminus":"HGR12",
+ "amplitude":0.1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

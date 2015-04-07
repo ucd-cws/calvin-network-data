@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C149_C147",
+ "description":"Unlined Coachella Canal",
+ "type":"Diversion",
+ "origin":"C149",
+ "terminus":"C147",
+ "amplitude":0.84,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

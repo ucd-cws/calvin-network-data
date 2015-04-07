@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP13_U306",
+ "description":"GW pumping for CVPM 13 Urban (Merced and Madera)",
+ "type":"Diversion",
+ "origin":"HGP13",
+ "terminus":"U306",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":61.91},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

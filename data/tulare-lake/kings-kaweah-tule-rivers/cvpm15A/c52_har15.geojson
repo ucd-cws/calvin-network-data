@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C52_HAR15",
+ "description":"Kings River diversion for spreading",
+ "type":"Diversion",
+ "origin":"C52",
+ "terminus":"HAR15",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":6.5},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

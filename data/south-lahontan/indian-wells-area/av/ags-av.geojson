@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.988630652318,35.1486039069803]},
+ "properties":{"prmname":"AGS AV",
+ "description":"Agricultural demand for Antelope Valley",
+ "type":"Agricultural Demand",
+ "costs":null,
+ "bounds":null,
+ "sinks":null}}

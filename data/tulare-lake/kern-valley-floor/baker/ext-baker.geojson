@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.134545111916,35.2909192932068]},
+ "properties":{"prmname":"EXT BAKER",
+ "description":"DAU 254  exterior urban flows ",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null}}

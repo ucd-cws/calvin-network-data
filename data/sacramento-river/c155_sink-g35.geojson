@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C155_Sink G35",
+ "description":"DA 24 local demand - constrained delivery no value function",
+ "type":"Diversion",
+ "origin":"C155",
+ "terminus":"Sink G35",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-115.379398907365,32.8976371910767]},
+ "properties":{"prmname":"Sink GWIM",
+ "description":"",
+ "type":"Sink",
+ "inflows":null,
+ "sinks":null}}

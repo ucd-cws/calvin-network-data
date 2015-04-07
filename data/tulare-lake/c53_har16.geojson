@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C53_HAR16",
+ "description":"Kings R to Fresno ID for spreading",
+ "type":"Diversion",
+ "origin":"C53",
+ "terminus":"HAR16",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":6.5},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

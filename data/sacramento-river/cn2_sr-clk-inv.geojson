@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CN2_SR-CLK-INV",
+ "description":"Calibration flow added for small infeasibility on Cache Creek system",
+ "type":"Diversion",
+ "origin":"CN2",
+ "terminus":"SR-CLK-INV",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

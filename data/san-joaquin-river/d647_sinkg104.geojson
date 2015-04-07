@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D647_SinkG104",
+ "description":"Depletion: lower Merced River",
+ "type":"Diversion",
+ "origin":"D647",
+ "terminus":"SinkG104",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

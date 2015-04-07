@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D871_D872",
+ "description":"SWP East Branch (unconstrained)",
+ "type":"Diversion",
+ "origin":"D871",
+ "terminus":"D872",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

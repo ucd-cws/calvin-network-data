@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.301024735856,37.5854870633047]},
+ "properties":{"prmname":"D703",
+ "description":"Delta Mendota Canal losses",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

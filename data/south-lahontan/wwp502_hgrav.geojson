@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP502_HGRAV",
+ "description":"",
+ "type":"Diversion",
+ "origin":"WWP502",
+ "terminus":"HGRAV",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null}}

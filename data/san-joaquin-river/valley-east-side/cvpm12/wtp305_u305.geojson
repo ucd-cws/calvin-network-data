@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WTP305_U305",
+ "description":"",
+ "type":"Diversion",
+ "origin":"WTP305",
+ "terminus":"U305",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":30},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

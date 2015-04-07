@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"ERes:VENT_HGRVC",
+ "description":"",
+ "type":"Diversion",
+ "origin":"ERes:VENT",
+ "terminus":"HGRVC",
+ "amplitude":0.1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

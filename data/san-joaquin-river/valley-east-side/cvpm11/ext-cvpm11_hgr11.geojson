@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"EXT CVPM11_HGR11",
+ "description":"deep percolation of exterior uses",
+ "type":"Diversion",
+ "origin":"EXT CVPM11",
+ "terminus":"HGR11",
+ "amplitude":0.1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

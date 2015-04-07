@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP05_U201",
+ "description":"Diversions to Butte/Plumas/Yuba urban areas",
+ "type":"Diversion",
+ "origin":"HGP05",
+ "terminus":"U201",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":40.09},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null}}

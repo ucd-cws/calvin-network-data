@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"N1_WTP506",
+ "description":"",
+ "type":"Diversion",
+ "origin":"N1",
+ "terminus":"WTP506",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":45},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

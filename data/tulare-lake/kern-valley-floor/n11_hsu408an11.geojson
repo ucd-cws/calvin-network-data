@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"N11_HSU408AN11",
+ "description":"",
+ "type":"Diversion",
+ "origin":"N11",
+ "terminus":"HSU408AN11",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

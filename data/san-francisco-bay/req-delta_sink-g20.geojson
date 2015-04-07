@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"Req Delta_Sink G20",
+ "description":"Required Delta outflow",
+ "type":"Diversion",
+ "origin":"Req Delta",
+ "terminus":"Sink G20",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

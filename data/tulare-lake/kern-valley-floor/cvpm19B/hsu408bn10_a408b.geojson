@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU408BN10_A408B",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HSU408BN10",
+ "terminus":"A408B",
+ "amplitude":0.93,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

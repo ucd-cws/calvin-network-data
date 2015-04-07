@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-BVLB_D859",
+ "description":"New BV Lake pumping plant.  SR-BLV_ D859 (240 cfs,14.5 KAF/mo) -JH 4/2006",
+ "type":"Diversion",
+ "origin":"SR-BVLB",
+ "terminus":"D859",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":14.5}],
+ "sinks":null}}

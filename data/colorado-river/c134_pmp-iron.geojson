@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C134_PMP-Iron",
+ "description":"Colorado Aqueduct",
+ "type":"Diversion",
+ "origin":"C134",
+ "terminus":"PMP-Iron",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

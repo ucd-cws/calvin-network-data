@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-BER_C155",
+ "description":"Reservoir release from Monticello Dam to Putah Creek",
+ "type":"Diversion",
+ "origin":"SR-BER",
+ "terminus":"C155",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

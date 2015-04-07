@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.813930014212,37.8487546749383]},
+ "properties":{"prmname":"Sink E208",
+ "description":"",
+ "type":"Sink",
+ "inflows":null,
+ "sinks":null}}

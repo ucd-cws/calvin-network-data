@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D803_D804",
+ "description":"California Aqueduct",
+ "type":"Diversion",
+ "origin":"D803",
+ "terminus":"D804",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

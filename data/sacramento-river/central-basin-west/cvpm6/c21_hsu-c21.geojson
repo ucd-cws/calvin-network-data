@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C21_HSU-C21",
+ "description":"",
+ "type":"Diversion",
+ "origin":"C21",
+ "terminus":"HSU-C21",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":45},
+ "bounds":[{"type":"UBC","bound":7.39}],
+ "sinks":null}}

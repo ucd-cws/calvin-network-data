@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP20_U407",
+ "description":"M&I pumping for CVPM 20",
+ "type":"Diversion",
+ "origin":"HGP20",
+ "terminus":"U407",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":142.14},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

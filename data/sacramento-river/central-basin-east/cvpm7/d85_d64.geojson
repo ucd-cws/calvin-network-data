@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D85_D64",
+ "description":"American River d/s of Nimbus Dam Reach 2",
+ "type":"Diversion",
+ "origin":"D85",
+ "terminus":"D64",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU507C147_A507",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HSU507C147",
+ "terminus":"A507",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

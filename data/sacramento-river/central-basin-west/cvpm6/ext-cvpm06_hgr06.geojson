@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"EXT CVPM06_HGR06",
+ "description":"return flows from urban CVPM6",
+ "type":"Diversion",
+ "origin":"EXT CVPM06",
+ "terminus":"HGR06",
+ "amplitude":0.004,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

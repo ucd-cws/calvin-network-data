@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP208_Sink G23",
+ "description":"Contra Costa",
+ "type":"Diversion",
+ "origin":"WWP208",
+ "terminus":"Sink G23",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"A103B_HU103B",
+ "description":"",
+ "type":"Diversion",
+ "origin":"A103B",
+ "terminus":"HU103B",
+ "amplitude":1.183,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

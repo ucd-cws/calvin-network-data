@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D17_SR-FOL",
+ "description":"Inflow to Folsom Reservoir from North and Middle Forks of American River",
+ "type":"Diversion",
+ "origin":"D17",
+ "terminus":"SR-FOL",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

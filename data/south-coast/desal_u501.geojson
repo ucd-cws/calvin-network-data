@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"Desal_U501",
+ "description":"Desalination to Ventura",
+ "type":"Diversion",
+ "origin":"Desal",
+ "terminus":"U501",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":2072},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP507_HP507",
+ "description":"Expanded wastewater recycling facility for Coachella Urban",
+ "type":"Diversion",
+ "origin":"WWP507",
+ "terminus":"HP507",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1480},
+ "bounds":[{"type":"UBC","bound":10.03}],
+ "sinks":null}}

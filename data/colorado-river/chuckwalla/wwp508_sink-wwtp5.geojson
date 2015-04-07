@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP508_Sink WWTP5",
+ "description":"",
+ "type":"Diversion",
+ "origin":"WWP508",
+ "terminus":"Sink WWTP5",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

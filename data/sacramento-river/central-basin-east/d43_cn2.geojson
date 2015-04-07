@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D43_CN2",
+ "description":"Calibration remove flow to match DWRSIM514 Flow Downstream of CP49 to Calvin C26_D43 + D42_D43 + C33_HSU7C33 + D42_HSU7D42 Feather R outflow",
+ "type":"Diversion",
+ "origin":"D43",
+ "terminus":"CN2",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

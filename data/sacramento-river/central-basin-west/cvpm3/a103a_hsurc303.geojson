@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"A103A_HSURC303",
+ "description":"Refuge supply",
+ "type":"Diversion",
+ "origin":"A103A",
+ "terminus":"HSURC303",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

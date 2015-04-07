@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-CR3_C134",
+ "description":"Colorado River (unconstrained)",
+ "type":"Diversion",
+ "origin":"SR-CR3",
+ "terminus":"C134",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

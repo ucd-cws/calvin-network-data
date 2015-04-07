@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.521177077638,34.8263208621164]},
+ "properties":{"prmname":"D848",
+ "description":"Coastal Aqueduct",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.636037097057,37.8579270663555]},
+ "properties":{"prmname":"D653b",
+ "description":"Stanislaus River accretion & depletion",
+ "type":"Junction",
+ "inflows":{"default":{"description":"Accretion Stanislaus Goodwin to Mouth","inflow":{"$ref" : "inflow_default.csv"}}},
+ "sinks":null}}

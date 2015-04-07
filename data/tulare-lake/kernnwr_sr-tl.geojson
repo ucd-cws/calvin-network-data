@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"KernNWR_SR-TL",
+ "description":"SW return flow from KernNWR to Tulare Lake Bed",
+ "type":"Diversion",
+ "origin":"KernNWR",
+ "terminus":"SR-TL",
+ "amplitude":0.001,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

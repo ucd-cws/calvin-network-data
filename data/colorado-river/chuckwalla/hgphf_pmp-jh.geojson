@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGPHF_PMP-JH",
+ "description":"Water conveyance to pump Gw-Hayfield water back to the Colorado Aqueduct
+",
+ "type":"Diversion",
+ "origin":"HGPHF",
+ "terminus":"PMP-JH",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":66.6},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

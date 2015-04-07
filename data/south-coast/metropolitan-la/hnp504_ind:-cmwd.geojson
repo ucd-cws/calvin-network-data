@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP504_Ind: CMWD",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP504",
+ "terminus":"Ind: CMWD",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

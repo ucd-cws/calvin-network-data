@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C124_HARMJ",
+ "description":"GW-MJ Artificial Recharge",
+ "type":"Diversion",
+ "origin":"C124",
+ "terminus":"HARMJ",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":14.8},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

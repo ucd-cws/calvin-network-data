@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-118.656290325,34.5870477990001]},
+ "properties":{"prmname":"PWP-Castai",
+ "description":"West Branch SWP Power Plant",
+ "type":"Power Plant",
+ "inflows":null,
+ "sinks":null}}

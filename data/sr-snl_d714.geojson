@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-SNL_D714",
+ "description":"Pacheco Tunnel",
+ "type":"Diversion",
+ "origin":"SR-SNL",
+ "terminus":"D714",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

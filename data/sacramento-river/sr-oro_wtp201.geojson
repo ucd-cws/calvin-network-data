@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-ORO_WTP201",
+ "description":"",
+ "type":"Diversion",
+ "origin":"SR-ORO",
+ "terminus":"WTP201",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":45},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP401_EXT FRESN",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP401",
+ "terminus":"EXT FRESN",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-118.118359211385,35.0157143800015]},
+ "properties":{"prmname":"HARAV",
+ "description":"",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

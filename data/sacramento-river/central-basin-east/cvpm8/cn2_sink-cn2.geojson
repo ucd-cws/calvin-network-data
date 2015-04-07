@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CN2_Sink CN2",
+ "description":"",
+ "type":"Diversion",
+ "origin":"CN2",
+ "terminus":"Sink CN2",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

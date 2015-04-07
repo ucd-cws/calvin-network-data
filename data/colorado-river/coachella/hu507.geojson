@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.267105191587,33.7044790917628]},
+ "properties":{"prmname":"HU507",
+ "description":"Hidden node for coachella Ag",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

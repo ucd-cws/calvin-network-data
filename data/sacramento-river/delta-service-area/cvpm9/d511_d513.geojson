@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D511_D513",
+ "description":"Sacramento River div. To Delta Cross Channel",
+ "type":"Diversion",
+ "origin":"D511",
+ "terminus":"D513",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":900}],
+ "sinks":null}}

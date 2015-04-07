@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"ERes:SDWD_Sink E511",
+ "description":"",
+ "type":"Diversion",
+ "origin":"ERes:SDWD",
+ "terminus":"Sink E511",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

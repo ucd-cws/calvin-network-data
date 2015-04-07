@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU502N7_A502",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HSU502N7",
+ "terminus":"A502",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

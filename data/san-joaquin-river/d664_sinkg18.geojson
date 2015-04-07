@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D664_SinkG18",
+ "description":"Depletion: Tuolumne River",
+ "type":"Diversion",
+ "origin":"D664",
+ "terminus":"SinkG18",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

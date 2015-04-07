@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D613_Sink D613",
+ "description":"Evaporation ponds for CVPM 14 (Westlands WD) - no flow",
+ "type":"Diversion",
+ "origin":"D613",
+ "terminus":"Sink D613",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

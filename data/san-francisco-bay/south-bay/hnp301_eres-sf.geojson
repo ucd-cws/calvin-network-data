@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP301_ERES SF",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP301",
+ "terminus":"ERES SF",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

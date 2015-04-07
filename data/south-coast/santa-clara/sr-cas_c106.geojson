@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-CAS_C106",
+ "description":"Castaic Lk to Ventura Co FCWCD",
+ "type":"Diversion",
+ "origin":"SR-CAS",
+ "terminus":"C106",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":2.4156}],
+ "sinks":null}}

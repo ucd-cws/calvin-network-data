@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.119708741967,33.5852763100808]},
+ "properties":{"prmname":"C154",
+ "description":"MWD E&W supply junction node",
+ "type":"Junction",
+ "inflows":{"default":{"description":"LOCAL SUPPLIES","inflow":{"$ref" : "inflow_default.csv"}}},
+ "sinks":null}}

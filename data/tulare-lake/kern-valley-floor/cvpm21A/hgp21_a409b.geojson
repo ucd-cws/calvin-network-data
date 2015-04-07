@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP21_A409B",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HGP21",
+ "terminus":"A409B",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":119.51},
+ "bounds":[{"type":"UBC","bound":265.65}],
+ "sinks":null}}

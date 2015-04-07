@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.045337303855,36.3888493616178]},
+ "properties":{"prmname":"C89",
+ "description":"Kaweah River",
+ "type":"Junction",
+ "inflows":{"default":{"description":"Accretion Kaweah River","inflow":{"$ref" : "inflow_default.csv"}}},
+ "sinks":null}}

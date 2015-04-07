@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-CR1_Sink G38",
+ "description":"outlet for excess Colorado River water - Policy 4a",
+ "type":"Diversion",
+ "origin":"SR-CR1",
+ "terminus":"Sink G38",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

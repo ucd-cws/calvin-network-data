@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU407C63_A407",
+ "description":"Cross Valley Canal delivery to CVPM 20",
+ "type":"Diversion",
+ "origin":"HSU407C63",
+ "terminus":"A407",
+ "amplitude":0.93,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

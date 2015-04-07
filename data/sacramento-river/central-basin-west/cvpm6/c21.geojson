@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.954832278928,38.4913985787528]},
+ "properties":{"prmname":"C21",
+ "description":"Putah S. California Aqueductnal Diversion To CVPM6",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU403C53_A403",
+ "description":"Kings River diversion to CVPM 17 (DA 60D)",
+ "type":"Diversion",
+ "origin":"HSU403C53",
+ "terminus":"A403",
+ "amplitude":0.88,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

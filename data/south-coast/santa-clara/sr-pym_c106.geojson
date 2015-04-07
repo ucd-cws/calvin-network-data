@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-PYM_C106",
+ "description":"Pyramid Lk to Ventura County FC&WCD (constrained in Policy 1A and 4A)",
+ "type":"Diversion",
+ "origin":"SR-PYM",
+ "terminus":"C106",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":0.2625}],
+ "sinks":null}}

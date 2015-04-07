@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CN4_SR-TRM",
+ "description":"Calibration link",
+ "type":"Diversion",
+ "origin":"CN4",
+ "terminus":"SR-TRM",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

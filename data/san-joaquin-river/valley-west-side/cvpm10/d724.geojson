@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.752020620224,36.9099278854407]},
+ "properties":{"prmname":"D724",
+ "description":"Delta Mendota Canal",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

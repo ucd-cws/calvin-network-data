@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP10_U303",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HGP10",
+ "terminus":"U303",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":62.94},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

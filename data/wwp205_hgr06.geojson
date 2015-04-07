@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP205_HGR06",
+ "description":"Urban AR or RF to GW",
+ "type":"Diversion",
+ "origin":"WWP205",
+ "terminus":"HGR06",
+ "amplitude":0.004,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

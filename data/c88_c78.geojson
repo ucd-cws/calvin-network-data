@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C88_C78",
+ "description":"Hetch Hetchy Aqueduct",
+ "type":"Diversion",
+ "origin":"C88",
+ "terminus":"C78",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

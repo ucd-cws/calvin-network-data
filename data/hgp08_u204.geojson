@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP08_U204",
+ "description":"GW-8 to Sacramento",
+ "type":"Diversion",
+ "origin":"HGP08",
+ "terminus":"U204",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":81.4},
+ "bounds":[{"type":"UBC","bound":17.5}],
+ "sinks":null}}

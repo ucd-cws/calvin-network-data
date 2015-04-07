@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"IRES  CC_WWP208",
+ "description":"Interior Urban Res Return flow TOTAL",
+ "type":"Diversion",
+ "origin":"IRES  CC",
+ "terminus":"WWP208",
+ "amplitude":0.9,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

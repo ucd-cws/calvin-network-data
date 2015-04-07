@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGPSC_U304",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HGPSC",
+ "terminus":"U304",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":125.8},
+ "bounds":[{"type":"UBC","bound":45.7}],
+ "sinks":null}}

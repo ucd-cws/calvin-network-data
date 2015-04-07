@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP10_A303",
+ "description":"Agricultural groundwater pumping GW-10 to CVPM 10 Demand",
+ "type":"Diversion",
+ "origin":"HGP10",
+ "terminus":"A303",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":62.94},
+ "bounds":[{"type":"UBC","bound":185.15}],
+ "sinks":null}}

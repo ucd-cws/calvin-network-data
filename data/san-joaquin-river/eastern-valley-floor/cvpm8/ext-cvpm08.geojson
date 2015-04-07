@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.196111475859,38.3800905661228]},
+ "properties":{"prmname":"EXT CVPM08",
+ "description":"100% of DAU 180, exterior",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null}}

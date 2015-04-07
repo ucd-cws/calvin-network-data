@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP11_A302",
+ "description":"Agricultural groundwater pumping GW-11 to CVPM 11 Demand",
+ "type":"Diversion",
+ "origin":"HGP11",
+ "terminus":"A302",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":61},
+ "bounds":[{"type":"UBC","bound":64.95}],
+ "sinks":null}}

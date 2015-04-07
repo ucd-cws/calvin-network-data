@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP209_Sink G24",
+ "description":"East Bay MUD",
+ "type":"Diversion",
+ "origin":"WWP209",
+ "terminus":"Sink G24",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

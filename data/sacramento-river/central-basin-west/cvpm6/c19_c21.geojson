@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C19_C21",
+ "description":"Putah Creek diversion to Putah South Canal",
+ "type":"Diversion",
+ "origin":"C19",
+ "terminus":"C21",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP407_C73",
+ "description":"SW only return flow CVPM urban deliveries",
+ "type":"Diversion",
+ "origin":"WWP407",
+ "terminus":"C73",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

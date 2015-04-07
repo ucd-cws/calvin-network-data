@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"IRES:VENT_WWP501",
+ "description":"Wastewater return flows from residental Ventura",
+ "type":"Diversion",
+ "origin":"IRES:VENT",
+ "terminus":"WWP501",
+ "amplitude":0.9,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

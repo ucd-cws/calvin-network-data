@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D517_CN2",
+ "description":"Calibration remove flow to match DWRSIM514 Flow_Downstream of CP517 to Calvin D517_D515 + C41_C42 + T27_C42 Eastside Streams outflow",
+ "type":"Diversion",
+ "origin":"D517",
+ "terminus":"CN2",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

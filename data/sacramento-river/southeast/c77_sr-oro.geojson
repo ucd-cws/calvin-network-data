@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C77_SR-ORO",
+ "description":"Feather River inflow to Lake Oroville",
+ "type":"Diversion",
+ "origin":"C77",
+ "terminus":"SR-ORO",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

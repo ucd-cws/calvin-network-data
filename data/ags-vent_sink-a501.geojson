@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"AGS VENT_Sink A501",
+ "description":"",
+ "type":"Diversion",
+ "origin":"AGS VENT",
+ "terminus":"Sink A501",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

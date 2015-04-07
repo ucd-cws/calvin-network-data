@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"A405_HSURC60",
+ "description":"Friant-Kern Canal and GW delivery to Pixley NWR via CVPM 18",
+ "type":"Diversion",
+ "origin":"A405",
+ "terminus":"HSURC60",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"A404A_HU404A",
+ "description":"Hidden ag delivery reuse calibration link",
+ "type":"Diversion",
+ "origin":"A404A",
+ "terminus":"HU404A",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

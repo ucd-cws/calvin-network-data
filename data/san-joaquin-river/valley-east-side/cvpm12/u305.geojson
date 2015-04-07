@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.763850225972,37.5238091483913]},
+ "properties":{"prmname":"U305",
+ "description":"Turlock/Ceres CVPM12 Urban IN",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

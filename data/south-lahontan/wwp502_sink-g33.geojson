@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP502_Sink G33",
+ "description":"SW Discharge to ??",
+ "type":"Diversion",
+ "origin":"WWP502",
+ "terminus":"Sink G33",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

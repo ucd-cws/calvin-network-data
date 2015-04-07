@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D861_Sink D861",
+ "description":"California Aqueduct losses R15A-18A",
+ "type":"Diversion",
+ "origin":"D861",
+ "terminus":"Sink D861",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-HID_D622",
+ "description":"Reservoir release from Hidden Dam to Fresno River",
+ "type":"Diversion",
+ "origin":"SR-HID",
+ "terminus":"D622",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

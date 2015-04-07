@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C120_HAROW",
+ "description":"GW-OW Artificial Recharge",
+ "type":"Diversion",
+ "origin":"C120",
+ "terminus":"HAROW",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":7.4},
+ "bounds":[{"type":"UBC","bound":15}],
+ "sinks":null}}

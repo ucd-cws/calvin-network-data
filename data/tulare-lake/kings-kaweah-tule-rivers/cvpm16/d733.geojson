@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.0115905558,36.8105454008975]},
+ "properties":{"prmname":"D733",
+ "description":"San Joaquin River losses",
+ "type":"Junction",
+ "inflows":{"default":{"description":"Accretion San Joaquin River: Mendota Pool to Bypass","inflow":{"$ref" : "inflow_default.csv"}}},
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP511_HP511",
+ "description":"Expanded wastewater recycling facility for San Diego",
+ "type":"Diversion",
+ "origin":"WWP511",
+ "terminus":"HP511",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1480},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

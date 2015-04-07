@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.463028974626,37.6669321206054]},
+ "properties":{"prmname":"D664",
+ "description":"Tuolumne River diversion to CVPM 11",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

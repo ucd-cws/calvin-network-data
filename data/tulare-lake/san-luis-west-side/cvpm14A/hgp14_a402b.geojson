@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP14_A402B",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HGP14",
+ "terminus":"A402B",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":176.99},
+ "bounds":[{"type":"UBC","bound":221.13}],
+ "sinks":null}}

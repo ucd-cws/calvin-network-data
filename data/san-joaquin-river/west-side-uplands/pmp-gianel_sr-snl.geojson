@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMP-Gianel_SR-SNL",
+ "description":"Gianelli Pumping Plant diversion to San Luis Reservoir",
+ "type":"Diversion",
+ "origin":"PMP-Gianel",
+ "terminus":"SR-SNL",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":38.628},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

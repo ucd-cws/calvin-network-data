@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU306D649_A306",
+ "description":"Merced River riparian diversions to CVPM13",
+ "type":"Diversion",
+ "origin":"HSU306D649",
+ "terminus":"A306",
+ "amplitude":0.82,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D750_D751",
+ "description":"California Aqueduct",
+ "type":"Diversion",
+ "origin":"D750",
+ "terminus":"D751",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

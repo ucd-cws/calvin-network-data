@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CVPM10S_HSD303",
+ "description":"SW return flow from CVPM 10",
+ "type":"Diversion",
+ "origin":"CVPM10S",
+ "terminus":"HSD303",
+ "amplitude":0.304,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

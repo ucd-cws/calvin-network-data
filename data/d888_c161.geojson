@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D888_C161",
+ "description":"Castaic Lake to MWD connection",
+ "type":"Diversion",
+ "origin":"D888",
+ "terminus":"C161",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

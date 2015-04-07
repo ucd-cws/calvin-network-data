@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PWP-ONeill_D712",
+ "description":"ONeill Power Plant release to Delta Mendota Canal",
+ "type":"Diversion",
+ "origin":"PWP-ONeill",
+ "terminus":"D712",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":-5.18},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

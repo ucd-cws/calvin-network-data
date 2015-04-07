@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PWP-Gianel_D816",
+ "description":"Gianelli Power Plant release to CA Aqueduct and Delta Mendota Canal",
+ "type":"Diversion",
+ "origin":"PWP-Gianel",
+ "terminus":"D816",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":-20.4092},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

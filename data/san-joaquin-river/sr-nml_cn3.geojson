@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-NML_CN3",
+ "description":"Calibration flow to remove water for 4a infeasibilities at SR-10",
+ "type":"Diversion",
+ "origin":"SR-NML",
+ "terminus":"CN3",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

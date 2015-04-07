@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C42_CN2",
+ "description":"Calibration remove flow on Calaveras R. to match DWRSIM CP517 flow downstream",
+ "type":"Diversion",
+ "origin":"C42",
+ "terminus":"CN2",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

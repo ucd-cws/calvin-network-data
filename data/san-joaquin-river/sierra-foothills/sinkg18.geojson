@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.371459148517,37.6907930010921]},
+ "properties":{"prmname":"SinkG18",
+ "description":"Depletion from Tuolumne River",
+ "type":"Sink",
+ "inflows":null,
+ "sinks":null}}

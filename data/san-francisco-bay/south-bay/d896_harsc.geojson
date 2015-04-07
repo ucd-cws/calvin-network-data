@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D896_HARSC",
+ "description":"SCV urban groundwater Recharge from So Bay Aqueduct",
+ "type":"Diversion",
+ "origin":"D896",
+ "terminus":"HARSC",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

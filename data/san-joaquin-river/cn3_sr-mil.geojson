@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CN3_SR-MIL",
+ "description":"Calibration flow to add water for 4a infeasibilities above Millerton and on Upper San Joaquin River",
+ "type":"Diversion",
+ "origin":"CN3",
+ "terminus":"SR-MIL",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

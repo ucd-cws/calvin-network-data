@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-SCC_C57",
+ "description":"Reservoir release from Lake Success/Success Dam to Tule River Reach 2",
+ "type":"Diversion",
+ "origin":"SR-SCC",
+ "terminus":"C57",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

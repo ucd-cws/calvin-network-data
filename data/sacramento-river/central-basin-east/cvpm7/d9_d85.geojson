@@ -1,0 +1,11 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D9_D85",
+ "description":"American River d/s Nimbus Dam Reach 1",
+ "type":"Diversion",
+ "origin":"D9",
+ "terminus":"D85",
+ "amplitude":1,
+ "costs":{ "type":"Monthly Variable","costs":{"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"},"":{"$ref":"cost_.csv"}}},
+ "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
+ "sinks":null}}

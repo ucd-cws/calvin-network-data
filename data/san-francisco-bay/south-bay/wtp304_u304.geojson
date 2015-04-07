@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WTP304_U304",
+ "description":"",
+ "type":"Diversion",
+ "origin":"WTP304",
+ "terminus":"U304",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":375.92},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

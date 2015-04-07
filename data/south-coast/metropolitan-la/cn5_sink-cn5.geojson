@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CN5_Sink CN5",
+ "description":"Calibration Link to the Sink node for Region 5",
+ "type":"Diversion",
+ "origin":"CN5",
+ "terminus":"Sink CN5",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"EXT CVPM08_HGR08",
+ "description":"Return flows from CVPM8, Galt, exterior",
+ "type":"Diversion",
+ "origin":"EXT CVPM08",
+ "terminus":"HGR08",
+ "amplitude":0.002,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

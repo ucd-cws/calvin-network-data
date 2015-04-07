@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C51_C53",
+ "description":"Kings River Reach 2",
+ "type":"Diversion",
+ "origin":"C51",
+ "terminus":"C53",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

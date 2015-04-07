@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.706070535435,35.7074505158318]},
+ "properties":{"prmname":"Sink D848",
+ "description":"Coastal Aqueduct deliveries to Castaic WA",
+ "type":"Sink",
+ "inflows":null,
+ "sinks":null}}

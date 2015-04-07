@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C64_HAR20",
+ "description":"Friant-Kern Canal to subregion 20 for spreading",
+ "type":"Diversion",
+ "origin":"C64",
+ "terminus":"HAR20",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":6.5},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,8 +1,7 @@
 {"type":"Feature",
  "geometry":null,
  "properties":{"prmname":"C157_WTPA507",
- "description":"Coachella diversion for desalting ag drain water for reuse
-",
+ "description":"Coachella diversion for desalting ag drain water for reuse",
  "type":"Diversion",
  "origin":"C157",
  "terminus":"WTPA507",

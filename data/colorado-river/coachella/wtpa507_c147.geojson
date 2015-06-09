@@ -1,8 +1,7 @@
 {"type":"Feature",
  "geometry":null,
  "properties":{"prmname":"WTPA507_C147",
- "description":"Desalinated drain ag water for golf and agricultural irrigation in Coachella Valley
-",
+ "description":"Desalinated drain ag water for golf and agricultural irrigation in Coachella Valley",
  "type":"Diversion",
  "origin":"WTPA507",
  "terminus":"C147",

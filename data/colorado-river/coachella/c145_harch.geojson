@@ -1,8 +1,7 @@
 {"type":"Feature",
  "geometry":null,
  "properties":{"prmname":"C145_HARCH",
- "description":"GW-CH Upper Valley Artificial Recharge
-",
+ "description":"GW-CH Upper Valley Artificial Recharge",
  "type":"Diversion",
  "origin":"C145",
  "terminus":"HARCH",

@@ -1,8 +1,7 @@
 {"type":"Feature",
  "geometry":null,
  "properties":{"prmname":"HARHF_GW-HF",
- "description":"Artificial recharge in Hayfield (losses)
-",
+ "description":"Artificial recharge in Hayfield (losses)",
  "type":"Diversion",
  "origin":"HARHF",
  "terminus":"GW-HF",

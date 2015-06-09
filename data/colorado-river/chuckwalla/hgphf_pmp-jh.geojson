@@ -1,8 +1,7 @@
 {"type":"Feature",
  "geometry":null,
  "properties":{"prmname":"HGPHF_PMP-JH",
- "description":"Water conveyance to pump Gw-Hayfield water back to the Colorado Aqueduct
-",
+ "description":"Water conveyance to pump Gw-Hayfield water back to the Colorado Aqueduct",
  "type":"Diversion",
  "origin":"HGPHF",
  "terminus":"PMP-JH",

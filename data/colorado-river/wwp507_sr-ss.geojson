@@ -1,8 +1,7 @@
 {"type":"Feature",
  "geometry":null,
  "properties":{"prmname":"WWP507_SR-SS",
- "description":"Waste-water disposal to Salton Sea via Coachella Valley Stormwater Canal  (CVSC) (unconstrined)
-",
+ "description":"Waste-water disposal to Salton Sea via Coachella Valley Stormwater Canal  (CVSC) (unconstrined)",
  "type":"Diversion",
  "origin":"WWP507",
  "terminus":"SR-SS",

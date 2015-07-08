@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.889590176609,37.0974473418758]},
+ "properties":{"prmname":"D624",
+ "description":"Fresno River diversion to CVPM 13",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":{"sink_at_junction":{"description":"Depletion: Fresno River","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/sink_at_junction/EQT.csv"}}]}}}}

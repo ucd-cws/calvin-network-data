@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C64_C689",
+ "description":"Friant-Kern Canal Reach 6",
+ "type":"Diversion",
+ "origin":"C64",
+ "terminus":"C689",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":{"default":{"description":"Friant Kern Overflow Sink","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}]}}}}

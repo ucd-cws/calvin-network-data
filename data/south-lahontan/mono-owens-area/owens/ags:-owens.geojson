@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.277599071801,37.066006345237]},
- "properties":{"prmname":"AgS: Owens",
- "description":"Owens Valley Ag",
- "type":"Agricultural Demand",
- "costs":null,
- "bounds":null,
- "sinks":null}}

@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.45202652952,37.5019364803428]},
- "properties":{"prmname":"D647",
- "description":"Merced River depletion",
- "type":"Junction",
- "inflows":null,
- "sinks":null}}

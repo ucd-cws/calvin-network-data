@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.371459148517,37.6907930010921]},
- "properties":{"prmname":"SinkG27",
- "description":"San Joaquin Refuges return flow",
- "type":"Sink",
- "inflows":null,
- "sinks":null}}

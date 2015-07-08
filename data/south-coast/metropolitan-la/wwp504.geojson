@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.862728451475,34.0343816478517]},
- "properties":{"prmname":"WWP504",
- "description":"Central MWD OUT",
- "type":"Water Treatment",
- "inflows":null,
- "sinks":null}}

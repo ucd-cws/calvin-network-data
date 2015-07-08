@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.25688829045,36.0603446135928]},
- "properties":{"prmname":"SinkG16",
- "description":"Mendota Pool losses",
- "type":"Sink",
- "inflows":null,
- "sinks":null}}

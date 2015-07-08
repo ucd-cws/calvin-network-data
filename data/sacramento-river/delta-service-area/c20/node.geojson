@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.588068003412,38.4749078369352]},
+ "properties":{"prmname":"C20",
+ "description":"Putah Creek Inflow to Yolo BP",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":{"sink_at_junction":{"description":"DA 65 local depletion","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/sink_at_junction/EQT.csv"}}]}}}}

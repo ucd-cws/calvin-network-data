@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.197963192886,36.257597060548]},
- "properties":{"prmname":"CN4",
- "description":"Calibration Node in Regions 4",
- "type":"Junction",
- "inflows":{"default":{"description":"Calibration flow","inflow":{"$ref" : "inflow_default.csv"}}},
- "sinks":null}}

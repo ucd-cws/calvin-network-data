@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.160995753547,36.797947295329]},
+ "properties":{"prmname":"D605",
+ "description":"San Joaquin River depletion",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":{"sink_at_junction":{"description":"Depletion: San Joaquin River between Friant Dam and Gravelly Ford","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/sink_at_junction/EQT.csv"}}]}}}}

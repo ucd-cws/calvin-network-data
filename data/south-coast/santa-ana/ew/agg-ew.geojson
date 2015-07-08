@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.332875551593,33.9215706753313]},
- "properties":{"prmname":"AGG EW",
- "description":"",
- "type":"Agricultural Demand",
- "costs":null,
- "bounds":null,
- "sinks":null}}

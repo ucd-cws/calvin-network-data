@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.371459148517,37.6907930010921]},
- "properties":{"prmname":"SinkG100",
- "description":"Depletion STANISLAUS GOODWIN TO MOUTH",
- "type":"Sink",
- "inflows":null,
- "sinks":null}}

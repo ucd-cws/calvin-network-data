@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.425008663068,36.7462339165001]},
+ "properties":{"prmname":"D613",
+ "description":"CVPM 14 return",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":{"sink_at_junction":{"description":"Evaporation ponds for CVPM 14 (Westlands WD) - no flow","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}]}}}}

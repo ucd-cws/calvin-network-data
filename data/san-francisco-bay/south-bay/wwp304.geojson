@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.736275946117,37.3469076116457]},
- "properties":{"prmname":"WWP304",
- "description":"Santa Clara Valley+ OUT",
- "type":"Water Treatment",
- "inflows":null,
- "sinks":null}}

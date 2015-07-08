@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.55711226186,39.9487984429982]},
- "properties":{"prmname":"Sink D76a",
- "description":"Local depletion DA10",
- "type":"Sink",
- "inflows":null,
- "sinks":null}}

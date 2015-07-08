@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.25688829045,36.0603446135928]},
- "properties":{"prmname":"Sink D751",
- "description":"California Aqueduct losses R7",
- "type":"Sink",
- "inflows":null,
- "sinks":null}}

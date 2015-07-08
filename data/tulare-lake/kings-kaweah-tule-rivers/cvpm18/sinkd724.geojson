@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.25688829045,36.0603446135928]},
- "properties":{"prmname":"SinkD724",
- "description":"Lower Delta Mendota Poll Losses (DWRSIM CP733)",
- "type":"Sink",
- "inflows":null,
- "sinks":null}}

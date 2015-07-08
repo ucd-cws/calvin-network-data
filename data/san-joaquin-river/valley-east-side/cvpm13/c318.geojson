@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.568020403004,37.1329442596075]},
- "properties":{"prmname":"C318",
- "description":"DA42",
- "type":"Junction",
- "inflows":{"default":{"description":"Accretion Eastside Bypass","inflow":{"$ref" : "inflow_default.csv"}}},
- "sinks":null}}

@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.25688829045,36.0603446135928]},
- "properties":{"prmname":"Sink C49",
- "description":"Sink flow to account for monthly mismatch in deliveries and SWAP demands",
- "type":"Sink",
- "inflows":null,
- "sinks":null}}

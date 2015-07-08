@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.435279229334,37.4625968734547]},
- "properties":{"prmname":"SinkCN3",
- "description":"Sink for calibration flows",
- "type":"Sink",
- "inflows":null,
- "sinks":null}}

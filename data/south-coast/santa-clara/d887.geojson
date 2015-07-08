@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.632062661984,34.5635338208928]},
- "properties":{"prmname":"D887",
- "description":"West Branch SWP Node Represented in DWRSIM Network D122696",
- "type":"Junction",
- "inflows":null,
- "sinks":null}}

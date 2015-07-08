@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.188465579291,40.2609839955582]},
- "properties":{"prmname":"C87",
- "description":"Sacramento River, confluence with Paynes Creek",
- "type":"Junction",
- "inflows":{"default":{"description":"DA3 outflow - Paynes Creek and Seven Mile Creeks","inflow":{"$ref" : "inflow_default.csv"}}},
- "sinks":null}}

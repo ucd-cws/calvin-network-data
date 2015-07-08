@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.696997482168,34.6899949269352]},
- "properties":{"prmname":"N7",
- "description":"Juntion node for untreated SWP water coming into Antelope Valley",
- "type":"Junction",
- "inflows":{"default":{"description":"LOCAL SUPPLIES for Antelope","inflow":{"$ref" : "inflow_default.csv"}}},
- "sinks":null}}

@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.117807583529,37.8150169196961]},
+ "properties":{"prmname":"ERES EBMUD",
+ "description":"EBMUD exterior urban demand Parts of DAU 46 & 47",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":{"default":{"description":"","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}]}}}}

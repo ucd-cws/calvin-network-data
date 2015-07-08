@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.889590176609,37.0974473418758]},
- "properties":{"prmname":"D622",
- "description":"Madera California Aqueduct inflow to Fresno River",
- "type":"Junction",
- "inflows":{"default":{"description":"Accretion Fresno River, updated July 2012, per GW update based on C2VSIM","inflow":{"$ref" : "inflow_default.csv"}}},
- "sinks":null}}

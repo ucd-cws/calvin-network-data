@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.706070535435,35.7074505158318]},
- "properties":{"prmname":"Sink D849",
- "description":"SB and SLO overflow",
- "type":"Sink",
- "inflows":null,
- "sinks":null}}

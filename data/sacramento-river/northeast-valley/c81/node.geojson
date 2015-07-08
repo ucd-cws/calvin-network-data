@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.10210046366,40.0428793733115]},
+ "properties":{"prmname":"C81",
+ "description":"",
+ "type":"Junction",
+ "inflows":{"default":{"description":"DA66 Outflow","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null}}

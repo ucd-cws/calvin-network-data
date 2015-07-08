@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.644071077204,38.6779039435894]},
- "properties":{"prmname":"C306",
- "description":"Knights Landing Ridge Cut",
- "type":"Junction",
- "inflows":{"default":{"description":"DA65 local water supply","inflow":{"$ref" : "inflow_default.csv"}}},
- "sinks":null}}

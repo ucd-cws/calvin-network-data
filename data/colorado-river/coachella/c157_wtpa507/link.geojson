@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C157_WTPA507",
+ "description":"Coachella diversion for desalting ag drain water for reuse
+",
+ "type":"Diversion",
+ "origin":"C157",
+ "terminus":"WTPA507",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

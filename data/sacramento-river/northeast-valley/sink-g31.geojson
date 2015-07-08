@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.55711226186,39.9487984429982]},
- "properties":{"prmname":"Sink G31",
- "description":"DA16 local demand",
- "type":"Sink",
- "inflows":null,
- "sinks":null}}

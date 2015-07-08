@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.861564811756,38.0621924947264]},
- "properties":{"prmname":"D509",
- "description":"Delta - ?",
- "type":"Junction",
- "inflows":{"default":{"description":"DA55 Accretions","inflow":{"$ref" : "inflow_default.csv"}}},
- "sinks":null}}

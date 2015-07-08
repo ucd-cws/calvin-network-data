@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C29_C83",
+ "description":"Yuba River d/s of French Dry Creek",
+ "type":"Diversion",
+ "origin":"C29",
+ "terminus":"C83",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":{"default":{"description":"DA 67 local ag net diversion","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}]}}}}

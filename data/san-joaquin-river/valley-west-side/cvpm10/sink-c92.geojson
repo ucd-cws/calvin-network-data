@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.648719463689,36.7632344171039]},
- "properties":{"prmname":"Sink C92",
- "description":"",
- "type":"Sink",
- "inflows":null,
- "sinks":null}}

@@ -8,7 +8,7 @@
  "areacapfactor":0.019124,
  "inflows":null,
  "evaporation":{"$ref" : "evaporation.csv"},
- "el_ar_cap":{"$ref":"elevation_area_capacity.csv"},
+ "el_ar_cap":{"$ref" : "elevation_area_capacity.csv"},
  "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"costs/JAN.csv"},"FEB":{"$ref":"costs/FEB.csv"},"MAR":{"$ref":"costs/MAR.csv"},"APR":{"$ref":"costs/APR.csv"},"MAY":{"$ref":"costs/MAY.csv"},"JUN":{"$ref":"costs/JUN.csv"},"JUL":{"$ref":"costs/JUL.csv"},"AUG":{"$ref":"costs/AUG.csv"},"SEP":{"$ref":"costs/SEP.csv"},"OCT":{"$ref":"costs/OCT.csv"},"NOV":{"$ref":"costs/NOV.csv"},"DEC":{"$ref":"costs/DEC.csv"}}},
  "bounds":[{"type":"LBC","bound":31},{"type":"UBC","bound":225}],
  "sinks":null}}

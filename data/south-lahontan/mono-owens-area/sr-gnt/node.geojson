@@ -8,7 +8,7 @@
  "areacapfactor":0.02246104,
  "inflows":null,
  "evaporation":{"$ref" : "evaporation.csv"},
- "el_ar_cap":{"$ref":"elevation_area_capacity.csv"},
+ "el_ar_cap":null,
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"LBC","bound":11.5},{"type":"UBC","bound":47.525}],

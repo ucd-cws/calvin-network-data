@@ -8,7 +8,7 @@
  "areacapfactor":0,
  "inflows":{"default":{"description":"4.4 INFLOW","inflow":{"$ref" : "inflows/default.csv"}}},
  "evaporation":null,
- "el_ar_cap":{"$ref":"elevation_area_capacity.csv"},
+ "el_ar_cap":null,
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"UBC","bound":4400}],

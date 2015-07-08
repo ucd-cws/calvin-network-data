@@ -8,7 +8,7 @@
  "areacapfactor":0.0279,
  "inflows":null,
  "evaporation":{"$ref" : "evaporation.csv"},
- "el_ar_cap":{"$ref":"elevation_area_capacity.csv"},
+ "el_ar_cap":null,
  "costs":{ "type":"Annual Variable","costs":{"JAN-DEC":{"$ref":"costs/JAN-DEC.csv"}}},
  "bounds":[{"type":"LBC","bound":33.8},{"type":"UBC","bound":44}],
  "sinks":null}}

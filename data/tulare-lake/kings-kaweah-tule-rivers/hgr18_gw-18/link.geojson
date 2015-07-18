@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGR18_GW-18",
+ "description":"Return flow to GW from urban CVPM18",
+ "type":"Diversion",
+ "origin":"HGR18",
+ "terminus":"GW-18",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

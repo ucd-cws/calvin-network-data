@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D884_N7",
+ "description":"West Branch SWP Diversion to AV",
+ "type":"Diversion",
+ "origin":"D884",
+ "terminus":"N7",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":3.402823e+38},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

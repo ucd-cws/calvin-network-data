@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CVPM18S_HSD405",
+ "description":"SW return flow from CVPM 18",
+ "type":"Diversion",
+ "origin":"CVPM18S",
+ "terminus":"HSD405",
+ "amplitude":0.29,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

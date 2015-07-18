@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.274070072574,39.2348930147627]},
+ "properties":{"prmname":"C27",
+ "description":"Confluence of Yuba River forks",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

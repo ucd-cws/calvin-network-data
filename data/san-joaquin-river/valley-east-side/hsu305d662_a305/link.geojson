@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU305D662_A305",
+ "description":"Turlock canal diversions from Tuolumne River to CVPM12",
+ "type":"Diversion",
+ "origin":"HSU305D662",
+ "terminus":"A305",
+ "amplitude":0.82,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

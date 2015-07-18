@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"MendRef_D615",
+ "description":"Mendota Wildlife Area return",
+ "type":"Diversion",
+ "origin":"MendRef",
+ "terminus":"D615",
+ "amplitude":0.25,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D76a_D77",
+ "description":"Sacramento River between Red Bluff and Ord Ferry Reach 1, minimum instream flow requirement",
+ "type":"Diversion",
+ "origin":"D76a",
+ "terminus":"D77",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
+ "sinks":null}}

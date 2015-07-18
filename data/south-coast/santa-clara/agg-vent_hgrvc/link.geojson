@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"AGG VENT_HGRVC",
+ "description":"",
+ "type":"Diversion",
+ "origin":"AGG VENT",
+ "terminus":"HGRVC",
+ "amplitude":0.35,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

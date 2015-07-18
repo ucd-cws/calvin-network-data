@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU204D42_A204",
+ "description":"Feather River left bank diversions to CVPM 7 (DA 70)",
+ "type":"Diversion",
+ "origin":"HSU204D42",
+ "terminus":"A204",
+ "amplitude":0.88,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

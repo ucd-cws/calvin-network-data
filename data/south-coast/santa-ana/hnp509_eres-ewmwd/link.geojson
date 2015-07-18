@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP509_ERES EWMWD",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP509",
+ "terminus":"ERES EWMWD",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

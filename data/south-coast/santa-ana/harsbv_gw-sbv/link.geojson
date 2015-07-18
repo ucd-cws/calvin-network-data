@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HARSBV_GW-SBV",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HARSBV",
+ "terminus":"GW-SBV",
+ "amplitude":0.95,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

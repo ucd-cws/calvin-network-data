@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C141_C142",
+ "description":"Colorado River",
+ "type":"Diversion",
+ "origin":"C141",
+ "terminus":"C142",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

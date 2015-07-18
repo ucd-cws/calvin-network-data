@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C23_SR-TAB",
+ "description":"Feather River diversion to Thermalito Forebay/Afterbay",
+ "type":"Diversion",
+ "origin":"C23",
+ "terminus":"SR-TAB",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

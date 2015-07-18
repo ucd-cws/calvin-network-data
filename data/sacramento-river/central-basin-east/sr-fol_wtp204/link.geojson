@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-FOL_WTP204",
+ "description":"",
+ "type":"Diversion",
+ "origin":"SR-FOL",
+ "terminus":"WTP204",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":45},
+ "bounds":[{"type":"UBC","bound":44.7}],
+ "sinks":null}}

@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.528428850788,35.5755341942779]},
+ "properties":{"prmname":"HSURC95",
+ "description":"Hidden node for conveyance loss for deliveries to Kern NWR",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

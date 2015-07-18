@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"EXT El Cen_HGRIM",
+ "description":"",
+ "type":"Diversion",
+ "origin":"EXT El Cen",
+ "terminus":"HGRIM",
+ "amplitude":0.1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

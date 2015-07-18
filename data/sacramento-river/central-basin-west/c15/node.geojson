@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.061084647136,39.194890461404]},
+ "properties":{"prmname":"C15",
+ "description":"Colusa Basin Drain",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":{"sink_at_junction":{"description":"DA 12 local depletion","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/sink_at_junction/EQT.csv"}}]}}}}

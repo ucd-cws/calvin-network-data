@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"EXT CVPM17_HGR17",
+ "description":"Return flow from Urban CVPM17",
+ "type":"Diversion",
+ "origin":"EXT CVPM17",
+ "terminus":"HGR17",
+ "amplitude":0.47,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

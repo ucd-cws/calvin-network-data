@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.911063839713,35.2223116702389]},
+ "properties":{"prmname":"HP502",
+ "description":"Hidden node for exapanded wastewater recycling for Antelope Valley",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

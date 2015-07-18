@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP101_EXTRedding",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP101",
+ "terminus":"EXTRedding",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

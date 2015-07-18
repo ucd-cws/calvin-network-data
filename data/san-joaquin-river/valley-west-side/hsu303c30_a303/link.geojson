@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU303C30_A303",
+ "description":"Delta Mendota Canal deliveries to CVPM 10",
+ "type":"Diversion",
+ "origin":"HSU303C30",
+ "terminus":"A303",
+ "amplitude":0.93,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

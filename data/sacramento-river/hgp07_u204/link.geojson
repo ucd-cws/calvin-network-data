@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP07_U204",
+ "description":"GW-7 to Sacramento",
+ "type":"Diversion",
+ "origin":"HGP07",
+ "terminus":"U204",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":84.36},
+ "bounds":[{"type":"UBC","bound":31.3}],
+ "sinks":null}}

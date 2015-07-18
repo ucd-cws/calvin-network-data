@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CVPM04G_HGR04",
+ "description":"",
+ "type":"Diversion",
+ "origin":"CVPM04G",
+ "terminus":"HGR04",
+ "amplitude":0.389,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

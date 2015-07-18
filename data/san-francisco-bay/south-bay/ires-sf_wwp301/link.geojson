@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"IRES SF_WWP301",
+ "description":"Interior Urban Res Return Flow Total",
+ "type":"Diversion",
+ "origin":"IRES SF",
+ "terminus":"WWP301",
+ "amplitude":0.9,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

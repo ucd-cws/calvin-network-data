@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP21_C98",
+ "description":"GW-21 _C98 (=pumping of KWB and AE), replaces GW-21_D860. JH 4/2006",
+ "type":"Diversion",
+ "origin":"HGP21",
+ "terminus":"C98",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":27.25}],
+ "sinks":null}}

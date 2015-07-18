@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.282211384075,35.4241424372181]},
+ "properties":{"prmname":"HSD408B",
+ "description":"",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

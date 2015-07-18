@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"U408_Ext CVPM19",
+ "description":"",
+ "type":"Diversion",
+ "origin":"U408",
+ "terminus":"Ext CVPM19",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HARIM_GW-IM",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HARIM",
+ "terminus":"GW-IM",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

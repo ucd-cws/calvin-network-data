@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP204_EXT SAC",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP204",
+ "terminus":"EXT SAC",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

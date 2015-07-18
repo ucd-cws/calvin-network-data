@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-SFAGG_WTP301",
+ "description":"",
+ "type":"Diversion",
+ "origin":"SR-SFAGG",
+ "terminus":"WTP301",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":177.6},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

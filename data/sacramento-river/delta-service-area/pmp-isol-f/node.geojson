@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.68455903683,38.1594354049456]},
+ "properties":{"prmname":"PMP-ISOL F",
+ "description":"Isolated Facility Pumping Plant",
+ "type":"Pump Plant",
+ "inflows":null,
+ "sinks":null}}

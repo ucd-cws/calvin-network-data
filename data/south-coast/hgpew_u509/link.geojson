@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGPEW_U509",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HGPEW",
+ "terminus":"U509",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":59.2},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

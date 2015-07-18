@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D891_PMP-DValle",
+ "description":"South Bay Aqueduct Diversion to Lake Del Valle",
+ "type":"Diversion",
+ "origin":"D891",
+ "terminus":"PMP-DValle",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

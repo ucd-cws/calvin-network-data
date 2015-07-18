@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU303D803_A303",
+ "description":"California Aqueduct deliveries to Oak Flat WD, CVPM 10",
+ "type":"Diversion",
+ "origin":"HSU303D803",
+ "terminus":"A303",
+ "amplitude":0.88,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

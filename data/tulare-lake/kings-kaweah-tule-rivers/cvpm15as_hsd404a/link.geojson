@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CVPM15AS_HSD404A",
+ "description":"SW return flow from CVPM 15",
+ "type":"Diversion",
+ "origin":"CVPM15AS",
+ "terminus":"HSD404A",
+ "amplitude":0.279,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

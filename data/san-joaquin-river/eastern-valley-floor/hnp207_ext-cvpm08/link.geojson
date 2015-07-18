@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP207_EXT CVPM08",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP207",
+ "terminus":"EXT CVPM08",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

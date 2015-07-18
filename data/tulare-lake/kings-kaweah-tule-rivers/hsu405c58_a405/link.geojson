@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU405C58_A405",
+ "description":"Tule Diversion to CVPM 18 (DA 60E)",
+ "type":"Diversion",
+ "origin":"HSU405C58",
+ "terminus":"A405",
+ "amplitude":0.83,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

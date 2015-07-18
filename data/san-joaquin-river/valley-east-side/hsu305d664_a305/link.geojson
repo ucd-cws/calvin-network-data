@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU305D664_A305",
+ "description":"Tuolumne River left bank riparian diversions",
+ "type":"Diversion",
+ "origin":"HSU305D664",
+ "terminus":"A305",
+ "amplitude":0.82,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

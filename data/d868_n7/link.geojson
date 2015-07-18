@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D868_N7",
+ "description":"East Branch SWP Diversion to AV",
+ "type":"Diversion",
+ "origin":"D868",
+ "terminus":"N7",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

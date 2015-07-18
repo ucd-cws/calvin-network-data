@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.581573835648,38.9508278856043]},
+ "properties":{"prmname":"D42",
+ "description":"CVPM 5 return to Feather River",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

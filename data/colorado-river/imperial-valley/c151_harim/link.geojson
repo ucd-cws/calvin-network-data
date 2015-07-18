@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C151_HARIM",
+ "description":"GW-IM Artificial Recharge (currently ignored)",
+ "type":"Diversion",
+ "origin":"C151",
+ "terminus":"HARIM",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":7.4},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGRCH_GW-CH",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HGRCH",
+ "terminus":"GW-CH",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

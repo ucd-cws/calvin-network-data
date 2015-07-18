@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP205_HP205",
+ "description":"",
+ "type":"Diversion",
+ "origin":"WWP205",
+ "terminus":"HP205",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1800},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null}}

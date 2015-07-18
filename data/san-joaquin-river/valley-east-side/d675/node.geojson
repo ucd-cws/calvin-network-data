@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.210669312557,37.6880406432819]},
+ "properties":{"prmname":"D675",
+ "description":"CVPM11 return to Stanislaus River",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

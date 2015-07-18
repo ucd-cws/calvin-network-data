@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D744_C92",
+ "description":"CAL AQ export to Reg 4 (downstream of CP744+CP828)",
+ "type":"Diversion",
+ "origin":"D744",
+ "terminus":"C92",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":-0.296},
+ "bounds":[{"type":"NOB"}],
+ "sinks":{"default":{"description":"Outflow link for upper bound problem downstream on the CAA.  In place to prevent infeasibilities in the historical hydrology model.","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}]}}}}

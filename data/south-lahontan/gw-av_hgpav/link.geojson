@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"GW-AV_HGPAV",
+ "description":"",
+ "type":"Diversion",
+ "origin":"GW-AV",
+ "terminus":"HGPAV",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

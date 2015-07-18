@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-CLE_D94",
+ "description":"Trinity River between Trinity Dam and Lewiston Lake",
+ "type":"Diversion",
+ "origin":"SR-CLE",
+ "terminus":"D94",
+ "amplitude":1,
+ "costs":{ "type":"Monthly Variable","costs":{"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"}}},
+ "bounds":[{"type":"NOB"}],
+ "sinks":{"default":{"description":"Trinity River model outflow - minimum instream flow requirement","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"LBT","bound": {"$ref":"./sinks/default/LBT.csv"}}]}}}}

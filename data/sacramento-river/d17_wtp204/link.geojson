@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D17_WTP204",
+ "description":"",
+ "type":"Diversion",
+ "origin":"D17",
+ "terminus":"WTP204",
+ "amplitude":0.94,
+ "costs":{"type":"Constant",
+ "cost":45},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null}}

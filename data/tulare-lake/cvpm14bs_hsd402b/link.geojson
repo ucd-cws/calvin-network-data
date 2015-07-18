@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CVPM14BS_HSD402B",
+ "description":"",
+ "type":"Diversion",
+ "origin":"CVPM14BS",
+ "terminus":"HSD402B",
+ "amplitude":0.277,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

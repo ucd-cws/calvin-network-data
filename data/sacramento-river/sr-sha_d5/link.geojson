@@ -1,0 +1,11 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-SHA_D5",
+ "description":"Sacramento River between Shasta Dam and Keswick Reservoir",
+ "type":"Diversion",
+ "origin":"SR-SHA",
+ "terminus":"D5",
+ "amplitude":1,
+ "costs":{ "type":"Monthly Variable","costs":{"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"}}},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

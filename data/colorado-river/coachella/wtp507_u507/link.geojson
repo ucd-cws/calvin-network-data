@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WTP507_U507",
+ "description":"",
+ "type":"Diversion",
+ "origin":"WTP507",
+ "terminus":"U507",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":409.96},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

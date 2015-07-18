@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D608_D731",
+ "description":"Mendota Pool",
+ "type":"Diversion",
+ "origin":"D608",
+ "terminus":"D731",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

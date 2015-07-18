@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"INT CVPM08_WWP207",
+ "description":"Wastewater return flows from CVPM 8 Galt",
+ "type":"Diversion",
+ "origin":"INT CVPM08",
+ "terminus":"WWP207",
+ "amplitude":0.9,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

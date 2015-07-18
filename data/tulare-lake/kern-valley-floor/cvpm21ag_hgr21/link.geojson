@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CVPM21AG_HGR21",
+ "description":"",
+ "type":"Diversion",
+ "origin":"CVPM21AG",
+ "terminus":"HGR21",
+ "amplitude":0.278,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

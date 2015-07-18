@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HP209_U209",
+ "description":"Proposed wastewater recycling for EBMUD",
+ "type":"Diversion",
+ "origin":"HP209",
+ "terminus":"U209",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D605_D606",
+ "description":"San Joaquin River between Friant Dam and Gravelly Ford Reach 2",
+ "type":"Diversion",
+ "origin":"D605",
+ "terminus":"D606",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

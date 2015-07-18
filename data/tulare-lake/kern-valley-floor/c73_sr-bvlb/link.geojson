@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C73_SR-BVLB",
+ "description":"Flood flow from Kern River to Buena Vista Lake",
+ "type":"Diversion",
+ "origin":"C73",
+ "terminus":"SR-BVLB",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

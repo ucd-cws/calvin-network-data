@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.839355999745,37.6645939064382]},
+ "properties":{"prmname":"D896",
+ "description":"South Bay Aqueduct diversion to South Bay Urban demands",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

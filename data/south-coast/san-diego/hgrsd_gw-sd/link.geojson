@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGRSD_GW-SD",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HGRSD",
+ "terminus":"GW-SD",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

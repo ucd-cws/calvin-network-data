@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.853310799011,37.4611360693018]},
+ "properties":{"prmname":"Ind:SCV",
+ "description":"This includes Santa Clara Valley WD, ACWD, and Alameda Zone 7 (All of DAU 44, 45 , 62, plus part of DAU 47)",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null}}

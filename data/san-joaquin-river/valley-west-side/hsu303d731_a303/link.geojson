@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU303D731_A303",
+ "description":"Mendota Pool deliveries to CVPM 10",
+ "type":"Diversion",
+ "origin":"HSU303D731",
+ "terminus":"A303",
+ "amplitude":0.85,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

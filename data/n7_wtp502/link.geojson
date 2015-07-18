@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"N7_WTP502",
+ "description":"",
+ "type":"Diversion",
+ "origin":"N7",
+ "terminus":"WTP502",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":140.6},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

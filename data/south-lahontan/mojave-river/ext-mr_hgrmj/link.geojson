@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"EXT MR_HGRMJ",
+ "description":"",
+ "type":"Diversion",
+ "origin":"EXT MR",
+ "terminus":"HGRMJ",
+ "amplitude":0.1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

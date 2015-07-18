@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.263044029209,38.5975733561026]},
+ "properties":{"prmname":"C173",
+ "description":"Fols. S. California Aqueductn. Diversion to Mok. River Aqu.",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

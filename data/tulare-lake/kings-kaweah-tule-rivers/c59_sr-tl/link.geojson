@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C59_SR-TL",
+ "description":"Flood flow to Tulare Lake Bed",
+ "type":"Diversion",
+ "origin":"C59",
+ "terminus":"SR-TL",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

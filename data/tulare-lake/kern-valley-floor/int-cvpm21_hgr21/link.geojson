@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"INT CVPM21_HGR21",
+ "description":"GW return flow from fixed CVPM urban pumping demand",
+ "type":"Diversion",
+ "origin":"INT CVPM21",
+ "terminus":"HGR21",
+ "amplitude":0.465,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

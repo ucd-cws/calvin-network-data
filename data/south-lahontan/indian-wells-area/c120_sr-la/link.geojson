@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C120_SR-LA",
+ "description":"LA Aqueduct",
+ "type":"Diversion",
+ "origin":"C120",
+ "terminus":"SR-LA",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

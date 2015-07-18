@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D31_HSU202D31",
+ "description":"Sacramento River to DSA 69 (Ord Ferry to Knights Landing) CVPM 5",
+ "type":"Diversion",
+ "origin":"D31",
+ "terminus":"HSU202D31",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":5.7}],
+ "sinks":null}}

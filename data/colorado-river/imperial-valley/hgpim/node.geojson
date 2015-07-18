@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-115.398544899413,32.9122769956632]},
+ "properties":{"prmname":"HGPIM",
+ "description":"",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

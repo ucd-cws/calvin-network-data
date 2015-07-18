@@ -1,0 +1,380 @@
+C 01/04/96
+C RES_20XA.NA1
+C 2020 LOD PROSIM INPUT FILE
+C PEIS NO ACTION ALTERNATIVE SIMULATION
+C
+C FOR PEIS USE ONLY
+C
+C RESERVOIR INPUT FILE FOR PROSIM 5.35 OR LATER.
+C
+C
+C A RES_xxxx.xxx file such as this one is used by PROSIM regardless of switch settings.
+C
+C Data herein represents most of PROSIM's reservoir operating parameters.
+C Which values come into play depends on the particular study being simulated.
+C The file was created using gross, ball park values throughout.
+C In the course of simulating various scenarios, some of these values were refined.
+C Some were not, particularly Auburn, Pardee/Camanche, New Hogan and New Melones values.
+C The values that came into play during the last scenario simulated were judged to be
+C reasonable since they evinced a reasonable simulation.  Those values may be totally
+C inappropriate for alternative scenarios.  The values that did not come into play during
+C the last scenario simulated were not judged at all.  Hence, those values as well may
+C be totally inappropriate for alternative scenarios.
+C
+C All values should be reviewed carefully and modified for applicability
+C to YOUR study purposes, assumptions, etc.
+C
+C Notes on Auburn at end of file, although functionality of PROSIM to simulate Auburn has not been tested for years.
+C Units are TAF, if any.
+C Free format - data is in columns to ease reviewer's eyes.
+C
+C FROM USBR RES_540E.DH2
+C
+C PEISIM MODIFICATIONS:  INCLUDES SP6VC_IN AND DRNWT6IN
+C
+C CE   WK   SH   OR   FO   PC   NH   NM   SL   EB   WB   AU   <- Reservoirs
+C -- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----   ------------------------
+2000  241 2750 2000  550 9999 9999 9999 9999  158  330 9999   BSTOR  beginning storage
+ 224   28  500  860   90   40   15  300   90   43  181  360   YSTOR  minimum operating pool
+2448  241 4568 3537  975  641  325 2400 2047  200  489 2400   XSTOR  maximum storage capacity
+ 900  100 1500    1 2000    1    1    1    1    1    1    1   STRF_IN storable inflow for year type 1
+ 900  100 1500    1 2000    1    1    1    1    1    1    1   STRF_IN storable inflow for year type 2
+ 900  100 1500    1 2000    1    1    1    1    1    1    1   STRF_IN storable inflow for year type 3
+ 900  100 1500    1 2000    1    1    1    1    1    1    1   STRF_IN storable inflow for year type 4
+ 900  100 1500    1 2000    1    1    1    1    1    1    1   STRF_IN storable inflow for year type 5
+ 900  100 3000    1 6000    1    1    1    1    1    1    1   STRF_IN storable inflow for year type 6
+ 900  100 1500    1 2000    1    1    1    1    1    1    1   STRF_IN storable inflow for year type 7
+9999    0 9999    0    0    0    0    0    0    0    0    0   SP1VC_IN - 1st space rule capacity vector - for USAC for year type 1
+9999    0 9999    0    0    0    0    0    0    0    0    0   SP1VC_IN - 1st space rule capacity vector - for USAC for year type 2
+9999    0 9999    0    0    0    0    0    0    0    0    0   SP1VC_IN - 1st space rule capacity vector - for USAC for year type 3
+9999    0 9999    0    0    0    0    0    0    0    0    0   SP1VC_IN - 1st space rule capacity vector - for USAC for year type 4
+9999    0 9999    0    0    0    0    0    0    0    0    0   SP1VC_IN - 1st space rule capacity vector - for USAC for year type 5
+9999    0 9999    0    0    0    0    0    0    0    0    0   SP1VC_IN - 1st space rule capacity vector - for USAC for year type 6
+9999    0 9999    0    0    0    0    0    0    0    0    0   SP1VC_IN - 1st space rule capacity vector - for USAC for year type 7
+   0    0    0    0    0    0    0    0    0    0    0    0   SP2VC_IN - 2nd space rule capacity vector - for LSAC for year type 1
+   0    0    0    0    0    0    0    0    0    0    0    0   SP2VC_IN - 2nd space rule capacity vector - for LSAC for year type 2
+   0    0    0    0    0    0    0    0    0    0    0    0   SP2VC_IN - 2nd space rule capacity vector - for LSAC for year type 3
+   0    0    0    0    0    0    0    0    0    0    0    0   SP2VC_IN - 2nd space rule capacity vector - for LSAC for year type 4
+   0    0    0    0    0    0    0    0    0    0    0    0   SP2VC_IN - 2nd space rule capacity vector - for LSAC for year type 5
+   0    0    0    0    0    0    0    0    0    0    0    0   SP2VC_IN - 2nd space rule capacity vector - for LSAC for year type 6
+   0    0    0    0    0    0    0    0    0    0    0    0   SP2VC_IN - 2nd space rule capacity vector - for LSAC for year type 7
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP3VC_IN - 3rd space rule capacity vector - for DELTA for year type 1
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP3VC_IN - 3rd space rule capacity vector - for DELTA for year type 2
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP3VC_IN - 3rd space rule capacity vector - for DELTA for year type 3
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP3VC_IN - 3rd space rule capacity vector - for DELTA for year type 4
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP3VC_IN - 3rd space rule capacity vector - for DELTA for year type 5
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP3VC_IN - 3rd space rule capacity vector - for DELTA for year type 6
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP3VC_IN - 3rd space rule capacity vector - for DELTA for year type 7
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP4VC_IN - 4th space rule capacity vector - for DELTA for year type 1 unspecified use for now
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP4VC_IN - 4th space rule capacity vector - for DELTA for year type 2 unspecified use for now
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP4VC_IN - 4th space rule capacity vector - for DELTA for year type 3 unspecified use for now
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP4VC_IN - 4th space rule capacity vector - for DELTA for year type 4 unspecified use for now
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP4VC_IN - 4th space rule capacity vector - for DELTA for year type 5 unspecified use for now
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP4VC_IN - 4th space rule capacity vector - for DELTA for year type 6 unspecified use for now
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP4VC_IN - 4th space rule capacity vector - for DELTA for year type 7 unspecified use for now
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP5VC_IN - 5th space rule capacity vector - for DELTA for year type 1 unspecified use for now
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP5VC_IN - 5th space rule capacity vector - for DELTA for year type 2 unspecified use for now
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP5VC_IN - 5th space rule capacity vector - for DELTA for year type 3 unspecified use for now
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP5VC_IN - 5th space rule capacity vector - for DELTA for year type 4 unspecified use for now
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP5VC_IN - 5th space rule capacity vector - for DELTA for year type 5 unspecified use for now
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP5VC_IN - 5th space rule capacity vector - for DELTA for year type 6 unspecified use for now
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP5VC_IN - 5th space rule capacity vector - for DELTA for year type 7 unspecified use for now
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP6VC_IN - 5th space rule capacity vector - for DELTA for year type 1
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP6VC_IN - 5th space rule capacity vector - for DELTA for year type 2
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP6VC_IN - 5th space rule capacity vector - for DELTA for year type 3
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP6VC_IN - 5th space rule capacity vector - for DELTA for year type 4
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP6VC_IN - 5th space rule capacity vector - for DELTA for year type 5
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP6VC_IN - 5th space rule capacity vector - for DELTA for year type 6
+9999    0 9999    0 9999    0    0    0    0    0    0    0   SP6VC_IN - 5th space rule capacity vector - for DELTA for year type 7
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT1IN - 1st drain weights vector - for USAC for year type 1
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT1IN - 1st drain weights vector - for USAC for year type 2
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT1IN - 1st drain weights vector - for USAC for year type 3
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT1IN - 1st drain weights vector - for USAC for year type 4
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT1IN - 1st drain weights vector - for USAC for year type 5
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT1IN - 1st drain weights vector - for USAC for year type 6
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT1IN - 1st drain weights vector - for USAC for year type 7
+   0    0   46   39   15    0    0    0    0    0    0    0   DRNWT2IN - 2nd drain weights vector - for LSAC for year type 1
+   0    0   46   39   15    0    0    0    0    0    0    0   DRNWT2IN - 2nd drain weights vector - for LSAC for year type 2
+   0    0   46   39   15    0    0    0    0    0    0    0   DRNWT2IN - 2nd drain weights vector - for LSAC for year type 3
+   0    0   46   39   15    0    0    0    0    0    0    0   DRNWT2IN - 2nd drain weights vector - for LSAC for year type 4
+   0    0   46   39   15    0    0    0    0    0    0    0   DRNWT2IN - 2nd drain weights vector - for LSAC for year type 5
+   0    0   46   39   15    0    0    0    0    0    0    0   DRNWT2IN - 2nd drain weights vector - for LSAC for year type 6
+   0    0   46   39   15    0    0    0    0    0    0    0   DRNWT2IN - 2nd drain weights vector - for LSAC for year type 7
+   0    0   80    0   20    0    0    0    0    0    0    0   DRNWT3IN - 3rd drain weights vector - for DELTA for year type 1
+   0    0   80    0   20    0    0    0    0    0    0    0   DRNWT3IN - 3rd drain weights vector - for DELTA for year type 2
+   0    0   85    0   15    0    0    0    0    0    0    0   DRNWT3IN - 3rd drain weights vector - for DELTA for year type 3
+   0    0   85    0   15    0    0    0    0    0    0    0   DRNWT3IN - 3rd drain weights vector - for DELTA for year type 4
+   0    0   90    0   10    0    0    0    0    0    0    0   DRNWT3IN - 3rd drain weights vector - for DELTA for year type 5
+   0    0   95    0    5    0    0    0    0    0    0    0   DRNWT3IN - 3rd drain weights vector - for DELTA for year type 6
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT3IN - 3th drain weights vector - for DELTA for year type 7
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT4IN - 4th drain weights vector - for DELTA for year type 1
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT4IN - 4th drain weights vector - for DELTA for year type 2
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT4IN - 4th drain weights vector - for DELTA for year type 3
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT4IN - 4th drain weights vector - for DELTA for year type 4
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT4IN - 4th drain weights vector - for DELTA for year type 5
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT4IN - 4th drain weights vector - for DELTA for year type 6
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT4IN - 4th drain weights vector - for DELTA for year type 7
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT5IN - 5th drain weights vector - for DELTA for year type 1
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT5IN - 5th drain weights vector - for DELTA for year type 2
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT5IN - 5th drain weights vector - for DELTA for year type 3
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT5IN - 5th drain weights vector - for DELTA for year type 4
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT5IN - 5th drain weights vector - for DELTA for year type 5
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT5IN - 5th drain weights vector - for DELTA for year type 6
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT5IN - 5th drain weights vector - for DELTA for year type 7
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT6IN - 6th drain weights vector - for DELTA for year type 1
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT6IN - 6th drain weights vector - for DELTA for year type 2
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT6IN - 6th drain weights vector - for DELTA for year type 3
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT6IN - 6th drain weights vector - for DELTA for year type 4
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT6IN - 6th drain weights vector - for DELTA for year type 5
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT6IN - 6th drain weights vector - for DELTA for year type 6
+   0    0  100    0    0    0    0    0    0    0    0    0   DRNWT6IN - 6th drain weights vector - for DELTA for year type 7
+ 972 1067   90  100  300                                      CSLCAP, SSLCAP, TSLMIN, RCSLST, RSSLST  San Luis data.
+ Oct  Nov  Dec  Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep   ------------------------
+ 203  196  203  203  183  203  196  203  196  203  203  196   QPOW  Clair Engle
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   QPOW  Whiskeytown
+ 430  357  369  369  333  369  416  615  857  885  885  476   QPOW  Shasta/Keswick
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   QPOW  Oroville
+ 307  297  307  307  278  307  297  307  297  307  307  297   QPOW  Folsom
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   QPOW  Pardee/Camanche*
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   QPOW  New Hogan
+76.8 74.4 76.8 76.8 69.4 76.8 74.4 76.8 74.4 76.8 76.8 74.4   QPOW  New Melones
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   QPOW  Swp-San Luis
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   QPOW  East Branch
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   QPOW  West Branch(148+33)
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   QPOW  Auburn
+1850 1850 1850 1900 2000 2100 2300 2420 2447 2270 2150 1975   SRULE1  cl.engle
+1850 1850 1850 1900 2000 2100 2300 2420 2447 2270 2150 1975   SRULE2  cl.engle
+1850 1850 1850 1900 2000 2100 2300 2420 2447 2270 2150 1975   SRULE3  cl.engle
+1850 1850 1850 1900 2000 2100 2300 2420 2447 2270 2150 1975   SRULE4  cl.engle
+1850 1850 1850 1900 2000 2100 2300 2420 2447 2270 2150 1975   SRULE5  cl.engle
+1850 1850 1850 1900 2000 2100 2300 2420 2447 2270 2150 1975   SRULE6  cl.engle
+1850 1850 1850 1900 2000 2100 2300 2420 2447 2270 2150 1975   SRULE7  cl.engle
+ 217  206  206  206  206  217  240  240  240  240  240  235   SRULE1  whiskeytown
+ 217  206  206  206  206  217  240  240  240  240  240  235   SRULE2  whiskeytown
+ 217  206  206  206  206  217  240  240  240  240  240  235   SRULE3  whiskeytown
+ 217  206  206  206  206  217  240  240  240  240  240  235   SRULE4  whiskeytown
+ 217  206  206  206  206  217  240  240  240  240  240  235   SRULE5  whiskeytown
+ 217  206  206  206  206  217  240  240  240  240  240  235   SRULE6  whiskeytown
+ 217  206  206  206  206  217  240  240  240  240  240  235   SRULE7  whiskeytown
+3150 3150 3150 3400 3800 4300 4530 4550 4400 3900 3350 3250   SRULE1  shasta/keswick
+3150 3150 3150 3400 3800 4300 4530 4550 4400 3900 3350 3250   SRULE2  shasta/keswick
+3150 3150 3150 3400 3800 4300 4530 4550 4400 3900 3350 3250   SRULE3  shasta/keswick
+3150 3150 3150 3400 3800 4300 4530 4550 4400 3900 3350 3250   SRULE4  shasta/keswick
+3150 3150 3150 3400 3800 4300 4530 4550 4400 3900 3350 3250   SRULE5  shasta/keswick
+3150 3150 3150 3400 3800 4300 4530 4550 4400 3900 3350 3250   SRULE6  shasta/keswick
+3150 3150 3150 3400 3800 4300 4530 4550 4400 3900 3350 3250   SRULE7  shasta/keswick
+9999 9999 9999 9999 9999 9999 9999 9999 9999 3450 3325 3200   SRULE1  oroville Note: flood rules control in November.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 3450 3325 3200   SRULE2  oroville       Aug Sep lowered to avoid spills.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 3325 3200   SRULE3  oroville
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 3325 3200   SRULE4  oroville
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 3325 3200   SRULE5  oroville
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 3325 3200   SRULE6  oroville
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 3325 3200   SRULE7  oroville
+ 600  574  574  650  710  760  850  975  975  950  800  650   SRULE1  folsom
+ 600  574  574  650  710  760  850  975  975  950  800  650   SRULE2  folsom
+ 600  574  574  650  710  760  850  975  975  950  800  650   SRULE3  folsom
+ 600  574  574  650  710  760  850  975  975  950  800  650   SRULE4  folsom
+ 600  574  574  650  710  760  850  975  975  950  800  650   SRULE5  folsom
+ 600  574  574  650  710  760  850  975  975  950  800  650   SRULE6  folsom
+ 600  574  574  650  710  760  850  975  975  950  800  650   SRULE7  folsom
+ 540  540  540  540  540  540  540  540  540  540  540  540   SRULE1  pardee/camanche*
+ 540  540  540  540  540  540  540  540  540  540  540  540   SRULE2  pardee/camanche*
+ 540  540  540  540  540  540  540  540  540  540  540  540   SRULE3  pardee/camanche*
+ 540  540  540  540  540  540  540  540  540  540  540  540   SRULE4  pardee/camanche*
+ 540  540  540  540  540  540  540  540  540  540  540  540   SRULE5  pardee/camanche*
+ 540  540  540  540  540  540  540  540  540  540  540  540   SRULE6  pardee/camanche*
+ 540  540  540  540  540  540  540  540  540  540  540  540   SRULE7  pardee/camanche*
+ 200  200  200  200  200  200  200  200  200  200  200  200   SRULE1  new hogan
+ 200  200  200  200  200  200  200  200  200  200  200  200   SRULE2  new hogan
+ 200  200  200  200  200  200  200  200  200  200  200  200   SRULE3  new hogan
+ 200  200  200  200  200  200  200  200  200  200  200  200   SRULE4  new hogan
+ 200  200  200  200  200  200  200  200  200  200  200  200   SRULE5  new hogan
+ 200  200  200  200  200  200  200  200  200  200  200  200   SRULE6  new hogan
+ 200  200  200  200  200  200  200  200  200  200  200  200   SRULE7  new hogan
+1970 1970 1970 1970 1970 2077 2226 2420 2420 2320 2100 2020   SRULE1  new melones
+1970 1970 1970 1970 1970 2077 2226 2420 2420 2320 2100 2020   SRULE2  new melones
+1970 1970 1970 1970 1970 2077 2226 2420 2420 2320 2100 2020   SRULE3  new melones
+1970 1970 1970 1970 1970 2077 2226 2420 2420 2320 2100 2020   SRULE4  new melones
+1970 1970 1970 1970 1970 2077 2226 2420 2420 2320 2100 2020   SRULE5  new melones
+1970 1970 1970 1970 1970 2077 2226 2420 2420 2320 2100 2020   SRULE6  new melones
+1970 1970 1970 1970 1970 2077 2226 2420 2420 2320 2100 2020   SRULE7  new melones
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   SRULE1  swp-san luis
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   SRULE2  swp-san luis
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   SRULE3  swp-san luis
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   SRULE4  swp-san luis
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   SRULE5  swp-san luis
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   SRULE6  swp-san luis
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   SRULE7  swp-san luis
+ 150  140  160  170  185  195  200  195  185  175  170  165   SRULE1  e. branch
+ 150  140  160  170  185  195  200  195  185  175  170  165   SRULE2  e. branch
+ 150  140  160  170  185  195  200  195  185  175  170  165   SRULE3  e. branch
+ 150  140  160  170  185  195  200  195  185  175  170  165   SRULE4  e. branch
+ 150  140  160  170  185  195  200  195  185  175  170  165   SRULE5  e. branch
+ 140  125  135  145  155  195  200  195  185  175  170  165   SRULE6  e. branch
+ 110   95  110  125  145  165  165  165  155  145  135  125   SRULE7  e. branch
+ 300  260  310  360  410  450  489  465  435  400  365  340   SRULE1  w. branch
+ 300  260  310  360  410  450  489  465  435  400  365  340   SRULE2  w. branch
+ 300  260  310  360  410  450  489  465  435  400  365  340   SRULE3  w. branch
+ 300  260  310  360  410  450  489  465  435  400  365  340   SRULE4  w. branch
+ 300  260  310  360  410  450  489  465  435  400  365  340   SRULE5  w. branch
+ 200  150  150  150  150  430  450  425  400  350  300  250   SRULE6  w. branch
+ 100  100  100  150  200  200  250  250  200  175  150  125   SRULE7  w. branch
+1260 1220 1220 1340 1420 1520 1700 2000 2020 1700 1460 1360   SRULE1  auburn
+1260 1220 1220 1340 1420 1520 1700 2000 2020 1700 1460 1360   SRULE2  auburn
+1260 1220 1220 1340 1420 1520 1700 2000 2020 1700 1460 1360   SRULE3  auburn
+1260 1220 1220 1340 1420 1520 1700 2000 2020 1700 1460 1360   SRULE4  auburn
+1260 1220 1220 1340 1420 1520 1700 2000 2020 1700 1460 1360   SRULE5  auburn
+1260 1220 1220 1340 1420 1520 1700 2000 2020 1700 1460 1360   SRULE6  auburn
+1260 1220 1220 1340 1420 1520 1700 2000 2020 1700 1460 1360   SRULE7  auburn
+ 470  590  760  860  950  972  972  900  575  350  325  425   CSLRULE1 cvp-san luis
+ 470  590  760  860  950  972  972  900  575  350  300  400   CSLRULE2 cvp-san luis
+ 470  590  760  860  950  972  972  900  575  350  300  350   CSLRULE3 cvp-san luis
+ 470  590  760  860  950  972  972  900  575  350  300  300   CSLRULE4 cvp-san luis
+ 100  150  200  300  450  600  750  600  500  300  150   50   CSLRULE5 cvp-san luis
+  50  100  200  350  450  650  500  450  250  100   50   25   CSLRULE6 cvp-san luis
+  50  100  200  350  450  650  500  450  250  100   50   25   CSLRULE7 cvp-san luis
+ 250  230  600  850  950 1067 1067 1067  550  350  300  300   SSLRULE1 swp-san luis
+ 250  250  600  850  950 1067 1067 1067  550  350  300  300   SSLRULE2 swp-san luis
+ 250  208  600  800  950 1067 1067 1067  550  300  250  250   SSLRULE3 swp-san luis
+ 250  250  600  800  950 1067 1067 1067  550  320  250  250   SSLRULE4 swp-san luis
+ 125  115  200  300  450  800  700  500  350  250  100  150   SSLRULE5 swp-san luis
+ 125  125  200  300  450  550  450  350  300  250  100  150   SSLRULE6 swp-san luis
+ 100  125  200  300  450  450  400  300  200  125   75  125   SSLRULE7 swp-san luis
+1600 1600 1600 1900 2000 2100 1500 1500 1600 1600 2150 1975   YSTRSV1 cl.engle
+1600 1600 1600 1900 2000 2100 1500 1500 1600 1600 2150 1975   YSTRSV2 cl.engle
+1200 1200 1300 1700 1900 2100 1500 1500 1600 1600 2150 1975   YSTRSV3 cl.engle
+1600 1600 1600 1900 2000 2100 1500 1500 1600 1600 2150 1975   YSTRSV4 cl.engle
+ 300  350  350  650  750 1400 1000  800  600  650  700  750   YSTRSV5 cl.engle
+ 250  275  350  550  700 1200  900  700  500  550  600  650   YSTRSV6 cl.engle
+ 250  250  250  500  600 1000 1100  900  800  700  600  300   YSTRSV7 cl.engle
+ 217  206  206  206  206  217  240  240  240  240  240  235   YSTRSV1 whiskeytown
+ 217  206  206  206  206  217  240  240  240  240  240  235   YSTRSV2 whiskeytown
+ 217  206  206  206  206  217  240  240  240  240  240  235   YSTRSV3 whiskeytown
+ 217  206  206  206  206  217  240  240  240  240  240  235   YSTRSV4 whiskeytown
+ 200  200  200  200  200  210  220  220  220  220  220  215   YSTRSV5 whiskeytown
+ 200  200  200  200  200  210  220  220  220  220  220  215   YSTRSV6 whiskeytown
+ 200  200  200  200  200  210  220  220  220  220  220  215   YSTRSV7 whiskeytown
+2500 2500 2500 2500 2500 2500 2500 2500 2500 2500 2500 2500   YSTRSV1 shasta/keswick
+2500 2500 2500 2500 2500 2500 2500 2500 2500 2500 2500 2500   YSTRSV2 shasta/keswick
+2500 2500 2500 2500 2500 2500 2500 2500 2500 2500 2500 2500   YSTRSV3 shasta/keswick
+2500 2500 2500 2500 2500 2500 2500 2500 2500 2500 2500 2500   YSTRSV4 shasta/keswick
+1800 1700 2000 2000 1800 2000 2200 2150 2100 2050 2000 1900   YSTRSV5 shasta/keswick
+1000  700  800 1000 1100 1500 1500 1500 1400 1350 1300 1250   YSTRSV6 shasta/keswick
+ 500  500  500  600  700  900  850  800  750  700  600  500   YSTRSV7 shasta/keswick
+1800 1800 1800 1800 1800 2000 2000 2000 2000 2000 2000 2000   YSTRSV1 oroville - used in CUTSWPTS for WASTED.
+1800 1800 1800 1800 1800 1800 1800 1800 1800 1800 1800 1800   YSTRSV2 oroville - used in CUTSWPTS for WASTED.
+1800 1800 1800 1800 1800 1800 1800 1800 1800 1800 1800 1800   YSTRSV3 oroville - used in CUTSWPTS for WASTED.
+1800 1800 1800 1800 1800 1800 1800 1800 1800 1800 1800 1800   YSTRSV4 oroville - used in CUTSWPTS for WASTED.
+1800 1800 1800 1800 1800 1800 1800 1800 1800 1800 1800 1800   YSTRSV5 oroville - used in CUTSWPTS for WASTED.
+1800 1800 1800 1800 1800 1800 1800 1800 1800 1800 1800 1800   YSTRSV6 oroville - used in CUTSWPTS for WASTED.
+1800 1800 1800 1800 1800 1300 1300 1300 1300 1300 1300 1300   YSTRSV7 oroville - used in CUTSWPTS for WASTED.
+ 500  450  450  550  550  660  835  800  600  600  450  500   YSTREV1 folsom
+ 425  450  450  550  550  660  835  800  600  600  450  450   YSTREV2 folsom
+ 375  400  500  550  550  660  835  700  600  600  400  400   YSTREV3 folsom
+ 325  350  450  500  500  590  735  625  550  510  325  300   YSTREV4 folsom
+ 200  240  270  375  550  590  735  575  550  450  275  200   YSTREV5 folsom
+ 295  275  280  325  525  550  550  500  450  400  350  250   YSTREV6 folsom
+ 175  150  125  250  400  550  500  450  400  325  250  200   YSTREV7 folsom
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV1 pardee/camanche - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV2 pardee/camanche - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV3 pardee/camanche - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV4 pardee/camanche - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV5 pardee/camanche - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV6 pardee/camanche - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV7 pardee/camanche - not used currently.
+  90   80   70   60   50   40   40   40   40   40   40  100   YSTRSV1 new hogan
+  90   80   70   60   50   40   40   40   40   40   40  100   YSTRSV2 new hogan
+  90   80   70   60   50   40   40   40   40   40   40  100   YSTRSV3 new hogan
+  90   80   70   60   50   40   40   40   40   40   40  100   YSTRSV4 new hogan
+  90   80   70   60   50   40   40   40   40   40   40  100   YSTRSV5 new hogan
+  90   80   70   60   50   40   40   40   40   40   40  100   YSTRSV6 new hogan
+  90   80   70   60   50   40   40   40   40   40   40  100   YSTRSV7 new hogan
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV1 new melones - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV2 new melones - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV3 new melones - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV4 new melones - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV5 new melones - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV6 new melones - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV7 new melones - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV1 san luis - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV2 san luis - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV3 san luis - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV4 san luis - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV5 san luis - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV6 san luis - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV7 san luis - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV1 east branch - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV2 east branch - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV3 east branch - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV4 east branch - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV5 east branch - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV6 east branch - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV7 east branch - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV1 west branch - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV2 west branch - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV3 west branch - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV4 west branch - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV5 west branch - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV6 west branch - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV7 west branch - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV1 auburn - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV2 auburn - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV3 auburn - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV4 auburn - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV5 auburn - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV6 auburn - not used currently.
+9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999   YSTRSV7 auburn - not used currently.
+ 360  360  360  360  360  360  360  360  360  360  360  360   auburn balance rule
+ 610  610  610  610  610  610  610  610  610  610  610  610   folsom balance rule
+********************************************************************
+Regression equations relating area in ac-ft to storage in TAF and elevation in ft (MSL) to storage in TAF.
+Y = A*X + B*(X**1/2) + C*(X**1/3) +  D   where Y=area or elevation and X=storage.
+The fifth number on each line is the threshold storage below which the dependent variable
+is assumed to be the sixth number on each line.
+********************************************************************
+    1.506    375.191   -487.772      45.758     4.    0.   STARCF  cl. engle
+   -2.541    437.066   -474.775       1.048     2.    0.   STARCF  whiskeytown
+    1.388    532.315   -742.238      25.762     7.    0.   STARCF  shasta/keswick
+    1.523    255.790   -324.738     160.332     1.    0.   STARCF  oroville
+  -12.234   1950.872  -4132.820    3260.918    12.    0.   STARCF  folsom
+  -23.      3924.    -10696.      12931.       99.    0.   STARCF  pardee/camanche
+    0.647    303.663   -189.934       5.556     1.    0.   STARCF  new hogan
+    1.121    244.644   -166.985       2.407     1.    0.   STARCF  new melones
+    1.165   -355.569   2364.073   -3402.072     6.    0.   STARCF  san luis(COMBINED)
+   62.     -4586.     11660.     -11516.       99.    0.   STARCF  e. branch
+   28.     -3140.      9261.     -12653.       99.    0.   STARCF  w. branch
+    0.         0.         0.          0.       99.    0.   STARCF  auburn
+   -0.025      4.743     19.019    1940.144     0. 1850.   STELCF  cl. engle
+    0.255    -18.137     75.561     960.022     0.  900.   STELCF  whiskeytown
+    0.008     -3.040     39.724     576.023     0.  600.   STELCF  shasta/keswick
+   -0.002     -0.762     50.101     189.039     0.  550.   STELCF  oroville
+    0.147    -24.299     98.203     104.550     0.  100.   STELCF  folsom
+    1.      -114.       373.       -129.       99.    0. ? STELCF  pardee/camanche
+    0.067     -0.184     24.823     524.393     0.    0. ? STELCF  new hogan
+    0.042     -4.245     48.370     548.736     0.    0. ? STELCF  new melones
+    0.040      2.522      5.429     276.359     0.    0. ? STELCF  san luis
+    4.      -316.       828.       2360.       99.    0. ? STELCF  e. branch
+   -5.       586.      1642.       4639.       99.    0. ? STELCF  w. branch
+    0.         0.         0.          0.       99.    0. ? STELCF  auburn
+  17   4   2   1   3  10  24  41  49  58  53  36              EV  cl.engle
+  23   8   6   5   7  14  27  42  51  62  56  40              EV  whiskeytown (Engle + Shasta)/2
+  27  13   9   9  11  18  29  42  52  65  59  44              EV  shasta/keswick
+  39  16   9   8  12  21  33  53  68  82  76  58              EV  oroville (from DWR - Dabbs)
+  30  11   5   5  10  19  31  49  60  69  62  47              EV  folsom
+  57  17  17  14  23  35  43  86  98 107  96  81              EV  pardee/camanche unchecked
+  52  17  10  10  15  21  26  59  68  76  70  62              EV  new hogan       unchecked
+  36  15   8   8  16  25  38  63  77  83  76  52              EV  new melones
+  42  18  10   8  16  32  55  84 100 113  96  67              EV  san luis
+   9   3   2   2   3   6   9  13  17  18  16  13              EV  E. branch       unchecked
+   8   3   1   2   3   5   9  13  16  18  15  12              EV  W. branch       unchecked
+  30  11   5   5  10  19  31  49  60  69  62  47              EV  auburn
+
+
+
+
+
+
+
+  Rule curve values for Auburn are double those for Folsom.
+  Auburn's EVAP, XQPOW are the same.
+  Auburn's Area-Elevation-Storage data not entered.

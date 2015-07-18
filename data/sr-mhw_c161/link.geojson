@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-MHW_C161",
+ "description":"Upper & Lower Feeders",
+ "type":"Diversion",
+ "origin":"SR-MHW",
+ "terminus":"C161",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

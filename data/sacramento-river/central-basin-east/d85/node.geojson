@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.218374718958,38.6367717571323]},
+ "properties":{"prmname":"D85",
+ "description":"American River losses",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

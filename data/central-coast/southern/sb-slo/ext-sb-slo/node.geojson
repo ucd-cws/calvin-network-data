@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.171511637999,34.8039696600582]},
+ "properties":{"prmname":"EXT SB-SLO",
+ "description":"Urban exterior Only the SWP Imports are modeled (DAU 67, 68, 71, 74, 75)",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":{"default":{"description":"","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}]}}}}

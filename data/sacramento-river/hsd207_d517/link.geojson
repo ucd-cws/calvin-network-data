@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSD207_D517",
+ "description":"Hidden surface water return flow calibration link",
+ "type":"Diversion",
+ "origin":"HSD207",
+ "terminus":"D517",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

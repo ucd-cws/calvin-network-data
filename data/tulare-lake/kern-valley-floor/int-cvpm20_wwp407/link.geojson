@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"INT CVPM20_WWP407",
+ "description":"Return flows from urban applied water",
+ "type":"Diversion",
+ "origin":"INT CVPM20",
+ "terminus":"WWP407",
+ "amplitude":0.9,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

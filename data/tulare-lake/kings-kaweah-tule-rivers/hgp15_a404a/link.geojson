@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP15_A404A",
+ "description":"Agricultural groundwater pumping GW-15 to CVPM 15 Demand",
+ "type":"Diversion",
+ "origin":"HGP15",
+ "terminus":"A404A",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":74.37},
+ "bounds":[{"type":"UBC","bound":335.25}],
+ "sinks":null}}

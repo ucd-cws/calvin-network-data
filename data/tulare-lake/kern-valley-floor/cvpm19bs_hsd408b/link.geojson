@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CVPM19BS_HSD408B",
+ "description":"",
+ "type":"Diversion",
+ "origin":"CVPM19BS",
+ "terminus":"HSD408B",
+ "amplitude":0.263,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

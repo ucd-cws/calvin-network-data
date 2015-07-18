@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CVPM19AS_HSD408A",
+ "description":"SW return flow from CVPM 19",
+ "type":"Diversion",
+ "origin":"CVPM19AS",
+ "terminus":"HSD408A",
+ "amplitude":0.246,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

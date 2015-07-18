@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSD101_C5",
+ "description":"Hidden surface water return flow calibration link",
+ "type":"Diversion",
+ "origin":"HSD101",
+ "terminus":"C5",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

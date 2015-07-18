@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C143_Mexico",
+ "description":"Colorado R Diversion",
+ "type":"Diversion",
+ "origin":"C143",
+ "terminus":"Mexico",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

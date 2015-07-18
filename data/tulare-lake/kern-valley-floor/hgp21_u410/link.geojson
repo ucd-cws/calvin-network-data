@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP21_U410",
+ "description":"GW-21 pumping to Bakersfield",
+ "type":"Diversion",
+ "origin":"HGP21",
+ "terminus":"U410",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":189.44},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

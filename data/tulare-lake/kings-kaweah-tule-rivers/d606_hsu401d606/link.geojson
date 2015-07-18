@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D606_HSU401D606",
+ "description":"Boundary Flow - SJ River Riparian export to CVPM 16 (C50)",
+ "type":"Diversion",
+ "origin":"D606",
+ "terminus":"HSU401D606",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

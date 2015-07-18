@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.385058767182,35.9266513415359]},
+ "properties":{"prmname":"PixleyNWR",
+ "description":"Pixley NWR",
+ "type":"Non-Standard Demand",
+ "inflows":null,
+ "sinks":null}}

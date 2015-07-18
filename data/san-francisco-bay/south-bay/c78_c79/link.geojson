@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C78_C79",
+ "description":"Hetch-Hetchy Aqueduct",
+ "type":"Diversion",
+ "origin":"C78",
+ "terminus":"C79",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

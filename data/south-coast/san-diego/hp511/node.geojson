@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.929776195401,33.0961575211869]},
+ "properties":{"prmname":"HP511",
+ "description":"Hidden node for exapanded wastewater recycling for San Diego",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

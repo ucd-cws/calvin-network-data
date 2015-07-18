@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP06_U205",
+ "description":"GW-6 to Urban (none, put in CVPM 6 Urban)",
+ "type":"Diversion",
+ "origin":"HGP06",
+ "terminus":"U205",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":74},
+ "bounds":[{"type":"UBC","bound":0.1133}],
+ "sinks":null}}

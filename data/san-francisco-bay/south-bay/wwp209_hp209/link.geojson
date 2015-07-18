@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP209_HP209",
+ "description":"Proposed wastewater recycling for EMBUD",
+ "type":"Diversion",
+ "origin":"WWP209",
+ "terminus":"HP209",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1480},
+ "bounds":[{"type":"UBC","bound":2.23}],
+ "sinks":null}}

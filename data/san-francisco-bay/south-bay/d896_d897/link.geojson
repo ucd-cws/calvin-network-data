@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D896_D897",
+ "description":"South Bay Aqueduct (end)",
+ "type":"Diversion",
+ "origin":"D896",
+ "terminus":"D897",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":{"default":{"description":"South Bay Aqueduct losses R1-9","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}]}}}}

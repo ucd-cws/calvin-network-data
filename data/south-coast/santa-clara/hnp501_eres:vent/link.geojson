@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP501_ERes:VENT",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP501",
+ "terminus":"ERes:VENT",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

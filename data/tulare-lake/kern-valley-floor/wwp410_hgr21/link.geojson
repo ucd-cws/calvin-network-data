@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP410_HGR21",
+ "description":"Bakersfield incidental recharge to groundwater",
+ "type":"Diversion",
+ "origin":"WWP410",
+ "terminus":"HGR21",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null}}

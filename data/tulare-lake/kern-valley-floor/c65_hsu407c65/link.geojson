@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C65_HSU407C65",
+ "description":"Surface delivery CVPM 20",
+ "type":"Diversion",
+ "origin":"C65",
+ "terminus":"HSU407C65",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":79.2}],
+ "sinks":null}}

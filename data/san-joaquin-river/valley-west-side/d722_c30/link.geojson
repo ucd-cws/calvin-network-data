@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D722_C30",
+ "description":"Agricultural diversions off the DMC",
+ "type":"Diversion",
+ "origin":"D722",
+ "terminus":"C30",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

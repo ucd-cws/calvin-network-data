@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D541_Surp Delta",
+ "description":"Surplus Delta Outflow",
+ "type":"Diversion",
+ "origin":"D541",
+ "terminus":"Surp Delta",
+ "amplitude":1,
+ "costs":{ "type":"Annual Variable","costs":{"JAN-DEC":{"$ref":"costs/JAN-DEC.csv"}}},
+ "bounds":[{"type":"NOB"}],
+ "sinks":{"default":{"description":"SURPLUS DELTA OUTFLOW","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}]}}}}

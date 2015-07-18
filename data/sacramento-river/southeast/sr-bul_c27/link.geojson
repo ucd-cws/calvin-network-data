@@ -1,0 +1,11 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-BUL_C27",
+ "description":"Reservoir release from New Bullards Bar toYuba River",
+ "type":"Diversion",
+ "origin":"SR-BUL",
+ "terminus":"C27",
+ "amplitude":1,
+ "costs":{ "type":"Monthly Variable","costs":{"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"}}},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

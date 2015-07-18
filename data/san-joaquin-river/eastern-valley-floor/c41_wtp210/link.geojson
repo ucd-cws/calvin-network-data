@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C41_WTP210",
+ "description":"",
+ "type":"Diversion",
+ "origin":"C41",
+ "terminus":"WTP210",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":45},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

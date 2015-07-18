@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"EXT CVPM03_HGR03",
+ "description":"return flows from CVPM3 exterior",
+ "type":"Diversion",
+ "origin":"EXT CVPM03",
+ "terminus":"HGR03",
+ "amplitude":0.001,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

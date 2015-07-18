@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP510_HNP510",
+ "description":"",
+ "type":"Diversion",
+ "origin":"WWP510",
+ "terminus":"HNP510",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1480},
+ "bounds":[{"type":"UBC","bound":1.04}],
+ "sinks":null}}

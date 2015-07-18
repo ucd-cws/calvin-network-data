@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C7_C8",
+ "description":"Sacramento River between Freemont Weir and American River Reach 3",
+ "type":"Diversion",
+ "origin":"C7",
+ "terminus":"C8",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

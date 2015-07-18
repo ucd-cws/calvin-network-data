@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-115.121056370773,32.705015200267]},
+ "properties":{"prmname":"C31",
+ "description":"Yuba River inflow to Feather River",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

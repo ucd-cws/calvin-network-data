@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PWP-Devils_C129",
+ "description":"SWP East Branch",
+ "type":"Diversion",
+ "origin":"PWP-Devils",
+ "terminus":"C129",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":-140.5852},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

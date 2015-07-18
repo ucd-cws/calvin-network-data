@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"INT CVPM14_WWP402",
+ "description":"",
+ "type":"Diversion",
+ "origin":"INT CVPM14",
+ "terminus":"WWP402",
+ "amplitude":0.512,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

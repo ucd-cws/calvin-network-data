@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.047814620299,38.3330050840159]},
+ "properties":{"prmname":"HP205",
+ "description":"",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

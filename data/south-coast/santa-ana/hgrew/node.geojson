@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.120133217707,33.715587774891]},
+ "properties":{"prmname":"HGREW",
+ "description":"",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

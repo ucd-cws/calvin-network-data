@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D649_HSU305D649",
+ "description":"surface delivery CVPM 12",
+ "type":"Diversion",
+ "origin":"D649",
+ "terminus":"HSU305D649",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":13.4}],
+ "sinks":null}}

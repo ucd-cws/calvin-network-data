@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSD204_C7",
+ "description":"Hidden surface water return flow calibration link",
+ "type":"Diversion",
+ "origin":"HSD204",
+ "terminus":"C7",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

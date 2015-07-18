@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU408AN11_A408A",
+ "description":"California Aqueduct to CVPM 19, includes Semitropic",
+ "type":"Diversion",
+ "origin":"HSU408AN11",
+ "terminus":"A408A",
+ "amplitude":0.93,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

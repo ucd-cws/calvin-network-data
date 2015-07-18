@@ -1,0 +1,134 @@
+RES.ND1
+
+
+   5   20   30   45   60   65   70   80   85  100  105  130  160  165 170 175 nodes
+ 176   24   58  229    0    0  373   21   23 1000   65  159    0    0 195 200 BSTOR: Beg. stg.
+ 135    5   10  115    0    0    0    0    0  300   11  17.5   0    0  16   1 YSTOR: Min. stg.
+ 521   90  151 1024    0    0 1900   29   45 2420   67  325    0    0 210 431 XSTOR: Max. stg.
+ 100  100  100  100    0    0  100  100  100  500  100  100  100  100   0   0 STRF : Storable inflow
+   0    0    0    1    0    0    1    0    0    1    0    0    0    0   0   0 KSWSMLT: Snow melt (on=1), force early res. release when expect high snow melt R.O.
+   0    0    0    0    0    0    0    0    0    0    0    0    0    0   0   0 SPCVEC1: Max release from res. to meet demands at node 37
+   0    0    0    0    0    0    0    0    0    0    0    0    0    0   0   0 SPCVEC2: Max release from res. to meet demands at node 40
+   0    0    0    0    0    0    0    0    0    0    0    0    0    0   0   0 SPCVEC3: Max release from res. to meet demands at node 95
+   0    0    0    0    0    0    0    0    0  588    0    0    0    0   0   0 SPCVEC4: Max release from res. to meet demands at node 120
+ 100  100                                                                     SPVTUOL: 1:max release from Cherry/Elean 2:max release from HH
+   0    0    0    0    0    0    0    0    0    0    0    0    0    0   0   0 DRAINWT1: Weights to use when unconditionally extracting needed water for node 37
+   0    0    0    0    0    0    0    0    0    0    0    0    0    0   0   0 DRAINWT2: Weights to use when unconditionally extracting needed water for node 40
+   0    0    0    0    0    0    0    0    0    0    0    0    0    0   0   0 DRAINWT3: Weights to use when unconditionally extracting needed water for node 95
+   0    0    0    0    0    0    0    0    0    0    0    0    0    0   0   0 DRAINWT4: Weights to use when unconditionally extracting needed water for node 120
+
+power plant release limits, QPOW
+ Oct  Nov  Dec  Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1      (5) millerton
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1      (20) hidden
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1      (30) buchanan
+ 191  184  191  191  172  191  184  191  184  191  191  184      (45) exchequer
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1      (60) hetch hetchy
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1      (65) cherry-eleanor
+ 338  327  338  338  306  338  327  338  327  338  338  327      (70) new don pedro
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1      (80) modesto
+99.1 95.9 99.1 95.9 89.5 99.1 95.9 99.1 95.9 99.1 99.1 95.9      (85) turlock
+76.8 74.4 76.8 76.8 69.4 76.8 74.4 76.8 74.4 76.8 76.8 74.4      (100) new melones
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1      (105) tulloch
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1      (130) new hogan
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1      (160) farmington
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1      (165) woodward
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1      (170) pardee
+  -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1      (175) camanche
+
+storage rules, SRULE
+ Oct  Nov  Dec  Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep
+ 325  355  467  459  437  492  495  505  526  515  477  379      (5) millerton
+  46   25   78   37   46   58   81   90   90   90   90   68      (20) hidden  (from flood files in USACE manual)
+ 120  105  107  118  117  129  141  150  150  150  150  135      (30) buchanan (from flood file in USACE manual)
+ 680  650  690  740  790  790  850  950  970  970  900  770      (45) exchequer (from Merced ID graph)
+   0    0    0    0    0    0    0    0    0    0    0    0      (60) hetch hetchy
+   0    0    0    0    0    0    0    0    0    0    0    0      (65) cherry-eleanor
+1690 1590 1590 1590 1590 1690 1710 2020 2030 2030 1875 1725      (70) new don pedro
+19.3 18.7   21 19.9 18.2 19.3 18.2   18 17.7 14.3 17.5 21.8      (80) modesto
+12.3 18.1 24.3 23.8 26.4   27 30.9 29.7 29.6 29.6 28.3 22.8      (85) turlock
+1975 1970 1970 1970 1970 2077 2226 2420 2420 2320 2150 2025      (100) new melones
+  67   67   67   67   67   67   67   67   67   67   67   67      (105) tulloch
+ 325  325  325  325  325  325  325  325  325  325  325  325      (130) new hogan
+   0    0    0    0    0    0    0    0    0    0    0    0      (160) farmington
+   0    0    0    0    0    0    0    0    0    0    0    0      (165) woodward
+ 210  210  210  210  210  210  210  210  210  210  210  210      (170) pardee
+ 431  431  431  431  431  431  431  431  431  431  431  431      (175) camanche
+
+minimum storage reserve, YSTRSV
+ Oct  Nov  Dec  Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep
+ 135  135  151  175  221  200  200  200  200  170  135  135      (5) Millerton
+   5    5    5    5    5    5    5    5    5    5    5    5      (20) hidden
+  10   10   10   10   10   10   10   10   10   10   10   10      (30) buchanan
+ 173  173  173  173  173  173  173  173  173  173  173  173      (45) exchequer
+   0    0    0    0    0    0    0    0    0    0    0    0      (60) hetch hetchy
+   0    0    0    0    0    0    0    0    0    0    0    0      (65) cherry-eleanor
+ 309  309  309  309  309  309  309  309  309  309  309  309      (70) new don pedro (min power)
+   0    0    0    0    0    0    0    0    0    0    0    0      (80) modesto
+  20   20   20   20   20   20   20   20   20   20   20   20      (85) turlock
+ 800  800  800  800  850  850  900  900  900  850  800  750      (100) new melones
+   0    0    0    0    0    0    0    0    0    0    0    0      (105) tulloch
+   0   90   80   70   60   50   40   40   40   40   40  100      (130) new hogan
+   0    0    0    0    0    0    0    0    0    0    0    0      (160) farmington
+   0    0    0    0    0    0    0    0    0    0    0    0      (165) woodward
+ 100   50   50   50  100  100  100  100  100  100  100  100      (170) pardee (for hyperlimnion maintenance)
+  28   28   28   28   28   28   28   28   28   28   28   28      (175) camanche (for hyperlimnion maintenance)
+
+Projected evaporation rates in 100ths of feet per month.
+ Oct  Nov  Dec  Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep        for references, see data at end of file
+  50   23   11   12   18   33   52   84  109  128  113   80      ** (5) Millerton (uncorrected pan at Millerton)
+  50   23   11   12   18   33   52   84  109  128  113   80      ** (20) Hidden (uncorrected pan at Millerton)
+  50   23   11   12   18   33   52   84  109  128  113   80      ** (30) Buchanan (uncorrected pan at Millerton)
+  50   23   11   12   18   33   52   84  109  128  113   80      ** (45) Exchequer (uncorrected pan at Millerton)
+   0    0    0    0    0    0    0    0    0    0    0    0         (60) Hetch hetchy (City of SF)
+   0    0    0    0    0    0    0    0    0    0    0    0         (65) Cherry-eleanor (City of SF)
+  51   22   12   12   19   32   51   80  104  121  108   78         (70) New don pedro (Average of uncorrected pan at Millerton and New Melones)
+  51   22   12   12   19   32   51   80  104  121  108   78         (80) Modesto (Average of uncorrected pans at Millerton and New Melones)
+  51   22   12   12   19   32   51   80  104  121  108   78         (85) Turlock (Average of uncorrected pans at Millerton and New Melones)
+  51   21   12   12   19   30   50   75   98  114  103   76      ** (100) New melones (uncorrected pan at New Melones)
+  51   21   12   12   19   30   50   75   98  114  103   76      ** (105) Tulloch (uncorrected pan at New Melones)
+  45   21   14   14   19   30   45   60   67   68   68   60      ** (130) New hogan TEST values, max & min hand computed, rest filled in by eyeball
+   0    0    0    0    0    0    0    0    0    0    0    0         (160) Farmington
+   0    0    0    0    0    0    0    0    0    0    0    0         (165) Woodward
+  25    8   -9  -20  -16  -10   13   39   50   68   66   48         (170) Pardee (data provided by EBMUD)
+  25    8   -9  -20  -16  -10   13   39   50   68   66   48         (175) Camanche (data provided by EBMUD)
+
+Storage-area regression coefficients, STARCF
+Equation form is:  area = a*stor + b*(stor)**.5 + c*(stor)**.333 +d
+   -1.770  455.443 -566.618     1.193      (5) millerton
+   -5.839  359.540 -301.858    37.229      (20) hidden
+   -1.017  161.877   -3.990   -18.940      (30) buchanan
+    4.205   62.651   89.497   -94.002      (45) exchequer
+       0        0        0      0          (60) hetch hetchy
+       0        0        0      0          (65) cherry-eleanor
+    3.476  100.675  115.309  -137.457      (70) new don pedro
+       0        0        0      0          (80) modesto  - Storage Vs area data not available
+       0        0        0      0          (85) turlock  - Storage Vs area data not available
+    1.121  244.644 -166.985     2.407      (100) new melones
+   24.122 -142.512  227.930    -7.024      (105) tulloch
+    0.65   303.66  -189.93      6          (130) new hogan
+       0        0        0      0          (160) farmington  - Storage Vs area data not available
+       0        0        0      0          (165) woodward  - Storage Vs area data not available
+   -1.017  161.877   -3.990   -18.940      (170) pardee
+   -1.017  161.877   -3.990   -18.940      (175) camanche
+
+Storage-elevation regression coefficients, STELCF
+Equation form is:  elev = a*stor + b*(stor)**.5 + c*(stor)**.333 +d
+   -0.246   29.077  -41.450   374.882      (5) millerton
+    0.355   -5.669   37.479   395.220      (20) hidden
+    0.276    0.322   24.943   408.389      (30) buchanan
+   -0.038    4.387   34.601   416.868      (45) exchequer
+       0        0        0      0          (60) hetch hetchy
+       0        0        0      0          (65) cherry-eleanor
+    0.074  -13.294   78.665   284.501      (70) new don pedro
+       0        0        0      0          (80) modesto
+       0        0        0      0          (85) turlock
+    0.042   -4.245   48.370   548.736      (100) new melones
+   -1.066   30.274   -4.207   350.009      (105) tulloch
+    0.067   -0.184   24.823   524.393      (130) new hogan
+       0        0        0      0          (160) farmington
+       0        0        0      0          (165) woodward
+    0.276    0.322   24.943   408.389      (170) pardee
+    0.276    0.322   24.943   408.389      (175) camanche
+
+

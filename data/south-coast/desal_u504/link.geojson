@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"Desal_U504",
+ "description":"Desalination to Central MWD",
+ "type":"Diversion",
+ "origin":"Desal",
+ "terminus":"U504",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":2072},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.889494298342,39.1004789173387]},
+ "properties":{"prmname":"HGR04",
+ "description":"Hidden node for calibration of GW-4",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

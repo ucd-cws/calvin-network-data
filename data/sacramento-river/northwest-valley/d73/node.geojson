@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.444121960665,40.600872403586]},
+ "properties":{"prmname":"D73",
+ "description":"Clear Creek inflow To Sacramento River",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

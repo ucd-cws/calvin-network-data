@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP506_HNP506",
+ "description":"",
+ "type":"Diversion",
+ "origin":"WWP506",
+ "terminus":"HNP506",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":518},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

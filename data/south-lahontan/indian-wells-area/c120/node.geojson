@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-118.04170641,35.3827521620684]},
+ "properties":{"prmname":"C120",
+ "description":"LAA System",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

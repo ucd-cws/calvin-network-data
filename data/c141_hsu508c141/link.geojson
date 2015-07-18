@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C141_HSU508C141",
+ "description":"",
+ "type":"Diversion",
+ "origin":"C141",
+ "terminus":"HSU508C141",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

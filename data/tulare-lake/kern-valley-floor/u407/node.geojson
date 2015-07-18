@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.113180568819,35.6220259850101]},
+ "properties":{"prmname":"U407",
+ "description":"Delano/Wasco CVPM20 Urban IN",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

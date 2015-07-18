@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"INT MR_WWP505",
+ "description":"Total Urban Return Flow",
+ "type":"Diversion",
+ "origin":"INT MR",
+ "terminus":"WWP505",
+ "amplitude":0.9,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

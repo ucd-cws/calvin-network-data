@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP12_A305",
+ "description":"Agricultural groundwater pumping GW-12 to CVPM 12 Demand",
+ "type":"Diversion",
+ "origin":"HGP12",
+ "terminus":"A305",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":59.4},
+ "bounds":[{"type":"UBC","bound":86.85}],
+ "sinks":null}}

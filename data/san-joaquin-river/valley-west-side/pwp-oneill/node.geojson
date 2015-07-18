@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.04871821241,37.1003451980983]},
+ "properties":{"prmname":"PWP-ONeill",
+ "description":"ONeill Power Plant",
+ "type":"Power Plant",
+ "inflows":null,
+ "sinks":null}}

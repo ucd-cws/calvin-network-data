@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C87_D76a",
+ "description":"Sacramento River downstream of Paynes Creek",
+ "type":"Diversion",
+ "origin":"C87",
+ "terminus":"D76a",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":{"default":{"description":"DA 10 local depletion","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}]}}}}

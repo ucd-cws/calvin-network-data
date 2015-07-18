@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C158_HARCH",
+ "description":"Artificial Recharge for Coachella",
+ "type":"Diversion",
+ "origin":"C158",
+ "terminus":"HARCH",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1.6724},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

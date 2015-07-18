@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.045337303855,36.3888493616178]},
+ "properties":{"prmname":"C56",
+ "description":"Kaweah River",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null}}

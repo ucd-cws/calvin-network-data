@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU404AN9_A404A",
+ "description":"California Aqueduct delivery to CVPM 15 (DA 60B) (Dudley Ridge WD, Empire West Side ID, County of Kings, Tulare Lake Basin WSD)",
+ "type":"Diversion",
+ "origin":"HSU404AN9",
+ "terminus":"A404A",
+ "amplitude":0.93,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

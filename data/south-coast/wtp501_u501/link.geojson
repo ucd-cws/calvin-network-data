@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WTP501_U501",
+ "description":"",
+ "type":"Diversion",
+ "origin":"WTP501",
+ "terminus":"U501",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":375.92},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

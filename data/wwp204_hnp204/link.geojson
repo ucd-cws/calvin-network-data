@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP204_HNP204",
+ "description":"",
+ "type":"Diversion",
+ "origin":"WWP204",
+ "terminus":"HNP204",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":518},
+ "bounds":[{"type":"UBC","bound":0.56}],
+ "sinks":null}}

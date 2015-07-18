@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"GW-19_HGP19",
+ "description":"Hidden GW pumping calibration link",
+ "type":"Diversion",
+ "origin":"GW-19",
+ "terminus":"HGP19",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

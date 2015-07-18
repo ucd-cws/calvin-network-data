@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU103AC30_A103A",
+ "description":"Colusa Basin Drain diversion to CVPM 3 (DA 12)",
+ "type":"Diversion",
+ "origin":"HSU103AC30",
+ "terminus":"A103A",
+ "amplitude":0.88,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

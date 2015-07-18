@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C13_HSU103AC13",
+ "description":"surface delivery CVPM 3",
+ "type":"Diversion",
+ "origin":"C13",
+ "terminus":"HSU103AC13",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":198.1}],
+ "sinks":null}}

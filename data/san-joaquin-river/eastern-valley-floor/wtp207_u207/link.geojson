@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WTP207_U207",
+ "description":"",
+ "type":"Diversion",
+ "origin":"WTP207",
+ "terminus":"U207",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":30},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

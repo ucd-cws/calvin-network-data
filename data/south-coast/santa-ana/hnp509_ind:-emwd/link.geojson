@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP509_Ind: EMWD",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP509",
+ "terminus":"Ind: EMWD",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

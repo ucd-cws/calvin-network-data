@@ -1,0 +1,7 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-118.980478841791,35.0172573387117]},
+ "properties":{"prmname":"PMPChris",
+ "description":"Chrisman Pumping Plant",
+ "type":"Pump Plant",
+ "inflows":null,
+ "sinks":null}}

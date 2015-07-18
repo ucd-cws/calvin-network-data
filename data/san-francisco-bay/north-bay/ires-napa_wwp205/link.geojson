@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"IRES NAPA_WWP205",
+ "description":"Interior urban Res Return Flow TOTAL",
+ "type":"Diversion",
+ "origin":"IRES NAPA",
+ "terminus":"WWP205",
+ "amplitude":0.9,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

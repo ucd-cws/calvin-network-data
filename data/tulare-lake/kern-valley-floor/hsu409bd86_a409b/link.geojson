@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU409BD86_A409B",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HSU409BD86",
+ "terminus":"A409B",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

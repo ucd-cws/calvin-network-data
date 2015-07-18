@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C106_HSU501C106",
+ "description":"",
+ "type":"Diversion",
+ "origin":"C106",
+ "terminus":"HSU501C106",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

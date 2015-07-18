@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"Desal_U406",
+ "description":"Desalination plant for SB-SLO",
+ "type":"Diversion",
+ "origin":"Desal",
+ "terminus":"U406",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":2072},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

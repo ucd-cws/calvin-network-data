@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"A404B_HU404B",
+ "description":"",
+ "type":"Diversion",
+ "origin":"A404B",
+ "terminus":"HU404B",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

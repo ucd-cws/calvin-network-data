@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP209_IND EBMUD",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP209",
+ "terminus":"IND EBMUD",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

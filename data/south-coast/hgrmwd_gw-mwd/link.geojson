@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGRMWD_GW-MWD",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HGRMWD",
+ "terminus":"GW-MWD",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

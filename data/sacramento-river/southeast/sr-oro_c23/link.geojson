@@ -1,0 +1,11 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-ORO_C23",
+ "description":"Reservoir release from Oroville Dam to Feather River",
+ "type":"Diversion",
+ "origin":"SR-ORO",
+ "terminus":"C23",
+ "amplitude":1,
+ "costs":{ "type":"Monthly Variable","costs":{"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"},"":{"$ref":"costs/.csv"}}},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CVPM21AS_HSD21",
+ "description":"SW return flow from CVPM 21",
+ "type":"Diversion",
+ "origin":"CVPM21AS",
+ "terminus":"HSD21",
+ "amplitude":0.278,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"U202_EXT CVPM05",
+ "description":"",
+ "type":"Diversion",
+ "origin":"U202",
+ "terminus":"EXT CVPM05",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null}}

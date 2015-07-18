@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"GW-16_HGP16",
+ "description":"Link to hidden node for calibration of GW-16",
+ "type":"Diversion",
+ "origin":"GW-16",
+ "terminus":"HGP16",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

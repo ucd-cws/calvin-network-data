@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU402AC92_A402A",
+ "description":"California Aqueduct delivery to CVPM 14 (Westlands WD)",
+ "type":"Diversion",
+ "origin":"HSU402AC92",
+ "terminus":"A402A",
+ "amplitude":0.93,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

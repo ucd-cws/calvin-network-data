@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C116_C120",
+ "description":"Upper Owens River",
+ "type":"Diversion",
+ "origin":"C116",
+ "terminus":"C120",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

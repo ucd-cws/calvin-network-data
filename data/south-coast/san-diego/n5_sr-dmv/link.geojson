@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"N5_SR-DMV",
+ "description":"Eastside Pipeline",
+ "type":"Diversion",
+ "origin":"N5",
+ "terminus":"SR-DMV",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null}}

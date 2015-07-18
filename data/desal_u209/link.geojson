@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"Desal_U209",
+ "description":"Desalination option for EBMUD",
+ "type":"Diversion",
+ "origin":"Desal",
+ "terminus":"U209",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":2072},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

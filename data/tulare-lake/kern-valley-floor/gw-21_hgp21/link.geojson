@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"GW-21_HGP21",
+ "description":"GW pumping calibration link",
+ "type":"Diversion",
+ "origin":"GW-21",
+ "terminus":"HGP21",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

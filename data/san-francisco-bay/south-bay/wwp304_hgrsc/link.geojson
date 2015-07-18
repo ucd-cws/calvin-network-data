@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP304_HGRSC",
+ "description":"",
+ "type":"Diversion",
+ "origin":"WWP304",
+ "terminus":"HGRSC",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null}}

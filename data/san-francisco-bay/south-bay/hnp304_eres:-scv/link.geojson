@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HNP304_ERes: SCV",
+ "description":"",
+ "type":"Diversion",
+ "origin":"HNP304",
+ "terminus":"ERes: SCV",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null}}

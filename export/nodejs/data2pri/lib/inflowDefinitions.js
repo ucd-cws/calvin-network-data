@@ -43,7 +43,7 @@ module.exports = function(nodes) {
 
         outputtext += 'LD        ' + LD + '\n';
         outputtext += 'IN        A='+''+' B=SOURCE_'+prmname+ ' C='+'FLOW_LOC(KAF)'+' E='+'1MON'+' F=' + partF + '\n';
-        outputtext += END_gen();
+        outputtext += writelib.END_gen();
 
       }
     }

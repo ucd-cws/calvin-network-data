@@ -5,7 +5,7 @@ module.exports = function(nodes) {
   var outputtext = '', i, node;
 
   outputtext += '..        ***** NODE DEFINITIONS *****\n';
-  outputtext += END_gen();
+  outputtext += writelib.END_gen();
 
   for(i = 0; i < nodes.length; i++) {
     node = nodes[i];

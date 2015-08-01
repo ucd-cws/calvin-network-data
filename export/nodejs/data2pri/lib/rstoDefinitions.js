@@ -89,7 +89,7 @@ module.exports = function(nodes, filename) {
       PS += writelib.P_gen('PS', 'ALL', 'UCD CAP1', 'DUMMY' , 'BLANK', '', '', '');
     }
     var QI = writelib.QI_gen(filename, prmname, 'STOR', '', '', '');
-    outputtext += link + LD + QL + QU + BL + BU + PS + QI + END_gen();
+    outputtext += link + LD + QL + QU + BL + BU + PS + QI + writelib.END_gen();
   }
 
   return outputtext;

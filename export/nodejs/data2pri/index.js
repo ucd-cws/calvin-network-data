@@ -1,6 +1,10 @@
 var prepare = require('./lib/prepare');
+var create = require('./lib/create');
 
-console.log('Crawling data directory...');
+console.log('Importing data directory...');
 prepare(function(items){
-  console.log(items.length);
+  console.log('Found '+items.length+' nodes and links.  Creating pri files...');
+  create(items, function(){
+    console.log('done.');
+  });
 });

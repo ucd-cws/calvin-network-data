@@ -14,7 +14,7 @@ module.exports = function(dir, callback) {
   walker = walk.walk(dataDir, {});
 
   walker.on("file", function (root, fileStats, next) {
-   var json = importGeojson(root+'/'+fileStats.name);
+   var json = importGeojson(root, fileStats.name);
    if( json ) items.push(json);
 
    next();
@@ -30,13 +30,13 @@ module.exports = function(dir, callback) {
 };
 
 
-function importGeojson(file) {
+function importGeojson(path, file) {
   if( !file.match(/\.geojson$/) ) return null;
 
   var json;
   try {
     // currently some badness in the JSON
-    json = fs.readFileSync(file, 'utf-8').replace(/[\r\n]/g, '');
+    json = fs.readFileSync(path+'/'+file, 'utf-8').replace(/[\r\n]/g, '');
     json = JSON.parse(json);
   } catch(e) {
     console.log('Invalid JSON: '+file);
@@ -46,6 +46,9 @@ function importGeojson(file) {
   if( !json ) return null;
   if( !json.properties ) return null;
   if( !json.properties.type || json.properties.type == 'Region' ) return null;
+
+  json.properties.repoFilePath = path;
+  json.properties.repoFilename = file;
 
   return json;
 }

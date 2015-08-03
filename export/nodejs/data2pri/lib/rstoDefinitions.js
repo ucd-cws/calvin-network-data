@@ -78,10 +78,10 @@ module.exports = function(nodes, filename) {
       //EV evaporation rate always included with PS
       PS += 'EV        A=' + 'UCD CAP1' + ' B=' + prmname + ' C=' + 'EVAP_RATE(FT)' + ' F=' + description + '\n';
       for( var month_i = 0 ; month_i < 12; month_i++) {
-        PS += writelib.P_gen('PS', months[month_i], 'UCD CAP1', prmname , '', '', '', '');
+        PS += writelib.P_gen('PS', writelib.months[month_i], 'UCD CAP1', prmname , '', '', '', '');
       }
     }
-    else if ( node.properties.costs.type === 'Annual Variable') {
+    else if ( node.properties.costs.type === 'Annual Variable' && node.properties.costs.costs && node.properties.costs.costs.length > 0) {
       var mo_label = node.properties.costs.costs[0].label;
       PS += writelib.P_gen('PS',  mo_label , 'UCD CAP1', 'DUMMY' , 'Q(K$-KAF)', '', '', '');
     }

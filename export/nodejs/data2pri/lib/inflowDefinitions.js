@@ -14,12 +14,12 @@ module.exports = function(nodes) {
 
   var node, i, partF, LD;
 
-  for(i = 0; i < nodes_list.length; i++) {
+  for(i = 0; i < nodes.length; i++) {
     node = nodes[i];
 
     if( node.properties.type !== 'Diversion' || node.properties.type !== 'Return Flow'  ) {
       var prmname = node.properties.prmname;
-      if( node.properties.inflows ) {
+      if( node.properties.inflows && node.properties.inflows.length > 0 ) {
 
         outputtext += 'LINK      INFL      SOURCE    ' + prmname + '   1.000     0.00\n';
 

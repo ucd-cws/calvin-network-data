@@ -5,7 +5,7 @@ module.exports = function(nodes) {
 
   var i, node;
 
-  for(i = 0; i < links_list.length; i++) {
+  for(i = 0; i < nodes.length; i++) {
     node = nodes[i];
 
     if( node.properties.type != 'Diversion' || node.properties.type != 'Return Flow'  ) {

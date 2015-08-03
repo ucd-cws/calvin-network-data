@@ -1,8 +1,8 @@
 var fs = require('fs');
 var node_definitions = require('./nodeDefinitions');
-var inflow_definitions = require('./nodeDefinitions');
-var rsto_definitions = require('./nodeDefinitions');
-var divr_definitions = require('./nodeDefinitions');
+var inflow_definitions = require('./inflowDefinitions');
+var rsto_definitions = require('./rstoDefinitions');
+var divr_definitions = require('./divrDefinitions');
 
 module.exports = function(nodes) {
   nodetext = node_definitions(nodes);

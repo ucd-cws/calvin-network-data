@@ -1,0 +1,28 @@
+{
+  "name": "calvin-network-data",
+  "version": "0.4.0",
+  "description": "California Water Network Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucd-cws/calvin-network-data.git"
+  },
+  "keywords": [
+    "water",
+    "California"
+  ],
+  "author": "Center for Watershed Sciences",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ucd-cws/calvin-network-data/issues"
+  },
+  "homepage": "https://github.com/ucd-cws/calvin-network-data#readme",
+  "dependencies": {
+    "node-getopt": "^0.2.3",
+    "sphericalmercator": "^1.0.3",
+    "walk": "^2.3.9"
+  }
+}

@@ -1,6 +1,5 @@
 "use strict";
 var netfs = require('./lib/networkfs')
-  , create = require('./lib/create')
   , Getopt = require('node-getopt')
   , SphericalMercator = require('sphericalmercator')
   , sm , ll , pt , delta
@@ -10,7 +9,8 @@ var netfs = require('./lib/networkfs')
 getopt = new Getopt([
  ['d' , 'dir=ARG'],
  ['l' , 'll=ARG' , 'longitude-latitude pair'],
- [''  , 'delta=ARG', 'delta in (m) from -ll to locate pt'],
+ ['t', , 'type=ARG' , 'Limit to type(s)'],
+ ['x'  , 'delta=ARG', 'delta in (m) from -ll to locate pt'],
  ['r' , 'reverse', 'reverse -ll order (latitude-longitude' ],
  ['h' , 'help'],
 ]).bindHelp();
@@ -58,10 +58,13 @@ if (opt.argv) {
      console.info(item,json);
 });
 }
+
+netfs.shorthand(function(err,paths) {
+  console.log('shorthand',paths);
+});
+
 //netfs.list('.',function(items){
 //    for (var i = 0; i < items.length; i++) {
 //     console.log(items[i]);
 //    }
 //});
-
-

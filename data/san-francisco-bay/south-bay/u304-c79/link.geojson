@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"U304-C79",
+ "description":"Hypothetical Transfer from Santa Clara to SFPUC",
+ "type":"Diversion",
+ "origin":"U304",
+ "terminus":"C79",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":-148},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null,
+ "flow":null}}

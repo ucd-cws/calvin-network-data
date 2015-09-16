@@ -4,5 +4,5 @@
  "description":"Feather River inflow to Sacramento River",
  "type":"Junction",
  "inflows":null,
- "sinks":{"sink_at_junction":{"description":"DA 70 local depletion","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/sink_at_junction/EQT.csv"}}]}}}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

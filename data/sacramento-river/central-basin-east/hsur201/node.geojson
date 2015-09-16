@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.680682069803,39.2423370593584]},
+ "properties":{"prmname":"HSUR201",
+ "description":"Hidden node for supply into the Gray Lodge Refuge",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.274070072574,39.2348930147627]},
+ "geometry":{"type":"Point","coordinates":[-121.209199,39.295932]},
  "properties":{"prmname":"C27",
  "description":"Confluence of Yuba River forks",
  "type":"Junction",
- "inflows":null,
- "sinks":null}}
+ "inflows":{"default":{"description":"M & S FORK YUBA RIVER","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":null}}

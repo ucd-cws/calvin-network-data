@@ -4,4 +4,5 @@
  "description":"Hayward diversion point from the Hetch-Hetchy Aqueduct for the purpose of the EBMUD intertie",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

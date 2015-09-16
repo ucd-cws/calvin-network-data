@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.77994010045,37.1940734612101]},
+ "properties":{"prmname":"HSUR302",
+ "description":"SW and GW diversion to East of San Joaquin River Refuges",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

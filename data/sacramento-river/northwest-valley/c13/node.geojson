@@ -4,4 +4,5 @@
  "description":"Glenn Colusa California Aqueductnal",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

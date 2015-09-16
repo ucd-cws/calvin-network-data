@@ -4,4 +4,5 @@
  "description":"MWD San Diego Pipelines 1, 2, & 4 (treated water)",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

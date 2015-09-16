@@ -4,4 +4,5 @@
  "description":"Water treatment node into Yuba",
  "type":"Water Treatment",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

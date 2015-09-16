@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP15-A404B",
+ "description":null,
+ "type":"Diversion",
+ "origin":"HGP15",
+ "terminus":"A404B",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":74.370002746582},
+ "bounds":[{"type":"UBC","bound":335.25}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

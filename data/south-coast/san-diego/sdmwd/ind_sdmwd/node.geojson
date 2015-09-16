@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.914539265617,33.0175153078573]},
+ "properties":{"prmname":"Ind: SDMWD",
+ "description":"DAU 120 Urban Demand for Industrial Sector",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

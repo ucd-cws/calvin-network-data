@@ -4,4 +4,5 @@
  "description":"Sacramento River Diversion To CVPM 2",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

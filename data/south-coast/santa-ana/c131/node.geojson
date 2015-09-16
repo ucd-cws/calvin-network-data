@@ -4,4 +4,5 @@
  "description":"East Branch SWP Santa Ana Pipeline diversion to SBV Urban",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.721155680043,34.8121254100938]},
- "properties":{"prmname":"PMP-OSO",
- "description":"West Branch SWP Pumping Plant",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null}}

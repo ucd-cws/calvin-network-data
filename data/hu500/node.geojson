@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HU500",
+ "description":null,
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

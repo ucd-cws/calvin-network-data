@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C106-WTP501",
+ "description":null,
+ "type":"Diversion",
+ "origin":"C106",
+ "terminus":"WTP501",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":140.600006103516},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C12-D76b",
+ "description":"Stony Creek inflow to Sacramento River",
+ "type":"Diversion",
+ "origin":"C12",
+ "terminus":"D76b",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

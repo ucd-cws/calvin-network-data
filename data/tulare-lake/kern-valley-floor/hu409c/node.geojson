@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.049017546005,35.1730477076416]},
+ "geometry":{"type":"Point","coordinates":[-119.06291050756,35.2412355842267]},
  "properties":{"prmname":"HU409C",
- "description":"",
+ "description":null,
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

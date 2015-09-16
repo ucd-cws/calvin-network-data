@@ -4,4 +4,5 @@
  "description":"Redding Area demand is a  time series of monthly withdrawals from Shasta for surface water demand (DAU 141, 143.)",
  "type":"Urban Demand",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

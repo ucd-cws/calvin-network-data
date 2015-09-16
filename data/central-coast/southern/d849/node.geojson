@@ -3,5 +3,6 @@
  "properties":{"prmname":"D849",
  "description":"California Aqueduct - Coastal Branch",
  "type":"Junction",
- "inflows":{"default":{"description":"Local Supply SB and SLO","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

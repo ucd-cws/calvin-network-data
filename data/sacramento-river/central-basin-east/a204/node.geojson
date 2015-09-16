@@ -4,4 +4,5 @@
  "description":"CVPM7 delivery",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

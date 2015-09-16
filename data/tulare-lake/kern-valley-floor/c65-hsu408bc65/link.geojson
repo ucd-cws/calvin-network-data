@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C65-HSU408BC65",
+ "description":"Surface delivery CVPM 19 (formerly C97_C100 =65.6)",
+ "type":"Diversion",
+ "origin":"C65",
+ "terminus":"HSU408BC65",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":84.6999969482422}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

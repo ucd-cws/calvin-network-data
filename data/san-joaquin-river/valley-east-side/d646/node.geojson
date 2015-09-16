@@ -4,4 +4,5 @@
  "description":"Merced River accretion",
  "type":"Junction",
  "inflows":{"default":{"description":"Accretion Lower Merced River","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

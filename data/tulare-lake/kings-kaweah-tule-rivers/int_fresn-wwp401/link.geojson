@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"INT FRESN-WWP401",
+ "description":"Interior Residential return flow TOTAL",
+ "type":"Diversion",
+ "origin":"INT FRESN",
+ "terminus":"WWP401",
+ "amplitude":0.899999976158142,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

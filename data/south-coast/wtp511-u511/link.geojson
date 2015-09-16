@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WTP511-U511",
+ "description":null,
+ "type":"Diversion",
+ "origin":"WTP511",
+ "terminus":"U511",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":460},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

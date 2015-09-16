@@ -4,4 +4,5 @@
  "description":"Water Treatment node to Ventura Co",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

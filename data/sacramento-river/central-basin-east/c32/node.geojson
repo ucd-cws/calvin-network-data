@@ -3,5 +3,6 @@
  "properties":{"prmname":"C32",
  "description":"Feather River Diversion to CVPM5",
  "type":"Junction",
- "inflows":{"default":{"description":"DA69 local water supply","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "inflows":{"default":{"description":"Projected Gain in DSA69","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

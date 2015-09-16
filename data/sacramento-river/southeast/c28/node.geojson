@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.269069661476,39.2238931998993]},
+ "geometry":{"type":"Point","coordinates":[-121.27001,39.238688]},
  "properties":{"prmname":"C28",
  "description":"Dry Creek Inflow to Feather River",
  "type":"Junction",
- "inflows":null,
- "sinks":null}}
+ "inflows":{"default":{"description":"DEER CREEK","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":null}}

@@ -1,0 +1,14 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP05-R202",
+ "description":"Maximum of maximum monthly GW used as water supply source at Sutter NWR assuming \"New Level 2 and Level 4\" delivery schedule and historical surface water deliveries from SEWD and Sutter Bypass. Source: E-mail correspondence with Rachel Esralew, Hydrologist, USFWS regarding the Sutter NWR delivery alternatives explored in the Sutter NWR Water Supply Report published Nov 2014. - Karandev Singh 6.4.2017
+",
+ "type":"Diversion",
+ "origin":"HGP05",
+ "terminus":"R202",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":40.0900001525879},
+ "bounds":[{"type":"UBC","bound":3.35999989509583}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-115.572634515202,33.6030165334712]},
+ "properties":{"prmname":"HSU512C143",
+ "description":"Hidden Ag Water Supply node for Bard WD",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

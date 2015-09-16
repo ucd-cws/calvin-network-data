@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP03-U103",
+ "description":null,
+ "type":"Diversion",
+ "origin":"HGP03",
+ "terminus":"U103",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":57.1300010681152},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

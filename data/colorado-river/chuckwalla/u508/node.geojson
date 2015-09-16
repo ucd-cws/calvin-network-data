@@ -4,4 +4,5 @@
  "description":"Water Treatment Node for Blythe",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

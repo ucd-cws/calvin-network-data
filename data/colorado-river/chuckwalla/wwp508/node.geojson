@@ -4,5 +4,6 @@
  "description":"Wastewater Treatment node for Blythe",
  "type":"Water Treatment",
  "inflows":null,
- "sinks":{"default":{"description":"","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}}}}
+ "sinks":{"default":{"description":null,"costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}]}},
+ "flow":null}}

@@ -4,4 +4,5 @@
  "description":"Delano/Wasco CVPM20 Urban IN",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

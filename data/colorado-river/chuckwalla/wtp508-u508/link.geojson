@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WTP508-U508",
+ "description":null,
+ "type":"Diversion",
+ "origin":"WTP508",
+ "terminus":"U508",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":230.880004882812},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

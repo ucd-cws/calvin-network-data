@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.11200458163,33.7176796323232]},
+ "properties":{"prmname":"IRes: EMWD",
+ "description":"DAU 98, 104, 110 - Urban Demand for Interior Res/Comm",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

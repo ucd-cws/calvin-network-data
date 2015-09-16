@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-OL-C120",
+ "description":"Lower Owens river restoration water returned to LAA",
+ "type":"Diversion",
+ "origin":"SR-OL",
+ "terminus":"C120",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

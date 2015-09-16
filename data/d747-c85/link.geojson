@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D747-C85",
+ "description":"Deliveries to SWP Ag Region 5 from California Aqueduct",
+ "type":"Diversion",
+ "origin":"D747",
+ "terminus":"C85",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"EXT CVPM18-HGR18",
+ "description":"Urban Return Flow to GW",
+ "type":"Diversion",
+ "origin":"EXT CVPM18",
+ "terminus":"HGR18",
+ "amplitude":0.467999994754791,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

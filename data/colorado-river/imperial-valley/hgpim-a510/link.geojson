@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGPIM-A510",
+ "description":null,
+ "type":"Diversion",
+ "origin":"HGPIM",
+ "terminus":"A510",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":37},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

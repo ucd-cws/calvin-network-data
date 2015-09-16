@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.793434289448,34.9702038793362]},
- "properties":{"prmname":"HGPKRN",
- "description":"",
- "type":"Junction",
- "inflows":null,
- "sinks":null}}

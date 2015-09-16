@@ -4,4 +4,5 @@
  "description":"CVPM11 return to Stanislaus River",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

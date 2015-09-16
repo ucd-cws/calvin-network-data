@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.03433737227,35.2098270270203]},
+ "geometry":{"type":"Point","coordinates":[-119.105153822711,35.3136542820669]},
  "properties":{"prmname":"HGR21",
  "description":"Hidden node for calibration of GW-21",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

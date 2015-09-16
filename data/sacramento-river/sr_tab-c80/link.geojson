@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-TAB-C80",
+ "description":"Diversion from Thermalito afterbay to CVPM 5 (DA 69)",
+ "type":"Diversion",
+ "origin":"SR-TAB",
+ "terminus":"C80",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

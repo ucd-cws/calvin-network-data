@@ -3,5 +3,6 @@
  "properties":{"prmname":"D76b",
  "description":"Stony Creek inflow to Sacramento River",
  "type":"Junction",
- "inflows":null,
- "sinks":null}}
+ "inflows":{"default":{"description":"Big Chico Creek","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":null}}

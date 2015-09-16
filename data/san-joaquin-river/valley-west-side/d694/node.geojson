@@ -4,5 +4,5 @@
  "description":"San Joaquin River diversion to CVPM13",
  "type":"Junction",
  "inflows":null,
- "sinks":{"sink_at_junction":{"description":"Depletion: San Joaquin River between Bypass and Merced River","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/sink_at_junction/EQT.csv"}}]}}}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

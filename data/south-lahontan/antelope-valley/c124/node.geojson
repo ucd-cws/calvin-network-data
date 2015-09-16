@@ -4,4 +4,5 @@
  "description":"East Branch SWP diversion to GW-MJ - Morongo & Mojave Pipelines",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

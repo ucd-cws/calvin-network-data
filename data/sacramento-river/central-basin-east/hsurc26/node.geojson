@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.589633591176,39.253187986003]},
- "properties":{"prmname":"HSURC26",
- "description":"Hidden node on delivery via CVPM 5 farm gate to Sac E Refuge",
- "type":"Junction",
- "inflows":null,
- "sinks":null}}

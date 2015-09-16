@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.151458927028,36.6285482166964]},
+ "geometry":{"type":"Point","coordinates":[-118.185682194266,36.5370606583949]},
  "properties":{"prmname":"HAROW",
- "description":"",
+ "description":null,
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU408BN11-A408B",
+ "description":null,
+ "type":"Diversion",
+ "origin":"HSU408BN11",
+ "terminus":"A408B",
+ "amplitude":0.930000007152557,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

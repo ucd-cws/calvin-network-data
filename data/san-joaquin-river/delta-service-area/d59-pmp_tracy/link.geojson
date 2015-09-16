@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D59-PMP-Tracy",
+ "description":"Delta Mendota Canal, diversion to Tracy Pumping Plant",
+ "type":"Diversion",
+ "origin":"D59",
+ "terminus":"PMP-Tracy",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

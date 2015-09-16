@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C72-HSU306C72",
+ "description":"surface delivery CVPM 13",
+ "type":"Diversion",
+ "origin":"C72",
+ "terminus":"HSU306C72",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":89.5}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

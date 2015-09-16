@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C43-HSU207C43",
+ "description":"Central San Joaquin ID from Stanislaus River diversion to CVPM 8",
+ "type":"Diversion",
+ "origin":"C43",
+ "terminus":"HSU207C43",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":11}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

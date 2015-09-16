@@ -4,4 +4,5 @@
  "description":"Water treatment node for the urban areas of Redding",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

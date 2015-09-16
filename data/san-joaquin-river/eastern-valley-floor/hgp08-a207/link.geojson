@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP08-A207",
+ "description":"Agricultural groundwater pumping GW-8 to CVPM 8 Demand",
+ "type":"Diversion",
+ "origin":"HGP08",
+ "terminus":"A207",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":74.7099990844727},
+ "bounds":[{"type":"UBC","bound":185.619995117188}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

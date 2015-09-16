@@ -4,4 +4,5 @@
  "description":"junction node for CVPM 8",
  "type":"Agricultural Demand",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

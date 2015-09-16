@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU512C143-A512",
+ "description":"SW supply for Bard WD from All-American Canal",
+ "type":"Diversion",
+ "origin":"HSU512C143",
+ "terminus":"A512",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

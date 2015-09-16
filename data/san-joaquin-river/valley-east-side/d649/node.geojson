@@ -4,4 +4,5 @@
  "description":"Merced River diversion to CVPM 13",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

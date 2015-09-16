@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.317458371411,36.1310241338568]},
+ "geometry":{"type":"Point","coordinates":[-119.289071810784,36.1252138180949]},
  "properties":{"prmname":"HP405",
- "description":"",
+ "description":null,
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

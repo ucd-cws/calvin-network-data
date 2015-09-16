@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CVPM12S-HSD305",
+ "description":"SW return flow from CVPM 12",
+ "type":"Diversion",
+ "origin":"CVPM12S",
+ "terminus":"HSD305",
+ "amplitude":0.28099998831749,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

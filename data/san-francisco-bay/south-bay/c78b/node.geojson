@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.046264326855,37.6300225928746]},
- "properties":{"prmname":"C78b",
- "description":"EBMUD to SFPUC via Hayward node",
- "type":"Junction",
- "inflows":null,
- "sinks":null}}

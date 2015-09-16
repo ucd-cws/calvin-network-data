@@ -4,4 +4,5 @@
  "description":"California Aqueduct diversion to CVPM 10",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C65-HSU409AC65",
+ "description":"Surface delivery CVPM 21",
+ "type":"Diversion",
+ "origin":"C65",
+ "terminus":"HSU409AC65",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":135.5}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

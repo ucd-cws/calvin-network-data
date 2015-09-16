@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C688-HSU405C688",
+ "description":"Surface delivery Friant-Kern Canal to CVPM 18",
+ "type":"Diversion",
+ "origin":"C688",
+ "terminus":"HSU405C688",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":172.300003051758}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

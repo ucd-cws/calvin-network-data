@@ -4,4 +4,5 @@
  "description":"Water treatment node for all of CVPM 8, representing Galt",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

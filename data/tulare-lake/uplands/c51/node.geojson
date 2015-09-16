@@ -4,4 +4,5 @@
  "description":"Kings River",
  "type":"Junction",
  "inflows":{"default":{"description":"Accretion Kings River","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

@@ -5,4 +5,5 @@
  "type":"Water Treatment",
  "inflows":null,
  "sinks":{"default":{"description":"San Francisco waste","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}}}}
+ "cost":0},"bounds":[{"type":"NOB"}]}},
+ "flow":null}}

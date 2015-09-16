@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C53-HSU401C53",
+ "description":"Surface delivery CVPM 16",
+ "type":"Diversion",
+ "origin":"C53",
+ "terminus":"HSU401C53",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":130.199996948242}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

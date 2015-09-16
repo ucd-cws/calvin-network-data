@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.66425641619,33.0455973250807]},
+ "properties":{"prmname":"ERes:SDWD",
+ "description":"DAU 120, & 350-352 Exterior Residential/landscape demand",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":{"default":{"description":null,"costs":{"type":"Constant",
+ "cost":1},"bounds":[{"type":"NOB"}]}},
+ "flow":null}}

@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.325628302018,34.2043202427351]},
+ "properties":{"prmname":"ERes: SBV",
+ "description":"DAU 308 & part of 100 - Urban Demand for Exterior Res/landscape",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

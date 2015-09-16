@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C53-WTP401",
+ "description":null,
+ "type":"Diversion",
+ "origin":"C53",
+ "terminus":"WTP401",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":45},
+ "bounds":[{"type":"UBC","bound":14}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

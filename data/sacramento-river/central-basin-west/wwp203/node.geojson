@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.993700561921,38.4522328348174]},
+ "geometry":{"type":"Point","coordinates":[-122.071881937601,38.3739710801707]},
  "properties":{"prmname":"WWP203",
- "description":"",
+ "description":null,
  "type":"Water Treatment",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

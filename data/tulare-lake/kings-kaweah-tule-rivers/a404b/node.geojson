@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.844135639516,36.1958628421083]},
+ "geometry":{"type":"Point","coordinates":[-119.755884481452,36.267972488448]},
  "properties":{"prmname":"A404B",
- "description":"",
+ "description":null,
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

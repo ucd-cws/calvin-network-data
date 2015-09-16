@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.377529402834,34.1321502116429]},
+ "geometry":{"type":"Point","coordinates":[-117.352140333355,34.2370420037865]},
  "properties":{"prmname":"HP506",
  "description":"Hidden node for exapanded wastewater recycling for SBV",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

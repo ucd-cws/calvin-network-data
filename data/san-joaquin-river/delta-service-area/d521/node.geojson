@@ -4,4 +4,5 @@
  "description":"Delta Cross Channel inflow to San Joaquin River",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

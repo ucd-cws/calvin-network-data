@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-CMN-C38",
+ "description":"Mokel. River Reach",
+ "type":"Diversion",
+ "origin":"SR-CMN",
+ "terminus":"C38",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

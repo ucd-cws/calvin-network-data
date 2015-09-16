@@ -5,4 +5,5 @@
  "type":"Junction",
  "inflows":null,
  "sinks":{"sink_at_junction":{"description":"Depletion from Kern River","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/sink_at_junction/EQT.csv"}}]}}}}
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/sink_at_junction/EQT.csv"}}]}},
+ "flow":{"$ref" : "flow.csv"}}}

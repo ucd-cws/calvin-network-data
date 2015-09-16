@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.411175094225,35.5671124935143]},
+ "geometry":{"type":"Point","coordinates":[-119.336316839836,35.636301721325]},
  "properties":{"prmname":"N10",
- "description":"",
+ "description":null,
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

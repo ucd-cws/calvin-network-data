@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.842387713157,33.0511495705189]},
+ "geometry":{"type":"Point","coordinates":[-116.818343231783,33.0976955690664]},
  "properties":{"prmname":"A511",
- "description":"",
+ "description":null,
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

@@ -4,4 +4,5 @@
  "description":"South Bay Aqueduct diversion to Lake Del Valle",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

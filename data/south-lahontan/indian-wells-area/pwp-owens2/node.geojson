@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.954339013469,36.1372087183548]},
- "properties":{"prmname":"PWP-Owens2",
- "description":"LAA System Power Plant",
- "type":"Power Plant",
- "inflows":{"default":{"description":"LAA CALIBRATION","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}

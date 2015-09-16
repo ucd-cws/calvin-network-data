@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D723-D608",
+ "description":"Delta Mendota canal delivery to Mendota Pool",
+ "type":"Diversion",
+ "origin":"D723",
+ "terminus":"D608",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

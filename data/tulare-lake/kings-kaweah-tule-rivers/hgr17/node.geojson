@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.473451381825,36.6204992020864]},
+ "geometry":{"type":"Point","coordinates":[-119.559872052846,36.6017245817672]},
  "properties":{"prmname":"HGR17",
  "description":"CVPM17 Return Flow to GW",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

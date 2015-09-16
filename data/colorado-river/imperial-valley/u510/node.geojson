@@ -4,4 +4,5 @@
  "description":"Urban water treatment node for El Centro",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

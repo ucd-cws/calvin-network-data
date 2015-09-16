@@ -7,6 +7,7 @@ import java
 import getopt
 import types
 import csv
+#import pandas as pd
 
 dssfn = None
 TS=False
@@ -24,7 +25,7 @@ for opt,arg in opts:
     if opt in ("-c","--csv"):
         CSV=arg
     elif opt in ("-n","--path"):
-        PAT=arg
+        PATH=arg
     elif opt in ("-t","--ts"):
         TS=True
     elif opt in ("-p","--pd"):
@@ -38,22 +39,15 @@ if (len(args) == 0):
 
 dss = HecDss.open(args[0],1)
 
-if (TS):
-    print "path,startTime,endTime,interval,parameter,quality,subLocation,subParameter,timeZoneId,timeZoneRawOffset,type,units,pairs"
-elif (PD):
-    print "path,mon,datum,labels,numberCurves,numberOrdinates,offset,shift,transformType,data,xtype,ytype,yunits"
-elif (DATA):
-    print "fullName,location,subVersion,version,watershed"
-elif (LIST):
-    print "pathname"
-
 if(CSV):
-    print CSV
     csvfile=open(CSV,'rb')
+    df=pd.read_csv(CSV)
+    mon=df[0]
+    print mon
     reader=csv.reader(csvfile,delimiter=',')
-    print reader
-    for row in reader:
-        print ', '.join(row)
+    if (TS):
+        tsc = TimeSeriesContainer()
+        tsc.fullName=PATH
 else:
     assert False,"Need to Supply a CSV File"
 

@@ -5,4 +5,5 @@
  "type":"Water Treatment",
  "inflows":null,
  "sinks":{"default":{"description":"SW Discharge to ocean via local streams","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}}}}
+ "cost":0},"bounds":[{"type":"NOB"}]}},
+ "flow":null}}

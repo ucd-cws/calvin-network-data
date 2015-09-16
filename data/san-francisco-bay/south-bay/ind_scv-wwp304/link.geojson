@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"Ind:SCV-WWP304",
+ "description":"Ind Return Flow Total",
+ "type":"Diversion",
+ "origin":"Ind:SCV",
+ "terminus":"WWP304",
+ "amplitude":0.400000005960464,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

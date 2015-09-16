@@ -3,5 +3,6 @@
  "properties":{"prmname":"D606",
  "description":"San Joaquin River diversion to CVPM13",
  "type":"Junction",
- "inflows":{"default":{"description":"Accretion San Joaquin River: Millerton To Mendota Pool","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "inflows":{"default":{"description":"Only for climate change studies, for historical case all flows are zero.","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

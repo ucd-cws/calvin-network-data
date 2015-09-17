@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.803109575083,37.4121953139137]},
+ "properties":{"prmname":"HXI304",
+ "description":null,
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

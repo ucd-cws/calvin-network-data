@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.322692365475,39.9796829015754]},
+ "geometry":{"type":"Point","coordinates":[-122.259422925793,39.9573732497726]},
  "properties":{"prmname":"HGP02",
  "description":"Hidden calibration for GW-2",
  "type":"Junction",

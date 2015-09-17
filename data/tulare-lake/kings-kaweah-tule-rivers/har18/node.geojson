@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.347024780176,36.1296681021642]},
+ "geometry":{"type":"Point","coordinates":[-119.080486706956,36.1810558456022]},
  "properties":{"prmname":"HAR18",
  "description":"Artificial recharge node",
  "type":"Junction",

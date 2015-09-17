@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.078150996951,35.321757657572]},
+ "geometry":{"type":"Point","coordinates":[-119.001892785365,35.1580822306497]},
  "properties":{"prmname":"HGP21",
  "description":"Hidden node for pumping calibration of GW-21",
  "type":"Junction",

@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-114.679640235943,33.6375927169028]},
+ "properties":{"prmname":"HU508",
+ "description":"Surface supply to Palo Verde Ag",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

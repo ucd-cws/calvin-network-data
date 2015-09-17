@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.154938701246,33.6266559349649]},
+ "geometry":{"type":"Point","coordinates":[-116.427621483949,33.8054751625368]},
  "properties":{"prmname":"HARCH",
  "description":"Hidden node for artifical recharge of groundwater",
  "type":"Junction",

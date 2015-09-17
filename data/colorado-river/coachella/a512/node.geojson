@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-115.51937273849,33.5873817900573]},
- "properties":{"prmname":"A512",
- "description":"Hidden GW-SW Aggregation node for Bard WD",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}

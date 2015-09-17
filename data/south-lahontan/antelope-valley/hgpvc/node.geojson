@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-118.184803677569,34.6225957051493]},
+ "properties":{"prmname":"HGPVC",
+ "description":null,
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

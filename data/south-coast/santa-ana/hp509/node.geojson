@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.11200458163,33.7176796323232]},
+ "properties":{"prmname":"HP509",
+ "description":"Hidden node for exapanded wastewater recycling for EMWD",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

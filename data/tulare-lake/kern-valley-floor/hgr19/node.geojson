@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.389675593972,35.4990142326719]},
+ "geometry":{"type":"Point","coordinates":[-119.602630116194,35.5013218060079]},
  "properties":{"prmname":"HGR19",
  "description":"Hidden node for calibration of GW-19",
  "type":"Junction",

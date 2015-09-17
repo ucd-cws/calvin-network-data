@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-118.913136723861,34.4137183615411]},
+ "properties":{"prmname":"WTP501",
+ "description":null,
+ "type":"Water Treatment",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

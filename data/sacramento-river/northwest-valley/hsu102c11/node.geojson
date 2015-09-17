@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.298962345383,39.8546264463778]},
+ "geometry":{"type":"Point","coordinates":[-122.182590632535,39.9675920953977]},
  "properties":{"prmname":"HSU102C11",
  "description":"Hidden node on surface water conveyance channel",
  "type":"Junction",

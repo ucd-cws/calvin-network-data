@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.693062,39.315091]},
- "properties":{"prmname":"HSD202",
- "description":"Hidden surface water calibration node",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

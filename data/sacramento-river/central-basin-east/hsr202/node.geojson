@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.717508815922,39.2816226091917]},
+ "geometry":{"type":"Point","coordinates":[-121.745108003599,39.1768650442586]},
  "properties":{"prmname":"HSR202",
  "description":"Hidden surface water node for Sutter Refuge",
  "type":"Junction",

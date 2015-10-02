@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.871577389147,39.1593953981986]},
+ "properties":{"prmname":"HSU202D43A",
+ "description":"Butte Creek Diversions to CVPM 05",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.645629621398,39.2325887634068]},
- "properties":{"prmname":"HXI201",
- "description":null,
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.760084373732,39.2858372210846]},
+ "geometry":{"type":"Point","coordinates":[-121.752240205184,39.2170475661706]},
  "properties":{"prmname":"R202",
  "description":"SW and GW aggregation node for Sutter Refuge",
  "type":"Junction",

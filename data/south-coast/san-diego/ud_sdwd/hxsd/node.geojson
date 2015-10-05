@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.716481662783,33.0429640444836]},
+ "geometry":{"type":"Point","coordinates":[-116.658513916287,33.0543861340641]},
  "properties":{"prmname":"HXSD",
  "description":"Hidden node for year type variation in demand, SAN DIEGO",
  "type":"Junction",

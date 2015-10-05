@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-114.472921466289,32.8762768142691]},
+ "geometry":{"type":"Point","coordinates":[-114.472921466289,32.8725045073908]},
  "properties":{"prmname":"HU512",
  "description":"Hidden Reuse node for Bard WD ag demand area",
  "type":"Junction",

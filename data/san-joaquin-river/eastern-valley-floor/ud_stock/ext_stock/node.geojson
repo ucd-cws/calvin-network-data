@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.139396298091,38.0576188365164]},
+ "geometry":{"type":"Point","coordinates":[-121.143887874512,38.0611553789093]},
  "properties":{"prmname":"EXT STOCK",
  "description":"Exterior urban return flows",
  "type":"Urban Demand",

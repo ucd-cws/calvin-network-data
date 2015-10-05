@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.098831500502,38.3149985455252]},
+ "geometry":{"type":"Point","coordinates":[-122.098831500502,38.3149985455251]},
  "properties":{"prmname":"U205",
  "description":"Napa-Solano IN",
  "type":"Junction",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.943139928866,38.7916395905768]},
+ "geometry":{"type":"Point","coordinates":[-120.945385717076,38.7933900024164]},
  "properties":{"prmname":"INT SAC",
  "description":"Includes Placerville and Auburn (DAU 158, 161, 172, 173, 186).",
  "type":"Urban Demand",

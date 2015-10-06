@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-118.502208252786,34.5343990482097]},
+ "properties":{"prmname":"EXT CLWA",
+ "description":"DAU 83 Exterior Res/Landscape demand",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":{"default":{"description":null,"costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}]}},
+ "flow":null}}

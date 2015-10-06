@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.041222087827,34.4226043359598]},
+ "properties":{"prmname":"WWP501",
+ "description":"Wastewater treatment node for Ventura Co.",
+ "type":"Water Treatment",
+ "inflows":null,
+ "sinks":{"default":{"description":null,"costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}]}},
+ "flow":null}}

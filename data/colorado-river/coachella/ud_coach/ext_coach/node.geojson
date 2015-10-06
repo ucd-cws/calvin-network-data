@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.255815283865,33.7478212558951]},
+ "properties":{"prmname":"EXT COACH",
+ "description":"DAU 348, 349 Exterior Res/Landscape",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

@@ -4,4 +4,5 @@
  "description":"Friant-Kern Canal delivery to CVPM-19",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

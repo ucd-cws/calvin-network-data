@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.503073985295,36.575692378596]},
+ "properties":{"prmname":"WWP403",
+ "description":"Sanger CVPM17 Urban OUT",
+ "type":"Water Treatment",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

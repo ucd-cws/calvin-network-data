@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.308611913304,33.7302894273633]},
+ "properties":{"prmname":"AGS COACH",
+ "description":"Coachella ag supplied by surface water",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

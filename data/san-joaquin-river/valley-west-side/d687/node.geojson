@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.229050142184,37.64193003104]},
- "properties":{"prmname":"D687",
- "description":"San Joaquin River accretion",
- "type":"Junction",
- "inflows":{"default":{"description":"Accretion San Joaquin River below Tuolumne","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}

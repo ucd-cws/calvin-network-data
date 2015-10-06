@@ -4,4 +4,5 @@
  "description":"Pacheco Tunnel deliveries to South Bay Area",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

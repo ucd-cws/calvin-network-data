@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.763117623245,39.1574162283154]},
+ "properties":{"prmname":"R-SUT",
+ "description":"Sutter Wildlife Refuge Area",
+ "type":"Non-Standard Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.112004581629,33.7158116038262]},
+ "properties":{"prmname":"Ind: EMWD",
+ "description":"DAU 98, 104, 110 - Urban Demand for Industrial Sector",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

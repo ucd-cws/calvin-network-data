@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.362535142639,40.4665538312452]},
- "properties":{"prmname":"WWP101",
- "description":"Wastewater treatment node for Redding",
- "type":"Water Treatment",
- "inflows":null,
- "sinks":null}}

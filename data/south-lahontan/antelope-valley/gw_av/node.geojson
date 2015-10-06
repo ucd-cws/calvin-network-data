@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-118.095503144919,34.8044354111839]},
+ "properties":{"prmname":"GW-AV",
+ "description":"Antelope Valley Groundwater",
+ "type":"Groundwater Storage",
+ "initialstorage":20000,
+ "endingstorage":20000,
+ "inflows":{"default":{"description":"Antelope_Valley","inflow":{"$ref" : "inflows/default.csv"}}},
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":68000}],
+ "sinks":null,
+ "flow":null}}

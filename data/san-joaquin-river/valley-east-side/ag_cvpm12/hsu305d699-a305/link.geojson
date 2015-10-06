@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU305D699-A305",
+ "description":"San Joaquin River riparian diversions to CVPM 12",
+ "type":"Diversion",
+ "origin":"HSU305D699",
+ "terminus":"A305",
+ "amplitude":0.819999992847443,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

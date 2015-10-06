@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.139396298091,38.054082123214]},
+ "properties":{"prmname":"WWP210",
+ "description":"Stockton OUT",
+ "type":"Water Treatment",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

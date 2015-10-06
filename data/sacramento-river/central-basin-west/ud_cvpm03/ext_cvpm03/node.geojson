@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.163746434819,39.2905605644975]},
+ "properties":{"prmname":"EXT CVPM03",
+ "description":"100% of DAU 163, exterior",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

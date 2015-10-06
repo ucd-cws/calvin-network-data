@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D814-PMP-Gianel",
+ "description":"California Aqueduct div to San Luis Res",
+ "type":"Diversion",
+ "origin":"D814",
+ "terminus":"PMP-Gianel",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

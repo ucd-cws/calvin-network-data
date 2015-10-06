@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.415244721124,38.5289228198635]},
+ "properties":{"prmname":"C313b",
+ "description":"Knights Landing Ridge Cut (CUP 2014)",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

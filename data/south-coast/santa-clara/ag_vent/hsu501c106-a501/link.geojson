@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU501C106-A501",
+ "description":null,
+ "type":"Diversion",
+ "origin":"HSU501C106",
+ "terminus":"A501",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

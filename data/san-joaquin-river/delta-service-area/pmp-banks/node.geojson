@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.624061446168,37.7979274027524]},
- "properties":{"prmname":"PMP-Banks",
- "description":"Banks Pumping Plant",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"U405-HXI405",
+ "description":null,
+ "type":"Diversion",
+ "origin":"U405",
+ "terminus":"HXI405",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

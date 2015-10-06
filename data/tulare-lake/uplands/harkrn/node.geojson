@@ -4,4 +4,5 @@
  "description":"Recharge facilite for aggregated Kern-Semitropic-Arvin/Adison groundwater basins",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

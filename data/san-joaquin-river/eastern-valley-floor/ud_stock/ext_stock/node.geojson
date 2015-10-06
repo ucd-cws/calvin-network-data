@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.141642086301,38.0593871290768]},
+ "properties":{"prmname":"EXT STOCK",
+ "description":"Exterior urban return flows",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":{"default":{"description":null,"costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}]}},
+ "flow":null}}

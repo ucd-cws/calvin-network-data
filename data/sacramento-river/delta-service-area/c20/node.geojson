@@ -4,5 +4,6 @@
  "description":"Putah Creek Inflow to Yolo BP",
  "type":"Junction",
  "inflows":null,
- "sinks":{"sink_at_junction":{"description":"DA 65 local depletion","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/sink_at_junction/EQT.csv"}}]}}}}
+ "sinks":{"sink_at_junction":{"description":"Only for climate change studies, for historical case all flows are zero.","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/sink_at_junction/EQT.csv"}}]}},
+ "flow":{"$ref" : "flow.csv"}}}

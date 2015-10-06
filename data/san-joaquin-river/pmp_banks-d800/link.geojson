@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMP-Banks-D800",
+ "description":"Exports from the Sacramento-San Joaquin Bay Delta to Central Valley and Southern California; Boundary outflow to Region 3",
+ "type":"Diversion",
+ "origin":"PMP-Banks",
+ "terminus":"D800",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":33.1668014526367},
+ "bounds":[{"type":"UBT","bound": {"$ref":"./UBT.csv"}}],
+ "sinks":null,
+ "flow":null}}

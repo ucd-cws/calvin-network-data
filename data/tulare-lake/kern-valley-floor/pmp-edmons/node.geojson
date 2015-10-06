@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.825929655088,34.9449713924589]},
- "properties":{"prmname":"PMP-Edmons",
- "description":"Edmonston Pumping Plant",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null}}

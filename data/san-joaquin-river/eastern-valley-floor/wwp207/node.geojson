@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.996975525405,38.2157469334745]},
- "properties":{"prmname":"WWP207",
- "description":"Wastewater treatment node for all of CVPM 8, representing the town of Galt",
- "type":"Water Treatment",
- "inflows":null,
- "sinks":null}}

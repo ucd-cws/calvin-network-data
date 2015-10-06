@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.391760637178,34.2168287134742]},
+ "geometry":{"type":"Point","coordinates":[-117.536159218225,34.3185427432231]},
  "properties":{"prmname":"HGPSBV",
- "description":"",
+ "description":null,
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

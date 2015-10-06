@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.020782009989,39.1740299793485]},
- "properties":{"prmname":"CVPM03BS",
- "description":"",
- "type":"Agricultural Demand",
- "inflows":null,
- "sinks":null}}

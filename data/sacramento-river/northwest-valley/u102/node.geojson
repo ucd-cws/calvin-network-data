@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.249526910163,39.961458315394]},
- "properties":{"prmname":"U102",
- "description":"",
- "type":"Junction",
- "inflows":null,
- "sinks":null}}

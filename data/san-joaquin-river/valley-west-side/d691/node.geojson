@@ -3,5 +3,6 @@
  "properties":{"prmname":"D691",
  "description":"Mud Slough & Salt Slough inflow to S Joaquin R",
  "type":"Junction",
- "inflows":{"default":{"description":"Accretion San Joaquin River: Bypass to Merced (Mud Slough and Salt Slough)","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "inflows":{"default":{"description":"Local Inflow","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":null}}

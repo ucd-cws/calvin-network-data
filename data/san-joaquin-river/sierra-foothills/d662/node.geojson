@@ -4,4 +4,5 @@
  "description":"La Grange Dam",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

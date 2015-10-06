@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.193407989321,37.6162309658004]},
+ "properties":{"prmname":"R-SJE",
+ "description":"East of San Joaquin Refuges",
+ "type":"Non-Standard Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

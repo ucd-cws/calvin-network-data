@@ -4,4 +4,5 @@
  "description":"Yuba River inflow to Feather River",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

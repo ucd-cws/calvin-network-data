@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D616-C42",
+ "description":"San Joaquin outflow from Reg 3 at Vernalis - Minimum in-stream flow requirement is added CUP2014",
+ "type":"Diversion",
+ "origin":"D616",
+ "terminus":"C42",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":-0.0296000000089407},
+ "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

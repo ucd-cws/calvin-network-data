@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSR402-R402",
+ "description":"Friant-Kern Canal delivery into Pixley Refuge. USFWS in process of negotiating with Delano Earlimart WD to deliver FKC water to the refuge, however, no such agreement has been reached yet. - KS 662015",
+ "type":"Diversion",
+ "origin":"HSR402",
+ "terminus":"R402",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

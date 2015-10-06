@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.105575624844,38.1916268450002]},
+ "properties":{"prmname":"GW-08",
+ "description":"Central Valley groundwater basin",
+ "type":"Groundwater Storage",
+ "initialstorage":190665,
+ "endingstorage":182829,
+ "inflows":{"default":{"description":"Groundwater inflow GW-8 based on C2VSIM Historical Run356","inflow":{"$ref" : "inflows/default.csv"}}},
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

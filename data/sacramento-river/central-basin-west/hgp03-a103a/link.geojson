@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP03-A103A",
+ "description":"Agricultural groundwater pumping GW-3 to CVPM 3 Demand",
+ "type":"Diversion",
+ "origin":"HGP03",
+ "terminus":"A103A",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":57.1300010681152},
+ "bounds":[{"type":"UBC","bound":175.789993286133}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.606636111467,34.8541124566325]},
- "properties":{"prmname":"HP505",
- "description":"Hidden node for exapanded wastewater recycling for Mojave",
- "type":"Junction",
- "inflows":null,
- "sinks":null}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMP-Iron-PMP-Eagle",
+ "description":"Colorado Aqueduct",
+ "type":"Diversion",
+ "origin":"PMP-Iron",
+ "terminus":"PMP-Eagle",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":10.4784002304077},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

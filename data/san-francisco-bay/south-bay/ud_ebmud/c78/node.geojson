@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.169229024848,37.7610796421252]},
+ "properties":{"prmname":"C78",
+ "description":"Hayward diversion point from the Hetch-Hetchy Aqueduct for the purpose of the EBMUD intertie",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -4,4 +4,5 @@
  "description":"Cross Valley Canal delivery to CVPM-21",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

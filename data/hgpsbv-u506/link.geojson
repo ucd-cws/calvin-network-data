@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGPSBV-U506",
+ "description":null,
+ "type":"Diversion",
+ "origin":"HGPSBV",
+ "terminus":"U506",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":51.7999992370605},
+ "bounds":[{"type":"UBC","bound":23.1100006103516}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.253569495654,33.742219016633]},
+ "properties":{"prmname":"WWP507",
+ "description":"Coachella OUT",
+ "type":"Water Treatment",
+ "inflows":null,
+ "sinks":{"default":{"description":"SW Discharge to ??","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}]}},
+ "flow":null}}

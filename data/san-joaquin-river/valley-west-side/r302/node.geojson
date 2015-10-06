@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.778384146645,37.2065119731246]},
+ "properties":{"prmname":"R302",
+ "description":"SW and GW aggregation node for West of San Joaquin Refuges",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

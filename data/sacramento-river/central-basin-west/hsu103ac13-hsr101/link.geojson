@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU103AC13-HSR101",
+ "description":"Glenn Colusa and Stony Creek Diversions into West of Sac River refuges",
+ "type":"Diversion",
+ "origin":"HSU103AC13",
+ "terminus":"HSR101",
+ "amplitude":0.850000023841858,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

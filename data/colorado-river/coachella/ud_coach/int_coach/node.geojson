@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.251323707444,33.7440864703803]},
+ "properties":{"prmname":"INT: COACH",
+ "description":"DAU 348, 349 Ind/Interior Res/Comm Demand",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

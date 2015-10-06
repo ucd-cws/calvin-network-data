@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.805739080306,39.2502048312744]},
+ "properties":{"prmname":"N203",
+ "description":"Sutter Bypass",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

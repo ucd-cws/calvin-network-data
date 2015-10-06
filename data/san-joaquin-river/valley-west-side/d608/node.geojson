@@ -4,4 +4,5 @@
  "description":"Mendota Pool",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

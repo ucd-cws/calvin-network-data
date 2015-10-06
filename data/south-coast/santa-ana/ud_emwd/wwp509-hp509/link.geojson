@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP509-HP509",
+ "description":"Expanded wastewater recycling facility for EMWD",
+ "type":"Diversion",
+ "origin":"WWP509",
+ "terminus":"HP509",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1480},
+ "bounds":[{"type":"UBC","bound":9.51000022888184}],
+ "sinks":null,
+ "flow":null}}

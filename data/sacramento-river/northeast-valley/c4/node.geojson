@@ -4,4 +4,5 @@
  "description":"CVPM2 return to Sacramento River",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

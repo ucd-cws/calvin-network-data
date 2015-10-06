@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP505-HGRMJ",
+ "description":null,
+ "type":"Diversion",
+ "origin":"WWP505",
+ "terminus":"HGRMJ",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

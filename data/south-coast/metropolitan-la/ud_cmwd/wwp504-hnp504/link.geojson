@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP504-HNP504",
+ "description":null,
+ "type":"Diversion",
+ "origin":"WWP504",
+ "terminus":"HNP504",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1258},
+ "bounds":[{"type":"UBC","bound":28.7199993133545}],
+ "sinks":null,
+ "flow":null}}

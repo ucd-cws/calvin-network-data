@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.503967882523,34.5150900949236]},
- "properties":{"prmname":"HP503",
- "description":"",
- "type":"Junction",
- "inflows":null,
- "sinks":null}}

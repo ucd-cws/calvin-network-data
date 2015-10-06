@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WTP101-U101",
+ "description":null,
+ "type":"Diversion",
+ "origin":"WTP101",
+ "terminus":"U101",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":30},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

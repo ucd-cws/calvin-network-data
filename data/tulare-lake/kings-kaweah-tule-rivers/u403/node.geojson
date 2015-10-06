@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.503073985295,36.5792993461957]},
- "properties":{"prmname":"U403",
- "description":"Sanger CVPM17 Urban IN",
- "type":"Junction",
- "inflows":null,
- "sinks":null}}

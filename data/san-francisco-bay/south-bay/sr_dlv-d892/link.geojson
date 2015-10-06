@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-DLV-D892",
+ "description":"South bay Aqueduct, Lake Del Valle Release",
+ "type":"Diversion",
+ "origin":"SR-DLV",
+ "terminus":"D892",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

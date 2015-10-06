@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP401-HGR16",
+ "description":"Fresno incidental recharge to groundwater",
+ "type":"Diversion",
+ "origin":"WWP401",
+ "terminus":"HGR16",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null,
+ "flow":null}}

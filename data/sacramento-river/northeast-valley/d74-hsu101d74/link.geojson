@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D74-HSU101D74",
+ "description":"surface delivery CVPM 1",
+ "type":"Diversion",
+ "origin":"D74",
+ "terminus":"HSU101D74",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":25.2999992370605}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

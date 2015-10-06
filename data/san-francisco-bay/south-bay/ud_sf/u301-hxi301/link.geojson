@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"U301-HXI301",
+ "description":null,
+ "type":"Diversion",
+ "origin":"U301",
+ "terminus":"HXI301",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.371459148517,37.6907930010921]},
+ "properties":{"prmname":"Sink C41",
+ "description":"Sink for M&I riparian diversions from Calaveras R. (CVGSM ID41)",
+ "type":"Sink",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

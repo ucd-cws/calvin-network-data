@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.654022339866,33.0562684285393]},
- "properties":{"prmname":"WWP511",
- "description":"San Diego OUT",
- "type":"Water Treatment",
- "inflows":null,
- "sinks":{"default":{"description":"SW Discharge to Ocean","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}}}}

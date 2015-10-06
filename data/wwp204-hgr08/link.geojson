@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP204-HGR08",
+ "description":"Sacramento AR or RF to GW-8 from south of Am. River",
+ "type":"Diversion",
+ "origin":"WWP204",
+ "terminus":"HGR08",
+ "amplitude":0.0020000000949949,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null,
+ "flow":null}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP502-HP502",
+ "description":"Expanded wastewater recycling facility for Antelope Valley",
+ "type":"Diversion",
+ "origin":"WWP502",
+ "terminus":"HP502",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1480},
+ "bounds":[{"type":"UBC","bound":1.04999995231628}],
+ "sinks":null,
+ "flow":null}}

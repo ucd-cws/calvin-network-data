@@ -4,4 +4,5 @@
  "description":"Inflow to Tulare Lake",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

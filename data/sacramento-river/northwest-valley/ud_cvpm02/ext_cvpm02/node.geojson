@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.293298591636,39.9702532349259]},
+ "properties":{"prmname":"EXT CVPM02",
+ "description":"Exterior Urban demand node for 100% of DAU 142",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

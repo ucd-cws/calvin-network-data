@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP510-SR-SS",
+ "description":"Outflow from El centro",
+ "type":"Diversion",
+ "origin":"WWP510",
+ "terminus":"SR-SS",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

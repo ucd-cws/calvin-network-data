@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.97888318427,38.3706148125129]},
- "properties":{"prmname":"WTP205",
- "description":"",
- "type":"Water Treatment",
- "inflows":{"default":{"description":"Local supplies into Napa-Solano.  It is the volume of water that was not economically modeled in the CALFED study (A02G02).","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}

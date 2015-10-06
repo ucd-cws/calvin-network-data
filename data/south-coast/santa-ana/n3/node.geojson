@@ -4,4 +4,5 @@
  "description":"Junction near Lake Perris",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

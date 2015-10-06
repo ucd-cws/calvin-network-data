@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.05047190886,33.6845037232175]},
+ "properties":{"prmname":"PWP-Wads",
+ "description":"Wadsworth Power Plant",
+ "type":"Power Plant",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

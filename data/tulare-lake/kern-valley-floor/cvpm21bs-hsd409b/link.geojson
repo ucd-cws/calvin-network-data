@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CVPM21BS-HSD409B",
+ "description":null,
+ "type":"Diversion",
+ "origin":"CVPM21BS",
+ "terminus":"HSD409B",
+ "amplitude":0.256999999284744,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.484649079628,36.2591612339781]},
+ "geometry":{"type":"Point","coordinates":[-119.831823971986,36.1101467035129]},
  "properties":{"prmname":"HSD404B",
- "description":"",
+ "description":null,
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

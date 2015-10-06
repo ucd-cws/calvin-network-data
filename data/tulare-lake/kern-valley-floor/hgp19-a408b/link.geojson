@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP19-A408B",
+ "description":null,
+ "type":"Diversion",
+ "origin":"HGP19",
+ "terminus":"A408B",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":136.199996948242},
+ "bounds":[{"type":"UBC","bound":213.690002441406}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

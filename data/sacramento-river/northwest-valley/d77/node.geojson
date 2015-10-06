@@ -3,5 +3,6 @@
  "properties":{"prmname":"D77",
  "description":"Red Bluff Diversion Dam",
  "type":"Junction",
- "inflows":null,
- "sinks":null}}
+ "inflows":{"default":{"description":"Red Bank Creek","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.735922243188,37.3403814662997]},
+ "properties":{"prmname":"HSUR301",
+ "description":"Hidden surface and groundwater diversion node for East San Joaquin refuges",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

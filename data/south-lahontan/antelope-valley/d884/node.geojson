@@ -4,4 +4,5 @@
  "description":"West Branch SWP Node Represented in DWRSIM Network D122696",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

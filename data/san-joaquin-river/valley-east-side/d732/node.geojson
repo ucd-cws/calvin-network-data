@@ -4,4 +4,5 @@
  "description":"San Joaquin River diversion to Refuge 2",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

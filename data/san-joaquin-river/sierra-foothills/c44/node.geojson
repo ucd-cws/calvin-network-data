@@ -4,4 +4,5 @@
  "description":"Lower Cherry Creek Aqueduct inflow to Hetch Hetchy Aqueduct",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

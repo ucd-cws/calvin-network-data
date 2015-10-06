@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C310-PMP-LosVaq",
+ "description":"Diversion to Los Vaqueros Pumping Plant",
+ "type":"Diversion",
+ "origin":"C310",
+ "terminus":"PMP-LosVaq",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

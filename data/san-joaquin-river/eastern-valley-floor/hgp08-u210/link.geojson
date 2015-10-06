@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP08-U210",
+ "description":"GW-8 to Stockton Urban",
+ "type":"Diversion",
+ "origin":"HGP08",
+ "terminus":"U210",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":103.599998474121},
+ "bounds":[{"type":"UBC","bound":10}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

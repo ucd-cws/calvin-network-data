@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.79024129451,37.4043857545628]},
+ "geometry":{"type":"Point","coordinates":[-121.504492963506,37.0700419970342]},
  "properties":{"prmname":"HGRSC",
- "description":"",
+ "description":null,
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

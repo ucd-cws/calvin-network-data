@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"A202-HU202",
+ "description":"Hidden ag delivery reuse calibration link",
+ "type":"Diversion",
+ "origin":"A202",
+ "terminus":"HU202",
+ "amplitude":1.10000002384186,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

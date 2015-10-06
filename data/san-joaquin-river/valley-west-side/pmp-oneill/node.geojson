@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.041418771855,37.0988342010771]},
- "properties":{"prmname":"PMP-ONeill",
- "description":"ONeill Pumping Plant",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null}}

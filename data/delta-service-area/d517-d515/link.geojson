@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D517-D515",
+ "description":"Mokelumne River Reach, old location minimum instream flow requirement",
+ "type":"Diversion",
+ "origin":"D517",
+ "terminus":"D515",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

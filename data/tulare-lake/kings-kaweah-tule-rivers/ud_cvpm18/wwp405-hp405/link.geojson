@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP405-HP405",
+ "description":null,
+ "type":"Diversion",
+ "origin":"WWP405",
+ "terminus":"HP405",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1800},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null,
+ "flow":null}}

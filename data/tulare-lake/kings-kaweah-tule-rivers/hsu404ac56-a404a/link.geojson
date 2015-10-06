@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU404AC56-A404A",
+ "description":"Kaweah River diversion for CVPM 15",
+ "type":"Diversion",
+ "origin":"HSU404AC56",
+ "terminus":"A404A",
+ "amplitude":0.839999973773956,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

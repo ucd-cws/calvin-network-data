@@ -4,4 +4,5 @@
  "description":"California Aqueduct diversion to San Luis Reservoir",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

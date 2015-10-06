@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.328268444596,36.7719575456446]},
- "properties":{"prmname":"D615",
- "description":"Mendota Wildlife Area surface return flow",
- "type":"Junction",
- "inflows":null,
- "sinks":null}}

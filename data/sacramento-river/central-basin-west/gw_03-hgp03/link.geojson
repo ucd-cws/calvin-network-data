@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"GW-03-HGP03",
+ "description":"Hidden GW pumping calibration link",
+ "type":"Diversion",
+ "origin":"GW-03",
+ "terminus":"HGP03",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

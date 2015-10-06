@@ -4,4 +4,5 @@
  "description":"Imperial System node - New River Inflow to Salton Sea",
  "type":"Junction",
  "inflows":{"default":{"description":"NEW AND ALAMO","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

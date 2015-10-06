@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMP-JH-C136",
+ "description":"Colorado River Aqueduct",
+ "type":"Diversion",
+ "origin":"PMP-JH",
+ "terminus":"C136",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":10.4784002304077},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

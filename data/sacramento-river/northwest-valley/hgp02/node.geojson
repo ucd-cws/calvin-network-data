@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.258737350431,39.9877028291239]},
+ "geometry":{"type":"Point","coordinates":[-122.259422925793,39.9573732497726]},
  "properties":{"prmname":"HGP02",
  "description":"Hidden calibration for GW-2",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

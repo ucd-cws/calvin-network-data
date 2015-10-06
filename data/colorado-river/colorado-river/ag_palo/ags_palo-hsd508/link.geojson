@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"AGS: Palo-HSD508",
+ "description":"Combined Ag demand for Blythe(Palo Verde) & Yuma",
+ "type":"Diversion",
+ "origin":"AGS: Palo",
+ "terminus":"HSD508",
+ "amplitude":0.319999992847443,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

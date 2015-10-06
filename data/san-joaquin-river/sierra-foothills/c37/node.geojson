@@ -3,5 +3,6 @@
  "properties":{"prmname":"C37",
  "description":"Cosumnes River inflow",
  "type":"Junction",
- "inflows":null,
- "sinks":null}}
+ "inflows":{"default":{"description":"COSUMNES RIVER","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"Ext CVPM14-HGR14",
+ "description":"return flows from cities of Huron and Coalinga",
+ "type":"Diversion",
+ "origin":"Ext CVPM14",
+ "terminus":"HGR14",
+ "amplitude":0.512000024318695,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

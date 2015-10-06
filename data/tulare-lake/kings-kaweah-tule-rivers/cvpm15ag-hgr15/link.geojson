@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CVPM15AG-HGR15",
+ "description":null,
+ "type":"Diversion",
+ "origin":"CVPM15AG",
+ "terminus":"HGR15",
+ "amplitude":0.279000014066696,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

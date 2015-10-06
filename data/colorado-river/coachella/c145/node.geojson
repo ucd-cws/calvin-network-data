@@ -4,4 +4,5 @@
  "description":"Coachella Urban GW recharge junction node",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

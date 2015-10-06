@@ -4,4 +4,5 @@
  "description":"Feather River above Lake Oroville",
  "type":"Junction",
  "inflows":{"default":{"description":"FEATHER RIVER","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

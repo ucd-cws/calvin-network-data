@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.699241401148,39.2650992080865]},
+ "properties":{"prmname":"EXT YUBA",
+ "description":"Exterior demand for Yuba City et al. Includes Yuba City and parts of Butte Co. but not Plumas Co. surface water demand (DAU 159, 168)",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

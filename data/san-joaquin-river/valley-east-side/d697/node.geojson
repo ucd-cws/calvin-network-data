@@ -4,4 +4,5 @@
  "description":"CVPM12 return to San Joaquin River",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"INT YUBA-WWP201",
+ "description":"SW discharge to Feather River",
+ "type":"Diversion",
+ "origin":"INT YUBA",
+ "terminus":"WWP201",
+ "amplitude":0.899999976158142,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.856406708036,33.0202714340815]},
+ "geometry":{"type":"Point","coordinates":[-116.818128282306,33.0008820150477]},
  "properties":{"prmname":"HGPSD",
- "description":"",
+ "description":null,
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

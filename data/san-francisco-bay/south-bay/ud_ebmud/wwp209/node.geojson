@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.164737448427,37.759304165403]},
+ "properties":{"prmname":"WWP209",
+ "description":"EBMUD OUT",
+ "type":"Water Treatment",
+ "inflows":null,
+ "sinks":{"default":{"description":"East Bay MUD","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}]}},
+ "flow":null}}

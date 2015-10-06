@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP504-HP504",
+ "description":"Expanded wastewater recycling facility for CMWD",
+ "type":"Diversion",
+ "origin":"WWP504",
+ "terminus":"HP504",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1480},
+ "bounds":[{"type":"UBC","bound":35.2099990844727}],
+ "sinks":null,
+ "flow":null}}

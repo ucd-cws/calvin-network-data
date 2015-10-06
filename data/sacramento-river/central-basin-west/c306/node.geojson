@@ -3,5 +3,6 @@
  "properties":{"prmname":"C306",
  "description":"Knights Landing Ridge Cut",
  "type":"Junction",
- "inflows":{"default":{"description":"DA65 local water supply","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

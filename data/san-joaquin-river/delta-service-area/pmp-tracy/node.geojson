@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.585260594228,37.7968276008989]},
- "properties":{"prmname":"PMP-Tracy",
- "description":"Tracy Pumping Plant",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"INT CVPM19-HGR19",
+ "description":"GW return flow from fixed CVPM urban pumping demand",
+ "type":"Diversion",
+ "origin":"INT CVPM19",
+ "terminus":"HGR19",
+ "amplitude":0.448000013828278,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

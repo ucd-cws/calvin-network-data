@@ -4,4 +4,5 @@
  "description":"Node to route inland feeder around pumping plant",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

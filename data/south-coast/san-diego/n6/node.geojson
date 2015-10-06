@@ -4,4 +4,5 @@
  "description":"Diamond Valley lake forebay",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

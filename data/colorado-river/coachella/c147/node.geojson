@@ -4,4 +4,5 @@
  "description":"End of Coachella Canal and farm gate to Coachella Ag",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.818421590633,37.8505280025122]},
+ "properties":{"prmname":"ERES CC",
+ "description":"Exterior Urban Residential Part of DAU 46 and all of 192",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":{"default":{"description":"Exterior Urban Residential return flows to Sink","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}]}},
+ "flow":null}}

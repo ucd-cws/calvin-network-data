@@ -4,4 +4,5 @@
  "description":"Delta Mendota  Canal diversion to CVPM10",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

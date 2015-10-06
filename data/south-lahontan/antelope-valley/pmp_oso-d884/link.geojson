@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMP-OSO-D884",
+ "description":"SWP West Branch Pumping",
+ "type":"Diversion",
+ "origin":"PMP-OSO",
+ "terminus":"D884",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":31.7015991210938},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

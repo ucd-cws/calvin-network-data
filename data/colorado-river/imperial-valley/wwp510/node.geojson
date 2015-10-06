@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-115.459403055922,33.012149917051]},
- "properties":{"prmname":"WWP510",
- "description":"Wastewater treatment node for El Centro",
- "type":"Water Treatment",
- "inflows":null,
- "sinks":null}}

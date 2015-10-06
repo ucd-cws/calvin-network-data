@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"N2-N4",
+ "description":"Inland feeder",
+ "type":"Diversion",
+ "origin":"N2",
+ "terminus":"N4",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-115.457157267711,33.0102666798869]},
+ "properties":{"prmname":"INT El Cen",
+ "description":"DAU 353-357 Ind/Interior Res/Comm Demand",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

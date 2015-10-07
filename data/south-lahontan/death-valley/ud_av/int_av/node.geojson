@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.046181786013,35.9986604725881]},
+ "geometry":{"type":"Point","coordinates":[-117.043935997803,35.9968435399701]},
  "properties":{"prmname":"INT AV",
  "description":"DAU 299-377 Urban demand: Ind/Interior Res/Comm",
  "type":"Urban Demand",

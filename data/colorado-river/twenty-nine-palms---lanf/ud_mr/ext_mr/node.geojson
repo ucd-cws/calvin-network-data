@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.143415942953,34.6751530273455]},
+ "geometry":{"type":"Point","coordinates":[-116.145661731164,34.6696120950673]},
  "properties":{"prmname":"EXT MR",
  "description":"DAU 308-332 Exterior Res/Landscape Demand",
  "type":"Urban Demand",

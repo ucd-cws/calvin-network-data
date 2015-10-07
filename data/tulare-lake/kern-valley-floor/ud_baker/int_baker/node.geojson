@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.132299323706,35.2890861946199]},
+ "geometry":{"type":"Point","coordinates":[-119.130053535495,35.2872530545241]},
  "properties":{"prmname":"INT BAKER",
  "description":"DAU 254 interior urban flows",
  "type":"Urban Demand",

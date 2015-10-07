@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-115.411452205492,32.892299478277]},
+ "geometry":{"type":"Point","coordinates":[-115.409206417281,32.8941852305304]},
  "properties":{"prmname":"AGS IMP",
  "description":"Imperial Valley Ag supplied by surface water",
  "type":"Agricultural Demand",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.269069661476,39.2238931998993]},
+ "geometry":{"type":"Point","coordinates":[-121.408307,39.221894]},
  "properties":{"prmname":"C28",
  "description":"Dry Creek Inflow to Feather River",
  "type":"Junction",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.518080223416,39.5328862108153]},
+ "geometry":{"type":"Point","coordinates":[-121.483628,39.539873]},
  "properties":{"prmname":"SR-ORO",
  "description":"Lake Oroville",
  "type":"Surface Storage",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.864974239685,34.033451098307]},
+ "geometry":{"type":"Point","coordinates":[-117.867220027896,34.0325205385554]},
  "properties":{"prmname":"HXCMWD",
  "description":"Hidden node for year type variation in demand, central mwd",
  "type":"Junction",

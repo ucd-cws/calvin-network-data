@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.53226230804,34.5237426605834]},
+ "geometry":{"type":"Point","coordinates":[-118.53226230804,34.5311434741738]},
  "properties":{"prmname":"HU501",
  "description":"Hidden node for ventura ag supplied by surface water",
  "type":"Junction",

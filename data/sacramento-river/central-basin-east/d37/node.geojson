@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.605072484411,38.8908976670866]},
+ "geometry":{"type":"Point","coordinates":[-121.579071,38.939279]},
  "properties":{"prmname":"D37",
  "description":"Bear River inflow to Feather River",
  "type":"Junction",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.162491660217,37.7619673645056]},
+ "geometry":{"type":"Point","coordinates":[-122.160245872006,37.7610796421255]},
  "properties":{"prmname":"HP209",
  "description":"Hidden node for wastewater recycling for EMBUD",
  "type":"Junction",

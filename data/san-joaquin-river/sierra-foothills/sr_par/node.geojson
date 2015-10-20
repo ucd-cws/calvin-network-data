@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.85104877611,38.2499171517773]},
+ "geometry":{"type":"Point","coordinates":[-120.847817,38.2567]},
  "properties":{"prmname":"SR-PAR",
  "description":"Pardee Reservoir",
  "type":"Surface Storage",

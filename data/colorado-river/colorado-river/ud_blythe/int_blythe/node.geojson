@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-114.530790423579,33.7190831260164]},
+ "properties":{"prmname":"INT Blythe",
+ "description":"DAU 333-347 Ind/Interior Res/Comm",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

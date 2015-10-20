@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.109543964752,39.3576843394098]},
+ "geometry":{"type":"Point","coordinates":[-122.07328230417,39.345661872155]},
  "properties":{"prmname":"HSR101",
  "description":"Hidden surface water node for West of Sac River Refuges",
  "type":"Junction",

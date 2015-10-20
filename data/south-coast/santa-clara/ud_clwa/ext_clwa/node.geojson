@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.502208252786,34.5343990482097]},
+ "geometry":{"type":"Point","coordinates":[-118.504454040996,34.5288487166782]},
  "properties":{"prmname":"EXT CLWA",
  "description":"DAU 83 Exterior Res/Landscape demand",
  "type":"Urban Demand",

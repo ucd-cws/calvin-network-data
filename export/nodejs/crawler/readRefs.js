@@ -27,7 +27,7 @@ function readRefs(dir, filename, parent, attr, callback) {
             return;
           }
         } catch(e) {
-          console.log('Unabled to read: "'+file+'" ('+parent[attr].$ref+') '+JSON.stringify(parts));
+          console.log('  --Unabled to read: "'+file+'" ('+parent[attr].$ref+') '+JSON.stringify(parts));
           parent[attr] = 'Unabled to read: '+file;
         }
 

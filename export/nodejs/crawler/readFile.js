@@ -9,7 +9,7 @@ module.exports = function(file, object, attr, callback) {
 
     parse(object[attr], {comment: '#', delimiter: ','}, function(err, data){
       if( attr === '' ) { // hack need to fix
-        console.log('Attempting to set empty attr name, switching to "data": '+file);
+        console.log('  --Attempting to set empty attr name, switching to "data": '+file);
         delete object[attr];
         attr = 'data';
       }

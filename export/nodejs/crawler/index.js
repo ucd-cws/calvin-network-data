@@ -32,7 +32,7 @@ module.exports = function(dir, callback) {
     // dump all region data, again, this is a tree
     var json = ca.toJSON();
 
-    console.log('Walking <b>'+dir+'</b> for nodes and links.  Attaching CSV data.');
+    console.log('Walking '+dir+' for nodes and links.  Attaching CSV data.');
 
     // read all nodes, and read in all $ref data
     readNodes(dir, nodes, gitInfo, function(){

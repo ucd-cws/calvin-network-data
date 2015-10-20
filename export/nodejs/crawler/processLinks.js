@@ -14,9 +14,9 @@ module.exports = function(nodes, lookup) {
       var terminus = lookup[node.properties.terminus];
 
       if( !origin || !terminus ) {
-        return console.log('Found link but nodes are missing geo: '+node.properties.prmname);
+        return console.log('  --Found link but nodes are missing geo: '+node.properties.prmname);
       } else if( !origin.geometry || !terminus.geometry ) {
-        return console.log('Found link but nodes are missing geo: '+node.properties.prmname);
+        return console.log('  --Found link but nodes are missing geo: '+node.properties.prmname);
       }
 
       node.geometry = {
@@ -27,7 +27,7 @@ module.exports = function(nodes, lookup) {
       };
 
     } else {
-      console.log('Found node with missing geo but not link: '+node.properties.prmname);
+      console.log('  --Found node with missing geo but not link: '+node.properties.prmname);
       removeList.push(node);
     }
   });

@@ -38,7 +38,7 @@ function readNodes(dir, nodes, gitInfo, callback) {
 
         // ignore feature collections for now
         if( d.type === 'FeatureCollection' ) {
-          console.log('Ignoring: '+file+' FeatureCollection\'s are not currently supported');
+          console.log('  --Ignoring: '+file+' FeatureCollection\'s are not currently supported');
           return next();
         }
 

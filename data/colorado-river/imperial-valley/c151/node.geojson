@@ -4,4 +4,5 @@
  "description":"All Amercian Canal diversion to artificial recharge for GW-IM",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

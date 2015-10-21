@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D803-HSU303D803",
+ "description":"surface delivery CVPM 10",
+ "type":"Diversion",
+ "origin":"D803",
+ "terminus":"HSU303D803",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":1.20000004768372}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

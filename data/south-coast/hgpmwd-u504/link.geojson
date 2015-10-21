@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGPMWD-U504",
+ "description":null,
+ "type":"Diversion",
+ "origin":"HGPMWD",
+ "terminus":"U504",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":44.4000015258789},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

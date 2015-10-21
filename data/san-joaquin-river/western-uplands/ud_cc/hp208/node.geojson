@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.809438437791,37.8469813047151]},
+ "properties":{"prmname":"HP208",
+ "description":"Hidden node for wastewater recycling for CCWD",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

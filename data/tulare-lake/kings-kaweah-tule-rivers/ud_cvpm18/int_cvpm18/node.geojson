@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.274383966407,36.1203253125896]},
+ "properties":{"prmname":"INT CVPM18",
+ "description":"100% of DAU 242 & 243; includes cities of Visalia and Tulare, interior",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

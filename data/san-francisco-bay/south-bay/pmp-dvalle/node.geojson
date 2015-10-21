@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.749538207734,37.6200019473115]},
- "properties":{"prmname":"PMP-DValle",
- "description":"Del Valle Pumping Plant",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null}}

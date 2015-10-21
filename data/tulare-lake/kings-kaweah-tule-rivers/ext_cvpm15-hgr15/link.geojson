@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"EXT CVPM15-HGR15",
+ "description":"Return flows from CVPM15",
+ "type":"Diversion",
+ "origin":"EXT CVPM15",
+ "terminus":"HGR15",
+ "amplitude":0.509999990463257,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

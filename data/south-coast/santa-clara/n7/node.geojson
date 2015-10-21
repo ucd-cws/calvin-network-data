@@ -4,4 +4,5 @@
  "description":"Juntion node for untreated SWP water coming into Antelope Valley",
  "type":"Junction",
  "inflows":{"default":{"description":"LOCAL SUPPLIES for Antelope","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

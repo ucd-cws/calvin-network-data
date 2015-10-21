@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.231980306004,36.327851586968]},
- "properties":{"prmname":"Ext CVPM14",
- "description":"100% of DAU 244 & 245, exterior",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null}}

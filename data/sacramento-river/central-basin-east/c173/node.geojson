@@ -4,4 +4,5 @@
  "description":"Fols. S. California Aqueductn. Diversion to Mok. River Aqu.",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

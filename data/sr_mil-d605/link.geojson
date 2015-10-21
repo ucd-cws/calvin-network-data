@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-MIL-D605",
+ "description":"San Joaquin River between Friant dam and Gravelly Ford Reach 1",
+ "type":"Diversion",
+ "origin":"SR-MIL",
+ "terminus":"D605",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

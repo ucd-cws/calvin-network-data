@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMP-Pearb-C124",
+ "description":"SWP East Branch",
+ "type":"Diversion",
+ "origin":"PMP-Pearb",
+ "terminus":"C124",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":75.7908020019531},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":null}}

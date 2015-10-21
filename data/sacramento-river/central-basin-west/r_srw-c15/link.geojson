@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"R-SRW-C15",
+ "description":"Sacramento West Refuges return flow to Colusa Basin Drain",
+ "type":"Diversion",
+ "origin":"R-SRW",
+ "terminus":"C15",
+ "amplitude":0.159999996423721,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

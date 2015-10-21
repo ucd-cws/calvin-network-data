@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR-FOL-WTP204",
+ "description":null,
+ "type":"Diversion",
+ "origin":"SR-FOL",
+ "terminus":"WTP204",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":45},
+ "bounds":[{"type":"UBC","bound":44.7000007629395}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

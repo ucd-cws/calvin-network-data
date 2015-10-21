@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.616312636945,35.7485160299941]},
+ "properties":{"prmname":"R-KER",
+ "description":"Kern NWR",
+ "type":"Non-Standard Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

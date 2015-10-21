@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C7-C20",
+ "description":"Flood flows through Sacramento Weir into Yolo Bypass.",
+ "type":"Diversion",
+ "origin":"C7",
+ "terminus":"C20",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

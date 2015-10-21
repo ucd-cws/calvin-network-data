@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.531444586279,34.5277865872608]},
- "properties":{"prmname":"WTP503",
- "description":"",
- "type":"Water Treatment",
- "inflows":{"default":{"description":"LOCAL SUPPLIES for Castaic Lake WD","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}

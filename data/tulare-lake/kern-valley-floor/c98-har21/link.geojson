@@ -1,0 +1,14 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C98-HAR21",
+ "description":"Link representing artificial recharge in GW basin 21: Kern Water Bank and Arvin Eddison GW recharge.  Capacity = percolation capacity. 450 + 140 cfs resp. = 590 cfs = 36 KAF/mo.
+",
+ "type":"Diversion",
+ "origin":"C98",
+ "terminus":"HAR21",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":7.40000009536743},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

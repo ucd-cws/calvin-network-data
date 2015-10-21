@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.362535142639,40.4665538312452]},
- "properties":{"prmname":"U101",
- "description":"Water treatment node for the urban areas of Redding",
- "type":"Junction",
- "inflows":null,
- "sinks":null}}

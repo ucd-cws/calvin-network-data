@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HARCH-GW-CH",
+ "description":"Artificial Groundwater Recharge",
+ "type":"Diversion",
+ "origin":"HARCH",
+ "terminus":"GW-CH",
+ "amplitude":0.949999988079071,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

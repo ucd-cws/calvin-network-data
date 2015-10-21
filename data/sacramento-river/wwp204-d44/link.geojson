@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP204-D44",
+ "description":"SW Discharge to Sacramento River",
+ "type":"Diversion",
+ "origin":"WWP204",
+ "terminus":"D44",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D613-D731",
+ "description":"Return flow from CVPM 14 to the DMC in Region 3.",
+ "type":"Diversion",
+ "origin":"D613",
+ "terminus":"D731",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

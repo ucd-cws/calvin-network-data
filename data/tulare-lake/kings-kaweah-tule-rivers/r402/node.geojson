@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.296090514886,36.1432260919539]},
+ "properties":{"prmname":"R402",
+ "description":"SW and GW aggregation node for Pixley Refuge",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

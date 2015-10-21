@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.909112009974,35.8450671043949]},
+ "properties":{"prmname":"PMP-LPeril",
+ "description":"Las Perillas Pumping Plant",
+ "type":"Pump Plant",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

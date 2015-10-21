@@ -4,4 +4,5 @@
  "description":"Artificial Recharge to subregion 13 from Chowchilla R riparian ",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

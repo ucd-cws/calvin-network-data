@@ -4,4 +4,5 @@
  "description":"Feather River diversions to CVPM 6",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

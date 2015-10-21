@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.271021208348,37.5699349283383]},
+ "geometry":{"type":"Point","coordinates":[-120.316507,37.523411]},
  "properties":{"prmname":"D642",
  "description":"Merced River accretion",
  "type":"Junction",
  "inflows":{"default":{"description":"Accretion Upper Merced River","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

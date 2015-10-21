@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMP-Eagle-PMP-JH",
+ "description":"Colorado River Aqueduct",
+ "type":"Diversion",
+ "origin":"PMP-Eagle",
+ "terminus":"PMP-JH",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":10.4784002304077},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":null}}

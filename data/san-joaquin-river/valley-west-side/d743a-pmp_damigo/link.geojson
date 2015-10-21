@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D743a-PMP-DAmigo",
+ "description":"California Aqueduct Diversion to Dos Amigos Pumping Plant",
+ "type":"Diversion",
+ "origin":"D743a",
+ "terminus":"PMP-DAmigo",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

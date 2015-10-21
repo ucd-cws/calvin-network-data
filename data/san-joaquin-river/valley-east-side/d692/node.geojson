@@ -3,5 +3,6 @@
  "properties":{"prmname":"D692",
  "description":"Eastside Bypass accretion",
  "type":"Junction",
- "inflows":null,
- "sinks":null}}
+ "inflows":{"default":{"description":"Local Inflow","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":null}}

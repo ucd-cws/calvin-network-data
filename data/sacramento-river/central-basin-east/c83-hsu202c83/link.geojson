@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C83-HSU202C83",
+ "description":"Yuba River riparian diversions to CVPM 5 (DA 69)",
+ "type":"Diversion",
+ "origin":"C83",
+ "terminus":"HSU202C83",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":68.1999969482422}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -3,5 +3,6 @@
  "properties":{"prmname":"D30",
  "description":"Sacramento River diversion to CVPM 4",
  "type":"Junction",
- "inflows":{"default":{"description":"DA15 local water supply","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

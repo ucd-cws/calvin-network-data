@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.995091139006,39.7518820749582]},
- "properties":{"prmname":"D76a",
- "description":"Sacramento River",
- "type":"Junction",
- "inflows":null,
- "sinks":null}}

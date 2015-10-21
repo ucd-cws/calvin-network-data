@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.09975765378,39.0998258296337]},
+ "properties":{"prmname":"N201",
+ "description":null,
+ "type":"Junction",
+ "inflows":{"default":{"description":"Net Cascade Canal Exports from Yuba River","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":{"sink_at_junction":{"description":"Combie and Bear River Canal Diversions","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/sink_at_junction/EQT.csv"}}]}},
+ "flow":{"$ref" : "flow.csv"}}}

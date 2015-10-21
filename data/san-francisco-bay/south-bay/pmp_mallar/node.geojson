@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.929048939727,38.0373244727963]},
+ "properties":{"prmname":"PMP-Mallar",
+ "description":"Mallard Slough Pumping Plant",
+ "type":"Pump Plant",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

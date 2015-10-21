@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.88086423685,35.2564457850423]},
- "properties":{"prmname":"EXT AV",
- "description":"DAU 299-307, Exterior Res/Landscape",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null}}

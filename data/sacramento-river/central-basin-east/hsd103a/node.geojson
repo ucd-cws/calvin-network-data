@@ -4,4 +4,5 @@
  "description":"Hidden surface water calibration node",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

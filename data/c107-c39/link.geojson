@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C107-C39",
+ "description":"South Folsom Canal Extension to Mokelumne Aqueduct",
+ "type":"Diversion",
+ "origin":"C107",
+ "terminus":"C39",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":29.6000003814697},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

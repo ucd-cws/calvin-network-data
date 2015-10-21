@@ -4,4 +4,5 @@
  "description":"Hidden node for artifical recharge of groundwater",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

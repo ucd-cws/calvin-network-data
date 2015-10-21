@@ -4,4 +4,5 @@
  "description":"Hidden node for calibration of GW-19",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

@@ -4,4 +4,5 @@
  "description":"California Aqueduct losses R-7",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

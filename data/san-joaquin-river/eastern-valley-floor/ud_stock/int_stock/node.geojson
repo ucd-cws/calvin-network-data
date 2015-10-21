@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.13490472167,38.054082123214]},
+ "properties":{"prmname":"INT STOCK",
+ "description":"DAU 182 interior urban flows",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

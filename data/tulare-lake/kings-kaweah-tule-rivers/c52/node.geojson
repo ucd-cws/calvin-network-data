@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.830968814272,36.3416503659485]},
+ "geometry":{"type":"Point","coordinates":[-119.785603,36.38628]},
  "properties":{"prmname":"C52",
  "description":"Kings River",
  "type":"Junction",
  "inflows":{"default":{"description":"Accretion South Fork Kings River","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

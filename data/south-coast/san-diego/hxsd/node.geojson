@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.87028859147,33.004999718716]},
- "properties":{"prmname":"HXSD",
- "description":"Hidden node for year type variation in demand, SAN DIEGO",
- "type":"Junction",
- "inflows":{"default":{"description":"Year type variation in demand for SD Exterior","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}

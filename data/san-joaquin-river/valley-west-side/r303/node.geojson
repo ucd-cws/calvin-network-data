@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.498620252953,36.8724993729445]},
+ "properties":{"prmname":"R303",
+ "description":"SW and GW aggregation node for Mendota Refuge",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

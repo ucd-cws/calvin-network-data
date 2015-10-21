@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.051638650594,39.791657483384]},
+ "geometry":{"type":"Point","coordinates":[-122.050267,39.789118]},
  "properties":{"prmname":"C69",
  "description":"Glenn Colusa California Aqueductnal",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

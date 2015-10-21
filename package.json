@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/ucd-cws/calvin-network-data#readme",
   "dependencies": {
+    "async": "^1.4.2",
+    "csv-parse": "^1.0.0",
     "globby": "^2.1.0",
+    "minimist": "^1.2.0",
     "node-getopt": "^0.2.3",
     "sphericalmercator": "^1.0.3",
     "walk": "^2.3.9"

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMP-Wads-C138",
+ "description":"Eastside pipeline",
+ "type":"Diversion",
+ "origin":"PMP-Wads",
+ "terminus":"C138",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":13.9860000610352},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":null}}

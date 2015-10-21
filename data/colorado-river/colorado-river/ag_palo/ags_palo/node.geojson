@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-114.612481866567,33.6698861967735]},
+ "properties":{"prmname":"AGS: Palo",
+ "description":"Palo Verde Ag supplied by surface water",
+ "type":"Agricultural Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

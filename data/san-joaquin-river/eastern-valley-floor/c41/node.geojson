@@ -4,4 +4,5 @@
  "description":"California Aqueductla. River Diversion to CVPM8",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

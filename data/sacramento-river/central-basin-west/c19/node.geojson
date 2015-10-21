@@ -4,4 +4,5 @@
  "description":"Putah CRiver Diversion To Putah S. California Aqueductnal",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

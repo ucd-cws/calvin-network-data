@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP207-HGR08",
+ "description":"GW return flow from CVPM 8 (Galt) urban pumping demand",
+ "type":"Diversion",
+ "origin":"WWP207",
+ "terminus":"HGR08",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

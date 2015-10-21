@@ -4,4 +4,5 @@
  "description":"water supply input node for SB-SLO",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

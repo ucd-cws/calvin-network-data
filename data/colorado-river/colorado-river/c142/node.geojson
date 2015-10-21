@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-114.72658858529,33.4074217724923]},
- "properties":{"prmname":"C142",
- "description":"Colorado River return from Palo Verde Ag",
- "type":"Junction",
- "inflows":null,
- "sinks":null}}

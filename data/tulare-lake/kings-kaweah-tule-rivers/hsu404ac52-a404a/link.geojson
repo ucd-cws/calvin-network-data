@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU404AC52-A404A",
+ "description":"Kings River Diversion to CVPM 15 (DA 60B)",
+ "type":"Diversion",
+ "origin":"HSU404AC52",
+ "terminus":"A404A",
+ "amplitude":0.800000011920929,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

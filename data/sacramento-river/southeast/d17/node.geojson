@@ -3,5 +3,6 @@
  "properties":{"prmname":"D17",
  "description":"American River diversion To CVPM 7",
  "type":"Junction",
- "inflows":null,
- "sinks":null}}
+ "inflows":{"default":{"description":"N AND M FORKS AMERICAN RIVER","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

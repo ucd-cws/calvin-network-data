@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP406-HNP406",
+ "description":null,
+ "type":"Diversion",
+ "origin":"WWP406",
+ "terminus":"HNP406",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1480},
+ "bounds":[{"type":"UBC","bound":3.84999990463257}],
+ "sinks":null,
+ "flow":null}}

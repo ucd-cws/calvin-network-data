@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.645039187025,33.0525037993469]},
+ "properties":{"prmname":"IRes: SDWD",
+ "description":"DAU 120, 350, 351,352 - Urban Demand for Interior Res/Comm",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

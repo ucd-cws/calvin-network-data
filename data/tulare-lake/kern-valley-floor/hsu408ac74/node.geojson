@@ -4,4 +4,5 @@
  "description":"Hidden node on surface water conveyance channel",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

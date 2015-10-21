@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.924187544162,37.1241407632039]},
+ "properties":{"prmname":"A303",
+ "description":"CVPM 10 farm gate",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

@@ -3,5 +3,6 @@
  "properties":{"prmname":"D663",
  "description":"Tuolumne River accretion",
  "type":"Junction",
- "inflows":{"default":{"description":"Accretion Tuolumne below New Don Pedro Dam","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "inflows":{"default":{"description":"Accretion: Tuolumne d/s La Grange Dam","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":null}}

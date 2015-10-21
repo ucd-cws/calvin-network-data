@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP18-A405",
+ "description":"Agricultural groundwater pumping GW-18 to CVPM 18 Demand",
+ "type":"Diversion",
+ "origin":"HGP18",
+ "terminus":"A405",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":76.0899963378906},
+ "bounds":[{"type":"UBC","bound":300}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

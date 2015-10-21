@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D662-WTP305",
+ "description":null,
+ "type":"Diversion",
+ "origin":"D662",
+ "terminus":"WTP305",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":45},
+ "bounds":[{"type":"UBC","bound":107.099998474121}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WTP204-U204",
+ "description":null,
+ "type":"Diversion",
+ "origin":"WTP204",
+ "terminus":"U204",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":30},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

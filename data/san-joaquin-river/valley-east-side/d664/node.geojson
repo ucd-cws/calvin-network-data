@@ -4,4 +4,5 @@
  "description":"Tuolumne River diversion to CVPM 11",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

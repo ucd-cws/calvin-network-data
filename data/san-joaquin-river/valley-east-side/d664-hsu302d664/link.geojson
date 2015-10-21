@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D664-HSU302D664",
+ "description":"surface delivery CVPM 11",
+ "type":"Diversion",
+ "origin":"D664",
+ "terminus":"HSU302D664",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

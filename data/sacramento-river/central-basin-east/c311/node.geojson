@@ -1,7 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.727669103874,39.0636103135526]},
- "properties":{"prmname":"C311",
- "description":"Delivery to Sacramento East Refuges",
- "type":"Junction",
- "inflows":null,
- "sinks":null}}

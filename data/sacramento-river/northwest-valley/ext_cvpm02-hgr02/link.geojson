@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"EXT CVPM02-HGR02",
+ "description":"Exterior urban demand return flow",
+ "type":"Diversion",
+ "origin":"EXT CVPM02",
+ "terminus":"HGR02",
+ "amplitude":0.00100000004749745,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HU509-AGG EW",
+ "description":"GW supply to E&W MWD and San Bernardino Valley Ag. (E&W and SBV are combined 12/20/2014). GW and SW returns are consolidated. Now, there is only GW return 12/23/2014. (CUP2014)",
+ "type":"Diversion",
+ "origin":"HU509",
+ "terminus":"AGG EW",
+ "amplitude":1,
+ "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"costs/JAN.csv"},"FEB":{"$ref":"costs/FEB.csv"},"MAR":{"$ref":"costs/MAR.csv"},"APR":{"$ref":"costs/APR.csv"},"MAY":{"$ref":"costs/MAY.csv"},"JUN":{"$ref":"costs/JUN.csv"},"JUL":{"$ref":"costs/JUL.csv"},"AUG":{"$ref":"costs/AUG.csv"},"SEP":{"$ref":"costs/SEP.csv"},"OCT":{"$ref":"costs/OCT.csv"},"NOV":{"$ref":"costs/NOV.csv"},"DEC":{"$ref":"costs/DEC.csv"}}},
+ "bounds":[{"type":"UBT","bound": {"$ref":"./UBT.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

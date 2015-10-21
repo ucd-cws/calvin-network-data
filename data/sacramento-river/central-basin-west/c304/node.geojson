@@ -4,4 +4,5 @@
  "description":"DA12 loCalifornia Aqueductl inflow",
  "type":"Junction",
  "inflows":{"default":{"description":"DA12 local water supply","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

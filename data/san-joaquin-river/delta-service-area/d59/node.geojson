@@ -4,4 +4,5 @@
  "description":"Old River diversion to California Aqueduct Aqueduct",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

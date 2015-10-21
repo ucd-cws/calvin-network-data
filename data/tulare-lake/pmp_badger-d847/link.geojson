@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMP-Badger-D847",
+ "description":"Coastal Aqueduct",
+ "type":"Diversion",
+ "origin":"PMP-Badger",
+ "terminus":"D847",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":24.9083995819092},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":null}}

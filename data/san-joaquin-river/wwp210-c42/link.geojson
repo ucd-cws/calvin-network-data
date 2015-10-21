@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP210-C42",
+ "description":"SW Discharge to San Joaquin R",
+ "type":"Diversion",
+ "origin":"WWP210",
+ "terminus":"C42",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

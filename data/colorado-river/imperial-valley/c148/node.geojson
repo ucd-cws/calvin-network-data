@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-115.596923181264,33.1989387877457]},
+ "geometry":{"type":"Point","coordinates":[-115.596923181264,33.1989387877458]},
  "properties":{"prmname":"C148",
  "description":"Imperial System node - New River Inflow to Salton Sea",
  "type":"Junction",
  "inflows":{"default":{"description":"NEW AND ALAMO","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

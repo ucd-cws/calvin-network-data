@@ -4,4 +4,5 @@
  "description":"MWD San Diego Pipelines 1, 2, 4 &6 (treated water,except 6)",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

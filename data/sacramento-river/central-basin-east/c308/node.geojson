@@ -3,5 +3,6 @@
  "properties":{"prmname":"C308",
  "description":"Accretion to Bear River",
  "type":"Junction",
- "inflows":null,
- "sinks":null}}
+ "inflows":{"default":{"description":"ACCRETION CFW TO WHEATLAND GAGE","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":null}}

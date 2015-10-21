@@ -4,4 +4,5 @@
  "description":"Mokelumne Aqueduct and Los Vacqueros Pipeline crossover",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

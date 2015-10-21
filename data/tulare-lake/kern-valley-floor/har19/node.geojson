@@ -4,4 +4,5 @@
  "description":"Artifical recharge node for subregion 19",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

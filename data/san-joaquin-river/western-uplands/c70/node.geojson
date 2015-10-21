@@ -4,4 +4,5 @@
  "description":"Contra Costa Canal inflow from Los Vaqueros Reservoir",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

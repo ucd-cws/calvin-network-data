@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C21-HSU203C21",
+ "description":"Putah South Canal delivery to CVPM 6 (DA 65)",
+ "type":"Diversion",
+ "origin":"C21",
+ "terminus":"HSU203C21",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":42.9000015258789}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

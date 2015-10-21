@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP17-A403",
+ "description":"Agricultural groundwater pumping GW-17 to CVPM 17 Demand",
+ "type":"Diversion",
+ "origin":"HGP17",
+ "terminus":"A403",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":55.2799987792969},
+ "bounds":[{"type":"UBC","bound":152.619995117188}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

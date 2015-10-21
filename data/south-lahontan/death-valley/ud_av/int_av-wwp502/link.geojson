@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"INT AV-WWP502",
+ "description":"Urban Return Flow",
+ "type":"Diversion",
+ "origin":"INT AV",
+ "terminus":"WWP502",
+ "amplitude":0.899999976158142,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-118.536753884461,34.5274431495888]},
+ "properties":{"prmname":"AGG VENT",
+ "description":"Ventura Ag supplied by Groundwater",
+ "type":"Agricultural Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

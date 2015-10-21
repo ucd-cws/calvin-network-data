@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.745259098958,37.3433368263615]},
+ "properties":{"prmname":"C79",
+ "description":"Hetch Hetchy Aqueduct",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

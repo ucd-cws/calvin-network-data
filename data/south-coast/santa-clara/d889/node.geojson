@@ -5,4 +5,5 @@
  "type":"Junction",
  "inflows":{"default":{"description":"COASTAL BRANCH DELIVERIES TO CLWA
 ","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null}}
+ "sinks":null,
+ "flow":null}}

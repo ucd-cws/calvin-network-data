@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.141170154743,34.6659179342998]},
+ "properties":{"prmname":"WWP505",
+ "description":"Mojave OUT",
+ "type":"Water Treatment",
+ "inflows":null,
+ "sinks":{"default":{"description":"SW Discharge to evap","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}]}},
+ "flow":null}}

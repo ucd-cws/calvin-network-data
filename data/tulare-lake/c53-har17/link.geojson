@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C53-HAR17",
+ "description":"Kings R to Consolidated ID subregion 17 and Kings R to Alta ID for spreading",
+ "type":"Diversion",
+ "origin":"C53",
+ "terminus":"HAR17",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":6.5},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

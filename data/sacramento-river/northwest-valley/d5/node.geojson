@@ -1,7 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.467123096626,40.6278720303772]},
+ "geometry":{"type":"Point","coordinates":[-122.446023,40.612004]},
  "properties":{"prmname":"D5",
  "description":"Keswick Reservoir",
  "type":"Junction",
  "inflows":null,
- "sinks":null}}
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

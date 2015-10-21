@@ -29,10 +29,10 @@ public class DssTestRunner {
 		
 		//readCsvFile(config);
 		
-		if( config.dir != null ) {
+		/*if( config.dir != null ) {
 			crawl(config);
 			return;
-		}
+		}*/
 		
 		return;
 		
@@ -45,7 +45,7 @@ public class DssTestRunner {
 	}
 	
 	public static void readCsvFile(Config config) throws IOException {
-		Reader in = new FileReader(config.input);
+		/*Reader in = new FileReader(config.input);
 		Iterable<CSVRecord> records = CSVFormat.DEFAULT.parse(in);
 		
 		for (CSVRecord record : records) {
@@ -55,10 +55,10 @@ public class DssTestRunner {
 				System.out.print(itr.next()+" ");
 			}
 			System.out.println("");
-		}
+		}*/
 	}
 	
-	public static void crawl(Config config) throws Exception {
+	/*public static void crawl(Config config) throws Exception {
 		HecDss dssFile = HecDss.open(config.output);
 		
 		Walker walker = new Walker();
@@ -131,7 +131,7 @@ public class DssTestRunner {
 		
 
 		return new double[][] {xd, yd};
-	}
+	}*/
 	
 	
 	public static void process(String item, HecDss dssFile) throws Exception {

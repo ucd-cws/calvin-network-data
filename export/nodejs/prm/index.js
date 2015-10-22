@@ -8,7 +8,7 @@ var crawler = require('../crawler');
 
 // test crawl a repo
 if( argv.crawl ) {
-  require('./cmds/crawler')(argv.crawl);
+  require('./cmds/crawl')(argv.crawl);
 } else if( argv.build ) {
   require('./cmds/build')(argv);
 }

@@ -2,6 +2,7 @@
 
 var fs = require('fs');
 var os = require('os');
+var path = require('path');
 var exec = require('child_process').exec;
 
 module.exports = function(argv) {
@@ -29,17 +30,17 @@ function run(argv) {
     args += ' --'+key+' '+params[key];
   }
 
-  if( os.type() === 'Windows_NT' ) {
-    console.log('TODO: make work in windows');
-  } else {
-    exec('./run.sh'+args, {cwd: argv.lib},
-      function (error, stdout, stderr) {
-        writeResponse(stdout);
-      }
-    );
+  var cmd = 'java.exe -Djava.library.path="../../lib;${env_var:PATH}" -jar ../../dssWriter.jar';
+  if( os.type() !== 'Windows_NT' ) {
+    cmd = 'wine '+cmd;
   }
+  var cwd = path.join(argv.lib, 'jre', 'bin');
 
-
+  exec(cmd+args, {cwd: cwd},
+    function (error, stdout, stderr) {
+      writeResponse(stdout);
+    }
+  );
 }
 
 function verify(argv) {

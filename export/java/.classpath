@@ -3,7 +3,21 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="lib/commons-csv-1.2/commons-csv-1.2.jar"/>
 	<classpathentry kind="lib" path="lib/commons-io-2.4/commons-io-2.4.jar"/>
-	<classpathentry kind="lib" path="lib/dssWriter.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre_x86_1.8.0_60"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/hec.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/hecData.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/gridUtil.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/heclib.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/images.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/rma.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/sys/codebase.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/sys/jai_codec.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/sys/jai_core.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/sys/jai_imageio.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/sys/jcommon.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/sys/jdom.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/sys/jfreechart.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/sys/jh.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/sys/jxl.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

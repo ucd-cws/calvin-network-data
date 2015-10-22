@@ -22,9 +22,12 @@ wine ~/Downloads/jre-8u65-windows-i586.exe
 ```
 
 ### Calvin HEC Runtime
-For your convenience and to reduce pain an suffering, we have created a
-package will all required libraries to run the prm tool minus NodeJS.
+For your convenience and to reduce pain and suffering, we have created a
+package with all required libraries to run the prm tool minus NodeJS.
 The package can be found [here](https://github.com/ucd-cws/calvin-network-data/releases) in the releases section.
+
+Currently this runtime is REQUIRED to run the --build command.  You need to
+download and unzip the package.  Then specify the path to the unzipped folder in --build using the --lib flag.
 
 ## Install Node Modules
 ```

@@ -36,3 +36,16 @@ node prm [command] [arg]
 
 #### --crawl [directory]
 Test crawl a data directory.  Prints the errors, number for nodes/links and number of regions found.
+
+#### --build --output [output DSS file] --lib [Calvin HEC Runtime] --append
+Write CSV file(s) to dss file.  Requires the Calvin HEC Runtime (see releases section)
+
+Example
+```
+node prm --build --output ~/out.dss --lib ~/Desktop/HEC_Runtime --append
+ ```
+
+Flags
+ - output: full path to output DSS file
+ - lib: full path to Calvin HEC Runtime
+ - append: must be provided if you are appending to an existing DSS file

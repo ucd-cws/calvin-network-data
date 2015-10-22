@@ -18,9 +18,9 @@ module.exports = function(argv) {
  **/
 function run(argv) {
   var params = {
-    csvFilePath : '/Users/jrmerz/dev/watershed/calvin-network-data/data/tulare-lake/uplands/sr_scc/costs/APR.csv',
-    month : 'APR',
-    prmname : 'foo',
+    csvFilePath : argv.csv,
+    month : argv.month,
+    prmname : argv.prmname,
     dssFilePath : argv.output
   };
 

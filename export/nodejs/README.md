@@ -8,12 +8,23 @@
 - [Java 32-Bit](http://java.com/en/download/manual.jsp)
 - [HecDss Java Library](http://www.hec.usace.army.mil/software/hec-dssvue/)
   - The required jars are bundled with HEC-DSSVUE
+  - /path/to/install/dir/HEC/HEC-DSSVue/lib;
 
-### Linux / OSx
+### Linux / OS X
 - [wine](https://www.winehq.org/)
   - Linux: use apt-get or other package manager
-  - OSx: use [homebrew](http://brew.sh/)
+  - OS X: use [homebrew](http://brew.sh/)
     - brew install wine
+
+With wine installed, you need to install the 32bit JRE. Ex:
+```
+wine ~/Downloads/jre-8u65-windows-i586.exe
+```
+
+## Install Node Modules
+```
+cd /path/to/repo && npm install
+```
 
 ## Run
 

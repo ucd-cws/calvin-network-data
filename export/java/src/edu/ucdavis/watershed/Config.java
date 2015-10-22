@@ -9,7 +9,7 @@ public class Config {
 
 	public Config(String[] args) {
 		for( int i = 0; i < args.length; i++ ) {
-			if( (args[i].equals("-c") || args[i].equals("--csv")) && args.length > i ) {
+			if( (args[i].equals("-c") || args[i].equals("--csvFilePath")) && args.length > i ) {
 				this.csvFilePath = args[i+1];
 				i++;
 			} else if( (args[i].equals("-m") || args[i].equals("--month")) && args.length > i ) {

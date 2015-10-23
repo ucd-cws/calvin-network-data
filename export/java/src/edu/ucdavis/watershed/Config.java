@@ -1,12 +1,33 @@
 package edu.ucdavis.watershed;
 
 public class Config {
-	public String csvFilePath;
-	public String month;
-	public String prmname;
-	public String path;
-	public String cmd = "";
-	public String[5] part;
+	public String csvFilePath = null;
+	public String path = null; // for dss file
+	public String type = "paired";
+	public String label = null;
+	public String location = null;
+	public String date = null;
+	public String xunits = null;
+	public String xtype = null;
+	public String xparameter = null;
+	public double xOrdinate = 0.0;
+	public String yunits = null;
+	public String ytype = null;
+	public String yparameter = null;
+	public double yOrdinate = 0.0;
+	public double numberCurves = 1;
+	
+
+	public String startdate = null;
+	public String enddate = null;
+	public int interval = 43200; // Approx hrs in a month
+	public String parameter = null; //partE;
+	public String quality = "None";
+	public String sublocation = "";
+	public String subparameter = "";
+	public String timezoneid = "None";
+	public int timesoneoffset = 0;
+	public String units = "";
 
 // Can supply path either as --path or --partB, etc.  IF both,
 // then use path and patch with non-null parts
@@ -19,38 +40,207 @@ public class Config {
 // Generally, PartA should be an identifier for our network-data
 // PartF is the description field
 
-	public Config(String[] args) {
-		String[5] inp;
+	public Config() {}
 
-		for( int i = 0; i < args.length; i++ ) {
-			if( (args[i].equals("-f") || args[i].equals("--file")) && args.length > i ) {
-				this.csvFilePath = args[i+1];
-				i++;
-			} else if( (args[i].equals("-A") || args[i].equals("--partA")) && args.length > i ) {
-				inp[0] = args[i+1];
-				i++;
-			} else if( (args[i].equals("-B") || args[i].equals("--partB")) && args.length > i ) {
-				inp[1] = args[i+1];
-				i++;
-			} else if( (args[i].equals("-C") || args[i].equals("--partC")) && args.length > i ) {
-				inp[2] = args[i+1];
-				i++;
-			} else if( (args[i].equals("-D") || args[i].equals("--partD")) && args.length > i ) {
-				inp[3] = args[i+1];
-				i++;
-			} else if( (args[i].equals("-E") || args[i].equals("--partE")) && args.length > i ) {
-				inp[4] = args[i+1];
-			  i++;
-			} else if( (args[i].equals("-F") || args[i].equals("--partF")) && args.length > i ) {
-				inp[5] = args[i+1];
-				i++;
-			} else if( (args[i].equals("-f") || args[i].equals("--path")) && args.length > i ) {
-				this.path = args[i+1];
-				i++;
-			} else {
-				this.cmd += args[i];
-			}
-		}
+	public String getCsvFilePath() {
+		return csvFilePath;
+	}
+
+	public void setCsvFilePath(String csvFilePath) {
+		this.csvFilePath = csvFilePath;
+	}
+
+	public String getPath() {
+		return path;
+	}
+
+	public void setPath(String path) {
+		this.path = path;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public String getLabel() {
+		return label;
+	}
+
+	public void setLabel(String label) {
+		this.label = label;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+	public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
+
+	public String getXunits() {
+		return xunits;
+	}
+
+	public void setXunits(String xunits) {
+		this.xunits = xunits;
+	}
+
+	public String getXtype() {
+		return xtype;
+	}
+
+	public void setXtype(String xtype) {
+		this.xtype = xtype;
+	}
+
+	public String getXparameter() {
+		return xparameter;
+	}
+
+	public void setXparameter(String xparameter) {
+		this.xparameter = xparameter;
+	}
+
+	public double getxOrdinate() {
+		return xOrdinate;
+	}
+
+	public void setxOrdinate(double xOrdinate) {
+		this.xOrdinate = xOrdinate;
+	}
+
+	public String getYunits() {
+		return yunits;
+	}
+
+	public void setYunits(String yunits) {
+		this.yunits = yunits;
+	}
+
+	public String getYtype() {
+		return ytype;
+	}
+
+	public void setYtype(String ytype) {
+		this.ytype = ytype;
+	}
+
+	public String getYparameter() {
+		return yparameter;
+	}
+
+	public void setYparameter(String yparameter) {
+		this.yparameter = yparameter;
+	}
+
+	public double getyOrdinate() {
+		return yOrdinate;
+	}
+
+	public void setyOrdinate(double yOrdinate) {
+		this.yOrdinate = yOrdinate;
+	}
+
+	public double getNumberCurves() {
+		return numberCurves;
+	}
+
+	public void setNumberCurves(double numberCurves) {
+		this.numberCurves = numberCurves;
+	}
+
+	public String getStartdate() {
+		return startdate;
+	}
+
+	public void setStartdate(String startdate) {
+		this.startdate = startdate;
+	}
+
+	public String getEnddate() {
+		return enddate;
+	}
+
+	public void setEnddate(String enddate) {
+		this.enddate = enddate;
+	}
+
+	public int getInterval() {
+		return interval;
+	}
+
+	public void setInterval(int interval) {
+		this.interval = interval;
+	}
+
+	public String getParameter() {
+		return parameter;
+	}
+
+	public void setParameter(String parameter) {
+		this.parameter = parameter;
+	}
+
+	public String getQuality() {
+		return quality;
+	}
+
+	public void setQuality(String quality) {
+		this.quality = quality;
+	}
+
+	public String getSublocation() {
+		return sublocation;
+	}
+
+	public void setSublocation(String sublocation) {
+		this.sublocation = sublocation;
+	}
+
+	public String getSubparameter() {
+		return subparameter;
+	}
+
+	public void setSubparameter(String subparameter) {
+		this.subparameter = subparameter;
+	}
+
+	public String getTimezoneid() {
+		return timezoneid;
+	}
+
+	public void setTimezoneid(String timezoneid) {
+		this.timezoneid = timezoneid;
+	}
+
+	public int getTimesoneoffset() {
+		return timesoneoffset;
+	}
+
+	public void setTimesoneoffset(int timesoneoffset) {
+		this.timesoneoffset = timesoneoffset;
+	}
+
+	public String getUnits() {
+		return units;
+	}
+
+	public void setUnits(String units) {
+		this.units = units;
+	}
 
 // MONTH Enumeration - JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC
 	//	OK, at this point if we have a path, then we parse it into this.parts
@@ -88,9 +278,5 @@ public class Config {
 //For all these we create partD from the first item of CSV file and
 // PartE = '1MON'
 
-
-
-
-	}
 
 }

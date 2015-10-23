@@ -10,13 +10,79 @@ public class Dss {
 	public static HecDss open(String file) throws Exception {
 		return HecDss.open(file);
 	}
+	
+	public static void write(Config config, double[][] data, HecDss dssFile) {
+		if( config.getType() == "paired" ) {
+			writePairedData(config, data, dssFile);
+		} else {
+			writeTimeSeriesData(config, data, dssFile);
+		}
+	}
 
-	public static void writePairData(String month, String prmname, double[][] data, HecDss dssFile) throws Exception{
+	public static void writePairedData(Config config, double[][] data, HecDss dssFile) throws Exception {
 
 		PairedDataContainer pdc = new PairedDataContainer();
-		pdc.labels = new String[] {"", month};
-		pdc.date = month;
-		pdc.location = prmname;
+		
+		if( config.label != null ) {
+			pdc.labels = new String[] {"", config.label};
+			
+		}
+		if( config.date != null ) {
+			pdc.date = config.date;
+		}
+		
+		if( config.location != null ) {
+			pdc.location = config.location;
+		}
+		
+		if( config.xunits != null ) {
+			pdc.xunits = config.xunits;
+		}
+		
+		if( config.xtype != null ) {
+			pdc.xtype = pdc.xtype;
+		}
+		
+		if( config.xparameter != null ) {
+			pdc.xparameter = pdc.xparameter;
+		}
+
+		pdc.xOrdinate = config.xOrdinate;
+		
+		if( config.yunits != null ) {
+			pdc.yunits = config.yunits;
+		}
+		
+		if( config.ytype != null ) {
+			pdc.ytype = config.ytype;
+		}
+		
+		if( config.yparameter != null ) {
+			pdc.yparameter = config.yparameter;
+		}
+		
+		pdc.yOrdinate = config.yOrdinate;
+
+		pdc.fullName = config.path;
+
+		pdc.xOrdinates = data[0];
+		pdc.yOrdinates = new double[][] {data[1]};
+		
+		pdc.numberCurves = config.numberCurves;
+		pdc.numberOrdinates = pdc.xOrdinates.length;
+
+		dssFile.put(pdc);
+	}
+	
+	public static void writeTimeSeriesData(Config config, double[][] data, HecDss dssFile) throws Exception {
+		
+	
+	}
+
+}
+
+/*
+ * pdc.location = prmname;
 
 		pdc.xunits = "KAF";
 		pdc.xtype = "DIVR";
@@ -40,15 +106,14 @@ public class Dss {
 		pdc.numberOrdinates = pdc.xOrdinates.length;
 
 		dssFile.put(pdc);
-	}
-
-}
+ */
 
 // EL-AR-CAP has two curves.
+/*
 public static void writeElArCap(String[5] month, part, double[][] data, HecDss dssFile) throws Exception{
 
 	PairedDataContainer pdc = new PairedDataContainer();
-	pdc.labels = new String[] {};
+	
 
 	pdc.xtype = "UNT"
 	pdc.xOrdinate = 0.0;
@@ -66,8 +131,8 @@ public static void writeElArCap(String[5] month, part, double[][] data, HecDss d
 	pdc.numberOrdinates = pdc.xOrdinates.length;
 
 	dssFile.put(pdc);
-}
-
+}*/
+/*
 // Time Series
 public static void writeTS(String[5] month, part, double[][] data, HecDss dssFile) throws Exception{
 
@@ -104,3 +169,4 @@ STOR_UBT(KAF)|PER-AVER|KAF|8
 }
 
 }
+*/

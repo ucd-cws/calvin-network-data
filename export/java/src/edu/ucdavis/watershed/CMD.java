@@ -4,22 +4,21 @@ import edu.ucdavis.watershed.Dss;
 import hec.heclib.dss.HecDss;
 import edu.ucdavis.watershed.Csv;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 public class CMD {
 	public static void main(String[] args) {
-		Config config = new Config(args);
-
+		ObjectMapper mapper = new ObjectMapper();
+		CommandLineInput input = mapper.readValue(args[0], CommandLineInput.class);
+		
 		try {
-			HecDss dssFile = Dss.open(config.dssFilePath);
-			double[][] data = Csv.parseCsv(config.csvFilePath);
-
-			// Now we have three potential writes to use.
-			//part[3]='EL-AR-CAP'
-			//Dss.writeElArCap(config.part,dssFile);
-			//part[3] one of other penalty
-			// month=part[5] prmname=part[2]
-			Dss.writePairData(config.part, data, dssFile);
-			//part[3] one of time-series
-			//Dss.writeTimeSeries(config.part,data,dssFile);
+			HecDss dssFile = Dss.open(input.getPath());
+			
+			for( Config config: input.getData() ) {
+				double[][] data = Csv.parseCsv(config.getCsvFilePath());
+				Dss.write(config, data, dssFile);
+			}
+			
 		} catch (Exception e) {
 			printError(e.getMessage());
 			return;

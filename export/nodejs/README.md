@@ -15,7 +15,7 @@ The HEC-PRM code is distributed as a windows binary.   Further, HEC-PRM uses DSS
   - /path/to/install/dir/HEC/HEC-DSSVue/lib;
 
 These requirements have been bundled into a [windows runtime](#calvin-hec-runtime).  The command
-line tool will automatically run the java code via wine in OS X and Linus.  So make sure you
+line tool will automatically run the java code via wine in OS X and Linux.  So make sure you
 have wine installed if you are not using windows.
 
 ### Linux / OS X
@@ -26,11 +26,11 @@ have wine installed if you are not using windows.
 
 ### Calvin HEC Runtime
 For your convenience and to reduce pain and suffering, we have created a
-package with all required libraries to run the prm tool minus NodeJS.
+package with all required libraries to run the prm tool minus NodeJS (and wine).
 The package can be found [here](https://github.com/ucd-cws/calvin-network-data/releases) in the releases section.
 
-Currently this runtime is REQUIRED to run the --build command.  You need to
-download and unzip the package.  Then specify the path to the unzipped folder in --build using the --lib flag.
+Currently this runtime is REQUIRED to run the **build** command.  You need to
+download and unzip the package.  Then specify the path to the unzipped folder in **build** using the *--runtime* flag.
 
 ## Install Node Modules
 ```

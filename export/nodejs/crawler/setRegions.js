@@ -35,7 +35,7 @@ function setRegions(region, path, regions, regionNames, lookup) {
 
           updateMinMax(min, max, node.geometry.coordinates);
         }
-      } else {
+      } else if( global.debug ) {
         console.log('Unable to find node: '+prmname+' in region '+newPath);
       }
     }

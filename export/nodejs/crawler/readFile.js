@@ -15,7 +15,9 @@ module.exports = function(file, object, attr, parseCsvData, callback) {
 
     parse(object[attr], {comment: '#', delimiter: ','}, function(err, data){
       if( attr === '' ) { // hack need to fix
-        console.log('  --Attempting to set empty attr name, switching to "data": '+file);
+        if( global.debug ) {
+          console.log('  --Attempting to set empty attr name, switching to "data": '+file);
+        }
         delete object[attr];
         attr = 'data';
       }

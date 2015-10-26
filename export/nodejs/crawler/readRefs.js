@@ -27,7 +27,9 @@ function readRefs(dir, filename, parent, attr, parseCsvData, callback) {
             return;
           }
         } catch(e) {
-          console.log('  --Unabled to read: "'+file+'" ('+parent[attr].$ref+') '+JSON.stringify(parts));
+          if( global.debug ) {
+            console.log('  --Unabled to read: "'+file+'" ('+parent[attr].$ref+') '+JSON.stringify(parts));
+          }
           parent[attr] = 'Unabled to read: '+file;
         }
 

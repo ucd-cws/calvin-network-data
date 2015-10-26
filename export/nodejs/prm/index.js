@@ -17,6 +17,11 @@ if( noCommand ) {
 }
 
 var cmd = argv._.splice(0, 1)[0];
+if( cmd === 'divr' ) {
+  cmd = 'node';
+  argv.divr = true;
+}
+
 var modulePath = path.join(__dirname, 'cmds', cmd+'.js');
 
 if( !fs.existsSync(modulePath) ) {

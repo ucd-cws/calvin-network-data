@@ -16,12 +16,19 @@ var dir, branch, files;
 module.exports = function(dir, options, callback) {
   if( typeof options === 'function' ) {
     callback = options;
+    options = {};
   }
 
   var parseCsvData = true;
   if( options.parseCsv !== undefined ) {
     parseCsvData = options.parseCsv;
   }
+
+  var debug = false;
+  if( options.debug ) {
+    debug = true;
+  }
+  global.debug = debug;
 
   var nodes = [];
   var regions = [];
@@ -30,7 +37,9 @@ module.exports = function(dir, options, callback) {
 
   // gather git info
   git.info(dir, function(gitInfo) {
-    console.log(gitInfo);
+    if( debug ) {
+      console.log(gitInfo);
+    }
 
     // recursively crawl all directories creating tree of regions, each
     // containing child nodes and links
@@ -41,11 +50,15 @@ module.exports = function(dir, options, callback) {
     // dump all region data, again, this is a tree
     var json = ca.toJSON();
 
-    console.log('Walking '+dir+' for nodes and links.  Attaching CSV data.');
+    if( debug ) {
+      console.log('Walking '+dir+' for nodes and links.  Attaching CSV data.');
+    }
 
     // read all nodes, and read in all $ref data
     readNodes(dir, nodes, gitInfo, parseCsvData, function(){
-      console.log('Processing geojson.');
+      if( debug ){
+        console.log('Processing geojson.');
+      }
 
       // set additional information for the nodes
       nodes.forEach(function(node){
@@ -67,7 +80,7 @@ module.exports = function(dir, options, callback) {
       });
 
       // create link geometry based on node locations
-      processLinks(nodes, lookup);
+      processLinks(nodes, lookup, debug);
 
       // preform some region post processing
       setRegions(json, '', regions, regionNames, lookup);

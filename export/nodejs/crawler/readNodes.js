@@ -38,7 +38,9 @@ function readNodes(dir, nodes, gitInfo, parseCsvData, callback) {
 
         // ignore feature collections for now
         if( d.type === 'FeatureCollection' ) {
-          console.log('  --Ignoring: '+file+' FeatureCollection\'s are not currently supported');
+          if( global.debug ) {
+            console.log('  --Ignoring: '+file+' FeatureCollection\'s are not currently supported');
+          }
           return next();
         }
 
@@ -68,7 +70,7 @@ function readNodes(dir, nodes, gitInfo, parseCsvData, callback) {
       setImmediate(next);
     },
     function(err){
-      if( err ) {
+      if( err && global.debug ) {
         console.log(err);
       }
       callback();

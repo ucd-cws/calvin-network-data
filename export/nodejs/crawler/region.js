@@ -90,11 +90,13 @@ var Region = function(root, name, branch) {
           var n = eval('('+ fs.readFileSync(filename,'utf-8').replace(/[\r\n]/g,'') +')');
           this.nodes[n.properties.prmname] = n.properties.type;
         } catch(e) {
-          console.log('  --JSON parse error: '+dir+' '+file);
+          if( global.debug ) {
+            console.log('  --JSON parse error: '+dir+' '+file);
+          }
         }
 
       // a file we don't care about, let the user know we are ignoring
-      } else {
+      } else if( global.debug ){
         console.log('  --Ignored: '+dir+' '+file);
       }
     }.bind(this));

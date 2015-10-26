@@ -17,9 +17,9 @@ if( noCommand ) {
 }
 
 var cmd = argv._.splice(0, 1)[0];
-if( cmd === 'divr' ) {
+if( cmd === 'link' ) {
   cmd = 'node';
-  argv.divr = true;
+  argv.link = true;
 }
 
 var modulePath = path.join(__dirname, 'cmds', cmd+'.js');

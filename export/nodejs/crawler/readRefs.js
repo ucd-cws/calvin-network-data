@@ -4,7 +4,7 @@ var async = require('async');
 var readFile = require('./readFile');
 
 // process $ref pointers
-function readRefs(dir, filename, parent, attr, callback) {
+function readRefs(dir, filename, parent, attr, parseCsvData, callback) {
   var keys = Object.keys(parent[attr]);
 
   async.eachSeries(keys,
@@ -16,14 +16,14 @@ function readRefs(dir, filename, parent, attr, callback) {
           if( parent[attr].$ref.match(/^\.\/.*/) ) {
             file = dir+'/'+parent[attr].$ref.replace(/^\.\//,'');
             parts.push(parent[attr].$ref.replace(/^\.\//,''));
-            readFile(file, parent, attr, next);
+            readFile(file, parent, attr, parseCsvData, next);
             return;
           } else {
             file = dir+'/'+parent[attr].$ref;
             parts.push(filename);
             parts.push(parent[attr].$ref);
 
-            readFile(file, parent, attr, next);
+            readFile(file, parent, attr, parseCsvData, next);
             return;
           }
         } catch(e) {
@@ -32,7 +32,7 @@ function readRefs(dir, filename, parent, attr, callback) {
         }
 
       } else if( typeof parent[attr][key] === 'object' && parent[attr][key] !== null ) {
-        return readRefs(dir, filename, parent[attr], key, next);
+        return readRefs(dir, filename, parent[attr], key, parseCsvData, next);
       }
 
       setImmediate(next);

@@ -3,8 +3,14 @@
 var parse = require('csv-parse');
 var fs = require('fs');
 
-module.exports = function(file, object, attr, callback) {
+module.exports = function(file, object, attr, parseCsvData, callback) {
   if( file.match(/.*\.csv$/i) ) {
+    if( !parseCsvData ) {
+      object[attr] = file;
+      setImmediate(callback);
+      return;
+    }
+
     object[attr] = fs.readFileSync(file, 'utf-8');
 
     parse(object[attr], {comment: '#', delimiter: ','}, function(err, data){

@@ -5,23 +5,22 @@ var os = require('os');
 var path = require('path');
 var exec = require('child_process').exec;
 
+var PARAMS_TMP_FILE = '.dssWriterParams';
 
 module.exports = function(lib, params, callback) {
+  var paramFile = path.join(process.cwd(), PARAMS_TMP_FILE);
+  fs.writeFileSync(paramFile, JSON.stringify(params));
 
-  params = JSON.stringify(params);
-
-  var cmd = 'java.exe -Djava.library.path="../../lib;${env_var:PATH}" -jar ../../dssWriter.jar ';
+  var cmd = 'java.exe -Djava.library.path="../../lib;${env_var:PATH}" -jar ../../dssWriter.jar '+paramFile;
   if( os.type() !== 'Windows_NT' ) {
     cmd = 'wine '+cmd;
   }
-  cmd += escapeShell(params);
 
   var cwd = path.join(lib, 'jre', 'bin');
 
-  console.log(cmd);
-
   exec(cmd, {cwd: cwd},
     function (error, stdout, stderr) {
+      fs.unlinkSync(paramFile);
       writeResponse(stdout, error, stderr, callback);
     }
   );
@@ -49,5 +48,4 @@ function writeResponse(stdout, error, stderr, callback) {
       stderr : stderr
     });
   }
-
 }

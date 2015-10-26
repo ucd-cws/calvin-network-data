@@ -5,7 +5,7 @@ var fs = require('fs');
 var readRefs = require('./readRefs');
 
 
-function readNodes(dir, nodes, gitInfo, callback) {
+function readNodes(dir, nodes, gitInfo, parseCsvData, callback) {
   var files = fs.readdirSync(dir);
 
   var re = new RegExp('.*'+gitInfo.origin.split('/')[1]);
@@ -27,7 +27,7 @@ function readNodes(dir, nodes, gitInfo, callback) {
 
       // if child file is a dir recurse in
       if( stat.isDirectory() ) {
-        return readNodes(dir+'/'+file, nodes, gitInfo, next);
+        return readNodes(dir+'/'+file, nodes, gitInfo, parseCsvData, next);
 
       // if this is a geojson file, let's do some stuff
       } else if ( stat.isFile() && file.match('\.geojson$') ) {
@@ -55,7 +55,7 @@ function readNodes(dir, nodes, gitInfo, callback) {
         }
 
         // now we need to read all file reference points;
-        readRefs(d.properties.repo.dir, d.properties.filename, d, 'properties', function(){
+        readRefs(d.properties.repo.dir, d.properties.filename, d, 'properties', parseCsvData, function(){
 
           d.properties.repo.dir = dir.replace(re, '');
           nodes.push(d);

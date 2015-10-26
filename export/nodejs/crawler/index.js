@@ -13,7 +13,16 @@ var git = require('../git');
 
 var dir, branch, files;
 
-module.exports = function(dir, callback) {
+module.exports = function(dir, options, callback) {
+  if( typeof options === 'function' ) {
+    callback = options;
+  }
+
+  var parseCsvData = true;
+  if( options.parseCsv !== undefined ) {
+    parseCsvData = options.parseCsv;
+  }
+
   var nodes = [];
   var regions = [];
   var regionNames = {};
@@ -35,7 +44,7 @@ module.exports = function(dir, callback) {
     console.log('Walking '+dir+' for nodes and links.  Attaching CSV data.');
 
     // read all nodes, and read in all $ref data
-    readNodes(dir, nodes, gitInfo, function(){
+    readNodes(dir, nodes, gitInfo, parseCsvData, function(){
       console.log('Processing geojson.');
 
       // set additional information for the nodes

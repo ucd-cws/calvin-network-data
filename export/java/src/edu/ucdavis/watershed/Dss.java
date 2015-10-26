@@ -1,9 +1,8 @@
 package edu.ucdavis.watershed;
 
-import java.io.File;
-
 import hec.heclib.dss.HecDss;
 import hec.io.PairedDataContainer;
+import hec.io.TimeSeriesContainer;
 
 public class Dss {
 
@@ -11,8 +10,8 @@ public class Dss {
 		return HecDss.open(file);
 	}
 	
-	public static void write(Config config, double[][] data, HecDss dssFile) {
-		if( config.getType() == "paired" ) {
+	public static void write(Config config, double[][] data, HecDss dssFile) throws Exception {
+		if( config.getType().equals("paired") ) {
 			writePairedData(config, data, dssFile);
 		} else {
 			writeTimeSeriesData(config, data, dssFile);
@@ -76,22 +75,24 @@ public class Dss {
 	
 	public static void writeTimeSeriesData(Config config, double[][] data, HecDss dssFile) throws Exception {
 		TimeSeriesContainer ts = new TimeSeriesContainer();
-		if( config.startdate != null ) {
-			ts.startdate = config.getStartdate();
-		}
-		if( config.getEnddate() != null ) {
-			ts.enddate = config.getEnddate();
-		}
+		ts.startTime = config.getStartTime();
+		ts.endTime = config.getEndTime();
+		
 		ts.interval = config.getInterval(); // Approx hrs in a month
 		if( config.getParameter() != null ) {
-			ts.parameter = config.getParameter() //partE;
+			ts.parameter = config.getParameter(); //partE;
 		}
 		
-		ts.quality = config.getQuality();
-		ts.sublocation = config.getSublocation();
-		ts.subparameter = config.getSubparameter();
-		ts.timezoneid = config.getTimezoneid();
-		ts.timesoneoffset = config.getTimesoneoffset();
+		int[] quality = new int[config.getQuality().size()];
+		for( int i = 0; i < quality.length; i++ ) {
+			quality[i] = config.getQuality().get(i);
+		}
+		ts.quality = quality;
+		
+		ts.subLocation = config.getSubLocation();
+		ts.subParameter = config.getSubParameter();
+		ts.timeZoneID = config.getTimeZoneID();
+		ts.timeZoneRawOffset = config.getTimeZoneRawOffset();
 		
 		dssFile.put(ts);
 	}

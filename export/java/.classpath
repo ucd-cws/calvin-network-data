@@ -20,6 +20,7 @@
 	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/sys/jh.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/HEC/HEC-DSSVue/jar/sys/jxl.jar"/>
 	<classpathentry kind="lib" path="lib/jackson-databind-2.6.3.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-annotations-2.6.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

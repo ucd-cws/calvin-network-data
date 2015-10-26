@@ -1,5 +1,8 @@
 package edu.ucdavis.watershed;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Config {
 	public String csvFilePath = null;
 	public String path = null; // for dss file
@@ -15,18 +18,18 @@ public class Config {
 	public String ytype = null;
 	public String yparameter = null;
 	public double yOrdinate = 0.0;
-	public double numberCurves = 1;
+	public int numberCurves = 1;
 	
 
-	public String startdate = null;
-	public String enddate = null;
+	public int startTime = 0;
+	public int endTime = 0;
 	public int interval = 43200; // Approx hrs in a month
 	public String parameter = null; //partE;
-	public String quality = "None";
-	public String sublocation = "";
-	public String subparameter = "";
-	public String timezoneid = "None";
-	public int timesoneoffset = 0;
+	public List<Integer> quality = new ArrayList<Integer>();
+	public String subLocation = "";
+	public String subParameter = "";
+	public String timeZoneID = "None";
+	public int timeZoneRawOffset = 0;
 	public String units = "";
 
 // Can supply path either as --path or --partB, etc.  IF both,
@@ -154,28 +157,28 @@ public class Config {
 		this.yOrdinate = yOrdinate;
 	}
 
-	public double getNumberCurves() {
+	public int getNumberCurves() {
 		return numberCurves;
 	}
 
-	public void setNumberCurves(double numberCurves) {
+	public void setNumberCurves(int numberCurves) {
 		this.numberCurves = numberCurves;
 	}
 
-	public String getStartdate() {
-		return startdate;
+	public int getStartTime() {
+		return startTime;
 	}
 
-	public void setStartdate(String startdate) {
-		this.startdate = startdate;
+	public void setStartdate(int startTime) {
+		this.startTime = startTime;
 	}
 
-	public String getEnddate() {
-		return enddate;
+	public int getEndTime() {
+		return endTime;
 	}
 
-	public void setEnddate(String enddate) {
-		this.enddate = enddate;
+	public void setEndTime(int endTime) {
+		this.endTime = endTime;
 	}
 
 	public int getInterval() {
@@ -194,44 +197,44 @@ public class Config {
 		this.parameter = parameter;
 	}
 
-	public String getQuality() {
+	public List<Integer> getQuality() {
 		return quality;
 	}
 
-	public void setQuality(String quality) {
+	public void setQuality(List<Integer> quality) {
 		this.quality = quality;
 	}
 
-	public String getSublocation() {
-		return sublocation;
+	public String getSubLocation() {
+		return subLocation;
 	}
 
-	public void setSublocation(String sublocation) {
-		this.sublocation = sublocation;
+	public void setSubLocation(String subLocation) {
+		this.subLocation = subLocation;
 	}
 
-	public String getSubparameter() {
-		return subparameter;
+	public String getSubParameter() {
+		return subParameter;
 	}
 
-	public void setSubparameter(String subparameter) {
-		this.subparameter = subparameter;
+	public void setSubParameter(String subParameter) {
+		this.subParameter = subParameter;
 	}
 
-	public String getTimezoneid() {
-		return timezoneid;
+	public String getTimeZoneID() {
+		return timeZoneID;
 	}
 
-	public void setTimezoneid(String timezoneid) {
-		this.timezoneid = timezoneid;
+	public void setTimezoneid(String timeZoneID) {
+		this.timeZoneID = timeZoneID;
 	}
 
-	public int getTimesoneoffset() {
-		return timesoneoffset;
+	public int getTimeZoneRawOffset() {
+		return timeZoneRawOffset;
 	}
 
-	public void setTimesoneoffset(int timesoneoffset) {
-		this.timesoneoffset = timesoneoffset;
+	public void setTimesoneoffset(int timeZoneRawOffset) {
+		this.timeZoneRawOffset = timeZoneRawOffset;
 	}
 
 	public String getUnits() {

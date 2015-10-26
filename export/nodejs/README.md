@@ -62,6 +62,7 @@ Example
 node prm build out --runtime ~/Desktop/HEC_Runtime --data ~/dev/calvin-network-data/data
  ```
 
+Optionally you can add *--verbose* to dump the hec-dss libraries output.
 
 ### DSSVUE
 

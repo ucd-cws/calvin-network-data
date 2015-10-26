@@ -3,10 +3,10 @@ package edu.ucdavis.watershed;
 import java.util.LinkedList;
 
 public class CommandLineInput {
-	
+
 	public String path = ""; // dss file path
 	public LinkedList<Config> data = null;
-	
+
 	public CommandLineInput() {}
 
 	public String getPath() {
@@ -24,6 +24,4 @@ public class CommandLineInput {
 	public void setData(LinkedList<Config> data) {
 		this.data = data;
 	}
-	
-	
 }

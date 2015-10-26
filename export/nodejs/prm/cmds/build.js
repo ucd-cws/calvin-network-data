@@ -1,89 +1,58 @@
 'use strict';
 
 var fs = require('fs');
-var os = require('os');
-var path = require('path');
-var exec = require('child_process').exec;
+var crawler = require('../../crawler');
 
 module.exports = function(argv) {
-  verify(argv);
-  run(argv);
+  var options = verify(argv);
+
+  crawler(options.data, function(result){
+    console.log('*********');
+    console.log('Regions: '+result.regions.length);
+    console.log('Nodes/Links: '+result.nodes.length);
+    console.log('done.');
+  });
 };
 
-/**
- * DssWriter.jar flags
- *  --csvFilePath [input csv file path]
- *  --month [input csv file month]
- *  --prmname [prmname for node]
- *  --dssFilePath [where dss file should go]
- **/
-function run(argv) {
-  var params = {
-    path : argv.output,
-    data : [{
-      csvFilePath : argv.csv,
-      type : 'paired',
-      label : argv.month,
-      date : argv.month,
-      location : argv.prmname,
-      xunits : 'KAF',
-      xtype : 'DIVR',
-      yunits : 'Penalty',
-      ytype : '',
-      path : '//'+argv.prmname+'///'+argv.month+'/1/'
-    }]
+function verify(argv) {
+  var options = {
+    prefix : '',
+    runtime : '',
+    data : ''
   };
 
-  params = JSON.stringify(params);
-
-  var cmd = 'java.exe -Djava.library.path="../../lib;${env_var:PATH}" -jar ../../dssWriter.jar ';
-  if( os.type() !== 'Windows_NT' ) {
-    cmd = 'wine '+cmd;
+  if( argv._.length > 0 ) {
+    options.prefix = argv._[0];
+  } else if( argv.prefix ) {
+    options.prefix = argv.prefix;
   }
-  cmd += escapeShell(params);
 
-  var cwd = path.join(argv.lib, 'jre', 'bin');
+  if( argv.r ) {
+    options.runtime = argv.r;
+  } else if( argv.runtime ) {
+    options.runtime = argv.runtime;
+  }
 
-  console.log(cmd);
+  if( argv.d ) {
+    options.data = argv.d;
+  } else if( argv.data ) {
+    options.data = argv.data;
+  }
 
-  exec(cmd, {cwd: cwd},
-    function (error, stdout, stderr) {
-      console.log(error);
-      console.log(stderr);
-      writeResponse(stdout);
+  for( var key in options ) {
+    if( !options[key] ) {
+      console.log('Missing '+key);
+      process.exit(-1);
     }
-  );
-}
-
-function escapeShell(cmd) {
-  return '"'+cmd.replace(/(["\s'$`\\])/g,'\\$1')+'"';
-}
-
-function verify(argv) {
-  if( !argv.output ) {
-    throw new Error('No DSS output file provided (use --output to provide DSS path)');
-  } else if( !argv.append && fs.existsSync(argv.output) ) {
-    throw new Error('DSS file already exists and no append flag provided (use --append to append)');
-  } else if( !argv.lib ) {
-    throw new Error('DSS writer runtime not provided (use --lib to provide runtime path)');
-  }
-}
-
-function writeResponse(stdout) {
-  var org = stdout;
-  try {
-    var json = stdout.match(/\{.*\}/);
-    var stack = stdout.replace(json, '');
-    json = JSON.parse(json);
-    json.stack = stack;
-
-    console.log(json);
-  } catch(e) {
-    console.log({
-      error : true,
-      message : 'failed to parse stdout',
-      stdout  : org
-    });
   }
 
+  if( !fs.existsSync(options.runtime) ) {
+    console.log('Invalid runtime path: '+options.runtime);
+    process.exit(-1);
+  } else if( !fs.existsSync(options.data) ) {
+    console.log('Invalid data repo path: '+options.data);
+    process.exit(-1);
+  }
+
+  return options;
 }

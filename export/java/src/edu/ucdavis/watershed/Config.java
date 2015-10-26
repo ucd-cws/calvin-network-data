@@ -19,7 +19,7 @@ public class Config {
 	public String yparameter = null;
 	public double yOrdinate = 0.0;
 	public int numberCurves = 1;
-	
+
 
 	public int startTime = 0;
 	public int endTime = 0;
@@ -31,17 +31,6 @@ public class Config {
 	public String timeZoneID = "None";
 	public int timeZoneRawOffset = 0;
 	public String units = "";
-
-// Can supply path either as --path or --partB, etc.  IF both,
-// then use path and patch with non-null parts
-// Following Default Convention HEC_PRM Pg 83
-
-// I think we should also have a
-// --start=date and --end=date which will subselect the time-series data
-
-
-// Generally, PartA should be an identifier for our network-data
-// PartF is the description field
 
 	public Config() {}
 
@@ -280,6 +269,4 @@ public class Config {
 //STOR_UBT(KAF)
 //For all these we create partD from the first item of CSV file and
 // PartE = '1MON'
-
-
 }

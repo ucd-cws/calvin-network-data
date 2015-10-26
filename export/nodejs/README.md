@@ -44,26 +44,25 @@ cd /path/to/repo && npm install
 node prm [command] [arg]
 ```
 
+### .prmconf file
+All arguments for prm commands can be passed via command line parameter or stored in a JSON formatted .prmconf file.
+This file should be stored in your accounts home directory be default.  If you
+wish to supply a config file that is not located in your home directory, you can
+do so with --config [path/to/config/file] parameter.
+
 ### Commands
 
-#### --crawl [directory]
+#### crawl [directory]
 Test crawl a data directory.  Prints the errors, number for nodes/links and number of regions found.
 
-#### --build
+#### build [prefix] --runtime [/path/to/hec/runtime] --data [/path/to/data/repo]
 Write CSV file(s) to dss file.  Requires the Calvin HEC Runtime (see [releases](https://github.com/ucd-cws/calvin-network-data/releases) section)
 
 Example
 ```
-node prm --build --output ~/out.dss --lib ~/Desktop/HEC_Runtime --csv ~/dev/watershed/calvin-network-data/data/tulare-lake/uplands/sr_scc/costs/APR.csv --month APR --prmname foo --append
+node prm build out --runtime ~/Desktop/HEC_Runtime --data ~/dev/calvin-network-data/data
  ```
 
-Flags
- - output: full path to output DSS file
- - lib: full path to Calvin HEC Runtime
- - append: must be provided if you are appending to an existing DSS file
- - csv: path to csv file
- - month: for CSS record path
- - prmname: for DSS record path
 
 ### DSSVUE
 

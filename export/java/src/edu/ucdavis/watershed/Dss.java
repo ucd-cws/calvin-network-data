@@ -75,8 +75,25 @@ public class Dss {
 	}
 	
 	public static void writeTimeSeriesData(Config config, double[][] data, HecDss dssFile) throws Exception {
+		TimeSeriesContainer ts = new TimeSeriesContainer();
+		if( config.startdate != null ) {
+			ts.startdate = config.getStartdate();
+		}
+		if( config.getEnddate() != null ) {
+			ts.enddate = config.getEnddate();
+		}
+		ts.interval = config.getInterval(); // Approx hrs in a month
+		if( config.getParameter() != null ) {
+			ts.parameter = config.getParameter() //partE;
+		}
 		
-	
+		ts.quality = config.getQuality();
+		ts.sublocation = config.getSublocation();
+		ts.subparameter = config.getSubparameter();
+		ts.timezoneid = config.getTimezoneid();
+		ts.timesoneoffset = config.getTimesoneoffset();
+		
+		dssFile.put(ts);
 	}
 
 }

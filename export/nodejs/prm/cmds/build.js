@@ -19,28 +19,44 @@ module.exports = function(argv) {
  **/
 function run(argv) {
   var params = {
-    csvFilePath : argv.csv,
-    month : argv.month,
-    prmname : argv.prmname,
-    dssFilePath : argv.output
+    path : argv.output,
+    data : [{
+      csvFilePath : argv.csv,
+      type : 'paired',
+      label : argv.month,
+      date : argv.month,
+      location : argv.prmname,
+      xunits : 'KAF',
+      xtype : 'DIVR',
+      yunits : 'Penalty',
+      ytype : '',
+      path : '//'+argv.prmname+'///'+argv.month+'/1/'
+    }]
   };
 
-  var args = '';
-  for( var key in params ) {
-    args += ' --'+key+' '+params[key];
-  }
+  params = JSON.stringify(params);
 
-  var cmd = 'java.exe -Djava.library.path="../../lib;${env_var:PATH}" -jar ../../dssWriter.jar';
+  var cmd = 'java.exe -Djava.library.path="../../lib;${env_var:PATH}" -jar ../../dssWriter.jar ';
   if( os.type() !== 'Windows_NT' ) {
     cmd = 'wine '+cmd;
   }
+  cmd += escapeShell(params);
+
   var cwd = path.join(argv.lib, 'jre', 'bin');
 
-  exec(cmd+args, {cwd: cwd},
+  console.log(cmd);
+
+  exec(cmd, {cwd: cwd},
     function (error, stdout, stderr) {
+      console.log(error);
+      console.log(stderr);
       writeResponse(stdout);
     }
   );
+}
+
+function escapeShell(cmd) {
+  return '"'+cmd.replace(/(["\s'$`\\])/g,'\\$1')+'"';
 }
 
 function verify(argv) {

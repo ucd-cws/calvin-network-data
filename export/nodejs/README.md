@@ -14,16 +14,15 @@ The HEC-PRM code is distributed as a windows binary.   Further, HEC-PRM uses DSS
   - The required jars are bundled with HEC-DSSVUE
   - /path/to/install/dir/HEC/HEC-DSSVue/lib;
 
+These requirements have been bundled into a [windows runtime](#Calvin HEC Runtime).  The command
+line tool will automatically run the java code via wine in OS X and Linus.  So make sure you
+have wine installed if you are not using windows.
+
 ### Linux / OS X
 - [wine](https://www.winehq.org/)
   - Linux: use apt-get or other package manager
   - OS X: use [homebrew](http://brew.sh/)
     - brew install wine
-
-With wine installed, you need to install the 32bit JRE. Ex:
-```
-wine ~/Downloads/jre-8u65-windows-i586.exe
-```
 
 ### Calvin HEC Runtime
 For your convenience and to reduce pain and suffering, we have created a

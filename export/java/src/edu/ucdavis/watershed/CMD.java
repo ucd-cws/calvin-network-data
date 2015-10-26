@@ -4,6 +4,7 @@ import edu.ucdavis.watershed.Dss;
 import hec.heclib.dss.HecDss;
 import edu.ucdavis.watershed.Csv;
 
+import java.io.File;
 import java.io.IOException;
 
 import com.fasterxml.jackson.core.JsonParseException;
@@ -13,7 +14,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class CMD {
 	public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
 		ObjectMapper mapper = new ObjectMapper();
-		CommandLineInput input = mapper.readValue(args[0], CommandLineInput.class);
+		CommandLineInput input = mapper.readValue(new File(args[0]), CommandLineInput.class);
 		
 		try {
 			HecDss dssFile = Dss.open(input.getPath());

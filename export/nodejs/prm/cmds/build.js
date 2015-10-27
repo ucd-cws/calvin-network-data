@@ -5,6 +5,7 @@ var crawler = require('../../crawler');
 var path = require('path');
 var runtime = require('../lib/runtime');
 var sprintf = require('sprintf-js').sprintf;
+var costs = require('../lib/build/costs');
 var options;
 var args;
 
@@ -83,6 +84,7 @@ function onCrawlComplete(results){
 
 //    for( var i = 0; i < 10; i++ ) {
   for( var i = 0; i < results.nodes.length; i++ ) {
+    node= results.nodes[i];
       np = results.nodes[i].properties;
 //      console.error(np.prmname+'('+np.type+')');
 
@@ -111,7 +113,7 @@ function onCrawlComplete(results){
       }
 
     if( np.costs ) {
-	addCost(dssPenalties.data, np);
+	addCost(dssPenalties.data, node);
     }
   }
     //
@@ -138,30 +140,11 @@ function onCrawlComplete(results){
 
 }
 
-function addCost(dataArray, np) {
-  var costs = np.costs;
-
-  if( costs.type === 'Monthly Variable' ) {
-    for( var month in costs.costs ) {
-      var file = costs.costs[month];
-      if( !fs.existsSync(file) ) {
-        console.log('WARNING: '+file+' does not exist');
-      }
-
-      dataArray.push({
-        csvFilePath : file,
-        type : 'paired',
-        label : month,
-        date : month,
-        location : np.prmname,
-        xunits : 'KAF',
-        xtype : 'DIVR',
-        yunits : 'Penalty',
-        ytype : '',
-        path : '//'+np.prmname+'///'+month+'/1/'
-     });
-    }
-  }
+function addCost(dataArray, node) {
+  var results = costs(node);
+  results.forEach(function(result){
+    dataArray.push(result);
+  });
 }
 
 function verify(argv) {

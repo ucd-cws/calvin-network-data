@@ -82,6 +82,10 @@ Print a list of links as they are represented in the pri files.
 Print all links.  Format:
 prmname,/full/path/to/file
 
+### [pd|ts|ev] show [prmname]
+Print the JSON that will be passed to the DssWriter.  Optional flag *--showData*
+will print the csv file data as well.  Otherwise just the path is printed.
+
 ### DSSVUE
 
 You will most likely want to review your DSS files from time to time.  [HEC-DSSVue](http://www.hec.usace.army.mil/software/hec-dssvue/) is the most common software for that.  The download section of the [HEC-DSSVue](http://www.hec.usace.army.mil/software/hec-dssvue/) includes a windows and a linux version available for download.

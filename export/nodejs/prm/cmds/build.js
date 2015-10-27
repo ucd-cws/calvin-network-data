@@ -4,6 +4,7 @@ var fs = require('fs');
 var crawler = require('../../crawler');
 var path = require('path');
 var runtime = require('../lib/runtime');
+var costs = require('../lib/build/costs');
 var options;
 var args;
 
@@ -43,29 +44,10 @@ function onCrawlComplete(results){
 }
 
 function addCost(dataArray, node) {
-  var costs = node.properties.costs;
-
-  if( costs.type === 'Monthly Variable' ) {
-    for( var month in costs.costs ) {
-      var file = costs.costs[month];
-      if( !fs.existsSync(file) ) {
-        console.log('WARNING: '+file+' does not exist');
-      }
-
-      dataArray.push({
-        csvFilePath : file,
-        type : 'paired',
-        label : month,
-        date : month,
-        location : node.properties.prmname,
-        xunits : 'KAF',
-        xtype : 'DIVR',
-        yunits : 'Penalty',
-        ytype : '',
-        path : '//'+node.properties.prmname+'///'+month+'/1/'
-     });
-    }
-  }
+  var results = costs(node);
+  results.forEach(function(result){
+    dataArray.push(result);
+  });
 }
 
 function verify(argv) {

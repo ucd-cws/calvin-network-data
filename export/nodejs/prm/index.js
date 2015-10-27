@@ -26,8 +26,8 @@ if( cmd === 'link' ) {
 // load config file
 require('./lib/fileConfig')(argv);
 
-// check for show pd, ts or ev
-if( cmd === 'pd' || cmd === 'ts' || cmd === 'ev' ) {
+// check for show pd, ts or el
+if( cmd === 'pd' || cmd === 'ts' || cmd === 'el' ) {
   var type = cmd;
   if( argv._.length === 0 ) {
     console.log('You need to supply a command for the '+type+' module. options: [list | show | add]');

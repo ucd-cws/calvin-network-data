@@ -40,6 +40,8 @@ function print(type, node, showData) {
   var results = [];
   if( type === 'pd' ) {
     results = require('../lib/build/cost')(node);
+  } else if( type === 'el' ) {
+      results.push(require('../lib/build/elArCap')(node));
   } else {
     console.log('Unsupported type: '+type);
     return;

@@ -27,6 +27,7 @@
     "minimist": "^1.2.0",
     "node-getopt": "^0.2.3",
     "sphericalmercator": "^1.0.3",
+    "sprintf-js": "^1.0.3",
     "walk": "^2.3.9"
   }
 }

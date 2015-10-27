@@ -93,19 +93,24 @@ function onCrawlComplete(results){
         pri.linklist.push(linkItem(np));
 	       break;
       case 'Reservior':
-        pri.nodelist.push(nodeItem(np));
-        break;
       case 'Junction':
       case 'Groundwater Storage':
       case 'Urban Demand':
 	       pri.nodelist.push(nodeItem(np));
          if (np.type='Reservior') {
-           storlist.push(linkItem('RSTO',
+           pri.inflow.push();
+           // dss.ts.push(addTimeSeries(data,part))
+           // addCost(dss.pd.data,data,part)
+           pri.storlist.push(linkItem('RSTO',
             {origin:np.prmname,
              terminus:np.prmname
             }
            ));
-
+           addCost(dssPenalties,
+             ['','','STOR(KAF)-EDT','','']
+           {
+             data:np.costs
+           });
          }
          break;
       default:

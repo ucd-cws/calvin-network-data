@@ -49,12 +49,12 @@ This file should be stored in your accounts home directory be default.  If you
 wish to supply a config file that is not located in your home directory, you can
 do so with --config [path/to/config/file] parameter.
 
-### Commands
+## Commands
 
-#### crawl [directory]
+### crawl [directory]
 Test crawl a data directory.  Prints the errors, number for nodes/links and number of regions found.
 
-#### build [prefix] --runtime [/path/to/hec/runtime] --data [/path/to/data/repo]
+### build [prefix] --runtime [/path/to/hec/runtime] --data [/path/to/data/repo]
 Write CSV file(s) to dss file.  Requires the Calvin HEC Runtime (see [releases](https://github.com/ucd-cws/calvin-network-data/releases) section)
 
 Example
@@ -63,6 +63,24 @@ node prm build out --runtime ~/Desktop/HEC_Runtime --data ~/dev/calvin-network-d
  ```
 
 Optionally you can add *--verbose* to dump the hec-dss libraries output.
+
+### node [show|list] [prmname] [prmname] ...
+
+#### node show [prmname] [prmname]
+Print a list of nodes as they are represented in the pri files.
+
+#### node list
+Print all nodes.  Format:
+prmname,/full/path/to/file
+
+### link [show|list] [prmname] [prmname] ...
+
+#### link show [prmname] [prmname]
+Print a list of links as they are represented in the pri files.
+
+#### links list
+Print all links.  Format:
+prmname,/full/path/to/file
 
 ### DSSVUE
 

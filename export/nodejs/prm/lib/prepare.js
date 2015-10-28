@@ -13,13 +13,13 @@ function all(nodes) {
   config.pri.header = header();
 
   for( var i = 0; i < nodes.length; i++ ) {
-    node(nodes[i], config);
+    nodeWrite(nodes[i], config);
   }
 
   return config;
 }
 
-function node(n, config) {
+function nodeWrite(n, config) {
   var np = n.properties;
 
   switch(np.type) {
@@ -80,6 +80,6 @@ function init() {
 
 module.exports = {
   init : init,
-  node : node,
+  node : nodeWrite,
   all : all
 };

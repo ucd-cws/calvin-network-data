@@ -20,4 +20,6 @@ module.exports = function(pri) {
   outputtext += '..        ***** INFLOW DEFINITIONS *****\n';
   outputtext += utils.END_gen();
   outputtext += pri.rtsolist.join('\n..\n');
+
+  return outputtext;
 };

@@ -1,10 +1,11 @@
 'use strict';
 
 var fs = require('fs');
-var crawler = require('../../crawler');
 var path = require('path');
+
+var crawler = require('../../crawler');
 var runtime = require('../lib/runtime');
-var costs = require('../lib/build/costs');
+var costs = require('../../dss/cost');
 var options;
 var args;
 
@@ -21,20 +22,38 @@ function onCrawlComplete(results){
     data : []
   };
 
+  /* TODO
+  var config = prepare(results.nodes);
+  config.pd.path = path.join(options.output || getUserHome(), options.prefix+'PD.dss');
+  runtime(options.runtime, config.pd, function(err, resp){
+    runtime(options.runtime, config.ts, function(err, resp){
+      fs.writeFileSync('foo.pri', create(config.pri));
+    });
+  });
+  */
+
+/*
+  for( var i = 0; i < results.nodes.length; i++ ) {
+    var t = costs(results.nodes[i]);
+    for( var j = 0; j < t.length; j++ ) {
+      dssPenalties.data.push(t[j]);
+    }
+  }
+*/
   console.log('Writing Penalties DSS file: '+dssPenalties.path);
   runtime(options.runtime, dssPenalties, function(err, resp){
     if( err ) {
       console.log('ERROR: writing to dss file.');
       console.log(err);
+      return;
     }
+
     console.log('Done.');
 
     if( args.verbose ) {
       console.log(resp.stack);
     }
   });
-
-
 }
 
 function addCost(dataArray, node) {

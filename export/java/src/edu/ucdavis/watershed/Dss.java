@@ -65,11 +65,12 @@ public class Dss {
 		pdc.fullName = config.path;
 
 		pdc.xOrdinates = data[0];
-		pdc.yOrdinates = new double[data.length-1][]{};
+		pdc.yOrdinates = new double[data.length-1][];
 		for( int i = 1; i < data.length; i++ ) {
-			pdc.yOrdinates[i] = new double[data[i].length];
+			pdc.yOrdinates[i-1] = new double[data[i].length];
+			
 			for( int j = 0; j < data[i].length; j++ ) {
-				pdc.yOrdinates[i][j] = data[i][j];
+				pdc.yOrdinates[i-1][j] = data[i][j];
 			}
 		}
 

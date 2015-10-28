@@ -12,11 +12,11 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class CMD {
-	public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
+	public static void main(String[] args) throws Exception {
 		ObjectMapper mapper = new ObjectMapper();
 		CommandLineInput input = mapper.readValue(new File(args[0]), CommandLineInput.class);
 		
-		try {
+		//try {
 			HecDss dssFile = Dss.open(input.getPath());
 			
 			for( Config config: input.getData() ) {
@@ -24,10 +24,10 @@ public class CMD {
 				Dss.write(config, data, dssFile);
 			}
 			
-		} catch (Exception e) {
-			printError(e.getMessage());
-			return;
-		}
+		//} catch (Exception e) {
+		//	printError(e.getMessage());
+		//	return;
+		//}
 
 		printSuccess();
 	}

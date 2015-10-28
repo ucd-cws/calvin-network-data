@@ -1,33 +1,11 @@
-var fs = require('fs');
-var node_definitions = require('./nodeDefinitions');
-var inflow_definitions = require('./inflowDefinitions');
-var rsto_definitions = require('./rstoDefinitions');
-var divr_definitions = require('./divrDefinitions');
+'use strict';
+var sprintf = require('sprintf-js').sprintf;
+var header = require('./write/header');
 
-module.exports = function(nodes) {
-  nodetext = node_definitions(nodes);
-  infltext = inflow_definitions(nodes);
-  rstotext = rsto_definitions(nodes);
-  divrtext = divr_definitions(nodes);
-
-  individual_out(nodetext, infltext, rstotext, divrtext);
+module.exports = function(pri) {
+  console.log(pri.header);
+  console.log('..        ***** NODE DEFINITIONS *****');
+  console.log(pri.nodelist.join('\n..\n'));
+  console.log('..        ***** STORAGE DEFINITIONS *****');
+  console.log(pri.storlist.join('\n..\n'));
 };
-
-function individual_out(nodetext, infltext, rstotext, divrtext) {
-  var homepath = process.env.HOME + '/Desktop';
-
-  write_to_file(homepath , 'NODE.out', nodetext);
-  write_to_file(homepath , 'INFL.out', infltext);
-  write_to_file(homepath , 'RSTO.out', rstotext);
-  write_to_file(homepath , 'DIVR.out', divrtext);
-}
-
-function write_to_file(pathname, filename, text) {
-  var fullpath = pathname + '/' + filename;
-  fs.writeFile(fullpath, text, function(err) {
-    if(err) {
-      return console.log(err);
-    }
-    console.log('Wrote ' + filename + ' to ' + pathname);
-  });
-}

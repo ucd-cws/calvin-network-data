@@ -7,7 +7,9 @@ module.exports = function(nodes) {
   var pri = {
     header   : 'EMPTY',
     nodelist : [],
-    linklist : []
+    linklist : [],
+    rtsolist : [],
+    inflowlist : []
   };
   var np;
   var node;

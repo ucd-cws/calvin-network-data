@@ -32,14 +32,6 @@ function onCrawlComplete(results){
   });
   */
 
-/*
-  for( var i = 0; i < results.nodes.length; i++ ) {
-    var t = costs(results.nodes[i]);
-    for( var j = 0; j < t.length; j++ ) {
-      dssPenalties.data.push(t[j]);
-    }
-  }
-*/
   console.log('Writing Penalties DSS file: '+dssPenalties.path);
   runtime(options.runtime, dssPenalties, function(err, resp){
     if( err ) {

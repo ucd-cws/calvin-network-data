@@ -1,9 +1,9 @@
 'use strict';
 
-var header = require('../pri/write/header');
-var link = require('../pri/write/link');
-var node = require('../pri/write/node');
-var inflow = require('../pri/write/inflow');
+var header = require('../pri/format/header');
+var link = require('../pri/format/link');
+var node = require('../pri/format/node');
+var inflow = require('../pri/format/inflow');
 var costs = require('../dss/cost');
 var sprintf = require('sprintf-js').sprintf;
 
@@ -13,13 +13,13 @@ function all(nodes) {
   config.pri.header = header();
 
   for( var i = 0; i < nodes.length; i++ ) {
-    nodeWrite(nodes[i], config);
+    format(nodes[i], config);
   }
 
   return config;
 }
 
-function nodeWrite(n, config) {
+function format(n, config) {
   var np = n.properties;
 
   switch(np.type) {
@@ -58,6 +58,7 @@ function nodeWrite(n, config) {
   }
 }
 
+
 function init() {
   return {
     pd : {
@@ -80,6 +81,6 @@ function init() {
 
 module.exports = {
   init : init,
-  node : nodeWrite,
+  node_link : format,
   all : all
 };

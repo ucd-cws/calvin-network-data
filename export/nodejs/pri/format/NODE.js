@@ -12,7 +12,6 @@ module.exports = function(node) {
     NODE += (np.initialstorage) ? sprintf('%10.3d', np.cost) : sprintf('%10.10s','');
     NODE += (np.el_ar_cap) ? sprintf('%10.3d', np.lbc) : sprintf('%10.10s','');
     NODE += (np.finalstorage) ? sprintf('%10.3d', np.ubc) : sprintf('%10.10s','');
-    );
 
   if( np.description !== undefined ) {
     NODE += sprintf('\n%-8.8s  %-70.70s', 'ND', np.description);

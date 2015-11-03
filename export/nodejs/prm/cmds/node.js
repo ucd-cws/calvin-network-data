@@ -1,8 +1,8 @@
 'use strict';
 
-var writeNode = require('../../pri/lib/writeNode');
-var writeLink = require('../../pri/lib/writeLink');
-var writeInflow = require('../../pri/lib/writeInflow');
+var NODE = require('../../pri/format/NODE');
+var LINK = require('../../pri/format/LINK');
+//var writeInflow = require('../../pri/lib/writeInflow');
 var crawler = require('../../crawler');
 var path = require('path');
 
@@ -57,12 +57,13 @@ function show(nodes, datapath) {
 
     for( i = 0; i < results.nodes.length; i++ ) {
       node = results.nodes[i];
+      console.log(node);
       if( nodes.indexOf(node.properties.prmname) > -1 ) {
         if( node.properties.type !== 'Diversion' && node.properties.type !== 'Return Flow'  ) {
-          console.log(writeNode(node));
-          console.log(writeInflow(node));
+          console.log(NODE(node));
+//          console.log(writeInflow(node));
         } else {
-          console.log(writeLink(node));
+          console.log(LINK(node));
         }
       }
     }

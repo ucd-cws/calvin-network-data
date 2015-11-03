@@ -2,7 +2,7 @@
 
 var header = require('../pri/format/header');
 var link = require('../pri/format/link');
-var node = require('../pri/format/node');
+var NODE = require('../pri/format/NODE');
 var inflow = require('../pri/format/inflow');
 var costs = require('../dss/cost');
 var sprintf = require('sprintf-js').sprintf;
@@ -30,7 +30,7 @@ function format(n, config) {
     case 'Junction':
     case 'Groundwater Storage':
     case 'Urban Demand':
-       config.pri.nodelist.push(node(np));
+       config.pri.nodelist.push(NODE(np));
        if( np.type === 'Reservior' ) {
          config.pri.inflow.push(inflow);
          // dss.ts.push(addTimeSeries(data,part))

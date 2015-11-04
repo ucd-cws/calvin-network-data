@@ -4,6 +4,6 @@
  "description":"Colusa Basin Drain inflow to Sacramento River",
  "type":"Junction",
  "inflows":null,
- "sinks":[{"default" : {"description":"DSA12 Projected Gain out.","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
+ "sinks":[{"default" : {"description" : "DSA12 Projected Gain out.", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

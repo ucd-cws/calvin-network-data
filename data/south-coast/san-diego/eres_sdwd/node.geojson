@@ -4,6 +4,6 @@
  "description":"DAU 120, & 350-352 Exterior Residential/landscape demand",
  "type":"Urban Demand",
  "inflows":null,
- "sinks":[{"default" : {"description":null,"costs":{"type":"Constant",
- "cost":1},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
+ "sinks":[{"default" : {"description" : null, "costs" : {"type":"Constant",
+ "cost":1}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":null}}

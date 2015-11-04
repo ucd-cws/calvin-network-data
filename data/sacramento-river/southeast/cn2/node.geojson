@@ -4,6 +4,6 @@
  "description":"Calibration flow node for Region 2",
  "type":"Junction",
  "inflows":{"default":{"description":"Calibration Inflow to CN2","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":[{"default" : {"description":null,"costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
+ "sinks":[{"default" : {"description" : null, "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

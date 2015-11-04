@@ -4,6 +4,6 @@
  "description":"CCWD OUT",
  "type":"Water Treatment",
  "inflows":null,
- "sinks":[{"default" : {"description":"Contra Costa","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
+ "sinks":[{"default" : {"description" : "Contra Costa", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"NOB"}]}}],
  "flow":null}}

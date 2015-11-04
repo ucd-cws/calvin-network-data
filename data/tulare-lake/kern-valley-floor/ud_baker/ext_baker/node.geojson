@@ -4,6 +4,6 @@
  "description":"DAU 254  exterior urban flows ",
  "type":"Urban Demand",
  "inflows":null,
- "sinks":[{"default" : {"description":"exterior urban return flows ","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
+ "sinks":[{"default" : {"description" : "exterior urban return flows ", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":null}}

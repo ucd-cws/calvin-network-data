@@ -4,6 +4,6 @@
  "description":"Exterior Urban Residential includes all of DAU 43",
  "type":"Urban Demand",
  "inflows":null,
- "sinks":[{"ERES_SF" : {"description":null,"costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/ERES_SF/flow.csv"}}}],
+ "sinks":[{"default" : {"description":null,"costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":null}}

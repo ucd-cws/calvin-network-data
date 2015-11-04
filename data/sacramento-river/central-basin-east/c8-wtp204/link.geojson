@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C8-WTP204",
+ "description":null,
+ "type":"Diversion",
+ "origin":"C8",
+ "terminus":"WTP204",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":45},
+ "bounds":[{"type":"UBC","bound":103}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

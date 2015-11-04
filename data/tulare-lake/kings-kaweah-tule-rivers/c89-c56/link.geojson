@@ -9,6 +9,6 @@
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"NOB"}],
- "sinks":[{"C56" : {"description":"Depletion from Kaweah River","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/C56/EQT.csv"}}],"flow":{"$ref" : "./sinks/C56/flow.csv"}}}],
+ "sinks":[{"default" : {"description":"Depletion from Kaweah River","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

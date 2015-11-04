@@ -9,6 +9,6 @@
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
- "sinks":[{"Req_Delta" : {"description":"Required Delta outflow","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/Req_Delta/flow.csv"}}}],
+ "sinks":[{"default" : {"description":"Required Delta outflow","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":null}}

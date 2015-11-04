@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.899091576421,39.0687318690132]},
+ "properties":{"prmname":"EXT_CVPM04",
+ "description":"100% of DAU 164, exterior",
+ "type":"Agricultural Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

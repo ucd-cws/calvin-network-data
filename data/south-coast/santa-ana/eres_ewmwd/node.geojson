@@ -4,6 +4,6 @@
  "description":"Exterior residential demand for eastern & western municipal water districts",
  "type":"Urban Demand",
  "inflows":null,
- "sinks":[{"ERES_EWMWD" : {"description":null,"costs":{"type":"Constant",
- "cost":1},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/ERES_EWMWD/flow.csv"}}}],
+ "sinks":[{"default" : {"description":null,"costs":{"type":"Constant",
+ "cost":1},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

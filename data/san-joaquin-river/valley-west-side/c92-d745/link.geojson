@@ -9,6 +9,6 @@
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "sinks":[{"D745" : {"description":"California Aqueduct Reach 5 losses","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/D745/EQT.csv"}}],"flow":{"$ref" : "./sinks/D745/flow.csv"}}}],
+ "sinks":[{"default" : {"description":"California Aqueduct Reach 5 losses","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

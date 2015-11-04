@@ -4,6 +4,6 @@
  "description":"DAU's 87 89 90 92 96 114 and part of 100, External residential and landscape use",
  "type":"Urban Demand",
  "inflows":null,
- "sinks":[{"ERes_CMWD" : {"description":null,"costs":{"type":"Constant",
- "cost":1},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/ERes_CMWD/flow.csv"}}}],
+ "sinks":[{"default" : {"description":null,"costs":{"type":"Constant",
+ "cost":1},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":null}}

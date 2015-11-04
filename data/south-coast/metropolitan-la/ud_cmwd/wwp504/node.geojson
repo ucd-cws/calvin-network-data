@@ -4,6 +4,6 @@
  "description":"Central MWD OUT",
  "type":"Water Treatment",
  "inflows":null,
- "sinks":[{"WWP504" : {"description":"SW Discharge to Ocean","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/WWP504/flow.csv"}}}],
+ "sinks":[{"default" : {"description":"SW Discharge to Ocean","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":null}}

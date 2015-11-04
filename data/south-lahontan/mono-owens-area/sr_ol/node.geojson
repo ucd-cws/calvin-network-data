@@ -12,6 +12,6 @@
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"NOB"}],
- "sinks":[{"SR_OL" : {"description":"Owens Lake Dust Mitigation Requirements","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"LBM","bound": {"$ref":"./sinks/SR_OL/LBM.csv"}}],"flow":{"$ref" : "./sinks/SR_OL/flow.csv"}}}],
+ "sinks":[{"default" : {"description":"Owens Lake Dust Mitigation Requirements","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"LBM","bound": {"$ref":"./sinks/default/LBM.csv"}}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

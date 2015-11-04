@@ -4,6 +4,6 @@
  "description":"Clear Creek inflow To Sacramento River",
  "type":"Junction",
  "inflows":{"default":{"description":"GS60 SW-GW Interaction ","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":[{"D73" : {"description":"GS60 GW-SW Interaction based on CALSIM II.","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/D73/EQT.csv"}}],"flow":{"$ref" : "./sinks/D73/flow.csv"}}}],
+ "sinks":[{"default" : {"description":"GS60 GW-SW Interaction based on CALSIM II.","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

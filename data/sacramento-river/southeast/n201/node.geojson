@@ -4,6 +4,6 @@
  "description":null,
  "type":"Junction",
  "inflows":{"default":{"description":"Net Cascade Canal Exports from Yuba River","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":[{"N201" : {"description":"Combie and Bear River Canal Diversions","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/N201/EQT.csv"}}],"flow":{"$ref" : "./sinks/N201/flow.csv"}}}],
+ "sinks":[{"default" : {"description":"Combie and Bear River Canal Diversions","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

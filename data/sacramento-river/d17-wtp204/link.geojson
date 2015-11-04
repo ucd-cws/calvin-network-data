@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D17-WTP204",
+ "description":null,
+ "type":"Diversion",
+ "origin":"D17",
+ "terminus":"WTP204",
+ "amplitude":0.939999997615814,
+ "costs":{"type":"Constant",
+ "cost":45},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

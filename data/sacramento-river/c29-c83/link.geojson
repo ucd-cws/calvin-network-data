@@ -9,6 +9,6 @@
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"NOB"}],
- "sinks":[{"C83" : {"description":"DA 67 local ag net diversion","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/C83/EQT.csv"}}],"flow":{"$ref" : "./sinks/C83/flow.csv"}}}],
+ "sinks":[{"default" : {"description":"DA 67 local ag net diversion","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}],"flow":{"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

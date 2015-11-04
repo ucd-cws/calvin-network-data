@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-119.788010149952,37.947921145734]},
- "properties":{"prmname":"SR-HTH",
+ "properties":{"prmname":"SR_HTH",
  "description":"Hetch Hetchy Reservoir",
  "type":"Surface Storage",
  "initialstorage":330.600006103516,

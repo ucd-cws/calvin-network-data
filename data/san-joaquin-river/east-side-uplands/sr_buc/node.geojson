@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-119.991298299607,37.2155454970057]},
- "properties":{"prmname":"SR-BUC",
+ "properties":{"prmname":"SR_BUC",
  "description":"Eastman Lake",
  "type":"Surface Storage",
  "initialstorage":58,

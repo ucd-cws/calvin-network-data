@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-121.639083082479,39.4578870023479]},
- "properties":{"prmname":"SR-TAB",
+ "properties":{"prmname":"SR_TAB",
  "description":"Thermalito Afterbay",
  "type":"Surface Storage",
  "initialstorage":49.4000015258789,

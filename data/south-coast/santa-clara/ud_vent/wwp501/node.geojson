@@ -4,6 +4,6 @@
  "description":"Wastewater treatment node for Ventura Co.",
  "type":"Water Treatment",
  "inflows":null,
- "sinks":{"default":{"description":null,"costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}},
+ "sinks":[{"WWP501" : {"description":null,"costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/WWP501/flow.csv"}}}],
  "flow":null}}

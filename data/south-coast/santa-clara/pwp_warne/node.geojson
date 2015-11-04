@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-118.789214237209,34.6869658819983]},
- "properties":{"prmname":"PWP-Warne",
+ "properties":{"prmname":"PWP_Warne",
  "description":"West Branch SWP Power Plant",
  "type":"Power Plant",
  "inflows":null,

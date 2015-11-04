@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-115.81902019917,33.3084281919558]},
- "properties":{"prmname":"SR-SS",
+ "properties":{"prmname":"SR_SS",
  "description":"Salton Sea",
  "type":"Surface Storage",
  "initialstorage":6941,

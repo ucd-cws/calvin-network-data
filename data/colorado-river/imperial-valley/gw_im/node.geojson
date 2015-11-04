@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-115.427885446697,32.8927750823952]},
- "properties":{"prmname":"GW-IM",
+ "properties":{"prmname":"GW_IM",
  "description":"Imperial Valley Groundwater",
  "type":"Groundwater Storage",
  "initialstorage":930,
@@ -9,6 +9,6 @@
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"UBC","bound":1000}],
- "sinks":{"default":{"description":null,"costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}},
+ "sinks":[{"GW_IM" : {"description":null,"costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/GW_IM/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

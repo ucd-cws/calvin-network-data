@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"CN5",
+ "description":"Calibration Node",
+ "type":"Junction",
+ "inflows":{"default":{"description":"Calibration Inflow to Region 5","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":[{"CN5" : {"description":"Calibration Link to the Sink node for Region 5","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/CN5/flow.csv"}}}],
+ "flow":null}}

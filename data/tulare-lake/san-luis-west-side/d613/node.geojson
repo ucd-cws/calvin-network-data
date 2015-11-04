@@ -4,6 +4,6 @@
  "description":"CVPM 14 return",
  "type":"Junction",
  "inflows":null,
- "sinks":{"sink_at_junction":{"description":"Evaporation ponds for CVPM 14 (Westlands WD) - no flow","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}},
+ "sinks":[{"D613" : {"description":"Evaporation ponds for CVPM 14 (Westlands WD) - no flow","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/D613/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

@@ -1,9 +1,9 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-118.527770731619,34.5274431495888]},
- "properties":{"prmname":"AGS VENT",
+ "properties":{"prmname":"AGS_VENT",
  "description":null,
  "type":"Agricultural Demand",
  "inflows":null,
- "sinks":{"default":{"description":null,"costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}},
+ "sinks":[{"AGS_VENT" : {"description":null,"costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/AGS_VENT/flow.csv"}}}],
  "flow":null}}

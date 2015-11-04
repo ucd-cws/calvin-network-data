@@ -4,6 +4,6 @@
  "description":"SFPUC OUT",
  "type":"Water Treatment",
  "inflows":null,
- "sinks":{"default":{"description":"San Francisco waste","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}},
+ "sinks":[{"WWP301" : {"description":"San Francisco waste","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/WWP301/flow.csv"}}}],
  "flow":null}}

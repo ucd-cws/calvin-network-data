@@ -9,6 +9,6 @@
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"NOB"}],
- "sinks":{"default":{"description":"Only for climate change studies, for historical case all flows are zero.","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}]}},
+ "sinks":[{"D699" : {"description":"Only for climate change studies, for historical case all flows are zero.","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/D699/EQT.csv"}}],"flow":{"$ref" : "./sinks/D699/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

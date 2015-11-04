@@ -4,6 +4,6 @@
  "description":"Santa Clara Valley+ OUT",
  "type":"Water Treatment",
  "inflows":null,
- "sinks":{"default":{"description":"Santa Clara waste","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}},
+ "sinks":[{"WWP304" : {"description":"Santa Clara waste","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/WWP304/flow.csv"}}}],
  "flow":null}}

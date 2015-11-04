@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-122.763133599558,40.8008677035236]},
- "properties":{"prmname":"SR-CLE",
+ "properties":{"prmname":"SR_CLE",
  "description":"Clair Engle Lake",
  "type":"Surface Storage",
  "initialstorage":2053,

@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-122.322156992625,37.6084901174741]},
- "properties":{"prmname":"IND SFPUC",
+ "properties":{"prmname":"IND_SFPUC",
  "description":"Includes all of DAU 43",
  "type":"Urban Demand",
  "inflows":null,

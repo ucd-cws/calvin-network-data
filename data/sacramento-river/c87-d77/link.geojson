@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C87-D77",
+ "description":"Sacramento River downstream of Paynes Creek",
+ "type":"Diversion",
+ "origin":"C87",
+ "terminus":"D77",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

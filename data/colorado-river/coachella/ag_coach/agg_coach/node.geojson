@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-116.315349277935,33.7321571408037]},
- "properties":{"prmname":"AGG COACH",
+ "properties":{"prmname":"AGG_COACH",
  "description":"Coachella Groundwater demand",
  "type":"Agricultural Demand",
  "inflows":null,

@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-116.846879289578,33.047384722464]},
- "properties":{"prmname":"AGG SD",
+ "properties":{"prmname":"AGG_SD",
  "description":null,
  "type":"Agricultural Demand",
  "inflows":null,

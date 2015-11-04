@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-118.600920465953,34.5169920976526]},
- "properties":{"prmname":"SR-CAS",
+ "properties":{"prmname":"SR_CAS",
  "description":"Castaic Lake",
  "type":"Surface Storage",
  "initialstorage":294,

@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.943139928865,38.7933900024163]},
- "properties":{"prmname":"HP204",
- "description":"Hidden node for wastewater recycling for Greater Sacramento",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}

@@ -1,9 +1,9 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-122.331140145466,37.615606223716]},
- "properties":{"prmname":"ERES SF",
+ "properties":{"prmname":"ERES_SF",
  "description":"Exterior Urban Residential includes all of DAU 43",
  "type":"Urban Demand",
  "inflows":null,
- "sinks":{"default":{"description":null,"costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}},
+ "sinks":[{"ERES_SF" : {"description":null,"costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/ERES_SF/flow.csv"}}}],
  "flow":null}}

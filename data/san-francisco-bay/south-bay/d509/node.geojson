@@ -4,6 +4,6 @@
  "description":"Delta - ?",
  "type":"Junction",
  "inflows":{"default":{"description":"Marsh Creek Inflows","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":{"sink_at_junction":{"description":"Only for climate change studies, for historical case all flows are zero.","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/sink_at_junction/EQT.csv"}}]}},
+ "sinks":[{"D509" : {"description":"Only for climate change studies, for historical case all flows are zero.","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/D509/EQT.csv"}}],"flow":{"$ref" : "./sinks/D509/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

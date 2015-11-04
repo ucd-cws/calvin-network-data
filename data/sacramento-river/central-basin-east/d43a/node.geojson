@@ -3,6 +3,6 @@
  "properties":{"prmname":"D43a",
  "description":"Temporary until Reg1 and 2 are linked as this is DA14 inflow to Feather at Sac",
  "type":"Junction",
- "inflows":{"default":{"description":"DA14 outflow -Butte creek and Little Dry Creek","inflow":{"$ref" : "inflows/default.csv"}}},
+ "inflows":{"default":{"description":"Butte creek","inflow":{"$ref" : "inflows/default.csv"}}},
  "sinks":null,
  "flow":null}}

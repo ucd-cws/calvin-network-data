@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-121.886579534837,38.3023003659904]},
- "properties":{"prmname":"HSU-D55",
+ "properties":{"prmname":"HSU_D55",
  "description":"NB Aqu. Delivery to Sacramento Urban",
  "type":"Junction",
  "inflows":null,

@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-121.168058138434,38.6999028907616]},
- "properties":{"prmname":"SR-FOL",
+ "properties":{"prmname":"SR_FOL",
  "description":"Folsom Lake",
  "type":"Surface Storage",
  "initialstorage":549,

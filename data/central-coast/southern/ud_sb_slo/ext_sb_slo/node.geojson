@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.676336849365,35.2772109434962]},
+ "properties":{"prmname":"EXT_SB_SLO",
+ "description":"Urban exterior Only the SWP Imports are modeled (DAU 67, 68, 71, 74, 75)",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":[{"EXT_SB_SLO" : {"description":null,"costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/EXT_SB_SLO/flow.csv"}}}],
+ "flow":null}}

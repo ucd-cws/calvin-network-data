@@ -4,6 +4,6 @@
  "description":"EBMUD OUT",
  "type":"Water Treatment",
  "inflows":null,
- "sinks":{"default":{"description":"East Bay MUD","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}},
+ "sinks":[{"WWP209" : {"description":"East Bay MUD","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/WWP209/flow.csv"}}}],
  "flow":null}}

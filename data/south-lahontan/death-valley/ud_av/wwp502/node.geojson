@@ -4,6 +4,6 @@
  "description":"Antelope OUT",
  "type":"Water Treatment",
  "inflows":null,
- "sinks":{"default":{"description":"SW Discharge to ??","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}},
+ "sinks":[{"WWP502" : {"description":"SW Discharge to ??","costs":{"type":"Constant",
+ "cost":0},"bounds":[{"type":"NOB"}],"flow":{"$ref" : "./sinks/WWP502/flow.csv"}}}],
  "flow":null}}

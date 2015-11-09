@@ -1,9 +1,7 @@
 'use strict';
 
-var sprintfs=require('sprintf-js').sprintfs;
-var LINK = require('./LINK');
+var sprintfs = require('sprintf-js').sprintfs;
 var utils = require('./utils');
-var sprintf = require('sprintf');
 
 // from page 58 of manual
 var LINK_SPACING = [
@@ -44,6 +42,7 @@ function writeLink(np, type) {
 
   var pq = '';
   var b = '';
+  var ev = '';
   var cost = '', lowerBound = '', upperBound = '', constantBound = '';
 
   // do we have bounds
@@ -81,6 +80,8 @@ function writeLink(np, type) {
     }
   }
 
+  if( np.el)
+
   var link = sprintf(LINK_FORMAT, 'LINK', '', type, np.origin, np.terminus, amplitude, cost, lowerBound, upperBound, constantBound)+'\n';
   link += sprintf('%8.8  %80.80', 'LD', np.description || '');
   link += b;
@@ -101,7 +102,7 @@ function writeMonthlyBound(type, bound) {
 
   // NOTE: reference/example pri file has 8 spaces before data: ex: 'BU        1,2,3,4..'
   // defined in documentation as: 1-2 (CINREC) then (3-n) LIUPPR
-  return type+' '+data.join(',');
+  return type+'        '+data.join(',');
 }
 
 function writeMonthlyPq(prmname, month) {

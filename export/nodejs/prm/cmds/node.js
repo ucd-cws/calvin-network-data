@@ -4,6 +4,7 @@ var NODE = require('../../pri/format/NODE');
 var LINK = require('../../pri/format/LINK');
 //var writeInflow = require('../../pri/lib/writeInflow');
 var crawler = require('../../crawler');
+var prepare = require('../lib/prepare');
 var path = require('path');
 
 module.exports = function(argv) {
@@ -52,21 +53,28 @@ function list(link, datapath) {
 }
 
 function show(nodes, datapath) {
+  for (var i=0;i<nodes.length;i++) {
+    nodes[i]=nodes[i].toUpperCase();
+  }
+
+  var config=prepare.init();
   crawler(datapath, {parseCsv : false}, function(results){
     var node, i;
-
+    console.log(nodes);
     for( i = 0; i < results.nodes.length; i++ ) {
       node = results.nodes[i];
-      console.log(node);
+      console.log(node.properties.prmname);
       if( nodes.indexOf(node.properties.prmname) > -1 ) {
         console.log(node.properties.type);
         if( node.properties.type !== 'Diversion' && node.properties.type !== 'Return Flow'  ) {
+          console.log(node);
+          prepare.format(node,config);
           console.log(NODE(node));
-//          console.log(writeInflow(node));
         } else {
           console.log(LINK(node));
         }
       }
     }
+    console.log(prepare.pri(config));
   });
 }

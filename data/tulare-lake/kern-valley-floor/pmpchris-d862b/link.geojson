@@ -6,8 +6,7 @@
  "origin":"PMPChris",
  "terminus":"D862B",
  "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
+ "costs":null,
  "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
  "sinks":null,
  "flow":null}}

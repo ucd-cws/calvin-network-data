@@ -10,4 +10,4 @@
  "cost":0},
  "bounds":[{"type":"LBC","bound":100}],
  "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+ "flow":null}}

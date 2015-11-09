@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-121.727292793276,37.3433368263615]},
- "properties":{"prmname":"IRES SCV",
+ "properties":{"prmname":"IRES_SCV",
  "description":"Interior Urban Residential This includes Santa Clara Valley WD, ACWD, and Alameda Zone 7 (All of DAU 44, 45 , 62, plus part of DAU 47)",
  "type":"Urban Demand",
  "inflows":null,

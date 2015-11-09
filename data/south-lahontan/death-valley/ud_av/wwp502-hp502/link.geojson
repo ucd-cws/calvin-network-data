@@ -8,6 +8,6 @@
  "amplitude":1,
  "costs":{"type":"Constant",
  "cost":1480},
- "bounds":[{"type":"UBC","bound":1.04999995231628}],
+ "bounds":[{"type":"UBC","bound":0}],
  "sinks":null,
  "flow":null}}

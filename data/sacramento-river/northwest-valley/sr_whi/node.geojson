@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-122.539384,40.599047]},
- "properties":{"prmname":"SR-WHI",
+ "properties":{"prmname":"SR_WHI",
  "description":"Whiskeytown Lake",
  "type":"Surface Storage",
  "initialstorage":200,

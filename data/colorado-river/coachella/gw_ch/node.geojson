@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-116.324433073939,33.7410553044559]},
- "properties":{"prmname":"GW-CH",
+ "properties":{"prmname":"GW_CH",
  "description":"Coachella Valley Groundwater",
  "type":"Groundwater Storage",
  "initialstorage":3500,

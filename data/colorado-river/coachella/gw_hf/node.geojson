@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-115.777126416378,33.649002590406]},
- "properties":{"prmname":"GW-HF",
+ "properties":{"prmname":"GW_HF",
  "description":"Hayfield Storage Basin",
  "type":"Groundwater Storage",
  "initialstorage":250,

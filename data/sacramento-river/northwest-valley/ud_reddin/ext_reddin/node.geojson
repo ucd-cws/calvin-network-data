@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.385784576421,40.5748544793826]},
+ "properties":{"prmname":"EXT_Reddin",
+ "description":"Redding Area demand is a  time series of monthly withdrawals from Shasta for surface water demand (DAU 141, 143.)",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

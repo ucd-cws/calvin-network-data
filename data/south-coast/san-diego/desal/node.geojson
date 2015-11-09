@@ -4,6 +4,6 @@
  "description":"Proposed desalination facility for coastal cities",
  "type":"Junction",
  "inflows":{"default":{"description":"Ocean desalination","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":{"sink_at_junction":{"description":"Desalination excess flows","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}},
+ "sinks":[{"default" : {"description" : "Desalination excess flows", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":null}}

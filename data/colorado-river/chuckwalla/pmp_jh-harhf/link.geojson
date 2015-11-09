@@ -1,10 +1,10 @@
 {"type":"Feature",
  "geometry":null,
- "properties":{"prmname":"PMP-JH-HARHF",
+ "properties":{"prmname":"PMP_JH-HARHF",
  "description":"Water conveyance facility for artificial recharge in Hayfield (include UB and cost)
 ",
  "type":"Diversion",
- "origin":"PMP-JH",
+ "origin":"PMP_JH",
  "terminus":"HARHF",
  "amplitude":1,
  "costs":{"type":"Constant",

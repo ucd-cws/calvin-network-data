@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-115.628523177538,33.7068209137816]},
- "properties":{"prmname":"PMP-JH",
+ "properties":{"prmname":"PMP_JH",
  "description":"Formerly part of Colorado Pumping Plant - third pumping station along CRA",
  "type":"Pump Plant",
  "inflows":null,

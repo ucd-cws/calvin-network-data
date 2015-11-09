@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-121.746063612922,37.6139319505633]},
- "properties":{"prmname":"SR-DLV",
+ "properties":{"prmname":"SR_DLV",
  "description":"Lake Del Valle",
  "type":"Surface Storage",
  "initialstorage":28,

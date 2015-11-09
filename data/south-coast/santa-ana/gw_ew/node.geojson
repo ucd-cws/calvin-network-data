@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-117.11200458163,33.7176796323232]},
- "properties":{"prmname":"GW-EW",
+ "properties":{"prmname":"GW_EW",
  "description":"E&W MWD groundwater basin",
  "type":"Groundwater Storage",
  "initialstorage":7000,

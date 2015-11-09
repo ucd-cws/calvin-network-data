@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-114.156781267914,34.3170145260656]},
- "properties":{"prmname":"SR-CR2",
+ "properties":{"prmname":"SR_CR2",
  "description":"Second priority Colorado River 4.4 water for Policy 4a (3.55 maf/yr)",
  "type":"Surface Storage",
  "initialstorage":0.00999999977648258,

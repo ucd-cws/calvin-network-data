@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-117.029964545956,33.6847161375691]},
- "properties":{"prmname":"SR-DMV",
+ "properties":{"prmname":"SR_DMV",
  "description":"Diamond Valley Lake (Formerly Eastside reservoir)",
  "type":"Surface Storage",
  "initialstorage":600,

@@ -4,6 +4,6 @@
  "description":"San Diego OUT",
  "type":"Water Treatment",
  "inflows":null,
- "sinks":{"default":{"description":"SW Discharge to Ocean","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"NOB"}]}},
+ "sinks":[{"default" : {"description" : "SW Discharge to Ocean", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"NOB"}]}}],
  "flow":null}}

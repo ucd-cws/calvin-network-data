@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-117.318878472829,34.3040041501716]},
- "properties":{"prmname":"SR-SLW",
+ "properties":{"prmname":"SR_SLW",
  "description":"Silverwood Lake",
  "type":"Surface Storage",
  "initialstorage":50,

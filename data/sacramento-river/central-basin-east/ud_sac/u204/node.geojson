@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.59621,38.781405]},
+ "properties":{"prmname":"U204",
+ "description":"Sacramento IN",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

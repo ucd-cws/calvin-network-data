@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.136678578322,34.6696120950673]},
+ "properties":{"prmname":"INT_MR",
+ "description":"DAU 308-332 Ind/Interior Res/Comm demand",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

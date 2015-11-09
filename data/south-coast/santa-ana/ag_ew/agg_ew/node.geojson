@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-117.173513960621,33.7318641039481]},
- "properties":{"prmname":"AGG EW",
+ "properties":{"prmname":"AGG_EW",
  "description":null,
  "type":"Agricultural Demand",
  "inflows":null,

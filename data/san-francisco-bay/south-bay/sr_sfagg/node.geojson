@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-121.819065941793,37.4919363753631]},
- "properties":{"prmname":"SR-SFAGG",
+ "properties":{"prmname":"SR_SFAGG",
  "description":"SF aggregate",
  "type":"Surface Storage",
  "initialstorage":128,

@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-119.136983210716,37.9789246795842]},
- "properties":{"prmname":"SR-ML",
+ "properties":{"prmname":"SR_ML",
  "description":"Mono Lake",
  "type":"Surface Storage",
  "initialstorage":2939.541015625,

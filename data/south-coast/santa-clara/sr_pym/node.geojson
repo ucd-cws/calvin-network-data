@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-118.75092451635,34.6329867214887]},
- "properties":{"prmname":"SR-PYM",
+ "properties":{"prmname":"SR_PYM",
  "description":"Pyramid Lake",
  "type":"Surface Storage",
  "initialstorage":170,

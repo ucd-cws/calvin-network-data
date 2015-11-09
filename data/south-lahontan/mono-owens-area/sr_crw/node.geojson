@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-118.707016,37.587824]},
- "properties":{"prmname":"SR-CRW",
+ "properties":{"prmname":"SR_CRW",
  "description":"Long Valley Reservoir (Lake Crowley)",
  "type":"Surface Storage",
  "initialstorage":92.5,

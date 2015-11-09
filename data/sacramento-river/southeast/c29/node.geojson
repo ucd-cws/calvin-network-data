@@ -1,7 +1,7 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-121.408307,39.221894]},
  "properties":{"prmname":"C29",
- "description":"Deer Creek Inflow to Feather River",
+ "description":"Dry Creek",
  "type":"Junction",
  "inflows":{"default":{"description":"FRENCH DRY CREEK","inflow":{"$ref" : "inflows/default.csv"}}},
  "sinks":null,

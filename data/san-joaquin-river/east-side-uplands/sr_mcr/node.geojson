@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-120.268021343829,37.5839345149061]},
- "properties":{"prmname":"SR-MCR",
+ "properties":{"prmname":"SR_MCR",
  "description":"Lake McClure",
  "type":"Surface Storage",
  "initialstorage":229,

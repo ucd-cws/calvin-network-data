@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-114.156781267914,34.3170145260656]},
- "properties":{"prmname":"SR-CR3",
+ "properties":{"prmname":"SR_CR3",
  "description":"Colorado River Storage for MWD (850 taf/yr)",
  "type":"Surface Storage",
  "initialstorage":0.00999999977648258,

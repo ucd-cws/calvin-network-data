@@ -8,6 +8,6 @@
  "amplitude":1,
  "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"costs/JAN.csv"},"FEB":{"$ref":"costs/FEB.csv"},"MAR":{"$ref":"costs/MAR.csv"},"APR":{"$ref":"costs/APR.csv"},"MAY":{"$ref":"costs/MAY.csv"},"JUN":{"$ref":"costs/JUN.csv"},"JUL":{"$ref":"costs/JUL.csv"},"AUG":{"$ref":"costs/AUG.csv"},"SEP":{"$ref":"costs/SEP.csv"},"OCT":{"$ref":"costs/OCT.csv"},"NOV":{"$ref":"costs/NOV.csv"},"DEC":{"$ref":"costs/DEC.csv"}}},
  "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
- "sinks":{"default":{"description":"GS66 SW-GW Interaction","costs":{"type":"Constant",
- "cost":0},"bounds":[{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}]}},
+ "sinks":[{"default" : {"description" : "GS66 SW-GW Interaction", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-119.385058767182,35.9266513415359]},
- "properties":{"prmname":"R-PIX",
+ "properties":{"prmname":"R_PIX",
  "description":"Pixley NWR",
  "type":"Non-Standard Demand",
  "inflows":null,

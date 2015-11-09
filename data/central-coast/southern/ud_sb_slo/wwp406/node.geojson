@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.671845272944,35.2735440840847]},
+ "properties":{"prmname":"WWP406",
+ "description":"wastewater return flow node for SB-SLO",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

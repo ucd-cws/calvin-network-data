@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-119.943412887195,35.8365097708612]},
- "properties":{"prmname":"PMP-Badger",
+ "properties":{"prmname":"PMP_Badger",
  "description":"Badger Hill Pumping Plant",
  "type":"Pump Plant",
  "inflows":null,

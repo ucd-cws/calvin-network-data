@@ -1,5 +1,6 @@
 'use strict';
 
+var sprintfs=require('sprintf-js').sprintfs;
 var LINK = require('./LINK');
 var utils = require('./utils');
 var sprintf = require('sprintf');

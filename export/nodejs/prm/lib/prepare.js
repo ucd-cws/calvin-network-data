@@ -1,10 +1,10 @@
 'use strict';
 
-var header = require('../pri/format/header');
-var link = require('../pri/format/link');
-var NODE = require('../pri/format/NODE');
-var inflow = require('../pri/format/inflow');
-var costs = require('../dss/cost');
+var header = require('../../pri/format/header');
+var link = require('../../pri/format/LINK');
+var NODE = require('../../pri/format/NODE');
+var inflow = require('../../pri/format/inflow');
+var costs = require('../../dss/cost');
 var sprintf = require('sprintf-js').sprintf;
 
 function all(nodes) {
@@ -29,16 +29,18 @@ function format(n, config) {
     case 'Reservior':
     case 'Junction':
     case 'Groundwater Storage':
+    case 'Surface Storage':
     case 'Urban Demand':
        config.pri.nodelist.push(NODE(np));
-       if( np.type === 'Reservior' ) {
-         config.pri.inflow.push(inflow);
+       if( np.type === 'Surface Storage' ) {
+//         config.pri.inflow.push(inflow);
          // dss.ts.push(addTimeSeries(data,part))
          // addCost(dss.pd.data,data,part)
-         config.pri.storlist.push(
+         config.pri.rstolist.push(
            link('RSTO',{
              origin : np.prmname,
-             terminus : np.prmname
+             terminus : np.prmname,
+             storage_info
            })
          );
 
@@ -58,6 +60,12 @@ function format(n, config) {
   }
 }
 
+function pri(config) {
+  var pri;
+  pri+='..        ***** NODE DEFINITIONS *****';
+  pri+=config.pri.nodelist.join('\n..\n');
+  return pri;
+}
 
 function init() {
   return {
@@ -73,7 +81,7 @@ function init() {
       header   : 'EMPTY',
       nodelist : [],
       linklist : [],
-      rtsolist : [],
+      rstolist : [],
       inflowlist : []
     }
   };
@@ -81,6 +89,8 @@ function init() {
 
 module.exports = {
   init : init,
+  format: format,
   node_link : format,
+  pri: pri,
   all : all
 };

@@ -1,7 +1,7 @@
 'use strict';
 
 var fs = require('fs');
-var writelib = require('./writelib');
+var writelib = require('./utils');
 
 module.exports = function(node) {
   var prmname = node.properties.prmname;

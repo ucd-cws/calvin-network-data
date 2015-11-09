@@ -2,7 +2,7 @@
 
 module.exports.months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
 
-module.exports.parts = (type,p) {
+module.exports.parts = function(type,p) {
   return sprint('%-3.3s %s A=%s B=%s C=%s D=%s E=%s F=%s',
   type,
   (p.MO)?' MO=p.MO ':'',

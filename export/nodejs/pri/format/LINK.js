@@ -17,8 +17,8 @@ module.exports = function(node) {
 
     var costs=(np.costs.costs)?np.costs.costs:'';
 
-    np.ubc=?
-    np.lbc=?
+//    np.ubc=?
+//    np.lbc=?
 
     var LINK = LINK('DIVR',np);
 
@@ -49,16 +49,16 @@ module.exports = function(node) {
       // Monthly Variable Types Require a PQ
       if(np.costs.type === 'Monthly Variable') {
         for(var month in np.costs.costs) {
-          LINK += utils.parts('PQ', {MO:month,B:np.prmname,C:'Q(K$-KAF)',E:month);
+          LINK += utils.parts('PQ', {MO:month,B:np.prmname,C:'Q(K$-KAF)',E:month});
         }
       }
       //IF COST IS ZERO, we need a PQ
       else if(np.costs.cost === 0) {
-        LINK = utils.parts('PQ',{MO:'ALL',B:'DUMMY',C:'BLANK');
+        LINK = utils.parts('PQ',{MO:'ALL',B:'DUMMY',C:'BLANK'});
       }
     }
 
-    var QI = utils.parts('QI',{B:np.prmname,C:'FLOW_DIV(KAF)',E:'1MON');
+    var QI = utils.parts('QI',{B:np.prmname,C:'FLOW_DIV(KAF)',E:'1MON'});
 
 
     return link + bound_vals + PQ + QI;

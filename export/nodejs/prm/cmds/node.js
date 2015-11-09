@@ -59,6 +59,7 @@ function show(nodes, datapath) {
       node = results.nodes[i];
       console.log(node);
       if( nodes.indexOf(node.properties.prmname) > -1 ) {
+        console.log(node.properties.type);
         if( node.properties.type !== 'Diversion' && node.properties.type !== 'Return Flow'  ) {
           console.log(NODE(node));
 //          console.log(writeInflow(node));

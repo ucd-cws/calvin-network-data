@@ -35,7 +35,6 @@ module.exports = function(node) {
 
     outputtext += 'LD        ' + LD + '\n';
     outputtext += 'IN        A='+''+' B=SOURCE_'+prmname+ ' C='+'FLOW_LOC(KAF)'+' E='+'1MON'+' F=' + partF + '\n';
-    outputtext += writelib.END_gen();
   }
 
   return outputtext;

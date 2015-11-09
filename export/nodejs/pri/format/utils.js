@@ -2,25 +2,12 @@
 
 module.exports.months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
 
-module.exports.END_gen = function() {
-  return '..         \n';
-};
-
-module.exports.LINK_gen = function(name, source, dest, val, cost, lower_const, upper_const) {
-  return 'LINK      ' + name + '      ' + source + ' ' + dest + '   ' + val + '     ' + cost + '     ' + lower_const + '    ' + upper_const + '\n';
-};
-
-module.exports.P_gen = function(name, MO, A, B, C, D, E, F) {
-  return name + '       ' + ' MO=' + MO + ' A=' + A + ' B=' + B + ' C=' + C + ' D=' + D + ' E=' + E + ' F=' + F + '\n';
-};
-
-module.exports.Q_gen = function(name, A, B, C, D, E, F) {
-  return name + '       ' + ' A=' + A + ' B=' + B + ' C=' + C + ' D=' + D + ' E=' + E + ' F=' + F + '\n';
+module.exports.parts = (type,p) {
+  return sprint('%-3.3s %s A=%s B=%s C=%s D=%s E=%s F=%s',
+  type,
+  (p.MO)?' MO=p.MO ':'',
+  (p.A)?p.A:'',(p.B)?p.B:'',(p.C)?p.C:'',(p.D)?p.D:'',(p.E)?p.E:'',(p.F)?p.F:'');
 }
-  // QI = Initial Flow
-module.exports.QI_gen = function(A, B, C, D, E, F) {
-  return 'QI       ' + ' A=' + A + ' B=' + B + ' C=' + C + ' D=' + D + ' E=' + E + ' F=' + F + '\n';
-};
 
 module.exports.BOUND_gen = function(bounds_values) {
   var output = outstr;

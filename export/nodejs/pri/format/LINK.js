@@ -15,7 +15,7 @@ var LINK_SPACING = [
   10, // (51-60) LICOST: constant cost
   10, // (61-70) LILOWR: lower bound
   10, // (71-80) LIUPPR: upper bound
-  10, // (81-90) LICONS: constant bounds
+  10 // (81-90) LICONS: constant bounds
 ];
 var LINK_FORMAT = '';
 for( var i = 0; i < LINK_SPACING.length; i++ ) {
@@ -93,26 +93,81 @@ function writeLink(np, type) {
   }
 
   var pq = '';
+  var b = '';
   var cost = '', lowerBound = '', upperBound = '', constantBound = '';
+
+  // do we have bounds
+  if( np.bounds ) {
+    // add constant bounds
+    for( var i = 0; i < np.bounds.length; i++ ) {
+      var bound = np.bounds[i];
+
+      if( bound.type === 'UBC' ) {
+        upperBound = bound.bound;
+      } else if( bound.type === 'LBC' ) {
+        lowerBound = bound.bound;
+      } else if( bound.type === 'EQC' ) {
+        constantBound = bound.bound;
+      } else if( bound.type === 'UBM' ) {
+        b += writeMonthlyBound('UB', bound)+'\n';
+      } else if( bound.type === 'LBM' ) {
+        b += writeMonthlyBound('LB', bound)+'\n';
+      }
+    }
+  }
 
   if( np.costs ) {
     // Monthly Variable Types Require a PQ
     if( np.costs.type === 'Monthly Variable' ) {
       for( var month in np.costs.costs ){
-        // TODO
-        //LINK += utils.parts('PQ', {MO:month,B:np.prmname,C:'Q(K$-KAF)',E:month);
+        pq += writeMonthlyPq(month, np.prmname)+'\n';
       }
     } else if( np.costs.cost >= 0 ) {
       cost = np.costs.cost+'';
 
     //IF COST IS ZERO, we need a PQ
     } else {
-      pq += writePq(np);
-      LINK = utils.parts('PQ',{MO:'ALL',B:'DUMMY',C:'BLANK');
+      pq += writeEmptyPq()+'\n';
     }
   }
 
   var link = sprintf(LINK_FORMAT, 'LINK', '', type, np.origin, np.terminus, amplitude, cost, lowerBound, upperBound, constantBound)+'\n';
   link += sprintf('%8.8  %80.80', 'LD', np.description || '');
+  link += b;
   link += pq;
+
+  return link;
+}
+
+function writeMonthlyBound(type, bound) {
+  var data = [];
+  for( var i = 0; i < bound.bound.length; i++ ) {
+    // check to see if the data array has a header
+    if( i === 0 && typeof bound.bound[i][1] === 'string' ) {
+      continue;
+    }
+    data.push(bound.bound[i][1]);
+  }
+
+  // NOTE: reference/example pri file has 8 spaces before data: ex: 'BU        1,2,3,4..'
+  // defined in documentation as: 1-2 (CINREC) then (3-n) LIUPPR
+  return type+' '+data.join(',');
+}
+
+function writeMonthlyPq(prmname, month) {
+  return utils.parts('PQ',{
+    MO : month,
+    B : prmname,
+    C : 'Q(K$-KAF)',
+    E : month
+  });
+}
+
+// write empty penalty function
+function writeEmptyPq() {
+  return utils.parts('PQ',{
+    MO : 'ALL',
+    B:'DUMMY',
+    C:'BLANK'
+  });
 }

@@ -77,6 +77,7 @@ function writeLink(np, type) {
       for( var month in np.costs.costs ){
         pq += writeMonthlyPq(month, np.prmname)+'\n';
       }
+
     } else if( np.costs.cost >= 0 ) {
       cost = np.costs.cost+'';
 

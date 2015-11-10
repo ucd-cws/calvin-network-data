@@ -1,6 +1,6 @@
 'use strict';
 
-var sprintfs = require('sprintf-js').sprintfs;
+var sprintf = require('sprintf-js').sprintf;
 var utils = require('./utils');
 
 // from page 58 of manual
@@ -32,7 +32,7 @@ module.exports = function(node, type) {
   //  return link + bound_vals + PQ + QI;
   //}
   return link;
-}
+};
 
 function writeLink(np, type) {
   var amplitude = 1.0;
@@ -43,6 +43,8 @@ function writeLink(np, type) {
   var pq = '';
   var b = '';
   var ev = '';
+  var eac = '';
+  var inf = '';
   var cost = '', lowerBound = '', upperBound = '', constantBound = '';
 
   // do we have bounds
@@ -61,6 +63,10 @@ function writeLink(np, type) {
         b += writeMonthlyBound('UB', bound)+'\n';
       } else if( bound.type === 'LBM' ) {
         b += writeMonthlyBound('LB', bound)+'\n';
+      } else if( bound.type === 'UBT' ) {
+        b += writeTimeBound('QU', np.prmname)+'\n';
+      } else if( bound.type === 'LBT' ) {
+        b += writeTimeBound('QL', np.prmname)+'\n';
       }
     }
   }
@@ -80,11 +86,24 @@ function writeLink(np, type) {
     }
   }
 
-  if( np.el)
+  if( np.el_ar_cap ) {
+    eac = writeEAC(np.prmname);
+  }
+
+  if( np.inflows ) {
+    inf = writeIn(np.prmname);
+  }
+
+  if( np.evaporation ) {
+    ev = writeEvapo(np.prmname);
+  }
 
   var link = sprintf(LINK_FORMAT, 'LINK', '', type, np.origin, np.terminus, amplitude, cost, lowerBound, upperBound, constantBound)+'\n';
   link += sprintf('%8.8  %80.80', 'LD', np.description || '');
   link += b;
+  link += ev;
+  link += eac;
+  link += inf;
   link += pq;
 
   return link;
@@ -105,12 +124,44 @@ function writeMonthlyBound(type, bound) {
   return type+'        '+data.join(',');
 }
 
+function writeTimeBound(type, prmname) {
+  return utils.parts(type,{
+    B : prmname,
+    // TODO: is this correct?
+    C : 'STOR_'+(type === 'UB' ? 'UBT' : 'LBT')+'(KAF)'
+  });
+  //A=HEXT2014 B=SR-CMN_SR-CMN C=STOR_UBT(KAF) E=1MON F=CAMANCHE R FLOOD CAP
+}
+
 function writeMonthlyPq(prmname, month) {
   return utils.parts('PQ',{
     MO : month,
     B : prmname,
     C : 'Q(K$-KAF)',
     E : month
+  });
+}
+
+
+function writeIn(prmname) {
+  return utils.parts('IN',{
+    B : prmname,
+    C : 'FLOW_LOC(KAF)'
+    // E : '1MON' ... assumed
+  });
+}
+
+function writeEvapo(prmname) {
+  return utils.parts('EV',{
+    B : prmname,
+    C : 'EL-AR-CAP'
+  });
+}
+
+function writeEAC(prmname) {
+  return utils.parts('EAC',{
+    B : prmname,
+    C : 'EVAP_RATE(FT)'
   });
 }
 

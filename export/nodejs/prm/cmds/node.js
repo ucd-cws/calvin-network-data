@@ -3,6 +3,7 @@
 //var writeInflow = require('../../pri/lib/writeInflow');
 var crawler = require('../../crawler');
 var prepare = require('../lib/prepare');
+var link = require('../../pri/format/link');
 var path = require('path');
 
 module.exports = function(argv) {
@@ -51,27 +52,28 @@ function list(link, datapath) {
 }
 
 function show(nodes, datapath) {
-  for (var i=0;i<nodes.length;i++) {
-    nodes[i]=nodes[i].toUpperCase();
+  for (var i = 0 ; i < nodes.length; i++) {
+    nodes[i] = nodes[i].toUpperCase();
   }
 
   var config=prepare.init();
   crawler(datapath, {parseCsv : false}, function(results){
     var node, i;
-    console.log(nodes);
+
     for( i = 0; i < results.nodes.length; i++ ) {
       node = results.nodes[i];
-      console.log(node.properties.prmname);
-      if( nodes.indexOf(node.properties.prmname) > -1 ) {
-        console.log(node.properties.type);
+//      console.log(node.properties.prmname);
+      if( nodes.indexOf(node.properties.prmname.toUpperCase()) > -1 ) {
+
+//        console.log(node.properties.type);
         if( node.properties.type !== 'Diversion' && node.properties.type !== 'Return Flow'  ) {
-          console.log(node);
+//          console.log(node);
           prepare.format(node,config);
         } else {
-//          console.log(LINK(node));
+          console.log(link(node));
         }
       }
     }
-    console.log(prepare.pri(config));
+//    console.log(prepare.pri(config));
   });
 }

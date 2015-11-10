@@ -18,7 +18,7 @@ var LINK_SPACING = [
 ];
 var LINK_FORMAT = '';
 for( var i = 0; i < LINK_SPACING.length; i++ ) {
-  LINK_FORMAT += '%'+LINK_SPACING[i]+'.'+LINK_SPACING[i];
+  LINK_FORMAT += '%-'+LINK_SPACING[i]+'.'+LINK_SPACING[i]+'s';
 }
 
 module.exports = function(node, type) {
@@ -100,7 +100,7 @@ function writeLink(np, type) {
   }
 
   var link = sprintf(LINK_FORMAT, 'LINK', '', type, np.origin, np.terminus, amplitude, cost, lowerBound, upperBound, constantBound)+'\n';
-  link += sprintf('%8.8  %80.80', 'LD', np.description || '');
+  link += sprintf('%-8.8s  %-80.80s', 'LD', np.description || '')+'\n';
   link += b;
   link += ev;
   link += eac;

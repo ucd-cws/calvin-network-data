@@ -1,7 +1,5 @@
 'use strict';
 
-var NODE = require('../../pri/format/NODE');
-var LINK = require('../../pri/format/LINK');
 //var writeInflow = require('../../pri/lib/writeInflow');
 var crawler = require('../../crawler');
 var prepare = require('../lib/prepare');
@@ -69,9 +67,8 @@ function show(nodes, datapath) {
         if( node.properties.type !== 'Diversion' && node.properties.type !== 'Return Flow'  ) {
           console.log(node);
           prepare.format(node,config);
-          console.log(NODE(node));
         } else {
-          console.log(LINK(node));
+//          console.log(LINK(node));
         }
       }
     }

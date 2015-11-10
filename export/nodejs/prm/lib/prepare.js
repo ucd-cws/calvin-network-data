@@ -1,8 +1,8 @@
 'use strict';
 
 var header = require('../../pri/format/header');
-var link = require('../../pri/format/LINK');
-var NODE = require('../../pri/format/NODE');
+var link = require('../../pri/format/link');
+var NODE = require('../../pri/format/node');
 var inflow = require('../../pri/format/inflow');
 var costs = require('../../dss/cost');
 var sprintf = require('sprintf-js').sprintf;
@@ -26,7 +26,6 @@ function format(n, config) {
     case 'Diversion':
       config.pri.linklist.push(link(np));
       break;
-    case 'Reservior':
     case 'Junction':
     case 'Groundwater Storage':
     case 'Surface Storage':
@@ -36,13 +35,19 @@ function format(n, config) {
 //         config.pri.inflow.push(inflow);
          // dss.ts.push(addTimeSeries(data,part))
          // addCost(dss.pd.data,data,part)
-         config.pri.rstolist.push(
-           link('RSTO',{
-             origin : np.prmname,
-             terminus : np.prmname,
-             storage_info
-           })
-         );
+       for(var k in np.inflows) {
+           console.log(k);
+           var inf=np.inflows[k];
+           console.log(inf);
+           config.pri.rstolist.push(
+             link('RSTO',{
+               properties:{
+                 type: 'Diversion',
+                 origin : np.prmname,
+                 terminus : np.prmname,
+                 amplitude: 1,
+                 description: inf.description}}));
+           }
 
          /*addCost(
            dssPenalties,

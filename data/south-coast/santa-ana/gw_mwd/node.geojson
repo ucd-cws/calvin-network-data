@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-117.626876103348,33.7430011287827]},
- "properties":{"prmname":"GW-MWD",
+ "properties":{"prmname":"GW_MWD",
  "description":"Additional empty GW Capacity in MWD Service Area",
  "type":"Groundwater Storage",
  "initialstorage":750,

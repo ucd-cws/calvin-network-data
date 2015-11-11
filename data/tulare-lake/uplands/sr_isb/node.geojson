@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-118.40191680572,35.6459529544388]},
- "properties":{"prmname":"SR-ISB",
+ "properties":{"prmname":"SR_ISB",
  "description":"Lake Isabella",
  "type":"Surface Storage",
  "initialstorage":281.899993896484,

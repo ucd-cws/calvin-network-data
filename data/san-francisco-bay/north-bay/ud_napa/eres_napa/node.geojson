@@ -1,6 +1,6 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.107814653343,38.3185226140814]},
- "properties":{"prmname":"ERES NAPA",
+ "geometry":{"type":"Point","coordinates":[-122.298459152841,38.3114434126167]},
+ "properties":{"prmname":"ERES_NAPA",
  "description":"Exterior Urban Residential includes Napa & Solano Co. M&I surface water demand (DAU 191, 40 , 41).",
  "type":"Urban Demand",
  "inflows":null,

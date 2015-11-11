@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-121.14106740265,39.3928914107421]},
- "properties":{"prmname":"SR-BUL",
+ "properties":{"prmname":"SR_BUL",
  "description":"New Bullards Bar Res",
  "type":"Surface Storage",
  "initialstorage":600,

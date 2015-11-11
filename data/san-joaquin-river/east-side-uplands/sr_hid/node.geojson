@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-119.884184,37.111675]},
- "properties":{"prmname":"SR-HID",
+ "properties":{"prmname":"SR_HID",
  "description":"Hensley Lake",
  "type":"Surface Storage",
  "initialstorage":24,

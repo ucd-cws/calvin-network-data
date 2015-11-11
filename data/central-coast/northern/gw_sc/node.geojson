@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-120.93160778519,36.3998583054072]},
- "properties":{"prmname":"GW-SC",
+ "properties":{"prmname":"GW_SC",
  "description":"Santa Clara groundwater basin",
  "type":"Groundwater Storage",
  "initialstorage":425,

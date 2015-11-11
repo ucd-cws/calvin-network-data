@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-119.003935799664,36.4119490200326]},
- "properties":{"prmname":"SR-TRM",
+ "properties":{"prmname":"SR_TRM",
  "description":"Lake Kaweah",
  "type":"Surface Storage",
  "initialstorage":77.0999984741211,

@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-121.813930014212,37.8452078918433]},
- "properties":{"prmname":"IND CCWD",
+ "properties":{"prmname":"IND_CCWD",
  "description":"Part of DAU 46 and all of 192",
  "type":"Urban Demand",
  "inflows":null,

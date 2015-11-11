@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-121.13403448001,37.0329450327247]},
- "properties":{"prmname":"SR-SNL",
+ "properties":{"prmname":"SR_SNL",
  "description":"San Luis Reservoir",
  "type":"Surface Storage",
  "initialstorage":525,

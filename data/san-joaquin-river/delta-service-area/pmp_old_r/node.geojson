@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-121.577849731247,37.8870555207482]},
- "properties":{"prmname":"PMP-Old R",
+ "properties":{"prmname":"PMP_Old_R",
  "description":"Old River Pumping Plant",
  "type":"Pump Plant",
  "inflows":null,

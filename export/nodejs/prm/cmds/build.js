@@ -32,14 +32,6 @@ function onCrawlComplete(results){
   });
   */
 
-/*
-  for( var i = 0; i < results.nodes.length; i++ ) {
-    var t = costs(results.nodes[i]);
-    for( var j = 0; j < t.length; j++ ) {
-      dssPenalties.data.push(t[j]);
-    }
-  }
-*/
   console.log('Writing Penalties DSS file: '+dssPenalties.path);
   runtime(options.runtime, dssPenalties, function(err, resp){
     if( err ) {
@@ -54,6 +46,32 @@ function onCrawlComplete(results){
       console.log(resp.stack);
     }
   });
+}
+
+function addTimeSeries(dataArray, node) {
+  var costs = node.properties.costs;
+
+  if( costs.type === 'Monthly Variable' ) {
+    for( var month in costs.costs ) {
+      var file = costs.costs[month];
+      if( !fs.existsSync(file) ) {
+        console.log('WARNING: '+file+' does not exist');
+      }
+
+      dataArray.push({
+        csvFilePath : file,
+        type : 'paired',
+        label : month,
+        date : month,
+        location : node.properties.prmname,
+        xunits : 'KAF',
+        xtype : 'DIVR',
+        yunits : 'Penalty',
+        ytype : '',
+        path : '//'+node.properties.prmname+'///'+month+'/1/'
+     });
+    }
+  }
 }
 
 function addCost(dataArray, node) {

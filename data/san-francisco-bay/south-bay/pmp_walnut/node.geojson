@@ -1,6 +1,6 @@
 {"type":"Feature",
  "geometry":{"type":"Point","coordinates":[-122.072919150696,37.927401148062]},
- "properties":{"prmname":"PMP-Walnut",
+ "properties":{"prmname":"PMP_Walnut",
  "description":"Walnut Creek Pumping Plant",
  "type":"Pump Plant",
  "inflows":null,

@@ -10,37 +10,24 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 
 public class Csv {
-	public static double[][] parseCsv(String file) throws IOException {
+	public static CsvData parseCsv(String file, String type) throws IOException {
 		Reader in = new FileReader(file);
 		Iterable<CSVRecord> records = CSVFormat.DEFAULT.parse(in);
 		
-		LinkedList<Double> x = new LinkedList<Double>();
-		LinkedList<Double> y = new LinkedList<Double>();
+		CsvData csvData = new CsvData();
 		
-		int c = 0, i = 0;
+		int c = 0;
 		for (CSVRecord record : records) {
 			c++;
-			if( c == 1 ) continue;
-			
-			Iterator<String> itr = record.iterator();
-			i = 0;
-			
-			while( itr.hasNext() ) {
-				if( i == 0 ) x.push(Double.parseDouble(itr.next()));
-				else if( i == 1 ) y.push(Double.parseDouble(itr.next()));
-				i++;
+			if( c == 1 ) { // ignore the first row
+				continue;
 			}
+			csvData.add(record, type);
 		}
 		
-		double[] xd = new double[x.size()];
-		double[] yd = new double[x.size()];
-		
-		for( i = 0; i < x.size(); i++ ) {
-			xd[i] = x.get(i);
-			yd[i] = y.get(i);
-		}
+		csvData.complete(type);
 		
 
-		return new double[][] {xd, yd};
+		return csvData;
 	}
 }

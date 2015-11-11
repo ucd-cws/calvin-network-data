@@ -20,7 +20,7 @@ public class CMD {
 			HecDss dssFile = Dss.open(input.getPath());
 			
 			for( Config config: input.getData() ) {
-				double[][] data = Csv.parseCsv(config.getCsvFilePath());
+				CsvData data = Csv.parseCsv(config.getCsvFilePath(), config.getType());
 				Dss.write(config, data, dssFile);
 			}
 			

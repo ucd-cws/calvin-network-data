@@ -1,9 +1,10 @@
 'use strict';
 
 var fs = require('fs');
+var path = require('./path');
 
-module.exports = function(node) {
-  var costs = node.properties.costs;
+module.exports = function(properties) {
+  var costs = properties.costs;
   var results = [];
 
   if( !costs ) {
@@ -23,12 +24,12 @@ module.exports = function(node) {
         type : 'paired',
         label : month,
         date : month,
-        location : node.properties.prmname,
+        location : properties.prmname,
         xunits : 'KAF',
         xtype : 'DIVR',
         yunits : 'Penalty',
         ytype : '',
-        path : '//'+node.properties.prmname+'///'+month+'/1/'
+        path : path.monthlyPq(properties.prmname, month, 'dss')
      });
     }
   }

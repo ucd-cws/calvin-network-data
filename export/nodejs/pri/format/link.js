@@ -2,6 +2,7 @@
 
 var sprintf = require('sprintf-js').sprintf;
 var utils = require('./utils');
+var dss = require('../../dss');
 
 // from page 58 of manual
 var LINK_SPACING = [
@@ -21,23 +22,16 @@ for( var i = 0; i < LINK_SPACING.length; i++ ) {
   LINK_FORMAT += '%-'+LINK_SPACING[i]+'.'+LINK_SPACING[i]+'s';
 }
 
-module.exports = function(node, type) {
+module.exports = function(config, node, type) {
   var np = node.properties;
-
-  var link = writeLink(np, type || 'DIVR');
-
-  //var QI = utils.parts('QI',{B:np.prmname,C:'FLOW_DIV(KAF)',E:'1MON'});
-
-
-  //  return link + bound_vals + PQ + QI;
-  //}
+  var link = writeLink(config, np, type || 'DIVR');
   return link;
 };
 
-function writeLink(np, type) {
+function writeLink(config, np, type) {
   var amplitude = 1.0;
   if( np.amplitude !== undefined ) {
-    amplitude = np.amplitude;
+    amplitude = np.amplitude.toFixed(4);
   }
 
   var pq = '';
@@ -54,19 +48,21 @@ function writeLink(np, type) {
       var bound = np.bounds[i];
 
       if( bound.type === 'UBC' ) {
-        upperBound = bound.bound;
+        upperBound = bound.bound.toFixed(4);
       } else if( bound.type === 'LBC' ) {
-        lowerBound = bound.bound;
+        lowerBound = bound.bound.toFixed(4);
       } else if( bound.type === 'EQC' ) {
-        constantBound = bound.bound;
+        constantBound = bound.bound.toFixed(4);
       } else if( bound.type === 'UBM' ) {
         b += writeMonthlyBound('UB', bound)+'\n';
       } else if( bound.type === 'LBM' ) {
         b += writeMonthlyBound('LB', bound)+'\n';
       } else if( bound.type === 'UBT' ) {
-        b += writeTimeBound('QU', np.prmname)+'\n';
+        b += dss.path.timeBound('QU', np.prmname)+'\n';
+
+        
       } else if( bound.type === 'LBT' ) {
-        b += writeTimeBound('QL', np.prmname)+'\n';
+        b += dss.path.timeBound('QL', np.prmname)+'\n';
       }
     }
   }
@@ -75,39 +71,59 @@ function writeLink(np, type) {
     // Monthly Variable Types Require a PQ
     if( np.costs.type === 'Monthly Variable' ) {
       for( var month in np.costs.costs ){
-        pq += writeMonthlyPq(month, np.prmname)+'\n';
+        pq += dss.path.monthlyPq(month, np.prmname)+'\n';
       }
 
     } else if( np.costs.cost >= 0 ) {
-      cost = np.costs.cost+'';
+      cost = np.costs.cost.toFixed(4);
 
     //IF COST IS ZERO, we need a PQ
     } else {
-      pq += writeEmptyPq()+'\n';
+      pq += dss.path.emptyPq()+'\n';
+    }
+
+    var dssEntries = dss.costs(np);
+    for( var i = 0; i < dssEntries.length; i++ ) {
+      config.pri.pd.data.push(dssEntries[i]);
     }
   }
 
   if( np.el_ar_cap ) {
-    eac = writeEAC(np.prmname);
+    eac = dss.path.eac(np.prmname)+'\n';
+    config.pri.pd.data.push(dss.eac(np));
   }
 
   if( np.inflows ) {
-    inf = writeIn(np.prmname);
+    for( var name in np.inflows ) {
+      config.pri.inflowlist.push(writeIn(np.prmname, name));
+    }
   }
 
   if( np.evaporation ) {
-    ev = writeEvapo(np.prmname);
+    ev = dss.path.evapo(np.prmname)+'\n';
   }
 
-  var link = sprintf(LINK_FORMAT, 'LINK', '', type, np.origin, np.terminus, amplitude, cost, lowerBound, upperBound, constantBound)+'\n';
-  link += sprintf('%-8.8s  %-80.80s', 'LD', np.description || '')+'\n';
-  link += b;
-  link += ev;
-  link += eac;
-  link += inf;
-  link += pq;
+  var link = '';
 
-  return link;
+  if( np.type === 'Diversion' || np.type === 'Return Flow' ) {
+    link = sprintf(LINK_FORMAT, 'LINK', '', type, np.origin, np.terminus, amplitude, cost, lowerBound, upperBound, constantBound)+'\n';
+    link += sprintf('%-8.8s  %-80.80s', 'LD', np.description || '')+'\n';
+    link += b;
+    link += ev;
+    link += eac;
+    link += pq;
+    config.pri.linklist.push(link.replace(/\n$/,''));
+  }
+
+  if( np.type === 'Surface Storage' ) {
+    link = sprintf(LINK_FORMAT, 'LINK', '', 'RSTO', np.prmname, np.prmname, amplitude, cost, lowerBound, upperBound, constantBound)+'\n';
+    link += sprintf('%-8.8s  %-80.80s', 'LD', np.description || '')+'\n';
+    link += b;
+    link += ev;
+    link += eac;
+    link += pq;
+    config.pri.rstolist.push(link.replace(/\n$/,''));
+  }
 }
 
 function writeMonthlyBound(type, bound) {
@@ -125,52 +141,9 @@ function writeMonthlyBound(type, bound) {
   return type+'        '+data.join(',');
 }
 
-function writeTimeBound(type, prmname) {
-  return utils.parts(type,{
-    B : prmname,
-    // TODO: is this correct?
-    C : 'STOR_'+(type === 'UB' ? 'UBT' : 'LBT')+'(KAF)'
-  });
-  //A=HEXT2014 B=SR-CMN_SR-CMN C=STOR_UBT(KAF) E=1MON F=CAMANCHE R FLOOD CAP
-}
-
-function writeMonthlyPq(prmname, month) {
-  return utils.parts('PQ',{
-    MO : month,
-    B : prmname,
-    C : 'Q(K$-KAF)',
-    E : month
-  });
-}
-
-
-function writeIn(prmname) {
-  return utils.parts('IN',{
-    B : prmname,
-    C : 'FLOW_LOC(KAF)'
-    // E : '1MON' ... assumed
-  });
-}
-
-function writeEvapo(prmname) {
-  return utils.parts('EV',{
-    B : prmname,
-    C : 'EL-AR-CAP'
-  });
-}
-
-function writeEAC(prmname) {
-  return utils.parts('EAC',{
-    B : prmname,
-    C : 'EVAP_RATE(FT)'
-  });
-}
-
-// write empty penalty function
-function writeEmptyPq() {
-  return utils.parts('PQ',{
-    MO : 'ALL',
-    B:'DUMMY',
-    C:'BLANK'
-  });
+function writeIn(prmname, name, description) {
+  var inf = sprintf(LINK_FORMAT, 'LINK', '', 'INFLOW', 'SOURCE', prmname, 1, 0, '', '', '')+'\n';
+  inf += sprintf('%-8.8s  %-80.80s', 'LD', description || '')+'\n';
+  inf += dss.path.in(prmname, name)+'\n';
+  return inf;
 }

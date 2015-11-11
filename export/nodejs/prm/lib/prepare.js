@@ -2,8 +2,7 @@
 
 var header = require('../../pri/format/header');
 var link = require('../../pri/format/link');
-var NODE = require('../../pri/format/node');
-var inflow = require('../../pri/format/inflow');
+var node = require('../../pri/format/node');
 var costs = require('../../dss/cost');
 var sprintf = require('sprintf-js').sprintf;
 
@@ -22,54 +21,24 @@ function all(nodes) {
 function format(n, config) {
   var np = n.properties;
 
-  switch(np.type) {
-    case 'Diversion':
-      config.pri.linklist.push(link(np));
-      break;
-    case 'Junction':
-    case 'Groundwater Storage':
-    case 'Surface Storage':
-    case 'Urban Demand':
-       config.pri.nodelist.push(NODE(np));
-       if( np.type === 'Surface Storage' ) {
-//         config.pri.inflow.push(inflow);
-         // dss.ts.push(addTimeSeries(data,part))
-         // addCost(dss.pd.data,data,part)
-       for(var k in np.inflows) {
-           console.log(k);
-           var inf=np.inflows[k];
-           console.log(inf);
-           config.pri.rstolist.push(
-             link('RSTO',{
-               properties:{
-                 type: 'Diversion',
-                 origin : np.prmname,
-                 terminus : np.prmname,
-                 amplitude: 1,
-                 description: inf.description}}));
-           }
-
-         /*addCost(
-           dssPenalties,
-           ['','','STOR(KAF)-EDT','',''],
-           {data : np.costs}
-         );*/
-       }
-       break;
-    default:
-       console.log('ERROR: '+np.prmname+' unknown type '+np.type);
-    }
-
-  if( np.costs ) {
-    costs(config.pd.data, node);
+  if( np.type !== 'Diversion' && np.type !== 'Return Flow' ) {
+    config.pri.nodelist.push(node(np));
   }
+
+  link(config, n);
 }
 
+
 function pri(config) {
-  var pri;
-  pri+='..        ***** NODE DEFINITIONS *****';
-  pri+=config.pri.nodelist.join('\n..\n');
-  return pri;
+  var text = '..\n..        ***** NODE DEFINITIONS *****\n..';
+  text += config.pri.nodelist.length > 0 ? '\n'+config.pri.nodelist.join('\n..\n') : '';
+  text += '\n..\n..        ***** INFLOW DEFINITIONS *****\n..';
+  text += config.pri.inflowlist.length > 0 ? '\n'+config.pri.inflowlist.join('\n..\n') : '';
+  text += '\n..\n..        ***** STORAGE LINK DEFINITIONS *****\n..';
+  text += config.pri.rstolist.length > 0 ? '\n'+config.pri.rstolist.join('\n..\n') : '';
+  text += '\n..\n..        ***** LINK DEFINITIONS *****\n..';
+  text += config.pri.linklist.length > 0 ? '\n'+config.pri.linklist.join('\n..\n') : '';
+  return text;
 }
 
 function init() {

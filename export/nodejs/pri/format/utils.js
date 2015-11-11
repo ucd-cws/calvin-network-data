@@ -1,12 +1,34 @@
 'use strict';
 
+var sprintf = require('sprintf-js').sprintf;
+
 module.exports.months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
 
-module.exports.parts = function(type,p) {
-  return sprint('%-3.3s %s A=%s B=%s C=%s D=%s E=%s F=%s',
-  type,
-  (p.MO)?' MO=p.MO ':'',
-  (p.A)?p.A:'',(p.B)?p.B:'',(p.C)?p.C:'',(p.D)?p.D:'',(p.E)?p.E:'',(p.F)?p.F:'');
+module.exports.parts = function(type, p, outputType) {
+  if( outputType === 'dss' ) {
+    return sprintf('/%s/%s/%s/%s/%s/%s',
+      (p.A) ? p.A : '',
+      (p.B) ? p.B : '',
+      (p.C) ? p.C : '',
+      (p.D) ? p.D : '',
+      (p.E) ? p.E : '',
+      (p.F) ? p.F : ''
+    );
+  } else {
+    return sprintf('%-3.3s%6.6s%sA=%s B=%s C=%s D=%s E=%s F=%s',
+      type,
+      '',
+      (p.MO) ? ' MO='+p.MO+' ':' ',
+      (p.A) ? p.A : '',
+      (p.B) ? p.B : '',
+      (p.C) ? p.C : '',
+      (p.D) ? p.D : '',
+      (p.E) ? p.E : '',
+      (p.F) ? p.F : ''
+    );
+  }
+
+
 }
 
 module.exports.BOUND_gen = function(bounds_values) {

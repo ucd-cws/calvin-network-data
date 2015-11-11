@@ -1,9 +1,10 @@
 'use strict';
 
 var fs = require('fs');
+var path = require('./path');
 
-module.exports = function(node) {
-  var el_ar_cap = node.properties.el_ar_cap;
+module.exports = function(properties) {
+  var el_ar_cap = properties.el_ar_cap;
 
   if( !el_ar_cap ) {
     return {};
@@ -17,11 +18,11 @@ module.exports = function(node) {
     csvFilePath : el_ar_cap,
     type : 'paired',
     label : 'EL',
-    location : node.properties.prmname,
+    location : properties.prmname,
     xunits : 'FT',
     xtype : 'UNT',
     yunits : 'KA',
     ytype : '',
-    path : '//'+node.properties.prmname+'/EL-AR-CAP////'
+    path : path.eac(properties.prmname, 'dss')
   };
 };

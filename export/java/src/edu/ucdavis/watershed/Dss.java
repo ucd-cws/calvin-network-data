@@ -1,5 +1,7 @@
 package edu.ucdavis.watershed;
 
+import java.util.Date;
+
 import hec.heclib.dss.HecDss;
 import hec.io.PairedDataContainer;
 import hec.io.TimeSeriesContainer;
@@ -10,7 +12,7 @@ public class Dss {
 		return HecDss.open(file);
 	}
 
-	public static void write(Config config, double[][] data, HecDss dssFile) throws Exception {
+	public static void write(Config config, CsvData data, HecDss dssFile) throws Exception {
 		if( config.getType().equals("paired") ) {
 			writePairedData(config, data, dssFile);
 		} else {
@@ -18,7 +20,7 @@ public class Dss {
 		}
 	}
 
-	public static void writePairedData(Config config, double[][] data, HecDss dssFile) throws Exception {
+	public static void writePairedData(Config config, CsvData data, HecDss dssFile) throws Exception {
 
 		PairedDataContainer pdc = new PairedDataContainer();
 
@@ -64,15 +66,8 @@ public class Dss {
 
 		pdc.fullName = config.path;
 
-		pdc.xOrdinates = data[0];
-		pdc.yOrdinates = new double[data.length-1][];
-		for( int i = 1; i < data.length; i++ ) {
-			pdc.yOrdinates[i-1] = new double[data[i].length];
-			
-			for( int j = 0; j < data[i].length; j++ ) {
-				pdc.yOrdinates[i-1][j] = data[i][j];
-			}
-		}
+		pdc.xOrdinates = data.firstColumn;
+		pdc.yOrdinates = data.columns;
 
 		pdc.numberCurves = config.numberCurves;
 		pdc.numberOrdinates = pdc.xOrdinates.length;
@@ -80,12 +75,19 @@ public class Dss {
 		dssFile.put(pdc);
 	}
 
-	public static void writeTimeSeriesData(Config config, double[][] data, HecDss dssFile) throws Exception {
+	public static void writeTimeSeriesData(Config config, CsvData csv, HecDss dssFile) throws Exception {
 		TimeSeriesContainer ts = new TimeSeriesContainer();
-		ts.startTime = config.getStartTime();
-		ts.endTime = config.getEndTime();
-
-		ts.interval = config.getInterval(); // Approx hrs in a month
+		
+		ts.fileName = config.path;
+		
+		ts.startTime = parseTime(csv.data.get(0).name);
+		ts.endTime = parseTime(csv.data.get(csv.data.size()-1).name);
+		
+		ts.values = csv.columns[0];
+				
+		// Approx hrs in a month
+		// you shouldn't need to set this!
+		ts.interval = config.getInterval(); 
 		if( config.getParameter() != null ) {
 			ts.parameter = config.getParameter(); //partE;
 		}
@@ -102,6 +104,16 @@ public class Dss {
 		ts.timeZoneRawOffset = config.getTimeZoneRawOffset();
 
 		dssFile.put(ts);
+	}
+	
+	public static int parseTime(String datestring) {
+		String[] parts = datestring.split("-");
+		Date d = new Date(Integer.parseInt(parts[0]), Integer.parseInt(parts[1]), Integer.parseInt(parts[2]));
+		
+		// we want to store in minutes
+		long t = d.getTime() / ((long)1000 * (long)60);
+		
+		return (int) t;
 	}
 
 }

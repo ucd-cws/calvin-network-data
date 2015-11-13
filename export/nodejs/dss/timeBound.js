@@ -3,16 +3,15 @@
 var fs = require('fs');
 var path = require('./path');
 
-module.exports = function(prmname, file) {
+module.exports = function(type, prmname, boundType, file) {
 
   return {
     csvFilePath : file,
     type : 'timeseries',
     parameter : '1MON',
-    xunits : 'FT',
+    xunits : 'KAF',
+    location : prmname,
     xtype : 'UNT',
-    yunits : 'KA',
-    ytype : '',
-    path : path.timeBound(prmname, 'dss')
+    path : path.timeBound(type, prmname, boundType, 'dss')
   };
 };

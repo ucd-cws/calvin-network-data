@@ -6,6 +6,7 @@ var path = require('path');
 var crawler = require('../../crawler');
 var runtime = require('../lib/runtime');
 var costs = require('../../dss/cost');
+var prepare = require('../lib/prepare');
 var options;
 var args;
 
@@ -17,67 +18,41 @@ module.exports = function(argv) {
 };
 
 function onCrawlComplete(results){
-  var dssPenalties = {
-    path : path.join(options.output || getUserHome(), options.prefix+'PD.dss'),
-    data : []
-  };
-
-  /* TODO
-  var config = prepare(results.nodes);
+  var config = prepare.init();
   config.pd.path = path.join(options.output || getUserHome(), options.prefix+'PD.dss');
-  runtime(options.runtime, config.pd, function(err, resp){
-    runtime(options.runtime, config.ts, function(err, resp){
-      fs.writeFileSync('foo.pri', create(config.pri));
+  config.ts.path = path.join(options.output || getUserHome(), options.prefix+'TS.dss');
+  var priPath = path.join(options.output || getUserHome(), options.prefix+'.pri');
+
+  for( var i = 0; i < results.nodes.length; i++ ) {
+    prepare.format(results.nodes[i], config);
+  }
+
+  console.log('Writing PRI file: '+priPath);
+  fs.writeFileSync(priPath, prepare.pri(config));
+
+  console.log('Writing Penalty DSS file: '+config.pd.path);
+  writeDssFile(config.pd, function(err, resp){
+    console.log('Writing TimeSeries DSS file: '+config.ts.path);
+    writeDssFile(config.ts, function(err, resp){
+      console.log('Done.');
     });
   });
-  */
 
-  console.log('Writing Penalties DSS file: '+dssPenalties.path);
-  runtime(options.runtime, dssPenalties, function(err, resp){
+}
+
+function writeDssFile(dss, callback) {
+  runtime(args.runtime, dss, args.debugRuntime, function(err, resp){
     if( err ) {
       console.log('ERROR: writing to dss file.');
       console.log(err);
-      return;
+      //return;
     }
-
-    console.log('Done.');
 
     if( args.verbose ) {
       console.log(resp.stack);
     }
-  });
-}
 
-function addTimeSeries(dataArray, node) {
-  var costs = node.properties.costs;
-
-  if( costs.type === 'Monthly Variable' ) {
-    for( var month in costs.costs ) {
-      var file = costs.costs[month];
-      if( !fs.existsSync(file) ) {
-        console.log('WARNING: '+file+' does not exist');
-      }
-
-      dataArray.push({
-        csvFilePath : file,
-        type : 'paired',
-        label : month,
-        date : month,
-        location : node.properties.prmname,
-        xunits : 'KAF',
-        xtype : 'DIVR',
-        yunits : 'Penalty',
-        ytype : '',
-        path : '//'+node.properties.prmname+'///'+month+'/1/'
-     });
-    }
-  }
-}
-
-function addCost(dataArray, node) {
-  var results = costs(node);
-  results.forEach(function(result){
-    dataArray.push(result);
+    callback();
   });
 }
 

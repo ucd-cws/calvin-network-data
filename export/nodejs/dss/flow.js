@@ -4,15 +4,14 @@ var fs = require('fs');
 var path = require('./path');
 
 module.exports = function(prmname, file) {
+
   return {
     csvFilePath : file,
-    type : 'paired',
-    label : 'EL',
+    type : 'timeseries',
+    parameter : 'FLOW_LOSS(KAF)',
     location : prmname,
-    xunits : 'FT',
-    xtype : 'UNT',
-    yunits : 'KA',
-    ytype : '',
-    path : path.eac(prmname, 'dss')
+    units : 'KAF',
+    xtype : 'PER-AVER',
+    path : path.flow(prmname, 'dss')
   };
 };

@@ -13,10 +13,14 @@ var exec = require('child_process').exec;
 // by the jar and parsed using the jackson lib.
 var PARAMS_TMP_FILE = '.dssWriterParams';
 
-module.exports = function(lib, params, callback) {
+module.exports = function(lib, params, keep, callback) {
+  if( typeof keep === 'function' ) {
+    callback = keep;
+  }
+
   // create tmp file in current working directory
   var paramFile = path.join(process.cwd(), PARAMS_TMP_FILE);
-  fs.writeFileSync(paramFile, JSON.stringify(params));
+  fs.writeFileSync(paramFile, JSON.stringify(params, '  ', '  '));
 
   // run the custom dssWriter jar using the packaged java (Win 32bit), HEC's java lib and HEC's system DLL's
   // (DLL's supplied with -Djava.library.path).  The jar takes as it's first parameter the path to the tmp file.
@@ -31,11 +35,13 @@ module.exports = function(lib, params, callback) {
   var cwd = path.join(lib, 'jre', 'bin');
 
   // run
-  exec(cmd, {cwd: cwd},
+  exec(cmd, {maxBuffer: 1024 * 500, cwd: cwd},
     function (error, stdout, stderr) {
       // first thing after program runs, remove the tmp file
-      // TODO: perhaps a flag to keep this file around for possible debug?
-      fs.unlinkSync(paramFile);
+      if( keep !== true ) {
+        fs.unlinkSync(paramFile);
+      }
+
       writeResponse(stdout, error, stderr, callback);
     }
   );
@@ -48,10 +54,16 @@ function writeResponse(stdout, error, stderr, callback) {
     // the HEC java lib pollutes stdout.  the custom dssWriter throws some
     // JSON in there as well to communicate back to us.  See if we can find
     // it.
-    var json = stdout.match(/\{.*\}/);
-    var stack = stdout.replace(json, '');
-    json = JSON.parse(json);
-    json.stack = stack;
+    var json = {
+      message : 'If you see this, max buffer proly exceeded',
+      stack : ''
+    };
+    if( stdout.match(/\{.*\}/) ){
+      json = stdout.match(/\{.*\}/);
+      var stack = stdout.replace(json, '');
+      json = JSON.parse(json);
+      json.stack = stack;
+    }
 
     callback(null, json);
   } catch(e) {

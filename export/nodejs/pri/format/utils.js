@@ -6,7 +6,7 @@ module.exports.months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','
 
 module.exports.parts = function(type, p, outputType) {
   if( outputType === 'dss' ) {
-    return sprintf('/%s/%s/%s/%s/%s/%s',
+    return sprintf('/%s/%s/%s/%s/%s/%s/',
       (p.A) ? p.A : '',
       (p.B) ? p.B : '',
       (p.C) ? p.C : '',

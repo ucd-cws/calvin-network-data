@@ -2,6 +2,7 @@
 
 var sprintf = require('sprintf-js').sprintf;
 var utils = require('./utils');
+var fs = require('fs');
 var dss = require('../../dss');
 
 // from page 58 of manual
@@ -24,8 +25,7 @@ for( var i = 0; i < LINK_SPACING.length; i++ ) {
 
 module.exports = function(config, node, type) {
   var np = node.properties;
-  var link = writeLink(config, np, type || 'DIVR');
-  return link;
+  writeLink(config, np, type || 'DIVR');
 };
 
 function writeLink(config, np, type) {
@@ -41,8 +41,21 @@ function writeLink(config, np, type) {
   var inf = '';
   var cost = '', lowerBound = '', upperBound = '', constantBound = '';
 
+  var prmname = np.prmname;
+  if( np.type === 'Surface Storage' ) {
+    prmname = prmname+'_'+prmname;
+  }
+
   // do we have bounds
   if( np.bounds ) {
+
+    var boundType;
+    if( np.type === 'Surface Storage' ) {
+      boundType = 'STOR';
+    } else {
+      boundType = 'FLOW';
+    }
+
     // add constant bounds
     for( var i = 0; i < np.bounds.length; i++ ) {
       var bound = np.bounds[i];
@@ -58,11 +71,21 @@ function writeLink(config, np, type) {
       } else if( bound.type === 'LBM' ) {
         b += writeMonthlyBound('LB', bound)+'\n';
       } else if( bound.type === 'UBT' ) {
-        b += dss.path.timeBound('QU', np.prmname)+'\n';
+        if( !fs.existsSync(bound.bound) ) {
+          console.log('File not found, ignoring: '+bound.bound);
+          continue;
+        }
+        // set pri path
+        b += dss.path.timeBound('QU', prmname, boundType)+'\n';
+        // set dss writer json object
+        config.ts.data.push(dss.bound('QU', prmname, boundType, bound.bound));
 
-        
+
       } else if( bound.type === 'LBT' ) {
-        b += dss.path.timeBound('QL', np.prmname)+'\n';
+        // set pri path
+        b += dss.path.timeBound('QL', prmname, boundType)+'\n';
+        // set dss writer json object
+        config.ts.data.push(dss.bound('QL', prmname, boundType, bound.bound));
       }
     }
   }
@@ -71,7 +94,15 @@ function writeLink(config, np, type) {
     // Monthly Variable Types Require a PQ
     if( np.costs.type === 'Monthly Variable' ) {
       for( var month in np.costs.costs ){
-        pq += dss.path.monthlyPq(month, np.prmname)+'\n';
+        if( !fs.existsSync(np.costs.costs[month]) ) {
+          console.log('File not found, ignoring: '+np.costs.costs[month]);
+          continue;
+        }
+
+        // set pri path
+        pq += dss.path.monthlyPq(month, prmname)+'\n';
+        // set dss writer json object
+        config.pd.data.push(dss.cost(prmname, month, np.costs.costs[month]));
       }
 
     } else if( np.costs.cost >= 0 ) {
@@ -79,28 +110,42 @@ function writeLink(config, np, type) {
 
     //IF COST IS ZERO, we need a PQ
     } else {
-      pq += dss.path.emptyPq()+'\n';
-    }
-
-    var dssEntries = dss.costs(np);
-    for( var i = 0; i < dssEntries.length; i++ ) {
-      config.pri.pd.data.push(dssEntries[i]);
+      pq += dss.path.empty()+'\n';
     }
   }
 
   if( np.el_ar_cap ) {
-    eac = dss.path.eac(np.prmname)+'\n';
-    config.pri.pd.data.push(dss.eac(np));
+    if( !fs.existsSync(np.el_ar_cap) ) {
+      console.log('File not found, ignoring: '+np.el_ar_cap);
+    } else {
+      eac = dss.path.eac(prmname)+'\n';
+      config.pd.data.push(dss.eac(np.prmname, np.el_ar_cap));
+    }
   }
+
 
   if( np.inflows ) {
     for( var name in np.inflows ) {
-      config.pri.inflowlist.push(writeIn(np.prmname, name));
+      if( !fs.existsSync(np.inflows[name].inflow) ) {
+        console.log('File not found, ignoring: '+np.inflows[name].inflow);
+        continue;
+      }
+
+      config.pri.inflowlist.push(writeIn(prmname, name));
+
+      // set dss writer json object
+      config.ts.data.push(dss.inflow(prmname, name, np.inflows[name].inflow));
     }
   }
 
   if( np.evaporation ) {
-    ev = dss.path.evapo(np.prmname)+'\n';
+    if( !fs.existsSync(np.evaporation) ) {
+      console.log('File not found, ignoring: '+np.evaporation);
+    } else {
+      ev = dss.path.evapo(prmname)+'\n';
+      // set dss writer json object
+      config.ts.data.push(dss.evapo(prmname, np.evaporation));
+    }
   }
 
   var link = '';
@@ -116,7 +161,7 @@ function writeLink(config, np, type) {
   }
 
   if( np.type === 'Surface Storage' ) {
-    link = sprintf(LINK_FORMAT, 'LINK', '', 'RSTO', np.prmname, np.prmname, amplitude, cost, lowerBound, upperBound, constantBound)+'\n';
+    link = sprintf(LINK_FORMAT, 'LINK', '', 'RSTO', prmname, prmname, amplitude, cost, lowerBound, upperBound, constantBound)+'\n';
     link += sprintf('%-8.8s  %-80.80s', 'LD', np.description || '')+'\n';
     link += b;
     link += ev;

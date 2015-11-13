@@ -2,21 +2,27 @@ package edu.ucdavis.watershed;
 
 import java.util.Date;
 
+import hec.data.meta.Catalog;
+import hec.dssgui.CombinedDataManager;
+import hec.heclib.dss.HecDSSUtilities;
 import hec.heclib.dss.HecDss;
 import hec.io.PairedDataContainer;
 import hec.io.TimeSeriesContainer;
 
 public class Dss {
+	
+	@SuppressWarnings("deprecation")
+	public static Date EPOCH = new Date(1900, 0, 0);
 
 	public static HecDss open(String file) throws Exception {
 		return HecDss.open(file);
 	}
 
-	public static void write(Config config, CsvData data, HecDss dssFile) throws Exception {
+	public static void write(Config config, CsvData data, HecDss dssFile, String file) throws Exception {
 		if( config.getType().equals("paired") ) {
 			writePairedData(config, data, dssFile);
 		} else {
-			writeTimeSeriesData(config, data, dssFile);
+			writeTimeSeriesData(config, data, dssFile, file);
 		}
 	}
 
@@ -75,45 +81,47 @@ public class Dss {
 		dssFile.put(pdc);
 	}
 
-	public static void writeTimeSeriesData(Config config, CsvData csv, HecDss dssFile) throws Exception {
+	public static void writeTimeSeriesData(Config config, CsvData csv, HecDss dssFile, String file) throws Exception {
 		TimeSeriesContainer ts = new TimeSeriesContainer();
+	
+		ts.fullName = config.path;
+		ts.fileName = file;
 		
-		ts.fileName = config.path;
-		
-		ts.startTime = parseTime(csv.data.get(0).name);
-		ts.endTime = parseTime(csv.data.get(csv.data.size()-1).name);
+		ts.times = new int[csv.data.size()];
+		for( int i = 0; i < csv.data.size(); i++ ) {
+			ts.times[i] = calcTime(csv.data.get(i).name);
+		}
+		ts.startTime = ts.times[0];
+		ts.endTime = ts.times[ts.times.length-1];
 		
 		ts.values = csv.columns[0];
+		ts.numberValues = ts.values.length;
 				
-		// Approx hrs in a month
-		// you shouldn't need to set this!
-		ts.interval = config.getInterval(); 
 		if( config.getParameter() != null ) {
 			ts.parameter = config.getParameter(); //partE;
 		}
-
-		int[] quality = new int[config.getQuality().size()];
-		for( int i = 0; i < quality.length; i++ ) {
-			quality[i] = config.getQuality().get(i);
+		if( config.getLocation() != null ) {
+			ts.location = config.getLocation(); //partE;
 		}
-		ts.quality = quality;
-
-		ts.subLocation = config.getSubLocation();
-		ts.subParameter = config.getSubParameter();
-		ts.timeZoneID = config.getTimeZoneID();
-		ts.timeZoneRawOffset = config.getTimeZoneRawOffset();
-
+		
+		ts.type = config.getXtype();
+		ts.units = config.getUnits();
+	
 		dssFile.put(ts);
 	}
 	
-	public static int parseTime(String datestring) {
-		String[] parts = datestring.split("-");
-		Date d = new Date(Integer.parseInt(parts[0]), Integer.parseInt(parts[1]), Integer.parseInt(parts[2]));
+	@SuppressWarnings("deprecation")
+	public static int calcTime(String date) {
+		String[] parts = date.split("-");
 		
-		// we want to store in minutes
-		long t = d.getTime() / ((long)1000 * (long)60);
+		int year = Integer.parseInt(parts[0]);
+		int month = Integer.parseInt(parts[1]);
+		int day = Integer.parseInt(parts[2]);
 		
-		return (int) t;
+		Date d = new Date(year, month, day);
+		long diff = d.getTime() - EPOCH.getTime(); 
+		diff = diff / (1000 * 60);
+		return (int) diff;
 	}
 
 }

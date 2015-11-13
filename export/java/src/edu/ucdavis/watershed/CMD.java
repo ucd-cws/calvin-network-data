@@ -21,7 +21,7 @@ public class CMD {
 			
 			for( Config config: input.getData() ) {
 				CsvData data = Csv.parseCsv(config.getCsvFilePath(), config.getType());
-				Dss.write(config, data, dssFile);
+				Dss.write(config, data, dssFile, input.getPath());
 			}
 			
 		//} catch (Exception e) {

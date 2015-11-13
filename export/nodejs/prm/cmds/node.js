@@ -56,24 +56,17 @@ function show(nodes, datapath) {
     nodes[i] = nodes[i].toUpperCase();
   }
 
-  var config=prepare.init();
+  var config = prepare.init();
   crawler(datapath, {parseCsv : false}, function(results){
     var node, i;
 
     for( i = 0; i < results.nodes.length; i++ ) {
       node = results.nodes[i];
-//      console.log(node.properties.prmname);
-      if( nodes.indexOf(node.properties.prmname.toUpperCase()) > -1 ) {
-
-//        console.log(node.properties.type);
-        if( node.properties.type !== 'Diversion' && node.properties.type !== 'Return Flow'  ) {
-//          console.log(node);
-          prepare.format(node,config);
-        } else {
-          console.log(link(node));
-        }
+      if( nodes[0] === '' || nodes[0] === 'ALL' || nodes.indexOf(node.properties.prmname.toUpperCase()) > -1 ) {
+        prepare.format(node, config);
       }
     }
-//    console.log(prepare.pri(config));
+
+    console.log(prepare.pri(config));
   });
 }

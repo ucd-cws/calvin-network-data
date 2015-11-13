@@ -26,22 +26,27 @@ public class CsvData {
 					recordData.name = itr.next();
 				}
 			} else {
-				recordData.data.push(Double.parseDouble(itr.next()));
+				recordData.data.add(Double.parseDouble(itr.next()));
 			}
 			i++;
 		}
 
-		data.push(recordData);
+		data.add(recordData);
 	}
 	
 	public void complete(String type) {
-		columns = new double[data.size()-1][];
+		columns = new double[data.size()][];
 		
 		for( int i = 0; i < data.get(0).data.size(); i++ ) {
-			double[] t = new double[data.size()-1];
+			double[] t = new double[data.size()];
 			
 			for( int j = 0; j < data.size(); j++ ) {
-				t[j] = data.get(j).data.get(i);
+				try {
+					t[j] = data.get(j).data.get(i);
+				} catch (Exception e) {
+					int k = 1;
+				}
+				
 			}
 			
 			columns[i] = t;
@@ -50,7 +55,8 @@ public class CsvData {
 		if( type.equals("paired") ) {
 			firstColumn = new double[data.size()];
 			for( int i = 0; i < data.size(); i++ ) {
-				firstColumn[i] = Double.parseDouble(data.get(i).name);
+				//firstColumn[i] = Double.parseDouble(data.get(i).name);
+				firstColumn[i] = data.get(i).nameDouble;
 			}
 		}
 	}

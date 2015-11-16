@@ -9,6 +9,7 @@
  "inflows":{"default":{"description":"BEAR RIVER","inflow":{"$ref" : "inflows/default.csv"}}},
  "evaporation":{"$ref" : "evaporation.csv"},
  "el_ar_cap":null,
+ "storage":{"$ref" : "storage.csv"},
  "costs":{"type":"Constant",
  "cost":-1},
  "bounds":[{"type":"LBC","bound":6.55999994277954},{"type":"UBC","bound":65.5599975585938}],

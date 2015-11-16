@@ -9,6 +9,7 @@
  "inflows":null,
  "evaporation":null,
  "el_ar_cap":null,
+ "storage":{"$ref" : "storage.csv"},
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"NOB"}],

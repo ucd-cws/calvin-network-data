@@ -9,6 +9,7 @@
  "inflows":null,
  "evaporation":{"$ref" : "evaporation.csv"},
  "el_ar_cap":null,
+ "storage":{"$ref" : "storage.csv"},
  "costs":null,
  "bounds":[{"type":"LBC","bound":230.399993896484},{"type":"UBC","bound":825}],
  "sinks":null,

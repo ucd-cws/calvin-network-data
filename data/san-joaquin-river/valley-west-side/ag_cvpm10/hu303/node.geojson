@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.924187544162,37.1384644768102]},
+ "geometry":{"type":"Point","coordinates":[-120.924187544162,37.1241407632039]},
  "properties":{"prmname":"HU303",
  "description":"Hidden diversion calibration node",
  "type":"Junction",

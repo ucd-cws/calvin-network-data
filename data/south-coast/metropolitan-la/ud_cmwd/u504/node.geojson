@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.862728451475,34.0343816478516]},
+ "properties":{"prmname":"U504",
+ "description":"Central MWD IN",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

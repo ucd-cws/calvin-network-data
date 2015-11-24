@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.213994,39.9554193317222]},
+ "properties":{"prmname":"A102",
+ "description":"CVPM 2 delivery",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

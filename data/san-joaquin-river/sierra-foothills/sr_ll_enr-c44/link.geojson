@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR_LL_ENR-C44",
+ "description":"Lower Cherry Creek Aqueduct",
+ "type":"Diversion",
+ "origin":"SR_LL_ENR",
+ "terminus":"C44",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

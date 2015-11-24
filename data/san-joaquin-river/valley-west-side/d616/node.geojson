@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.268051386635,37.6669296669134]},
+ "properties":{"prmname":"D616",
+ "description":"San Joaquin River diversion to CVPM 10",
+ "type":"Junction",
+ "inflows":{"default":{"description":"Local Inflow","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

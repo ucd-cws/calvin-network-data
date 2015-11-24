@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.479451052022,36.6287870206692]},
+ "properties":{"prmname":"HGP17",
+ "description":"Hidden node for calibration of GW-17",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

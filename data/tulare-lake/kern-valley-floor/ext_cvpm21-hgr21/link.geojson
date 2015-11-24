@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"EXT_CVPM21-HGR21",
+ "description":"return flows from CVPM21 exterior",
+ "type":"Diversion",
+ "origin":"EXT_CVPM21",
+ "terminus":"HGR21",
+ "amplitude":0.465000003576279,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

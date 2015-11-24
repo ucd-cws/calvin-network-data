@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.075970028372,37.0683748019292]},
+ "properties":{"prmname":"PWP_Gianel",
+ "description":"Gianelli Power Plant",
+ "type":"Power Plant",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

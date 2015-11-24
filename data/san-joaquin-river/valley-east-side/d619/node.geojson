@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.680001571166,37.153936410514]},
+ "properties":{"prmname":"D619",
+ "description":"Eastside Bypass inflow to San Joaquin River",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

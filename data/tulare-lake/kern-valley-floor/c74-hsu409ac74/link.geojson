@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C74-HSU409AC74",
+ "description":"Surface delivery CVPM 20 (all of DWRSIM DIVR CP752=80.5)",
+ "type":"Diversion",
+ "origin":"C74",
+ "terminus":"HSU409AC74",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":30.6000003814697}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

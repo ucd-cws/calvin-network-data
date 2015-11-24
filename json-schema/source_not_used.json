@@ -1,0 +1,12 @@
+{
+    "id":"http://cws.casil.ucdavis.edu/calvindb/source",
+    "title":"Data Source Information",
+    "description": "This information describes where the data for the object was obtained.",
+    "type":"object",
+    "properties" : {
+	"physical" : {"$ref":"external.json"},
+	"environment" : {"$ref":"external.json"},
+	"operation" : {"$ref":"external.json"}
+    },
+    "required": [ "physical","environment","operation"]
+}

@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.819664974205,36.752490908025]},
+ "properties":{"prmname":"U401",
+ "description":"Fresno IN",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

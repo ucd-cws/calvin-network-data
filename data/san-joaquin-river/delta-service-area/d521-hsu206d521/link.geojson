@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D521-HSU206D521",
+ "description":"San Joaquin River div. to CVPM9",
+ "type":"Diversion",
+ "origin":"D521",
+ "terminus":"HSU206D521",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":36.5999984741211}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

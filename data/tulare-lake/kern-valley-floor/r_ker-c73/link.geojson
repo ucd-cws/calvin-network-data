@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"R_KER-C73",
+ "description":"SW return flow from KernNWR",
+ "type":"Diversion",
+ "origin":"R_KER",
+ "terminus":"C73",
+ "amplitude":0.00100000004749745,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

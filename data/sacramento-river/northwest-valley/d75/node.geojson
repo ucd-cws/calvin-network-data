@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.097241412119,39.9922332119937]},
+ "properties":{"prmname":"D75",
+ "description":"Thomes Creek and Elder Creek inflow to Sacramento River",
+ "type":"Junction",
+ "inflows":{"default":{"description":"Antelope, Mill & Dry Creeks","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":null}}

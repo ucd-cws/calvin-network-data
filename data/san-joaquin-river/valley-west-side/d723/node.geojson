@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.949967137975,37.0597637538205]},
+ "properties":{"prmname":"D723",
+ "description":"Delta Mendota Canal diversion to Refuge",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

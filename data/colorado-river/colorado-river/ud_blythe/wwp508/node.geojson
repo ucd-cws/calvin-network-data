@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-114.535282,33.7153470894533]},
+ "properties":{"prmname":"WWP508",
+ "description":"Wastewater Treatment node for Blythe",
+ "type":"Water Treatment",
+ "inflows":null,
+ "sinks":[{"default" : {"description" : null, "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"NOB"}]}}],
+ "flow":null}}

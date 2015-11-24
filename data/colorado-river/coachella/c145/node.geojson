@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.653850520598,33.922621205648]},
+ "properties":{"prmname":"C145",
+ "description":"Coachella Urban GW recharge junction node",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

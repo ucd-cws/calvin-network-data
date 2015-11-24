@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D749-HSU402AD74",
+ "description":"Surface delivery from California Aqueduct to CVPM 14",
+ "type":"Diversion",
+ "origin":"D749",
+ "terminus":"HSU402AD74",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

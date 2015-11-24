@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"Desal-U509",
+ "description":"Desalination to E&W MWD",
+ "type":"Diversion",
+ "origin":"Desal",
+ "terminus":"U509",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":2072},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

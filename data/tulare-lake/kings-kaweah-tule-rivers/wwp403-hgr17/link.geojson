@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP403-HGR17",
+ "description":null,
+ "type":"Diversion",
+ "origin":"WWP403",
+ "terminus":"HGR17",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

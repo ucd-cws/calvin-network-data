@@ -1,0 +1,19 @@
+{
+    "id":"http://cws.casil.ucdavis.edu/calvindb/link.json",
+    "title": "Link",
+    "description": "Schema for the Calvin Links",
+    "type": "object",
+    "allOf":[ 
+	{ "$ref":"common.json" },
+	{ "properties": 
+	  {
+	    "type": { 
+		"enum": [ 
+		    "Link",
+		    "Pumping"
+		] 
+	    }
+	  }
+	}
+    ]
+}

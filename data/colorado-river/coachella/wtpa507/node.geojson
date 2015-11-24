@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.117494433597,33.563514113603]},
+ "properties":{"prmname":"WTPA507",
+ "description":"Desalting facility
+",
+ "type":"Water Treatment",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

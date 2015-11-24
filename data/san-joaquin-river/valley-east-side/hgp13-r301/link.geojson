@@ -1,0 +1,14 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP13-R301",
+ "description":"Sum of maximum historical monthly GW used as water supply source at t San Joaquin Basin Action Plan refuges west of the San Joaquin River which includes East Beak Creek from San Luis NWR and Merced Unit of Merced NWR. Source: Table 1 of Water Management Plan. - Karandev Singh 6.4.2019
+",
+ "type":"Diversion",
+ "origin":"HGP13",
+ "terminus":"R301",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":61.9099998474121},
+ "bounds":[{"type":"UBC","bound":2.00999999046326}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

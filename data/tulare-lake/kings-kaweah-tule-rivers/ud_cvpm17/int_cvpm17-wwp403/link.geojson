@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"INT_CVPM17-WWP403",
+ "description":"Return flows from CVPM 17 deliveries",
+ "type":"Diversion",
+ "origin":"INT_CVPM17",
+ "terminus":"WWP403",
+ "amplitude":0.899999976158142,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

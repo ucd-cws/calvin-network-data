@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMP_Wads-N5",
+ "description":"Eastside pipeline",
+ "type":"Diversion",
+ "origin":"PMP_Wads",
+ "terminus":"N5",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":31.3020000457764},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":null}}

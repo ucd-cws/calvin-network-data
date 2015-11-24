@@ -1,0 +1,14 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP19-R401",
+ "description":"Maximum historical monthly GW used as water supply source at Kern NWR. Source: Table 1 of Water Management Plan. - Karandev Singh 6.4.2021
+",
+ "type":"Diversion",
+ "origin":"HGP19",
+ "terminus":"R401",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":136.199996948242},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

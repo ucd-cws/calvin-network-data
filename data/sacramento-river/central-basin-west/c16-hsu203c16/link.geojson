@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C16-HSU203C16",
+ "description":"Cache Creek diversions at Capay Dam to CVPM 6 (DA 65) (Winters, Moore, W. Adams Canals)",
+ "type":"Diversion",
+ "origin":"C16",
+ "terminus":"HSU203C16",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":38.5}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

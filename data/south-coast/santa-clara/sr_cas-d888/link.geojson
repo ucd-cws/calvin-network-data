@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR_CAS-D888",
+ "description":"SWP West Branch (no capacity constraint for Policy 4A)",
+ "type":"Diversion",
+ "origin":"SR_CAS",
+ "terminus":"D888",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

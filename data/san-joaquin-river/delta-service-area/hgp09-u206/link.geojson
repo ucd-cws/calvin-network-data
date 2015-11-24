@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP09-U206",
+ "description":null,
+ "type":"Diversion",
+ "origin":"HGP09",
+ "terminus":"U206",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":39.060001373291},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

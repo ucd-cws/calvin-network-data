@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGR07-GW_07",
+ "description":"Link from hidden node for calibration of GW-7",
+ "type":"Diversion",
+ "origin":"HGR07",
+ "terminus":"GW_07",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

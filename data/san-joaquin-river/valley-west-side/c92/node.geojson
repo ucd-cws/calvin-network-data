@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.757574236193,36.8521116580847]},
+ "properties":{"prmname":"C92",
+ "description":"California Aqueduct, aggregation of DWRSIM 754, 746, & 748",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSUR101-R_SRW",
+ "description":"Deliveries to the Sacramento West Refuges which includes Sacramento, Delevan and Colusa NWRs. Full level 2 and level 4 deliveries are assumed with a  25% reduction during the critical years at Lake Shasta. - KS 06062015",
+ "type":"Diversion",
+ "origin":"HSUR101",
+ "terminus":"R_SRW",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.241732153618,37.6600698326356]},
+ "properties":{"prmname":"D612",
+ "description":"CVPM 10 return to S Joaquin River",
+ "type":"Junction",
+ "inflows":{"default":{"description":"Accretion: San Joaquin River between Tuolumne and Stanislaus Rivers","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":null}}

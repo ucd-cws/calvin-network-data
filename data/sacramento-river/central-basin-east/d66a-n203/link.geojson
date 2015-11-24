@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D66A-N203",
+ "description":"Inflow into Sutter Bypass/Butte Sink from Sacramento River",
+ "type":"Diversion",
+ "origin":"D66A",
+ "terminus":"N203",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

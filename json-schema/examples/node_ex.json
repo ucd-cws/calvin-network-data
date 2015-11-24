@@ -1,0 +1,7 @@
+{
+    "prmname":"EX",
+    "node_link":"Node",
+    "origins":["EX2","EX3"],
+    "terminals":["EX4","EX5"],
+    "cost":43.5
+}

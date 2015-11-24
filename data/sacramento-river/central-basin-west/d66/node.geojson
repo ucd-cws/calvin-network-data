@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.002089638431,39.6668827716344]},
+ "properties":{"prmname":"D66",
+ "description":"Sacramento River DA15 loss",
+ "type":"Junction",
+ "inflows":{"default":{"description":"DSA10 Projected Gain in.","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR_SKN-N8",
+ "description":"San Diego Pipelines 5 & 6 (untreated water)",
+ "type":"Diversion",
+ "origin":"SR_SKN",
+ "terminus":"N8",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"AGG_SD-HGRSD",
+ "description":null,
+ "type":"Diversion",
+ "origin":"AGG_SD",
+ "terminus":"HGRSD",
+ "amplitude":0.319999992847443,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

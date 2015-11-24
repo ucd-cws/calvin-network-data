@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.377528541189,35.5395854267019]},
+ "properties":{"prmname":"HAR19",
+ "description":"Artifical recharge node for subregion 19",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

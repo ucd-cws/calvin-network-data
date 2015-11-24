@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR_MCR-D642",
+ "description":"Reservoir release from New Exchequer Dam to Merced River.  Hydropower added.",
+ "type":"Diversion",
+ "origin":"SR_MCR",
+ "terminus":"D642",
+ "amplitude":1,
+ "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"costs/JAN.csv"},"FEB":{"$ref":"costs/FEB.csv"},"MAR":{"$ref":"costs/MAR.csv"},"APR":{"$ref":"costs/APR.csv"},"MAY":{"$ref":"costs/MAY.csv"},"JUN":{"$ref":"costs/JUN.csv"},"JUL":{"$ref":"costs/JUL.csv"},"AUG":{"$ref":"costs/AUG.csv"},"SEP":{"$ref":"costs/SEP.csv"},"OCT":{"$ref":"costs/OCT.csv"},"NOV":{"$ref":"costs/NOV.csv"},"DEC":{"$ref":"costs/DEC.csv"}}},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

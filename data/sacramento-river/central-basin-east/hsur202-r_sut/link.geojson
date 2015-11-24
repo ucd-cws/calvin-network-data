@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSUR202-R_SUT",
+ "description":"Deliveries to the Sutter NWR. Full level 2 and level 4 deliveries are assumed with a  25% reduction during the critical years at Lake Shasta. - KS 06062015",
+ "type":"Diversion",
+ "origin":"HSUR202",
+ "terminus":"R_SUT",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

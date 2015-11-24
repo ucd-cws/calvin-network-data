@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"R_GLD-C307",
+ "description":"Gray Lodge Refuge return flow",
+ "type":"Diversion",
+ "origin":"R_GLD",
+ "terminus":"C307",
+ "amplitude":0.159999996423721,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

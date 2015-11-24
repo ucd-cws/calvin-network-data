@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.639738,38.707065]},
+ "properties":{"prmname":"C306",
+ "description":"Knights Landing Ridge Cut",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

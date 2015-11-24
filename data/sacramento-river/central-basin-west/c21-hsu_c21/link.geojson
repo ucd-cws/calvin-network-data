@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C21-HSU_C21",
+ "description":null,
+ "type":"Diversion",
+ "origin":"C21",
+ "terminus":"HSU_C21",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":45},
+ "bounds":[{"type":"UBC","bound":7.3899998664856}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

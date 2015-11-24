@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSUR301-R_SJE",
+ "description":"Deliveries to the San Joaquin East Refuges which includes East Bear Creek of San Luis NWR and Merced Unit of Merced NWR. Full level 2 and level 4 deliveries are assumed with a  25% reduction during the critical years at Lake Shasta. - KS 06062015",
+ "type":"Diversion",
+ "origin":"HSUR301",
+ "terminus":"R_SJE",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

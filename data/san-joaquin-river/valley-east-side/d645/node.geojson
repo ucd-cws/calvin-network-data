@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.369505850692,37.5124290909719]},
+ "properties":{"prmname":"D645",
+ "description":"Merced River diversion to North & Main California Aqueduct",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

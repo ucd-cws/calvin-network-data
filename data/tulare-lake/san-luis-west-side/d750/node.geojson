@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.231354306525,36.3275731962473]},
+ "properties":{"prmname":"D750",
+ "description":"California Aqueduct delivery to the Cities of Huron and Coalinga, CVPM-14 Urban",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

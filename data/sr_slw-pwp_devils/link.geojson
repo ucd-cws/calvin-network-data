@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR_SLW-PWP_Devils",
+ "description":"SWP East Branch (unconstrained)",
+ "type":"Diversion",
+ "origin":"SR_SLW",
+ "terminus":"PWP_Devils",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

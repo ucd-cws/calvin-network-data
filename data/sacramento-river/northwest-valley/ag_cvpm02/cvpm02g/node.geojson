@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.218485576421,39.948533]},
+ "properties":{"prmname":"CVPM02G",
+ "description":"junction node for CVPM 2",
+ "type":"Agricultural Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

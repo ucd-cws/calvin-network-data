@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D801-PMP_SoBay",
+ "description":"South Bay Aqueduct diversion to South Bay Pumping Plant",
+ "type":"Diversion",
+ "origin":"D801",
+ "terminus":"PMP_SoBay",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":33.1668014526367},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

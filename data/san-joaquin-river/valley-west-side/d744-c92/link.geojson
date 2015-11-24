@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D744-C92",
+ "description":"CAL AQ export to Reg 4 (downstream of CP744+CP828)",
+ "type":"Diversion",
+ "origin":"D744",
+ "terminus":"C92",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":-0.296000003814697},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

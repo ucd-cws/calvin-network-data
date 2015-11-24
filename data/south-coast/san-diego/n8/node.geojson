@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.654022339866,33.0562684285393]},
+ "properties":{"prmname":"N8",
+ "description":"T30 San Diego IN",
+ "type":"Junction",
+ "inflows":{"default":{"description":"LOCAL SUPPLIES","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

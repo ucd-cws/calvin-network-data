@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C27-SR_ENG",
+ "description":"Yuba River inflow to Englebright Lake",
+ "type":"Diversion",
+ "origin":"C27",
+ "terminus":"SR_ENG",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

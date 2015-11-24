@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.285999425433,36.7739490660268]},
+ "properties":{"prmname":"D609",
+ "description":"San Joaquin River diversion to Chowchilla Bypass",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

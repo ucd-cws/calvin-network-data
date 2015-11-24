@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.598070519704,38.7739014097838]},
+ "properties":{"prmname":"C67",
+ "description":"Sacramento River Diversion to CVPM6",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

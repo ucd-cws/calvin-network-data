@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "http://watershed.ucdavis.edu/calvin#",
+    "title": "Calvin Database Objects",
+    "description": "Schema for the Calvin database objects",
+    "type": "object",
+    "oneOf": [
+    ],
+    "oneOftest": [
+	{ "$ref": "#/definitions/Sink"}
+    ],
+    "definitions": {
+}

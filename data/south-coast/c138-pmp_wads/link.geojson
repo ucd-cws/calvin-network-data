@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C138-PMP_Wads",
+ "description":"Eastside pipeline (if filled from CRA) and San Diego Canal",
+ "type":"Diversion",
+ "origin":"C138",
+ "terminus":"PMP_Wads",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":null}}

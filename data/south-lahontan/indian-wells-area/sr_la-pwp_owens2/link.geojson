@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR_LA-PWP_Owens2",
+ "description":"Los Angeles Aqueduct",
+ "type":"Diversion",
+ "origin":"SR_LA",
+ "terminus":"PWP_Owens2",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

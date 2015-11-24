@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"GW_16-HGP16",
+ "description":"Link to hidden node for calibration of GW-16",
+ "type":"Diversion",
+ "origin":"GW_16",
+ "terminus":"HGP16",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.473313878772,35.4926912699519]},
+ "properties":{"prmname":"HSR401",
+ "description":"Hidden surface water node for Kern Refuge",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"IRES_SCV-WWP304",
+ "description":"Interior urban Res Return Flow Total",
+ "type":"Diversion",
+ "origin":"IRES_SCV",
+ "terminus":"WWP304",
+ "amplitude":0.899999976158142,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

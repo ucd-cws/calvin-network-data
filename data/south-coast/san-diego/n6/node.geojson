@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.070979160954,33.6842875982447]},
+ "properties":{"prmname":"N6",
+ "description":"Diamond Valley lake forebay",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMP_Mallar-C71",
+ "description":"Mallard Slough Pumping Plant Release",
+ "type":"Diversion",
+ "origin":"PMP_Mallar",
+ "terminus":"C71",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":45},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":null}}

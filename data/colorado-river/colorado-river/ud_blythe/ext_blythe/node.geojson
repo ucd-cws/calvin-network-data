@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-114.539773576421,33.7190831260164]},
+ "properties":{"prmname":"EXT_Blythe",
+ "description":"DAU 333-347 Interior Res/Landscape",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":[{"default" : {"description" : null, "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
+ "flow":null}}

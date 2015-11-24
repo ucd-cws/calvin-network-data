@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"U209-C78",
+ "description":"EBMUD deliveries to SFPUC",
+ "type":"Diversion",
+ "origin":"U209",
+ "terminus":"C78",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":51.7999992370605},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":null}}

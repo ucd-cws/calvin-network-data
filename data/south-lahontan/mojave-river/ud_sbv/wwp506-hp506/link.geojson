@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP506-HP506",
+ "description":"Expanded wastewater recycling facility for SBV",
+ "type":"Diversion",
+ "origin":"WWP506",
+ "terminus":"HP506",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1480},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null,
+ "flow":null}}

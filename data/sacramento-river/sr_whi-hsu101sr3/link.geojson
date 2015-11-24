@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR_WHI-HSU101SR3",
+ "description":"surface delivery CVPM 1",
+ "type":"Diversion",
+ "origin":"SR_WHI",
+ "terminus":"HSU101SR3",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":4.59999990463257}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

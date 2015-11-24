@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP402-HGR14",
+ "description":null,
+ "type":"Diversion",
+ "origin":"WWP402",
+ "terminus":"HGR14",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":50},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

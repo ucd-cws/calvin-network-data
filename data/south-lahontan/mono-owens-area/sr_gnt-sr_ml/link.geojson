@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR_GNT-SR_ML",
+ "description":"Mono Lake Delivery",
+ "type":"Diversion",
+ "origin":"SR_GNT",
+ "terminus":"SR_ML",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

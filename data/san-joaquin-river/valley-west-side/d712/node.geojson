@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.040140686352,37.1006164822141]},
+ "properties":{"prmname":"D712",
+ "description":"Delta Mendota Canal inflow from California Aqueduct",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C11-HSU102C11",
+ "description":"surface delivery CVPM 2",
+ "type":"Diversion",
+ "origin":"C11",
+ "terminus":"HSU102C11",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":1.02999997138977}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

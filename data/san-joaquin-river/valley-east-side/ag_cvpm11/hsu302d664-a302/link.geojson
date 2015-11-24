@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSU302D664-A302",
+ "description":"Tuolumne River riparian diversions to CVPM11",
+ "type":"Diversion",
+ "origin":"HSU302D664",
+ "terminus":"A302",
+ "amplitude":0.819999992847443,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

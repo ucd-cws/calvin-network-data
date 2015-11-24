@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"U102-EXT_CVPM02",
+ "description":null,
+ "type":"Diversion",
+ "origin":"U102",
+ "terminus":"EXT_CVPM02",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
+ "sinks":null,
+ "flow":null}}

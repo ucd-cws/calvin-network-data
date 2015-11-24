@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-114.468429889868,32.8762768142691]},
+ "properties":{"prmname":"AgS_Bard",
+ "description":"Bard Water District (Yuma)",
+ "type":"Agricultural Demand",
+ "inflows":null,
+ "sinks":[{"default" : {"description" : "Bard WD return flow", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
+ "flow":null}}

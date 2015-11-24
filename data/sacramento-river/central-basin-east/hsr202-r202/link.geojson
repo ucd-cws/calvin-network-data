@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HSR202-R202",
+ "description":"Sutter Extension Water District deliveries to Sutter NWR. ",
+ "type":"Diversion",
+ "origin":"HSR202",
+ "terminus":"R202",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

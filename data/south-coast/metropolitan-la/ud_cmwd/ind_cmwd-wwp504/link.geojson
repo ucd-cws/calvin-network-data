@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"Ind_CMWD-WWP504",
+ "description":"Ind Return Flow TOTAL",
+ "type":"Diversion",
+ "origin":"Ind_CMWD",
+ "terminus":"WWP504",
+ "amplitude":0.400000005960464,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":null}}

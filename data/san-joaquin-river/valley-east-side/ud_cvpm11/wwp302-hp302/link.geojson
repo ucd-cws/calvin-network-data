@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WWP302-HP302",
+ "description":null,
+ "type":"Diversion",
+ "origin":"WWP302",
+ "terminus":"HP302",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":1800},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null,
+ "flow":null}}

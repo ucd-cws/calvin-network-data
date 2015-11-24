@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.667253160161,38.1781185688219]},
+ "properties":{"prmname":"D55",
+ "description":"Yolo Bypass inflow to Sacramento River",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

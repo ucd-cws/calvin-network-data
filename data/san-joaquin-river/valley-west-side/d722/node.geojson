@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.9970552153,37.0826835873476]},
+ "properties":{"prmname":"D722",
+ "description":"Delta Mendota Canal diversion to CVPM 10",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

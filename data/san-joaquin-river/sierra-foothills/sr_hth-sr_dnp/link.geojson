@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR_HTH-SR_DNP",
+ "description":"Hetch Hetchy Release to New Don Pedro Reservoir",
+ "type":"Diversion",
+ "origin":"SR_HTH",
+ "terminus":"SR_DNP",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

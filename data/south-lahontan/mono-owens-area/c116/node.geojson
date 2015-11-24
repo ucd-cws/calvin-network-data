@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-118.529765091909,37.4075853064356]},
+ "properties":{"prmname":"C116",
+ "description":"LAA System",
+ "type":"Junction",
+ "inflows":{"default":{"description":"LV-HAIWEE","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":null,
+ "flow":null}}

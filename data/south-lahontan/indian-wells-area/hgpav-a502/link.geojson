@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGPAV-A502",
+ "description":null,
+ "type":"Diversion",
+ "origin":"HGPAV",
+ "terminus":"A502",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":103.599998474121},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.313173839784,37.6084901174741]},
+ "properties":{"prmname":"IRES_SF",
+ "description":"Interior Urban Residential includes all of DAU 43",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

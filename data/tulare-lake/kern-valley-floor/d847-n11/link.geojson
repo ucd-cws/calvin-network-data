@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D847-N11",
+ "description":"Surface delivery to CVPM 19 from Coastal Aqueduct",
+ "type":"Diversion",
+ "origin":"D847",
+ "terminus":"N11",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

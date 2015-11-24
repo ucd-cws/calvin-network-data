@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR_CFW-C33",
+ "description":"Resevoir release from Camp Far West Dam to Bear River",
+ "type":"Diversion",
+ "origin":"SR_CFW",
+ "terminus":"C33",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

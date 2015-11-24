@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.333455091485,34.1948237863191]},
+ "properties":{"prmname":"C129",
+ "description":"East Branch SWP diversion to MWD Inland Feeder",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

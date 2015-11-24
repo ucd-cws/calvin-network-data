@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR_DMV-PWP_Wads",
+ "description":"Diamond Valley Forebay",
+ "type":"Diversion",
+ "origin":"SR_DMV",
+ "terminus":"PWP_Wads",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":null}}

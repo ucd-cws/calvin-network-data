@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.853745298634,34.0306593884319]},
+ "properties":{"prmname":"IRes_CMWD",
+ "description":"DAUs 87,89,90.92,96,114 and part of 100 - Urban Demand for Interior Res/Comm",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

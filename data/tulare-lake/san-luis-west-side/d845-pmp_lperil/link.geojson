@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D845-PMP_LPeril",
+ "description":"California Aqueduct diversion to Las Perillas Pumping Plant",
+ "type":"Diversion",
+ "origin":"D845",
+ "terminus":"PMP_LPeril",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "sinks":null,
+ "flow":null}}

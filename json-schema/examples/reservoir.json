@@ -1,0 +1,9 @@
+{
+    "prmname":"EX",
+    "type":"Reservoir",
+    "origins":["EX2","EX3"],
+    "terminals":["EX4","EX5"],
+    "initialStorage":100,
+    "finalStorage":400,
+    "el_ar_cap":null
+}

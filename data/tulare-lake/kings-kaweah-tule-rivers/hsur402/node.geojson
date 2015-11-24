@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.325802379511,36.0710448605207]},
+ "properties":{"prmname":"HSUR402",
+ "description":"Hidden node for conveyance loss for deliveries to Pixley NWR",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

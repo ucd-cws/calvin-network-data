@@ -1,0 +1,14 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C157-SR_SS",
+ "description":"Ag return flow to Salton Sea (unconstrined)
+",
+ "type":"Diversion",
+ "origin":"C157",
+ "terminus":"SR_SS",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

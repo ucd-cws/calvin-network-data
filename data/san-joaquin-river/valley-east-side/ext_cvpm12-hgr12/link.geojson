@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"EXT_CVPM12-HGR12",
+ "description":"Return flows from external CVMP12",
+ "type":"Diversion",
+ "origin":"EXT_CVPM12",
+ "terminus":"HGR12",
+ "amplitude":0.100000001490116,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

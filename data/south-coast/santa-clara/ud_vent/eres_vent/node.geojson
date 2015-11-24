@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.050205240668,34.4300141253979]},
+ "properties":{"prmname":"ERes_VENT",
+ "description":"DAU 81 - exterior residential/landscape use",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

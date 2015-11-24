@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGP09-A206",
+ "description":"Agricultural groundwater pumping GW-9 to CVPM 9 Demand",
+ "type":"Diversion",
+ "origin":"HGP09",
+ "terminus":"A206",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":39.060001373291},
+ "bounds":[{"type":"UBC","bound":50}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

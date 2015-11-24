@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"SR_PAR-SR_CMN",
+ "description":"Reservoir release from Pardee Dam and inflow to Camanche Reservoir",
+ "type":"Diversion",
+ "origin":"SR_PAR",
+ "terminus":"SR_CMN",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

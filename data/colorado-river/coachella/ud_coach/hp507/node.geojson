@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.249077919233,33.7440864703803]},
+ "properties":{"prmname":"HP507",
+ "description":"Hidden node for exapanded wastewater recycling for Coachella Urban",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

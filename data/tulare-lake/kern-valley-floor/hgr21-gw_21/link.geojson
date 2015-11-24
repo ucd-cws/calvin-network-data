@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"HGR21-GW_21",
+ "description":"Link from hidden node for calibration of GW-21",
+ "type":"Diversion",
+ "origin":"HGR21",
+ "terminus":"GW_21",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

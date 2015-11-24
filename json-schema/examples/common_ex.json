@@ -1,0 +1,8 @@
+{
+"prmname":"EX",
+"description":"This is our cool Node or Link",
+"inflows":[
+    {"id":"Example 1","data":[["2014-10-10",23],["2014-10-10",45]]},
+    {"id":"Example 2","data":{"href":"Example2.csv"}}
+    ]
+}

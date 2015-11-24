@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.890157588306,38.1042547720442]},
+ "properties":{"prmname":"C314",
+ "description":"CVPM 8 delivery",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

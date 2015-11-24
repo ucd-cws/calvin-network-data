@@ -1,0 +1,11 @@
+{
+    "id":"http://cws.casil.ucdavis.edu/calvindb/capacity.json",
+    "description":"Capacities in the network are non-negative, and are all referenced in KAF.",
+    "oneOf":[
+	{"type":"null"},
+	{
+	    "type":"number",
+	    "minimum":0
+	}
+    ]
+}

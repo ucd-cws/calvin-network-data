@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.579071,38.939279]},
+ "properties":{"prmname":"D37",
+ "description":"Bear River inflow to Feather River",
+ "type":"Junction",
+ "inflows":{"default":{"description":"GS65 SW-GW Interaction","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":[{"default" : {"description" : "GS65 SW-GW Interaction", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
+ "flow":{"$ref" : "flow.csv"}}}

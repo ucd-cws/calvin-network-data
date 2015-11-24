@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"GW_HF-HGPHF",
+ "description":null,
+ "type":"Diversion",
+ "origin":"GW_HF",
+ "terminus":"HGPHF",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":0}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

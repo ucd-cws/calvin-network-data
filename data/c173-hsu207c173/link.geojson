@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C173-HSU207C173",
+ "description":"Folsom South Canal diversion to CVPM8",
+ "type":"Diversion",
+ "origin":"C173",
+ "terminus":"HSU207C173",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":6.69999980926514}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

@@ -4,5 +4,11 @@
  "description":"Sacramento River, confluence with Paynes Creek",
  "type":"Junction",
  "inflows":{"default":{"description":"DA3 outflow - Paynes Creek and Seven Mile Creeks","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
+ "sinks":[
+ {"to_c87" :{
+	"description" : "Computed Flow to D77, represented as a sink",
+	"costs" : {"type":"Constant","cost":0},
+	"bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/to_c87/EQT.csv"}}],
+	"flow" : {"$ref" : "./sinks/to_c87/flow.csv"}}}
+	],
  "flow":null}}

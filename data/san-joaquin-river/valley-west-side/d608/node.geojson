@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.371568,36.783784]},
- "properties":{"prmname":"D608",
- "description":"Mendota Pool",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.267860790192,37.0399015085978]},
- "properties":{"prmname":"D714",
- "description":"Pacheco Tunnel deliveries to South Bay Area",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

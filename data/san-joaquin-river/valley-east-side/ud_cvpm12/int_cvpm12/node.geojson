@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.870587423579,37.525616900751]},
- "properties":{"prmname":"INT_CVPM12",
- "description":"100% of DAU 208, interior",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}

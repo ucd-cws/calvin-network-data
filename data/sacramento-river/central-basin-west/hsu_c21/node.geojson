@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.966867497392,38.4310069774822]},
- "properties":{"prmname":"HSU_C21",
- "description":null,
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}

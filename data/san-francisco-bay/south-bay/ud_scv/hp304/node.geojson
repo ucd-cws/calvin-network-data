@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.891179423579,37.353960838763]},
- "properties":{"prmname":"HP304",
- "description":"Expanded wastewater treatment for SCV",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}

@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.279534,39.229928]},
- "properties":{"prmname":"C29",
- "description":"Dry Creek",
- "type":"Junction",
- "inflows":{"default":{"description":"FRENCH DRY CREEK","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":null}}

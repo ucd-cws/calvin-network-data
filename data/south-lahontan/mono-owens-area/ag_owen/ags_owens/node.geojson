@@ -1,9 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.060983423579,36.5866235431035]},
- "properties":{"prmname":"AgS_Owens",
- "description":"Owens Valley Ag",
- "type":"Agricultural Demand",
- "inflows":null,
- "sinks":[{"default" : {"description" : null, "costs" : {"type":"Constant",
- "cost":0}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
- "flow":null}}

@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.136614576421,33.8260917894073]},
- "properties":{"prmname":"AGG_SD",
- "description":null,
- "type":"Agricultural Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}

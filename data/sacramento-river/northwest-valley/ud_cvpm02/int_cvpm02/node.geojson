@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.172286423579,39.9258916080557]},
- "properties":{"prmname":"INT_CVPM02",
- "description":"Interior Urban demand node for 100% of DAU 142",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}

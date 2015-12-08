@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.277885226953,33.6340042310659]},
- "properties":{"prmname":"C147",
- "description":"End of Coachella Canal and farm gate to Coachella Ag",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.875079,37.5220546314067]},
- "properties":{"prmname":"WWP305",
- "description":"Turlock/Ceres CVPM12 Urban OUT",
- "type":"Water Treatment",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

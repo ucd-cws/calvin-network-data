@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.063050277892,37.1116960650014]},
- "properties":{"prmname":"D814",
- "description":"California Aqueduct diversion to San Luis Reservoir",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

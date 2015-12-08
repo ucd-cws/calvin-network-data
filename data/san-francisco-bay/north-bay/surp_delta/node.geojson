@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.937360922946,38.0505211859991]},
- "properties":{"prmname":"Surp_Delta",
- "description":"Surplus Delta Outflow",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}

@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.939083434162,39.2018904795782]},
- "properties":{"prmname":"D31",
- "description":"Sacramento River diversion to RD1500 Drain",
- "type":"Junction",
- "inflows":{"default":{"description":"GS63 SW-GW Interaction","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

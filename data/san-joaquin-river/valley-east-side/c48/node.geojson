@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.364861836223,36.9762779661175]},
- "properties":{"prmname":"C48",
- "description":"Fresno River Inflow to Chowchilla Bypass",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}

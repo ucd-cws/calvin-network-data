@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.209000563567,34.0323639522811]},
- "properties":{"prmname":"N1",
- "description":"Junction node for SBMWD foothill feeder intertie",
- "type":"Junction",
- "inflows":{"default":{"description":"Local Supplies","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

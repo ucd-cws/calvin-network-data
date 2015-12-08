@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.667353696523,35.2772109434962]},
- "properties":{"prmname":"INT_SB_SLO",
- "description":"Only the SWP Imports are modeled (DAU 67, 68, 71, 74, 75)",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}

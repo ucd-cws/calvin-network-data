@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.945931387065,35.4319571897471]},
- "properties":{"prmname":"C65",
- "description":"Kern River",
- "type":"Junction",
- "inflows":{"default":{"description":"Accretion Kern River","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

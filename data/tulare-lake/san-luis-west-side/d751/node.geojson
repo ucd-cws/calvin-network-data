@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.050269688386,36.1704191560647]},
- "properties":{"prmname":"D751",
- "description":"California Aqueduct losses R-7",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

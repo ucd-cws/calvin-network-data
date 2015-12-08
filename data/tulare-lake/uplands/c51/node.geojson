@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.383158846131,36.8168493904958]},
- "properties":{"prmname":"C51",
- "description":"Kings River",
- "type":"Junction",
- "inflows":{"default":{"description":"Accretion Kings River","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":null}}

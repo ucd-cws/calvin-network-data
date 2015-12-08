@@ -1,9 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.840634423579,34.3895295580588]},
- "properties":{"prmname":"AGS_VENT",
- "description":null,
- "type":"Agricultural Demand",
- "inflows":null,
- "sinks":[{"default" : {"description" : null, "costs" : {"type":"Constant",
- "cost":0}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
- "flow":null}}

@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.815173397784,36.7488920477278]},
- "properties":{"prmname":"INT_FRESN",
- "description":"DAU 233 interior urban",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}

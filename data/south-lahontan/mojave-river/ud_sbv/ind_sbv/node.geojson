@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.370279,34.4831077065128]},
- "properties":{"prmname":"Ind_SBV",
- "description":"DAU 308 & part of 100 Urban Demand for Industrial Sector",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}

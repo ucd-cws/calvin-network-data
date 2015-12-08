@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.102984119233,34.6033289805869]},
- "properties":{"prmname":"HARMJ",
- "description":"Hidden node for artificial groundwater recharge",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}

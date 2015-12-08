@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.845126,34.393236]},
- "properties":{"prmname":"HU501",
- "description":"Hidden node for ventura ag supplied by surface water",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

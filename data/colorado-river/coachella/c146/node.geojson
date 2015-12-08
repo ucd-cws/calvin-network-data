@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.077535674268,33.5247269298106]},
- "properties":{"prmname":"C146",
- "description":"Imperial System - Whitewater River inflow to Coachella Urban recharge and Salton Sea",
- "type":"Junction",
- "inflows":{"default":{"description":"WHITEWATER","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.463028974626,37.6669321206054]},
- "properties":{"prmname":"D663",
- "description":"Tuolumne River accretion",
- "type":"Junction",
- "inflows":{"default":{"description":"Accretion: Tuolumne d/s La Grange Dam","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":null}}

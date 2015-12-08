@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.897355289412,38.5744921094109]},
- "properties":{"prmname":"A203",
- "description":"CVPM 6 delivery",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}

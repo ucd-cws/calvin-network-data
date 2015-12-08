@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.59621,38.7744019176583]},
- "properties":{"prmname":"WWP204",
- "description":"Sacramento OUT",
- "type":"Water Treatment",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

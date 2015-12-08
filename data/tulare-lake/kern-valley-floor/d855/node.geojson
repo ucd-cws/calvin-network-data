@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.323832748866,35.2810714513073]},
- "properties":{"prmname":"D855",
- "description":"offtake from California Aqueduct for active recharge of Kern Water Bank",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

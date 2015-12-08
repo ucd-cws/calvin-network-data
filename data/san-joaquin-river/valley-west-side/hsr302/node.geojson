@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.801263554673,37.1648875182746]},
- "properties":{"prmname":"HSR302",
- "description":"Hidden surface water node for West of San Joaquin Refuges",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}

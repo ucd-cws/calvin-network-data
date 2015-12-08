@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.369202744358,37.9679856298384]},
- "properties":{"prmname":"C42",
- "description":"California Aqueductlav. River inflow to S. Joaq. River",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}

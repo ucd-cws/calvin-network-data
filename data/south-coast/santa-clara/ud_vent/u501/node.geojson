@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.234237,34.449208]},
- "properties":{"prmname":"U501",
- "description":"Water Treatment node to Ventura Co",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

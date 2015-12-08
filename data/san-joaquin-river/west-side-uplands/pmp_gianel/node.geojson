@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.181036768093,37.061944181297]},
- "properties":{"prmname":"PMP_Gianel",
- "description":"Gianelli Pumping Plant",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null,
- "flow":null}}

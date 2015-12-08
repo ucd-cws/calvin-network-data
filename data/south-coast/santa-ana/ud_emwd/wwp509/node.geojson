@@ -1,9 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.11200458163,33.7102072744818]},
- "properties":{"prmname":"WWP509",
- "description":"E and W MWD OUT",
- "type":"Water Treatment",
- "inflows":null,
- "sinks":[{"default" : {"description" : "SW discharge to Ocean", "costs" : {"type":"Constant",
- "cost":0}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
- "flow":{"$ref" : "flow.csv"}}}

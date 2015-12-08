@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.061310543998,35.2308114682802]},
- "properties":{"prmname":"HGP21",
- "description":"Hidden node for pumping calibration of GW-21",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.019108675661,33.7165782011471]},
- "properties":{"prmname":"C136",
- "description":"Colorado River Aqueduct",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

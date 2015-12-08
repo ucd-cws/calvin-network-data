@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.164737448427,37.7593041654031]},
- "properties":{"prmname":"IND_EBMUD",
- "description":"Parts of DAU 46 & 47",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}

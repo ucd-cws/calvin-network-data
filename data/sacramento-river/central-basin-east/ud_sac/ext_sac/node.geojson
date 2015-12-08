@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.600701576421,38.7779035447879]},
- "properties":{"prmname":"EXT_SAC",
- "description":"Includes Placerville and Auburn (DAU 158, 161, 172, 173, 186).",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}

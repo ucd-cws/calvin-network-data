@@ -1,9 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.862728451475,34.0343816478517]},
- "properties":{"prmname":"ERes_CMWD",
- "description":"DAU's 87 89 90 92 96 114 and part of 100, External residential and landscape use",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":[{"default" : {"description" : null, "costs" : {"type":"Constant",
- "cost":1}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
- "flow":null}}

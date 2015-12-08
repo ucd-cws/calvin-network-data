@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.018570576421,37.6669426600408]},
- "properties":{"prmname":"EXT_CVPM11",
- "description":"100% of DAU 205 & 206, exterior",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}

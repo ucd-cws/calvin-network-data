@@ -1,8 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.134545111916,35.2909192932068]},
+ "geometry":{"type":"Point","coordinates":[-119.008242,35.375545]},
  "properties":{"prmname":"U410",
  "description":"Bakersfield IN",
  "type":"Junction",
  "inflows":null,
  "sinks":null,
- "flow":null}}
+ "flow":{"$ref" : "flow.csv"}}}

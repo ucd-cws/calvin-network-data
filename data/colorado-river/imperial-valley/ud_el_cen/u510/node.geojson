@@ -1,8 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-115.459403055922,33.012149917051]},
+ "geometry":{"type":"Point","coordinates":[-115.561648,32.7862999999999]},
  "properties":{"prmname":"U510",
  "description":"Urban water treatment node for El Centro",
  "type":"Junction",
  "inflows":null,
  "sinks":null,
- "flow":null}}
+ "flow":{"$ref" : "flow.csv"}}}

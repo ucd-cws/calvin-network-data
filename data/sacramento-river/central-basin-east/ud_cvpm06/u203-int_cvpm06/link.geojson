@@ -10,4 +10,4 @@
  "cost":0},
  "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
  "sinks":null,
- "flow":null}}
+ "flow":{"$ref" : "flow.csv"}}}

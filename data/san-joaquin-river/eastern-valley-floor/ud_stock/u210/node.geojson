@@ -1,8 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.139396298091,38.0576188365164]},
+ "geometry":{"type":"Point","coordinates":[-121.290909,37.9642969999999]},
  "properties":{"prmname":"U210",
  "description":"Stockton IN",
  "type":"Junction",
  "inflows":null,
  "sinks":null,
- "flow":null}}
+ "flow":{"$ref" : "flow.csv"}}}

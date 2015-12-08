@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-115.454911479501,33.0083834025081]},
+ "geometry":{"type":"Point","coordinates":[-115.557156423579,32.7825238690415]},
  "properties":{"prmname":"INT_El_Cen",
  "description":"DAU 353-357 Ind/Interior Res/Comm Demand",
  "type":"Urban Demand",

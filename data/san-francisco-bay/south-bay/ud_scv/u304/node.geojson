@@ -1,8 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.736275946117,37.3469076116457]},
+ "geometry":{"type":"Point","coordinates":[-121.895671,37.355746]},
  "properties":{"prmname":"U304",
  "description":"Santa Clara Valley+ IN",
  "type":"Junction",
  "inflows":null,
  "sinks":null,
- "flow":null}}
+ "flow":{"$ref" : "flow.csv"}}}

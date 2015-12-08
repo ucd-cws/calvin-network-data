@@ -5,4 +5,4 @@
  "type":"Water Treatment",
  "inflows":null,
  "sinks":null,
- "flow":null}}
+ "flow":{"$ref" : "flow.csv"}}}

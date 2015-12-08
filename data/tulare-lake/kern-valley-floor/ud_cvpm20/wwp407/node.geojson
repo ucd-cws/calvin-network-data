@@ -1,8 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.113180568819,35.6147234540168]},
+ "geometry":{"type":"Point","coordinates":[-119.244377,35.7564414309177]},
  "properties":{"prmname":"WWP407",
  "description":"Delano/Wasco CVPM20 Urban OUT",
  "type":"Water Treatment",
  "inflows":null,
  "sinks":null,
- "flow":null}}
+ "flow":{"$ref" : "flow.csv"}}}

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.495470888154,34.5288487166781]},
+ "geometry":{"type":"Point","coordinates":[-118.543736423579,34.4329424813875]},
  "properties":{"prmname":"INT_CLWA",
  "description":"DAU 83 Ind/Interior Res/Comm Demand",
  "type":"Urban Demand",

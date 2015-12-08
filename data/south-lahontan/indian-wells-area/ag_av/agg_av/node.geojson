@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.971119859408,35.1560307888066]},
- "properties":{"prmname":"AGG_AV",
- "description":"Antelope Valley Ag supplied by GW",
- "type":"Agricultural Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}

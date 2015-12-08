@@ -1,8 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.278875542828,36.1166970194772]},
+ "geometry":{"type":"Point","coordinates":[-119.322785,36.2995365160435]},
  "properties":{"prmname":"WWP405",
  "description":"Visalia/Tulare CVPM18 Urban OUT",
  "type":"Water Treatment",
  "inflows":null,
  "sinks":null,
- "flow":null}}
+ "flow":{"$ref" : "flow.csv"}}}

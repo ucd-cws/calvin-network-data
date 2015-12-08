@@ -1,0 +1,13 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"WTP402-U402",
+ "description":null,
+ "type":"Diversion",
+ "origin":"WTP402",
+ "terminus":"U402",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":375.160003662109},
+ "bounds":[{"type":"NOB"}],
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

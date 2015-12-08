@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.881174435465,38.1077890595255]},
+ "geometry":{"type":"Point","coordinates":[-121.050747847159,38.0368117185686]},
  "properties":{"prmname":"HSD207",
  "description":"Hidden surface water calibration node",
  "type":"Junction",

@@ -1,9 +1,9 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.173172,34.6629225760727]},
+ "geometry":{"type":"Point","coordinates":[-118.174084,34.8494032447216]},
  "properties":{"prmname":"WWP502",
  "description":"Antelope OUT",
  "type":"Water Treatment",
  "inflows":null,
  "sinks":[{"default" : {"description" : "SW Discharge to ??", "costs" : {"type":"Constant",
- "cost":0}, "bounds" : [{"type":"NOB"}]}}],
- "flow":null}}
+ "cost":0}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
+ "flow":{"$ref" : "flow.csv"}}}

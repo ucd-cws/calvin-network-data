@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.331140145466,37.615606223716]},
+ "geometry":{"type":"Point","coordinates":[-122.436935152841,37.7498485351367]},
  "properties":{"prmname":"ERES_SF",
  "description":"Exterior Urban Residential includes all of DAU 43",
  "type":"Urban Demand",

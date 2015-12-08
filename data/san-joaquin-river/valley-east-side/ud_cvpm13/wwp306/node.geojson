@@ -1,8 +1,8 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.321487789062,37.1242259550845]},
+ "geometry":{"type":"Point","coordinates":[-120.492091,37.2825698238413]},
  "properties":{"prmname":"WWP306",
  "description":"Merced CVPM13 Urban OUT",
  "type":"Water Treatment",
  "inflows":null,
  "sinks":null,
- "flow":null}}
+ "flow":{"$ref" : "flow.csv"}}}

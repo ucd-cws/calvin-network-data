@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.081882525557,38.515207095648]},
+ "geometry":{"type":"Point","coordinates":[-122.081883,38.515207]},
  "properties":{"prmname":"SR_BER",
  "description":"Lake Berryessa",
  "type":"Surface Storage",

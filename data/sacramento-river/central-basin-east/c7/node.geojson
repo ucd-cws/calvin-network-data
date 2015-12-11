@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.562401956157,38.6308437799825]},
+ "geometry":{"type":"Point","coordinates":[-121.562402,38.630844]},
  "properties":{"prmname":"C7",
  "description":"CVPM7 return to Sacramento River",
  "type":"Junction",

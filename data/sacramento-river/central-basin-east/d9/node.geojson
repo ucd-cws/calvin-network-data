@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.218374718958,38.6367717571323]},
+ "geometry":{"type":"Point","coordinates":[-121.218375,38.636772]},
  "properties":{"prmname":"D9",
  "description":"Lake Natoma",
  "type":"Junction",

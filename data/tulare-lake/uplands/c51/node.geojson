@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.383158846131,36.8168493904958]},
+ "geometry":{"type":"Point","coordinates":[-119.383159,36.816849]},
  "properties":{"prmname":"C51",
  "description":"Kings River",
  "type":"Junction",

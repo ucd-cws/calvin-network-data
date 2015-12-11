@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.011119150898,38.0547818694116]},
+ "geometry":{"type":"Point","coordinates":[-121.011119,38.054782]},
  "properties":{"prmname":"C41",
  "description":"California Aqueductla. River Diversion to CVPM8",
  "type":"Junction",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.862728451475,34.0343816478517]},
+ "geometry":{"type":"Point","coordinates":[-117.862728,34.0343820000001]},
  "properties":{"prmname":"ERes_CMWD",
  "description":"DAU's 87 89 90 92 96 114 and part of 100, External residential and landscape use",
  "type":"Urban Demand",

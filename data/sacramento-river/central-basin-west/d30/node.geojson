@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.002089638431,39.6668827716344]},
+ "geometry":{"type":"Point","coordinates":[-121.937377,39.193793]},
  "properties":{"prmname":"D30",
  "description":"Sacramento River diversion to CVPM 4",
  "type":"Junction",

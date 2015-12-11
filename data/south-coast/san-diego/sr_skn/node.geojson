@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.122863913518,33.5830254343641]},
+ "geometry":{"type":"Point","coordinates":[-117.071451,33.583383]},
  "properties":{"prmname":"SR_SKN",
  "description":"Lake Skinner input because of its separation of nodes and wq importance",
  "type":"Surface Storage",

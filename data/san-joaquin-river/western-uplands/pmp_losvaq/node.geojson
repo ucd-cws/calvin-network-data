@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.726618872488,37.8419967106776]},
+ "geometry":{"type":"Point","coordinates":[-121.726619,37.841997]},
  "properties":{"prmname":"PMP_LosVaq",
  "description":"Los Vaqueros Pumping Plant",
  "type":"Pump Plant",

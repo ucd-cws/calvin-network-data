@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.287524205289,37.5986899629476]},
+ "geometry":{"type":"Point","coordinates":[-121.287524,37.59869]},
  "properties":{"prmname":"D700",
  "description":null,
  "type":"Junction",

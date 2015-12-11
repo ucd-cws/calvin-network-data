@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-115.452426577727,33.8095127877895]},
+ "geometry":{"type":"Point","coordinates":[-115.451612,33.808229]},
  "properties":{"prmname":"PMP_Eagle",
  "description":"Formerly part of Colorado Pumping Plant - second pumping station along CRA",
  "type":"Pump Plant",

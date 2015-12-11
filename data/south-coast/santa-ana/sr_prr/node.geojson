@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.18386871544,33.8580181659172]},
+ "geometry":{"type":"Point","coordinates":[-117.183869,33.858018]},
  "properties":{"prmname":"SR_PRR",
  "description":"Lake Perris",
  "type":"Surface Storage",

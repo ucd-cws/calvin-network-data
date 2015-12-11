@@ -1,13 +1,13 @@
 {
-    "id":"http://cws.casil.ucdavis.edu/calvindb/node.json",
-    "title": "Connectors",
-    "description": "Connection properties for nodes",
-    "type": "object",
-    "allOf":[
-	{"$ref":"common.json"},
-	{ "properties": {
-	    "origins": {"$ref":"prmname_p.json"},
-	    "terminals":{"$ref":"prmname_p.json"}
-	}
-    ]
+  "id":"http://cws.casil.ucdavis.edu/calvindb/node.json",
+  "title": "Connectors",
+  "description": "Connection properties for nodes",
+  "type": "object",
+  "allOf":[
+    {"$ref":"common.json"},
+    { "properties": {
+      "origins": {"$ref":"prmname_p.json"},
+      "terminals":{"$ref":"prmname_p.json"}
+    }
+  ]
 }

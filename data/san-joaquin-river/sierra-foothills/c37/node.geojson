@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.034054221496,38.4999084297867]},
+ "geometry":{"type":"Point","coordinates":[-121.034054,38.499908]},
  "properties":{"prmname":"C37",
  "description":"Cosumnes River inflow",
  "type":"Junction",

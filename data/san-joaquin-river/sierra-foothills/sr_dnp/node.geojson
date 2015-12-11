@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.422128134749,37.7016311667735]},
+ "geometry":{"type":"Point","coordinates":[-120.422128,37.701631]},
  "properties":{"prmname":"SR_DNP",
  "description":"New Don Pedro Reservoir",
  "type":"Surface Storage",

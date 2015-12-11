@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.752990328413,36.0649573412091]},
+ "geometry":{"type":"Point","coordinates":[-119.75299,36.064957]},
  "properties":{"prmname":"SR_TL",
  "description":"Tulare Lake Bed",
  "type":"Surface Storage",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.132123,33.829823]},
+ "geometry":{"type":"Point","coordinates":[-117.086461,33.850949]},
  "properties":{"prmname":"HU509",
  "description":"Hidden node for E&W MWD Ag",
  "type":"Junction",

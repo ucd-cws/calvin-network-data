@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.332074453145,35.0904842029488]},
+ "geometry":{"type":"Point","coordinates":[-119.332074,35.090484]},
  "properties":{"prmname":"D860",
  "description":"California Aqueduct",
  "type":"Junction",

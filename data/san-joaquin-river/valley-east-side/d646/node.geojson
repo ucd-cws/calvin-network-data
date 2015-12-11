@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.45202652952,37.5019364803428]},
+ "geometry":{"type":"Point","coordinates":[-120.452027,37.501936]},
  "properties":{"prmname":"D646",
  "description":"Merced River accretion",
  "type":"Junction",

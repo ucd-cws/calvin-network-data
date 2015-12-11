@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.188484998318,36.9122557898739]},
+ "geometry":{"type":"Point","coordinates":[-118.188485,36.912256]},
  "properties":{"prmname":"GW_OW",
  "description":"Owens Valley",
  "type":"Groundwater Storage",

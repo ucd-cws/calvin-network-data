@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.671845272944,35.2808776368964]},
+ "geometry":{"type":"Point","coordinates":[-120.671845,35.280878]},
  "properties":{"prmname":"U406",
  "description":"water supply input node for SB-SLO",
  "type":"Junction",

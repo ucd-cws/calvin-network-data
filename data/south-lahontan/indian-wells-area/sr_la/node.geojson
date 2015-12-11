@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.948912057477,36.1369418176802]},
+ "geometry":{"type":"Point","coordinates":[-117.948912,36.136942]},
  "properties":{"prmname":"SR_LA",
  "description":"LAA Storage",
  "type":"Surface Storage",

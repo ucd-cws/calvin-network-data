@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.268069997047,39.2388930152309]},
+ "geometry":{"type":"Point","coordinates":[-121.26807,39.238893]},
  "properties":{"prmname":"SR_ENG",
  "description":"Englebright Lake",
  "type":"Surface Storage",

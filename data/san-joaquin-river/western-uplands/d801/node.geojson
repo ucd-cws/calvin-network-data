@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.621575414762,37.7794436100768]},
+ "geometry":{"type":"Point","coordinates":[-121.621575,37.779444]},
  "properties":{"prmname":"D801",
  "description":"California Aqueduct diversion to South Bay Aqueduct",
  "type":"Junction",

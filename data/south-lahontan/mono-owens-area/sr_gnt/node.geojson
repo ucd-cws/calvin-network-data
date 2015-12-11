@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.102980082243,37.8619282082867]},
+ "geometry":{"type":"Point","coordinates":[-119.10298,37.861928]},
  "properties":{"prmname":"SR_GNT",
  "description":"Grant Lake",
  "type":"Surface Storage",

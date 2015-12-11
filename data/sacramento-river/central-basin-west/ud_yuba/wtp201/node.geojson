@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.189093635369,39.2806503830685]},
- "properties":{"prmname":"WTP201",
- "description":"Water treatment node into Yuba",
- "type":"Water Treatment",
- "inflows":null,
- "sinks":null,
- "flow":null}}

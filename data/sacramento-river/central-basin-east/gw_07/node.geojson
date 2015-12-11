@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.394330757055,38.7745413618423]},
+ "geometry":{"type":"Point","coordinates":[-121.394331,38.774541]},
  "properties":{"prmname":"GW_07",
  "description":"Central Valley groundwater basin",
  "type":"Groundwater Storage",

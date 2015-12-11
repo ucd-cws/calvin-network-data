@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.155754295586,37.7593041654031]},
+ "geometry":{"type":"Point","coordinates":[-122.155753847159,37.7593040891674]},
  "properties":{"prmname":"IRES_EBMUD",
  "description":"EBMUD interior urban demand Parts of DAU 46 & 47",
  "type":"Urban Demand",

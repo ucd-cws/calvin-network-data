@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.620642112737,38.7824497973058]},
- "properties":{"prmname":"C80",
- "description":"Feather River diversions to CVPM 6",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}

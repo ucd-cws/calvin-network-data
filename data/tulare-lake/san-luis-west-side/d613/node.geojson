@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.425008663068,36.7462339165001]},
+ "geometry":{"type":"Point","coordinates":[-120.425009,36.746234]},
  "properties":{"prmname":"D613",
  "description":"CVPM 14 return",
  "type":"Junction",

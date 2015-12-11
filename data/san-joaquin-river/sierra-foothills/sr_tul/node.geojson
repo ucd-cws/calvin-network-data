@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.60582868637,37.8780285526138]},
+ "geometry":{"type":"Point","coordinates":[-120.605829,37.878029]},
  "properties":{"prmname":"SR_TUL",
  "description":"Tulloch Reservoir",
  "type":"Surface Storage",

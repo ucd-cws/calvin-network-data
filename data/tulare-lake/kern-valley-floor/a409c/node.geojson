@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.041082779666,35.1580453524624]},
+ "geometry":{"type":"Point","coordinates":[-119.041083,35.158045]},
  "properties":{"prmname":"A409C",
  "description":null,
  "type":"Junction",

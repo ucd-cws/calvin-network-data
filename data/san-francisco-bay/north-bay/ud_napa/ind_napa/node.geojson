@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.289476,38.3043944161113]},
- "properties":{"prmname":"IND_NAPA",
- "description":"Includes Napa & Solano Co. M&I surface water demand (DAU 191, 40 , 41).",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}

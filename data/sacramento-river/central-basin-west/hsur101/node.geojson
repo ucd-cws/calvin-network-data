@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.043941132239,39.2335424109242]},
+ "geometry":{"type":"Point","coordinates":[-122.08926,39.216786]},
  "properties":{"prmname":"HSUR101",
  "description":"Hidden diversion refuge node",
  "type":"Junction",

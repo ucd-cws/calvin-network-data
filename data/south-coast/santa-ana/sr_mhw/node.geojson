@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.460878953592,33.8330169944144]},
+ "geometry":{"type":"Point","coordinates":[-117.460879,33.833017]},
  "properties":{"prmname":"SR_MHW",
  "description":"Lake Mathews of MWDSC",
  "type":"Surface Storage",

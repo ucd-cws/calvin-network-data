@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.000981878015,37.6804372426509]},
+ "geometry":{"type":"Point","coordinates":[-122.000982,37.680437]},
  "properties":{"prmname":"HARSC",
  "description":"Return to GW-SC",
  "type":"Junction",

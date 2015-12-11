@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.30421535652,37.8116388413448]},
+ "geometry":{"type":"Point","coordinates":[-120.304215,37.811639]},
  "properties":{"prmname":"C88",
  "description":"Hetch Hetchy Aqueduct",
  "type":"Junction",

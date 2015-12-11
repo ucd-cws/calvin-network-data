@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.454737,34.1363059999999]},
+ "properties":{"prmname":"U506",
+ "description":"San Bernadino Valley IN",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":null,
+ "flow":{"$ref" : "flow.csv"}}}

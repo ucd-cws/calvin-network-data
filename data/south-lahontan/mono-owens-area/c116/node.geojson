@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.529765091909,37.4075853064356]},
+ "geometry":{"type":"Point","coordinates":[-118.529765,37.407585]},
  "properties":{"prmname":"C116",
  "description":"LAA System",
  "type":"Junction",

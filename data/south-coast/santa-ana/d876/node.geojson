@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.337743874103,34.137502415439]},
+ "geometry":{"type":"Point","coordinates":[-117.337744,34.137502]},
  "properties":{"prmname":"D876",
  "description":"East Branch SWP Node Represented in DWRSIM Network D122698",
  "type":"Junction",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.447132766683,35.4635034288354]},
+ "geometry":{"type":"Point","coordinates":[-119.447133,35.463503]},
  "properties":{"prmname":"HSU408BN10",
  "description":null,
  "type":"Junction",

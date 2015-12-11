@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.740230098233,34.9580977952702]},
+ "geometry":{"type":"Point","coordinates":[-116.74023,34.958098]},
  "properties":{"prmname":"GW_VC",
  "description":"Ventura County Groundwater",
  "type":"Groundwater Storage",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.3301023797,39.8078789707178]},
+ "geometry":{"type":"Point","coordinates":[-122.330102,39.807879]},
  "properties":{"prmname":"SR_BLB",
  "description":"Black Butte Lake",
  "type":"Surface Storage",

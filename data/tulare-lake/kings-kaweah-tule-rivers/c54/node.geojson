@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.180990939721,36.6529489385749]},
+ "geometry":{"type":"Point","coordinates":[-120.180991,36.652949]},
  "properties":{"prmname":"C54",
  "description":"Crescent Weir",
  "type":"Junction",

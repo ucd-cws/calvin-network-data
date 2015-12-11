@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.705978374486,37.0009495449673]},
+ "geometry":{"type":"Point","coordinates":[-119.705978,37.00095]},
  "properties":{"prmname":"SR_MIL",
  "description":"Millerton Lake",
  "type":"Surface Storage",

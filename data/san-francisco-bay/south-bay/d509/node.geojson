@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.861564811756,38.0621924947264]},
+ "geometry":{"type":"Point","coordinates":[-121.861565,38.062192]},
  "properties":{"prmname":"D509",
  "description":"Delta - ?",
  "type":"Junction",

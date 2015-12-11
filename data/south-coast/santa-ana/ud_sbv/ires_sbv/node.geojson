@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.445753847159,34.1325882183519]},
+ "properties":{"prmname":"IRes_SBV",
+ "description":"DAU 308 & part of 100 - Urban Demand for Interior Res/Comm",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

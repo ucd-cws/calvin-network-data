@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.198355007046,33.8628529024802]},
+ "geometry":{"type":"Point","coordinates":[-117.198355,33.862853]},
  "properties":{"prmname":"N3",
  "description":"Junction near Lake Perris",
  "type":"Junction",

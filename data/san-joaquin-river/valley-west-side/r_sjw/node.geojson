@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.042669348294,37.4557555699272]},
+ "geometry":{"type":"Point","coordinates":[-121.042669,37.455756]},
  "properties":{"prmname":"R_SJW",
  "description":"West of San Joaquin River Refuges",
  "type":"Non-Standard Demand",

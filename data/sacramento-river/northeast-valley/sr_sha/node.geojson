@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.418121907699,40.7168717113178]},
+ "geometry":{"type":"Point","coordinates":[-122.418122,40.716872]},
  "properties":{"prmname":"SR_SHA",
  "description":"Shasta Lake",
  "type":"Surface Storage",

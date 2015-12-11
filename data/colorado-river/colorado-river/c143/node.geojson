@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-114.472921466289,32.8762768142691]},
+ "geometry":{"type":"Point","coordinates":[-114.472921,32.876277]},
  "properties":{"prmname":"C143",
  "description":"Colorado River diversion to All American Canal",
  "type":"Junction",

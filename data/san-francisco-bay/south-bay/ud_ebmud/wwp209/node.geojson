@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.164737448427,37.755753084114]},
+ "geometry":{"type":"Point","coordinates":[-122.164737,37.7557530078746]},
  "properties":{"prmname":"WWP209",
  "description":"EBMUD OUT",
  "type":"Water Treatment",

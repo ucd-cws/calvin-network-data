@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.511891669423,38.2485603525163]},
+ "geometry":{"type":"Point","coordinates":[-121.511892,38.24856]},
  "properties":{"prmname":"D511",
  "description":"Sacramento River Diversion to Delta Cross Channel",
  "type":"Junction",

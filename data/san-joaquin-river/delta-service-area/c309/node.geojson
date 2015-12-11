@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.579144314833,37.8766279197723]},
+ "geometry":{"type":"Point","coordinates":[-121.579144,37.876628]},
  "properties":{"prmname":"C309",
  "description":"Old River diversion to Contra Costa Urban",
  "type":"Junction",

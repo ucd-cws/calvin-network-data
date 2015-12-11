@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.976154665091,39.6770172974374]},
+ "geometry":{"type":"Point","coordinates":[-121.976155,39.677017]},
  "properties":{"prmname":"D76b",
  "description":"Stony Creek inflow to Sacramento River",
  "type":"Junction",

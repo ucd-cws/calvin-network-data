@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.11200458163,33.7102072744818]},
+ "geometry":{"type":"Point","coordinates":[-117.112005,33.7102076421907]},
  "properties":{"prmname":"WWP509",
  "description":"E and W MWD OUT",
  "type":"Water Treatment",

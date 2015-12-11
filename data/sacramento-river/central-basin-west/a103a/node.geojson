@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.125698147213,39.3003548948035]},
+ "geometry":{"type":"Point","coordinates":[-122.086772,39.494262]},
  "properties":{"prmname":"A103A",
  "description":"CVPM 3 delivery",
  "type":"Junction",

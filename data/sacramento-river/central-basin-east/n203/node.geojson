@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.81413537594,39.2655381290382]},
+ "geometry":{"type":"Point","coordinates":[-121.850531,39.154077]},
  "properties":{"prmname":"N203",
  "description":"Sutter Bypass",
  "type":"Junction",

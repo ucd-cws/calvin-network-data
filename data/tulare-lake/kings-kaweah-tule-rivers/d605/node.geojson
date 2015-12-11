@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.160995753547,36.797947295329]},
+ "geometry":{"type":"Point","coordinates":[-120.160996,36.797947]},
  "properties":{"prmname":"D605",
  "description":"San Joaquin River depletion",
  "type":"Junction",

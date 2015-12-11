@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.325956531795,36.8329488722087]},
+ "geometry":{"type":"Point","coordinates":[-119.325957,36.832949]},
  "properties":{"prmname":"SR_PNF",
  "description":"Pine Flat Reservoir",
  "type":"Surface Storage",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.706982933996,38.1109377434561]},
+ "geometry":{"type":"Point","coordinates":[-121.706983,38.110938]},
  "properties":{"prmname":"D507",
  "description":"Sacramento River diversion to CVPM 9",
  "type":"Junction",

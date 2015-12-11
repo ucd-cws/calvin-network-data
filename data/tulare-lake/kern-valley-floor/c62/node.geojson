@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.247308700121,35.5600049541763]},
+ "geometry":{"type":"Point","coordinates":[-119.247309,35.560005]},
  "properties":{"prmname":"C62",
  "description":"Friant-Kern Canal delivery to CVPM-19",
  "type":"Junction",

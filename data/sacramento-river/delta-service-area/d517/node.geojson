@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.440062681683,38.2559146978965]},
+ "geometry":{"type":"Point","coordinates":[-121.440063,38.255915]},
  "properties":{"prmname":"D517",
  "description":"CVPM 8 return to Mokelumne River",
  "type":"Junction",

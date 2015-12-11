@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.09975765378,39.0998258296337]},
+ "geometry":{"type":"Point","coordinates":[-121.099758,39.099826]},
  "properties":{"prmname":"N201",
  "description":null,
  "type":"Junction",

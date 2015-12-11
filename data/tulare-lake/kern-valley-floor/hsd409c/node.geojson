@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.210336501772,35.3767182319425]},
+ "geometry":{"type":"Point","coordinates":[-119.210337,35.376718]},
  "properties":{"prmname":"HSD409C",
  "description":null,
  "type":"Junction",

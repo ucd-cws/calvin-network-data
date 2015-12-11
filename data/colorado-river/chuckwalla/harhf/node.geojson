@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-115.62741914136,33.6915722489315]},
+ "geometry":{"type":"Point","coordinates":[-115.627419,33.691572]},
  "properties":{"prmname":"HARHF",
  "description":"Hayfield recharge ponds",
  "type":"Junction",

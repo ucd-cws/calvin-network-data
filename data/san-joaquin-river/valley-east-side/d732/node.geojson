@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.361160489778,36.7882379472117]},
+ "geometry":{"type":"Point","coordinates":[-120.36116,36.788238]},
  "properties":{"prmname":"D732",
  "description":"San Joaquin River diversion to Refuge 2",
  "type":"Junction",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-114.156781267914,34.3170145260656]},
+ "geometry":{"type":"Point","coordinates":[-114.156781,34.317015]},
  "properties":{"prmname":"SR_CR1",
  "description":"First priority Colorado River 4.4 water for Policy 4a (661.43 taf/yr)",
  "type":"Surface Storage",

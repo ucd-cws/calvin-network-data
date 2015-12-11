@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.123075686885,37.7299293468668]},
+ "geometry":{"type":"Point","coordinates":[-122.123076,37.729929]},
  "properties":{"prmname":"SR_EBMUD",
  "description":"EBMUD aggregate",
  "type":"Surface Storage",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.862673986336,38.0895393500642]},
+ "geometry":{"type":"Point","coordinates":[-120.862674,38.0895390000001]},
  "properties":{"prmname":"C40",
  "description":"California Aqueductlaveras River",
  "type":"Junction",

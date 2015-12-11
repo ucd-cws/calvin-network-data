@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.525960616849,37.9502106945508]},
+ "geometry":{"type":"Point","coordinates":[-120.525961,37.950211]},
  "properties":{"prmname":"D670",
  "description":"Stanislaus River diversion",
  "type":"Junction",

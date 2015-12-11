@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.040140686352,37.1006164822141]},
+ "geometry":{"type":"Point","coordinates":[-121.040141,37.100616]},
  "properties":{"prmname":"D710",
  "description":"Delta Mendota Canal diversion to California Aqueduct",
  "type":"Junction",

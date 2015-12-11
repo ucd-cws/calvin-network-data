@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.023252561551,35.1653407025024]},
+ "geometry":{"type":"Point","coordinates":[-119.023253,35.165341]},
  "properties":{"prmname":"HU409B",
  "description":null,
  "type":"Junction",

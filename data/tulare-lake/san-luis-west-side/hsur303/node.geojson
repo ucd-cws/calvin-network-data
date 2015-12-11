@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.391923111641,36.7664277854424]},
+ "geometry":{"type":"Point","coordinates":[-120.391923,36.7664279999999]},
  "properties":{"prmname":"HSUR303",
  "description":"Hidden surface and groundwater diversion node for Mendota NWR",
  "type":"Junction",

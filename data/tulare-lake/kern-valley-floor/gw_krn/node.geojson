@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.306827793565,35.4109171503335]},
+ "geometry":{"type":"Point","coordinates":[-119.306828,35.410917]},
  "properties":{"prmname":"GW_KRN",
  "description":"Extra groundwater storage for SWP beyond the Tehachapi mountains - Kern-Delta, Arvin-Edison, & Semitropic Projects",
  "type":"Groundwater Storage",

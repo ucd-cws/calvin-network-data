@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.856406708036,33.0202714340815]},
+ "geometry":{"type":"Point","coordinates":[-116.856407,33.0202709999999]},
  "properties":{"prmname":"HGPSD",
  "description":null,
  "type":"Junction",

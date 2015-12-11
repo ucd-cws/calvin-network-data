@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.26211317038,35.2245666296084]},
+ "geometry":{"type":"Point","coordinates":[-119.262113,35.224567]},
  "properties":{"prmname":"SR_BVLB",
  "description":"Buena Vista Lake Bed",
  "type":"Surface Storage",

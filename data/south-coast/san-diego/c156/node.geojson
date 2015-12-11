@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.125257319613,33.4658157935639]},
+ "geometry":{"type":"Point","coordinates":[-117.125257,33.465816]},
  "properties":{"prmname":"C156",
  "description":"MWD San Diego Pipelines 1, 2, & 4 (treated water)",
  "type":"Junction",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.32403248044,34.3094562066762]},
+ "geometry":{"type":"Point","coordinates":[-117.324032,34.309456]},
  "properties":{"prmname":"PWP_Mojave",
  "description":"East Branch SWP Power Plant",
  "type":"Power Plant",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.203106257608,40.1528779453141]},
+ "geometry":{"type":"Point","coordinates":[-122.203106,40.1528779999999]},
  "properties":{"prmname":"D77",
  "description":"Red Bluff Diversion Dam",
  "type":"Junction",

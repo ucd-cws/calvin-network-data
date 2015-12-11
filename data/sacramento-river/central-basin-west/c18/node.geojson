@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.644246210512,38.515646385164]},
+ "geometry":{"type":"Point","coordinates":[-121.660726,38.638574]},
  "properties":{"prmname":"C18",
  "description":"CVPM 6 return to Yolo BP",
  "type":"Junction",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.922930774173,36.0609510219048]},
+ "geometry":{"type":"Point","coordinates":[-118.922931,36.060951]},
  "properties":{"prmname":"SR_SCC",
  "description":"Lake Success",
  "type":"Surface Storage",

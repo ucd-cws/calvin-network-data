@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.950493115751,36.4277206042151]},
+ "geometry":{"type":"Point","coordinates":[-117.950493,36.427721]},
  "properties":{"prmname":"SR_OL",
  "description":"Owens Lake",
  "type":"Surface Storage",

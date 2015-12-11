@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.52003215103,37.9559250137958]},
+ "geometry":{"type":"Point","coordinates":[-120.520032,37.955925]},
  "properties":{"prmname":"SR_NML",
  "description":"New Melones Reservoir",
  "type":"Surface Storage",

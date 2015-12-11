@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-114.943411505237,32.713952045423]},
+ "geometry":{"type":"Point","coordinates":[-114.943412,32.713952]},
  "properties":{"prmname":"C149",
  "description":"All American Canal diversion to Coachella Canal",
  "type":"Junction",

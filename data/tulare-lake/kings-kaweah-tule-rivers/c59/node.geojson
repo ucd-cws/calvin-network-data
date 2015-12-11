@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.825584928334,36.0517393406691]},
+ "geometry":{"type":"Point","coordinates":[-119.825585,36.051739]},
  "properties":{"prmname":"C59",
  "description":"Inflow to Tulare Lake",
  "type":"Junction",

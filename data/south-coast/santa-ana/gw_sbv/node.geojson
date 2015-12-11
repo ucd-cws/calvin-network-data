@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.460981629847,34.0812800838922]},
+ "geometry":{"type":"Point","coordinates":[-117.460982,34.08128]},
  "properties":{"prmname":"GW_SBV",
  "description":"SBV groundwater",
  "type":"Groundwater Storage",

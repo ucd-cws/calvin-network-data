@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.815047075154,38.1549199429767]},
+ "geometry":{"type":"Point","coordinates":[-120.815047,38.15492]},
  "properties":{"prmname":"SR_NHG",
  "description":"New Hogan Lake",
  "type":"Surface Storage",

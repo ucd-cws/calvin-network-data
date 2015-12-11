@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.235358957057,37.5995931676937]},
+ "geometry":{"type":"Point","coordinates":[-121.235359,37.599593]},
  "properties":{"prmname":"C30",
  "description":"Delta Mendota Canal delivery to CVPM-10",
  "type":"Junction",

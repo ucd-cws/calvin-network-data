@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.318066857248,39.0498950367921]},
+ "geometry":{"type":"Point","coordinates":[-121.318067,39.049895]},
  "properties":{"prmname":"SR_CFW",
  "description":"Camp Far West Reservoir",
  "type":"Surface Storage",

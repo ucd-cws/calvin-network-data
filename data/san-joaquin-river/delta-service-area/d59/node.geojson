@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.552948076786,37.8314999102717]},
+ "geometry":{"type":"Point","coordinates":[-121.552948,37.8315]},
  "properties":{"prmname":"D59",
  "description":"Old River diversion to California Aqueduct Aqueduct",
  "type":"Junction",

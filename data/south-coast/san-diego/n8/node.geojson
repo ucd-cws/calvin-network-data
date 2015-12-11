@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.654022339866,33.0562684285393]},
+ "geometry":{"type":"Point","coordinates":[-116.654022,33.056268]},
  "properties":{"prmname":"N8",
  "description":"T30 San Diego IN",
  "type":"Junction",

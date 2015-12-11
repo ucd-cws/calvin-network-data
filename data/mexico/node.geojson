@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-114.724307468613,32.713868597612]},
+ "geometry":{"type":"Point","coordinates":[-114.724307,32.713869]},
  "properties":{"prmname":"Mexico",
  "description":"Colorado River excess",
  "type":"Urban Demand",

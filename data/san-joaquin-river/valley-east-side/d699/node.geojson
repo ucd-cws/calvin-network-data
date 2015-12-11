@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.093912550484,37.5142117698965]},
+ "geometry":{"type":"Point","coordinates":[-121.093913,37.514212]},
  "properties":{"prmname":"D699",
  "description":"San Joaquin River diversion to CVPM10",
  "type":"Junction",

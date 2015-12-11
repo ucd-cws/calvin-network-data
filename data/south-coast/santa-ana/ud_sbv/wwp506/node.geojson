@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.454737,34.1288702731662]},
+ "properties":{"prmname":"WWP506",
+ "description":"San Bernadino VWD OUT",
+ "type":"Water Treatment",
+ "inflows":null,
+ "sinks":[{"default" : {"description" : "SW Discharge to ocean via local streams", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
+ "flow":{"$ref" : "flow.csv"}}}

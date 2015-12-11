@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.333210822641,39.8150944111687]},
+ "geometry":{"type":"Point","coordinates":[-122.008773,39.71085]},
  "properties":{"prmname":"C12",
  "description":"Stony Creek diversion to CVPM 3",
  "type":"Junction",

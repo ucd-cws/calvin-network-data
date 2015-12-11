@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.253911298023,36.1392632577242]},
+ "geometry":{"type":"Point","coordinates":[-119.253911,36.139263]},
  "properties":{"prmname":"HSR402",
  "description":"Hidden surface water node for Pixley Refuge",
  "type":"Junction",

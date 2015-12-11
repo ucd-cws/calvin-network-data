@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.071442906084,33.6828438166867]},
+ "geometry":{"type":"Point","coordinates":[-117.070134,33.682148]},
  "properties":{"prmname":"PMP_Wads",
  "description":"MWD Eastside Reservoir (Diamond Valley Lake) Pumping Plant",
  "type":"Pump Plant",

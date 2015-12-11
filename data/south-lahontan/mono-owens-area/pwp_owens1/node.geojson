@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.558495783781,37.4389377744209]},
+ "geometry":{"type":"Point","coordinates":[-118.558496,37.438938]},
  "properties":{"prmname":"PWP_Owens1",
  "description":"LAA System Power Plant",
  "type":"Power Plant",

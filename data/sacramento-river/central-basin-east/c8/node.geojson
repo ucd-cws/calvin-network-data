@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.50506664477,38.5889050089165]},
+ "geometry":{"type":"Point","coordinates":[-121.508672,38.598297]},
  "properties":{"prmname":"C8",
  "description":"American River inflow to Sacramento River",
  "type":"Junction",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.963015437361,37.8939238085438]},
+ "geometry":{"type":"Point","coordinates":[-119.963015,37.893924]},
  "properties":{"prmname":"SR_LL_ENR",
  "description":"Lake Lloyd/Lake Eleanor",
  "type":"Surface Storage",

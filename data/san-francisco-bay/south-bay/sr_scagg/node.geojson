@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.546908746377,37.1214914153249]},
+ "geometry":{"type":"Point","coordinates":[-121.546909,37.121491]},
  "properties":{"prmname":"SR_SCAGG",
  "description":"Santa Clara Aggregate",
  "type":"Surface Storage",

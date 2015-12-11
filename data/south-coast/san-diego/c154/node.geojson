@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.119708741967,33.5852763100808]},
+ "geometry":{"type":"Point","coordinates":[-117.080484,33.582058]},
  "properties":{"prmname":"C154",
  "description":"MWD E&W supply junction node",
  "type":"Junction",

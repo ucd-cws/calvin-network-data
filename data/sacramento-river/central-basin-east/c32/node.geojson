@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.605072484411,38.8908976670866]},
+ "geometry":{"type":"Point","coordinates":[-121.605072,38.890898]},
  "properties":{"prmname":"C32",
  "description":"Feather River Diversion to CVPM5",
  "type":"Junction",

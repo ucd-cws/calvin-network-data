@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.311127235297,36.6361775561382]},
+ "geometry":{"type":"Point","coordinates":[-119.311127,36.6397821400699]},
  "properties":{"prmname":"A403",
  "description":"CVPM 17 farm gate",
  "type":"Junction",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.252511670125,36.3604155444495]},
+ "geometry":{"type":"Point","coordinates":[-120.252512,36.360416]},
  "properties":{"prmname":"D749",
  "description":"California Aqueduct losses R6",
  "type":"Junction",

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.005747685832,38.4947384666054]},
+ "geometry":{"type":"Point","coordinates":[-122.005748,38.494738]},
  "properties":{"prmname":"C19",
  "description":"Putah CRiver Diversion To Putah S. California Aqueductnal",
  "type":"Junction",

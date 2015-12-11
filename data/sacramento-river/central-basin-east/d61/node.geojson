@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.722295884822,38.8044809472279]},
- "properties":{"prmname":"D61",
- "description":"CVPM 4 return to Sacramento River",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

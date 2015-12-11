@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.5478026024,39.527825094013]},
+ "geometry":{"type":"Point","coordinates":[-121.547803,39.527825]},
  "properties":{"prmname":"C23",
  "description":"Feather River Diversion to Therm. FB",
  "type":"Junction",

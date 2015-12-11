@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.727063913762,37.8379259233781]},
+ "geometry":{"type":"Point","coordinates":[-121.727064,37.837926]},
  "properties":{"prmname":"SR_LVQ",
  "description":"Los Vaqueros Reservoir",
  "type":"Surface Storage",

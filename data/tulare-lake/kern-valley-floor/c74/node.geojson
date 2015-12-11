@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.117233380461,35.3596264778834]},
+ "geometry":{"type":"Point","coordinates":[-119.117233,35.359626]},
  "properties":{"prmname":"C74",
  "description":"Cross Valley Canal delivery to CVPM-21",
  "type":"Junction",

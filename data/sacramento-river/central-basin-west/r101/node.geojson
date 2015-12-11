@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.037466229964,39.2767162043118]},
+ "geometry":{"type":"Point","coordinates":[-122.096861,39.266085]},
  "properties":{"prmname":"R101",
  "description":"SW and GW aggretation node for West of Sac River Refuges",
  "type":"Junction",

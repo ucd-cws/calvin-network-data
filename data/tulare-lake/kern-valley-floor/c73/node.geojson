@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.212830377025,35.3254822477501]},
+ "geometry":{"type":"Point","coordinates":[-119.21283,35.325482]},
  "properties":{"prmname":"C73",
  "description":"CVPM-19,20,21 surface return flow",
  "type":"Junction",

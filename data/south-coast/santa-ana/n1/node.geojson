@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.209000563567,34.0323639522811]},
+ "geometry":{"type":"Point","coordinates":[-117.209001,34.032364]},
  "properties":{"prmname":"N1",
  "description":"Junction node for SBMWD foothill feeder intertie",
  "type":"Junction",

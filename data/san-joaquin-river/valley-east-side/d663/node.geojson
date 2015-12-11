@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.463028974626,37.6669321206054]},
+ "geometry":{"type":"Point","coordinates":[-120.463029,37.6669319999999]},
  "properties":{"prmname":"D663",
  "description":"Tuolumne River accretion",
  "type":"Junction",

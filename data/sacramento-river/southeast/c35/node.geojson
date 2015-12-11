@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.954054298963,39.1328961882442]},
+ "geometry":{"type":"Point","coordinates":[-120.954054,39.132896]},
  "properties":{"prmname":"C35",
  "description":"Bear River upstream of CFW Reservoir",
  "type":"Junction",

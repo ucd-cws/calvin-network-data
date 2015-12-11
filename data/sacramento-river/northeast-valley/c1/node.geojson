@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.198068496186,40.1534072755201]},
- "properties":{"prmname":"C1",
- "description":"Sacramento River Diversion To CVPM 2",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

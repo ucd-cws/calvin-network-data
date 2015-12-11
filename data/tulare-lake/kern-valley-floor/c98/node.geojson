@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.877963222303,35.0472467452297]},
+ "geometry":{"type":"Point","coordinates":[-118.877963,35.047247]},
  "properties":{"prmname":"C98",
  "description":"SWP deliveries to CVPM 21",
  "type":"Junction",

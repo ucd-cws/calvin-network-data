@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.633716177837,39.2144011404343]},
+ "geometry":{"type":"Point","coordinates":[-121.625814,39.32736]},
  "properties":{"prmname":"HSR201",
  "description":"Hidden surface water node for Gray Lodge Refuge",
  "type":"Junction",

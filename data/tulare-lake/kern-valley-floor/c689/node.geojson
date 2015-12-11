@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.091922146909,35.3892075676441]},
+ "geometry":{"type":"Point","coordinates":[-119.091922,35.3892080000001]},
  "properties":{"prmname":"C689",
  "description":"Friant-Kern Canal terminal structure",
  "type":"Junction",

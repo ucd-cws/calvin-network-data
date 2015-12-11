@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.046669019684,33.715050468208]},
+ "geometry":{"type":"Point","coordinates":[-117.046669,33.71505]},
  "properties":{"prmname":"C138",
  "description":"Colorado River Aqueduct",
  "type":"Junction",

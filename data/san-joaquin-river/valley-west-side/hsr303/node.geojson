@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.605616,36.978471]},
+ "geometry":{"type":"Point","coordinates":[-120.615057,36.96846]},
  "properties":{"prmname":"HSR303",
  "description":"Hidden surface water node for Mendota Refuge",
  "type":"Junction",

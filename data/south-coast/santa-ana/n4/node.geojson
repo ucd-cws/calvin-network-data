@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.03135,33.79238]},
+ "geometry":{"type":"Point","coordinates":[-116.964058,33.771835]},
  "properties":{"prmname":"N4",
  "description":"Inland feeder junction",
  "type":"Junction",

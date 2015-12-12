@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.125598,34.686886]},
+ "geometry":{"type":"Point","coordinates":[-117.516995,34.7309139999999]},
  "properties":{"prmname":"GW_MJ",
  "description":"Mojave River Valley Groundwater",
  "type":"Groundwater Storage",

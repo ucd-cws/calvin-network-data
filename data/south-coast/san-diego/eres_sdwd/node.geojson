@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.825618,33.059122]},
+ "geometry":{"type":"Point","coordinates":[-117.002086,32.871316]},
  "properties":{"prmname":"ERes_SDWD",
  "description":"DAU 120, & 350-352 Exterior Residential/landscape demand",
  "type":"Urban Demand",

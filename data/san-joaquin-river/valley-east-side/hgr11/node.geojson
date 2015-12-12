@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.953699,37.731882]},
+ "geometry":{"type":"Point","coordinates":[-120.972925,37.724686]},
  "properties":{"prmname":"HGR11",
  "description":"Hidden node for calibration of GW-11",
  "type":"Junction",

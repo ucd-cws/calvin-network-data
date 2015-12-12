@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-115.066274,32.759523]},
+ "properties":{"prmname":"PWP_AAC",
+ "description":"Imperial System Power Plant",
+ "type":"Power Plant",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

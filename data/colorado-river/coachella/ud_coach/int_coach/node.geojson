@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.222641423579,33.7290855613663]},
+ "geometry":{"type":"Point","coordinates":[-116.231053423579,33.7112377846323]},
  "properties":{"prmname":"INT_COACH",
  "description":"DAU 348, 349 Ind/Interior Res/Comm Demand",
  "type":"Urban Demand",

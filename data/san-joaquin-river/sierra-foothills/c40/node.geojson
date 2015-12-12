@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.862674,38.0895390000001]},
- "properties":{"prmname":"C40",
- "description":"California Aqueductlaveras River",
- "type":"Junction",
- "inflows":{"default":{"description":"Little Johns Creek Inflow","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":null}}

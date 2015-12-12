@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.604036,37.8749270000001]},
- "properties":{"prmname":"D16",
- "description":"Stanislaus River diversion to CVPM11",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.462256,36.545205]},
+ "geometry":{"type":"Point","coordinates":[-119.483543,36.643886]},
  "properties":{"prmname":"HAR17",
  "description":"Artificial recharge node for subregion 17",
  "type":"Junction",

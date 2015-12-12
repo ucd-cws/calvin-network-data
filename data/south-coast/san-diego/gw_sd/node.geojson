@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.941499,32.861506]},
+ "geometry":{"type":"Point","coordinates":[-117.034194,32.791114]},
  "properties":{"prmname":"GW_SD",
  "description":"San Diego groundwater",
  "type":"Groundwater Storage",

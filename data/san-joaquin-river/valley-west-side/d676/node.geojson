@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.241992,37.663806]},
+ "geometry":{"type":"Point","coordinates":[-121.240619,37.665165]},
  "properties":{"prmname":"D676",
  "description":"Stan River inflow to San Joaquin River",
  "type":"Junction",

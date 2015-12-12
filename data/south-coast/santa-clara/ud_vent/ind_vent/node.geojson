@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.234237,34.4455040383006]},
+ "geometry":{"type":"Point","coordinates":[-119.14291,34.1329132326487]},
  "properties":{"prmname":"IND_VENT",
  "description":"Fixed SWP Imports to VCFCWCD",
  "type":"Urban Demand",

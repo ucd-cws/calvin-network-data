@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.996976,38.215747]},
+ "geometry":{"type":"Point","coordinates":[-121.070447,38.4220850000001]},
  "properties":{"prmname":"U207",
  "description":"Water treatment node for all of CVPM 8, representing Galt",
  "type":"Junction",

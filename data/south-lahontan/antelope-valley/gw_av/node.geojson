@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.095503,34.804435]},
+ "geometry":{"type":"Point","coordinates":[-118.250676,34.8777040000001]},
  "properties":{"prmname":"GW_AV",
  "description":"Antelope Valley Groundwater",
  "type":"Groundwater Storage",

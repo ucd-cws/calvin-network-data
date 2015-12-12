@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.151869,35.565504]},
+ "geometry":{"type":"Point","coordinates":[-119.292631,35.771065]},
  "properties":{"prmname":"HGR20",
  "description":"Return flow from urban CVPM20 to GW",
  "type":"Junction",

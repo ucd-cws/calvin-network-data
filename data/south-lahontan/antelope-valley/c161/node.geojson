@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.420343,34.7057820000001]},
+ "geometry":{"type":"Point","coordinates":[-118.060554,34.434379]},
  "properties":{"prmname":"C161",
  "description":"MWD Central supply junction node",
  "type":"Junction",

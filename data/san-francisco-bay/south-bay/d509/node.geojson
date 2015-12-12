@@ -1,9 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.861565,38.062192]},
- "properties":{"prmname":"D509",
- "description":"Delta - ?",
- "type":"Junction",
- "inflows":{"default":{"description":"Marsh Creek Inflows","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":[{"default" : {"description" : "Only for climate change studies, for historical case all flows are zero.", "costs" : {"type":"Constant",
- "cost":0}, "bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
- "flow":{"$ref" : "flow.csv"}}}

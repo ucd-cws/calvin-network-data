@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.29281,36.1224109999999]},
+ "geometry":{"type":"Point","coordinates":[-119.216592,36.150415]},
  "properties":{"prmname":"HGR18",
  "description":"Node for RF from urban CVPM18",
  "type":"Junction",

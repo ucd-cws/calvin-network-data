@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-115.499639,32.881387]},
+ "geometry":{"type":"Point","coordinates":[-115.499983,32.900703]},
  "properties":{"prmname":"GW_IM",
  "description":"Imperial Valley Groundwater",
  "type":"Groundwater Storage",

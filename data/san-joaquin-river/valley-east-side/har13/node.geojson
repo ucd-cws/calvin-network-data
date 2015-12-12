@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.399008,37.393036]},
+ "geometry":{"type":"Point","coordinates":[-120.098262,37.140577]},
  "properties":{"prmname":"HAR13",
  "description":"Artificial Recharge to subregion 13 from Chowchilla R riparian ",
  "type":"Junction",

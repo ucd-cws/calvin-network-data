@@ -1,8 +1,0 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.635043,37.862632]},
- "properties":{"prmname":"D653a",
- "description":"Stanislaus River (accretion moved MJ)",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}

@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.234237,34.4417999123613]},
+ "geometry":{"type":"Point","coordinates":[-119.14291,34.1291953017592]},
  "properties":{"prmname":"WWP501",
  "description":"Wastewater treatment node for Ventura Co.",
  "type":"Water Treatment",

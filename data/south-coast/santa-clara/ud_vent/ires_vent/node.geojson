@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.225253847159,34.4455040383006]},
+ "geometry":{"type":"Point","coordinates":[-119.133926847159,34.1329132326487]},
  "properties":{"prmname":"IRES_VENT",
  "description":"DAU 81 - Interior residential/commercial use",
  "type":"Urban Demand",

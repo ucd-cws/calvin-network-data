@@ -1,0 +1,8 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.097766423579,36.2003045740989]},
+ "properties":{"prmname":"INT_CVPM14",
+ "description":"100% of DAU 244 & 245, interior",
+ "type":"Urban Demand",
+ "inflows":null,
+ "sinks":null,
+ "flow":null}}

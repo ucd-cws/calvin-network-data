@@ -4,5 +4,6 @@
  "description":"Trinity River release to Clear Creek",
  "type":"Junction",
  "inflows":{"default":{"description":"LEWISTON LAKE INFLOW","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
+ "sinks":[{"default" : {"description" : "Trinity River model outflow - minimum instream flow requirement", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"LBT","bound": {"$ref":"./sinks/default/LBT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

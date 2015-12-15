@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D647-D649",
+ "description":"Merced River Reach",
+ "type":"Diversion",
+ "origin":"D647",
+ "terminus":"D649",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "flow":{"$ref" : "flow.csv"}}}

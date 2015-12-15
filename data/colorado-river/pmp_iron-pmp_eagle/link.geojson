@@ -9,5 +9,4 @@
  "costs":{"type":"Constant",
  "cost":10.4784002304077},
  "bounds":[{"type":"NOB"}],
- "sinks":null,
  "flow":null}}

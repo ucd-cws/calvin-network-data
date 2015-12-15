@@ -1,8 +1,9 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.562354,36.852847]},
+ "geometry":{"type":"Point","coordinates":[-119.564242,36.851027]},
  "properties":{"prmname":"C49",
  "description":"Friant-Kern California Aqueductnal delivery to CVPM-16 and City of Fresno",
  "type":"Junction",
  "inflows":null,
- "sinks":null,
+ "sinks":[{"default" : {"description" : "Friant-Kern Canal Losses", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

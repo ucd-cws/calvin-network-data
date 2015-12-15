@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D885-PWP_Warne",
+ "description":"SWP West Branch (unconstrained)",
+ "type":"Diversion",
+ "origin":"D885",
+ "terminus":"PWP_Warne",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "flow":null}}

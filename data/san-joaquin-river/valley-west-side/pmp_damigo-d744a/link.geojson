@@ -1,0 +1,11 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"PMP_DAmigo-D744a",
+ "description":"California Aqueduct Pumping Plant",
+ "type":"Diversion",
+ "origin":"PMP_DAmigo",
+ "terminus":"D744a",
+ "amplitude":1,
+ "costs":null,
+ "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
+ "flow":null}}

@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D743-D743a",
+ "description":null,
+ "type":"Diversion",
+ "origin":"D743",
+ "terminus":"D743a",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "flow":null}}

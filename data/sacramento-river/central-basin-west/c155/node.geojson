@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.045004,38.5095340000001]},
+ "properties":{"prmname":"C155",
+ "description":"Putah Creek Consumptive Use",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":[{"default" : {"description" : "DA 24 local demand - constrained delivery no value function", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
+ "flow":{"$ref" : "flow.csv"}}}

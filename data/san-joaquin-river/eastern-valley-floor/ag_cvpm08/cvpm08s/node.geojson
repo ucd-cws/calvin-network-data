@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.174711423579,38.1921109668452]},
+ "geometry":{"type":"Point","coordinates":[-121.174711423579,38.1956411379628]},
  "properties":{"prmname":"CVPM08S",
  "description":"junction node for CVPM 8",
  "type":"Agricultural Demand",

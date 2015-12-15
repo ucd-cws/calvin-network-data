@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.229758,34.800708]},
+ "geometry":{"type":"Point","coordinates":[-118.229758,34.804396]},
  "properties":{"prmname":"HU502",
  "description":"Hidden node for Antelope Valley ag supplied by SW",
  "type":"Junction",

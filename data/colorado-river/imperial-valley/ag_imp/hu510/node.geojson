@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-115.449747,32.852639]},
+ "geometry":{"type":"Point","coordinates":[-115.449747,32.856412]},
  "properties":{"prmname":"HU510",
  "description":"Hidden node for Imperial Ag",
  "type":"Junction",

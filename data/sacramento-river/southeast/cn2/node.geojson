@@ -1,5 +1,5 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.099758,39.099826]},
+ "geometry":{"type":"Point","coordinates":[-121.133403,39.037451]},
  "properties":{"prmname":"CN2",
  "description":"Calibration flow node for Region 2",
  "type":"Junction",

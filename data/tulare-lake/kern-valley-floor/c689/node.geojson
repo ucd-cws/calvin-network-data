@@ -1,8 +1,9 @@
 {"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.091922,35.3892080000001]},
+ "geometry":{"type":"Point","coordinates":[-119.089519,35.389768]},
  "properties":{"prmname":"C689",
  "description":"Friant-Kern Canal terminal structure",
  "type":"Junction",
  "inflows":null,
- "sinks":null,
+ "sinks":[{"default" : {"description" : "Friant-Kern Canal Losses", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
  "flow":{"$ref" : "flow.csv"}}}

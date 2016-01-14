@@ -6,6 +6,7 @@
  "initialstorage":2500,
  "endingstorage":2500,
  "inflows":{"default":{"description":"Local inflows to GW","inflow":{"$ref" : "inflows/default.csv"}}},
+ "storage":{"$ref" : "storage.csv"},
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"UBC","bound":11620}],

@@ -6,6 +6,7 @@
  "initialstorage":3500,
  "endingstorage":3500,
  "inflows":{"default":{"description":"Coachella_Valley","inflow":{"$ref" : "inflows/default.csv"}}},
+ "storage":{"$ref" : "storage.csv"},
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"UBC","bound":4000}],

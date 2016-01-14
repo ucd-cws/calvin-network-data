@@ -6,6 +6,7 @@
  "initialstorage":0,
  "endingstorage":0,
  "inflows":null,
+ "storage":null,
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"UBC","bound":950}],

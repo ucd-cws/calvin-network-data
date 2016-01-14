@@ -6,6 +6,7 @@
  "initialstorage":137073,
  "endingstorage":125136,
  "inflows":{"default":{"description":"Groundwater inflow GW-20 C2VSIM Historical Run356","inflow":{"$ref" : "inflows/default.csv"}}},
+ "storage":{"$ref" : "storage.csv"},
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"NOB"}],

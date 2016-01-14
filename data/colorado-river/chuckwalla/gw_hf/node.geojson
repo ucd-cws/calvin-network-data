@@ -6,6 +6,7 @@
  "initialstorage":250,
  "endingstorage":250,
  "inflows":null,
+ "storage":{"$ref" : "storage.csv"},
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"UBC","bound":500}],

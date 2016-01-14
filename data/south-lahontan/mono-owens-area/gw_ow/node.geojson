@@ -6,6 +6,7 @@
  "initialstorage":30000,
  "endingstorage":30000,
  "inflows":{"default":{"description":"Owens_Valley","inflow":{"$ref" : "inflows/default.csv"}}},
+ "storage":{"$ref" : "storage.csv"},
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"NOB"}],

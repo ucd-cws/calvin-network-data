@@ -6,6 +6,7 @@
  "initialstorage":2580,
  "endingstorage":2580,
  "inflows":{"default":{"description":"Mojave_River_Valley","inflow":{"$ref" : "inflows/default.csv"}}},
+ "storage":{"$ref" : "storage.csv"},
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"UBC","bound":4370}],

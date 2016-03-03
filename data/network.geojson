@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "$ref": "c103-d865/link.geojson"
+      "$ref": "c103-d865/foo.geojson"
     },
     {
       "$ref": "c107-c39/link.geojson"

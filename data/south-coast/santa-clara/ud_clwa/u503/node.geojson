@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.548228,34.436647]},
- "properties":{"prmname":"U503",
- "description":"Castaic Lake Water Delivery",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.548228,
+      34.436647
+    ]
+  },
+  "properties": {
+    "prmname": "U503",
+    "description": "Castaic Lake Water Delivery",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

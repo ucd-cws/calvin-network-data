@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.08926,39.216786]},
- "properties":{"prmname":"HSUR101",
- "description":"Hidden diversion refuge node",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.08926,
+      39.216786
+    ]
+  },
+  "properties": {
+    "prmname": "HSUR101",
+    "description": "Hidden diversion refuge node",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

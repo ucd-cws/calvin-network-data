@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.921118576421,38.3326557509214]},
- "properties":{"prmname":"HNP205",
- "description":null,
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.921118576421,
+      38.3326557509214
+    ]
+  },
+  "properties": {
+    "prmname": "HNP205",
+    "description": null,
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

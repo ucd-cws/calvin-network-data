@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.64041,37.9763099999999]},
- "properties":{"prmname":"PMP_CC1",
- "description":"Contra Costa 1 Pumping Plant",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.64041,
+      37.9763099999999
+    ]
+  },
+  "properties": {
+    "prmname": "PMP_CC1",
+    "description": "Contra Costa 1 Pumping Plant",
+    "type": "Pump Plant",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

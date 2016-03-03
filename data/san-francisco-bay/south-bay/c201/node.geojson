@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.082908,37.91867]},
- "properties":{"prmname":"C201",
- "description":"Mokelumne River Aqueduct",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.082908,
+      37.91867
+    ]
+  },
+  "properties": {
+    "prmname": "C201",
+    "description": "Mokelumne River Aqueduct",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.521101,37.96658]},
- "properties":{"prmname":"HGP09",
- "description":"Hidden node for calibration of GW-9",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.521101,
+      37.96658
+    ]
+  },
+  "properties": {
+    "prmname": "HGP09",
+    "description": "Hidden node for calibration of GW-9",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

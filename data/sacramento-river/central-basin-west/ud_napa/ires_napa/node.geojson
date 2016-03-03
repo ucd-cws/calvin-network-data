@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.907643847159,38.3361789611168]},
- "properties":{"prmname":"IRES_NAPA",
- "description":"Interior urban includes Napa & Solano Co. M&I surface water demand (DAU 191, 40 , 41).",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.907643847159,
+      38.3361789611168
+    ]
+  },
+  "properties": {
+    "prmname": "IRES_NAPA",
+    "description": "Interior urban includes Napa & Solano Co. M&I surface water demand (DAU 191, 40 , 41).",
+    "type": "Urban Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

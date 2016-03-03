@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.312498,34.007252]},
- "properties":{"prmname":"C131",
- "description":"East Branch SWP Santa Ana Pipeline diversion to SBV Urban",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.312498,
+      34.007252
+    ]
+  },
+  "properties": {
+    "prmname": "C131",
+    "description": "East Branch SWP Santa Ana Pipeline diversion to SBV Urban",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.312786847159,36.6065227729052]},
- "properties":{"prmname":"HSU403C76",
- "description":"Hidden node on surface water conveyance channel",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.312786847159,
+      36.6065227729052
+    ]
+  },
+  "properties": {
+    "prmname": "HSU403C76",
+    "description": "Hidden node on surface water conveyance channel",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

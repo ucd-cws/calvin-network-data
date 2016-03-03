@@ -1,8 +1,27 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.077985,40.051256]},
- "properties":{"prmname":"C86",
- "description":null,
- "type":"Junction",
- "inflows":{"default":{"description":"DA5 outflow - Thomes and Elder Creeks","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.077985,
+      40.051256
+    ]
+  },
+  "properties": {
+    "prmname": "C86",
+    "description": null,
+    "type": "Junction",
+    "inflows": {
+      "default": {
+        "description": "DA5 outflow - Thomes and Elder Creeks",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

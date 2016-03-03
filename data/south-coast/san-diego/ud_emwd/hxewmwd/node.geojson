@@ -1,8 +1,27 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.701517576421,33.5282709011569]},
- "properties":{"prmname":"HXEWMWD",
- "description":"Hidden node for year type variation in demand, e&w mwd",
- "type":"Junction",
- "inflows":{"default":{"description":"Year type variation in demand for E&W MWD exterior","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.701517576421,
+      33.5282709011569
+    ]
+  },
+  "properties": {
+    "prmname": "HXEWMWD",
+    "description": "Hidden node for year type variation in demand, e&w mwd",
+    "type": "Junction",
+    "inflows": {
+      "default": {
+        "description": "Year type variation in demand for E&W MWD exterior",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

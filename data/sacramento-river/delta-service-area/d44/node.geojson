@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.516054,38.436683]},
- "properties":{"prmname":"D44",
- "description":"Sacramento Urban return to Sacramento River",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.516054,
+      38.436683
+    ]
+  },
+  "properties": {
+    "prmname": "D44",
+    "description": "Sacramento Urban return to Sacramento River",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-115.121056,32.705015]},
- "properties":{"prmname":"C151",
- "description":"All Amercian Canal diversion to artificial recharge for GW-IM",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -115.121056,
+      32.705015
+    ]
+  },
+  "properties": {
+    "prmname": "C151",
+    "description": "All Amercian Canal diversion to artificial recharge for GW-IM",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

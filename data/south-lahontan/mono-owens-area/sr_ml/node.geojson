@@ -1,17 +1,42 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.136983,37.978925]},
- "properties":{"prmname":"SR_ML",
- "description":"Mono Lake",
- "type":"Surface Storage",
- "initialstorage":2939.541015625,
- "endingstorage":2939.541015625,
- "areacapfactor":0.0140000004321337,
- "inflows":null,
- "evaporation":{"$ref" : "evaporation.csv"},
- "el_ar_cap":null,
- "storage":{"$ref" : "storage.csv"},
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"LBM","bound": {"$ref":"./LBM.csv"}}],
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.136983,
+      37.978925
+    ]
+  },
+  "properties": {
+    "prmname": "SR_ML",
+    "description": "Mono Lake",
+    "type": "Surface Storage",
+    "initialstorage": 2939.541015625,
+    "endingstorage": 2939.541015625,
+    "areacapfactor": 0.0140000004321337,
+    "inflows": null,
+    "evaporation": {
+      "$ref": "evaporation.csv"
+    },
+    "el_ar_cap": null,
+    "storage": {
+      "$ref": "storage.csv"
+    },
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "bounds": [
+      {
+        "type": "LBM",
+        "bound": {
+          "$ref": "./LBM.csv"
+        }
+      }
+    ],
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

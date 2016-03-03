@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.001504635369,35.377376138719]},
- "properties":{"prmname":"WTP410",
- "description":null,
- "type":"Water Treatment",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.001504635369,
+      35.377376138719
+    ]
+  },
+  "properties": {
+    "prmname": "WTP410",
+    "description": null,
+    "type": "Water Treatment",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

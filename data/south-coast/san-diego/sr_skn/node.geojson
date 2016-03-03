@@ -1,16 +1,41 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.071451,33.583383]},
- "properties":{"prmname":"SR_SKN",
- "description":"Lake Skinner input because of its separation of nodes and wq importance",
- "type":"Surface Storage",
- "initialstorage":33.7999992370605,
- "endingstorage":33.7999992370605,
- "areacapfactor":0.0278999991714954,
- "inflows":null,
- "evaporation":{"$ref" : "evaporation.csv"},
- "el_ar_cap":null,
- "storage":{"$ref" : "storage.csv"},
- "costs":null,
- "bounds":[{"type":"LBC","bound":33.7999992370605},{"type":"UBC","bound":44}],
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.071451,
+      33.583383
+    ]
+  },
+  "properties": {
+    "prmname": "SR_SKN",
+    "description": "Lake Skinner input because of its separation of nodes and wq importance",
+    "type": "Surface Storage",
+    "initialstorage": 33.7999992370605,
+    "endingstorage": 33.7999992370605,
+    "areacapfactor": 0.0278999991714954,
+    "inflows": null,
+    "evaporation": {
+      "$ref": "evaporation.csv"
+    },
+    "el_ar_cap": null,
+    "storage": {
+      "$ref": "storage.csv"
+    },
+    "costs": null,
+    "bounds": [
+      {
+        "type": "LBC",
+        "bound": 33.7999992370605
+      },
+      {
+        "type": "UBC",
+        "bound": 44
+      }
+    ],
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

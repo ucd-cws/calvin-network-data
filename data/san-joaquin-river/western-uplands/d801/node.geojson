@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.621575,37.779444]},
- "properties":{"prmname":"D801",
- "description":"California Aqueduct diversion to South Bay Aqueduct",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.621575,
+      37.779444
+    ]
+  },
+  "properties": {
+    "prmname": "D801",
+    "description": "California Aqueduct diversion to South Bay Aqueduct",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

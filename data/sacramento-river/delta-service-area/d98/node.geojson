@@ -1,8 +1,27 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.440063,38.255915]},
- "properties":{"prmname":"D98",
- "description":"Mokelumne River Diversion To CVPM 8",
- "type":"Junction",
- "inflows":{"default":{"description":"Only for climate change studies, for historical case all flows are zero.","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.440063,
+      38.255915
+    ]
+  },
+  "properties": {
+    "prmname": "D98",
+    "description": "Mokelumne River Diversion To CVPM 8",
+    "type": "Junction",
+    "inflows": {
+      "default": {
+        "description": "Only for climate change studies, for historical case all flows are zero.",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

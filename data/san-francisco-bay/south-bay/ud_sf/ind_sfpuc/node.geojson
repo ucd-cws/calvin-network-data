@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.427952,37.742745294423]},
- "properties":{"prmname":"IND_SFPUC",
- "description":"Includes all of DAU 43",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.427952,
+      37.742745294423
+    ]
+  },
+  "properties": {
+    "prmname": "IND_SFPUC",
+    "description": "Includes all of DAU 43",
+    "type": "Urban Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

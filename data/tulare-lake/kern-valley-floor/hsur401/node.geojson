@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.510058,35.587773]},
- "properties":{"prmname":"HSUR401",
- "description":"Hidden node for conveyance loss for deliveries to Kern NWR",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.510058,
+      35.587773
+    ]
+  },
+  "properties": {
+    "prmname": "HSUR401",
+    "description": "Hidden node for conveyance loss for deliveries to Kern NWR",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

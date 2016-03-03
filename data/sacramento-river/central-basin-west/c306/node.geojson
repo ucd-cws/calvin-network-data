@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.6648,38.72046]},
- "properties":{"prmname":"C306",
- "description":"Knights Landing Ridge Cut",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.6648,
+      38.72046
+    ]
+  },
+  "properties": {
+    "prmname": "C306",
+    "description": "Knights Landing Ridge Cut",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

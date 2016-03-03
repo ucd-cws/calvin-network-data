@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.92026,35.917365]},
- "properties":{"prmname":"C75",
- "description":"California Aqueduct, aggregation of DWRSIM 841, 842, 843, 844",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.92026,
+      35.917365
+    ]
+  },
+  "properties": {
+    "prmname": "C75",
+    "description": "California Aqueduct, aggregation of DWRSIM 841, 842, 843, 844",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

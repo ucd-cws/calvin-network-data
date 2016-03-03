@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.014079,37.670498]},
- "properties":{"prmname":"U302",
- "description":"Modesto/Manteca CVPM11 Urban IN",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.014079,
+      37.670498
+    ]
+  },
+  "properties": {
+    "prmname": "U302",
+    "description": "Modesto/Manteca CVPM11 Urban IN",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

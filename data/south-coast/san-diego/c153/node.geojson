@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.080452,33.58196]},
- "properties":{"prmname":"C153",
- "description":"MWD San Diego Pipelines 1, 2, 4 &6 (treated water,except 6)",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.080452,
+      33.58196
+    ]
+  },
+  "properties": {
+    "prmname": "C153",
+    "description": "MWD San Diego Pipelines 1, 2, 4 &6 (treated water,except 6)",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

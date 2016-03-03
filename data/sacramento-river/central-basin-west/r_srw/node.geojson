@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.04468,39.196569]},
- "properties":{"prmname":"R_SRW",
- "description":"Sacramento West Refuges",
- "type":"Non-Standard Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.04468,
+      39.196569
+    ]
+  },
+  "properties": {
+    "prmname": "R_SRW",
+    "description": "Sacramento West Refuges",
+    "type": "Non-Standard Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

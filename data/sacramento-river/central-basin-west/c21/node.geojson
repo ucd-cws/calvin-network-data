@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.954832,38.491399]},
- "properties":{"prmname":"C21",
- "description":"Putah S. California Aqueductnal Diversion To CVPM6",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.954832,
+      38.491399
+    ]
+  },
+  "properties": {
+    "prmname": "C21",
+    "description": "Putah S. California Aqueductnal Diversion To CVPM6",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

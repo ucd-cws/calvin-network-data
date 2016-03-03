@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.562354,36.852847]},
- "properties":{"prmname":"C49",
- "description":"Friant-Kern California Aqueductnal delivery to CVPM-16 and City of Fresno",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.562354,
+      36.852847
+    ]
+  },
+  "properties": {
+    "prmname": "C49",
+    "description": "Friant-Kern California Aqueductnal delivery to CVPM-16 and City of Fresno",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

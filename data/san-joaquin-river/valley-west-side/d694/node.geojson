@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.930378,37.309544]},
- "properties":{"prmname":"D694",
- "description":"San Joaquin River diversion to CVPM13",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.930378,
+      37.309544
+    ]
+  },
+  "properties": {
+    "prmname": "D694",
+    "description": "San Joaquin River diversion to CVPM13",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

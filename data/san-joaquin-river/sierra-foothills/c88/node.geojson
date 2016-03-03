@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.304215,37.811639]},
- "properties":{"prmname":"C88",
- "description":"Hetch Hetchy Aqueduct",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.304215,
+      37.811639
+    ]
+  },
+  "properties": {
+    "prmname": "C88",
+    "description": "Hetch Hetchy Aqueduct",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

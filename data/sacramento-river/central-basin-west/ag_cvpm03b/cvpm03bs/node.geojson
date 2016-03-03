@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.985147423579,39.0172553270749]},
- "properties":{"prmname":"CVPM03BS",
- "description":null,
- "type":"Agricultural Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.985147423579,
+      39.0172553270749
+    ]
+  },
+  "properties": {
+    "prmname": "CVPM03BS",
+    "description": null,
+    "type": "Agricultural Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

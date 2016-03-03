@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.21283,35.325482]},
- "properties":{"prmname":"C73",
- "description":"CVPM-19,20,21 surface return flow",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.21283,
+      35.325482
+    ]
+  },
+  "properties": {
+    "prmname": "C73",
+    "description": "CVPM-19,20,21 surface return flow",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

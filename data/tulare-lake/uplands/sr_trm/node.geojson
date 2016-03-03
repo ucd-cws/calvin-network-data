@@ -1,16 +1,92 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.003936,36.411949]},
- "properties":{"prmname":"SR_TRM",
- "description":"Lake Kaweah",
- "type":"Surface Storage",
- "initialstorage":77.0999984741211,
- "endingstorage":77.0999984741211,
- "areacapfactor":0.00591199984773993,
- "inflows":{"default":{"description":"Kaweah River","inflow":{"$ref" : "inflows/default.csv"}}},
- "evaporation":{"$ref" : "evaporation.csv"},
- "el_ar_cap":{"$ref" : "elevation_area_capacity.csv"},
- "storage":{"$ref" : "storage.csv"},
- "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"costs/JAN.csv"},"FEB":{"$ref":"costs/FEB.csv"},"MAR":{"$ref":"costs/MAR.csv"},"APR":{"$ref":"costs/APR.csv"},"MAY":{"$ref":"costs/MAY.csv"},"JUN":{"$ref":"costs/JUN.csv"},"JUL":{"$ref":"costs/JUL.csv"},"AUG":{"$ref":"costs/AUG.csv"},"SEP":{"$ref":"costs/SEP.csv"},"OCT":{"$ref":"costs/OCT.csv"},"NOV":{"$ref":"costs/NOV.csv"},"DEC":{"$ref":"costs/DEC.csv"}}},
- "bounds":[{"type":"LBC","bound":0.569999992847443},{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.003936,
+      36.411949
+    ]
+  },
+  "properties": {
+    "prmname": "SR_TRM",
+    "description": "Lake Kaweah",
+    "type": "Surface Storage",
+    "initialstorage": 77.0999984741211,
+    "endingstorage": 77.0999984741211,
+    "areacapfactor": 0.00591199984773993,
+    "inflows": {
+      "default": {
+        "description": "Kaweah River",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "evaporation": {
+      "$ref": "evaporation.csv"
+    },
+    "el_ar_cap": {
+      "$ref": "elevation_area_capacity.csv"
+    },
+    "storage": {
+      "$ref": "storage.csv"
+    },
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "JAN": {
+          "$ref": "costs/JAN.csv"
+        },
+        "FEB": {
+          "$ref": "costs/FEB.csv"
+        },
+        "MAR": {
+          "$ref": "costs/MAR.csv"
+        },
+        "APR": {
+          "$ref": "costs/APR.csv"
+        },
+        "MAY": {
+          "$ref": "costs/MAY.csv"
+        },
+        "JUN": {
+          "$ref": "costs/JUN.csv"
+        },
+        "JUL": {
+          "$ref": "costs/JUL.csv"
+        },
+        "AUG": {
+          "$ref": "costs/AUG.csv"
+        },
+        "SEP": {
+          "$ref": "costs/SEP.csv"
+        },
+        "OCT": {
+          "$ref": "costs/OCT.csv"
+        },
+        "NOV": {
+          "$ref": "costs/NOV.csv"
+        },
+        "DEC": {
+          "$ref": "costs/DEC.csv"
+        }
+      }
+    },
+    "bounds": [
+      {
+        "type": "LBC",
+        "bound": 0.569999992847443
+      },
+      {
+        "type": "UBM",
+        "bound": {
+          "$ref": "./UBM.csv"
+        }
+      }
+    ],
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

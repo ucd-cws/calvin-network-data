@@ -1,16 +1,83 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.750925,34.632987]},
- "properties":{"prmname":"SR_PYM",
- "description":"Pyramid Lake",
- "type":"Surface Storage",
- "initialstorage":170,
- "endingstorage":143.940002441406,
- "areacapfactor":0.00724999979138374,
- "inflows":null,
- "evaporation":{"$ref" : "evaporation.csv"},
- "el_ar_cap":{"$ref" : "elevation_area_capacity.csv"},
- "storage":{"$ref" : "storage.csv"},
- "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"costs/JAN.csv"},"FEB":{"$ref":"costs/FEB.csv"},"MAR":{"$ref":"costs/MAR.csv"},"APR":{"$ref":"costs/APR.csv"},"MAY":{"$ref":"costs/MAY.csv"},"JUN":{"$ref":"costs/JUN.csv"},"JUL":{"$ref":"costs/JUL.csv"},"AUG":{"$ref":"costs/AUG.csv"},"SEP":{"$ref":"costs/SEP.csv"},"OCT":{"$ref":"costs/OCT.csv"},"NOV":{"$ref":"costs/NOV.csv"},"DEC":{"$ref":"costs/DEC.csv"}}},
- "bounds":[{"type":"LBC","bound":4.80000019073486},{"type":"UBC","bound":171.199996948242}],
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.750925,
+      34.632987
+    ]
+  },
+  "properties": {
+    "prmname": "SR_PYM",
+    "description": "Pyramid Lake",
+    "type": "Surface Storage",
+    "initialstorage": 170,
+    "endingstorage": 143.940002441406,
+    "areacapfactor": 0.00724999979138374,
+    "inflows": null,
+    "evaporation": {
+      "$ref": "evaporation.csv"
+    },
+    "el_ar_cap": {
+      "$ref": "elevation_area_capacity.csv"
+    },
+    "storage": {
+      "$ref": "storage.csv"
+    },
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "JAN": {
+          "$ref": "costs/JAN.csv"
+        },
+        "FEB": {
+          "$ref": "costs/FEB.csv"
+        },
+        "MAR": {
+          "$ref": "costs/MAR.csv"
+        },
+        "APR": {
+          "$ref": "costs/APR.csv"
+        },
+        "MAY": {
+          "$ref": "costs/MAY.csv"
+        },
+        "JUN": {
+          "$ref": "costs/JUN.csv"
+        },
+        "JUL": {
+          "$ref": "costs/JUL.csv"
+        },
+        "AUG": {
+          "$ref": "costs/AUG.csv"
+        },
+        "SEP": {
+          "$ref": "costs/SEP.csv"
+        },
+        "OCT": {
+          "$ref": "costs/OCT.csv"
+        },
+        "NOV": {
+          "$ref": "costs/NOV.csv"
+        },
+        "DEC": {
+          "$ref": "costs/DEC.csv"
+        }
+      }
+    },
+    "bounds": [
+      {
+        "type": "LBC",
+        "bound": 4.80000019073486
+      },
+      {
+        "type": "UBC",
+        "bound": 171.199996948242
+      }
+    ],
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,13 +1,39 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.225385,33.677938]},
- "properties":{"prmname":"GW_CH",
- "description":"Coachella Valley Groundwater",
- "type":"Groundwater Storage",
- "initialstorage":3500,
- "endingstorage":3500,
- "inflows":{"default":{"description":"Coachella_Valley","inflow":{"$ref" : "inflows/default.csv"}}},
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":4000}],
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.225385,
+      33.677938
+    ]
+  },
+  "properties": {
+    "prmname": "GW_CH",
+    "description": "Coachella Valley Groundwater",
+    "type": "Groundwater Storage",
+    "initialstorage": 3500,
+    "endingstorage": 3500,
+    "inflows": {
+      "default": {
+        "description": "Coachella_Valley",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "bounds": [
+      {
+        "type": "UBC",
+        "bound": 4000
+      }
+    ],
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

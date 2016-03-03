@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.819665,36.7452931106124]},
- "properties":{"prmname":"WWP401",
- "description":"Fresno OUT",
- "type":"Water Treatment",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.819665,
+      36.7452931106124
+    ]
+  },
+  "properties": {
+    "prmname": "WWP401",
+    "description": "Fresno OUT",
+    "type": "Water Treatment",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

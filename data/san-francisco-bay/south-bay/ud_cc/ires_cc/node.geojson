@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.081292847159,37.9815557848814]},
- "properties":{"prmname":"IRES_CC",
- "description":"Interior urban residential Part of DAU 46 and all of 192",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.081292847159,
+      37.9815557848814
+    ]
+  },
+  "properties": {
+    "prmname": "IRES_CC",
+    "description": "Interior urban residential Part of DAU 46 and all of 192",
+    "type": "Urban Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.074938576421,38.418565970888]},
- "properties":{"prmname":"EXT_CVPM08",
- "description":"100% of DAU 180, exterior",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.074938576421,
+      38.418565970888
+    ]
+  },
+  "properties": {
+    "prmname": "EXT_CVPM08",
+    "description": "100% of DAU 180, exterior",
+    "type": "Urban Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

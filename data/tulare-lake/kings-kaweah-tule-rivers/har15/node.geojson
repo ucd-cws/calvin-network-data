@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.85594,36.345679]},
- "properties":{"prmname":"HAR15",
- "description":"Artificial recharge node to GW-15",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.85594,
+      36.345679
+    ]
+  },
+  "properties": {
+    "prmname": "HAR15",
+    "description": "Artificial recharge node to GW-15",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

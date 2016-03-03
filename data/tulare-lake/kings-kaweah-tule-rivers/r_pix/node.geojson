@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.385059,35.926651]},
- "properties":{"prmname":"R_PIX",
- "description":"Pixley NWR",
- "type":"Non-Standard Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.385059,
+      35.926651
+    ]
+  },
+  "properties": {
+    "prmname": "R_PIX",
+    "description": "Pixley NWR",
+    "type": "Non-Standard Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

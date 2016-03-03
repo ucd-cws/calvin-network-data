@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.869702,35.184184]},
- "properties":{"prmname":"A409A",
- "description":"CVPM 21 farm gate",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.869702,
+      35.184184
+    ]
+  },
+  "properties": {
+    "prmname": "A409A",
+    "description": "CVPM 21 farm gate",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

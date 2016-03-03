@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.896453576421,36.2583422631315]},
- "properties":{"prmname":"EXT_CVPM15",
- "description":"100% of DAU 238, 235, 237, 241, & 246, exterior",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.896453576421,
+      36.2583422631315
+    ]
+  },
+  "properties": {
+    "prmname": "EXT_CVPM15",
+    "description": "100% of DAU 238, 235, 237, 241, & 246, exterior",
+    "type": "Urban Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

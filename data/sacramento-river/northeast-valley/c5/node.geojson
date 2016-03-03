@@ -1,9 +1,48 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.211276,40.327188]},
- "properties":{"prmname":"C5",
- "description":"CVPM 1 return to Sacramento River",
- "type":"Junction",
- "inflows":{"default":{"description":"DSA58 Projected Gain in.","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":[{"default" : {"description" : "DSA58 Projected Gain out based on CALSIM II.", "costs" : {"type":"Constant",
- "cost":0}, "bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.211276,
+      40.327188
+    ]
+  },
+  "properties": {
+    "prmname": "C5",
+    "description": "CVPM 1 return to Sacramento River",
+    "type": "Junction",
+    "inflows": {
+      "default": {
+        "description": "DSA58 Projected Gain in.",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "sinks": [
+      {
+        "default": {
+          "description": "DSA58 Projected Gain out based on CALSIM II.",
+          "costs": {
+            "type": "Constant",
+            "cost": 0
+          },
+          "bounds": [
+            {
+              "type": "EQT",
+              "bound": {
+                "$ref": "./sinks/default/EQT.csv"
+              }
+            }
+          ],
+          "flow": {
+            "$ref": "./sinks/default/flow.csv"
+          }
+        }
+      }
+    ],
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,8 +1,27 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.329605,38.5991969999999]},
- "properties":{"prmname":"D64",
- "description":"American River Diversion To Sacramento Urban",
- "type":"Junction",
- "inflows":{"default":{"description":"Local Inflow","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.329605,
+      38.5991969999999
+    ]
+  },
+  "properties": {
+    "prmname": "D64",
+    "description": "American River Diversion To Sacramento Urban",
+    "type": "Junction",
+    "inflows": {
+      "default": {
+        "description": "Local Inflow",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

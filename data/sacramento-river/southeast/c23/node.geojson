@@ -1,8 +1,27 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.547803,39.527825]},
- "properties":{"prmname":"C23",
- "description":"Feather River Diversion to Therm. FB",
- "type":"Junction",
- "inflows":{"default":{"description":"KELLY RIDGE","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.547803,
+      39.527825
+    ]
+  },
+  "properties": {
+    "prmname": "C23",
+    "description": "Feather River Diversion to Therm. FB",
+    "type": "Junction",
+    "inflows": {
+      "default": {
+        "description": "KELLY RIDGE",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

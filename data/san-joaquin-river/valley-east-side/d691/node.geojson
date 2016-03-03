@@ -1,8 +1,27 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.883513,37.29746]},
- "properties":{"prmname":"D691",
- "description":"Mud Slough & Salt Slough inflow to S Joaquin R",
- "type":"Junction",
- "inflows":{"default":{"description":"Local Inflow","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.883513,
+      37.29746
+    ]
+  },
+  "properties": {
+    "prmname": "D691",
+    "description": "Mud Slough & Salt Slough inflow to S Joaquin R",
+    "type": "Junction",
+    "inflows": {
+      "default": {
+        "description": "Local Inflow",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

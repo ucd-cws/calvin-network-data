@@ -1,8 +1,27 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.562402,38.630844]},
- "properties":{"prmname":"C7",
- "description":"CVPM7 return to Sacramento River",
- "type":"Junction",
- "inflows":{"default":{"description":"Local Inflow","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.562402,
+      38.630844
+    ]
+  },
+  "properties": {
+    "prmname": "C7",
+    "description": "CVPM7 return to Sacramento River",
+    "type": "Junction",
+    "inflows": {
+      "default": {
+        "description": "Local Inflow",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

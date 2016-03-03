@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.36116,36.788238]},
- "properties":{"prmname":"D732",
- "description":"San Joaquin River diversion to Refuge 2",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.36116,
+      36.788238
+    ]
+  },
+  "properties": {
+    "prmname": "D732",
+    "description": "San Joaquin River diversion to Refuge 2",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

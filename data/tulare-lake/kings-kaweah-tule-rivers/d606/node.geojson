@@ -1,8 +1,27 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.016457,36.825709]},
- "properties":{"prmname":"D606",
- "description":"San Joaquin River diversion to CVPM13",
- "type":"Junction",
- "inflows":{"default":{"description":"Only for climate change studies, for historical case all flows are zero.","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.016457,
+      36.825709
+    ]
+  },
+  "properties": {
+    "prmname": "D606",
+    "description": "San Joaquin River diversion to CVPM13",
+    "type": "Junction",
+    "inflows": {
+      "default": {
+        "description": "Only for climate change studies, for historical case all flows are zero.",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

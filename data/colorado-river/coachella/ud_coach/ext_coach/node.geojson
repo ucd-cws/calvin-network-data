@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.240036576421,33.7112377846323]},
- "properties":{"prmname":"EXT_COACH",
- "description":"DAU 348, 349 Exterior Res/Landscape",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.240036576421,
+      33.7112377846323
+    ]
+  },
+  "properties": {
+    "prmname": "EXT_COACH",
+    "description": "DAU 348, 349 Exterior Res/Landscape",
+    "type": "Urban Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

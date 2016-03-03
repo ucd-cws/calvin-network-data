@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.610275,37.927846]},
- "properties":{"prmname":"C43",
- "description":"Stan. River diversion to Stockton Urban",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.610275,
+      37.927846
+    ]
+  },
+  "properties": {
+    "prmname": "C43",
+    "description": "Stan. River diversion to Stockton Urban",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

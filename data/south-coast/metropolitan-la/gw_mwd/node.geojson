@@ -1,13 +1,32 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.935524,33.981906]},
- "properties":{"prmname":"GW_MWD",
- "description":"Additional empty GW Capacity in MWD Service Area",
- "type":"Groundwater Storage",
- "initialstorage":750,
- "endingstorage":750,
- "inflows":null,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":1450}],
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.935524,
+      33.981906
+    ]
+  },
+  "properties": {
+    "prmname": "GW_MWD",
+    "description": "Additional empty GW Capacity in MWD Service Area",
+    "type": "Groundwater Storage",
+    "initialstorage": 750,
+    "endingstorage": 750,
+    "inflows": null,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "bounds": [
+      {
+        "type": "UBC",
+        "bound": 1450
+      }
+    ],
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.840292423579,37.0700572600907]},
- "properties":{"prmname":"INT_CVPM10",
- "description":"100% of DAU 216, interior",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.840292423579,
+      37.0700572600907
+    ]
+  },
+  "properties": {
+    "prmname": "INT_CVPM10",
+    "description": "100% of DAU 216, interior",
+    "type": "Urban Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

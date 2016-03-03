@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.021787,37.606578]},
- "properties":{"prmname":"D664",
- "description":"Tuolumne River diversion to CVPM 11",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.021787,
+      37.606578
+    ]
+  },
+  "properties": {
+    "prmname": "D664",
+    "description": "Tuolumne River diversion to CVPM 11",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

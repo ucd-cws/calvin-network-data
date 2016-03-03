@@ -1,9 +1,38 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.173720152841,37.7664057403669]},
- "properties":{"prmname":"ERES_EBMUD",
- "description":"EBMUD exterior urban demand Parts of DAU 46 & 47",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":[{"default" : {"description" : null, "costs" : {"type":"Constant",
- "cost":0}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.173720152841,
+      37.7664057403669
+    ]
+  },
+  "properties": {
+    "prmname": "ERES_EBMUD",
+    "description": "EBMUD exterior urban demand Parts of DAU 46 & 47",
+    "type": "Urban Demand",
+    "inflows": null,
+    "sinks": [
+      {
+        "default": {
+          "description": null,
+          "costs": {
+            "type": "Constant",
+            "cost": 0
+          },
+          "bounds": [
+            {
+              "type": "NOB"
+            }
+          ],
+          "flow": {
+            "$ref": "./sinks/default/flow.csv"
+          }
+        }
+      }
+    ],
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

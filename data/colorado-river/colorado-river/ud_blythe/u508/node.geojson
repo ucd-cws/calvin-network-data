@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-114.593351,33.611261]},
- "properties":{"prmname":"U508",
- "description":"Water Treatment Node for Blythe",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -114.593351,
+      33.611261
+    ]
+  },
+  "properties": {
+    "prmname": "U508",
+    "description": "Water Treatment Node for Blythe",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

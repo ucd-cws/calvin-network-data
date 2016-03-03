@@ -1,13 +1,38 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.529869,35.437278]},
- "properties":{"prmname":"GW_19",
- "description":"Central Valley groundwater basin",
- "type":"Groundwater Storage",
- "initialstorage":141750,
- "endingstorage":128223,
- "inflows":{"default":{"description":"Groundwater inflow GW-19 C2VSIM Historical Run 1980-2000 ","inflow":{"$ref" : "inflows/default.csv"}}},
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.529869,
+      35.437278
+    ]
+  },
+  "properties": {
+    "prmname": "GW_19",
+    "description": "Central Valley groundwater basin",
+    "type": "Groundwater Storage",
+    "initialstorage": 141750,
+    "endingstorage": 128223,
+    "inflows": {
+      "default": {
+        "description": "Groundwater inflow GW-19 C2VSIM Historical Run 1980-2000 ",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "bounds": [
+      {
+        "type": "NOB"
+      }
+    ],
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

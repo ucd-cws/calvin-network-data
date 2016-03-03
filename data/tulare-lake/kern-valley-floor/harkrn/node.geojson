@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.767607,35.033277]},
- "properties":{"prmname":"HARKRN",
- "description":"Recharge facilite for aggregated Kern-Semitropic-Arvin/Adison groundwater basins",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.767607,
+      35.033277
+    ]
+  },
+  "properties": {
+    "prmname": "HARKRN",
+    "description": "Recharge facilite for aggregated Kern-Semitropic-Arvin/Adison groundwater basins",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,13 +1,32 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.830299,35.050838]},
- "properties":{"prmname":"GW_KRN",
- "description":"Extra groundwater storage for SWP beyond the Tehachapi mountains - Kern-Delta, Arvin-Edison, & Semitropic Projects",
- "type":"Groundwater Storage",
- "initialstorage":0,
- "endingstorage":0,
- "inflows":null,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":950}],
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.830299,
+      35.050838
+    ]
+  },
+  "properties": {
+    "prmname": "GW_KRN",
+    "description": "Extra groundwater storage for SWP beyond the Tehachapi mountains - Kern-Delta, Arvin-Edison, & Semitropic Projects",
+    "type": "Groundwater Storage",
+    "initialstorage": 0,
+    "endingstorage": 0,
+    "inflows": null,
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "bounds": [
+      {
+        "type": "UBC",
+        "bound": 950
+      }
+    ],
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

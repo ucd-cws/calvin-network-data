@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.015112,37.439284]},
- "properties":{"prmname":"D697",
- "description":"CVPM12 return to San Joaquin River",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.015112,
+      37.439284
+    ]
+  },
+  "properties": {
+    "prmname": "D697",
+    "description": "CVPM12 return to San Joaquin River",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

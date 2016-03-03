@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.634117,37.444037]},
- "properties":{"prmname":"D649",
- "description":"Merced River diversion to CVPM 13",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.634117,
+      37.444037
+    ]
+  },
+  "properties": {
+    "prmname": "D649",
+    "description": "Merced River diversion to CVPM 13",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

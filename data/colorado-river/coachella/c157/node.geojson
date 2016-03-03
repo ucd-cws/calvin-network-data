@@ -1,9 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.199088,33.638206]},
- "properties":{"prmname":"C157",
- "description":"Diversion for Coachella Desalting Facility
-",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.199088,
+      33.638206
+    ]
+  },
+  "properties": {
+    "prmname": "C157",
+    "description": "Diversion for Coachella Desalting Facility",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

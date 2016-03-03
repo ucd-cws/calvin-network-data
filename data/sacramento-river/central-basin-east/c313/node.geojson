@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.721225,38.802366]},
- "properties":{"prmname":"C313",
- "description":"Knights Landing diversion to CVPM8",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.721225,
+      38.802366
+    ]
+  },
+  "properties": {
+    "prmname": "C313",
+    "description": "Knights Landing diversion to CVPM8",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

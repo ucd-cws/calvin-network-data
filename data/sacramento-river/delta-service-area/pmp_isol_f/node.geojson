@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.684559,38.159435]},
- "properties":{"prmname":"PMP_ISOL_F",
- "description":"Isolated Facility Pumping Plant",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.684559,
+      38.159435
+    ]
+  },
+  "properties": {
+    "prmname": "PMP_ISOL_F",
+    "description": "Isolated Facility Pumping Plant",
+    "type": "Pump Plant",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

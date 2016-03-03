@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.231053423579,33.7112377846323]},
- "properties":{"prmname":"INT_COACH",
- "description":"DAU 348, 349 Ind/Interior Res/Comm Demand",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.231053423579,
+      33.7112377846323
+    ]
+  },
+  "properties": {
+    "prmname": "INT_COACH",
+    "description": "DAU 348, 349 Ind/Interior Res/Comm Demand",
+    "type": "Urban Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

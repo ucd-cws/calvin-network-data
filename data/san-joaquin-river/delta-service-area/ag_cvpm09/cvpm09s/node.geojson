@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.569596423579,38.028958072982]},
- "properties":{"prmname":"CVPM09S",
- "description":"junction node for CVPM 9",
- "type":"Agricultural Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.569596423579,
+      38.028958072982
+    ]
+  },
+  "properties": {
+    "prmname": "CVPM09S",
+    "description": "junction node for CVPM 9",
+    "type": "Agricultural Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

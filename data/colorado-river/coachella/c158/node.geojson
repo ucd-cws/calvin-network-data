@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.302679,33.689005]},
- "properties":{"prmname":"C158",
- "description":"Artificial recharge on Coachella Lower Valley (Martinez and La Quinta)",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.302679,
+      33.689005
+    ]
+  },
+  "properties": {
+    "prmname": "C158",
+    "description": "Artificial recharge on Coachella Lower Valley (Martinez and La Quinta)",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

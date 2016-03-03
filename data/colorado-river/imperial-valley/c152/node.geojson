@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-115.283007,32.696148]},
- "properties":{"prmname":"C152",
- "description":"All American Canal into East Highline, Central, Main and Westside Canals - farm gate to Imperial Valley Ag",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -115.283007,
+      32.696148
+    ]
+  },
+  "properties": {
+    "prmname": "C152",
+    "description": "All American Canal into East Highline, Central, Main and Westside Canals - farm gate to Imperial Valley Ag",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

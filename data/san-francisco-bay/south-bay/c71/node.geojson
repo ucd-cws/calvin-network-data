@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.925952,38.01895]},
- "properties":{"prmname":"C71",
- "description":"Mallard Slough inflow to Contra Costa Urban",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.925952,
+      38.01895
+    ]
+  },
+  "properties": {
+    "prmname": "C71",
+    "description": "Mallard Slough inflow to Contra Costa Urban",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

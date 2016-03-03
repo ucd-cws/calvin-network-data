@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.377193,39.009748]},
- "properties":{"prmname":"C33",
- "description":"Bear River release to CVPM7",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.377193,
+      39.009748
+    ]
+  },
+  "properties": {
+    "prmname": "C33",
+    "description": "Bear River release to CVPM7",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

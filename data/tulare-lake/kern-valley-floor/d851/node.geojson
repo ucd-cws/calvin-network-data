@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.637928,35.466862]},
- "properties":{"prmname":"D851",
- "description":"California Aqueduct",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.637928,
+      35.466862
+    ]
+  },
+  "properties": {
+    "prmname": "D851",
+    "description": "California Aqueduct",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

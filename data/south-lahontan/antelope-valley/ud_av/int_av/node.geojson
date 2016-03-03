@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.146244423579,34.6816135392406]},
- "properties":{"prmname":"INT_AV",
- "description":"DAU 299-377 Urban demand: Ind/Interior Res/Comm",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.146244423579,
+      34.6816135392406
+    ]
+  },
+  "properties": {
+    "prmname": "INT_AV",
+    "description": "DAU 299-377 Urban demand: Ind/Interior Res/Comm",
+    "type": "Urban Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

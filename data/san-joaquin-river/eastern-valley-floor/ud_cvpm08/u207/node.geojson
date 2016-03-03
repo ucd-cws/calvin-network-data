@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.070447,38.4220850000001]},
- "properties":{"prmname":"U207",
- "description":"Water treatment node for all of CVPM 8, representing Galt",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.070447,
+      38.4220850000001
+    ]
+  },
+  "properties": {
+    "prmname": "U207",
+    "description": "Water treatment node for all of CVPM 8, representing Galt",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

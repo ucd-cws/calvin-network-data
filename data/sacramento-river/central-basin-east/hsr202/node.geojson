@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.712475,39.127067]},
- "properties":{"prmname":"HSR202",
- "description":"Hidden surface water node for Sutter Refuge",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.712475,
+      39.127067
+    ]
+  },
+  "properties": {
+    "prmname": "HSR202",
+    "description": "Hidden surface water node for Sutter Refuge",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

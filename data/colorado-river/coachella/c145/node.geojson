@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.160152,33.695549]},
- "properties":{"prmname":"C145",
- "description":"Coachella Urban GW recharge junction node",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.160152,
+      33.695549
+    ]
+  },
+  "properties": {
+    "prmname": "C145",
+    "description": "Coachella Urban GW recharge junction node",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

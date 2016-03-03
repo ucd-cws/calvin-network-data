@@ -1,8 +1,27 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.271096576421,33.9180063823168]},
- "properties":{"prmname":"HXCMWD",
- "description":"Hidden node for year type variation in demand, central mwd",
- "type":"Junction",
- "inflows":{"default":{"description":"Year type variation for Central MWD","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.271096576421,
+      33.9180063823168
+    ]
+  },
+  "properties": {
+    "prmname": "HXCMWD",
+    "description": "Hidden node for year type variation in demand, central mwd",
+    "type": "Junction",
+    "inflows": {
+      "default": {
+        "description": "Year type variation for Central MWD",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

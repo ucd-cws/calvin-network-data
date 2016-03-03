@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.57255,38.326443]},
- "properties":{"prmname":"D503",
- "description":"Sacramento River diversion to Isolated Facility",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.57255,
+      38.326443
+    ]
+  },
+  "properties": {
+    "prmname": "D503",
+    "description": "Sacramento River diversion to Isolated Facility",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

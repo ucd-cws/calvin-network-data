@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.381293,40.578266]},
- "properties":{"prmname":"U101",
- "description":"Water treatment node for the urban areas of Redding",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.381293,
+      40.578266
+    ]
+  },
+  "properties": {
+    "prmname": "U101",
+    "description": "Water treatment node for the urban areas of Redding",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

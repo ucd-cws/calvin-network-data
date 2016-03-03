@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.899938,37.671138]},
- "properties":{"prmname":"D897",
- "description":"South Bay Aqueduct losses",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.899938,
+      37.671138
+    ]
+  },
+  "properties": {
+    "prmname": "D897",
+    "description": "South Bay Aqueduct losses",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

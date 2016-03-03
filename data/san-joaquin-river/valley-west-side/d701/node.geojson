@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.326192,37.610971]},
- "properties":{"prmname":"D701",
- "description":"Delta Mendota  Canal diversion to CVPM10",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.326192,
+      37.610971
+    ]
+  },
+  "properties": {
+    "prmname": "D701",
+    "description": "Delta Mendota  Canal diversion to CVPM10",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

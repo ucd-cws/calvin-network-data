@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.182219,33.835837]},
- "properties":{"prmname":"N3",
- "description":"Junction near Lake Perris",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.182219,
+      33.835837
+    ]
+  },
+  "properties": {
+    "prmname": "N3",
+    "description": "Junction near Lake Perris",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

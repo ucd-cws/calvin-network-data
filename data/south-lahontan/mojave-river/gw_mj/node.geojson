@@ -1,13 +1,39 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.516995,34.7309139999999]},
- "properties":{"prmname":"GW_MJ",
- "description":"Mojave River Valley Groundwater",
- "type":"Groundwater Storage",
- "initialstorage":2580,
- "endingstorage":2580,
- "inflows":{"default":{"description":"Mojave_River_Valley","inflow":{"$ref" : "inflows/default.csv"}}},
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":4370}],
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.516995,
+      34.7309139999999
+    ]
+  },
+  "properties": {
+    "prmname": "GW_MJ",
+    "description": "Mojave River Valley Groundwater",
+    "type": "Groundwater Storage",
+    "initialstorage": 2580,
+    "endingstorage": 2580,
+    "inflows": {
+      "default": {
+        "description": "Mojave_River_Valley",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "bounds": [
+      {
+        "type": "UBC",
+        "bound": 4370
+      }
+    ],
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

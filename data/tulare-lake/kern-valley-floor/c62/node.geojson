@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.247309,35.560005]},
- "properties":{"prmname":"C62",
- "description":"Friant-Kern Canal delivery to CVPM-19",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.247309,
+      35.560005
+    ]
+  },
+  "properties": {
+    "prmname": "C62",
+    "description": "Friant-Kern Canal delivery to CVPM-19",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

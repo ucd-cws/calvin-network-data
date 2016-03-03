@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.802422,39.338508]},
- "properties":{"prmname":"R201",
- "description":"SW and GW aggregation node for Gray Lodge Refuge",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.802422,
+      39.338508
+    ]
+  },
+  "properties": {
+    "prmname": "R201",
+    "description": "SW and GW aggregation node for Gray Lodge Refuge",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

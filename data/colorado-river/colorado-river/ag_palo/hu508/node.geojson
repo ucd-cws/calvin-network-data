@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-114.674303,33.5731019999999]},
- "properties":{"prmname":"HU508",
- "description":"Surface supply to Palo Verde Ag",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -114.674303,
+      33.5731019999999
+    ]
+  },
+  "properties": {
+    "prmname": "HU508",
+    "description": "Surface supply to Palo Verde Ag",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,9 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.23285,33.635576]},
- "properties":{"prmname":"WTPA507",
- "description":"Desalting facility
-",
- "type":"Water Treatment",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.23285,
+      33.635576
+    ]
+  },
+  "properties": {
+    "prmname": "WTPA507",
+    "description": "Desalting facility",
+    "type": "Water Treatment",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,8 +1,27 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.9804,39.346259]},
- "properties":{"prmname":"C304",
- "description":"DA12 loCalifornia Aqueductl inflow",
- "type":"Junction",
- "inflows":{"default":{"description":"DA12 local water supply","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.9804,
+      39.346259
+    ]
+  },
+  "properties": {
+    "prmname": "C304",
+    "description": "DA12 loCalifornia Aqueductl inflow",
+    "type": "Junction",
+    "inflows": {
+      "default": {
+        "description": "DA12 local water supply",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

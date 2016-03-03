@@ -1,8 +1,27 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.541490635369,34.4384991977241]},
- "properties":{"prmname":"WTP503",
- "description":null,
- "type":"Water Treatment",
- "inflows":{"default":{"description":"LOCAL SUPPLIES for Castaic Lake WD","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.541490635369,
+      34.4384991977241
+    ]
+  },
+  "properties": {
+    "prmname": "WTP503",
+    "description": null,
+    "type": "Water Treatment",
+    "inflows": {
+      "default": {
+        "description": "LOCAL SUPPLIES for Castaic Lake WD",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

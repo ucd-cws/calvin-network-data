@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.817653,39.321512]},
- "properties":{"prmname":"R_GLD",
- "description":"Gray Lodge Refuge",
- "type":"Non-Standard Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.817653,
+      39.321512
+    ]
+  },
+  "properties": {
+    "prmname": "R_GLD",
+    "description": "Gray Lodge Refuge",
+    "type": "Non-Standard Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

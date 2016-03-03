@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.456283,39.201537]},
- "properties":{"prmname":"C83",
- "description":"Yuba River outflow from DA67",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.456283,
+      39.201537
+    ]
+  },
+  "properties": {
+    "prmname": "C83",
+    "description": "Yuba River outflow from DA67",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

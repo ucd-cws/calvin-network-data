@@ -1,9 +1,38 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.825602,33.704972]},
- "properties":{"prmname":"ERES_EWMWD",
- "description":"Exterior residential demand for eastern & western municipal water districts",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":[{"default" : {"description" : null, "costs" : {"type":"Constant",
- "cost":1}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.825602,
+      33.704972
+    ]
+  },
+  "properties": {
+    "prmname": "ERES_EWMWD",
+    "description": "Exterior residential demand for eastern & western municipal water districts",
+    "type": "Urban Demand",
+    "inflows": null,
+    "sinks": [
+      {
+        "default": {
+          "description": null,
+          "costs": {
+            "type": "Constant",
+            "cost": 1
+          },
+          "bounds": [
+            {
+              "type": "NOB"
+            }
+          ],
+          "flow": {
+            "$ref": "./sinks/default/flow.csv"
+          }
+        }
+      }
+    ],
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

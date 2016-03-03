@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.229926,37.516936]},
- "properties":{"prmname":"D803",
- "description":"California Aqueduct diversion to CVPM10",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.229926,
+      37.516936
+    ]
+  },
+  "properties": {
+    "prmname": "D803",
+    "description": "California Aqueduct diversion to CVPM10",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

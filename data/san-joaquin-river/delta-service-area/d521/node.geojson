@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.472711,38.029041]},
- "properties":{"prmname":"D521",
- "description":"Delta Cross Channel inflow to San Joaquin River",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.472711,
+      38.029041
+    ]
+  },
+  "properties": {
+    "prmname": "D521",
+    "description": "Delta Cross Channel inflow to San Joaquin River",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

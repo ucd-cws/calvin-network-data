@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.97469,37.349285]},
- "properties":{"prmname":"D695",
- "description":"Merced River inflow to San Joaquin River",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.97469,
+      37.349285
+    ]
+  },
+  "properties": {
+    "prmname": "D695",
+    "description": "Merced River inflow to San Joaquin River",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

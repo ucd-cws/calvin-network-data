@@ -1,17 +1,51 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.10298,37.861928]},
- "properties":{"prmname":"SR_GNT",
- "description":"Grant Lake",
- "type":"Surface Storage",
- "initialstorage":26,
- "endingstorage":26,
- "areacapfactor":0.0224610399454832,
- "inflows":{"default":{"description":"MONO BASIN","inflow":{"$ref" : "inflows/default.csv"}}},
- "evaporation":{"$ref" : "evaporation.csv"},
- "el_ar_cap":null,
- "storage":{"$ref" : "storage.csv"},
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"LBC","bound":11.5},{"type":"UBC","bound":47.5250015258789}],
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.10298,
+      37.861928
+    ]
+  },
+  "properties": {
+    "prmname": "SR_GNT",
+    "description": "Grant Lake",
+    "type": "Surface Storage",
+    "initialstorage": 26,
+    "endingstorage": 26,
+    "areacapfactor": 0.0224610399454832,
+    "inflows": {
+      "default": {
+        "description": "MONO BASIN",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "evaporation": {
+      "$ref": "evaporation.csv"
+    },
+    "el_ar_cap": null,
+    "storage": {
+      "$ref": "storage.csv"
+    },
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "bounds": [
+      {
+        "type": "LBC",
+        "bound": 11.5
+      },
+      {
+        "type": "UBC",
+        "bound": 47.5250015258789
+      }
+    ],
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

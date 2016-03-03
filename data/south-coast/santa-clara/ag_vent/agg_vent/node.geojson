@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.116035576421,34.3269177879086]},
- "properties":{"prmname":"AGG_VENT",
- "description":"Ventura Ag supplied by Groundwater",
- "type":"Agricultural Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.116035576421,
+      34.3269177879086
+    ]
+  },
+  "properties": {
+    "prmname": "AGG_VENT",
+    "description": "Ventura Ag supplied by Groundwater",
+    "type": "Agricultural Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

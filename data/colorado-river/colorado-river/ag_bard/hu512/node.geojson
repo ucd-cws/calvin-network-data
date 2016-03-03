@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-114.547426,32.794087]},
- "properties":{"prmname":"HU512",
- "description":"Hidden Reuse node for Bard WD ag demand area",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -114.547426,
+      32.794087
+    ]
+  },
+  "properties": {
+    "prmname": "HU512",
+    "description": "Hidden Reuse node for Bard WD ag demand area",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.88959,37.097447]},
- "properties":{"prmname":"D624",
- "description":"Fresno River diversion to CVPM 13",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.88959,
+      37.097447
+    ]
+  },
+  "properties": {
+    "prmname": "D624",
+    "description": "Fresno River diversion to CVPM 13",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

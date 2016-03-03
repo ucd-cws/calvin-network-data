@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.937377,39.193793]},
- "properties":{"prmname":"D30",
- "description":"Sacramento River diversion to CVPM 4",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.937377,
+      39.193793
+    ]
+  },
+  "properties": {
+    "prmname": "D30",
+    "description": "Sacramento River diversion to CVPM 4",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

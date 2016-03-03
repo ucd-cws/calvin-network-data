@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.531548,34.769587]},
- "properties":{"prmname":"D868",
- "description":"West Branch SWP Node Represented in DWRSIM Network D122698",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.531548,
+      34.769587
+    ]
+  },
+  "properties": {
+    "prmname": "D868",
+    "description": "West Branch SWP Node Represented in DWRSIM Network D122698",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.231053423579,33.7131059126369]},
- "properties":{"prmname":"HP507",
- "description":"Hidden node for exapanded wastewater recycling for Coachella Urban",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.231053423579,
+      33.7131059126369
+    ]
+  },
+  "properties": {
+    "prmname": "HP507",
+    "description": "Hidden node for exapanded wastewater recycling for Coachella Urban",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

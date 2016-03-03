@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.65407,39.137343695337]},
- "properties":{"prmname":"WWP201",
- "description":"Wastewater Treatment node from Yuba",
- "type":"Water Treatment",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.65407,
+      39.137343695337
+    ]
+  },
+  "properties": {
+    "prmname": "WWP201",
+    "description": "Wastewater Treatment node from Yuba",
+    "type": "Water Treatment",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

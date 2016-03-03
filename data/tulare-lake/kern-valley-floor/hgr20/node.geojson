@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.292631,35.771065]},
- "properties":{"prmname":"HGR20",
- "description":"Return flow from urban CVPM20 to GW",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.292631,
+      35.771065
+    ]
+  },
+  "properties": {
+    "prmname": "HGR20",
+    "description": "Return flow from urban CVPM20 to GW",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.091922,35.3892080000001]},
- "properties":{"prmname":"C689",
- "description":"Friant-Kern Canal terminal structure",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.091922,
+      35.3892080000001
+    ]
+  },
+  "properties": {
+    "prmname": "C689",
+    "description": "Friant-Kern Canal terminal structure",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

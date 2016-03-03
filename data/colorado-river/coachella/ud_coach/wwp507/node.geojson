@@ -1,9 +1,38 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.235545,33.7075014067036]},
- "properties":{"prmname":"WWP507",
- "description":"Coachella OUT",
- "type":"Water Treatment",
- "inflows":null,
- "sinks":[{"default" : {"description" : "SW Discharge to ??", "costs" : {"type":"Constant",
- "cost":0}, "bounds" : [{"type":"NOB"}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -116.235545,
+      33.7075014067036
+    ]
+  },
+  "properties": {
+    "prmname": "WWP507",
+    "description": "Coachella OUT",
+    "type": "Water Treatment",
+    "inflows": null,
+    "sinks": [
+      {
+        "default": {
+          "description": "SW Discharge to ??",
+          "costs": {
+            "type": "Constant",
+            "cost": 0
+          },
+          "bounds": [
+            {
+              "type": "NOB"
+            }
+          ],
+          "flow": {
+            "$ref": "./sinks/default/flow.csv"
+          }
+        }
+      }
+    ],
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

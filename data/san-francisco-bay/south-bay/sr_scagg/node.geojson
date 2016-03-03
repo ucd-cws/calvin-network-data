@@ -1,16 +1,88 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.546909,37.121491]},
- "properties":{"prmname":"SR_SCAGG",
- "description":"Santa Clara Aggregate",
- "type":"Surface Storage",
- "initialstorage":94,
- "endingstorage":94,
- "areacapfactor":0.0204070005565882,
- "inflows":{"default":{"description":"Santa Clara Local inflow","inflow":{"$ref" : "inflows/default.csv"}}},
- "evaporation":{"$ref" : "evaporation.csv"},
- "el_ar_cap":null,
- "storage":{"$ref" : "storage.csv"},
- "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"costs/JAN.csv"},"FEB":{"$ref":"costs/FEB.csv"},"MAR":{"$ref":"costs/MAR.csv"},"APR":{"$ref":"costs/APR.csv"},"MAY":{"$ref":"costs/MAY.csv"},"JUN":{"$ref":"costs/JUN.csv"},"JUL":{"$ref":"costs/JUL.csv"},"AUG":{"$ref":"costs/AUG.csv"},"SEP":{"$ref":"costs/SEP.csv"},"OCT":{"$ref":"costs/OCT.csv"},"NOV":{"$ref":"costs/NOV.csv"},"DEC":{"$ref":"costs/DEC.csv"}}},
- "bounds":[{"type":"LBC","bound":37},{"type":"UBC","bound":170}],
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.546909,
+      37.121491
+    ]
+  },
+  "properties": {
+    "prmname": "SR_SCAGG",
+    "description": "Santa Clara Aggregate",
+    "type": "Surface Storage",
+    "initialstorage": 94,
+    "endingstorage": 94,
+    "areacapfactor": 0.0204070005565882,
+    "inflows": {
+      "default": {
+        "description": "Santa Clara Local inflow",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "evaporation": {
+      "$ref": "evaporation.csv"
+    },
+    "el_ar_cap": null,
+    "storage": {
+      "$ref": "storage.csv"
+    },
+    "costs": {
+      "type": "Monthly Variable",
+      "costs": {
+        "JAN": {
+          "$ref": "costs/JAN.csv"
+        },
+        "FEB": {
+          "$ref": "costs/FEB.csv"
+        },
+        "MAR": {
+          "$ref": "costs/MAR.csv"
+        },
+        "APR": {
+          "$ref": "costs/APR.csv"
+        },
+        "MAY": {
+          "$ref": "costs/MAY.csv"
+        },
+        "JUN": {
+          "$ref": "costs/JUN.csv"
+        },
+        "JUL": {
+          "$ref": "costs/JUL.csv"
+        },
+        "AUG": {
+          "$ref": "costs/AUG.csv"
+        },
+        "SEP": {
+          "$ref": "costs/SEP.csv"
+        },
+        "OCT": {
+          "$ref": "costs/OCT.csv"
+        },
+        "NOV": {
+          "$ref": "costs/NOV.csv"
+        },
+        "DEC": {
+          "$ref": "costs/DEC.csv"
+        }
+      }
+    },
+    "bounds": [
+      {
+        "type": "LBC",
+        "bound": 37
+      },
+      {
+        "type": "UBC",
+        "bound": 170
+      }
+    ],
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

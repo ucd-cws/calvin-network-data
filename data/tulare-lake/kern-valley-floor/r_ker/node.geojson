@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.616313,35.748516]},
- "properties":{"prmname":"R_KER",
- "description":"Kern NWR",
- "type":"Non-Standard Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.616313,
+      35.748516
+    ]
+  },
+  "properties": {
+    "prmname": "R_KER",
+    "description": "Kern NWR",
+    "type": "Non-Standard Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

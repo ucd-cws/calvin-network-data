@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.059624,36.171191]},
- "properties":{"prmname":"C688",
- "description":"Friant-Kern Canal",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.059624,
+      36.171191
+    ]
+  },
+  "properties": {
+    "prmname": "C688",
+    "description": "Friant-Kern Canal",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.787793,34.913763]},
- "properties":{"prmname":"C103",
- "description":"California Aqueduct d/s of Edmonston pumping plant",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.787793,
+      34.913763
+    ]
+  },
+  "properties": {
+    "prmname": "C103",
+    "description": "California Aqueduct d/s of Edmonston pumping plant",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

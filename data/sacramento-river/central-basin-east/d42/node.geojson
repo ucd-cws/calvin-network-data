@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.633072,38.841809]},
- "properties":{"prmname":"D42",
- "description":"CVPM 5 return to Feather River",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.633072,
+      38.841809
+    ]
+  },
+  "properties": {
+    "prmname": "D42",
+    "description": "CVPM 5 return to Feather River",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

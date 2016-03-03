@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.263215,38.597707]},
- "properties":{"prmname":"C173",
- "description":"Fols. S. California Aqueductn. Diversion to Mok. River Aqu.",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.263215,
+      38.597707
+    ]
+  },
+  "properties": {
+    "prmname": "C173",
+    "description": "Fols. S. California Aqueductn. Diversion to Mok. River Aqu.",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

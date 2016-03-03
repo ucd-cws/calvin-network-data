@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.074249,33.683559]},
- "properties":{"prmname":"N5",
- "description":"Node to route inland feeder around pumping plant",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.074249,
+      33.683559
+    ]
+  },
+  "properties": {
+    "prmname": "N5",
+    "description": "Node to route inland feeder around pumping plant",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

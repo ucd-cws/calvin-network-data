@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.649578423579,39.1408274338607]},
- "properties":{"prmname":"INT_YUBA",
- "description":"Urban demand node for Yuba city et al. Includes Yuba City and parts of Butte Co. but not Plumas Co. surface water demand (DAU 159, 168)",
- "type":"Urban Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.649578423579,
+      39.1408274338607
+    ]
+  },
+  "properties": {
+    "prmname": "INT_YUBA",
+    "description": "Urban demand node for Yuba city et al. Includes Yuba City and parts of Butte Co. but not Plumas Co. surface water demand (DAU 159, 168)",
+    "type": "Urban Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

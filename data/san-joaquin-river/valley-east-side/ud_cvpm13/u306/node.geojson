@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.347904,37.190773]},
- "properties":{"prmname":"U306",
- "description":"Merced CVPM13 Urban IN",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.347904,
+      37.190773
+    ]
+  },
+  "properties": {
+    "prmname": "U306",
+    "description": "Merced CVPM13 Urban IN",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

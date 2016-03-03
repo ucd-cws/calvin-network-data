@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.317278423579,36.608325557409]},
- "properties":{"prmname":"CVPM17S",
- "description":"junction node for CVPM 17",
- "type":"Agricultural Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.317278423579,
+      36.608325557409
+    ]
+  },
+  "properties": {
+    "prmname": "CVPM17S",
+    "description": "junction node for CVPM 17",
+    "type": "Agricultural Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

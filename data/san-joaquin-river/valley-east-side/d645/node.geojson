@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.369506,37.512429]},
- "properties":{"prmname":"D645",
- "description":"Merced River diversion to North & Main California Aqueduct",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.369506,
+      37.512429
+    ]
+  },
+  "properties": {
+    "prmname": "D645",
+    "description": "Merced River diversion to North & Main California Aqueduct",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

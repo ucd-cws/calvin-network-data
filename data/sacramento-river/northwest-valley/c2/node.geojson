@@ -1,8 +1,27 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.200007,40.379066]},
- "properties":{"prmname":"C2",
- "description":"Cottonwood Creek Inflow",
- "type":"Junction",
- "inflows":{"default":{"description":"COTTONWOOD CREEK","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.200007,
+      40.379066
+    ]
+  },
+  "properties": {
+    "prmname": "C2",
+    "description": "Cottonwood Creek Inflow",
+    "type": "Junction",
+    "inflows": {
+      "default": {
+        "description": "COTTONWOOD CREEK",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

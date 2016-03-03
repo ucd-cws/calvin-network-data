@@ -1,8 +1,27 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.511804,37.116317]},
- "properties":{"prmname":"D692",
- "description":"Eastside Bypass accretion",
- "type":"Junction",
- "inflows":{"default":{"description":"Local Inflow","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.511804,
+      37.116317
+    ]
+  },
+  "properties": {
+    "prmname": "D692",
+    "description": "Eastside Bypass accretion",
+    "type": "Junction",
+    "inflows": {
+      "default": {
+        "description": "Local Inflow",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

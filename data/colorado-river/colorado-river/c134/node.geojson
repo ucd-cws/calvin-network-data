@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-114.15866,34.316624]},
- "properties":{"prmname":"C134",
- "description":"Colorado River diversion to Colorado River Aqueduct",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -114.15866,
+      34.316624
+    ]
+  },
+  "properties": {
+    "prmname": "C134",
+    "description": "Colorado River diversion to Colorado River Aqueduct",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.13631,39.92562]},
- "properties":{"prmname":"C11",
- "description":"Tehama Colusa California Aqueductnal",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.13631,
+      39.92562
+    ]
+  },
+  "properties": {
+    "prmname": "C11",
+    "description": "Tehama Colusa California Aqueductnal",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

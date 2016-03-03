@@ -1,13 +1,43 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.347721,36.839633]},
- "properties":{"prmname":"GW_SC",
- "description":"Santa Clara groundwater basin",
- "type":"Groundwater Storage",
- "initialstorage":425,
- "endingstorage":425,
- "inflows":{"default":{"description":"Santa Clara + Niles Cone + Livermore Groundwater Recharge","inflow":{"$ref" : "inflows/default.csv"}}},
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"LBC","bound":160},{"type":"UBC","bound":655}],
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.347721,
+      36.839633
+    ]
+  },
+  "properties": {
+    "prmname": "GW_SC",
+    "description": "Santa Clara groundwater basin",
+    "type": "Groundwater Storage",
+    "initialstorage": 425,
+    "endingstorage": 425,
+    "inflows": {
+      "default": {
+        "description": "Santa Clara + Niles Cone + Livermore Groundwater Recharge",
+        "inflow": {
+          "$ref": "inflows/default.csv"
+        }
+      }
+    },
+    "costs": {
+      "type": "Constant",
+      "cost": 0
+    },
+    "bounds": [
+      {
+        "type": "LBC",
+        "bound": 160
+      },
+      {
+        "type": "UBC",
+        "bound": 655
+      }
+    ],
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-120.340183,36.725933]},
- "properties":{"prmname":"R_MDT",
- "description":"Mendota Wildlife Area",
- "type":"Non-Standard Demand",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -120.340183,
+      36.725933
+    ]
+  },
+  "properties": {
+    "prmname": "R_MDT",
+    "description": "Mendota Wildlife Area",
+    "type": "Non-Standard Demand",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

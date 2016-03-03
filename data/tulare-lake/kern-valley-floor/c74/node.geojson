@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.117233,35.359626]},
- "properties":{"prmname":"C74",
- "description":"Cross Valley Canal delivery to CVPM-21",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -119.117233,
+      35.359626
+    ]
+  },
+  "properties": {
+    "prmname": "C74",
+    "description": "Cross Valley Canal delivery to CVPM-21",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.085967,38.714689]},
- "properties":{"prmname":"C16",
- "description":"Capay Diversion Dam",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.085967,
+      38.714689
+    ]
+  },
+  "properties": {
+    "prmname": "C16",
+    "description": "Capay Diversion Dam",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

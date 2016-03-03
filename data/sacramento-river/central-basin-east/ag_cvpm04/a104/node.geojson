@@ -1,8 +1,20 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.800888,39.0734550699113]},
- "properties":{"prmname":"A104",
- "description":"CVPM 4 Delivery",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -121.800888,
+      39.0734550699113
+    ]
+  },
+  "properties": {
+    "prmname": "A104",
+    "description": "CVPM 4 Delivery",
+    "type": "Junction",
+    "inflows": null,
+    "sinks": null,
+    "flow": {
+      "$ref": "flow.csv"
+    }
+  }
+}

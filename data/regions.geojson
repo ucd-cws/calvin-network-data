@@ -2,313 +2,91 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "$ref": "central-coast/region.geojson"
+      "$ref": "tulare-lake/region.geojson"
     },
     {
-      "$ref": "central-coast/northern/region.geojson"
+      "$ref": "tulare-lake/western-uplands/region.geojson"
     },
     {
-      "$ref": "central-coast/southern/region.geojson"
+      "$ref": "tulare-lake/uplands/region.geojson"
     },
     {
-      "$ref": "central-coast/southern/ud_sb_slo/region.geojson"
+      "$ref": "tulare-lake/san-luis-west-side/region.geojson"
     },
     {
-      "$ref": "colorado-river/region.geojson"
+      "$ref": "tulare-lake/san-luis-west-side/ud_cvpm15/region.geojson"
     },
     {
-      "$ref": "colorado-river/borrego/region.geojson"
+      "$ref": "tulare-lake/san-luis-west-side/ud_cvpm14/region.geojson"
     },
     {
-      "$ref": "colorado-river/chuckwalla/region.geojson"
+      "$ref": "tulare-lake/san-luis-west-side/ag_cvpm14b/region.geojson"
     },
     {
-      "$ref": "colorado-river/coachella/region.geojson"
+      "$ref": "tulare-lake/san-luis-west-side/ag_cvpm14a/region.geojson"
     },
     {
-      "$ref": "colorado-river/coachella/ag_coach/region.geojson"
+      "$ref": "tulare-lake/kings-kaweah-tule-rivers/region.geojson"
     },
     {
-      "$ref": "colorado-river/coachella/ud_coach/region.geojson"
+      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ud_fresn/region.geojson"
     },
     {
-      "$ref": "colorado-river/colorado-river/region.geojson"
+      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ud_cvpm18/region.geojson"
     },
     {
-      "$ref": "colorado-river/colorado-river/ag_bard/region.geojson"
+      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ud_cvpm17/region.geojson"
     },
     {
-      "$ref": "colorado-river/colorado-river/ag_palo/region.geojson"
+      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ag_cvpm18/region.geojson"
     },
     {
-      "$ref": "colorado-river/colorado-river/ud_blythe/region.geojson"
+      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ag_cvpm17/region.geojson"
     },
     {
-      "$ref": "colorado-river/imperial-valley/region.geojson"
+      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ag_cvpm16/region.geojson"
     },
     {
-      "$ref": "colorado-river/imperial-valley/ag_imp/region.geojson"
+      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ag_cvpm15b/region.geojson"
     },
     {
-      "$ref": "colorado-river/imperial-valley/ud_el_cen/region.geojson"
+      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ag_cvpm15a/region.geojson"
     },
     {
-      "$ref": "colorado-river/twenty-nine-palms-lanf/region.geojson"
+      "$ref": "tulare-lake/kern-valley-floor/region.geojson"
     },
     {
-      "$ref": "north-coast/region.geojson"
+      "$ref": "tulare-lake/kern-valley-floor/ud_cvpm21/region.geojson"
     },
     {
-      "$ref": "north-coast/coastal/region.geojson"
+      "$ref": "tulare-lake/kern-valley-floor/ud_cvpm20/region.geojson"
     },
     {
-      "$ref": "north-coast/lower-klamath/region.geojson"
+      "$ref": "tulare-lake/kern-valley-floor/ud_cvpm19/region.geojson"
     },
     {
-      "$ref": "north-coast/russian-river/region.geojson"
+      "$ref": "tulare-lake/kern-valley-floor/ud_baker/region.geojson"
     },
     {
-      "$ref": "north-coast/upper-klamath/region.geojson"
+      "$ref": "tulare-lake/kern-valley-floor/ag_cvpm21c/region.geojson"
     },
     {
-      "$ref": "north-lahontan/region.geojson"
+      "$ref": "tulare-lake/kern-valley-floor/ag_cvpm21b/region.geojson"
     },
     {
-      "$ref": "north-lahontan/alpine-group/region.geojson"
+      "$ref": "tulare-lake/kern-valley-floor/ag_cvpm21a/region.geojson"
     },
     {
-      "$ref": "north-lahontan/lassen-group/region.geojson"
+      "$ref": "tulare-lake/kern-valley-floor/ag_cvpm20/region.geojson"
     },
     {
-      "$ref": "sacramento-river/region.geojson"
+      "$ref": "tulare-lake/kern-valley-floor/ag_cvpm19b/region.geojson"
     },
     {
-      "$ref": "sacramento-river/central-basin-east/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/central-basin-east/ag_cvpm04/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/central-basin-east/ag_cvpm07/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/central-basin-east/ud_cvpm04/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/central-basin-east/ud_cvpm05/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/central-basin-east/ud_sac/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/central-basin-east/ud_yuba/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/central-basin-west/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/central-basin-west/ag_cvpm03a/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/central-basin-west/ag_cvpm03b/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/central-basin-west/ag_cvpm06/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/central-basin-west/ud_cvpm03/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/central-basin-west/ud_cvpm06/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/central-basin-west/ud_napa/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/delta-service-area/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/northeast-valley/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/northwest-valley/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/northwest-valley/ag_cvpm01/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/northwest-valley/ag_cvpm02/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/northwest-valley/ud_cvpm02/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/northwest-valley/ud_reddin/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/shasta-lake-pit-river/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/southeast/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/southeast/ag_cvpm05/region.geojson"
-    },
-    {
-      "$ref": "sacramento-river/southwest/region.geojson"
-    },
-    {
-      "$ref": "san-francisco-bay/region.geojson"
-    },
-    {
-      "$ref": "san-francisco-bay/north-bay/region.geojson"
-    },
-    {
-      "$ref": "san-francisco-bay/south-bay/region.geojson"
-    },
-    {
-      "$ref": "san-francisco-bay/south-bay/ud_cc/region.geojson"
-    },
-    {
-      "$ref": "san-francisco-bay/south-bay/ud_ebmud/region.geojson"
-    },
-    {
-      "$ref": "san-francisco-bay/south-bay/ud_scv/region.geojson"
-    },
-    {
-      "$ref": "san-francisco-bay/south-bay/ud_sf/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/delta-service-area/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/delta-service-area/ag_cvpm09/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/delta-service-area/ud_cvpm09/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/east-side-uplands/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/eastern-valley-floor/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/eastern-valley-floor/ag_cvpm08/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/eastern-valley-floor/ud_cvpm08/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/eastern-valley-floor/ud_stock/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/sierra-foothills/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/valley-east-side/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/valley-east-side/ag_cvpm11/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/valley-east-side/ag_cvpm12/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/valley-east-side/ag_cvpm13/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/valley-east-side/ud_cvpm11/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/valley-east-side/ud_cvpm12/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/valley-east-side/ud_cvpm13/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/valley-west-side/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/valley-west-side/ag_cvpm10/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/valley-west-side/ud_cvpm10/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/west-side-uplands/region.geojson"
-    },
-    {
-      "$ref": "san-joaquin-river/western-uplands/region.geojson"
-    },
-    {
-      "$ref": "south-coast/region.geojson"
-    },
-    {
-      "$ref": "south-coast/metropolitan-la/region.geojson"
-    },
-    {
-      "$ref": "south-coast/metropolitan-la/ud_cmwd/region.geojson"
-    },
-    {
-      "$ref": "south-coast/san-diego/region.geojson"
-    },
-    {
-      "$ref": "south-coast/san-diego/ag_sd/region.geojson"
-    },
-    {
-      "$ref": "south-coast/san-diego/ud_emwd/region.geojson"
-    },
-    {
-      "$ref": "south-coast/san-diego/ud_sdwd/region.geojson"
-    },
-    {
-      "$ref": "south-coast/santa-ana/region.geojson"
-    },
-    {
-      "$ref": "south-coast/santa-ana/ag_ew/region.geojson"
-    },
-    {
-      "$ref": "south-coast/santa-ana/ud_sbv/region.geojson"
-    },
-    {
-      "$ref": "south-coast/santa-clara/region.geojson"
-    },
-    {
-      "$ref": "south-coast/santa-clara/ag_vent/region.geojson"
-    },
-    {
-      "$ref": "south-coast/santa-clara/ud_clwa/region.geojson"
-    },
-    {
-      "$ref": "south-coast/santa-clara/ud_vent/region.geojson"
+      "$ref": "tulare-lake/kern-valley-floor/ag_cvpm19a/region.geojson"
     },
     {
       "$ref": "south-lahontan/region.geojson"
-    },
-    {
-      "$ref": "south-lahontan/antelope-valley/region.geojson"
-    },
-    {
-      "$ref": "south-lahontan/antelope-valley/ag_av/region.geojson"
-    },
-    {
-      "$ref": "south-lahontan/antelope-valley/ud_av/region.geojson"
-    },
-    {
-      "$ref": "south-lahontan/death-valley/region.geojson"
-    },
-    {
-      "$ref": "south-lahontan/indian-wells-area/region.geojson"
-    },
-    {
-      "$ref": "south-lahontan/mojave-river/region.geojson"
-    },
-    {
-      "$ref": "south-lahontan/mojave-river/ud_mr/region.geojson"
     },
     {
       "$ref": "south-lahontan/mono-owens-area/region.geojson"
@@ -317,88 +95,310 @@
       "$ref": "south-lahontan/mono-owens-area/ag_owen/region.geojson"
     },
     {
-      "$ref": "tulare-lake/region.geojson"
+      "$ref": "south-lahontan/mojave-river/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kern-valley-floor/region.geojson"
+      "$ref": "south-lahontan/mojave-river/ud_mr/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kern-valley-floor/ag_cvpm19a/region.geojson"
+      "$ref": "south-lahontan/indian-wells-area/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kern-valley-floor/ag_cvpm19b/region.geojson"
+      "$ref": "south-lahontan/death-valley/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kern-valley-floor/ag_cvpm20/region.geojson"
+      "$ref": "south-lahontan/antelope-valley/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kern-valley-floor/ag_cvpm21a/region.geojson"
+      "$ref": "south-lahontan/antelope-valley/ud_av/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kern-valley-floor/ag_cvpm21b/region.geojson"
+      "$ref": "south-lahontan/antelope-valley/ag_av/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kern-valley-floor/ag_cvpm21c/region.geojson"
+      "$ref": "south-coast/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kern-valley-floor/ud_baker/region.geojson"
+      "$ref": "south-coast/santa-clara/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kern-valley-floor/ud_cvpm19/region.geojson"
+      "$ref": "south-coast/santa-clara/ud_vent/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kern-valley-floor/ud_cvpm20/region.geojson"
+      "$ref": "south-coast/santa-clara/ud_clwa/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kern-valley-floor/ud_cvpm21/region.geojson"
+      "$ref": "south-coast/santa-clara/ag_vent/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kings-kaweah-tule-rivers/region.geojson"
+      "$ref": "south-coast/santa-ana/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ag_cvpm15a/region.geojson"
+      "$ref": "south-coast/santa-ana/ud_sbv/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ag_cvpm15b/region.geojson"
+      "$ref": "south-coast/santa-ana/ag_ew/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ag_cvpm16/region.geojson"
+      "$ref": "south-coast/san-diego/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ag_cvpm17/region.geojson"
+      "$ref": "south-coast/san-diego/ud_sdwd/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ag_cvpm18/region.geojson"
+      "$ref": "south-coast/san-diego/ud_emwd/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ud_cvpm17/region.geojson"
+      "$ref": "south-coast/san-diego/ag_sd/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ud_cvpm18/region.geojson"
+      "$ref": "south-coast/metropolitan-la/region.geojson"
     },
     {
-      "$ref": "tulare-lake/kings-kaweah-tule-rivers/ud_fresn/region.geojson"
+      "$ref": "south-coast/metropolitan-la/ud_cmwd/region.geojson"
     },
     {
-      "$ref": "tulare-lake/san-luis-west-side/region.geojson"
+      "$ref": "san-joaquin-river/region.geojson"
     },
     {
-      "$ref": "tulare-lake/san-luis-west-side/ag_cvpm14a/region.geojson"
+      "$ref": "san-joaquin-river/western-uplands/region.geojson"
     },
     {
-      "$ref": "tulare-lake/san-luis-west-side/ag_cvpm14b/region.geojson"
+      "$ref": "san-joaquin-river/west-side-uplands/region.geojson"
     },
     {
-      "$ref": "tulare-lake/san-luis-west-side/ud_cvpm14/region.geojson"
+      "$ref": "san-joaquin-river/valley-west-side/region.geojson"
     },
     {
-      "$ref": "tulare-lake/san-luis-west-side/ud_cvpm15/region.geojson"
+      "$ref": "san-joaquin-river/valley-west-side/ud_cvpm10/region.geojson"
     },
     {
-      "$ref": "tulare-lake/uplands/region.geojson"
+      "$ref": "san-joaquin-river/valley-west-side/ag_cvpm10/region.geojson"
     },
     {
-      "$ref": "tulare-lake/western-uplands/region.geojson"
+      "$ref": "san-joaquin-river/valley-east-side/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-east-side/ud_cvpm13/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-east-side/ud_cvpm12/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-east-side/ud_cvpm11/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-east-side/ag_cvpm13/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-east-side/ag_cvpm12/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-east-side/ag_cvpm11/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/sierra-foothills/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/eastern-valley-floor/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/eastern-valley-floor/ud_stock/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/eastern-valley-floor/ud_cvpm08/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/eastern-valley-floor/ag_cvpm08/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/east-side-uplands/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/delta-service-area/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/delta-service-area/ud_cvpm09/region.geojson"
+    },
+    {
+      "$ref": "san-joaquin-river/delta-service-area/ag_cvpm09/region.geojson"
+    },
+    {
+      "$ref": "san-francisco-bay/region.geojson"
+    },
+    {
+      "$ref": "san-francisco-bay/south-bay/region.geojson"
+    },
+    {
+      "$ref": "san-francisco-bay/south-bay/ud_sf/region.geojson"
+    },
+    {
+      "$ref": "san-francisco-bay/south-bay/ud_scv/region.geojson"
+    },
+    {
+      "$ref": "san-francisco-bay/south-bay/ud_ebmud/region.geojson"
+    },
+    {
+      "$ref": "san-francisco-bay/south-bay/ud_cc/region.geojson"
+    },
+    {
+      "$ref": "san-francisco-bay/north-bay/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/southwest/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/southeast/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/southeast/ag_cvpm05/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/shasta-lake-pit-river/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/northwest-valley/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/northwest-valley/ud_reddin/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/northwest-valley/ud_cvpm02/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/northwest-valley/ag_cvpm02/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/northwest-valley/ag_cvpm01/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/northeast-valley/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/delta-service-area/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-west/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-west/ud_napa/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-west/ud_cvpm06/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-west/ud_cvpm03/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-west/ag_cvpm06/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-west/ag_cvpm03b/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-west/ag_cvpm03a/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-east/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-east/ud_yuba/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-east/ud_sac/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-east/ud_cvpm05/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-east/ud_cvpm04/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-east/ag_cvpm07/region.geojson"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-east/ag_cvpm04/region.geojson"
+    },
+    {
+      "$ref": "north-lahontan/region.geojson"
+    },
+    {
+      "$ref": "north-lahontan/lassen-group/region.geojson"
+    },
+    {
+      "$ref": "north-lahontan/alpine-group/region.geojson"
+    },
+    {
+      "$ref": "north-coast/region.geojson"
+    },
+    {
+      "$ref": "north-coast/upper-klamath/region.geojson"
+    },
+    {
+      "$ref": "north-coast/russian-river/region.geojson"
+    },
+    {
+      "$ref": "north-coast/lower-klamath/region.geojson"
+    },
+    {
+      "$ref": "north-coast/coastal/region.geojson"
+    },
+    {
+      "$ref": "colorado-river/region.geojson"
+    },
+    {
+      "$ref": "colorado-river/twenty-nine-palms-lanf/region.geojson"
+    },
+    {
+      "$ref": "colorado-river/imperial-valley/region.geojson"
+    },
+    {
+      "$ref": "colorado-river/imperial-valley/ud_el_cen/region.geojson"
+    },
+    {
+      "$ref": "colorado-river/imperial-valley/ag_imp/region.geojson"
+    },
+    {
+      "$ref": "colorado-river/colorado-river/region.geojson"
+    },
+    {
+      "$ref": "colorado-river/colorado-river/ud_blythe/region.geojson"
+    },
+    {
+      "$ref": "colorado-river/colorado-river/ag_palo/region.geojson"
+    },
+    {
+      "$ref": "colorado-river/colorado-river/ag_bard/region.geojson"
+    },
+    {
+      "$ref": "colorado-river/coachella/region.geojson"
+    },
+    {
+      "$ref": "colorado-river/coachella/ud_coach/region.geojson"
+    },
+    {
+      "$ref": "colorado-river/coachella/ag_coach/region.geojson"
+    },
+    {
+      "$ref": "colorado-river/chuckwalla/region.geojson"
+    },
+    {
+      "$ref": "colorado-river/borrego/region.geojson"
+    },
+    {
+      "$ref": "central-coast/region.geojson"
+    },
+    {
+      "$ref": "central-coast/southern/region.geojson"
+    },
+    {
+      "$ref": "central-coast/southern/ud_sb_slo/region.geojson"
+    },
+    {
+      "$ref": "central-coast/northern/region.geojson"
     }
   ]
 }

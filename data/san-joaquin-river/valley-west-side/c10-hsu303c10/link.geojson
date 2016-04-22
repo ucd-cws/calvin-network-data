@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"C10-HSU303C10",
+ "description":"surface delivery CVPM 10",
+ "type":"Diversion",
+ "origin":"C10",
+ "terminus":"HSU303C10",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"UBC","bound":40.7999992370605}],
+ "flow":{"$ref" : "flow.csv"}}}

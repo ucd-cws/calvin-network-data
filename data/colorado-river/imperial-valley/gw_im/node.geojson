@@ -6,6 +6,7 @@
  "initialstorage":930,
  "endingstorage":930,
  "inflows":{"default":{"description":"Imperial_Valley","inflow":{"$ref" : "inflows/default.csv"}}},
+ "storage":{"$ref" : "storage.csv"},
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"UBC","bound":1000}],

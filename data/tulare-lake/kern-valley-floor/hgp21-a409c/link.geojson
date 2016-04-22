@@ -9,5 +9,4 @@
  "costs":{"type":"Constant",
  "cost":119.51000213623},
  "bounds":[{"type":"UBC","bound":265.649993896484}],
- "sinks":null,
  "flow":{"$ref" : "flow.csv"}}}

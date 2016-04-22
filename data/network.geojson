@@ -1998,11 +1998,19 @@
       "type": "node"
     },
     {
-      "$ref": "tulare-lake/kern-valley-floor/d860-pmp_wheelr/link.geojson",
+      "$ref": "tulare-lake/kern-valley-floor/d861-pmp_wheelr/link.geojson",
       "type": "link"
     },
     {
+      "$ref": "tulare-lake/kern-valley-floor/d861/node.geojson",
+      "type": "node"
+    },
+    {
       "$ref": "tulare-lake/kern-valley-floor/d860-hsu409cd86/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "tulare-lake/kern-valley-floor/d860-d861/link.geojson",
       "type": "link"
     },
     {
@@ -2766,6 +2774,14 @@
       "type": "link"
     },
     {
+      "$ref": "south-lahontan/mojave-river/d872-pwp_mojave/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "south-lahontan/mojave-river/d872/node.geojson",
+      "type": "node"
+    },
+    {
       "$ref": "south-lahontan/indian-wells-area/sr_la-pwp_owens2/link.geojson",
       "type": "link"
     },
@@ -2794,7 +2810,7 @@
       "type": "link"
     },
     {
-      "$ref": "south-lahontan/d871-pwp_mojave/link.geojson",
+      "$ref": "south-lahontan/d871-d872/link.geojson",
       "type": "link"
     },
     {
@@ -2970,8 +2986,12 @@
       "type": "node"
     },
     {
-      "$ref": "south-lahontan/antelope-valley/d868-pmp_pearb/link.geojson",
+      "$ref": "south-lahontan/antelope-valley/d870-pmp_pearb/link.geojson",
       "type": "link"
+    },
+    {
+      "$ref": "south-lahontan/antelope-valley/d870/node.geojson",
+      "type": "node"
     },
     {
       "$ref": "south-lahontan/antelope-valley/d868-n7/link.geojson",
@@ -2979,6 +2999,10 @@
     },
     {
       "$ref": "south-lahontan/antelope-valley/d868-harav/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "south-lahontan/antelope-valley/d868-d870/link.geojson",
       "type": "link"
     },
     {
@@ -3194,7 +3218,7 @@
       "type": "node"
     },
     {
-      "$ref": "south-coast/santa-clara/sr_pym-pwp_castai/link.geojson",
+      "$ref": "south-coast/santa-clara/sr_pym-d886/link.geojson",
       "type": "link"
     },
     {
@@ -3226,7 +3250,7 @@
       "type": "node"
     },
     {
-      "$ref": "south-coast/santa-clara/pwp_castai-sr_cas/link.geojson",
+      "$ref": "south-coast/santa-clara/pwp_castai-d887/link.geojson",
       "type": "link"
     },
     {
@@ -3279,6 +3303,30 @@
     },
     {
       "$ref": "south-coast/santa-clara/d888/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "south-coast/santa-clara/d887-sr_cas/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "south-coast/santa-clara/d887/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "south-coast/santa-clara/d886-pwp_castai/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "south-coast/santa-clara/d886/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "south-coast/santa-clara/d885-pwp_warne/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "south-coast/santa-clara/d885/node.geojson",
       "type": "node"
     },
     {
@@ -4238,7 +4286,7 @@
       "type": "node"
     },
     {
-      "$ref": "san-joaquin-river/valley-west-side/pmp_damigo-d744/link.geojson",
+      "$ref": "san-joaquin-river/valley-west-side/pmp_damigo-d744a/link.geojson",
       "type": "link"
     },
     {
@@ -4334,11 +4382,19 @@
       "type": "node"
     },
     {
+      "$ref": "san-joaquin-river/valley-west-side/d804-d814/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-west-side/d804/node.geojson",
+      "type": "node"
+    },
+    {
       "$ref": "san-joaquin-river/valley-west-side/d803-hsu303d803/link.geojson",
       "type": "link"
     },
     {
-      "$ref": "san-joaquin-river/valley-west-side/d803-d814/link.geojson",
+      "$ref": "san-joaquin-river/valley-west-side/d803-d804/link.geojson",
       "type": "link"
     },
     {
@@ -4347,6 +4403,14 @@
     },
     {
       "$ref": "san-joaquin-river/valley-west-side/d745/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-west-side/d744a-d744/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-west-side/d744a/node.geojson",
       "type": "node"
     },
     {
@@ -4374,7 +4438,15 @@
       "type": "node"
     },
     {
-      "$ref": "san-joaquin-river/valley-west-side/d742-d743a/link.geojson",
+      "$ref": "san-joaquin-river/valley-west-side/d743-d743a/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-west-side/d743/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-west-side/d742-d743/link.geojson",
       "type": "link"
     },
     {
@@ -4434,6 +4506,14 @@
       "type": "node"
     },
     {
+      "$ref": "san-joaquin-river/valley-west-side/d703-d710/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-west-side/d703/node.geojson",
+      "type": "node"
+    },
+    {
       "$ref": "san-joaquin-river/valley-west-side/d701-d700/link.geojson",
       "type": "link"
     },
@@ -4442,7 +4522,7 @@
       "type": "node"
     },
     {
-      "$ref": "san-joaquin-river/valley-west-side/d700-d710/link.geojson",
+      "$ref": "san-joaquin-river/valley-west-side/d700-d703/link.geojson",
       "type": "link"
     },
     {
@@ -4456,6 +4536,10 @@
     {
       "$ref": "san-joaquin-river/valley-west-side/d694/node.geojson",
       "type": "node"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-west-side/d689-c10/link.geojson",
+      "type": "link"
     },
     {
       "$ref": "san-joaquin-river/valley-west-side/d689/node.geojson",
@@ -4476,6 +4560,10 @@
     {
       "$ref": "san-joaquin-river/valley-west-side/d676/node.geojson",
       "type": "node"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-west-side/d616-c10/link.geojson",
+      "type": "link"
     },
     {
       "$ref": "san-joaquin-river/valley-west-side/d616/node.geojson",
@@ -4515,6 +4603,14 @@
     },
     {
       "$ref": "san-joaquin-river/valley-west-side/c30/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-west-side/c10-hsu303c10/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-west-side/c10/node.geojson",
       "type": "node"
     },
     {
@@ -4982,10 +5078,6 @@
       "type": "link"
     },
     {
-      "$ref": "san-joaquin-river/valley-east-side/d699-c10/link.geojson",
-      "type": "link"
-    },
-    {
       "$ref": "san-joaquin-river/valley-east-side/d699/node.geojson",
       "type": "node"
     },
@@ -5054,7 +5146,15 @@
       "type": "node"
     },
     {
-      "$ref": "san-joaquin-river/valley-east-side/d653a-d672/link.geojson",
+      "$ref": "san-joaquin-river/valley-east-side/d653b-d672/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-east-side/d653b/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-east-side/d653a-d653b/link.geojson",
       "type": "link"
     },
     {
@@ -5078,7 +5178,15 @@
       "type": "node"
     },
     {
-      "$ref": "san-joaquin-river/valley-east-side/d646-d649/link.geojson",
+      "$ref": "san-joaquin-river/valley-east-side/d647-d649/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-east-side/d647/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-east-side/d646-d647/link.geojson",
       "type": "link"
     },
     {
@@ -5103,6 +5211,14 @@
     },
     {
       "$ref": "san-joaquin-river/valley-east-side/d645/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-east-side/d643-d645/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "san-joaquin-river/valley-east-side/d643/node.geojson",
       "type": "node"
     },
     {
@@ -5167,10 +5283,6 @@
     },
     {
       "$ref": "san-joaquin-river/valley-east-side/c47/node.geojson",
-      "type": "node"
-    },
-    {
-      "$ref": "san-joaquin-river/valley-east-side/c10/node.geojson",
       "type": "node"
     },
     {
@@ -5499,10 +5611,6 @@
     },
     {
       "$ref": "san-joaquin-river/sierra-foothills/sr_dnp/node.geojson",
-      "type": "node"
-    },
-    {
-      "$ref": "san-joaquin-river/sierra-foothills/sink_c41/node.geojson",
       "type": "node"
     },
     {
@@ -6210,6 +6318,10 @@
       "type": "link"
     },
     {
+      "$ref": "san-joaquin-river/d699-c10/link.geojson",
+      "type": "link"
+    },
+    {
       "$ref": "san-joaquin-river/d694-hsu306d694/link.geojson",
       "type": "link"
     },
@@ -6227,10 +6339,6 @@
     },
     {
       "$ref": "san-joaquin-river/d689-d612/link.geojson",
-      "type": "link"
-    },
-    {
-      "$ref": "san-joaquin-river/d689-c10/link.geojson",
       "type": "link"
     },
     {
@@ -6262,7 +6370,7 @@
       "type": "link"
     },
     {
-      "$ref": "san-joaquin-river/d642-d645/link.geojson",
+      "$ref": "san-joaquin-river/d642-d643/link.geojson",
       "type": "link"
     },
     {
@@ -6291,10 +6399,6 @@
     },
     {
       "$ref": "san-joaquin-river/d616-c42/link.geojson",
-      "type": "link"
-    },
-    {
-      "$ref": "san-joaquin-river/d616-c10/link.geojson",
       "type": "link"
     },
     {
@@ -6327,10 +6431,6 @@
     },
     {
       "$ref": "san-joaquin-river/c310-c70/link.geojson",
-      "type": "link"
-    },
-    {
-      "$ref": "san-joaquin-river/c10-hsu303c10/link.geojson",
       "type": "link"
     },
     {
@@ -6906,7 +7006,7 @@
       "type": "link"
     },
     {
-      "$ref": "sacramento-river/sr_ber-c19/link.geojson",
+      "$ref": "sacramento-river/sr_ber-c155/link.geojson",
       "type": "link"
     },
     {
@@ -6954,7 +7054,15 @@
       "type": "node"
     },
     {
-      "$ref": "sacramento-river/southeast/n201-sr_cfw/link.geojson",
+      "$ref": "sacramento-river/southeast/n202-sr_cfw/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "sacramento-river/southeast/n202/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "sacramento-river/southeast/n201-n202/link.geojson",
       "type": "link"
     },
     {
@@ -7582,6 +7690,10 @@
       "type": "node"
     },
     {
+      "$ref": "sacramento-river/n14-d30/link.geojson",
+      "type": "link"
+    },
+    {
       "$ref": "sacramento-river/hsu202c80-hsr202/link.geojson",
       "type": "link"
     },
@@ -7710,7 +7822,7 @@
       "type": "link"
     },
     {
-      "$ref": "sacramento-river/d76b-d66a/link.geojson",
+      "$ref": "sacramento-river/d76b-n13/link.geojson",
       "type": "link"
     },
     {
@@ -7723,6 +7835,10 @@
     },
     {
       "$ref": "sacramento-river/d66a-d66/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "sacramento-river/d66-n14/link.geojson",
       "type": "link"
     },
     {
@@ -7954,7 +8070,7 @@
       "type": "node"
     },
     {
-      "$ref": "sacramento-river/central-basin-west/sr_clk_inv-c16/link.geojson",
+      "$ref": "sacramento-river/central-basin-west/sr_clk_inv-c150/link.geojson",
       "type": "link"
     },
     {
@@ -8182,10 +8298,6 @@
       "type": "link"
     },
     {
-      "$ref": "sacramento-river/central-basin-west/d66-d30/link.geojson",
-      "type": "link"
-    },
-    {
       "$ref": "sacramento-river/central-basin-west/d66/node.geojson",
       "type": "node"
     },
@@ -8287,6 +8399,22 @@
     },
     {
       "$ref": "sacramento-river/central-basin-west/c16/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-west/c155-c19/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-west/c155/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-west/c150-c16/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-west/c150/node.geojson",
       "type": "node"
     },
     {
@@ -8638,6 +8766,18 @@
       "type": "node"
     },
     {
+      "$ref": "sacramento-river/central-basin-east/n14/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-east/n13-d66a/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-east/n13/node.geojson",
+      "type": "node"
+    },
+    {
       "$ref": "sacramento-river/central-basin-east/int_cvpm05-hgr05/link.geojson",
       "type": "link"
     },
@@ -8786,7 +8926,7 @@
       "type": "link"
     },
     {
-      "$ref": "sacramento-river/central-basin-east/d9-d64/link.geojson",
+      "$ref": "sacramento-river/central-basin-east/d9-d85/link.geojson",
       "type": "link"
     },
     {
@@ -8795,6 +8935,14 @@
     },
     {
       "$ref": "sacramento-river/central-basin-east/d9/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-east/d85-d64/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-east/d85/node.geojson",
       "type": "node"
     },
     {
@@ -9342,7 +9490,7 @@
       "type": "link"
     },
     {
-      "$ref": "d884-pwp_warne/link.geojson",
+      "$ref": "d884-d885/link.geojson",
       "type": "link"
     },
     {
@@ -9354,7 +9502,7 @@
       "type": "link"
     },
     {
-      "$ref": "d847-d849/link.geojson",
+      "$ref": "d847-d848/link.geojson",
       "type": "link"
     },
     {
@@ -10199,6 +10347,14 @@
     },
     {
       "$ref": "central-coast/southern/d849/node.geojson",
+      "type": "node"
+    },
+    {
+      "$ref": "central-coast/southern/d848-d849/link.geojson",
+      "type": "link"
+    },
+    {
+      "$ref": "central-coast/southern/d848/node.geojson",
       "type": "node"
     },
     {

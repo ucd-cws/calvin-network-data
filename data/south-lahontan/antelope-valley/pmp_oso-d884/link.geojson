@@ -8,5 +8,4 @@
  "amplitude":1,
  "costs":null,
  "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "sinks":null,
  "flow":{"$ref" : "flow.csv"}}}

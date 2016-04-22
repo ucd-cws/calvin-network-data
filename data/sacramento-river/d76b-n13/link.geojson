@@ -1,0 +1,12 @@
+{"type":"Feature",
+ "geometry":null,
+ "properties":{"prmname":"D76b-N13",
+ "description":"Sacramento River DA10 outflow",
+ "type":"Diversion",
+ "origin":"D76b",
+ "terminus":"N13",
+ "amplitude":1,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "bounds":[{"type":"NOB"}],
+ "flow":null}}

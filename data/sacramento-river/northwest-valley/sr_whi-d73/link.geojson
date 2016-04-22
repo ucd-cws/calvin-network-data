@@ -9,5 +9,4 @@
  "costs":{"type":"Constant",
  "cost":0.0148000000044703},
  "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
- "sinks":null,
  "flow":{"$ref" : "flow.csv"}}}

@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.82522,36.918288]},
+ "properties":{"prmname":"D744a",
+ "description":null,
+ "type":"Junction",
+ "inflows":null,
+ "sinks":[{"default" : {"description" : "California Aqueduct Reach 4 Losses", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
+ "flow":null}}

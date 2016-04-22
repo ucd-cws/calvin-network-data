@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.014646,39.314206]},
+ "properties":{"prmname":"N14",
+ "description":null,
+ "type":"Junction",
+ "inflows":{"default":{"description":"DSA15 Projected Gain in.","inflow":{"$ref" : "inflows/default.csv"}}},
+ "sinks":[{"default" : {"description" : "DSA15 Projected Gain out.", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
+ "flow":{"$ref" : "flow.csv"}}}

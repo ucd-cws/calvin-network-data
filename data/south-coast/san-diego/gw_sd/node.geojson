@@ -6,6 +6,7 @@
  "initialstorage":7000,
  "endingstorage":7000,
  "inflows":{"default":{"description":"Inflows to groundwater","inflow":{"$ref" : "inflows/default.csv"}}},
+ "storage":{"$ref" : "storage.csv"},
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"UBC","bound":10000}],

@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.118404,37.3623969999999]},
+ "properties":{"prmname":"D804",
+ "description":"California Aqueduct losses",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":[{"default" : {"description" : "California Aqueduct Reach 1 & 2 losses", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
+ "flow":{"$ref" : "flow.csv"}}}

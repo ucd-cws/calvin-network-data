@@ -6,6 +6,7 @@
  "initialstorage":90210,
  "endingstorage":87055,
  "inflows":{"default":{"description":"Groundwater inflow GW-10-C2VSIM Historical Run ","inflow":{"$ref" : "inflows/default.csv"}}},
+ "storage":{"$ref" : "storage.csv"},
  "costs":{"type":"Constant",
  "cost":0},
  "bounds":[{"type":"NOB"}],

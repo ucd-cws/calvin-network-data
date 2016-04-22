@@ -1,0 +1,9 @@
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.840908,36.9482179999999]},
+ "properties":{"prmname":"D743",
+ "description":"California Aqueduct losses",
+ "type":"Junction",
+ "inflows":null,
+ "sinks":[{"default" : {"description" : "California Aqueduct Reach 3 losses", "costs" : {"type":"Constant",
+ "cost":0}, "bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
+ "flow":{"$ref" : "flow.csv"}}}

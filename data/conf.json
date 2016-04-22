@@ -1,0 +1,7 @@
+{
+  "id" : "prmname",
+  "region" : "region.geojson",
+  "node" : "node.geojson",
+    "link" : "link.geojson",
+    "regionId": "name"
+}

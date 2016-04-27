@@ -8,4 +8,4 @@
  "amplitude":1,
  "costs":null,
  "bounds":[{"type":"UBT","bound": {"$ref":"./UBT.csv"}}],
- "flow":null}}
+ "flow":{"$ref" : "flow.csv"}}}

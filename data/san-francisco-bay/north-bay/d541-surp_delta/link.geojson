@@ -8,4 +8,4 @@
  "amplitude":1,
  "costs":null,
  "bounds":[{"type":"NOB"}],
- "flow":null}}
+ "flow":{"$ref" : "flow.csv"}}}

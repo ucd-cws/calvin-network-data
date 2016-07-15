@@ -7,6 +7,6 @@
  "terminus":"N7",
  "amplitude":1,
  "costs":{"type":"Constant",
- "cost":3.4028230607371e+38},
+ "cost":0},
  "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
  "flow":{"$ref" : "flow.csv"}}}

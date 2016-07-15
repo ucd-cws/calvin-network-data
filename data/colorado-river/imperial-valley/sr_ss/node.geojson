@@ -4,7 +4,7 @@
  "description":"Salton Sea",
  "type":"Surface Storage",
  "initialstorage":6941,
- "endingstorage":6941,
+ "endingstorage":null,
  "areacapfactor":0.017000000923872,
  "inflows":null,
  "evaporation":{"$ref" : "evaporation.csv"},

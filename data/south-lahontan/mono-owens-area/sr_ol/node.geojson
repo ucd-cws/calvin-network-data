@@ -4,7 +4,7 @@
  "description":"Owens Lake",
  "type":"Surface Storage",
  "initialstorage":0.00999999977648258,
- "endingstorage":3.4028230607371e+38,
+ "endingstorage":null,
  "areacapfactor":0,
  "inflows":null,
  "evaporation":null,

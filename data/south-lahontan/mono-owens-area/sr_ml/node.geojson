@@ -4,7 +4,7 @@
  "description":"Mono Lake",
  "type":"Surface Storage",
  "initialstorage":2939.541015625,
- "endingstorage":2939.541015625,
+ "endingstorage":null,
  "areacapfactor":0.0140000004321337,
  "inflows":null,
  "evaporation":{"$ref" : "evaporation.csv"},

@@ -4,7 +4,7 @@
  "description":"Extra groundwater storage for SWP beyond the Tehachapi mountains - Kern-Delta, Arvin-Edison, & Semitropic Projects",
  "type":"Groundwater Storage",
  "initialstorage":0,
- "endingstorage":0,
+ "endingstorage":null,
  "inflows":null,
  "storage":null,
  "costs":{"type":"Constant",

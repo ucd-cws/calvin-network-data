@@ -4,7 +4,7 @@
  "description":"Buena Vista Lake Bed",
  "type":"Surface Storage",
  "initialstorage":0.00100000004749745,
- "endingstorage":0,
+ "endingstorage":null,
  "areacapfactor":0,
  "inflows":null,
  "evaporation":{"$ref" : "evaporation.csv"},

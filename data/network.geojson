@@ -1892,16 +1892,6 @@
       "type": "node"
     },
     {
-      "$ref": "tulare-lake/kern-valley-floor/pmpchris-d862b/link.geojson",
-      "id": "pmpchris-d862b",
-      "type": "link"
-    },
-    {
-      "$ref": "tulare-lake/kern-valley-floor/pmpchris/node.geojson",
-      "id": "pmpchris",
-      "type": "node"
-    },
-    {
       "$ref": "tulare-lake/kern-valley-floor/pmp_wheelr-d862a/link.geojson",
       "id": "pmp_wheelr-d862a",
       "type": "link"
@@ -1924,6 +1914,16 @@
     {
       "$ref": "tulare-lake/kern-valley-floor/pmp_buena/node.geojson",
       "id": "pmp_buena",
+      "type": "node"
+    },
+    {
+      "$ref": "tulare-lake/kern-valley-floor/pmpchris-d862b/link.geojson",
+      "id": "pmpchris-d862b",
+      "type": "link"
+    },
+    {
+      "$ref": "tulare-lake/kern-valley-floor/pmpchris/node.geojson",
+      "id": "pmpchris",
       "type": "node"
     },
     {
@@ -3797,11 +3797,6 @@
       "type": "node"
     },
     {
-      "$ref": "south-lahontan/antelope-valley/agg_av-hgrav/link.geojson",
-      "id": "agg_av-hgrav",
-      "type": "link"
-    },
-    {
       "$ref": "south-lahontan/antelope-valley/ag_av/hu502-agg_av/link.geojson",
       "id": "hu502-agg_av",
       "type": "link"
@@ -3835,6 +3830,11 @@
       "$ref": "south-lahontan/antelope-valley/ag_av/a502/node.geojson",
       "id": "a502",
       "type": "node"
+    },
+    {
+      "$ref": "south-lahontan/antelope-valley/agg_av-hgrav/link.geojson",
+      "id": "agg_av-hgrav",
+      "type": "link"
     },
     {
       "$ref": "south-coast/santa-clara/ud_vent/wwp501-hp501/link.geojson",
@@ -4177,11 +4177,6 @@
       "type": "node"
     },
     {
-      "$ref": "south-coast/santa-clara/agg_vent-hgrvc/link.geojson",
-      "id": "agg_vent-hgrvc",
-      "type": "link"
-    },
-    {
       "$ref": "south-coast/santa-clara/ag_vent/hu501-ags_vent/link.geojson",
       "id": "hu501-ags_vent",
       "type": "link"
@@ -4225,6 +4220,11 @@
       "$ref": "south-coast/santa-clara/ag_vent/a501/node.geojson",
       "id": "a501",
       "type": "node"
+    },
+    {
+      "$ref": "south-coast/santa-clara/agg_vent-hgrvc/link.geojson",
+      "id": "agg_vent-hgrvc",
+      "type": "link"
     },
     {
       "$ref": "south-coast/santa-ana/ud_sbv/wwp506-hp506/link.geojson",
@@ -4532,11 +4532,6 @@
       "type": "node"
     },
     {
-      "$ref": "south-coast/santa-ana/agg_ew-hgrew/link.geojson",
-      "id": "agg_ew-hgrew",
-      "type": "link"
-    },
-    {
       "$ref": "south-coast/santa-ana/ag_ew/hu509-agg_ew/link.geojson",
       "id": "hu509-agg_ew",
       "type": "link"
@@ -4570,6 +4565,11 @@
       "$ref": "south-coast/santa-ana/ag_ew/a509/node.geojson",
       "id": "a509",
       "type": "node"
+    },
+    {
+      "$ref": "south-coast/santa-ana/agg_ew-hgrew/link.geojson",
+      "id": "agg_ew-hgrew",
+      "type": "link"
     },
     {
       "$ref": "south-coast/san-diego/ud_sdwd/wwp511-hp511/link.geojson",
@@ -4967,11 +4967,6 @@
       "type": "node"
     },
     {
-      "$ref": "south-coast/san-diego/agg_sd-hgrsd/link.geojson",
-      "id": "agg_sd-hgrsd",
-      "type": "link"
-    },
-    {
       "$ref": "south-coast/san-diego/ag_sd/hu511-ags_sd/link.geojson",
       "id": "hu511-ags_sd",
       "type": "link"
@@ -5015,6 +5010,11 @@
       "$ref": "south-coast/san-diego/ag_sd/a511/node.geojson",
       "id": "a511",
       "type": "node"
+    },
+    {
+      "$ref": "south-coast/san-diego/agg_sd-hgrsd/link.geojson",
+      "id": "agg_sd-hgrsd",
+      "type": "link"
     },
     {
       "$ref": "south-coast/pmp_wads-c138/link.geojson",
@@ -7014,11 +7014,6 @@
     {
       "$ref": "san-joaquin-river/sierra-foothills/sr_dnp/node.geojson",
       "id": "sr_dnp",
-      "type": "node"
-    },
-    {
-      "$ref": "san-joaquin-river/sierra-foothills/sink_c41/node.geojson",
-      "id": "sink_c41",
       "type": "node"
     },
     {
@@ -10157,16 +10152,6 @@
       "type": "node"
     },
     {
-      "$ref": "sacramento-river/central-basin-west/hsur101-r_srw/link.geojson",
-      "id": "hsur101-r_srw",
-      "type": "link"
-    },
-    {
-      "$ref": "sacramento-river/central-basin-west/hsur101/node.geojson",
-      "id": "hsur101",
-      "type": "node"
-    },
-    {
       "$ref": "sacramento-river/central-basin-west/hsu_d55-wtp205/link.geojson",
       "id": "hsu_d55-wtp205",
       "type": "link"
@@ -10184,6 +10169,16 @@
     {
       "$ref": "sacramento-river/central-basin-west/hsu_c21/node.geojson",
       "id": "hsu_c21",
+      "type": "node"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-west/hsur101-r_srw/link.geojson",
+      "id": "hsur101-r_srw",
+      "type": "link"
+    },
+    {
+      "$ref": "sacramento-river/central-basin-west/hsur101/node.geojson",
+      "id": "hsur101",
       "type": "node"
     },
     {
@@ -12687,11 +12682,6 @@
       "type": "node"
     },
     {
-      "$ref": "colorado-river/coachella/agg_coach-hgrch/link.geojson",
-      "id": "agg_coach-hgrch",
-      "type": "link"
-    },
-    {
       "$ref": "colorado-river/coachella/ag_coach/hu507-ags_coach/link.geojson",
       "id": "hu507-ags_coach",
       "type": "link"
@@ -12745,6 +12735,11 @@
       "$ref": "colorado-river/coachella/ag_coach/a507/node.geojson",
       "id": "a507",
       "type": "node"
+    },
+    {
+      "$ref": "colorado-river/coachella/agg_coach-hgrch/link.geojson",
+      "id": "agg_coach-hgrch",
+      "type": "link"
     },
     {
       "$ref": "colorado-river/chuckwalla/pmp_jh-harhf/link.geojson",

@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGP16-U401",
- "description":"GW-16 to Fresno GW pumping supply",
- "type":"Diversion",
- "origin":"HGP16",
- "terminus":"U401",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":118.400001525879},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGP16-U401",
+  "description": "GW-16 to Fresno GW pumping supply",
+  "type": "Diversion",
+  "origin": "HGP16",
+  "terminus": "U401",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 118.400001525879
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C38-D98",
- "description":"Mokelumne River Reach",
- "type":"Diversion",
- "origin":"C38",
- "terminus":"D98",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C38-D98",
+  "description": "Mokelumne River Reach",
+  "type": "Diversion",
+  "origin": "C38",
+  "terminus": "D98",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

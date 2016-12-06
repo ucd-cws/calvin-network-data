@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WWP204-HP204",
- "description":"Proposed Sacramento Recycling",
- "type":"Diversion",
- "origin":"WWP204",
- "terminus":"HP204",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":1480},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WWP204-HP204",
+  "description": "Proposed Sacramento Recycling",
+  "type": "Diversion",
+  "origin": "WWP204",
+  "terminus": "HP204",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 1480
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

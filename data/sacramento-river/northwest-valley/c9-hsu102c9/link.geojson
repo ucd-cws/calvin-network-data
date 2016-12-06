@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C9-HSU102C9",
- "description":"surface delivery CVPM 2",
- "type":"Diversion",
- "origin":"C9",
- "terminus":"HSU102C9",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":29.2999992370605}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C9-HSU102C9",
+  "description": "surface delivery CVPM 2",
+  "type": "Diversion",
+  "origin": "C9",
+  "terminus": "HSU102C9",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 29.2999992370605
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

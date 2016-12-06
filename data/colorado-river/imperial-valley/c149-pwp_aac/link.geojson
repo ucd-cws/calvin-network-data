@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C149-PWP_AAC",
- "description":"West IID canal",
- "type":"Diversion",
- "origin":"C149",
- "terminus":"PWP_AAC",
- "amplitude":0.985000014305115,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C149-PWP_AAC",
+  "description": "West IID canal",
+  "type": "Diversion",
+  "origin": "C149",
+  "terminus": "PWP_AAC",
+  "amplitude": 0.985000014305115,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

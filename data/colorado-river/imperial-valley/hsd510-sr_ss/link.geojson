@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSD510-SR_SS",
- "description":null,
- "type":"Diversion",
- "origin":"HSD510",
- "terminus":"SR_SS",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSD510-SR_SS",
+  "description": null,
+  "type": "Diversion",
+  "origin": "HSD510",
+  "terminus": "SR_SS",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

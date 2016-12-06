@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSU401C53-A401",
- "description":"Kings River diversion to CVPM 16 (DA 60C)",
- "type":"Diversion",
- "origin":"HSU401C53",
- "terminus":"A401",
- "amplitude":0.850000023841858,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSU401C53-A401",
+  "description": "Kings River diversion to CVPM 16 (DA 60C)",
+  "type": "Diversion",
+  "origin": "HSU401C53",
+  "terminus": "A401",
+  "amplitude": 0.850000023841858,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

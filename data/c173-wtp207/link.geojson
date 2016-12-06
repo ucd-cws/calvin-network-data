@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C173-WTP207",
- "description":null,
- "type":"Diversion",
- "origin":"C173",
- "terminus":"WTP207",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":45},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C173-WTP207",
+  "description": null,
+  "type": "Diversion",
+  "origin": "C173",
+  "terminus": "WTP207",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 45
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

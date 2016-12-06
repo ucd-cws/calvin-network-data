@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C323-C310",
- "description":"EBMUD and CCWD Intertie",
- "type":"Diversion",
- "origin":"C323",
- "terminus":"C310",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C323-C310",
+  "description": "EBMUD and CCWD Intertie",
+  "type": "Diversion",
+  "origin": "C323",
+  "terminus": "C310",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBM",
+      "bound": {
+        "$ref": "./UBM.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

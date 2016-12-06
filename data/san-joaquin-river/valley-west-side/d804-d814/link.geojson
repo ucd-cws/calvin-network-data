@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D804-D814",
- "description":"California Aqueduct",
- "type":"Diversion",
- "origin":"D804",
- "terminus":"D814",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D804-D814",
+  "description": "California Aqueduct",
+  "type": "Diversion",
+  "origin": "D804",
+  "terminus": "D814",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

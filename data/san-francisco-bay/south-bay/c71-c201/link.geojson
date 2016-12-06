@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C71-C201",
- "description":"Proposed Contra Costa Canal transfer to EBMUD",
- "type":"Diversion",
- "origin":"C71",
- "terminus":"C201",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":74},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C71-C201",
+  "description": "Proposed Contra Costa Canal transfer to EBMUD",
+  "type": "Diversion",
+  "origin": "C71",
+  "terminus": "C201",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 74
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

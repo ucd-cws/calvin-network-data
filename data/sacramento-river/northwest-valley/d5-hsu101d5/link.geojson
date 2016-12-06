@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D5-HSU101D5",
- "description":"surface delivery CVPM 1",
- "type":"Diversion",
- "origin":"D5",
- "terminus":"HSU101D5",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":7.30000019073486}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D5-HSU101D5",
+  "description": "surface delivery CVPM 1",
+  "type": "Diversion",
+  "origin": "D5",
+  "terminus": "HSU101D5",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 7.30000019073486
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

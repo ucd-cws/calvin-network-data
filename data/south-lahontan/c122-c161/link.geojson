@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C122-C161",
- "description":"LAA Delivery to Central MWD",
- "type":"Diversion",
- "origin":"C122",
- "terminus":"C161",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":7.40000009536743},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C122-C161",
+  "description": "LAA Delivery to Central MWD",
+  "type": "Diversion",
+  "origin": "C122",
+  "terminus": "C161",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 7.40000009536743
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

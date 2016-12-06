@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D850-N12",
- "description":"Surface delivery CVPM 19",
- "type":"Diversion",
- "origin":"D850",
- "terminus":"N12",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D850-N12",
+  "description": "Surface delivery CVPM 19",
+  "type": "Diversion",
+  "origin": "D850",
+  "terminus": "N12",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBM",
+      "bound": {
+        "$ref": "./UBM.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

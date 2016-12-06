@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGP16-A401",
- "description":"Agricultural groundwater pumping GW-16 to CVPM 16 Demand",
- "type":"Diversion",
- "origin":"HGP16",
- "terminus":"A401",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":62.3699989318848},
- "bounds":[{"type":"UBC","bound":61.7700004577637}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGP16-A401",
+  "description": "Agricultural groundwater pumping GW-16 to CVPM 16 Demand",
+  "type": "Diversion",
+  "origin": "HGP16",
+  "terminus": "A401",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 62.3699989318848
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 61.7700004577637
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

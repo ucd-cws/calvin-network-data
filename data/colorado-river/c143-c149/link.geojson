@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C143-C149",
- "description":"Mid All American Canal",
- "type":"Diversion",
- "origin":"C143",
- "terminus":"C149",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C143-C149",
+  "description": "Mid All American Canal",
+  "type": "Diversion",
+  "origin": "C143",
+  "terminus": "C149",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBM",
+      "bound": {
+        "$ref": "./UBM.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

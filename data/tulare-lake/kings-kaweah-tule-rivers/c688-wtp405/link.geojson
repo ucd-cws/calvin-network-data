@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C688-WTP405",
- "description":null,
- "type":"Diversion",
- "origin":"C688",
- "terminus":"WTP405",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":45},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C688-WTP405",
+  "description": null,
+  "type": "Diversion",
+  "origin": "C688",
+  "terminus": "WTP405",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 45
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

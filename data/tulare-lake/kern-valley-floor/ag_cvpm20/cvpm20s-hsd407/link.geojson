@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"CVPM20S-HSD407",
- "description":"SW return flow from CVPM 20",
- "type":"Diversion",
- "origin":"CVPM20S",
- "terminus":"HSD407",
- "amplitude":0.256000012159348,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "CVPM20S-HSD407",
+  "description": "SW return flow from CVPM 20",
+  "type": "Diversion",
+  "origin": "CVPM20S",
+  "terminus": "HSD407",
+  "amplitude": 0.256000012159348,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

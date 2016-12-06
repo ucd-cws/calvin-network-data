@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C37-HSU207C37",
- "description":"Cosumnes River riparian diversions to CVPM 8",
- "type":"Diversion",
- "origin":"C37",
- "terminus":"HSU207C37",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":2.40000009536743}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C37-HSU207C37",
+  "description": "Cosumnes River riparian diversions to CVPM 8",
+  "type": "Diversion",
+  "origin": "C37",
+  "terminus": "HSU207C37",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 2.40000009536743
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

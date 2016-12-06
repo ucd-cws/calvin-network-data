@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C31-WTP201",
- "description":null,
- "type":"Diversion",
- "origin":"C31",
- "terminus":"WTP201",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":45},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C31-WTP201",
+  "description": null,
+  "type": "Diversion",
+  "origin": "C31",
+  "terminus": "WTP201",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 45
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

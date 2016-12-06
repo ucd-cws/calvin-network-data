@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WWP101-HGR01",
- "description":"Groundwater Return Flows from the City of Redding",
- "type":"Diversion",
- "origin":"WWP101",
- "terminus":"HGR01",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":50},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WWP101-HGR01",
+  "description": "Groundwater Return Flows from the City of Redding",
+  "type": "Diversion",
+  "origin": "WWP101",
+  "terminus": "HGR01",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 50
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

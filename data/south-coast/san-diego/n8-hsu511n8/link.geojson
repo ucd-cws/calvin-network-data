@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"N8-HSU511N8",
- "description":null,
- "type":"Diversion",
- "origin":"N8",
- "terminus":"HSU511N8",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "N8-HSU511N8",
+  "description": null,
+  "type": "Diversion",
+  "origin": "N8",
+  "terminus": "HSU511N8",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGRSBV-GW_SBV",
- "description":null,
- "type":"Diversion",
- "origin":"HGRSBV",
- "terminus":"GW_SBV",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGRSBV-GW_SBV",
+  "description": null,
+  "type": "Diversion",
+  "origin": "HGRSBV",
+  "terminus": "GW_SBV",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

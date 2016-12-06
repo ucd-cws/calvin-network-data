@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C138-SR_MHW",
- "description":"Valverde Tunnel",
- "type":"Diversion",
- "origin":"C138",
- "terminus":"SR_MHW",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C138-SR_MHW",
+  "description": "Valverde Tunnel",
+  "type": "Diversion",
+  "origin": "C138",
+  "terminus": "SR_MHW",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBM",
+      "bound": {
+        "$ref": "./UBM.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

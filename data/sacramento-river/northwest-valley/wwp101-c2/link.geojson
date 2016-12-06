@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WWP101-C2",
- "description":"Surface water return flow from the city of Redding to the Sacramento River at Cottonwood Creek - no ability in 2020",
- "type":"Diversion",
- "origin":"WWP101",
- "terminus":"C2",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":50},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WWP101-C2",
+  "description": "Surface water return flow from the city of Redding to the Sacramento River at Cottonwood Creek - no ability in 2020",
+  "type": "Diversion",
+  "origin": "WWP101",
+  "terminus": "C2",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 50
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

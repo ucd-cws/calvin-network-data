@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGP01-U101",
- "description":"Groundwater pumping to the city of Redding",
- "type":"Diversion",
- "origin":"HGP01",
- "terminus":"U101",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":39.4099998474121},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGP01-U101",
+  "description": "Groundwater pumping to the city of Redding",
+  "type": "Diversion",
+  "origin": "HGP01",
+  "terminus": "U101",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 39.4099998474121
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

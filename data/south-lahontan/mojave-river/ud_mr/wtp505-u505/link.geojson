@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WTP505-U505",
- "description":null,
- "type":"Diversion",
- "origin":"WTP505",
- "terminus":"U505",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":375.920013427734},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WTP505-U505",
+  "description": null,
+  "type": "Diversion",
+  "origin": "WTP505",
+  "terminus": "U505",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 375.920013427734
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D503-D511",
- "description":"Sacramento River Reach, minimum instream flow requirement",
- "type":"Diversion",
- "origin":"D503",
- "terminus":"D511",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D503-D511",
+  "description": "Sacramento River Reach, minimum instream flow requirement",
+  "type": "Diversion",
+  "origin": "D503",
+  "terminus": "D511",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "LBT",
+      "bound": {
+        "$ref": "./LBT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

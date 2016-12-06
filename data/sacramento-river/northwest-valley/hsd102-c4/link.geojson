@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSD102-C4",
- "description":"Hidden surface water return flow calibration link",
- "type":"Diversion",
- "origin":"HSD102",
- "terminus":"C4",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSD102-C4",
+  "description": "Hidden surface water return flow calibration link",
+  "type": "Diversion",
+  "origin": "HSD102",
+  "terminus": "C4",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

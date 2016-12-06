@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D523-HSU206D523",
- "description":"San Joaquin River div. to CVPM9",
- "type":"Diversion",
- "origin":"D523",
- "terminus":"HSU206D523",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":80.4000015258789}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D523-HSU206D523",
+  "description": "San Joaquin River div. to CVPM9",
+  "type": "Diversion",
+  "origin": "D523",
+  "terminus": "HSU206D523",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 80.4000015258789
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

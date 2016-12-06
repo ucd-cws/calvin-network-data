@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C80-HSU202C80",
- "description":"Feather River supply to CVPM 5 (DA 69)",
- "type":"Diversion",
- "origin":"C80",
- "terminus":"HSU202C80",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":278.600006103516}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C80-HSU202C80",
+  "description": "Feather River supply to CVPM 5 (DA 69)",
+  "type": "Diversion",
+  "origin": "C80",
+  "terminus": "HSU202C80",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 278.600006103516
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

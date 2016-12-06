@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"GW_KRN-HGPKRN",
- "description":null,
- "type":"Diversion",
- "origin":"GW_KRN",
- "terminus":"HGPKRN",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "GW_KRN-HGPKRN",
+  "description": null,
+  "type": "Diversion",
+  "origin": "GW_KRN",
+  "terminus": "HGPKRN",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

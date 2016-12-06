@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D98-D517",
- "description":"Mokelumne River Reach, new location minimum instream flow requirement",
- "type":"Diversion",
- "origin":"D98",
- "terminus":"D517",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D98-D517",
+  "description": "Mokelumne River Reach, new location minimum instream flow requirement",
+  "type": "Diversion",
+  "origin": "D98",
+  "terminus": "D517",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

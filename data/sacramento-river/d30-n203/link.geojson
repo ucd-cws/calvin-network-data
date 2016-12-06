@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D30-N203",
- "description":"Sutter Bypass - Colusa & Moulton Weirs.",
- "type":"Diversion",
- "origin":"D30",
- "terminus":"N203",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D30-N203",
+  "description": "Sutter Bypass - Colusa & Moulton Weirs.",
+  "type": "Diversion",
+  "origin": "D30",
+  "terminus": "N203",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "EQT",
+      "bound": {
+        "$ref": "./EQT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

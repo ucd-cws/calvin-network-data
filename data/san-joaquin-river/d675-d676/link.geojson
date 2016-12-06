@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D675-D676",
- "description":"Stanislaus River Reach",
- "type":"Diversion",
- "origin":"D675",
- "terminus":"D676",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D675-D676",
+  "description": "Stanislaus River Reach",
+  "type": "Diversion",
+  "origin": "D675",
+  "terminus": "D676",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "LBT",
+      "bound": {
+        "$ref": "./LBT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

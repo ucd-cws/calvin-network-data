@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C103-D865",
- "description":"California Aqueduct Flow from Region 4 to Region 5",
- "type":"Diversion",
- "origin":"C103",
- "terminus":"D865",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C103-D865",
+  "description": "California Aqueduct Flow from Region 4 to Region 5",
+  "type": "Diversion",
+  "origin": "C103",
+  "terminus": "D865",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

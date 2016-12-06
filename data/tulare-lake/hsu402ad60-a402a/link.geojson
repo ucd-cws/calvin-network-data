@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSU402AD60-A402A",
- "description":"Mendota Pool diversions to CVPM 14 (DA 60A) (Westlands WD)",
- "type":"Diversion",
- "origin":"HSU402AD60",
- "terminus":"A402A",
- "amplitude":0.819999992847443,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSU402AD60-A402A",
+  "description": "Mendota Pool diversions to CVPM 14 (DA 60A) (Westlands WD)",
+  "type": "Diversion",
+  "origin": "HSU402AD60",
+  "terminus": "A402A",
+  "amplitude": 0.819999992847443,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

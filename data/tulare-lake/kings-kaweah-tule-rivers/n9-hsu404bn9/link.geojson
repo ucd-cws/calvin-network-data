@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"N9-HSU404BN9",
- "description":null,
- "type":"Diversion",
- "origin":"N9",
- "terminus":"HSU404BN9",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "N9-HSU404BN9",
+  "description": null,
+  "type": "Diversion",
+  "origin": "N9",
+  "terminus": "HSU404BN9",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

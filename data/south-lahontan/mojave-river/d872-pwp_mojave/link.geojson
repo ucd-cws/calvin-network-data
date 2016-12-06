@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D872-PWP_Mojave",
- "description":"SWP East Branch Mojave Power P",
- "type":"Diversion",
- "origin":"D872",
- "terminus":"PWP_Mojave",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D872-PWP_Mojave",
+  "description": "SWP East Branch Mojave Power P",
+  "type": "Diversion",
+  "origin": "D872",
+  "terminus": "PWP_Mojave",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

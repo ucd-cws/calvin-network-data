@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"PMP_LosVaq-SR_LVQ",
- "description":"Los Vaqueros Pumping Plant diversion to Reservoir",
- "type":"Diversion",
- "origin":"PMP_LosVaq",
- "terminus":"SR_LVQ",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":37.9620018005371},
- "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "PMP_LosVaq-SR_LVQ",
+  "description": "Los Vaqueros Pumping Plant diversion to Reservoir",
+  "type": "Diversion",
+  "origin": "PMP_LosVaq",
+  "terminus": "SR_LVQ",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 37.9620018005371
+  },
+  "bounds": [
+    {
+      "type": "UBM",
+      "bound": {
+        "$ref": "./UBM.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

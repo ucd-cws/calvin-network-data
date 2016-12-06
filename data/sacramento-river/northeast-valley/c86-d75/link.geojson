@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C86-D75",
- "description":"Thomes Creek and Elder Creek inflow to Sacramento River",
- "type":"Diversion",
- "origin":"C86",
- "terminus":"D75",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C86-D75",
+  "description": "Thomes Creek and Elder Creek inflow to Sacramento River",
+  "type": "Diversion",
+  "origin": "C86",
+  "terminus": "D75",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

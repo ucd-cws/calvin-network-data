@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"IND_CCWD-WWP208",
- "description":"Ind Return flow TOTAL",
- "type":"Diversion",
- "origin":"IND_CCWD",
- "terminus":"WWP208",
- "amplitude":0.400000005960464,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "IND_CCWD-WWP208",
+  "description": "Ind Return flow TOTAL",
+  "type": "Diversion",
+  "origin": "IND_CCWD",
+  "terminus": "WWP208",
+  "amplitude": 0.400000005960464,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

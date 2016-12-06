@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"CN2-N201",
- "description":"Calibration flow added for historical CALVIN run S07I43",
- "type":"Diversion",
- "origin":"CN2",
- "terminus":"N201",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "CN2-N201",
+  "description": "Calibration flow added for historical CALVIN run S07I43",
+  "type": "Diversion",
+  "origin": "CN2",
+  "terminus": "N201",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "EQT",
+      "bound": {
+        "$ref": "./EQT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

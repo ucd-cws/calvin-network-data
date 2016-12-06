@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C9-C12",
- "description":"Stony Creek between North and South canal diversions and Tehema-Colusa canal crossing",
- "type":"Diversion",
- "origin":"C9",
- "terminus":"C12",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C9-C12",
+  "description": "Stony Creek between North and South canal diversions and Tehema-Colusa canal crossing",
+  "type": "Diversion",
+  "origin": "C9",
+  "terminus": "C12",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "LBT",
+      "bound": {
+        "$ref": "./LBT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,13 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C145-HARCH",
- "description":"GW-CH Upper Valley Artificial Recharge
-",
- "type":"Diversion",
- "origin":"C145",
- "terminus":"HARCH",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":12.4764003753662},
- "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C145-HARCH",
+  "description": "GW-CH Upper Valley Artificial Recharge",
+  "type": "Diversion",
+  "origin": "C145",
+  "terminus": "HARCH",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 12.4764003753662
+  },
+  "bounds": [
+    {
+      "type": "UBM",
+      "bound": {
+        "$ref": "./UBM.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGR15-GW_15",
- "description":"Link from hidden node for calibration of GW-15",
- "type":"Diversion",
- "origin":"HGR15",
- "terminus":"GW_15",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGR15-GW_15",
+  "description": "Link from hidden node for calibration of GW-15",
+  "type": "Diversion",
+  "origin": "HGR15",
+  "terminus": "GW_15",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WWP505-HP505",
- "description":"Expanded wastewater recycling facility for Mojave",
- "type":"Diversion",
- "origin":"WWP505",
- "terminus":"HP505",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":1480},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WWP505-HP505",
+  "description": "Expanded wastewater recycling facility for Mojave",
+  "type": "Diversion",
+  "origin": "WWP505",
+  "terminus": "HP505",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 1480
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

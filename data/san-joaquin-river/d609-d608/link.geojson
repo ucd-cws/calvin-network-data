@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D609-D608",
- "description":"San Joaquin River flood flow to Mendota Pool",
- "type":"Diversion",
- "origin":"D609",
- "terminus":"D608",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D609-D608",
+  "description": "San Joaquin River flood flow to Mendota Pool",
+  "type": "Diversion",
+  "origin": "D609",
+  "terminus": "D608",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "LBT",
+      "bound": {
+        "$ref": "./LBT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

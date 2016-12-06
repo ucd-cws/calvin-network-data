@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HARMJ-GW_MJ",
- "description":"Artificial recharge",
- "type":"Diversion",
- "origin":"HARMJ",
- "terminus":"GW_MJ",
- "amplitude":0.949999988079071,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HARMJ-GW_MJ",
+  "description": "Artificial recharge",
+  "type": "Diversion",
+  "origin": "HARMJ",
+  "terminus": "GW_MJ",
+  "amplitude": 0.949999988079071,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

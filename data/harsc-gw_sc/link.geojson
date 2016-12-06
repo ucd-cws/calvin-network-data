@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HARSC-GW_SC",
- "description":"GW-SC Artificial Recharge",
- "type":"Diversion",
- "origin":"HARSC",
- "terminus":"GW_SC",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":14.8000001907349},
- "bounds":[{"type":"UBC","bound":20}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HARSC-GW_SC",
+  "description": "GW-SC Artificial Recharge",
+  "type": "Diversion",
+  "origin": "HARSC",
+  "terminus": "GW_SC",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 14.8000001907349
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 20
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

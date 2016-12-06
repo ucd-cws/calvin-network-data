@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D541-Req_Delta",
- "description":"Required Delta Outflow",
- "type":"Diversion",
- "origin":"D541",
- "terminus":"Req_Delta",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D541-Req_Delta",
+  "description": "Required Delta Outflow",
+  "type": "Diversion",
+  "origin": "D541",
+  "terminus": "Req_Delta",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "EQT",
+      "bound": {
+        "$ref": "./EQT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

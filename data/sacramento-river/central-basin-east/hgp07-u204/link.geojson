@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGP07-U204",
- "description":"GW-7 to Sacramento",
- "type":"Diversion",
- "origin":"HGP07",
- "terminus":"U204",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":84.3600006103516},
- "bounds":[{"type":"UBC","bound":31.2999992370605}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGP07-U204",
+  "description": "GW-7 to Sacramento",
+  "type": "Diversion",
+  "origin": "HGP07",
+  "terminus": "U204",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 84.3600006103516
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 31.2999992370605
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

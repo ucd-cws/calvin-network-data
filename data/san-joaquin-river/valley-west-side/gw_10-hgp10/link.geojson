@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"GW_10-HGP10",
- "description":"Hidden groundwater pumping calibration link",
- "type":"Diversion",
- "origin":"GW_10",
- "terminus":"HGP10",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "GW_10-HGP10",
+  "description": "Hidden groundwater pumping calibration link",
+  "type": "Diversion",
+  "origin": "GW_10",
+  "terminus": "HGP10",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

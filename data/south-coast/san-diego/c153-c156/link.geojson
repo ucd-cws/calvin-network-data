@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C153-C156",
- "description":"San Diego Pipelines No. 5&3 (untreated water)",
- "type":"Diversion",
- "origin":"C153",
- "terminus":"C156",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":67.6368026733398}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C153-C156",
+  "description": "San Diego Pipelines No. 5&3 (untreated water)",
+  "type": "Diversion",
+  "origin": "C153",
+  "terminus": "C156",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 67.6368026733398
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

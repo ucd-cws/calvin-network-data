@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGPOW-C120",
- "description":"GW-OW Pumping",
- "type":"Diversion",
- "origin":"HGPOW",
- "terminus":"C120",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":29.6000003814697},
- "bounds":[{"type":"UBC","bound":10}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGPOW-C120",
+  "description": "GW-OW Pumping",
+  "type": "Diversion",
+  "origin": "HGPOW",
+  "terminus": "C120",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 29.6000003814697
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 10
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

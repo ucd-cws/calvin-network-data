@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"A303-HU303",
- "description":"Hidden ag delivery reuse calibration link",
- "type":"Diversion",
- "origin":"A303",
- "terminus":"HU303",
- "amplitude":1.00899994373322,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "A303-HU303",
+  "description": "Hidden ag delivery reuse calibration link",
+  "type": "Diversion",
+  "origin": "A303",
+  "terminus": "HU303",
+  "amplitude": 1.00899994373322,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGPCH-A507",
- "description":null,
- "type":"Diversion",
- "origin":"HGPCH",
- "terminus":"A507",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":74},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGPCH-A507",
+  "description": null,
+  "type": "Diversion",
+  "origin": "HGPCH",
+  "terminus": "A507",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 74
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

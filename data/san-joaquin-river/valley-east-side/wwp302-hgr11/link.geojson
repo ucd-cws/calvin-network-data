@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WWP302-HGR11",
- "description":"In the 2100 model CVPM 11 urban return flows goes to D676 because it is a wastewater treatment plant like Sac.  However it is no longer an economic demand.  In the original 2020 models all CVPM urbans return flows to GW basins.  ",
- "type":"Diversion",
- "origin":"WWP302",
- "terminus":"HGR11",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":50},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WWP302-HGR11",
+  "description": "In the 2100 model CVPM 11 urban return flows goes to D676 because it is a wastewater treatment plant like Sac.  However it is no longer an economic demand.  In the original 2020 models all CVPM urbans return flows to GW basins.  ",
+  "type": "Diversion",
+  "origin": "WWP302",
+  "terminus": "HGR11",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 50
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

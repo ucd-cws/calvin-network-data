@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"U206-INT_CVPM09",
- "description":null,
- "type":"Diversion",
- "origin":"U206",
- "terminus":"INT_CVPM09",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "U206-INT_CVPM09",
+  "description": null,
+  "type": "Diversion",
+  "origin": "U206",
+  "terminus": "INT_CVPM09",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "EQT",
+      "bound": {
+        "$ref": "./EQT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGP20-U407",
- "description":"M&I pumping for CVPM 20",
- "type":"Diversion",
- "origin":"HGP20",
- "terminus":"U407",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":142.139999389648},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGP20-U407",
+  "description": "M&I pumping for CVPM 20",
+  "type": "Diversion",
+  "origin": "HGP20",
+  "terminus": "U407",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 142.139999389648
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

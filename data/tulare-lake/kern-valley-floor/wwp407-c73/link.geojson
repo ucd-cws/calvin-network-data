@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WWP407-C73",
- "description":"SW only return flow CVPM urban deliveries",
- "type":"Diversion",
- "origin":"WWP407",
- "terminus":"C73",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":50},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WWP407-C73",
+  "description": "SW only return flow CVPM urban deliveries",
+  "type": "Diversion",
+  "origin": "WWP407",
+  "terminus": "C73",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 50
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

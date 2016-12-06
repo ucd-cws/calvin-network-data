@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C301-D43",
- "description":"Sacramento River outflow from Region 1 to Region 2.  Constrained to match DWRSIM.",
- "type":"Diversion",
- "origin":"C301",
- "terminus":"D43",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C301-D43",
+  "description": "Sacramento River outflow from Region 1 to Region 2.  Constrained to match DWRSIM.",
+  "type": "Diversion",
+  "origin": "C301",
+  "terminus": "D43",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

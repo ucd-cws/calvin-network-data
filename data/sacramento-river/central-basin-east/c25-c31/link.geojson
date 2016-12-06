@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C25-C31",
- "description":"Feather River between Thermalito Afterbay inflow and Yuba River, old location minimum instream flow requirement",
- "type":"Diversion",
- "origin":"C25",
- "terminus":"C31",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C25-C31",
+  "description": "Feather River between Thermalito Afterbay inflow and Yuba River, old location minimum instream flow requirement",
+  "type": "Diversion",
+  "origin": "C25",
+  "terminus": "C31",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "LBT",
+      "bound": {
+        "$ref": "./LBT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C89-C56",
- "description":"Kaweah River Reach 2",
- "type":"Diversion",
- "origin":"C89",
- "terminus":"C56",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C89-C56",
+  "description": "Kaweah River Reach 2",
+  "type": "Diversion",
+  "origin": "C89",
+  "terminus": "C56",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

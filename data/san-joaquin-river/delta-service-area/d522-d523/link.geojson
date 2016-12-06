@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D522-D523",
- "description":"San Joaquin River Reach",
- "type":"Diversion",
- "origin":"D522",
- "terminus":"D523",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D522-D523",
+  "description": "San Joaquin River Reach",
+  "type": "Diversion",
+  "origin": "D522",
+  "terminus": "D523",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C69-D76b",
- "description":"Sacramento River between Red Bluff and Ord Ferry Reach 6",
- "type":"Diversion",
- "origin":"C69",
- "terminus":"D76b",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C69-D76b",
+  "description": "Sacramento River between Red Bluff and Ord Ferry Reach 6",
+  "type": "Diversion",
+  "origin": "C69",
+  "terminus": "D76b",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

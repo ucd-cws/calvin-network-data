@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C54-C52",
- "description":"Kings River South Fork below Crescent Weir",
- "type":"Diversion",
- "origin":"C54",
- "terminus":"C52",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C54-C52",
+  "description": "Kings River South Fork below Crescent Weir",
+  "type": "Diversion",
+  "origin": "C54",
+  "terminus": "C52",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

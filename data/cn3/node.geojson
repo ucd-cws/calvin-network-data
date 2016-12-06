@@ -1,6 +1,7 @@
 {"type":"Feature",
  "geometry":null,
  "properties":{"prmname":"CN3",
+ "disabled":true,
  "description":"Calibration node to add or remove water",
  "type":"Junction",
  "inflows":{"default":{"description":"Source flows for calibration nodes","inflow":{"$ref" : "inflows/default.csv"}}},

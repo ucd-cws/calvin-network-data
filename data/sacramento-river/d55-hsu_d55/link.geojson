@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D55-HSU_D55",
- "description":null,
- "type":"Diversion",
- "origin":"D55",
- "terminus":"HSU_D55",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":81},
- "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D55-HSU_D55",
+  "description": null,
+  "type": "Diversion",
+  "origin": "D55",
+  "terminus": "HSU_D55",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 81
+  },
+  "bounds": [
+    {
+      "type": "UBM",
+      "bound": {
+        "$ref": "./UBM.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

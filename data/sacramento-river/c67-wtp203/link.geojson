@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C67-WTP203",
- "description":null,
- "type":"Diversion",
- "origin":"C67",
- "terminus":"WTP203",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":45},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C67-WTP203",
+  "description": null,
+  "type": "Diversion",
+  "origin": "C67",
+  "terminus": "WTP203",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 45
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

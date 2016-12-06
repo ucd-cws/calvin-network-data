@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WWP507-C158",
- "description":"WW reuse for recharge in the Coachella Lower Valley ",
- "type":"Diversion",
- "origin":"WWP507",
- "terminus":"C158",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":74},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WWP507-C158",
+  "description": "WW reuse for recharge in the Coachella Lower Valley ",
+  "type": "Diversion",
+  "origin": "WWP507",
+  "terminus": "C158",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 74
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

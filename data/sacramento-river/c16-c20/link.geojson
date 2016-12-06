@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C16-C20",
- "description":"Cache Creek inflow to Yolo Bypass",
- "type":"Diversion",
- "origin":"C16",
- "terminus":"C20",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C16-C20",
+  "description": "Cache Creek inflow to Yolo Bypass",
+  "type": "Diversion",
+  "origin": "C16",
+  "terminus": "C20",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSU407C65-A407",
- "description":"Kern River diversions to CVPM 20 (DA 60G)",
- "type":"Diversion",
- "origin":"HSU407C65",
- "terminus":"A407",
- "amplitude":0.839999973773956,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSU407C65-A407",
+  "description": "Kern River diversions to CVPM 20 (DA 60G)",
+  "type": "Diversion",
+  "origin": "HSU407C65",
+  "terminus": "A407",
+  "amplitude": 0.839999973773956,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

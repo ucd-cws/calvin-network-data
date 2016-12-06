@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSD408B-R401",
- "description":"Ag return flow supply for Kern Refuge. Assumed to be zero pending further investigation. Service water districts only have to meet threshold WQ criteria at the point of delivery. RFs from the upstream agricultural fields are mixed with the appropriated water sometime before the point of delivery to the refuge and refuge has no way to separate approriated water from ag return flow. ",
- "type":"Diversion",
- "origin":"HSD408B",
- "terminus":"R401",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSD408B-R401",
+  "description": "Ag return flow supply for Kern Refuge. Assumed to be zero pending further investigation. Service water districts only have to meet threshold WQ criteria at the point of delivery. RFs from the upstream agricultural fields are mixed with the appropriated water sometime before the point of delivery to the refuge and refuge has no way to separate approriated water from ag return flow. ",
+  "type": "Diversion",
+  "origin": "HSD408B",
+  "terminus": "R401",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

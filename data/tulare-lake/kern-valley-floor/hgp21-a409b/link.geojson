@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGP21-A409B",
- "description":null,
- "type":"Diversion",
- "origin":"HGP21",
- "terminus":"A409B",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":119.51000213623},
- "bounds":[{"type":"UBC","bound":265.649993896484}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGP21-A409B",
+  "description": null,
+  "type": "Diversion",
+  "origin": "HGP21",
+  "terminus": "A409B",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 119.51000213623
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 265.649993896484
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

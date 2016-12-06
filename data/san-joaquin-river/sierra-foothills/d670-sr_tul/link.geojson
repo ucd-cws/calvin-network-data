@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D670-SR_TUL",
- "description":"Stanislaus River inflow to Turlock Reservoir",
- "type":"Diversion",
- "origin":"D670",
- "terminus":"SR_TUL",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D670-SR_TUL",
+  "description": "Stanislaus River inflow to Turlock Reservoir",
+  "type": "Diversion",
+  "origin": "D670",
+  "terminus": "SR_TUL",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

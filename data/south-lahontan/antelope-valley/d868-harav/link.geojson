@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D868-HARAV",
- "description":"GW-AV Artificial Recharge",
- "type":"Diversion",
- "origin":"D868",
- "terminus":"HARAV",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":7.40000009536743},
- "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D868-HARAV",
+  "description": "GW-AV Artificial Recharge",
+  "type": "Diversion",
+  "origin": "D868",
+  "terminus": "HARAV",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 7.40000009536743
+  },
+  "bounds": [
+    {
+      "type": "UBM",
+      "bound": {
+        "$ref": "./UBM.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

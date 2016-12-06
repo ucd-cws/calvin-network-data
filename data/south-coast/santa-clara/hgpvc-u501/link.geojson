@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGPVC-U501",
- "description":null,
- "type":"Diversion",
- "origin":"HGPVC",
- "terminus":"U501",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":88.8000030517578},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGPVC-U501",
+  "description": null,
+  "type": "Diversion",
+  "origin": "HGPVC",
+  "terminus": "U501",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 88.8000030517578
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D30-D31",
- "description":"Sacramento River between Ord ferry and Knights Landing Reach 2",
- "type":"Diversion",
- "origin":"D30",
- "terminus":"D31",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D30-D31",
+  "description": "Sacramento River between Ord ferry and Knights Landing Reach 2",
+  "type": "Diversion",
+  "origin": "D30",
+  "terminus": "D31",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

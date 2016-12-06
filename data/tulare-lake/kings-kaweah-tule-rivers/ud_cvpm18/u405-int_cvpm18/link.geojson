@@ -1,11 +1,60 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"U405-INT_CVPM18",
- "description":"Urban penalty function for CVPM 18 interior - Visalia and Tulare",
- "type":"Diversion",
- "origin":"U405",
- "terminus":"INT_CVPM18",
- "amplitude":1,
- "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"costs/JAN.csv"},"FEB":{"$ref":"costs/FEB.csv"},"MAR":{"$ref":"costs/MAR.csv"},"APR":{"$ref":"costs/APR.csv"},"MAY":{"$ref":"costs/MAY.csv"},"JUN":{"$ref":"costs/JUN.csv"},"JUL":{"$ref":"costs/JUL.csv"},"AUG":{"$ref":"costs/AUG.csv"},"SEP":{"$ref":"costs/SEP.csv"},"OCT":{"$ref":"costs/OCT.csv"},"NOV":{"$ref":"costs/NOV.csv"},"DEC":{"$ref":"costs/DEC.csv"}}},
- "bounds":[{"type":"UBT","bound": {"$ref":"./UBT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "U405-INT_CVPM18",
+  "description": "Urban penalty function for CVPM 18 interior - Visalia and Tulare",
+  "type": "Diversion",
+  "origin": "U405",
+  "terminus": "INT_CVPM18",
+  "amplitude": 1,
+  "costs": {
+    "type": "Monthly Variable",
+    "costs": {
+      "JAN": {
+        "$ref": "costs/JAN.csv"
+      },
+      "FEB": {
+        "$ref": "costs/FEB.csv"
+      },
+      "MAR": {
+        "$ref": "costs/MAR.csv"
+      },
+      "APR": {
+        "$ref": "costs/APR.csv"
+      },
+      "MAY": {
+        "$ref": "costs/MAY.csv"
+      },
+      "JUN": {
+        "$ref": "costs/JUN.csv"
+      },
+      "JUL": {
+        "$ref": "costs/JUL.csv"
+      },
+      "AUG": {
+        "$ref": "costs/AUG.csv"
+      },
+      "SEP": {
+        "$ref": "costs/SEP.csv"
+      },
+      "OCT": {
+        "$ref": "costs/OCT.csv"
+      },
+      "NOV": {
+        "$ref": "costs/NOV.csv"
+      },
+      "DEC": {
+        "$ref": "costs/DEC.csv"
+      }
+    }
+  },
+  "bounds": [
+    {
+      "type": "UBT",
+      "bound": {
+        "$ref": "./UBT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

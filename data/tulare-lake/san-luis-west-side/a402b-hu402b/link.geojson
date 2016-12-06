@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"A402B-HU402B",
- "description":null,
- "type":"Diversion",
- "origin":"A402B",
- "terminus":"HU402B",
- "amplitude":1.01300001144409,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "A402B-HU402B",
+  "description": null,
+  "type": "Diversion",
+  "origin": "A402B",
+  "terminus": "HU402B",
+  "amplitude": 1.01300001144409,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

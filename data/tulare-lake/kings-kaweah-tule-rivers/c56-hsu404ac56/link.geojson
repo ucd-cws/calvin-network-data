@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C56-HSU404AC56",
- "description":"Surface delivery CVPM 15",
- "type":"Diversion",
- "origin":"C56",
- "terminus":"HSU404AC56",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":29.7000007629395}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C56-HSU404AC56",
+  "description": "Surface delivery CVPM 15",
+  "type": "Diversion",
+  "origin": "C56",
+  "terminus": "HSU404AC56",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 29.7000007629395
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

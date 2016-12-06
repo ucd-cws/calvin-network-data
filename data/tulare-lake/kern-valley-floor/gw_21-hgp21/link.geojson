@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"GW_21-HGP21",
- "description":"GW pumping calibration link",
- "type":"Diversion",
- "origin":"GW_21",
- "terminus":"HGP21",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "GW_21-HGP21",
+  "description": "GW pumping calibration link",
+  "type": "Diversion",
+  "origin": "GW_21",
+  "terminus": "HGP21",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

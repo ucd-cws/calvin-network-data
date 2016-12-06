@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WTP205-U205",
- "description":null,
- "type":"Diversion",
- "origin":"WTP205",
- "terminus":"U205",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":30},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WTP205-U205",
+  "description": null,
+  "type": "Diversion",
+  "origin": "WTP205",
+  "terminus": "U205",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 30
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

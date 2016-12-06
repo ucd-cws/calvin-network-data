@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"INT_Reddin-WWP101",
- "description":"Wastewater Return flows from the city of Redding",
- "type":"Diversion",
- "origin":"INT_Reddin",
- "terminus":"WWP101",
- "amplitude":0.899999976158142,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "INT_Reddin-WWP101",
+  "description": "Wastewater Return flows from the city of Redding",
+  "type": "Diversion",
+  "origin": "INT_Reddin",
+  "terminus": "WWP101",
+  "amplitude": 0.899999976158142,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

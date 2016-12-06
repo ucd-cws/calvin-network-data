@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"A103B-HU103B",
- "description":null,
- "type":"Diversion",
- "origin":"A103B",
- "terminus":"HU103B",
- "amplitude":1.18299996852875,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "A103B-HU103B",
+  "description": null,
+  "type": "Diversion",
+  "origin": "A103B",
+  "terminus": "HU103B",
+  "amplitude": 1.18299996852875,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

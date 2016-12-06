@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGRMWD-GW_MWD",
- "description":null,
- "type":"Diversion",
- "origin":"HGRMWD",
- "terminus":"GW_MWD",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGRMWD-GW_MWD",
+  "description": null,
+  "type": "Diversion",
+  "origin": "HGRMWD",
+  "terminus": "GW_MWD",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

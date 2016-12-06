@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C689-HSU409AC68",
- "description":"Surface delivery Friant-Kern Canal to CVPM 21",
- "type":"Diversion",
- "origin":"C689",
- "terminus":"HSU409AC68",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":28.7999992370605}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C689-HSU409AC68",
+  "description": "Surface delivery Friant-Kern Canal to CVPM 21",
+  "type": "Diversion",
+  "origin": "C689",
+  "terminus": "HSU409AC68",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 28.7999992370605
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

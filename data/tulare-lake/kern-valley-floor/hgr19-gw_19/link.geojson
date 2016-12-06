@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGR19-GW_19",
- "description":"Link from hidden node for calibration of GW-19",
- "type":"Diversion",
- "origin":"HGR19",
- "terminus":"GW_19",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGR19-GW_19",
+  "description": "Link from hidden node for calibration of GW-19",
+  "type": "Diversion",
+  "origin": "HGR19",
+  "terminus": "GW_19",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

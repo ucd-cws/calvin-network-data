@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"Ind_EMWD-WWP509",
- "description":"Ind Return Flow TOTAL",
- "type":"Diversion",
- "origin":"Ind_EMWD",
- "terminus":"WWP509",
- "amplitude":0.400000005960464,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "Ind_EMWD-WWP509",
+  "description": "Ind Return Flow TOTAL",
+  "type": "Diversion",
+  "origin": "Ind_EMWD",
+  "terminus": "WWP509",
+  "amplitude": 0.400000005960464,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

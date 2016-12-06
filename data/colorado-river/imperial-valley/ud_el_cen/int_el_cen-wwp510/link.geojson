@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"INT_El_Cen-WWP510",
- "description":"Wastewater returns from El Centro",
- "type":"Diversion",
- "origin":"INT_El_Cen",
- "terminus":"WWP510",
- "amplitude":0.899999976158142,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "INT_El_Cen-WWP510",
+  "description": "Wastewater returns from El Centro",
+  "type": "Diversion",
+  "origin": "INT_El_Cen",
+  "terminus": "WWP510",
+  "amplitude": 0.899999976158142,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

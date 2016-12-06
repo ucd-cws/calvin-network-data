@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSU206D515-A206",
- "description":"Delta diversion to CVPM 9",
- "type":"Diversion",
- "origin":"HSU206D515",
- "terminus":"A206",
- "amplitude":0.930000007152557,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSU206D515-A206",
+  "description": "Delta diversion to CVPM 9",
+  "type": "Diversion",
+  "origin": "HSU206D515",
+  "terminus": "A206",
+  "amplitude": 0.930000007152557,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

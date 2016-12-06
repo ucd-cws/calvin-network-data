@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"SR_BLB-C9",
- "description":"Reservoir release from Black Butte Dam to Stony Creek",
- "type":"Diversion",
- "origin":"SR_BLB",
- "terminus":"C9",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "SR_BLB-C9",
+  "description": "Reservoir release from Black Butte Dam to Stony Creek",
+  "type": "Diversion",
+  "origin": "SR_BLB",
+  "terminus": "C9",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "LBT",
+      "bound": {
+        "$ref": "./LBT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

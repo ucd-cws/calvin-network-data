@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGP08-U207",
- "description":"M&I pumping demand to CVPM 8 urban representing Galt",
- "type":"Diversion",
- "origin":"HGP08",
- "terminus":"U207",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":74.7099990844727},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGP08-U207",
+  "description": "M&I pumping demand to CVPM 8 urban representing Galt",
+  "type": "Diversion",
+  "origin": "HGP08",
+  "terminus": "U207",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 74.7099990844727
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

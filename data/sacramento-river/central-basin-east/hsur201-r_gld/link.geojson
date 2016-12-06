@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSUR201-R_GLD",
- "description":"Deliveries to Gray Lodge WA. Full level 2 and level 4 deliveries are assumed with a  25% reduction during the critical years at Lake Shasta. Gray lodge receives additional SW deliveries as part of appropriative water rights from BWGWD, however, those are not included in the timeseries because these deliveries are in excess of Level 2 and Level 4 deliveries. - KS 06062015",
- "type":"Diversion",
- "origin":"HSUR201",
- "terminus":"R_GLD",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSUR201-R_GLD",
+  "description": "Deliveries to Gray Lodge WA. Full level 2 and level 4 deliveries are assumed with a  25% reduction during the critical years at Lake Shasta. Gray lodge receives additional SW deliveries as part of appropriative water rights from BWGWD, however, those are not included in the timeseries because these deliveries are in excess of Level 2 and Level 4 deliveries. - KS 06062015",
+  "type": "Diversion",
+  "origin": "HSUR201",
+  "terminus": "R_GLD",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "EQT",
+      "bound": {
+        "$ref": "./EQT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

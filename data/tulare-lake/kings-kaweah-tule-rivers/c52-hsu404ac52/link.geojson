@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C52-HSU404AC52",
- "description":"Surface delivery CVPM 15",
- "type":"Diversion",
- "origin":"C52",
- "terminus":"HSU404AC52",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":461}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C52-HSU404AC52",
+  "description": "Surface delivery CVPM 15",
+  "type": "Diversion",
+  "origin": "C52",
+  "terminus": "HSU404AC52",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 461
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

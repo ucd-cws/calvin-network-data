@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"Ind_SBV-WWP506",
- "description":"Ind Return Flow Total",
- "type":"Diversion",
- "origin":"Ind_SBV",
- "terminus":"WWP506",
- "amplitude":0.400000005960464,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "Ind_SBV-WWP506",
+  "description": "Ind Return Flow Total",
+  "type": "Diversion",
+  "origin": "Ind_SBV",
+  "terminus": "WWP506",
+  "amplitude": 0.400000005960464,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

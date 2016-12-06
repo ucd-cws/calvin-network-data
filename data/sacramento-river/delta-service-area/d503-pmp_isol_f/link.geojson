@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D503-PMP_ISOL_F",
- "description":"Sacramento River div. to Isol. Facility",
- "type":"Diversion",
- "origin":"D503",
- "terminus":"PMP_ISOL_F",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D503-PMP_ISOL_F",
+  "description": "Sacramento River div. to Isol. Facility",
+  "type": "Diversion",
+  "origin": "D503",
+  "terminus": "PMP_ISOL_F",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

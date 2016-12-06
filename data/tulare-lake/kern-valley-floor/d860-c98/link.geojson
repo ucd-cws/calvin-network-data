@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D860-C98",
- "description":"Surface delivery CVPM 21       ;         JH 29-8-05 Who knows what they called this, Im saying its the Arvin Eddison intertie",
- "type":"Diversion",
- "origin":"D860",
- "terminus":"C98",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":12}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D860-C98",
+  "description": "Surface delivery CVPM 21       ;         JH 29-8-05 Who knows what they called this, Im saying its the Arvin Eddison intertie",
+  "type": "Diversion",
+  "origin": "D860",
+  "terminus": "C98",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 12
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

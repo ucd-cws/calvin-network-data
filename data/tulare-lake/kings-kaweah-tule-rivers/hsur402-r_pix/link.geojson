@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSUR402-R_PIX",
- "description":"Deliveries to Pixley NWR. Full level 2 and level 4 deliveries are assumed with a  25% reduction during the critical years at Lake Shasta. - KS 06062015",
- "type":"Diversion",
- "origin":"HSUR402",
- "terminus":"R_PIX",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSUR402-R_PIX",
+  "description": "Deliveries to Pixley NWR. Full level 2 and level 4 deliveries are assumed with a  25% reduction during the critical years at Lake Shasta. - KS 06062015",
+  "type": "Diversion",
+  "origin": "HSUR402",
+  "terminus": "R_PIX",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "EQT",
+      "bound": {
+        "$ref": "./EQT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

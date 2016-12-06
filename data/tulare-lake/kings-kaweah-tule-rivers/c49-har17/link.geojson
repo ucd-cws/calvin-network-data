@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C49-HAR17",
- "description":"Friant-Kern Canal to subregion 17 for spreading",
- "type":"Diversion",
- "origin":"C49",
- "terminus":"HAR17",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":6.5},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C49-HAR17",
+  "description": "Friant-Kern Canal to subregion 17 for spreading",
+  "type": "Diversion",
+  "origin": "C49",
+  "terminus": "HAR17",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 6.5
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGP21-A409A",
- "description":"Agricultural groundwater pumping GW-21 to CVPM 21 Demand",
- "type":"Diversion",
- "origin":"HGP21",
- "terminus":"A409A",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":119.51000213623},
- "bounds":[{"type":"UBC","bound":265.649993896484}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGP21-A409A",
+  "description": "Agricultural groundwater pumping GW-21 to CVPM 21 Demand",
+  "type": "Diversion",
+  "origin": "HGP21",
+  "terminus": "A409A",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 119.51000213623
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 265.649993896484
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

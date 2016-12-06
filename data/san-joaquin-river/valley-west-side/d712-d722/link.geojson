@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D712-D722",
- "description":"Delta Mendota Canal",
- "type":"Diversion",
- "origin":"D712",
- "terminus":"D722",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D712-D722",
+  "description": "Delta Mendota Canal",
+  "type": "Diversion",
+  "origin": "D712",
+  "terminus": "D722",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

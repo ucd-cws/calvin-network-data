@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"INT_CLWA-WWP503",
- "description":"Return Flow TOTAL",
- "type":"Diversion",
- "origin":"INT_CLWA",
- "terminus":"WWP503",
- "amplitude":0.899999976158142,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "INT_CLWA-WWP503",
+  "description": "Return Flow TOTAL",
+  "type": "Diversion",
+  "origin": "INT_CLWA",
+  "terminus": "WWP503",
+  "amplitude": 0.899999976158142,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

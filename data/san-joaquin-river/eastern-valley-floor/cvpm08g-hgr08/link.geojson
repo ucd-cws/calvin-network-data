@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"CVPM08G-HGR08",
- "description":null,
- "type":"Diversion",
- "origin":"CVPM08G",
- "terminus":"HGR08",
- "amplitude":0.305000007152557,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "CVPM08G-HGR08",
+  "description": null,
+  "type": "Diversion",
+  "origin": "CVPM08G",
+  "terminus": "HGR08",
+  "amplitude": 0.305000007152557,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

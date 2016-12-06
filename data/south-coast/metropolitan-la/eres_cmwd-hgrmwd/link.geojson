@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"ERes_CMWD-HGRMWD",
- "description":null,
- "type":"Diversion",
- "origin":"ERes_CMWD",
- "terminus":"HGRMWD",
- "amplitude":0.100000001490116,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBT","bound": {"$ref":"./UBT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "ERes_CMWD-HGRMWD",
+  "description": null,
+  "type": "Diversion",
+  "origin": "ERes_CMWD",
+  "terminus": "HGRMWD",
+  "amplitude": 0.100000001490116,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBT",
+      "bound": {
+        "$ref": "./UBT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

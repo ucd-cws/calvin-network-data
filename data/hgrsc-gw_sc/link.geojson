@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGRSC-GW_SC",
- "description":null,
- "type":"Diversion",
- "origin":"HGRSC",
- "terminus":"GW_SC",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGRSC-GW_SC",
+  "description": null,
+  "type": "Diversion",
+  "origin": "HGRSC",
+  "terminus": "GW_SC",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

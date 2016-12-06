@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HXI509-HXEWMWD",
- "description":"link to eres: e&w mwd",
- "type":"Diversion",
- "origin":"HXI509",
- "terminus":"HXEWMWD",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HXI509-HXEWMWD",
+  "description": "link to eres: e&w mwd",
+  "type": "Diversion",
+  "origin": "HXI509",
+  "terminus": "HXEWMWD",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

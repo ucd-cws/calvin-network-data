@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D896-WTP304",
- "description":null,
- "type":"Diversion",
- "origin":"D896",
- "terminus":"WTP304",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":140.600006103516},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D896-WTP304",
+  "description": null,
+  "type": "Diversion",
+  "origin": "D896",
+  "terminus": "WTP304",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 140.600006103516
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

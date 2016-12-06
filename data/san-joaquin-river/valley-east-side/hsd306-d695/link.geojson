@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSD306-D695",
- "description":"Hidden surface water return flow calibration link",
- "type":"Diversion",
- "origin":"HSD306",
- "terminus":"D695",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSD306-D695",
+  "description": "Hidden surface water return flow calibration link",
+  "type": "Diversion",
+  "origin": "HSD306",
+  "terminus": "D695",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

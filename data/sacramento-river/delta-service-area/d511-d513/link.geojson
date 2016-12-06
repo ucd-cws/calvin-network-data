@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D511-D513",
- "description":"Sacramento River div. To Delta Cross Channel",
- "type":"Diversion",
- "origin":"D511",
- "terminus":"D513",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D511-D513",
+  "description": "Sacramento River div. To Delta Cross Channel",
+  "type": "Diversion",
+  "origin": "D511",
+  "terminus": "D513",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

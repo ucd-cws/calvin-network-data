@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C83-C31",
- "description":"Yuba River outflow from DA 67, minimum instream flow requirement",
- "type":"Diversion",
- "origin":"C83",
- "terminus":"C31",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C83-C31",
+  "description": "Yuba River outflow from DA 67, minimum instream flow requirement",
+  "type": "Diversion",
+  "origin": "C83",
+  "terminus": "C31",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "LBT",
+      "bound": {
+        "$ref": "./LBT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

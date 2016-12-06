@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D710-PMP_ONeill",
- "description":"Delta Mendota Canal diversion to ONeil Pumping Plant and California Aqueduct",
- "type":"Diversion",
- "origin":"D710",
- "terminus":"PMP_ONeill",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D710-PMP_ONeill",
+  "description": "Delta Mendota Canal diversion to ONeil Pumping Plant and California Aqueduct",
+  "type": "Diversion",
+  "origin": "D710",
+  "terminus": "PMP_ONeill",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

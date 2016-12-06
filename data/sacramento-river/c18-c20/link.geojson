@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C18-C20",
- "description":"Yolo Bypass Reach 2",
- "type":"Diversion",
- "origin":"C18",
- "terminus":"C20",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C18-C20",
+  "description": "Yolo Bypass Reach 2",
+  "type": "Diversion",
+  "origin": "C18",
+  "terminus": "C20",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

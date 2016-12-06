@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"CVPM12G-HGR12",
- "description":null,
- "type":"Diversion",
- "origin":"CVPM12G",
- "terminus":"HGR12",
- "amplitude":0.28099998831749,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "CVPM12G-HGR12",
+  "description": null,
+  "type": "Diversion",
+  "origin": "CVPM12G",
+  "terminus": "HGR12",
+  "amplitude": 0.28099998831749,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

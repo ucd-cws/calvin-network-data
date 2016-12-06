@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGP04-U104",
- "description":null,
- "type":"Diversion",
- "origin":"HGP04",
- "terminus":"U104",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":39.1800003051758},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGP04-U104",
+  "description": null,
+  "type": "Diversion",
+  "origin": "HGP04",
+  "terminus": "U104",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 39.1800003051758
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"SR_SFAGG-WTP304",
- "description":null,
- "type":"Diversion",
- "origin":"SR_SFAGG",
- "terminus":"WTP304",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":140.600006103516},
- "bounds":[{"type":"UBC","bound":13.5}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "SR_SFAGG-WTP304",
+  "description": null,
+  "type": "Diversion",
+  "origin": "SR_SFAGG",
+  "terminus": "WTP304",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 140.600006103516
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 13.5
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

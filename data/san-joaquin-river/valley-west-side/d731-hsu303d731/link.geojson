@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D731-HSU303D731",
- "description":"surface delivery CVPM 10",
- "type":"Diversion",
- "origin":"D731",
- "terminus":"HSU303D731",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":118.099998474121}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D731-HSU303D731",
+  "description": "surface delivery CVPM 10",
+  "type": "Diversion",
+  "origin": "D731",
+  "terminus": "HSU303D731",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 118.099998474121
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

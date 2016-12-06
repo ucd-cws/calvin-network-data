@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D653a-D653b",
- "description":"Stanislaus River Reach - Minimum instream flow below Goodwin Sanjasm CP110",
- "type":"Diversion",
- "origin":"D653a",
- "terminus":"D653b",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D653a-D653b",
+  "description": "Stanislaus River Reach - Minimum instream flow below Goodwin Sanjasm CP110",
+  "type": "Diversion",
+  "origin": "D653a",
+  "terminus": "D653b",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

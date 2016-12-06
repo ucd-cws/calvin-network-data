@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSU408BN12-HSR401",
- "description":"California Aqueduct delivery into Kern Refuge",
- "type":"Diversion",
- "origin":"HSU408BN12",
- "terminus":"HSR401",
- "amplitude":0.930000007152557,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSU408BN12-HSR401",
+  "description": "California Aqueduct delivery into Kern Refuge",
+  "type": "Diversion",
+  "origin": "HSU408BN12",
+  "terminus": "HSR401",
+  "amplitude": 0.930000007152557,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

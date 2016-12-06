@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D59-C309",
- "description":"Isolated Facility Distribution",
- "type":"Diversion",
- "origin":"D59",
- "terminus":"C309",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D59-C309",
+  "description": "Isolated Facility Distribution",
+  "type": "Diversion",
+  "origin": "D59",
+  "terminus": "C309",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C98-D860",
- "description":"AE intertie, C-98_D860; westward 200 cfs (12.1 KAF/mo). Eastward = 200 cfs. (Both are currently at 150 cfs due to lining. - JH 4/2006",
- "type":"Diversion",
- "origin":"C98",
- "terminus":"D860",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":12.1000003814697}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C98-D860",
+  "description": "AE intertie, C-98_D860; westward 200 cfs (12.1 KAF/mo). Eastward = 200 cfs. (Both are currently at 150 cfs due to lining. - JH 4/2006",
+  "type": "Diversion",
+  "origin": "C98",
+  "terminus": "D860",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 12.1000003814697
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

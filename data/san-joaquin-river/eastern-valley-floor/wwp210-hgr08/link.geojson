@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WWP210-HGR08",
- "description":"Stockton return flow to GW-8",
- "type":"Diversion",
- "origin":"WWP210",
- "terminus":"HGR08",
- "amplitude":0.0020000000949949,
- "costs":{"type":"Constant",
- "cost":50},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WWP210-HGR08",
+  "description": "Stockton return flow to GW-8",
+  "type": "Diversion",
+  "origin": "WWP210",
+  "terminus": "HGR08",
+  "amplitude": 0.0020000000949949,
+  "costs": {
+    "type": "Constant",
+    "cost": 50
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

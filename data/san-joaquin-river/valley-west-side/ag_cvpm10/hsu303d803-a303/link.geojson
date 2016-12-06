@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSU303D803-A303",
- "description":"California Aqueduct deliveries to Oak Flat WD, CVPM 10",
- "type":"Diversion",
- "origin":"HSU303D803",
- "terminus":"A303",
- "amplitude":0.879999995231628,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSU303D803-A303",
+  "description": "California Aqueduct deliveries to Oak Flat WD, CVPM 10",
+  "type": "Diversion",
+  "origin": "HSU303D803",
+  "terminus": "A303",
+  "amplitude": 0.879999995231628,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

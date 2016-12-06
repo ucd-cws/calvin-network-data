@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C146-C145",
- "description":"White Water River diversion to GW-CH (assumed to be negligible)",
- "type":"Diversion",
- "origin":"C146",
- "terminus":"C145",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C146-C145",
+  "description": "White Water River diversion to GW-CH (assumed to be negligible)",
+  "type": "Diversion",
+  "origin": "C146",
+  "terminus": "C145",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

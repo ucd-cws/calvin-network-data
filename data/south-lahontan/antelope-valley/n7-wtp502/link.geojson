@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"N7-WTP502",
- "description":null,
- "type":"Diversion",
- "origin":"N7",
- "terminus":"WTP502",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":140.600006103516},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "N7-WTP502",
+  "description": null,
+  "type": "Diversion",
+  "origin": "N7",
+  "terminus": "WTP502",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 140.600006103516
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

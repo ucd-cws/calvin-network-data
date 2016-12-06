@@ -1,6 +1,7 @@
 {"type":"Feature",
  "geometry":null,
  "properties":{"prmname":"CN4",
+ "disabled":true,
  "description":"Calibration Node in Regions 4",
  "type":"Junction",
  "inflows":{"default":{"description":"Calibration flow","inflow":{"$ref" : "inflows/default.csv"}}},

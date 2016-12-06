@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C74-C97",
- "description":"Cross-Valley Canal Reach 2, discharge to Kern River",
- "type":"Diversion",
- "origin":"C74",
- "terminus":"C97",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C74-C97",
+  "description": "Cross-Valley Canal Reach 2, discharge to Kern River",
+  "type": "Diversion",
+  "origin": "C74",
+  "terminus": "C97",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

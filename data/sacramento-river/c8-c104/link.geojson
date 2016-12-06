@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C8-C104",
- "description":"Sacramento River DA 70 outflow",
- "type":"Diversion",
- "origin":"C8",
- "terminus":"C104",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C8-C104",
+  "description": "Sacramento River DA 70 outflow",
+  "type": "Diversion",
+  "origin": "C8",
+  "terminus": "C104",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

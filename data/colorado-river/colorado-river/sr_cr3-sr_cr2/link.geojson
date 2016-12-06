@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"SR_CR3-SR_CR2",
- "description":"diversion from 3rd (MWD) to 2nd and 1st priority of Colorado River water - Policy 4a",
- "type":"Diversion",
- "origin":"SR_CR3",
- "terminus":"SR_CR2",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "SR_CR3-SR_CR2",
+  "description": "diversion from 3rd (MWD) to 2nd and 1st priority of Colorado River water - Policy 4a",
+  "type": "Diversion",
+  "origin": "SR_CR3",
+  "terminus": "SR_CR2",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

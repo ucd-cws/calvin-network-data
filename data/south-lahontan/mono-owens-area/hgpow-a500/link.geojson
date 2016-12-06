@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGPOW-A500",
- "description":null,
- "type":"Diversion",
- "origin":"HGPOW",
- "terminus":"A500",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":29.6000003814697},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGPOW-A500",
+  "description": null,
+  "type": "Diversion",
+  "origin": "HGPOW",
+  "terminus": "A500",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 29.6000003814697
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

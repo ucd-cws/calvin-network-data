@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HXI504-HXCMWD",
- "description":null,
- "type":"Diversion",
- "origin":"HXI504",
- "terminus":"HXCMWD",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HXI504-HXCMWD",
+  "description": null,
+  "type": "Diversion",
+  "origin": "HXI504",
+  "terminus": "HXCMWD",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

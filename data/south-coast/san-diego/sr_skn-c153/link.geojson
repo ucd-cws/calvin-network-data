@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"SR_SKN-C153",
- "description":"San Diego Pipelines 1,2,4 & 6 (treated water, except 6)",
- "type":"Diversion",
- "origin":"SR_SKN",
- "terminus":"C153",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "SR_SKN-C153",
+  "description": "San Diego Pipelines 1,2,4 & 6 (treated water, except 6)",
+  "type": "Diversion",
+  "origin": "SR_SKN",
+  "terminus": "C153",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBM",
+      "bound": {
+        "$ref": "./UBM.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

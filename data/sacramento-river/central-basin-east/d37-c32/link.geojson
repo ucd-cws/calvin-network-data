@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D37-C32",
- "description":"Feather River d/s of Bear Reach 1, old location minimum instream flow requirement",
- "type":"Diversion",
- "origin":"D37",
- "terminus":"C32",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D37-C32",
+  "description": "Feather River d/s of Bear Reach 1, old location minimum instream flow requirement",
+  "type": "Diversion",
+  "origin": "D37",
+  "terminus": "C32",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

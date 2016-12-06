@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D664-HSU305D664",
- "description":"surface delivery CVPM 12",
- "type":"Diversion",
- "origin":"D664",
- "terminus":"HSU305D664",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":2.20000004768372}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D664-HSU305D664",
+  "description": "surface delivery CVPM 12",
+  "type": "Diversion",
+  "origin": "D664",
+  "terminus": "HSU305D664",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 2.20000004768372
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

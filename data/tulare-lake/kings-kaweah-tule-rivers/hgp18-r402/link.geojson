@@ -1,13 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGP18-R402",
- "description":"Pixley relies solely on GW for meeting its Level 2 and Level 4 deliveries. Historically, on-site pump capacity limited production to a portion of Level 2 delivery. WMP indicated that the refuge was planning to install two more pumps in 2011. This network flow configuraiton assumes that the refuge that enough pump capacity to satisfy its Level 2 and Level 4 demands.
-",
- "type":"Diversion",
- "origin":"HGP18",
- "terminus":"R402",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":76.0899963378906},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGP18-R402",
+  "description": "Pixley relies solely on GW for meeting its Level 2 and Level 4 deliveries. Historically, on-site pump capacity limited production to a portion of Level 2 delivery. WMP indicated that the refuge was planning to install two more pumps in 2011. This network flow configuraiton assumes that the refuge that enough pump capacity to satisfy its Level 2 and Level 4 demands.",
+  "type": "Diversion",
+  "origin": "HGP18",
+  "terminus": "R402",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 76.0899963378906
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

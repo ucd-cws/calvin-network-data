@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGR01-GW_01",
- "description":"Link from hidden node for calibration of GW-1",
- "type":"Diversion",
- "origin":"HGR01",
- "terminus":"GW_01",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGR01-GW_01",
+  "description": "Link from hidden node for calibration of GW-1",
+  "type": "Diversion",
+  "origin": "HGR01",
+  "terminus": "GW_01",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

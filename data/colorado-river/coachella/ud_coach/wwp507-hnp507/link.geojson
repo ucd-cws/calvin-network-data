@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WWP507-HNP507",
- "description":null,
- "type":"Diversion",
- "origin":"WWP507",
- "terminus":"HNP507",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":518},
- "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WWP507-HNP507",
+  "description": null,
+  "type": "Diversion",
+  "origin": "WWP507",
+  "terminus": "HNP507",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 518
+  },
+  "bounds": [
+    {
+      "type": "UBM",
+      "bound": {
+        "$ref": "./UBM.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

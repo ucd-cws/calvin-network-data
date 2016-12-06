@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D59-PMP_Banks",
- "description":"California Aqueduct, diversion to Banks Pumping Plant",
- "type":"Diversion",
- "origin":"D59",
- "terminus":"PMP_Banks",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D59-PMP_Banks",
+  "description": "California Aqueduct, diversion to Banks Pumping Plant",
+  "type": "Diversion",
+  "origin": "D59",
+  "terminus": "PMP_Banks",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

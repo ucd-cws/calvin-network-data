@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D64-C8",
- "description":"American River inflow to Sacramento River, minimum instream flow requirement",
- "type":"Diversion",
- "origin":"D64",
- "terminus":"C8",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"LBT","bound": {"$ref":"./LBT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D64-C8",
+  "description": "American River inflow to Sacramento River, minimum instream flow requirement",
+  "type": "Diversion",
+  "origin": "D64",
+  "terminus": "C8",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "LBT",
+      "bound": {
+        "$ref": "./LBT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

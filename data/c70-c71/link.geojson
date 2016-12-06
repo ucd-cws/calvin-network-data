@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C70-C71",
- "description":"Contra Costa Canal",
- "type":"Diversion",
- "origin":"C70",
- "terminus":"C71",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":45},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C70-C71",
+  "description": "Contra Costa Canal",
+  "type": "Diversion",
+  "origin": "C70",
+  "terminus": "C71",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 45
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

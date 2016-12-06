@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"A204-HU204",
- "description":"Hidden ag delivery reuse calibration link",
- "type":"Diversion",
- "origin":"A204",
- "terminus":"HU204",
- "amplitude":1.05599999427795,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "A204-HU204",
+  "description": "Hidden ag delivery reuse calibration link",
+  "type": "Diversion",
+  "origin": "A204",
+  "terminus": "HU204",
+  "amplitude": 1.05599999427795,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

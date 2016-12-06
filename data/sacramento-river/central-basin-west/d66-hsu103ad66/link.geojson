@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D66-HSU103AD66",
- "description":"surface delivery CVPM 3",
- "type":"Diversion",
- "origin":"D66",
- "terminus":"HSU103AD66",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":54.9000015258789}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D66-HSU103AD66",
+  "description": "surface delivery CVPM 3",
+  "type": "Diversion",
+  "origin": "D66",
+  "terminus": "HSU103AD66",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 54.9000015258789
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"INT_CVPM13-WWP306",
- "description":"GW return flow from fixed CVPM urban pumping demand. interior",
- "type":"Diversion",
- "origin":"INT_CVPM13",
- "terminus":"WWP306",
- "amplitude":0.860000014305115,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "INT_CVPM13-WWP306",
+  "description": "GW return flow from fixed CVPM urban pumping demand. interior",
+  "type": "Diversion",
+  "origin": "INT_CVPM13",
+  "terminus": "WWP306",
+  "amplitude": 0.860000014305115,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

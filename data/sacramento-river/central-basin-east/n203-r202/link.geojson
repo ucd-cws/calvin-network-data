@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"N203-R202",
- "description":"Sutter bypass flows into Sutter Refuge",
- "type":"Diversion",
- "origin":"N203",
- "terminus":"R202",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "N203-R202",
+  "description": "Sutter bypass flows into Sutter Refuge",
+  "type": "Diversion",
+  "origin": "N203",
+  "terminus": "R202",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C49-HSU404AC49",
- "description":"Surface delivery Friant-Kern Canal delivery CVPM 15",
- "type":"Diversion",
- "origin":"C49",
- "terminus":"HSU404AC49",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C49-HSU404AC49",
+  "description": "Surface delivery Friant-Kern Canal delivery CVPM 15",
+  "type": "Diversion",
+  "origin": "C49",
+  "terminus": "HSU404AC49",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

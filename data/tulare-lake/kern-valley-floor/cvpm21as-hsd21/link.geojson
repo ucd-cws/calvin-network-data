@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"CVPM21AS-HSD21",
- "description":"SW return flow from CVPM 21",
- "type":"Diversion",
- "origin":"CVPM21AS",
- "terminus":"HSD21",
- "amplitude":0.277999997138977,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "CVPM21AS-HSD21",
+  "description": "SW return flow from CVPM 21",
+  "type": "Diversion",
+  "origin": "CVPM21AS",
+  "terminus": "HSD21",
+  "amplitude": 0.277999997138977,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

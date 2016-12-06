@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C689-HAR21",
- "description":"California Aqueduct and Kern R to subregion 21 for spreading ",
- "type":"Diversion",
- "origin":"C689",
- "terminus":"HAR21",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":6.5},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C689-HAR21",
+  "description": "California Aqueduct and Kern R to subregion 21 for spreading ",
+  "type": "Diversion",
+  "origin": "C689",
+  "terminus": "HAR21",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 6.5
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

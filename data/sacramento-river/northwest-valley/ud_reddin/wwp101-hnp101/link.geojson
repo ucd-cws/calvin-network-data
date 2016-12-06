@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WWP101-HNP101",
- "description":null,
- "type":"Diversion",
- "origin":"WWP101",
- "terminus":"HNP101",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":1480},
- "bounds":[{"type":"UBC","bound":2.40000009536743}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WWP101-HNP101",
+  "description": null,
+  "type": "Diversion",
+  "origin": "WWP101",
+  "terminus": "HNP101",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 1480
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 2.40000009536743
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

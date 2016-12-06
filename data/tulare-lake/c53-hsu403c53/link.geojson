@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C53-HSU403C53",
- "description":"Surface delivery CVPM 17",
- "type":"Diversion",
- "origin":"C53",
- "terminus":"HSU403C53",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":217.399993896484}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C53-HSU403C53",
+  "description": "Surface delivery CVPM 17",
+  "type": "Diversion",
+  "origin": "C53",
+  "terminus": "HSU403C53",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 217.399993896484
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

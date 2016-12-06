@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"R302-HSUR302",
- "description":"On-site reuse within refuges. WMPs indicate presence of on-site operational loss recovery system, however, no volumetric information is provided. Therefore, link amplitude is assumed to be 1 pending further investigation.",
- "type":"Diversion",
- "origin":"R302",
- "terminus":"HSUR302",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "R302-HSUR302",
+  "description": "On-site reuse within refuges. WMPs indicate presence of on-site operational loss recovery system, however, no volumetric information is provided. Therefore, link amplitude is assumed to be 1 pending further investigation.",
+  "type": "Diversion",
+  "origin": "R302",
+  "terminus": "HSUR302",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,13 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WTPA507-C147",
- "description":"Desalinated drain ag water for golf and agricultural irrigation in Coachella Valley
-",
- "type":"Diversion",
- "origin":"WTPA507",
- "terminus":"C147",
- "amplitude":0.439999997615814,
- "costs":{"type":"Constant",
- "cost":222},
- "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WTPA507-C147",
+  "description": "Desalinated drain ag water for golf and agricultural irrigation in Coachella Valley",
+  "type": "Diversion",
+  "origin": "WTPA507",
+  "terminus": "C147",
+  "amplitude": 0.439999997615814,
+  "costs": {
+    "type": "Constant",
+    "cost": 222
+  },
+  "bounds": [
+    {
+      "type": "UBM",
+      "bound": {
+        "$ref": "./UBM.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

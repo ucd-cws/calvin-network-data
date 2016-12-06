@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C173-C107",
- "description":"Folsom South Canal diversion to Mokelumne River Aqueduct",
- "type":"Diversion",
- "origin":"C173",
- "terminus":"C107",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":22.2000007629395},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C173-C107",
+  "description": "Folsom South Canal diversion to Mokelumne River Aqueduct",
+  "type": "Diversion",
+  "origin": "C173",
+  "terminus": "C107",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 22.2000007629395
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

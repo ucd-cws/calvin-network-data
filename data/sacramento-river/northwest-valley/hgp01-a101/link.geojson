@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HGP01-A101",
- "description":"Agricultural groundwater pumping GW-1 to CVPM 1 Demand",
- "type":"Diversion",
- "origin":"HGP01",
- "terminus":"A101",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":39.4099998474121},
- "bounds":[{"type":"UBC","bound":7.21000003814697}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HGP01-A101",
+  "description": "Agricultural groundwater pumping GW-1 to CVPM 1 Demand",
+  "type": "Diversion",
+  "origin": "HGP01",
+  "terminus": "A101",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 39.4099998474121
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 7.21000003814697
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WWP410-HNP410",
- "description":null,
- "type":"Diversion",
- "origin":"WWP410",
- "terminus":"HNP410",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":1480},
- "bounds":[{"type":"UBC","bound":6.05999994277954}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WWP410-HNP410",
+  "description": null,
+  "type": "Diversion",
+  "origin": "WWP410",
+  "terminus": "HNP410",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 1480
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 6.05999994277954
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

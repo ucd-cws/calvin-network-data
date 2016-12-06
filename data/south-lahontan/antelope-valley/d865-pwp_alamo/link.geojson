@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D865-PWP_Alamo",
- "description":"SWP East Branch Power P",
- "type":"Diversion",
- "origin":"D865",
- "terminus":"PWP_Alamo",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D865-PWP_Alamo",
+  "description": "SWP East Branch Power P",
+  "type": "Diversion",
+  "origin": "D865",
+  "terminus": "PWP_Alamo",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

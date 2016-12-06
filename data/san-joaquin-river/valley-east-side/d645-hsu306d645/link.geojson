@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D645-HSU306D645",
- "description":"surface delivery CVPM 13",
- "type":"Diversion",
- "origin":"D645",
- "terminus":"HSU306D645",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":122.5}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D645-HSU306D645",
+  "description": "surface delivery CVPM 13",
+  "type": "Diversion",
+  "origin": "D645",
+  "terminus": "HSU306D645",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 122.5
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

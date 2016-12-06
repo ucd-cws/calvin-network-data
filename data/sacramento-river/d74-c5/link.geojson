@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D74-C5",
- "description":"Sacramento River between DA58 local inflow and CVPM 1 return flows",
- "type":"Diversion",
- "origin":"D74",
- "terminus":"C5",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D74-C5",
+  "description": "Sacramento River between DA58 local inflow and CVPM 1 return flows",
+  "type": "Diversion",
+  "origin": "D74",
+  "terminus": "C5",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

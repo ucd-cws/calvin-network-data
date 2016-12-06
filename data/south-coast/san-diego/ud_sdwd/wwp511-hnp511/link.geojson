@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WWP511-HNP511",
- "description":null,
- "type":"Diversion",
- "origin":"WWP511",
- "terminus":"HNP511",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":1258},
- "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WWP511-HNP511",
+  "description": null,
+  "type": "Diversion",
+  "origin": "WWP511",
+  "terminus": "HNP511",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 1258
+  },
+  "bounds": [
+    {
+      "type": "UBM",
+      "bound": {
+        "$ref": "./UBM.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

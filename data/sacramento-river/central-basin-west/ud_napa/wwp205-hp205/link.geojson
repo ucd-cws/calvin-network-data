@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WWP205-HP205",
- "description":null,
- "type":"Diversion",
- "origin":"WWP205",
- "terminus":"HP205",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":1800},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WWP205-HP205",
+  "description": null,
+  "type": "Diversion",
+  "origin": "WWP205",
+  "terminus": "HP205",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 1800
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,13 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HARHF-GW_HF",
- "description":"Artificial recharge in Hayfield (losses)
-",
- "type":"Diversion",
- "origin":"HARHF",
- "terminus":"GW_HF",
- "amplitude":0.949999988079071,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HARHF-GW_HF",
+  "description": "Artificial recharge in Hayfield (losses)",
+  "type": "Diversion",
+  "origin": "HARHF",
+  "terminus": "GW_HF",
+  "amplitude": 0.949999988079071,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBM",
+      "bound": {
+        "$ref": "./UBM.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

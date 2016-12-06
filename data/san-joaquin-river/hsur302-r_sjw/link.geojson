@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSUR302-R_SJW",
- "description":"Deliveries to the San Joaquin West Refuges which includes West Bear Creek, Friestas, Kesterson and San Luis units of San Luis NWR; Volta WA; Los Banos WA; China Island and Salt Slough units of North Grasslands WA; and Grasslands RCD. Full level 2 and level 4 deliveries are assumed with a  25% reduction during the critical years at Lake Shasta. - KS 06062015",
- "type":"Diversion",
- "origin":"HSUR302",
- "terminus":"R_SJW",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"EQT","bound": {"$ref":"./EQT.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSUR302-R_SJW",
+  "description": "Deliveries to the San Joaquin West Refuges which includes West Bear Creek, Friestas, Kesterson and San Luis units of San Luis NWR; Volta WA; Los Banos WA; China Island and Salt Slough units of North Grasslands WA; and Grasslands RCD. Full level 2 and level 4 deliveries are assumed with a  25% reduction during the critical years at Lake Shasta. - KS 06062015",
+  "type": "Diversion",
+  "origin": "HSUR302",
+  "terminus": "R_SJW",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "EQT",
+      "bound": {
+        "$ref": "./EQT.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

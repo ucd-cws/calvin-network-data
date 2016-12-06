@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSU101D74-A101",
- "description":"Sacramento river diversions between Keswick and Red Bluff Diversion Dam",
- "type":"Diversion",
- "origin":"HSU101D74",
- "terminus":"A101",
- "amplitude":0.519999980926514,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSU101D74-A101",
+  "description": "Sacramento river diversions between Keswick and Red Bluff Diversion Dam",
+  "type": "Diversion",
+  "origin": "HSU101D74",
+  "terminus": "A101",
+  "amplitude": 0.519999980926514,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

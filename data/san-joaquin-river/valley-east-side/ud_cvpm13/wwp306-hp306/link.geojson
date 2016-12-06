@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WWP306-HP306",
- "description":null,
- "type":"Diversion",
- "origin":"WWP306",
- "terminus":"HP306",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":1800},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WWP306-HP306",
+  "description": null,
+  "type": "Diversion",
+  "origin": "WWP306",
+  "terminus": "HP306",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 1800
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

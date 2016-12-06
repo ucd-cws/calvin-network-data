@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"D507-HSU206D507",
- "description":"Sacramento River div. to CVPM9",
- "type":"Diversion",
- "origin":"D507",
- "terminus":"HSU206D507",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"UBC","bound":75.5999984741211}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "D507-HSU206D507",
+  "description": "Sacramento River div. to CVPM9",
+  "type": "Diversion",
+  "origin": "D507",
+  "terminus": "HSU206D507",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 75.5999984741211
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

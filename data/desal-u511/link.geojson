@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"Desal-U511",
- "description":"Desalination to San Diego",
- "type":"Diversion",
- "origin":"Desal",
- "terminus":"U511",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":2072},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "Desal-U511",
+  "description": "Desalination to San Diego",
+  "type": "Diversion",
+  "origin": "Desal",
+  "terminus": "U511",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 2072
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

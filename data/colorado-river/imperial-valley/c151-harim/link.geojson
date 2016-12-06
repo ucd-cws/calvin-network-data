@@ -1,12 +1,21 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"C151-HARIM",
- "description":"GW-IM Artificial Recharge (currently ignored)",
- "type":"Diversion",
- "origin":"C151",
- "terminus":"HARIM",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":7.40000009536743},
- "bounds":[{"type":"UBC","bound":0}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "C151-HARIM",
+  "description": "GW-IM Artificial Recharge (currently ignored)",
+  "type": "Diversion",
+  "origin": "C151",
+  "terminus": "HARIM",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 7.40000009536743
+  },
+  "bounds": [
+    {
+      "type": "UBC",
+      "bound": 0
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

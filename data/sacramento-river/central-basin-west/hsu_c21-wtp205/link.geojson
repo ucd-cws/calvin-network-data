@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"HSU_C21-WTP205",
- "description":null,
- "type":"Diversion",
- "origin":"HSU_C21",
- "terminus":"WTP205",
- "amplitude":0.939999997615814,
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "HSU_C21-WTP205",
+  "description": null,
+  "type": "Diversion",
+  "origin": "HSU_C21",
+  "terminus": "WTP205",
+  "amplitude": 0.939999997615814,
+  "costs": {
+    "type": "Constant",
+    "cost": 0
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

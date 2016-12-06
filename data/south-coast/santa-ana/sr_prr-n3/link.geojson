@@ -1,12 +1,23 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"SR_PRR-N3",
- "description":"Lakeview Pipeline",
- "type":"Diversion",
- "origin":"SR_PRR",
- "terminus":"N3",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":355.200012207031},
- "bounds":[{"type":"UBM","bound": {"$ref":"./UBM.csv"}}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "SR_PRR-N3",
+  "description": "Lakeview Pipeline",
+  "type": "Diversion",
+  "origin": "SR_PRR",
+  "terminus": "N3",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 355.200012207031
+  },
+  "bounds": [
+    {
+      "type": "UBM",
+      "bound": {
+        "$ref": "./UBM.csv"
+      }
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

@@ -1,12 +1,20 @@
-{"type":"Feature",
- "geometry":null,
- "properties":{"prmname":"WTP507-U507",
- "description":null,
- "type":"Diversion",
- "origin":"WTP507",
- "terminus":"U507",
- "amplitude":1,
- "costs":{"type":"Constant",
- "cost":409.959991455078},
- "bounds":[{"type":"NOB"}],
- "flow":{"$ref" : "flow.csv"}}}
+{
+  "prmname": "WTP507-U507",
+  "description": null,
+  "type": "Diversion",
+  "origin": "WTP507",
+  "terminus": "U507",
+  "amplitude": 1,
+  "costs": {
+    "type": "Constant",
+    "cost": 409.959991455078
+  },
+  "bounds": [
+    {
+      "type": "NOB"
+    }
+  ],
+  "flow": {
+    "$ref": "flow.csv"
+  }
+}

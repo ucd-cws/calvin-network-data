@@ -14,4 +14,4 @@
  "cost":0},
  "bounds":[{"type":"LBC","bound":18.2999992370605},{"type":"UBC","bound":183.5}],
  "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+ "flow":null}}

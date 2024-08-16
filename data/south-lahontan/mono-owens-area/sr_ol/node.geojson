@@ -15,4 +15,4 @@
  "bounds":[{"type":"NOB"}],
  "sinks":[{"default" : {"description" : "Owens Lake Dust Mitigation Requirements", "costs" : {"type":"Constant",
  "cost":0}, "bounds" : [{"type":"LBM","bound": {"$ref":"./sinks/default/LBM.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
- "flow":{"$ref" : "flow.csv"}}}
+ "flow":null}}

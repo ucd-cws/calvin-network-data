@@ -14,4 +14,4 @@
  "cost":0},
  "bounds":[{"type":"NOB"}],
  "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+ "flow":null}}

@@ -12,3 +12,6 @@ Matthew Davis, 1999-07-07, Electronic Document
 See groundwater modeling approach in Appendix J of August 1999 CALVIN report.
 Matthew Davis, Graduate student, mddavis@hotmail.com
 Matthew Davis, 1999-07-07, Electronic Document
+
+## Mustafa Dogan 08/22/2024
+Updating inflow, initial and ending storage values based on C2VSim C2VSimCG_v1.0_BL_PostDroughtICs

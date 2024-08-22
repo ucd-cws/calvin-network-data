@@ -23,3 +23,6 @@ California Department of Water Resources, 1997-10-16, Electronic Document
 R1 Card for DWRSIM CP1: Initial storage card
 California Department of Water Resources, 1997-10-16, Electronic Document
 Input data for DWRSIM Run #514
+
+## Mustafa Dogan 08/22/2024
+Updating initial and ending storage based on CALSIM III

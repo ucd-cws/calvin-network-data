@@ -16,3 +16,6 @@ California Department of Water Resources, 2000-01-19, Electronic Document
 ## Brian Van Lienden {initialstorage:1} Final
 R1 Card for HEC-3 Englebright Reservoir: dead storage
 California Department of Water Resources, 2000-01-19, Electronic Document
+
+## Mustafa Dogan 08/22/2024
+Updating initial and ending storage based on CALSIM III

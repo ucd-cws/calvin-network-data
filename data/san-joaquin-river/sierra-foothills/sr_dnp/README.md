@@ -21,3 +21,6 @@ Calculated as slope between the minimum and maximum points from the area-capacit
 ## Brian Van Lienden {initialstorage:1} Final
 R1 Card for DWRSIM CP81: initial storage card
 California Department of Water Resources, 1997-10-16, Electronic Document
+
+## Mustafa Dogan 08/22/2024
+Updating initial and ending storage based on CALSIM III

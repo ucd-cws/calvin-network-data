@@ -18,3 +18,6 @@ Original source file edited by Mimi Jenkins 06/22/00 to adjust Area-Capacity fac
 ## Brian Van Lienden {initialstorage:1} Final
 RL1 Card for DWRSIM CP 11 & 12: Sum of the two initial storage values
 California Department of Water Resources, 1997-10-16, Electronic Document
+
+## Mustafa Dogan 08/22/2024
+Updating initial and ending storage based on CALSIM III

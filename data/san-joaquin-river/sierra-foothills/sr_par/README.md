@@ -21,3 +21,6 @@ U.S. Bureau of Reclamation, 1997-09-02, Electronic Document
 ## Brian Van Lienden {initialstorage:1} Final
 Initial Storage for SAMJASM node 170 in RES.ND1
 U.S. Bureau of Reclamation, 1997-09-02, Electronic Document
+
+## Mustafa Dogan 08/22/2024
+Updating initial and ending storage based on CALSIM III

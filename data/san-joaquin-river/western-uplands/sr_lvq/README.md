@@ -20,3 +20,6 @@ Rolf Ohlemutz
 ## Brad Newlin {initialstorage:1} Final
 Calculated as 50% of maximum operating storage
 Brad Newlin, 2000-01-13, Electronic Document
+
+## Mustafa Dogan 08/22/2024
+Updating initial and ending storage based on CALSIM III

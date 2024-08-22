@@ -21,3 +21,6 @@ Calculated as slope between the minimum and maximum points from the area-capacit
 ## Brad Newlin {initialstorage:1} Provisional
 Calculated as 50% of maximum operating storage
 Brad Newlin, 2000-01-13, Electronic Document
+
+## Mustafa Dogan 08/22/2024
+Updating initial and ending storage based on CALSIM III

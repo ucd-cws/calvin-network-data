@@ -3,7 +3,6 @@
  "properties":{"prmname":"D889",
  "description":"West Branch SWP Node Represented in DWRSIM Network D122698",
  "type":"Junction",
- "inflows":{"default":{"description":"COASTAL BRANCH DELIVERIES TO CLWA
-","inflow":{"$ref" : "inflows/default.csv"}}},
+ "inflows":{"default":{"description":"COASTAL BRANCH DELIVERIES TO CLWA","inflow":{"$ref" : "inflows/default.csv"}}},
  "sinks":null,
  "flow":null}}

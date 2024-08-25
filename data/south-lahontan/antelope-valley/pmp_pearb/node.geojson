@@ -1,8 +1,1 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-117.921549,34.512435]},
- "properties":{"prmname":"PMP_Pearb",
- "description":"East Branch SWP Pumping Plant",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-117.921549, 34.512435]}, "properties": {"prmname": "PMP_Pearb", "description": "East Branch SWP Pumping Plant", "type": "Pump Plant", "inflows": null, "sinks": null, "flow": null}}

@@ -1,8 +1,1 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.220058423579,33.6584884911059]},
- "properties":{"prmname":"AGS_COACH",
- "description":"Coachella ag supplied by surface water",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-116.220058423579, 33.6584884911059]}, "properties": {"prmname": "AGS_COACH", "description": "Coachella ag supplied by surface water", "type": "Junction", "inflows": null, "sinks": null, "flow": null}}

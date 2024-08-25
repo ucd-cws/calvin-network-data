@@ -1,8 +1,1 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.138463,39.9051349999999]},
- "properties":{"prmname":"HU102",
- "description":"Hidden diversion calibration node",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.138463, 39.9051349999999]}, "properties": {"prmname": "HU102", "description": "Hidden diversion calibration node", "type": "Junction", "inflows": null, "sinks": null, "flow": null}}

@@ -1,8 +1,1 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-115.122397,34.147952]},
- "properties":{"prmname":"PMP_Iron",
- "description":"Formerly part of Colorado Pumping Plant - first pumping station along CRA",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-115.122397, 34.147952]}, "properties": {"prmname": "PMP_Iron", "description": "Formerly part of Colorado Pumping Plant - first pumping station along CRA", "type": "Pump Plant", "inflows": null, "sinks": null, "flow": null}}

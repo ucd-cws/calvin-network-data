@@ -1,8 +1,1 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-115.451612,33.808229]},
- "properties":{"prmname":"PMP_Eagle",
- "description":"Formerly part of Colorado Pumping Plant - second pumping station along CRA",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-115.451612, 33.808229]}, "properties": {"prmname": "PMP_Eagle", "description": "Formerly part of Colorado Pumping Plant - second pumping station along CRA", "type": "Pump Plant", "inflows": null, "sinks": null, "flow": null}}

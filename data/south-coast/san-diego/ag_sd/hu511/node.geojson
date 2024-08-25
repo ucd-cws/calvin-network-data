@@ -1,8 +1,1 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-116.862086,32.883717]},
- "properties":{"prmname":"HU511",
- "description":"Hidden Node for San Diego Ag",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-116.862086, 32.883717]}, "properties": {"prmname": "HU511", "description": "Hidden Node for San Diego Ag", "type": "Junction", "inflows": null, "sinks": null, "flow": null}}

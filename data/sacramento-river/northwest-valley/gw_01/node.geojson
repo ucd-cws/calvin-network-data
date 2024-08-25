@@ -1,14 +1,1 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.476173,40.446179]},
- "properties":{"prmname":"GW_01",
- "description":"Central Valley groundwater basin",
- "type":"Groundwater Storage",
- "initialstorage":34836,
- "endingstorage":31542,
- "inflows":{"default":{"description":"Groundwater inflow GW-01","inflow":{"$ref" : "inflows/default.csv"}}},
- "storage":{"$ref" : "storage.csv"},
- "costs":{"type":"Constant",
- "cost":0},
- "bounds":[{"type":"NOB"}],
- "sinks":null,
- "flow":null}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.476173, 40.446179]}, "properties": {"prmname": "GW_01", "description": "Central Valley groundwater basin", "type": "Groundwater Storage", "initialstorage": 34836, "endingstorage": 31542, "inflows": {"default": {"description": "Groundwater inflow GW-01", "inflow": {"$ref": "inflows/default.csv"}}}, "storage": {"$ref": "storage.csv"}, "costs": {"type": "Constant", "cost": 0}, "bounds": [{"type": "NOB"}], "sinks": null, "flow": null}}

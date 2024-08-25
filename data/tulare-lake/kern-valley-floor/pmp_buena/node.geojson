@@ -1,8 +1,1 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.344948,35.158966]},
- "properties":{"prmname":"PMP_Buena",
- "description":"Buena Vista Pumping Plant",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-119.344948, 35.158966]}, "properties": {"prmname": "PMP_Buena", "description": "Buena Vista Pumping Plant", "type": "Pump Plant", "inflows": null, "sinks": null, "flow": null}}

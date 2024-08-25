@@ -1,8 +1,1 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-121.626072,37.779219]},
- "properties":{"prmname":"PMP_SoBay",
- "description":"South Bay Pumping Plant",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.626072, 37.779219]}, "properties": {"prmname": "PMP_SoBay", "description": "South Bay Pumping Plant", "type": "Pump Plant", "inflows": null, "sinks": null, "flow": null}}

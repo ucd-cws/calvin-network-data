@@ -1,8 +1,1 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-118.980479,35.017257]},
- "properties":{"prmname":"PMPChris",
- "description":"Chrisman Pumping Plant",
- "type":"Pump Plant",
- "inflows":null,
- "sinks":null,
- "flow":null}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-118.980479, 35.017257]}, "properties": {"prmname": "PMPChris", "description": "Chrisman Pumping Plant", "type": "Pump Plant", "inflows": null, "sinks": null, "flow": null}}

@@ -1,9 +1,1 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.247309,35.560005]},
- "properties":{"prmname":"C62",
- "description":"Friant-Kern Canal delivery to CVPM-19",
- "type":"Junction",
- "inflows":null,
- "sinks":[{"default" : {"description" : "Friant-Kern Canal Losses", "costs" : {"type":"Constant",
- "cost":0}, "bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
- "flow":null}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-119.247309, 35.560005]}, "properties": {"prmname": "C62", "description": "Friant-Kern Canal delivery to CVPM-19", "type": "Junction", "inflows": null, "sinks": [{"default": {"description": "Friant-Kern Canal Losses", "costs": {"type": "Constant", "cost": 0}, "bounds": [{"type": "EQT", "bound": {"$ref": "./sinks/default/EQT.csv"}}], "flow": {"$ref": "./sinks/default/flow.csv"}}}], "flow": null}}

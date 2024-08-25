@@ -1,9 +1,1 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-122.803134,40.718868]},
- "properties":{"prmname":"D94",
- "description":"Trinity River release to Clear Creek",
- "type":"Junction",
- "inflows":{"default":{"description":"LEWISTON LAKE INFLOW","inflow":{"$ref" : "inflows/default.csv"}}},
- "sinks":[{"default" : {"description" : "Trinity River model outflow - minimum instream flow requirement", "costs" : {"type":"Constant",
- "cost":0}, "bounds" : [{"type":"LBT","bound": {"$ref":"./sinks/default/LBT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
- "flow":null}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.803134, 40.718868]}, "properties": {"prmname": "D94", "description": "Trinity River release to Clear Creek", "type": "Junction", "inflows": {"default": {"description": "LEWISTON LAKE INFLOW", "inflow": {"$ref": "inflows/default.csv"}}}, "sinks": [{"default": {"description": "Trinity River model outflow - minimum instream flow requirement", "costs": {"type": "Constant", "cost": 0}, "bounds": [{"type": "LBT", "bound": {"$ref": "./sinks/default/LBT.csv"}}], "flow": {"$ref": "./sinks/default/flow.csv"}}}], "flow": null}}

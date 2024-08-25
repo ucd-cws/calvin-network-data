@@ -1,8 +1,1 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.708139,37.004191]},
- "properties":{"prmname":"C72",
- "description":"Millerton Lake diversions to Madera Canal",
- "type":"Junction",
- "inflows":null,
- "sinks":null,
- "flow":{"$ref" : "flow.csv"}}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-119.708139, 37.004191]}, "properties": {"prmname": "C72", "description": "Millerton Lake diversions to Madera Canal", "type": "Junction", "inflows": null, "sinks": null, "flow": null}}

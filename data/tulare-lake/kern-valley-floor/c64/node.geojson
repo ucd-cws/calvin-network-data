@@ -1,9 +1,1 @@
-{"type":"Feature",
- "geometry":{"type":"Point","coordinates":[-119.462565,35.600933]},
- "properties":{"prmname":"C64",
- "description":"Friant-Kern Canal",
- "type":"Junction",
- "inflows":null,
- "sinks":[{"default" : {"description" : "Friant-Kern Canal Losses", "costs" : {"type":"Constant",
- "cost":0}, "bounds" : [{"type":"EQT","bound": {"$ref":"./sinks/default/EQT.csv"}}], "flow" : {"$ref" : "./sinks/default/flow.csv"}}}],
- "flow":null}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-119.462565, 35.600933]}, "properties": {"prmname": "C64", "description": "Friant-Kern Canal", "type": "Junction", "inflows": null, "sinks": [{"default": {"description": "Friant-Kern Canal Losses", "costs": {"type": "Constant", "cost": 0}, "bounds": [{"type": "EQT", "bound": {"$ref": "./sinks/default/EQT.csv"}}], "flow": {"$ref": "./sinks/default/flow.csv"}}}], "flow": null}}

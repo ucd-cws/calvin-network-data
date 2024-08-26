@@ -11,7 +11,10 @@
   },
   "bounds": [
     {
-      "type": "NOB"
+      "type": "EQT",
+      "bound": {
+        "$ref": "./EQT.csv"
+      }
     }
   ],
   "flow": {

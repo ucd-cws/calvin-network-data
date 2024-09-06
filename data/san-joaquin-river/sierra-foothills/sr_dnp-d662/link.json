@@ -52,10 +52,6 @@
       "bound": {
         "$ref": "./LBT.csv"
       }
-    },
-    {
-      "type": "UBC",
-      "bound": 543
     }
   ],
   "flow": {

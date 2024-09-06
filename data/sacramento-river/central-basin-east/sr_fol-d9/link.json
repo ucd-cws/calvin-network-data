@@ -48,8 +48,7 @@
   },
   "bounds": [
     {
-      "type": "UBC",
-      "bound": 523
+      "type": "NOB"
     }
   ],
   "flow": {
